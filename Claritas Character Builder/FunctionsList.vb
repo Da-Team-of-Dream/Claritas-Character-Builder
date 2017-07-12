@@ -23,6 +23,5 @@
         Dim InfoForm As New FormInfo()
         InfoForm.InfoFormLabel.Text = BuildInfoFormLabel(Text)
         InfoForm.Show()
-
     End Sub
 End Module
