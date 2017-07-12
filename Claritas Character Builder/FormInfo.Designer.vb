@@ -22,17 +22,17 @@ Partial Class FormInfo
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.InfoFormLabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Label1
+        'InfoFormLabel
         '
-        Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label1.Location = New System.Drawing.Point(0, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(278, 294)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
+        Me.InfoFormLabel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.InfoFormLabel.Location = New System.Drawing.Point(0, 0)
+        Me.InfoFormLabel.Name = "InfoFormLabel"
+        Me.InfoFormLabel.Size = New System.Drawing.Size(278, 294)
+        Me.InfoFormLabel.TabIndex = 0
+        Me.InfoFormLabel.Text = "Label1"
         '
         'FormInfo
         '
@@ -40,12 +40,12 @@ Partial Class FormInfo
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(278, 294)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.InfoFormLabel)
         Me.Name = "FormInfo"
         Me.Text = "FormInfo"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Label1 As Label
+    Friend WithEvents InfoFormLabel As Label
 End Class
