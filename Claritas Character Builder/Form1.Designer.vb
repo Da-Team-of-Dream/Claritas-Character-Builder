@@ -53,7 +53,7 @@ Partial Class Form1
         '
         'LabelWelcomeFoot
         '
-        Me.LabelWelcomeFoot.Location = New System.Drawing.Point(15, 154)
+        Me.LabelWelcomeFoot.Location = New System.Drawing.Point(15, 138)
         Me.LabelWelcomeFoot.Name = "LabelWelcomeFoot"
         Me.LabelWelcomeFoot.Size = New System.Drawing.Size(452, 49)
         Me.LabelWelcomeFoot.TabIndex = 6
@@ -62,7 +62,7 @@ Partial Class Form1
         '
         'LabelWelcomePlayerage
         '
-        Me.LabelWelcomePlayerage.Location = New System.Drawing.Point(263, 112)
+        Me.LabelWelcomePlayerage.Location = New System.Drawing.Point(260, 73)
         Me.LabelWelcomePlayerage.Name = "LabelWelcomePlayerage"
         Me.LabelWelcomePlayerage.Size = New System.Drawing.Size(66, 23)
         Me.LabelWelcomePlayerage.TabIndex = 5
@@ -71,7 +71,7 @@ Partial Class Form1
         '
         'LabelWelcomePlayername
         '
-        Me.LabelWelcomePlayername.Location = New System.Drawing.Point(26, 112)
+        Me.LabelWelcomePlayername.Location = New System.Drawing.Point(24, 73)
         Me.LabelWelcomePlayername.Name = "LabelWelcomePlayername"
         Me.LabelWelcomePlayername.Size = New System.Drawing.Size(70, 20)
         Me.LabelWelcomePlayername.TabIndex = 4
@@ -80,14 +80,14 @@ Partial Class Form1
         '
         'TextboxWelcomePlayerage
         '
-        Me.TextboxWelcomePlayerage.Location = New System.Drawing.Point(335, 109)
+        Me.TextboxWelcomePlayerage.Location = New System.Drawing.Point(332, 70)
         Me.TextboxWelcomePlayerage.Name = "TextboxWelcomePlayerage"
         Me.TextboxWelcomePlayerage.Size = New System.Drawing.Size(100, 20)
         Me.TextboxWelcomePlayerage.TabIndex = 3
         '
         'TextboxWelcomePlayername
         '
-        Me.TextboxWelcomePlayername.Location = New System.Drawing.Point(102, 109)
+        Me.TextboxWelcomePlayername.Location = New System.Drawing.Point(100, 70)
         Me.TextboxWelcomePlayername.Name = "TextboxWelcomePlayername"
         Me.TextboxWelcomePlayername.Size = New System.Drawing.Size(100, 20)
         Me.TextboxWelcomePlayername.TabIndex = 2
