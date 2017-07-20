@@ -22,15 +22,22 @@ Partial Class FormInfo
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormInfo))
         Me.InfoFormLabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'InfoFormLabel
         '
-        Me.InfoFormLabel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.InfoFormLabel.AutoSize = True
+        Me.InfoFormLabel.BackColor = System.Drawing.Color.Transparent
+        Me.InfoFormLabel.Dock = System.Windows.Forms.DockStyle.Top
+        Me.InfoFormLabel.Font = New System.Drawing.Font("Segoe Print", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.InfoFormLabel.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.InfoFormLabel.Location = New System.Drawing.Point(0, 0)
+        Me.InfoFormLabel.MaximumSize = New System.Drawing.Size(540, 0)
         Me.InfoFormLabel.Name = "InfoFormLabel"
-        Me.InfoFormLabel.Size = New System.Drawing.Size(278, 294)
+        Me.InfoFormLabel.Padding = New System.Windows.Forms.Padding(20, 20, 0, 0)
+        Me.InfoFormLabel.Size = New System.Drawing.Size(85, 48)
         Me.InfoFormLabel.TabIndex = 0
         Me.InfoFormLabel.Text = "Label1"
         '
@@ -39,12 +46,14 @@ Partial Class FormInfo
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(278, 294)
+        Me.BackColor = System.Drawing.Color.DarkGoldenrod
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.ClientSize = New System.Drawing.Size(549, 294)
         Me.Controls.Add(Me.InfoFormLabel)
         Me.Name = "FormInfo"
         Me.Text = "FormInfo"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 

@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="LabelKinDescription.Text" xml:space="preserve">
+    <value>First pick your Kin! This determines what you look like, what culture you come from, how you look, and even how you might act. Remember this is your character, so your appearance, upbringing, and personality are ultimately up to you so this is just a base. Click on a name for more info about the kin.</value>
+  </data>
 </root>
