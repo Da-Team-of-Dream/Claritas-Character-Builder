@@ -17,7 +17,8 @@
     End Sub
 
     Private Sub LabelKinAngalucian_Click(sender As Object, e As EventArgs) Handles LabelKinAngalucian.Click
-        ConstructInfoForm("KinAngalucian")
+        MsgBox("it worked!!")
+        'ConstructInfoForm("KinAngalucian")
     End Sub
 
     Private Sub LabelKinCatdrah_Click(sender As Object, e As EventArgs) Handles LabelKinCatdrah.Click
