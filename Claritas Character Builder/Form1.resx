@@ -120,4 +120,7 @@
   <data name="LabelKinDescription.Text" xml:space="preserve">
     <value>First pick your Kin! This determines what you look like, what culture you come from, how you look, and even how you might act. Remember this is your character, so your appearance, upbringing, and personality are ultimately up to you so this is just a base. Click on a name for more info about the kin.</value>
   </data>
+  <data name="LabelNyadIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
 </root>

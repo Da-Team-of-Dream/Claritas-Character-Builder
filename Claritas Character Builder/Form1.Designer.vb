@@ -94,8 +94,17 @@ Partial Class Form1
         Me.ButtonKinAttributes = New System.Windows.Forms.Button()
         Me.ButtonKinWelcome = New System.Windows.Forms.Button()
         Me.LabelKinDescription = New System.Windows.Forms.Label()
+        Me.PanelNyad = New System.Windows.Forms.Panel()
+        Me.ButtonNyadInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonNyad = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonNyadWateraffinity = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonNyadTaint = New System.Windows.Forms.RadioButton()
+        Me.LabelNyadIntro = New System.Windows.Forms.Label()
+        Me.ButtonNyadBackground = New System.Windows.Forms.Button()
+        Me.ButtonNyadKin = New System.Windows.Forms.Button()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
+        Me.PanelNyad.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -115,6 +124,7 @@ Partial Class Form1
         '
         'LabelWelcomeFoot
         '
+        Me.LabelWelcomeFoot.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelWelcomeFoot.Location = New System.Drawing.Point(98, 183)
         Me.LabelWelcomeFoot.Name = "LabelWelcomeFoot"
         Me.LabelWelcomeFoot.Size = New System.Drawing.Size(452, 49)
@@ -124,21 +134,22 @@ Partial Class Form1
         '
         'LabelWelcomePlayerage
         '
-        Me.LabelWelcomePlayerage.Location = New System.Drawing.Point(343, 118)
+        Me.LabelWelcomePlayerage.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelWelcomePlayerage.Location = New System.Drawing.Point(328, 118)
         Me.LabelWelcomePlayerage.Name = "LabelWelcomePlayerage"
-        Me.LabelWelcomePlayerage.Size = New System.Drawing.Size(66, 23)
+        Me.LabelWelcomePlayerage.Size = New System.Drawing.Size(81, 23)
         Me.LabelWelcomePlayerage.TabIndex = 5
         Me.LabelWelcomePlayerage.Text = "Your Age"
         Me.LabelWelcomePlayerage.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'LabelWelcomePlayername
         '
-        Me.LabelWelcomePlayername.Location = New System.Drawing.Point(107, 118)
+        Me.LabelWelcomePlayername.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelWelcomePlayername.Location = New System.Drawing.Point(98, 118)
         Me.LabelWelcomePlayername.Name = "LabelWelcomePlayername"
-        Me.LabelWelcomePlayername.Size = New System.Drawing.Size(70, 20)
+        Me.LabelWelcomePlayername.Size = New System.Drawing.Size(79, 20)
         Me.LabelWelcomePlayername.TabIndex = 4
         Me.LabelWelcomePlayername.Text = "Your Name"
-        Me.LabelWelcomePlayername.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'TextboxWelcomePlayerage
         '
@@ -165,6 +176,7 @@ Partial Class Form1
         '
         'LabelWelcomeHeading
         '
+        Me.LabelWelcomeHeading.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelWelcomeHeading.Location = New System.Drawing.Point(95, 54)
         Me.LabelWelcomeHeading.Name = "LabelWelcomeHeading"
         Me.LabelWelcomeHeading.Size = New System.Drawing.Size(455, 51)
@@ -246,321 +258,357 @@ Partial Class Form1
         'LabelKinAngalucian
         '
         Me.LabelKinAngalucian.AutoSize = True
+        Me.LabelKinAngalucian.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinAngalucian.Location = New System.Drawing.Point(222, 19)
         Me.LabelKinAngalucian.Name = "LabelKinAngalucian"
-        Me.LabelKinAngalucian.Size = New System.Drawing.Size(60, 13)
+        Me.LabelKinAngalucian.Size = New System.Drawing.Size(70, 16)
         Me.LabelKinAngalucian.TabIndex = 6
         Me.LabelKinAngalucian.Text = "Angalucian"
         '
         'LabelKinTroll
         '
         Me.LabelKinTroll.AutoSize = True
+        Me.LabelKinTroll.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinTroll.Location = New System.Drawing.Point(526, 19)
         Me.LabelKinTroll.Name = "LabelKinTroll"
-        Me.LabelKinTroll.Size = New System.Drawing.Size(27, 13)
+        Me.LabelKinTroll.Size = New System.Drawing.Size(34, 16)
         Me.LabelKinTroll.TabIndex = 6
         Me.LabelKinTroll.Text = "Troll"
         '
         'LabelKinGoblin
         '
         Me.LabelKinGoblin.AutoSize = True
+        Me.LabelKinGoblin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinGoblin.Location = New System.Drawing.Point(379, 18)
         Me.LabelKinGoblin.Name = "LabelKinGoblin"
-        Me.LabelKinGoblin.Size = New System.Drawing.Size(37, 13)
+        Me.LabelKinGoblin.Size = New System.Drawing.Size(43, 16)
         Me.LabelKinGoblin.TabIndex = 6
         Me.LabelKinGoblin.Text = "Goblin"
         '
         'LabelKinSanjoran
         '
         Me.LabelKinSanjoran.AutoSize = True
+        Me.LabelKinSanjoran.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinSanjoran.Location = New System.Drawing.Point(378, 192)
         Me.LabelKinSanjoran.Name = "LabelKinSanjoran"
-        Me.LabelKinSanjoran.Size = New System.Drawing.Size(49, 13)
+        Me.LabelKinSanjoran.Size = New System.Drawing.Size(60, 16)
         Me.LabelKinSanjoran.TabIndex = 6
         Me.LabelKinSanjoran.Text = "Sanjoran"
         '
         'LabelKinGiGaYoNa
         '
         Me.LabelKinGiGaYoNa.AutoSize = True
+        Me.LabelKinGiGaYoNa.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinGiGaYoNa.Location = New System.Drawing.Point(222, 192)
         Me.LabelKinGiGaYoNa.Name = "LabelKinGiGaYoNa"
-        Me.LabelKinGiGaYoNa.Size = New System.Drawing.Size(67, 13)
+        Me.LabelKinGiGaYoNa.Size = New System.Drawing.Size(77, 16)
         Me.LabelKinGiGaYoNa.TabIndex = 6
         Me.LabelKinGiGaYoNa.Text = "Gi-Ga Yo-Na"
         '
         'LabelKinKinsmen
         '
         Me.LabelKinKinsmen.AutoSize = True
+        Me.LabelKinKinsmen.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinKinsmen.Location = New System.Drawing.Point(378, 107)
         Me.LabelKinKinsmen.Name = "LabelKinKinsmen"
-        Me.LabelKinKinsmen.Size = New System.Drawing.Size(47, 13)
+        Me.LabelKinKinsmen.Size = New System.Drawing.Size(56, 16)
         Me.LabelKinKinsmen.TabIndex = 6
         Me.LabelKinKinsmen.Text = "Kinsmen"
         '
         'LabelKinDryad
         '
         Me.LabelKinDryad.AutoSize = True
+        Me.LabelKinDryad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinDryad.Location = New System.Drawing.Point(222, 107)
         Me.LabelKinDryad.Name = "LabelKinDryad"
-        Me.LabelKinDryad.Size = New System.Drawing.Size(35, 13)
+        Me.LabelKinDryad.Size = New System.Drawing.Size(41, 16)
         Me.LabelKinDryad.TabIndex = 6
         Me.LabelKinDryad.Text = "Dryad"
         '
         'LabelKinSquirrel
         '
         Me.LabelKinSquirrel.AutoSize = True
+        Me.LabelKinSquirrel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinSquirrel.Location = New System.Drawing.Point(378, 215)
         Me.LabelKinSquirrel.Name = "LabelKinSquirrel"
-        Me.LabelKinSquirrel.Size = New System.Drawing.Size(42, 13)
+        Me.LabelKinSquirrel.Size = New System.Drawing.Size(53, 16)
         Me.LabelKinSquirrel.TabIndex = 6
         Me.LabelKinSquirrel.Text = "Squirrel"
         '
         'LabelKinGnome
         '
         Me.LabelKinGnome.AutoSize = True
+        Me.LabelKinGnome.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinGnome.Location = New System.Drawing.Point(222, 215)
         Me.LabelKinGnome.Name = "LabelKinGnome"
-        Me.LabelKinGnome.Size = New System.Drawing.Size(41, 13)
+        Me.LabelKinGnome.Size = New System.Drawing.Size(48, 16)
         Me.LabelKinGnome.TabIndex = 6
         Me.LabelKinGnome.Text = "Gnome"
         '
         'LabelKinNyad
         '
         Me.LabelKinNyad.AutoSize = True
+        Me.LabelKinNyad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinNyad.Location = New System.Drawing.Point(378, 147)
         Me.LabelKinNyad.Name = "LabelKinNyad"
-        Me.LabelKinNyad.Size = New System.Drawing.Size(32, 13)
+        Me.LabelKinNyad.Size = New System.Drawing.Size(36, 16)
         Me.LabelKinNyad.TabIndex = 6
         Me.LabelKinNyad.Text = "Nyad"
         '
         'LabelKinFairy
         '
         Me.LabelKinFairy.AutoSize = True
+        Me.LabelKinFairy.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinFairy.Location = New System.Drawing.Point(222, 147)
         Me.LabelKinFairy.Name = "LabelKinFairy"
-        Me.LabelKinFairy.Size = New System.Drawing.Size(29, 13)
+        Me.LabelKinFairy.Size = New System.Drawing.Size(36, 16)
         Me.LabelKinFairy.TabIndex = 6
         Me.LabelKinFairy.Text = "Fairy"
         '
         'LabelKinOrc
         '
         Me.LabelKinOrc.AutoSize = True
+        Me.LabelKinOrc.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinOrc.Location = New System.Drawing.Point(378, 169)
         Me.LabelKinOrc.Name = "LabelKinOrc"
-        Me.LabelKinOrc.Size = New System.Drawing.Size(24, 13)
+        Me.LabelKinOrc.Size = New System.Drawing.Size(28, 16)
         Me.LabelKinOrc.TabIndex = 6
         Me.LabelKinOrc.Text = "Orc"
         '
         'LabelKinFelucian
         '
         Me.LabelKinFelucian.AutoSize = True
+        Me.LabelKinFelucian.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinFelucian.Location = New System.Drawing.Point(222, 169)
         Me.LabelKinFelucian.Name = "LabelKinFelucian"
-        Me.LabelKinFelucian.Size = New System.Drawing.Size(47, 13)
+        Me.LabelKinFelucian.Size = New System.Drawing.Size(55, 16)
         Me.LabelKinFelucian.TabIndex = 6
         Me.LabelKinFelucian.Text = "Felucian"
         '
         'Label24
         '
         Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.Location = New System.Drawing.Point(378, 215)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(39, 13)
+        Me.Label24.Size = New System.Drawing.Size(45, 16)
         Me.Label24.TabIndex = 6
         Me.Label24.Text = "Label1"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(222, 215)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(39, 13)
+        Me.Label13.Size = New System.Drawing.Size(45, 16)
         Me.Label13.TabIndex = 6
         Me.Label13.Text = "Label1"
         '
         'LabelKinWolfsbein
         '
         Me.LabelKinWolfsbein.AutoSize = True
+        Me.LabelKinWolfsbein.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinWolfsbein.Location = New System.Drawing.Point(526, 63)
         Me.LabelKinWolfsbein.Name = "LabelKinWolfsbein"
-        Me.LabelKinWolfsbein.Size = New System.Drawing.Size(54, 13)
+        Me.LabelKinWolfsbein.Size = New System.Drawing.Size(64, 16)
         Me.LabelKinWolfsbein.TabIndex = 6
         Me.LabelKinWolfsbein.Text = "Wolfsbein"
         '
         'LabelKinHobbit
         '
         Me.LabelKinHobbit.AutoSize = True
+        Me.LabelKinHobbit.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinHobbit.Location = New System.Drawing.Point(378, 63)
         Me.LabelKinHobbit.Name = "LabelKinHobbit"
-        Me.LabelKinHobbit.Size = New System.Drawing.Size(38, 13)
+        Me.LabelKinHobbit.Size = New System.Drawing.Size(44, 16)
         Me.LabelKinHobbit.TabIndex = 6
         Me.LabelKinHobbit.Text = "Hobbit"
         '
         'LabelKinWoodElf
         '
         Me.LabelKinWoodElf.AutoSize = True
+        Me.LabelKinWoodElf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinWoodElf.Location = New System.Drawing.Point(526, 84)
         Me.LabelKinWoodElf.Name = "LabelKinWoodElf"
-        Me.LabelKinWoodElf.Size = New System.Drawing.Size(51, 13)
+        Me.LabelKinWoodElf.Size = New System.Drawing.Size(59, 16)
         Me.LabelKinWoodElf.TabIndex = 6
         Me.LabelKinWoodElf.Text = "Wood Elf"
         '
         'LabelKinDarkelf
         '
         Me.LabelKinDarkelf.AutoSize = True
+        Me.LabelKinDarkelf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinDarkelf.Location = New System.Drawing.Point(222, 63)
         Me.LabelKinDarkelf.Name = "LabelKinDarkelf"
-        Me.LabelKinDarkelf.Size = New System.Drawing.Size(45, 13)
+        Me.LabelKinDarkelf.Size = New System.Drawing.Size(52, 16)
         Me.LabelKinDarkelf.TabIndex = 6
         Me.LabelKinDarkelf.Text = "Dark Elf"
         '
         'LabelKinJadeImperial
         '
         Me.LabelKinJadeImperial.AutoSize = True
+        Me.LabelKinJadeImperial.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinJadeImperial.Location = New System.Drawing.Point(378, 84)
         Me.LabelKinJadeImperial.Name = "LabelKinJadeImperial"
-        Me.LabelKinJadeImperial.Size = New System.Drawing.Size(69, 13)
+        Me.LabelKinJadeImperial.Size = New System.Drawing.Size(85, 16)
         Me.LabelKinJadeImperial.TabIndex = 6
         Me.LabelKinJadeImperial.Text = "Jade Imperial"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(222, 170)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(39, 13)
+        Me.Label9.Size = New System.Drawing.Size(45, 16)
         Me.Label9.TabIndex = 6
         Me.Label9.Text = "Label1"
         '
         'LabelKinMinotaur
         '
         Me.LabelKinMinotaur.AutoSize = True
+        Me.LabelKinMinotaur.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinMinotaur.Location = New System.Drawing.Point(378, 126)
         Me.LabelKinMinotaur.Name = "LabelKinMinotaur"
-        Me.LabelKinMinotaur.Size = New System.Drawing.Size(48, 13)
+        Me.LabelKinMinotaur.Size = New System.Drawing.Size(58, 16)
         Me.LabelKinMinotaur.TabIndex = 6
         Me.LabelKinMinotaur.Text = "Minotaur"
         '
         'Label34
         '
         Me.Label34.AutoSize = True
+        Me.Label34.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.Location = New System.Drawing.Point(526, 84)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(39, 13)
+        Me.Label34.Size = New System.Drawing.Size(45, 16)
         Me.Label34.TabIndex = 6
         Me.Label34.Text = "Label1"
         '
         'LabelKinDrakhonon
         '
         Me.LabelKinDrakhonon.AutoSize = True
+        Me.LabelKinDrakhonon.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinDrakhonon.Location = New System.Drawing.Point(222, 84)
         Me.LabelKinDrakhonon.Name = "LabelKinDrakhonon"
-        Me.LabelKinDrakhonon.Size = New System.Drawing.Size(60, 13)
+        Me.LabelKinDrakhonon.Size = New System.Drawing.Size(69, 16)
         Me.LabelKinDrakhonon.TabIndex = 6
         Me.LabelKinDrakhonon.Text = "Drakhonon"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.Location = New System.Drawing.Point(378, 84)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(39, 13)
+        Me.Label19.Size = New System.Drawing.Size(45, 16)
         Me.Label19.TabIndex = 6
         Me.Label19.Text = "Label1"
         '
         'LabelKinDwarf
         '
         Me.LabelKinDwarf.AutoSize = True
+        Me.LabelKinDwarf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinDwarf.Location = New System.Drawing.Point(222, 126)
         Me.LabelKinDwarf.Name = "LabelKinDwarf"
-        Me.LabelKinDwarf.Size = New System.Drawing.Size(35, 13)
+        Me.LabelKinDwarf.Size = New System.Drawing.Size(42, 16)
         Me.LabelKinDwarf.TabIndex = 6
         Me.LabelKinDwarf.Text = "Dwarf"
         '
         'Label18
         '
         Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.Location = New System.Drawing.Point(378, 126)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(39, 13)
+        Me.Label18.Size = New System.Drawing.Size(45, 16)
         Me.Label18.TabIndex = 6
         Me.Label18.Text = "Label1"
         '
         'LabelKinWastelander
         '
         Me.LabelKinWastelander.AutoSize = True
+        Me.LabelKinWastelander.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinWastelander.Location = New System.Drawing.Point(526, 41)
         Me.LabelKinWastelander.Name = "LabelKinWastelander"
-        Me.LabelKinWastelander.Size = New System.Drawing.Size(67, 13)
+        Me.LabelKinWastelander.Size = New System.Drawing.Size(80, 16)
         Me.LabelKinWastelander.TabIndex = 6
         Me.LabelKinWastelander.Text = "Wastelander"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(222, 84)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 13)
+        Me.Label4.Size = New System.Drawing.Size(45, 16)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Label1"
         '
         'LabelKinHighElf
         '
         Me.LabelKinHighElf.AutoSize = True
+        Me.LabelKinHighElf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinHighElf.Location = New System.Drawing.Point(378, 41)
         Me.LabelKinHighElf.Name = "LabelKinHighElf"
-        Me.LabelKinHighElf.Size = New System.Drawing.Size(44, 13)
+        Me.LabelKinHighElf.Size = New System.Drawing.Size(51, 16)
         Me.LabelKinHighElf.TabIndex = 6
         Me.LabelKinHighElf.Text = "High Elf"
         '
         'Label31
         '
         Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.Location = New System.Drawing.Point(526, 40)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(39, 13)
+        Me.Label31.Size = New System.Drawing.Size(45, 16)
         Me.Label31.TabIndex = 6
         Me.Label31.Text = "Label1"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(222, 126)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(39, 13)
+        Me.Label7.Size = New System.Drawing.Size(45, 16)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Label1"
         '
         'Label16
         '
         Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.Location = New System.Drawing.Point(378, 40)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(39, 13)
+        Me.Label16.Size = New System.Drawing.Size(45, 16)
         Me.Label16.TabIndex = 6
         Me.Label16.Text = "Label1"
         '
         'LabelKinCatdrah
         '
         Me.LabelKinCatdrah.AutoSize = True
+        Me.LabelKinCatdrah.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinCatdrah.Location = New System.Drawing.Point(222, 40)
         Me.LabelKinCatdrah.Name = "LabelKinCatdrah"
-        Me.LabelKinCatdrah.Size = New System.Drawing.Size(44, 13)
+        Me.LabelKinCatdrah.Size = New System.Drawing.Size(53, 16)
         Me.LabelKinCatdrah.TabIndex = 6
         Me.LabelKinCatdrah.Text = "Catdrah"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(222, 40)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.Size = New System.Drawing.Size(45, 16)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Label1"
         '
         'RadioButtonKinWoodElf
         '
         Me.RadioButtonKinWoodElf.AutoSize = True
+        Me.RadioButtonKinWoodElf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinWoodElf.Location = New System.Drawing.Point(506, 85)
         Me.RadioButtonKinWoodElf.Name = "RadioButtonKinWoodElf"
         Me.RadioButtonKinWoodElf.Size = New System.Drawing.Size(14, 13)
@@ -571,6 +619,7 @@ Partial Class Form1
         'RadioButtonKinWastelander
         '
         Me.RadioButtonKinWastelander.AutoSize = True
+        Me.RadioButtonKinWastelander.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinWastelander.Location = New System.Drawing.Point(506, 41)
         Me.RadioButtonKinWastelander.Name = "RadioButtonKinWastelander"
         Me.RadioButtonKinWastelander.Size = New System.Drawing.Size(14, 13)
@@ -591,6 +640,7 @@ Partial Class Form1
         'RadioButtonKinWolfsbein
         '
         Me.RadioButtonKinWolfsbein.AutoSize = True
+        Me.RadioButtonKinWolfsbein.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinWolfsbein.Location = New System.Drawing.Point(506, 63)
         Me.RadioButtonKinWolfsbein.Name = "RadioButtonKinWolfsbein"
         Me.RadioButtonKinWolfsbein.Size = New System.Drawing.Size(14, 13)
@@ -601,6 +651,7 @@ Partial Class Form1
         'RadioButtonTroll
         '
         Me.RadioButtonTroll.AutoSize = True
+        Me.RadioButtonTroll.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonTroll.Location = New System.Drawing.Point(506, 19)
         Me.RadioButtonTroll.Name = "RadioButtonTroll"
         Me.RadioButtonTroll.Size = New System.Drawing.Size(14, 13)
@@ -611,6 +662,7 @@ Partial Class Form1
         'RadioButtonSanjoran
         '
         Me.RadioButtonSanjoran.AutoSize = True
+        Me.RadioButtonSanjoran.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonSanjoran.Location = New System.Drawing.Point(358, 192)
         Me.RadioButtonSanjoran.Name = "RadioButtonSanjoran"
         Me.RadioButtonSanjoran.Size = New System.Drawing.Size(14, 13)
@@ -621,6 +673,7 @@ Partial Class Form1
         'RadioButtonKinNyad
         '
         Me.RadioButtonKinNyad.AutoSize = True
+        Me.RadioButtonKinNyad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinNyad.Location = New System.Drawing.Point(358, 149)
         Me.RadioButtonKinNyad.Name = "RadioButtonKinNyad"
         Me.RadioButtonKinNyad.Size = New System.Drawing.Size(14, 13)
@@ -631,6 +684,7 @@ Partial Class Form1
         'RadioButtonKinSquirrel
         '
         Me.RadioButtonKinSquirrel.AutoSize = True
+        Me.RadioButtonKinSquirrel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinSquirrel.Location = New System.Drawing.Point(358, 215)
         Me.RadioButtonKinSquirrel.Name = "RadioButtonKinSquirrel"
         Me.RadioButtonKinSquirrel.Size = New System.Drawing.Size(14, 13)
@@ -641,6 +695,7 @@ Partial Class Form1
         'RadioButtonKinKinsmen
         '
         Me.RadioButtonKinKinsmen.AutoSize = True
+        Me.RadioButtonKinKinsmen.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinKinsmen.Location = New System.Drawing.Point(358, 107)
         Me.RadioButtonKinKinsmen.Name = "RadioButtonKinKinsmen"
         Me.RadioButtonKinKinsmen.Size = New System.Drawing.Size(14, 13)
@@ -651,6 +706,7 @@ Partial Class Form1
         'RadioButtonKinOrc
         '
         Me.RadioButtonKinOrc.AutoSize = True
+        Me.RadioButtonKinOrc.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinOrc.Location = New System.Drawing.Point(358, 170)
         Me.RadioButtonKinOrc.Name = "RadioButtonKinOrc"
         Me.RadioButtonKinOrc.Size = New System.Drawing.Size(14, 13)
@@ -661,6 +717,7 @@ Partial Class Form1
         'RadioButtonKinHobbit
         '
         Me.RadioButtonKinHobbit.AutoSize = True
+        Me.RadioButtonKinHobbit.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinHobbit.Location = New System.Drawing.Point(358, 63)
         Me.RadioButtonKinHobbit.Name = "RadioButtonKinHobbit"
         Me.RadioButtonKinHobbit.Size = New System.Drawing.Size(14, 13)
@@ -671,6 +728,7 @@ Partial Class Form1
         'RadioButtonKinMinotaur
         '
         Me.RadioButtonKinMinotaur.AutoSize = True
+        Me.RadioButtonKinMinotaur.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinMinotaur.Location = New System.Drawing.Point(358, 127)
         Me.RadioButtonKinMinotaur.Name = "RadioButtonKinMinotaur"
         Me.RadioButtonKinMinotaur.Size = New System.Drawing.Size(14, 13)
@@ -681,6 +739,7 @@ Partial Class Form1
         'RadioButtonKinGoblin
         '
         Me.RadioButtonKinGoblin.AutoSize = True
+        Me.RadioButtonKinGoblin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinGoblin.Location = New System.Drawing.Point(359, 18)
         Me.RadioButtonKinGoblin.Name = "RadioButtonKinGoblin"
         Me.RadioButtonKinGoblin.Size = New System.Drawing.Size(14, 13)
@@ -691,6 +750,7 @@ Partial Class Form1
         'RadioButtonKinJadeImperial
         '
         Me.RadioButtonKinJadeImperial.AutoSize = True
+        Me.RadioButtonKinJadeImperial.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinJadeImperial.Location = New System.Drawing.Point(358, 85)
         Me.RadioButtonKinJadeImperial.Name = "RadioButtonKinJadeImperial"
         Me.RadioButtonKinJadeImperial.Size = New System.Drawing.Size(14, 13)
@@ -721,6 +781,7 @@ Partial Class Form1
         'RadioButtonKinHighElf
         '
         Me.RadioButtonKinHighElf.AutoSize = True
+        Me.RadioButtonKinHighElf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinHighElf.Location = New System.Drawing.Point(358, 41)
         Me.RadioButtonKinHighElf.Name = "RadioButtonKinHighElf"
         Me.RadioButtonKinHighElf.Size = New System.Drawing.Size(14, 13)
@@ -818,18 +879,108 @@ Partial Class Form1
         '
         'LabelKinDescription
         '
-        Me.LabelKinDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.LabelKinDescription.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelKinDescription.Location = New System.Drawing.Point(12, 9)
         Me.LabelKinDescription.Name = "LabelKinDescription"
         Me.LabelKinDescription.Size = New System.Drawing.Size(165, 203)
         Me.LabelKinDescription.TabIndex = 0
         Me.LabelKinDescription.Text = resources.GetString("LabelKinDescription.Text")
         '
+        'PanelNyad
+        '
+        Me.PanelNyad.Controls.Add(Me.ButtonNyadInfo)
+        Me.PanelNyad.Controls.Add(Me.RadioButtonNyad)
+        Me.PanelNyad.Controls.Add(Me.RadioButtonNyadWateraffinity)
+        Me.PanelNyad.Controls.Add(Me.RadioButtonNyadTaint)
+        Me.PanelNyad.Controls.Add(Me.LabelNyadIntro)
+        Me.PanelNyad.Controls.Add(Me.ButtonNyadBackground)
+        Me.PanelNyad.Controls.Add(Me.ButtonNyadKin)
+        Me.PanelNyad.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelNyad.Enabled = False
+        Me.PanelNyad.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelNyad.Location = New System.Drawing.Point(0, 0)
+        Me.PanelNyad.Name = "PanelNyad"
+        Me.PanelNyad.Size = New System.Drawing.Size(621, 316)
+        Me.PanelNyad.TabIndex = 7
+        '
+        'ButtonNyadInfo
+        '
+        Me.ButtonNyadInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonNyadInfo.Name = "ButtonNyadInfo"
+        Me.ButtonNyadInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNyadInfo.TabIndex = 6
+        Me.ButtonNyadInfo.Text = "Info"
+        Me.ButtonNyadInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonNyad
+        '
+        Me.RadioButtonNyad.AutoSize = True
+        Me.RadioButtonNyad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonNyad.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonNyad.Name = "RadioButtonNyad"
+        Me.RadioButtonNyad.Size = New System.Drawing.Size(75, 20)
+        Me.RadioButtonNyad.TabIndex = 5
+        Me.RadioButtonNyad.TabStop = True
+        Me.RadioButtonNyad.Text = "Squeeze"
+        Me.RadioButtonNyad.UseVisualStyleBackColor = True
+        '
+        'RadioButtonNyadWateraffinity
+        '
+        Me.RadioButtonNyadWateraffinity.AutoSize = True
+        Me.RadioButtonNyadWateraffinity.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonNyadWateraffinity.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonNyadWateraffinity.Name = "RadioButtonNyadWateraffinity"
+        Me.RadioButtonNyadWateraffinity.Size = New System.Drawing.Size(104, 20)
+        Me.RadioButtonNyadWateraffinity.TabIndex = 4
+        Me.RadioButtonNyadWateraffinity.TabStop = True
+        Me.RadioButtonNyadWateraffinity.Text = "Water Affinity"
+        Me.RadioButtonNyadWateraffinity.UseVisualStyleBackColor = True
+        '
+        'RadioButtonNyadTaint
+        '
+        Me.RadioButtonNyadTaint.AutoSize = True
+        Me.RadioButtonNyadTaint.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonNyadTaint.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonNyadTaint.Name = "RadioButtonNyadTaint"
+        Me.RadioButtonNyadTaint.Size = New System.Drawing.Size(55, 20)
+        Me.RadioButtonNyadTaint.TabIndex = 3
+        Me.RadioButtonNyadTaint.TabStop = True
+        Me.RadioButtonNyadTaint.Text = "Taint"
+        Me.RadioButtonNyadTaint.UseVisualStyleBackColor = True
+        '
+        'LabelNyadIntro
+        '
+        Me.LabelNyadIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelNyadIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelNyadIntro.Name = "LabelNyadIntro"
+        Me.LabelNyadIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelNyadIntro.TabIndex = 2
+        Me.LabelNyadIntro.Text = resources.GetString("LabelNyadIntro.Text")
+        '
+        'ButtonNyadBackground
+        '
+        Me.ButtonNyadBackground.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonNyadBackground.Name = "ButtonNyadBackground"
+        Me.ButtonNyadBackground.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNyadBackground.TabIndex = 1
+        Me.ButtonNyadBackground.Text = "Next"
+        Me.ButtonNyadBackground.UseVisualStyleBackColor = True
+        '
+        'ButtonNyadKin
+        '
+        Me.ButtonNyadKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonNyadKin.Name = "ButtonNyadKin"
+        Me.ButtonNyadKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNyadKin.TabIndex = 0
+        Me.ButtonNyadKin.Text = "Previous"
+        Me.ButtonNyadKin.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelNyad)
         Me.Controls.Add(Me.PanelKin)
         Me.Controls.Add(Me.PanelWelcome)
         Me.Name = "Form1"
@@ -838,6 +989,8 @@ Partial Class Form1
         Me.PanelWelcome.PerformLayout()
         Me.PanelKin.ResumeLayout(False)
         Me.PanelKin.PerformLayout()
+        Me.PanelNyad.ResumeLayout(False)
+        Me.PanelNyad.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -912,4 +1065,12 @@ Partial Class Form1
     Friend WithEvents LabelKinHighElf As Label
     Friend WithEvents Label31 As Label
     Friend WithEvents Label16 As Label
+    Friend WithEvents PanelNyad As Panel
+    Friend WithEvents ButtonNyadInfo As Button
+    Friend WithEvents RadioButtonNyad As RadioButton
+    Friend WithEvents RadioButtonNyadWateraffinity As RadioButton
+    Friend WithEvents RadioButtonNyadTaint As RadioButton
+    Friend WithEvents LabelNyadIntro As Label
+    Friend WithEvents ButtonNyadBackground As Button
+    Friend WithEvents ButtonNyadKin As Button
 End Class
