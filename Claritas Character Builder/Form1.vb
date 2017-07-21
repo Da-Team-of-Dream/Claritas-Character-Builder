@@ -129,4 +129,52 @@
     Private Sub ButtonNyadInfo_Click(sender As Object, e As EventArgs) Handles ButtonNyadInfo.Click
         ConstructInfoForm("AttributeNyad")
     End Sub
+
+    Private Sub ButtonDryadKin_Click(sender As Object, e As EventArgs) Handles ButtonDryadKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelDryad.Enabled = False
+    End Sub
+
+    Private Sub ButtonDryadBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonDryadBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelDryad.Enabled = False
+    End Sub
+
+    Private Sub ButtonDryadInfo_Click(sender As Object, e As EventArgs) Handles ButtonDryadInfo.Click
+        ConstructInfoForm("AttributeDryad")
+    End Sub
+
+    Private Sub ButtonGoblinInfo_Click(sender As Object, e As EventArgs) Handles ButtonGoblinInfo.Click
+        ConstructInfoForm("AttributeGoblin")
+    End Sub
+
+    Private Sub ButtonGoblinKin_Click(sender As Object, e As EventArgs) Handles ButtonGoblinKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelGoblin.Enabled = False
+    End Sub
+
+    Private Sub ButtonGoblinBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonGoblinBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelGoblin.Enabled = False
+    End Sub
+
+    Private Sub ButtonGnomeKin_Click(sender As Object, e As EventArgs) Handles ButtonGnomeKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelGnome.Enabled = False
+    End Sub
+
+    Private Sub ButtonGnomeBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonGnomeBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelGnome.Enabled = False
+    End Sub
+
+    Private Sub ButtonGnomeInfo_Click(sender As Object, e As EventArgs) Handles ButtonGnomeInfo.Click
+        ConstructInfoForm("AttributeGnome")
+    End Sub
 End Class

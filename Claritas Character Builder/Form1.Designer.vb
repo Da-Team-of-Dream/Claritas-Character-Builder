@@ -102,9 +102,36 @@ Partial Class Form1
         Me.LabelNyadIntro = New System.Windows.Forms.Label()
         Me.ButtonNyadBackground = New System.Windows.Forms.Button()
         Me.ButtonNyadKin = New System.Windows.Forms.Button()
+        Me.PanelDryad = New System.Windows.Forms.Panel()
+        Me.ButtonDryadInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonDryadBarkSkin = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonDryadNutrients = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonDryadRooted = New System.Windows.Forms.RadioButton()
+        Me.LabelDryadIntro = New System.Windows.Forms.Label()
+        Me.ButtonDryadBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonDryadKin = New System.Windows.Forms.Button()
+        Me.PanelGoblin = New System.Windows.Forms.Panel()
+        Me.ButtonGoblinInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonGoblinRollAway = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonGoblinEntertaining = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonGoblinLightFrame = New System.Windows.Forms.RadioButton()
+        Me.LabelGoblinIntro = New System.Windows.Forms.Label()
+        Me.ButtonGoblinBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonGoblinKin = New System.Windows.Forms.Button()
+        Me.PanelGnome = New System.Windows.Forms.Panel()
+        Me.ButtonGnomeInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonGnomeEfficientArmor = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonGnomeSmallSize = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonGnomeTrinkets = New System.Windows.Forms.RadioButton()
+        Me.LabelGnomeIntro = New System.Windows.Forms.Label()
+        Me.ButtonGnomeBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonGnomeKin = New System.Windows.Forms.Button()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
+        Me.PanelDryad.SuspendLayout()
+        Me.PanelGoblin.SuspendLayout()
+        Me.PanelGnome.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -975,14 +1002,284 @@ Partial Class Form1
         Me.ButtonNyadKin.Text = "Previous"
         Me.ButtonNyadKin.UseVisualStyleBackColor = True
         '
+        'PanelDryad
+        '
+        Me.PanelDryad.Controls.Add(Me.PanelGnome)
+        Me.PanelDryad.Controls.Add(Me.ButtonDryadInfo)
+        Me.PanelDryad.Controls.Add(Me.RadioButtonDryadBarkSkin)
+        Me.PanelDryad.Controls.Add(Me.RadioButtonDryadNutrients)
+        Me.PanelDryad.Controls.Add(Me.RadioButtonDryadRooted)
+        Me.PanelDryad.Controls.Add(Me.LabelDryadIntro)
+        Me.PanelDryad.Controls.Add(Me.ButtonDryadBackgrounds)
+        Me.PanelDryad.Controls.Add(Me.ButtonDryadKin)
+        Me.PanelDryad.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelDryad.Enabled = False
+        Me.PanelDryad.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelDryad.Location = New System.Drawing.Point(0, 0)
+        Me.PanelDryad.Name = "PanelDryad"
+        Me.PanelDryad.Size = New System.Drawing.Size(621, 316)
+        Me.PanelDryad.TabIndex = 8
+        '
+        'ButtonDryadInfo
+        '
+        Me.ButtonDryadInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonDryadInfo.Name = "ButtonDryadInfo"
+        Me.ButtonDryadInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDryadInfo.TabIndex = 6
+        Me.ButtonDryadInfo.Text = "Info"
+        Me.ButtonDryadInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonDryadBarkSkin
+        '
+        Me.RadioButtonDryadBarkSkin.AutoSize = True
+        Me.RadioButtonDryadBarkSkin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonDryadBarkSkin.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonDryadBarkSkin.Name = "RadioButtonDryadBarkSkin"
+        Me.RadioButtonDryadBarkSkin.Size = New System.Drawing.Size(79, 20)
+        Me.RadioButtonDryadBarkSkin.TabIndex = 5
+        Me.RadioButtonDryadBarkSkin.TabStop = True
+        Me.RadioButtonDryadBarkSkin.Text = "Bark Skin"
+        Me.RadioButtonDryadBarkSkin.UseVisualStyleBackColor = True
+        '
+        'RadioButtonDryadNutrients
+        '
+        Me.RadioButtonDryadNutrients.AutoSize = True
+        Me.RadioButtonDryadNutrients.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonDryadNutrients.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonDryadNutrients.Name = "RadioButtonDryadNutrients"
+        Me.RadioButtonDryadNutrients.Size = New System.Drawing.Size(77, 20)
+        Me.RadioButtonDryadNutrients.TabIndex = 4
+        Me.RadioButtonDryadNutrients.TabStop = True
+        Me.RadioButtonDryadNutrients.Text = "Nutrients"
+        Me.RadioButtonDryadNutrients.UseVisualStyleBackColor = True
+        '
+        'RadioButtonDryadRooted
+        '
+        Me.RadioButtonDryadRooted.AutoSize = True
+        Me.RadioButtonDryadRooted.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonDryadRooted.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonDryadRooted.Name = "RadioButtonDryadRooted"
+        Me.RadioButtonDryadRooted.Size = New System.Drawing.Size(66, 20)
+        Me.RadioButtonDryadRooted.TabIndex = 3
+        Me.RadioButtonDryadRooted.TabStop = True
+        Me.RadioButtonDryadRooted.Text = "Rooted"
+        Me.RadioButtonDryadRooted.UseVisualStyleBackColor = True
+        '
+        'LabelDryadIntro
+        '
+        Me.LabelDryadIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelDryadIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelDryadIntro.Name = "LabelDryadIntro"
+        Me.LabelDryadIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelDryadIntro.TabIndex = 2
+        Me.LabelDryadIntro.Text = resources.GetString("LabelDryadIntro.Text")
+        '
+        'ButtonDryadBackgrounds
+        '
+        Me.ButtonDryadBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonDryadBackgrounds.Name = "ButtonDryadBackgrounds"
+        Me.ButtonDryadBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDryadBackgrounds.TabIndex = 1
+        Me.ButtonDryadBackgrounds.Text = "Next"
+        Me.ButtonDryadBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonDryadKin
+        '
+        Me.ButtonDryadKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonDryadKin.Name = "ButtonDryadKin"
+        Me.ButtonDryadKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDryadKin.TabIndex = 0
+        Me.ButtonDryadKin.Text = "Previous"
+        Me.ButtonDryadKin.UseVisualStyleBackColor = True
+        '
+        'PanelGoblin
+        '
+        Me.PanelGoblin.Controls.Add(Me.ButtonGoblinInfo)
+        Me.PanelGoblin.Controls.Add(Me.RadioButtonGoblinRollAway)
+        Me.PanelGoblin.Controls.Add(Me.RadioButtonGoblinEntertaining)
+        Me.PanelGoblin.Controls.Add(Me.RadioButtonGoblinLightFrame)
+        Me.PanelGoblin.Controls.Add(Me.LabelGoblinIntro)
+        Me.PanelGoblin.Controls.Add(Me.ButtonGoblinBackgrounds)
+        Me.PanelGoblin.Controls.Add(Me.ButtonGoblinKin)
+        Me.PanelGoblin.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelGoblin.Enabled = False
+        Me.PanelGoblin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelGoblin.Location = New System.Drawing.Point(0, 0)
+        Me.PanelGoblin.Name = "PanelGoblin"
+        Me.PanelGoblin.Size = New System.Drawing.Size(621, 316)
+        Me.PanelGoblin.TabIndex = 9
+        '
+        'ButtonGoblinInfo
+        '
+        Me.ButtonGoblinInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonGoblinInfo.Name = "ButtonGoblinInfo"
+        Me.ButtonGoblinInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonGoblinInfo.TabIndex = 6
+        Me.ButtonGoblinInfo.Text = "Info"
+        Me.ButtonGoblinInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonGoblinRollAway
+        '
+        Me.RadioButtonGoblinRollAway.AutoSize = True
+        Me.RadioButtonGoblinRollAway.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonGoblinRollAway.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonGoblinRollAway.Name = "RadioButtonGoblinRollAway"
+        Me.RadioButtonGoblinRollAway.Size = New System.Drawing.Size(82, 20)
+        Me.RadioButtonGoblinRollAway.TabIndex = 5
+        Me.RadioButtonGoblinRollAway.TabStop = True
+        Me.RadioButtonGoblinRollAway.Text = "Roll Away"
+        Me.RadioButtonGoblinRollAway.UseVisualStyleBackColor = True
+        '
+        'RadioButtonGoblinEntertaining
+        '
+        Me.RadioButtonGoblinEntertaining.AutoSize = True
+        Me.RadioButtonGoblinEntertaining.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonGoblinEntertaining.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonGoblinEntertaining.Name = "RadioButtonGoblinEntertaining"
+        Me.RadioButtonGoblinEntertaining.Size = New System.Drawing.Size(94, 20)
+        Me.RadioButtonGoblinEntertaining.TabIndex = 4
+        Me.RadioButtonGoblinEntertaining.TabStop = True
+        Me.RadioButtonGoblinEntertaining.Text = "Entertaining"
+        Me.RadioButtonGoblinEntertaining.UseVisualStyleBackColor = True
+        '
+        'RadioButtonGoblinLightFrame
+        '
+        Me.RadioButtonGoblinLightFrame.AutoSize = True
+        Me.RadioButtonGoblinLightFrame.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonGoblinLightFrame.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonGoblinLightFrame.Name = "RadioButtonGoblinLightFrame"
+        Me.RadioButtonGoblinLightFrame.Size = New System.Drawing.Size(94, 20)
+        Me.RadioButtonGoblinLightFrame.TabIndex = 3
+        Me.RadioButtonGoblinLightFrame.TabStop = True
+        Me.RadioButtonGoblinLightFrame.Text = "Light Frame"
+        Me.RadioButtonGoblinLightFrame.UseVisualStyleBackColor = True
+        '
+        'LabelGoblinIntro
+        '
+        Me.LabelGoblinIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelGoblinIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelGoblinIntro.Name = "LabelGoblinIntro"
+        Me.LabelGoblinIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelGoblinIntro.TabIndex = 2
+        Me.LabelGoblinIntro.Text = resources.GetString("LabelGoblinIntro.Text")
+        '
+        'ButtonGoblinBackgrounds
+        '
+        Me.ButtonGoblinBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonGoblinBackgrounds.Name = "ButtonGoblinBackgrounds"
+        Me.ButtonGoblinBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonGoblinBackgrounds.TabIndex = 1
+        Me.ButtonGoblinBackgrounds.Text = "Next"
+        Me.ButtonGoblinBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonGoblinKin
+        '
+        Me.ButtonGoblinKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonGoblinKin.Name = "ButtonGoblinKin"
+        Me.ButtonGoblinKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonGoblinKin.TabIndex = 0
+        Me.ButtonGoblinKin.Text = "Previous"
+        Me.ButtonGoblinKin.UseVisualStyleBackColor = True
+        '
+        'PanelGnome
+        '
+        Me.PanelGnome.Controls.Add(Me.ButtonGnomeInfo)
+        Me.PanelGnome.Controls.Add(Me.RadioButtonGnomeEfficientArmor)
+        Me.PanelGnome.Controls.Add(Me.RadioButtonGnomeSmallSize)
+        Me.PanelGnome.Controls.Add(Me.RadioButtonGnomeTrinkets)
+        Me.PanelGnome.Controls.Add(Me.LabelGnomeIntro)
+        Me.PanelGnome.Controls.Add(Me.ButtonGnomeBackgrounds)
+        Me.PanelGnome.Controls.Add(Me.ButtonGnomeKin)
+        Me.PanelGnome.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelGnome.Enabled = False
+        Me.PanelGnome.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelGnome.Location = New System.Drawing.Point(0, 0)
+        Me.PanelGnome.Name = "PanelGnome"
+        Me.PanelGnome.Size = New System.Drawing.Size(621, 316)
+        Me.PanelGnome.TabIndex = 9
+        '
+        'ButtonGnomeInfo
+        '
+        Me.ButtonGnomeInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonGnomeInfo.Name = "ButtonGnomeInfo"
+        Me.ButtonGnomeInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonGnomeInfo.TabIndex = 6
+        Me.ButtonGnomeInfo.Text = "Info"
+        Me.ButtonGnomeInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonGnomeEfficientArmor
+        '
+        Me.RadioButtonGnomeEfficientArmor.AutoSize = True
+        Me.RadioButtonGnomeEfficientArmor.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonGnomeEfficientArmor.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonGnomeEfficientArmor.Name = "RadioButtonGnomeEfficientArmor"
+        Me.RadioButtonGnomeEfficientArmor.Size = New System.Drawing.Size(111, 20)
+        Me.RadioButtonGnomeEfficientArmor.TabIndex = 5
+        Me.RadioButtonGnomeEfficientArmor.TabStop = True
+        Me.RadioButtonGnomeEfficientArmor.Text = "Efficient Armor"
+        Me.RadioButtonGnomeEfficientArmor.UseVisualStyleBackColor = True
+        '
+        'RadioButtonGnomeSmallSize
+        '
+        Me.RadioButtonGnomeSmallSize.AutoSize = True
+        Me.RadioButtonGnomeSmallSize.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonGnomeSmallSize.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonGnomeSmallSize.Name = "RadioButtonGnomeSmallSize"
+        Me.RadioButtonGnomeSmallSize.Size = New System.Drawing.Size(86, 20)
+        Me.RadioButtonGnomeSmallSize.TabIndex = 4
+        Me.RadioButtonGnomeSmallSize.TabStop = True
+        Me.RadioButtonGnomeSmallSize.Text = "Small Size"
+        Me.RadioButtonGnomeSmallSize.UseVisualStyleBackColor = True
+        '
+        'RadioButtonGnomeTrinkets
+        '
+        Me.RadioButtonGnomeTrinkets.AutoSize = True
+        Me.RadioButtonGnomeTrinkets.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonGnomeTrinkets.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonGnomeTrinkets.Name = "RadioButtonGnomeTrinkets"
+        Me.RadioButtonGnomeTrinkets.Size = New System.Drawing.Size(72, 20)
+        Me.RadioButtonGnomeTrinkets.TabIndex = 3
+        Me.RadioButtonGnomeTrinkets.TabStop = True
+        Me.RadioButtonGnomeTrinkets.Text = "Trinkets"
+        Me.RadioButtonGnomeTrinkets.UseVisualStyleBackColor = True
+        '
+        'LabelGnomeIntro
+        '
+        Me.LabelGnomeIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelGnomeIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelGnomeIntro.Name = "LabelGnomeIntro"
+        Me.LabelGnomeIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelGnomeIntro.TabIndex = 2
+        Me.LabelGnomeIntro.Text = resources.GetString("LabelGnomeIntro.Text")
+        '
+        'ButtonGnomeBackgrounds
+        '
+        Me.ButtonGnomeBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonGnomeBackgrounds.Name = "ButtonGnomeBackgrounds"
+        Me.ButtonGnomeBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonGnomeBackgrounds.TabIndex = 1
+        Me.ButtonGnomeBackgrounds.Text = "Next"
+        Me.ButtonGnomeBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonGnomeKin
+        '
+        Me.ButtonGnomeKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonGnomeKin.Name = "ButtonGnomeKin"
+        Me.ButtonGnomeKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonGnomeKin.TabIndex = 0
+        Me.ButtonGnomeKin.Text = "Previous"
+        Me.ButtonGnomeKin.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
-        Me.Controls.Add(Me.PanelNyad)
+        Me.Controls.Add(Me.PanelDryad)
         Me.Controls.Add(Me.PanelKin)
+        Me.Controls.Add(Me.PanelGoblin)
         Me.Controls.Add(Me.PanelWelcome)
+        Me.Controls.Add(Me.PanelNyad)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelWelcome.ResumeLayout(False)
@@ -991,6 +1288,12 @@ Partial Class Form1
         Me.PanelKin.PerformLayout()
         Me.PanelNyad.ResumeLayout(False)
         Me.PanelNyad.PerformLayout()
+        Me.PanelDryad.ResumeLayout(False)
+        Me.PanelDryad.PerformLayout()
+        Me.PanelGoblin.ResumeLayout(False)
+        Me.PanelGoblin.PerformLayout()
+        Me.PanelGnome.ResumeLayout(False)
+        Me.PanelGnome.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1073,4 +1376,28 @@ Partial Class Form1
     Friend WithEvents LabelNyadIntro As Label
     Friend WithEvents ButtonNyadBackground As Button
     Friend WithEvents ButtonNyadKin As Button
+    Friend WithEvents PanelDryad As Panel
+    Friend WithEvents ButtonDryadInfo As Button
+    Friend WithEvents RadioButtonDryadBarkSkin As RadioButton
+    Friend WithEvents RadioButtonDryadNutrients As RadioButton
+    Friend WithEvents RadioButtonDryadRooted As RadioButton
+    Friend WithEvents LabelDryadIntro As Label
+    Friend WithEvents ButtonDryadBackgrounds As Button
+    Friend WithEvents ButtonDryadKin As Button
+    Friend WithEvents PanelGoblin As Panel
+    Friend WithEvents ButtonGoblinInfo As Button
+    Friend WithEvents RadioButtonGoblinRollAway As RadioButton
+    Friend WithEvents RadioButtonGoblinEntertaining As RadioButton
+    Friend WithEvents RadioButtonGoblinLightFrame As RadioButton
+    Friend WithEvents LabelGoblinIntro As Label
+    Friend WithEvents ButtonGoblinBackgrounds As Button
+    Friend WithEvents ButtonGoblinKin As Button
+    Friend WithEvents PanelGnome As Panel
+    Friend WithEvents ButtonGnomeInfo As Button
+    Friend WithEvents RadioButtonGnomeEfficientArmor As RadioButton
+    Friend WithEvents RadioButtonGnomeSmallSize As RadioButton
+    Friend WithEvents RadioButtonGnomeTrinkets As RadioButton
+    Friend WithEvents LabelGnomeIntro As Label
+    Friend WithEvents ButtonGnomeBackgrounds As Button
+    Friend WithEvents ButtonGnomeKin As Button
 End Class
