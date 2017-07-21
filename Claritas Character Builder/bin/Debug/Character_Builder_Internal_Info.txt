@@ -20,7 +20,7 @@ Null
 KinDrakhonon
 ------------------
 KinDryad
-Dryads are slightly larger than most humans. They have dark to light brown skin and bark covering them. The amount of bark on individuals vary. Their hair is made up of leaves such as long thin leaves, locust leaves, or pine needles depending on what climate they’re from. Their eyes are deep green and almond shaped and their faces are slightly flatter than normal. Dryads are a kind and calm people, but they never let their decisions be made for them. If anyone or anything tries to make them move or change their mind the Dryads will not budge. Even in the wake of war Dryads would rather fortify their city and hold than move.
+Dryads are slightly larger than most humans. They have dark to light brown skin and bark covering them. The amount of bark on individuals vary. Their hair is made up of leaves such as long thin leaves, locust leaves, or pine needles depending on what climate they are from. Their eyes are deep green and almond shaped and their faces are slightly flatter than normal. Dryads are a kind and calm people, but they never let their decisions be made for them. If anyone or anything tries to make them move or change their mind the Dryads will not budge. Even in the wake of war Dryads would rather fortify their city and hold than move.
 KinDryad
 ------------------
 KinDwarf
@@ -32,24 +32,24 @@ Null
 KinEthereal 
 ------------------
 KinFairy
- There are four major kinds of fairies; the Shaoothuto, the Szhoom, the Ahlookaro, and the Ecall. The Shaoothuto are the most common type of fairy standing between 1’ and 2’ with an average weight of about 22 lb. Their skin colors vary between varieties of green, blue, purple, yellow, or red
+ There are four major kinds of fairies; the Shaoothuto, the Szhoom, the Ahlookaro, and the Ecall. The Shaoothuto are the most common type of fairy standing between 1 and 2 feet with an average weight of about 22 lb. Their skin colors vary between varieties of green, blue, purple, yellow, or red
 KinFairy
 ------------------
 KinFelucian
 Null
 KinFelucian
 ------------------
-KinGi-GaYo-Na 
+KinGi-GaYo-Na
 Null
-KinGi-GaYo-Na 
+KinGi-GaYo-Na
 ------------------
-KinGnome 
+KinGnome
 Gnomes are short and stout, and their head come to a gentle point. They are highly-intelligent and creative beings who tend to be quite unpleasant to other intelligent races. Gnomes are often extremely prejudiced against non-gnomes and tend to be short tempered as well. Not all gnomes feel like this however, and their incredible aptitude for inventing and tinkering with small, intricately crafted items makes them highly appreciated in diverse societies. In fact, the incredibly fine craftsmanship of their little inventions surpasses even dwarven technology, in many ways. 
-KinGnome 
+KinGnome
 ------------------
-KinGoblin 
+KinGoblin
 Goblins average around 4 to 5 feet tall. They are thin with smooth green to brown skin. They have slightly pointed ears, long arms, shorter legs, thin black hair and large eyes. Goblins are light on their feet and nimble and are quick to catch onto things and learn.
-KinGoblin 
+KinGoblin
 ------------------
 KinHighElf 
 High elves are relatively uncommon outside their homeland in the Golden Dove kingdom. They are often very proud of their heritage, and most of them hundreds, if not thousands, of years old. Not naturally inclined to put themselves at risk, they often prefer archery to keep danger at a distance. However, this isn't usually necessary, as they are the most magic-affine kin among those commonly found around Wilshire, with a large percentage of their population  being able to use magic. For this reason, as well as their ever-graceful appearances and suitably haughty demeanor, they are often seen as prim cowards.

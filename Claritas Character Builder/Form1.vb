@@ -112,4 +112,15 @@
     Private Sub LabelKinWoodElf_Click(sender As Object, e As EventArgs) Handles LabelKinWoodElf.Click
         ConstructInfoForm("KinWoodElf")
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles ButtonBackgoundsClass.Click
+
+    End Sub
+
+    Private Sub ButtonKinAttributes_Click(sender As Object, e As EventArgs) Handles ButtonKinAttributes.Click
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelKin.Enabled = False
+    End Sub
+
 End Class

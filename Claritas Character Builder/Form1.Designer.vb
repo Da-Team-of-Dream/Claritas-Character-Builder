@@ -32,6 +32,8 @@ Partial Class Form1
         Me.ButtonWelcomeKin = New System.Windows.Forms.Button()
         Me.LabelWelcomeHeading = New System.Windows.Forms.Label()
         Me.PanelKin = New System.Windows.Forms.Panel()
+        Me.LabelKinFelucian = New System.Windows.Forms.Label()
+        Me.LabelKinDescription = New System.Windows.Forms.Label()
         Me.LabelKinAngalucian = New System.Windows.Forms.Label()
         Me.LabelKinTroll = New System.Windows.Forms.Label()
         Me.LabelKinGoblin = New System.Windows.Forms.Label()
@@ -44,7 +46,6 @@ Partial Class Form1
         Me.LabelKinNyad = New System.Windows.Forms.Label()
         Me.LabelKinFairy = New System.Windows.Forms.Label()
         Me.LabelKinOrc = New System.Windows.Forms.Label()
-        Me.LabelKinFelucian = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.LabelKinWolfsbein = New System.Windows.Forms.Label()
@@ -93,9 +94,16 @@ Partial Class Form1
         Me.RadioButtonKinCatdrah = New System.Windows.Forms.RadioButton()
         Me.ButtonKinAttributes = New System.Windows.Forms.Button()
         Me.ButtonKinWelcome = New System.Windows.Forms.Button()
-        Me.LabelKinDescription = New System.Windows.Forms.Label()
+        Me.PanelBackgrounds = New System.Windows.Forms.Panel()
+        Me.ButtonBackgoundsClass = New System.Windows.Forms.Button()
+        Me.ButtonBackgroundsAttributes = New System.Windows.Forms.Button()
+        Me.LabelBackgroundsHeading = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
+        Me.PanelBackgrounds.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -174,6 +182,8 @@ Partial Class Form1
         '
         'PanelKin
         '
+        Me.PanelKin.Controls.Add(Me.LabelKinFelucian)
+        Me.PanelKin.Controls.Add(Me.LabelKinDescription)
         Me.PanelKin.Controls.Add(Me.LabelKinAngalucian)
         Me.PanelKin.Controls.Add(Me.LabelKinTroll)
         Me.PanelKin.Controls.Add(Me.LabelKinGoblin)
@@ -186,7 +196,6 @@ Partial Class Form1
         Me.PanelKin.Controls.Add(Me.LabelKinNyad)
         Me.PanelKin.Controls.Add(Me.LabelKinFairy)
         Me.PanelKin.Controls.Add(Me.LabelKinOrc)
-        Me.PanelKin.Controls.Add(Me.LabelKinFelucian)
         Me.PanelKin.Controls.Add(Me.Label24)
         Me.PanelKin.Controls.Add(Me.Label13)
         Me.PanelKin.Controls.Add(Me.LabelKinWolfsbein)
@@ -235,13 +244,30 @@ Partial Class Form1
         Me.PanelKin.Controls.Add(Me.RadioButtonKinCatdrah)
         Me.PanelKin.Controls.Add(Me.ButtonKinAttributes)
         Me.PanelKin.Controls.Add(Me.ButtonKinWelcome)
-        Me.PanelKin.Controls.Add(Me.LabelKinDescription)
         Me.PanelKin.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelKin.Enabled = False
         Me.PanelKin.Location = New System.Drawing.Point(0, 0)
         Me.PanelKin.Name = "PanelKin"
         Me.PanelKin.Size = New System.Drawing.Size(621, 316)
-        Me.PanelKin.TabIndex = 0
+        Me.PanelKin.TabIndex = 1
+        '
+        'LabelKinFelucian
+        '
+        Me.LabelKinFelucian.AutoSize = True
+        Me.LabelKinFelucian.Location = New System.Drawing.Point(222, 169)
+        Me.LabelKinFelucian.Name = "LabelKinFelucian"
+        Me.LabelKinFelucian.Size = New System.Drawing.Size(47, 13)
+        Me.LabelKinFelucian.TabIndex = 6
+        Me.LabelKinFelucian.Text = "Felucian"
+        '
+        'LabelKinDescription
+        '
+        Me.LabelKinDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.LabelKinDescription.Location = New System.Drawing.Point(12, 9)
+        Me.LabelKinDescription.Name = "LabelKinDescription"
+        Me.LabelKinDescription.Size = New System.Drawing.Size(165, 203)
+        Me.LabelKinDescription.TabIndex = 0
+        Me.LabelKinDescription.Text = resources.GetString("LabelKinDescription.Text")
         '
         'LabelKinAngalucian
         '
@@ -350,15 +376,6 @@ Partial Class Form1
         Me.LabelKinOrc.Size = New System.Drawing.Size(24, 13)
         Me.LabelKinOrc.TabIndex = 6
         Me.LabelKinOrc.Text = "Orc"
-        '
-        'LabelKinFelucian
-        '
-        Me.LabelKinFelucian.AutoSize = True
-        Me.LabelKinFelucian.Location = New System.Drawing.Point(222, 169)
-        Me.LabelKinFelucian.Name = "LabelKinFelucian"
-        Me.LabelKinFelucian.Size = New System.Drawing.Size(47, 13)
-        Me.LabelKinFelucian.TabIndex = 6
-        Me.LabelKinFelucian.Text = "Felucian"
         '
         'Label24
         '
@@ -816,20 +833,85 @@ Partial Class Form1
         Me.ButtonKinWelcome.Text = "Previous"
         Me.ButtonKinWelcome.UseVisualStyleBackColor = True
         '
-        'LabelKinDescription
+        'PanelBackgrounds
         '
-        Me.LabelKinDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
-        Me.LabelKinDescription.Location = New System.Drawing.Point(12, 9)
-        Me.LabelKinDescription.Name = "LabelKinDescription"
-        Me.LabelKinDescription.Size = New System.Drawing.Size(165, 203)
-        Me.LabelKinDescription.TabIndex = 0
-        Me.LabelKinDescription.Text = resources.GetString("LabelKinDescription.Text")
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBox3)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBox2)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBox1)
+        Me.PanelBackgrounds.Controls.Add(Me.ButtonBackgoundsClass)
+        Me.PanelBackgrounds.Controls.Add(Me.ButtonBackgroundsAttributes)
+        Me.PanelBackgrounds.Controls.Add(Me.LabelBackgroundsHeading)
+        Me.PanelBackgrounds.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelBackgrounds.Enabled = False
+        Me.PanelBackgrounds.Location = New System.Drawing.Point(0, 0)
+        Me.PanelBackgrounds.Name = "PanelBackgrounds"
+        Me.PanelBackgrounds.Size = New System.Drawing.Size(621, 316)
+        Me.PanelBackgrounds.TabIndex = 0
+        '
+        'ButtonBackgoundsClass
+        '
+        Me.ButtonBackgoundsClass.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonBackgoundsClass.Name = "ButtonBackgoundsClass"
+        Me.ButtonBackgoundsClass.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBackgoundsClass.TabIndex = 2
+        Me.ButtonBackgoundsClass.Text = "Next"
+        Me.ButtonBackgoundsClass.UseVisualStyleBackColor = True
+        '
+        'ButtonBackgroundsAttributes
+        '
+        Me.ButtonBackgroundsAttributes.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonBackgroundsAttributes.Name = "ButtonBackgroundsAttributes"
+        Me.ButtonBackgroundsAttributes.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBackgroundsAttributes.TabIndex = 1
+        Me.ButtonBackgroundsAttributes.Text = "Previus"
+        Me.ButtonBackgroundsAttributes.UseVisualStyleBackColor = True
+        '
+        'LabelBackgroundsHeading
+        '
+        Me.LabelBackgroundsHeading.Location = New System.Drawing.Point(1, 0)
+        Me.LabelBackgroundsHeading.Margin = New System.Windows.Forms.Padding(10, 10, 3, 0)
+        Me.LabelBackgroundsHeading.Name = "LabelBackgroundsHeading"
+        Me.LabelBackgroundsHeading.Size = New System.Drawing.Size(281, 76)
+        Me.LabelBackgroundsHeading.TabIndex = 0
+        Me.LabelBackgroundsHeading.Text = "Next, pick two backgrounds for your character. These should come from you charact" &
+    "er’s story. Click on the Info button for more information."
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(159, 88)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(81, 17)
+        Me.CheckBox1.TabIndex = 3
+        Me.CheckBox1.Text = "CheckBox1"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(159, 118)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(81, 17)
+        Me.CheckBox2.TabIndex = 3
+        Me.CheckBox2.Text = "CheckBox1"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(159, 149)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(81, 17)
+        Me.CheckBox3.TabIndex = 3
+        Me.CheckBox3.Text = "CheckBox1"
+        Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelBackgrounds)
         Me.Controls.Add(Me.PanelKin)
         Me.Controls.Add(Me.PanelWelcome)
         Me.Name = "Form1"
@@ -838,6 +920,8 @@ Partial Class Form1
         Me.PanelWelcome.PerformLayout()
         Me.PanelKin.ResumeLayout(False)
         Me.PanelKin.PerformLayout()
+        Me.PanelBackgrounds.ResumeLayout(False)
+        Me.PanelBackgrounds.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -912,4 +996,11 @@ Partial Class Form1
     Friend WithEvents LabelKinHighElf As Label
     Friend WithEvents Label31 As Label
     Friend WithEvents Label16 As Label
+    Friend WithEvents PanelBackgrounds As Panel
+    Friend WithEvents ButtonBackgoundsClass As Button
+    Friend WithEvents ButtonBackgroundsAttributes As Button
+    Friend WithEvents LabelBackgroundsHeading As Label
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents CheckBox1 As CheckBox
 End Class
