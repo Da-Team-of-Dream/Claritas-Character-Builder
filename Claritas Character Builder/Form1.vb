@@ -177,4 +177,116 @@
     Private Sub ButtonGnomeInfo_Click(sender As Object, e As EventArgs) Handles ButtonGnomeInfo.Click
         ConstructInfoForm("AttributeGnome")
     End Sub
+
+    Private Sub ButtonDwarfInfo_Click(sender As Object, e As EventArgs) Handles ButtonDwarfInfo.Click
+        ConstructInfoForm("AttributeDwarf")
+    End Sub
+
+    Private Sub ButtonDwarfKin_Click(sender As Object, e As EventArgs) Handles ButtonDwarfKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelDwarf.Enabled = False
+    End Sub
+
+    Private Sub ButtonDwarfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonDwarfBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelDwarf.Enabled = False
+    End Sub
+
+    Private Sub ButtonJadeImperialInfo_Click(sender As Object, e As EventArgs) Handles ButtonJadeImperialInfo.Click
+        ConstructInfoForm("AttributeJadeImperial")
+    End Sub
+
+    Private Sub ButtonJadeImperialKin_Click(sender As Object, e As EventArgs) Handles ButtonJadeImperialKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelJadeImperial.Enabled = False
+    End Sub
+
+    Private Sub ButtonJadeImperialBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonJadeImperialBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelJadeImperial.Enabled = False
+    End Sub
+
+    Private Sub ButtonSquirrelInfo_Click(sender As Object, e As EventArgs) Handles ButtonSquirrelInfo.Click
+        ConstructInfoForm("AttributeSquirrel")
+    End Sub
+
+    Private Sub ButtonSquirrelKin_Click(sender As Object, e As EventArgs) Handles ButtonSquirrelKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelSquirrel.Enabled = False
+    End Sub
+
+    Private Sub ButtonSquirrelBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonSquirrelBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelSquirrel.Enabled = False
+    End Sub
+
+    Private Sub ButtonTrollInfo_Click(sender As Object, e As EventArgs) Handles ButtonTrollInfo.Click
+        ConstructInfoForm("AttributeTroll")
+    End Sub
+
+    Private Sub ButtonTrollKin_Click(sender As Object, e As EventArgs) Handles ButtonTrollKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelTroll.Enabled = False
+    End Sub
+
+    Private Sub ButtonTrollBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonTrollBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelTroll.Enabled = False
+    End Sub
+
+    Private Sub ButtonCatdrahInfo_Click(sender As Object, e As EventArgs) Handles ButtonCatdrahInfo.Click
+        ConstructInfoForm("AttributeCatdrah")
+    End Sub
+
+    Private Sub ButtonCatdrahKin_Click(sender As Object, e As EventArgs) Handles ButtonCatdrahKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelCatdrah.Enabled = False
+    End Sub
+
+    Private Sub ButtonCatdrahBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonCatdrahBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelCatdrah.Enabled = False
+    End Sub
+
+    Private Sub ButtonKinsmanInfo_Click(sender As Object, e As EventArgs) Handles ButtonKinsmanInfo.Click
+        ConstructInfoForm("AttributeKinsman")
+    End Sub
+
+    Private Sub ButtonKinsmanKin_Click(sender As Object, e As EventArgs) Handles ButtonKinsmanKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelKinsman.Enabled = False
+    End Sub
+
+    Private Sub ButtonKinsmanBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonKinsmanBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelKinsman.Enabled = False
+    End Sub
+
+    Private Sub ButtonMinotaurInfo_Click(sender As Object, e As EventArgs) Handles ButtonMinotaurInfo.Click
+        ConstructInfoForm("AttributeMinotaur")
+    End Sub
+
+    Private Sub ButtonMinotaurKin_Click(sender As Object, e As EventArgs) Handles ButtonMinotaurKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelMinotaur.Enabled = False
+    End Sub
+
+    Private Sub ButtonMinotaurBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonMinotaurBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelMinotaur.Enabled = False
+    End Sub
 End Class

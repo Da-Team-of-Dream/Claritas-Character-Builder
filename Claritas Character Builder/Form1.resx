@@ -123,13 +123,34 @@
   <data name="LabelNyadIntro.Text" xml:space="preserve">
     <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
   </data>
-  <data name="LabelGnomeIntro.Text" xml:space="preserve">
-    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
-  </data>
   <data name="LabelDryadIntro.Text" xml:space="preserve">
     <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
   </data>
   <data name="LabelGoblinIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelGnomeIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelDwarfIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelJadeImperialIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelSquirrelIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelTrollIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelCatdrahIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelKinsmanIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelMinotaur.Text" xml:space="preserve">
     <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
   </data>
 </root>

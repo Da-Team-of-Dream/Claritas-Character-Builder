@@ -126,12 +126,75 @@ Partial Class Form1
         Me.LabelGnomeIntro = New System.Windows.Forms.Label()
         Me.ButtonGnomeBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonGnomeKin = New System.Windows.Forms.Button()
+        Me.PanelDwarf = New System.Windows.Forms.Panel()
+        Me.ButtonDwarfInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonDwarfExamination = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonDwarfLowLightVision = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonDwarfDwarfIt = New System.Windows.Forms.RadioButton()
+        Me.LabelDwarfIntro = New System.Windows.Forms.Label()
+        Me.ButtonDwarfBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonDwarfKin = New System.Windows.Forms.Button()
+        Me.PanelJadeImperial = New System.Windows.Forms.Panel()
+        Me.ButtonJadeImperialInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonJadeImperialTeamPlayer = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonJadeImperialAncestry = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonJadeImperailSanctioned = New System.Windows.Forms.RadioButton()
+        Me.LabelJadeImperialIntro = New System.Windows.Forms.Label()
+        Me.ButtonJadeImperialBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonJadeImperialKin = New System.Windows.Forms.Button()
+        Me.PanelSquirrel = New System.Windows.Forms.Panel()
+        Me.ButtonSquirrelInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonSquirrelForage = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonSquirrelHonorDuel = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonSquirrelTacticalWithdrawl = New System.Windows.Forms.RadioButton()
+        Me.LabelSquirrelIntro = New System.Windows.Forms.Label()
+        Me.ButtonSquirrelBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonSquirrelKin = New System.Windows.Forms.Button()
+        Me.PanelTroll = New System.Windows.Forms.Panel()
+        Me.ButtonTrollInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonTrollLug = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonTrollStoneDigestion = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonTrollStout = New System.Windows.Forms.RadioButton()
+        Me.LabelTrollIntro = New System.Windows.Forms.Label()
+        Me.ButtonTrollBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonTrollKin = New System.Windows.Forms.Button()
+        Me.PanelCatdrah = New System.Windows.Forms.Panel()
+        Me.ButtonCatdrahInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonCatdrahCuteness = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonCatdrahSafeLanding = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonCatdrahClimbTree = New System.Windows.Forms.RadioButton()
+        Me.LabelCatdrahIntro = New System.Windows.Forms.Label()
+        Me.ButtonCatdrahBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonCatdrahKin = New System.Windows.Forms.Button()
+        Me.PanelKinsman = New System.Windows.Forms.Panel()
+        Me.ButtonKinsmanInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonKinsmanMilitia = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonKinsmanTrustMe = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonKinsmanNeutrality = New System.Windows.Forms.RadioButton()
+        Me.LabelKinsmanIntro = New System.Windows.Forms.Label()
+        Me.ButtonKinsmanBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonKinsmanKin = New System.Windows.Forms.Button()
+        Me.PanelMinotaur = New System.Windows.Forms.Panel()
+        Me.ButtonMinotaurInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonMinotaurCharge = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonMinotaurDaunting = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonMinotaurRam = New System.Windows.Forms.RadioButton()
+        Me.LabelMinotaur = New System.Windows.Forms.Label()
+        Me.ButtonMinotaurBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonMinotaurKin = New System.Windows.Forms.Button()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
         Me.PanelDryad.SuspendLayout()
         Me.PanelGoblin.SuspendLayout()
         Me.PanelGnome.SuspendLayout()
+        Me.PanelDwarf.SuspendLayout()
+        Me.PanelJadeImperial.SuspendLayout()
+        Me.PanelSquirrel.SuspendLayout()
+        Me.PanelTroll.SuspendLayout()
+        Me.PanelCatdrah.SuspendLayout()
+        Me.PanelKinsman.SuspendLayout()
+        Me.PanelMinotaur.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -1004,7 +1067,6 @@ Partial Class Form1
         '
         'PanelDryad
         '
-        Me.PanelDryad.Controls.Add(Me.PanelGnome)
         Me.PanelDryad.Controls.Add(Me.ButtonDryadInfo)
         Me.PanelDryad.Controls.Add(Me.RadioButtonDryadBarkSkin)
         Me.PanelDryad.Controls.Add(Me.RadioButtonDryadNutrients)
@@ -1270,12 +1332,643 @@ Partial Class Form1
         Me.ButtonGnomeKin.Text = "Previous"
         Me.ButtonGnomeKin.UseVisualStyleBackColor = True
         '
+        'PanelDwarf
+        '
+        Me.PanelDwarf.Controls.Add(Me.ButtonDwarfInfo)
+        Me.PanelDwarf.Controls.Add(Me.RadioButtonDwarfExamination)
+        Me.PanelDwarf.Controls.Add(Me.RadioButtonDwarfLowLightVision)
+        Me.PanelDwarf.Controls.Add(Me.RadioButtonDwarfDwarfIt)
+        Me.PanelDwarf.Controls.Add(Me.LabelDwarfIntro)
+        Me.PanelDwarf.Controls.Add(Me.ButtonDwarfBackgrounds)
+        Me.PanelDwarf.Controls.Add(Me.ButtonDwarfKin)
+        Me.PanelDwarf.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelDwarf.Enabled = False
+        Me.PanelDwarf.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelDwarf.Location = New System.Drawing.Point(0, 0)
+        Me.PanelDwarf.Name = "PanelDwarf"
+        Me.PanelDwarf.Size = New System.Drawing.Size(621, 316)
+        Me.PanelDwarf.TabIndex = 10
+        '
+        'ButtonDwarfInfo
+        '
+        Me.ButtonDwarfInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonDwarfInfo.Name = "ButtonDwarfInfo"
+        Me.ButtonDwarfInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDwarfInfo.TabIndex = 6
+        Me.ButtonDwarfInfo.Text = "Info"
+        Me.ButtonDwarfInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonDwarfExamination
+        '
+        Me.RadioButtonDwarfExamination.AutoSize = True
+        Me.RadioButtonDwarfExamination.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonDwarfExamination.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonDwarfExamination.Name = "RadioButtonDwarfExamination"
+        Me.RadioButtonDwarfExamination.Size = New System.Drawing.Size(95, 20)
+        Me.RadioButtonDwarfExamination.TabIndex = 5
+        Me.RadioButtonDwarfExamination.TabStop = True
+        Me.RadioButtonDwarfExamination.Text = "Examination"
+        Me.RadioButtonDwarfExamination.UseVisualStyleBackColor = True
+        '
+        'RadioButtonDwarfLowLightVision
+        '
+        Me.RadioButtonDwarfLowLightVision.AutoSize = True
+        Me.RadioButtonDwarfLowLightVision.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonDwarfLowLightVision.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonDwarfLowLightVision.Name = "RadioButtonDwarfLowLightVision"
+        Me.RadioButtonDwarfLowLightVision.Size = New System.Drawing.Size(118, 20)
+        Me.RadioButtonDwarfLowLightVision.TabIndex = 4
+        Me.RadioButtonDwarfLowLightVision.TabStop = True
+        Me.RadioButtonDwarfLowLightVision.Text = "Low Light Vision"
+        Me.RadioButtonDwarfLowLightVision.UseVisualStyleBackColor = True
+        '
+        'RadioButtonDwarfDwarfIt
+        '
+        Me.RadioButtonDwarfDwarfIt.AutoSize = True
+        Me.RadioButtonDwarfDwarfIt.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonDwarfDwarfIt.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonDwarfDwarfIt.Name = "RadioButtonDwarfDwarfIt"
+        Me.RadioButtonDwarfDwarfIt.Size = New System.Drawing.Size(72, 20)
+        Me.RadioButtonDwarfDwarfIt.TabIndex = 3
+        Me.RadioButtonDwarfDwarfIt.TabStop = True
+        Me.RadioButtonDwarfDwarfIt.Text = "Dwarf If"
+        Me.RadioButtonDwarfDwarfIt.UseVisualStyleBackColor = True
+        '
+        'LabelDwarfIntro
+        '
+        Me.LabelDwarfIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelDwarfIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelDwarfIntro.Name = "LabelDwarfIntro"
+        Me.LabelDwarfIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelDwarfIntro.TabIndex = 2
+        Me.LabelDwarfIntro.Text = resources.GetString("LabelDwarfIntro.Text")
+        '
+        'ButtonDwarfBackgrounds
+        '
+        Me.ButtonDwarfBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonDwarfBackgrounds.Name = "ButtonDwarfBackgrounds"
+        Me.ButtonDwarfBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDwarfBackgrounds.TabIndex = 1
+        Me.ButtonDwarfBackgrounds.Text = "Next"
+        Me.ButtonDwarfBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonDwarfKin
+        '
+        Me.ButtonDwarfKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonDwarfKin.Name = "ButtonDwarfKin"
+        Me.ButtonDwarfKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDwarfKin.TabIndex = 0
+        Me.ButtonDwarfKin.Text = "Previous"
+        Me.ButtonDwarfKin.UseVisualStyleBackColor = True
+        '
+        'PanelJadeImperial
+        '
+        Me.PanelJadeImperial.Controls.Add(Me.ButtonJadeImperialInfo)
+        Me.PanelJadeImperial.Controls.Add(Me.RadioButtonJadeImperialTeamPlayer)
+        Me.PanelJadeImperial.Controls.Add(Me.RadioButtonJadeImperialAncestry)
+        Me.PanelJadeImperial.Controls.Add(Me.RadioButtonJadeImperailSanctioned)
+        Me.PanelJadeImperial.Controls.Add(Me.LabelJadeImperialIntro)
+        Me.PanelJadeImperial.Controls.Add(Me.ButtonJadeImperialBackgrounds)
+        Me.PanelJadeImperial.Controls.Add(Me.ButtonJadeImperialKin)
+        Me.PanelJadeImperial.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelJadeImperial.Enabled = False
+        Me.PanelJadeImperial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelJadeImperial.Location = New System.Drawing.Point(0, 0)
+        Me.PanelJadeImperial.Name = "PanelJadeImperial"
+        Me.PanelJadeImperial.Size = New System.Drawing.Size(621, 316)
+        Me.PanelJadeImperial.TabIndex = 11
+        '
+        'ButtonJadeImperialInfo
+        '
+        Me.ButtonJadeImperialInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonJadeImperialInfo.Name = "ButtonJadeImperialInfo"
+        Me.ButtonJadeImperialInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonJadeImperialInfo.TabIndex = 6
+        Me.ButtonJadeImperialInfo.Text = "Info"
+        Me.ButtonJadeImperialInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonJadeImperialTeamPlayer
+        '
+        Me.RadioButtonJadeImperialTeamPlayer.AutoSize = True
+        Me.RadioButtonJadeImperialTeamPlayer.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonJadeImperialTeamPlayer.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonJadeImperialTeamPlayer.Name = "RadioButtonJadeImperialTeamPlayer"
+        Me.RadioButtonJadeImperialTeamPlayer.Size = New System.Drawing.Size(98, 20)
+        Me.RadioButtonJadeImperialTeamPlayer.TabIndex = 5
+        Me.RadioButtonJadeImperialTeamPlayer.TabStop = True
+        Me.RadioButtonJadeImperialTeamPlayer.Text = "Team Player"
+        Me.RadioButtonJadeImperialTeamPlayer.UseVisualStyleBackColor = True
+        '
+        'RadioButtonJadeImperialAncestry
+        '
+        Me.RadioButtonJadeImperialAncestry.AutoSize = True
+        Me.RadioButtonJadeImperialAncestry.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonJadeImperialAncestry.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonJadeImperialAncestry.Name = "RadioButtonJadeImperialAncestry"
+        Me.RadioButtonJadeImperialAncestry.Size = New System.Drawing.Size(75, 20)
+        Me.RadioButtonJadeImperialAncestry.TabIndex = 4
+        Me.RadioButtonJadeImperialAncestry.TabStop = True
+        Me.RadioButtonJadeImperialAncestry.Text = "Ancestry"
+        Me.RadioButtonJadeImperialAncestry.UseVisualStyleBackColor = True
+        '
+        'RadioButtonJadeImperailSanctioned
+        '
+        Me.RadioButtonJadeImperailSanctioned.AutoSize = True
+        Me.RadioButtonJadeImperailSanctioned.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonJadeImperailSanctioned.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonJadeImperailSanctioned.Name = "RadioButtonJadeImperailSanctioned"
+        Me.RadioButtonJadeImperailSanctioned.Size = New System.Drawing.Size(89, 20)
+        Me.RadioButtonJadeImperailSanctioned.TabIndex = 3
+        Me.RadioButtonJadeImperailSanctioned.TabStop = True
+        Me.RadioButtonJadeImperailSanctioned.Text = "Sanctioned"
+        Me.RadioButtonJadeImperailSanctioned.UseVisualStyleBackColor = True
+        '
+        'LabelJadeImperialIntro
+        '
+        Me.LabelJadeImperialIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelJadeImperialIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelJadeImperialIntro.Name = "LabelJadeImperialIntro"
+        Me.LabelJadeImperialIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelJadeImperialIntro.TabIndex = 2
+        Me.LabelJadeImperialIntro.Text = resources.GetString("LabelJadeImperialIntro.Text")
+        '
+        'ButtonJadeImperialBackgrounds
+        '
+        Me.ButtonJadeImperialBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonJadeImperialBackgrounds.Name = "ButtonJadeImperialBackgrounds"
+        Me.ButtonJadeImperialBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonJadeImperialBackgrounds.TabIndex = 1
+        Me.ButtonJadeImperialBackgrounds.Text = "Next"
+        Me.ButtonJadeImperialBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonJadeImperialKin
+        '
+        Me.ButtonJadeImperialKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonJadeImperialKin.Name = "ButtonJadeImperialKin"
+        Me.ButtonJadeImperialKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonJadeImperialKin.TabIndex = 0
+        Me.ButtonJadeImperialKin.Text = "Previous"
+        Me.ButtonJadeImperialKin.UseVisualStyleBackColor = True
+        '
+        'PanelSquirrel
+        '
+        Me.PanelSquirrel.Controls.Add(Me.ButtonSquirrelInfo)
+        Me.PanelSquirrel.Controls.Add(Me.RadioButtonSquirrelForage)
+        Me.PanelSquirrel.Controls.Add(Me.RadioButtonSquirrelHonorDuel)
+        Me.PanelSquirrel.Controls.Add(Me.RadioButtonSquirrelTacticalWithdrawl)
+        Me.PanelSquirrel.Controls.Add(Me.LabelSquirrelIntro)
+        Me.PanelSquirrel.Controls.Add(Me.ButtonSquirrelBackgrounds)
+        Me.PanelSquirrel.Controls.Add(Me.ButtonSquirrelKin)
+        Me.PanelSquirrel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelSquirrel.Enabled = False
+        Me.PanelSquirrel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelSquirrel.Location = New System.Drawing.Point(0, 0)
+        Me.PanelSquirrel.Name = "PanelSquirrel"
+        Me.PanelSquirrel.Size = New System.Drawing.Size(621, 316)
+        Me.PanelSquirrel.TabIndex = 12
+        '
+        'ButtonSquirrelInfo
+        '
+        Me.ButtonSquirrelInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonSquirrelInfo.Name = "ButtonSquirrelInfo"
+        Me.ButtonSquirrelInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonSquirrelInfo.TabIndex = 6
+        Me.ButtonSquirrelInfo.Text = "Info"
+        Me.ButtonSquirrelInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonSquirrelForage
+        '
+        Me.RadioButtonSquirrelForage.AutoSize = True
+        Me.RadioButtonSquirrelForage.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonSquirrelForage.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonSquirrelForage.Name = "RadioButtonSquirrelForage"
+        Me.RadioButtonSquirrelForage.Size = New System.Drawing.Size(98, 20)
+        Me.RadioButtonSquirrelForage.TabIndex = 5
+        Me.RadioButtonSquirrelForage.TabStop = True
+        Me.RadioButtonSquirrelForage.Text = "Team Player"
+        Me.RadioButtonSquirrelForage.UseVisualStyleBackColor = True
+        '
+        'RadioButtonSquirrelHonorDuel
+        '
+        Me.RadioButtonSquirrelHonorDuel.AutoSize = True
+        Me.RadioButtonSquirrelHonorDuel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonSquirrelHonorDuel.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonSquirrelHonorDuel.Name = "RadioButtonSquirrelHonorDuel"
+        Me.RadioButtonSquirrelHonorDuel.Size = New System.Drawing.Size(75, 20)
+        Me.RadioButtonSquirrelHonorDuel.TabIndex = 4
+        Me.RadioButtonSquirrelHonorDuel.TabStop = True
+        Me.RadioButtonSquirrelHonorDuel.Text = "Ancestry"
+        Me.RadioButtonSquirrelHonorDuel.UseVisualStyleBackColor = True
+        '
+        'RadioButtonSquirrelTacticalWithdrawl
+        '
+        Me.RadioButtonSquirrelTacticalWithdrawl.AutoSize = True
+        Me.RadioButtonSquirrelTacticalWithdrawl.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonSquirrelTacticalWithdrawl.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonSquirrelTacticalWithdrawl.Name = "RadioButtonSquirrelTacticalWithdrawl"
+        Me.RadioButtonSquirrelTacticalWithdrawl.Size = New System.Drawing.Size(89, 20)
+        Me.RadioButtonSquirrelTacticalWithdrawl.TabIndex = 3
+        Me.RadioButtonSquirrelTacticalWithdrawl.TabStop = True
+        Me.RadioButtonSquirrelTacticalWithdrawl.Text = "Sanctioned"
+        Me.RadioButtonSquirrelTacticalWithdrawl.UseVisualStyleBackColor = True
+        '
+        'LabelSquirrelIntro
+        '
+        Me.LabelSquirrelIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelSquirrelIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelSquirrelIntro.Name = "LabelSquirrelIntro"
+        Me.LabelSquirrelIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelSquirrelIntro.TabIndex = 2
+        Me.LabelSquirrelIntro.Text = resources.GetString("LabelSquirrelIntro.Text")
+        '
+        'ButtonSquirrelBackgrounds
+        '
+        Me.ButtonSquirrelBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonSquirrelBackgrounds.Name = "ButtonSquirrelBackgrounds"
+        Me.ButtonSquirrelBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonSquirrelBackgrounds.TabIndex = 1
+        Me.ButtonSquirrelBackgrounds.Text = "Next"
+        Me.ButtonSquirrelBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonSquirrelKin
+        '
+        Me.ButtonSquirrelKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonSquirrelKin.Name = "ButtonSquirrelKin"
+        Me.ButtonSquirrelKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonSquirrelKin.TabIndex = 0
+        Me.ButtonSquirrelKin.Text = "Previous"
+        Me.ButtonSquirrelKin.UseVisualStyleBackColor = True
+        '
+        'PanelTroll
+        '
+        Me.PanelTroll.Controls.Add(Me.ButtonTrollInfo)
+        Me.PanelTroll.Controls.Add(Me.RadioButtonTrollLug)
+        Me.PanelTroll.Controls.Add(Me.RadioButtonTrollStoneDigestion)
+        Me.PanelTroll.Controls.Add(Me.RadioButtonTrollStout)
+        Me.PanelTroll.Controls.Add(Me.LabelTrollIntro)
+        Me.PanelTroll.Controls.Add(Me.ButtonTrollBackgrounds)
+        Me.PanelTroll.Controls.Add(Me.ButtonTrollKin)
+        Me.PanelTroll.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelTroll.Enabled = False
+        Me.PanelTroll.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelTroll.Location = New System.Drawing.Point(0, 0)
+        Me.PanelTroll.Name = "PanelTroll"
+        Me.PanelTroll.Size = New System.Drawing.Size(621, 316)
+        Me.PanelTroll.TabIndex = 13
+        '
+        'ButtonTrollInfo
+        '
+        Me.ButtonTrollInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonTrollInfo.Name = "ButtonTrollInfo"
+        Me.ButtonTrollInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonTrollInfo.TabIndex = 6
+        Me.ButtonTrollInfo.Text = "Info"
+        Me.ButtonTrollInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonTrollLug
+        '
+        Me.RadioButtonTrollLug.AutoSize = True
+        Me.RadioButtonTrollLug.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonTrollLug.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonTrollLug.Name = "RadioButtonTrollLug"
+        Me.RadioButtonTrollLug.Size = New System.Drawing.Size(46, 20)
+        Me.RadioButtonTrollLug.TabIndex = 5
+        Me.RadioButtonTrollLug.TabStop = True
+        Me.RadioButtonTrollLug.Text = "Lug"
+        Me.RadioButtonTrollLug.UseVisualStyleBackColor = True
+        '
+        'RadioButtonTrollStoneDigestion
+        '
+        Me.RadioButtonTrollStoneDigestion.AutoSize = True
+        Me.RadioButtonTrollStoneDigestion.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonTrollStoneDigestion.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonTrollStoneDigestion.Name = "RadioButtonTrollStoneDigestion"
+        Me.RadioButtonTrollStoneDigestion.Size = New System.Drawing.Size(115, 20)
+        Me.RadioButtonTrollStoneDigestion.TabIndex = 4
+        Me.RadioButtonTrollStoneDigestion.TabStop = True
+        Me.RadioButtonTrollStoneDigestion.Text = "Stone Digestion"
+        Me.RadioButtonTrollStoneDigestion.UseVisualStyleBackColor = True
+        '
+        'RadioButtonTrollStout
+        '
+        Me.RadioButtonTrollStout.AutoSize = True
+        Me.RadioButtonTrollStout.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonTrollStout.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonTrollStout.Name = "RadioButtonTrollStout"
+        Me.RadioButtonTrollStout.Size = New System.Drawing.Size(56, 20)
+        Me.RadioButtonTrollStout.TabIndex = 3
+        Me.RadioButtonTrollStout.TabStop = True
+        Me.RadioButtonTrollStout.Text = "Stout"
+        Me.RadioButtonTrollStout.UseVisualStyleBackColor = True
+        '
+        'LabelTrollIntro
+        '
+        Me.LabelTrollIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelTrollIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelTrollIntro.Name = "LabelTrollIntro"
+        Me.LabelTrollIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelTrollIntro.TabIndex = 2
+        Me.LabelTrollIntro.Text = resources.GetString("LabelTrollIntro.Text")
+        '
+        'ButtonTrollBackgrounds
+        '
+        Me.ButtonTrollBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonTrollBackgrounds.Name = "ButtonTrollBackgrounds"
+        Me.ButtonTrollBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonTrollBackgrounds.TabIndex = 1
+        Me.ButtonTrollBackgrounds.Text = "Next"
+        Me.ButtonTrollBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonTrollKin
+        '
+        Me.ButtonTrollKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonTrollKin.Name = "ButtonTrollKin"
+        Me.ButtonTrollKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonTrollKin.TabIndex = 0
+        Me.ButtonTrollKin.Text = "Previous"
+        Me.ButtonTrollKin.UseVisualStyleBackColor = True
+        '
+        'PanelCatdrah
+        '
+        Me.PanelCatdrah.Controls.Add(Me.ButtonCatdrahInfo)
+        Me.PanelCatdrah.Controls.Add(Me.RadioButtonCatdrahCuteness)
+        Me.PanelCatdrah.Controls.Add(Me.RadioButtonCatdrahSafeLanding)
+        Me.PanelCatdrah.Controls.Add(Me.RadioButtonCatdrahClimbTree)
+        Me.PanelCatdrah.Controls.Add(Me.LabelCatdrahIntro)
+        Me.PanelCatdrah.Controls.Add(Me.ButtonCatdrahBackgrounds)
+        Me.PanelCatdrah.Controls.Add(Me.ButtonCatdrahKin)
+        Me.PanelCatdrah.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelCatdrah.Enabled = False
+        Me.PanelCatdrah.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelCatdrah.Location = New System.Drawing.Point(0, 0)
+        Me.PanelCatdrah.Name = "PanelCatdrah"
+        Me.PanelCatdrah.Size = New System.Drawing.Size(621, 316)
+        Me.PanelCatdrah.TabIndex = 14
+        '
+        'ButtonCatdrahInfo
+        '
+        Me.ButtonCatdrahInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonCatdrahInfo.Name = "ButtonCatdrahInfo"
+        Me.ButtonCatdrahInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonCatdrahInfo.TabIndex = 6
+        Me.ButtonCatdrahInfo.Text = "Info"
+        Me.ButtonCatdrahInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonCatdrahCuteness
+        '
+        Me.RadioButtonCatdrahCuteness.AutoSize = True
+        Me.RadioButtonCatdrahCuteness.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonCatdrahCuteness.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonCatdrahCuteness.Name = "RadioButtonCatdrahCuteness"
+        Me.RadioButtonCatdrahCuteness.Size = New System.Drawing.Size(78, 20)
+        Me.RadioButtonCatdrahCuteness.TabIndex = 5
+        Me.RadioButtonCatdrahCuteness.TabStop = True
+        Me.RadioButtonCatdrahCuteness.Text = "Cuteness"
+        Me.RadioButtonCatdrahCuteness.UseVisualStyleBackColor = True
+        '
+        'RadioButtonCatdrahSafeLanding
+        '
+        Me.RadioButtonCatdrahSafeLanding.AutoSize = True
+        Me.RadioButtonCatdrahSafeLanding.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonCatdrahSafeLanding.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonCatdrahSafeLanding.Name = "RadioButtonCatdrahSafeLanding"
+        Me.RadioButtonCatdrahSafeLanding.Size = New System.Drawing.Size(100, 20)
+        Me.RadioButtonCatdrahSafeLanding.TabIndex = 4
+        Me.RadioButtonCatdrahSafeLanding.TabStop = True
+        Me.RadioButtonCatdrahSafeLanding.Text = "Safe Landing"
+        Me.RadioButtonCatdrahSafeLanding.UseVisualStyleBackColor = True
+        '
+        'RadioButtonCatdrahClimbTree
+        '
+        Me.RadioButtonCatdrahClimbTree.AutoSize = True
+        Me.RadioButtonCatdrahClimbTree.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonCatdrahClimbTree.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonCatdrahClimbTree.Name = "RadioButtonCatdrahClimbTree"
+        Me.RadioButtonCatdrahClimbTree.Size = New System.Drawing.Size(89, 20)
+        Me.RadioButtonCatdrahClimbTree.TabIndex = 3
+        Me.RadioButtonCatdrahClimbTree.TabStop = True
+        Me.RadioButtonCatdrahClimbTree.Text = "Climb Tree"
+        Me.RadioButtonCatdrahClimbTree.UseVisualStyleBackColor = True
+        '
+        'LabelCatdrahIntro
+        '
+        Me.LabelCatdrahIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelCatdrahIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelCatdrahIntro.Name = "LabelCatdrahIntro"
+        Me.LabelCatdrahIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelCatdrahIntro.TabIndex = 2
+        Me.LabelCatdrahIntro.Text = resources.GetString("LabelCatdrahIntro.Text")
+        '
+        'ButtonCatdrahBackgrounds
+        '
+        Me.ButtonCatdrahBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonCatdrahBackgrounds.Name = "ButtonCatdrahBackgrounds"
+        Me.ButtonCatdrahBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonCatdrahBackgrounds.TabIndex = 1
+        Me.ButtonCatdrahBackgrounds.Text = "Next"
+        Me.ButtonCatdrahBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonCatdrahKin
+        '
+        Me.ButtonCatdrahKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonCatdrahKin.Name = "ButtonCatdrahKin"
+        Me.ButtonCatdrahKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonCatdrahKin.TabIndex = 0
+        Me.ButtonCatdrahKin.Text = "Previous"
+        Me.ButtonCatdrahKin.UseVisualStyleBackColor = True
+        '
+        'PanelKinsman
+        '
+        Me.PanelKinsman.Controls.Add(Me.ButtonKinsmanInfo)
+        Me.PanelKinsman.Controls.Add(Me.RadioButtonKinsmanMilitia)
+        Me.PanelKinsman.Controls.Add(Me.RadioButtonKinsmanTrustMe)
+        Me.PanelKinsman.Controls.Add(Me.RadioButtonKinsmanNeutrality)
+        Me.PanelKinsman.Controls.Add(Me.LabelKinsmanIntro)
+        Me.PanelKinsman.Controls.Add(Me.ButtonKinsmanBackgrounds)
+        Me.PanelKinsman.Controls.Add(Me.ButtonKinsmanKin)
+        Me.PanelKinsman.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelKinsman.Enabled = False
+        Me.PanelKinsman.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelKinsman.Location = New System.Drawing.Point(0, 0)
+        Me.PanelKinsman.Name = "PanelKinsman"
+        Me.PanelKinsman.Size = New System.Drawing.Size(621, 316)
+        Me.PanelKinsman.TabIndex = 15
+        '
+        'ButtonKinsmanInfo
+        '
+        Me.ButtonKinsmanInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonKinsmanInfo.Name = "ButtonKinsmanInfo"
+        Me.ButtonKinsmanInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonKinsmanInfo.TabIndex = 6
+        Me.ButtonKinsmanInfo.Text = "Info"
+        Me.ButtonKinsmanInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonKinsmanMilitia
+        '
+        Me.RadioButtonKinsmanMilitia.AutoSize = True
+        Me.RadioButtonKinsmanMilitia.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonKinsmanMilitia.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonKinsmanMilitia.Name = "RadioButtonKinsmanMilitia"
+        Me.RadioButtonKinsmanMilitia.Size = New System.Drawing.Size(59, 20)
+        Me.RadioButtonKinsmanMilitia.TabIndex = 5
+        Me.RadioButtonKinsmanMilitia.TabStop = True
+        Me.RadioButtonKinsmanMilitia.Text = "Militia"
+        Me.RadioButtonKinsmanMilitia.UseVisualStyleBackColor = True
+        '
+        'RadioButtonKinsmanTrustMe
+        '
+        Me.RadioButtonKinsmanTrustMe.AutoSize = True
+        Me.RadioButtonKinsmanTrustMe.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonKinsmanTrustMe.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonKinsmanTrustMe.Name = "RadioButtonKinsmanTrustMe"
+        Me.RadioButtonKinsmanTrustMe.Size = New System.Drawing.Size(77, 20)
+        Me.RadioButtonKinsmanTrustMe.TabIndex = 4
+        Me.RadioButtonKinsmanTrustMe.TabStop = True
+        Me.RadioButtonKinsmanTrustMe.Text = "Trust Me"
+        Me.RadioButtonKinsmanTrustMe.UseVisualStyleBackColor = True
+        '
+        'RadioButtonKinsmanNeutrality
+        '
+        Me.RadioButtonKinsmanNeutrality.AutoSize = True
+        Me.RadioButtonKinsmanNeutrality.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonKinsmanNeutrality.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonKinsmanNeutrality.Name = "RadioButtonKinsmanNeutrality"
+        Me.RadioButtonKinsmanNeutrality.Size = New System.Drawing.Size(80, 20)
+        Me.RadioButtonKinsmanNeutrality.TabIndex = 3
+        Me.RadioButtonKinsmanNeutrality.TabStop = True
+        Me.RadioButtonKinsmanNeutrality.Text = "Neutrality"
+        Me.RadioButtonKinsmanNeutrality.UseVisualStyleBackColor = True
+        '
+        'LabelKinsmanIntro
+        '
+        Me.LabelKinsmanIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelKinsmanIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelKinsmanIntro.Name = "LabelKinsmanIntro"
+        Me.LabelKinsmanIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelKinsmanIntro.TabIndex = 2
+        Me.LabelKinsmanIntro.Text = resources.GetString("LabelKinsmanIntro.Text")
+        '
+        'ButtonKinsmanBackgrounds
+        '
+        Me.ButtonKinsmanBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonKinsmanBackgrounds.Name = "ButtonKinsmanBackgrounds"
+        Me.ButtonKinsmanBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonKinsmanBackgrounds.TabIndex = 1
+        Me.ButtonKinsmanBackgrounds.Text = "Next"
+        Me.ButtonKinsmanBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonKinsmanKin
+        '
+        Me.ButtonKinsmanKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonKinsmanKin.Name = "ButtonKinsmanKin"
+        Me.ButtonKinsmanKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonKinsmanKin.TabIndex = 0
+        Me.ButtonKinsmanKin.Text = "Previous"
+        Me.ButtonKinsmanKin.UseVisualStyleBackColor = True
+        '
+        'PanelMinotaur
+        '
+        Me.PanelMinotaur.Controls.Add(Me.ButtonMinotaurInfo)
+        Me.PanelMinotaur.Controls.Add(Me.RadioButtonMinotaurCharge)
+        Me.PanelMinotaur.Controls.Add(Me.RadioButtonMinotaurDaunting)
+        Me.PanelMinotaur.Controls.Add(Me.RadioButtonMinotaurRam)
+        Me.PanelMinotaur.Controls.Add(Me.LabelMinotaur)
+        Me.PanelMinotaur.Controls.Add(Me.ButtonMinotaurBackgrounds)
+        Me.PanelMinotaur.Controls.Add(Me.ButtonMinotaurKin)
+        Me.PanelMinotaur.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelMinotaur.Enabled = False
+        Me.PanelMinotaur.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelMinotaur.Location = New System.Drawing.Point(0, 0)
+        Me.PanelMinotaur.Name = "PanelMinotaur"
+        Me.PanelMinotaur.Size = New System.Drawing.Size(621, 316)
+        Me.PanelMinotaur.TabIndex = 16
+        '
+        'ButtonMinotaurInfo
+        '
+        Me.ButtonMinotaurInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonMinotaurInfo.Name = "ButtonMinotaurInfo"
+        Me.ButtonMinotaurInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonMinotaurInfo.TabIndex = 6
+        Me.ButtonMinotaurInfo.Text = "Info"
+        Me.ButtonMinotaurInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonMinotaurCharge
+        '
+        Me.RadioButtonMinotaurCharge.AutoSize = True
+        Me.RadioButtonMinotaurCharge.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonMinotaurCharge.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonMinotaurCharge.Name = "RadioButtonMinotaurCharge"
+        Me.RadioButtonMinotaurCharge.Size = New System.Drawing.Size(67, 20)
+        Me.RadioButtonMinotaurCharge.TabIndex = 5
+        Me.RadioButtonMinotaurCharge.TabStop = True
+        Me.RadioButtonMinotaurCharge.Text = "Charge"
+        Me.RadioButtonMinotaurCharge.UseVisualStyleBackColor = True
+        '
+        'RadioButtonMinotaurDaunting
+        '
+        Me.RadioButtonMinotaurDaunting.AutoSize = True
+        Me.RadioButtonMinotaurDaunting.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonMinotaurDaunting.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonMinotaurDaunting.Name = "RadioButtonMinotaurDaunting"
+        Me.RadioButtonMinotaurDaunting.Size = New System.Drawing.Size(76, 20)
+        Me.RadioButtonMinotaurDaunting.TabIndex = 4
+        Me.RadioButtonMinotaurDaunting.TabStop = True
+        Me.RadioButtonMinotaurDaunting.Text = "Daunting"
+        Me.RadioButtonMinotaurDaunting.UseVisualStyleBackColor = True
+        '
+        'RadioButtonMinotaurRam
+        '
+        Me.RadioButtonMinotaurRam.AutoSize = True
+        Me.RadioButtonMinotaurRam.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonMinotaurRam.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonMinotaurRam.Name = "RadioButtonMinotaurRam"
+        Me.RadioButtonMinotaurRam.Size = New System.Drawing.Size(52, 20)
+        Me.RadioButtonMinotaurRam.TabIndex = 3
+        Me.RadioButtonMinotaurRam.TabStop = True
+        Me.RadioButtonMinotaurRam.Text = "Ram"
+        Me.RadioButtonMinotaurRam.UseVisualStyleBackColor = True
+        '
+        'LabelMinotaur
+        '
+        Me.LabelMinotaur.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelMinotaur.Location = New System.Drawing.Point(4, 4)
+        Me.LabelMinotaur.Name = "LabelMinotaur"
+        Me.LabelMinotaur.Size = New System.Drawing.Size(605, 80)
+        Me.LabelMinotaur.TabIndex = 2
+        Me.LabelMinotaur.Text = resources.GetString("LabelMinotaur.Text")
+        '
+        'ButtonMinotaurBackgrounds
+        '
+        Me.ButtonMinotaurBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonMinotaurBackgrounds.Name = "ButtonMinotaurBackgrounds"
+        Me.ButtonMinotaurBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonMinotaurBackgrounds.TabIndex = 1
+        Me.ButtonMinotaurBackgrounds.Text = "Next"
+        Me.ButtonMinotaurBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonMinotaurKin
+        '
+        Me.ButtonMinotaurKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonMinotaurKin.Name = "ButtonMinotaurKin"
+        Me.ButtonMinotaurKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonMinotaurKin.TabIndex = 0
+        Me.ButtonMinotaurKin.Text = "Previous"
+        Me.ButtonMinotaurKin.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelMinotaur)
+        Me.Controls.Add(Me.PanelKinsman)
+        Me.Controls.Add(Me.PanelCatdrah)
+        Me.Controls.Add(Me.PanelTroll)
+        Me.Controls.Add(Me.PanelSquirrel)
+        Me.Controls.Add(Me.PanelJadeImperial)
+        Me.Controls.Add(Me.PanelDwarf)
         Me.Controls.Add(Me.PanelDryad)
+        Me.Controls.Add(Me.PanelGnome)
         Me.Controls.Add(Me.PanelKin)
         Me.Controls.Add(Me.PanelGoblin)
         Me.Controls.Add(Me.PanelWelcome)
@@ -1294,6 +1987,20 @@ Partial Class Form1
         Me.PanelGoblin.PerformLayout()
         Me.PanelGnome.ResumeLayout(False)
         Me.PanelGnome.PerformLayout()
+        Me.PanelDwarf.ResumeLayout(False)
+        Me.PanelDwarf.PerformLayout()
+        Me.PanelJadeImperial.ResumeLayout(False)
+        Me.PanelJadeImperial.PerformLayout()
+        Me.PanelSquirrel.ResumeLayout(False)
+        Me.PanelSquirrel.PerformLayout()
+        Me.PanelTroll.ResumeLayout(False)
+        Me.PanelTroll.PerformLayout()
+        Me.PanelCatdrah.ResumeLayout(False)
+        Me.PanelCatdrah.PerformLayout()
+        Me.PanelKinsman.ResumeLayout(False)
+        Me.PanelKinsman.PerformLayout()
+        Me.PanelMinotaur.ResumeLayout(False)
+        Me.PanelMinotaur.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1400,4 +2107,60 @@ Partial Class Form1
     Friend WithEvents LabelGnomeIntro As Label
     Friend WithEvents ButtonGnomeBackgrounds As Button
     Friend WithEvents ButtonGnomeKin As Button
+    Friend WithEvents PanelDwarf As Panel
+    Friend WithEvents ButtonDwarfInfo As Button
+    Friend WithEvents RadioButtonDwarfExamination As RadioButton
+    Friend WithEvents RadioButtonDwarfLowLightVision As RadioButton
+    Friend WithEvents RadioButtonDwarfDwarfIt As RadioButton
+    Friend WithEvents LabelDwarfIntro As Label
+    Friend WithEvents ButtonDwarfBackgrounds As Button
+    Friend WithEvents ButtonDwarfKin As Button
+    Friend WithEvents PanelJadeImperial As Panel
+    Friend WithEvents ButtonJadeImperialInfo As Button
+    Friend WithEvents RadioButtonJadeImperialTeamPlayer As RadioButton
+    Friend WithEvents RadioButtonJadeImperialAncestry As RadioButton
+    Friend WithEvents RadioButtonJadeImperailSanctioned As RadioButton
+    Friend WithEvents LabelJadeImperialIntro As Label
+    Friend WithEvents ButtonJadeImperialBackgrounds As Button
+    Friend WithEvents ButtonJadeImperialKin As Button
+    Friend WithEvents PanelSquirrel As Panel
+    Friend WithEvents ButtonSquirrelInfo As Button
+    Friend WithEvents RadioButtonSquirrelForage As RadioButton
+    Friend WithEvents RadioButtonSquirrelHonorDuel As RadioButton
+    Friend WithEvents RadioButtonSquirrelTacticalWithdrawl As RadioButton
+    Friend WithEvents LabelSquirrelIntro As Label
+    Friend WithEvents ButtonSquirrelBackgrounds As Button
+    Friend WithEvents ButtonSquirrelKin As Button
+    Friend WithEvents PanelTroll As Panel
+    Friend WithEvents ButtonTrollInfo As Button
+    Friend WithEvents RadioButtonTrollLug As RadioButton
+    Friend WithEvents RadioButtonTrollStoneDigestion As RadioButton
+    Friend WithEvents RadioButtonTrollStout As RadioButton
+    Friend WithEvents LabelTrollIntro As Label
+    Friend WithEvents ButtonTrollBackgrounds As Button
+    Friend WithEvents ButtonTrollKin As Button
+    Friend WithEvents PanelCatdrah As Panel
+    Friend WithEvents ButtonCatdrahInfo As Button
+    Friend WithEvents RadioButtonCatdrahCuteness As RadioButton
+    Friend WithEvents RadioButtonCatdrahSafeLanding As RadioButton
+    Friend WithEvents RadioButtonCatdrahClimbTree As RadioButton
+    Friend WithEvents LabelCatdrahIntro As Label
+    Friend WithEvents ButtonCatdrahBackgrounds As Button
+    Friend WithEvents ButtonCatdrahKin As Button
+    Friend WithEvents PanelKinsman As Panel
+    Friend WithEvents ButtonKinsmanInfo As Button
+    Friend WithEvents RadioButtonKinsmanMilitia As RadioButton
+    Friend WithEvents RadioButtonKinsmanTrustMe As RadioButton
+    Friend WithEvents RadioButtonKinsmanNeutrality As RadioButton
+    Friend WithEvents LabelKinsmanIntro As Label
+    Friend WithEvents ButtonKinsmanBackgrounds As Button
+    Friend WithEvents ButtonKinsmanKin As Button
+    Friend WithEvents PanelMinotaur As Panel
+    Friend WithEvents ButtonMinotaurInfo As Button
+    Friend WithEvents RadioButtonMinotaurCharge As RadioButton
+    Friend WithEvents RadioButtonMinotaurDaunting As RadioButton
+    Friend WithEvents RadioButtonMinotaurRam As RadioButton
+    Friend WithEvents LabelMinotaur As Label
+    Friend WithEvents ButtonMinotaurBackgrounds As Button
+    Friend WithEvents ButtonMinotaurKin As Button
 End Class
