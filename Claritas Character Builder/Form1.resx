@@ -171,4 +171,19 @@
   <data name="LabelFaerlethIntro.Text" xml:space="preserve">
     <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
   </data>
+  <data name="LabelOrcIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelSanjoranIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelWastelanderIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelWolfsbeinIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelWoodelfIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
 </root>

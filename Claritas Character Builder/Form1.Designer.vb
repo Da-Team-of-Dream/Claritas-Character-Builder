@@ -175,6 +175,8 @@ Partial Class Form1
         Me.ButtonKinsmanBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonKinsmanKin = New System.Windows.Forms.Button()
         Me.PanelAngalucian = New System.Windows.Forms.Panel()
+        Me.RadioButtonAngalucianBlessedweapon = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonAngalucianBeaconoflight = New System.Windows.Forms.RadioButton()
         Me.ButtonAngelucianInfo = New System.Windows.Forms.Button()
         Me.RadioButtonAngalucianTakeheed = New System.Windows.Forms.RadioButton()
         Me.RadioButtonAngalucianAmaze = New System.Windows.Forms.RadioButton()
@@ -182,8 +184,6 @@ Partial Class Form1
         Me.LabelAngelucianIntro = New System.Windows.Forms.Label()
         Me.ButtonAngalucianBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonAngalucianKin = New System.Windows.Forms.Button()
-        Me.RadioButtonAngalucianBeaconoflight = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonAngalucianBlessedweapon = New System.Windows.Forms.RadioButton()
         Me.ButtonMinotaurKin = New System.Windows.Forms.Button()
         Me.ButtonMinotaurBackgrounds = New System.Windows.Forms.Button()
         Me.LabelMinotaur = New System.Windows.Forms.Label()
@@ -225,6 +225,7 @@ Partial Class Form1
         Me.ButtonHighelfBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonHighelfKin = New System.Windows.Forms.Button()
         Me.PanelFaerleth = New System.Windows.Forms.Panel()
+        Me.RadioButtonFaerlethMastermunchyologist = New System.Windows.Forms.RadioButton()
         Me.ButtonFaerlethInfo = New System.Windows.Forms.Button()
         Me.RadioButtonFaerlethRiddle = New System.Windows.Forms.RadioButton()
         Me.RadioButtonFaerlethToughfeet = New System.Windows.Forms.RadioButton()
@@ -232,7 +233,46 @@ Partial Class Form1
         Me.LabelFaerlethIntro = New System.Windows.Forms.Label()
         Me.ButtonFaerlethBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonFaerlethKin = New System.Windows.Forms.Button()
-        Me.RadioButtonFaerlethMastermunchyologist = New System.Windows.Forms.RadioButton()
+        Me.PanelOrc = New System.Windows.Forms.Panel()
+        Me.ButtonOrcInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonOrcGruff = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonOrcBloodpool = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonOrcFeelnopain = New System.Windows.Forms.RadioButton()
+        Me.LabelOrcIntro = New System.Windows.Forms.Label()
+        Me.ButtonOrcBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonOrcKin = New System.Windows.Forms.Button()
+        Me.PanelSanjoran = New System.Windows.Forms.Panel()
+        Me.ButtonSanjoranInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonSanjoranNip = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonSanjoranRegrowth = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonSanjoranResistance = New System.Windows.Forms.RadioButton()
+        Me.LabelSanjoranIntro = New System.Windows.Forms.Label()
+        Me.ButtonSanjoranBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonSanjoranKin = New System.Windows.Forms.Button()
+        Me.PanelWastelander = New System.Windows.Forms.Panel()
+        Me.ButtonWastelanderInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonWastelanderBlendin = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWastelanderStreetsmart = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWastelanderThuroughsearch = New System.Windows.Forms.RadioButton()
+        Me.LabelWastelanderIntro = New System.Windows.Forms.Label()
+        Me.ButtonWastelanderBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonWastelanderKin = New System.Windows.Forms.Button()
+        Me.PanelWolfsbein = New System.Windows.Forms.Panel()
+        Me.ButtonWolfsbeinInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonWolfsbeinRedolent = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWolfsbeinPowerthrough = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWolfsbeinTrustworthy = New System.Windows.Forms.RadioButton()
+        Me.LabelWolfsbeinIntro = New System.Windows.Forms.Label()
+        Me.ButtonWolfsbeinBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonWolfsbeinKin = New System.Windows.Forms.Button()
+        Me.PanelWoodelf = New System.Windows.Forms.Panel()
+        Me.ButtonWoodelfInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonWoodelfElementaryinvocation = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWoodelfForestflight = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWoodelfLifeattunement = New System.Windows.Forms.RadioButton()
+        Me.LabelWoodelfIntro = New System.Windows.Forms.Label()
+        Me.ButtonWoodelfBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonWoodelfKin = New System.Windows.Forms.Button()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
@@ -252,6 +292,11 @@ Partial Class Form1
         Me.PanelGigayona.SuspendLayout()
         Me.PanelHighelf.SuspendLayout()
         Me.PanelFaerleth.SuspendLayout()
+        Me.PanelOrc.SuspendLayout()
+        Me.PanelSanjoran.SuspendLayout()
+        Me.PanelWastelander.SuspendLayout()
+        Me.PanelWolfsbein.SuspendLayout()
+        Me.PanelWoodelf.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -1942,6 +1987,30 @@ Partial Class Form1
         Me.PanelAngalucian.Size = New System.Drawing.Size(621, 316)
         Me.PanelAngalucian.TabIndex = 17
         '
+        'RadioButtonAngalucianBlessedweapon
+        '
+        Me.RadioButtonAngalucianBlessedweapon.AutoSize = True
+        Me.RadioButtonAngalucianBlessedweapon.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonAngalucianBlessedweapon.Location = New System.Drawing.Point(267, 226)
+        Me.RadioButtonAngalucianBlessedweapon.Name = "RadioButtonAngalucianBlessedweapon"
+        Me.RadioButtonAngalucianBlessedweapon.Size = New System.Drawing.Size(120, 20)
+        Me.RadioButtonAngalucianBlessedweapon.TabIndex = 8
+        Me.RadioButtonAngalucianBlessedweapon.TabStop = True
+        Me.RadioButtonAngalucianBlessedweapon.Text = "Blessed Weapon"
+        Me.RadioButtonAngalucianBlessedweapon.UseVisualStyleBackColor = True
+        '
+        'RadioButtonAngalucianBeaconoflight
+        '
+        Me.RadioButtonAngalucianBeaconoflight.AutoSize = True
+        Me.RadioButtonAngalucianBeaconoflight.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonAngalucianBeaconoflight.Location = New System.Drawing.Point(267, 201)
+        Me.RadioButtonAngalucianBeaconoflight.Name = "RadioButtonAngalucianBeaconoflight"
+        Me.RadioButtonAngalucianBeaconoflight.Size = New System.Drawing.Size(115, 20)
+        Me.RadioButtonAngalucianBeaconoflight.TabIndex = 7
+        Me.RadioButtonAngalucianBeaconoflight.TabStop = True
+        Me.RadioButtonAngalucianBeaconoflight.Text = "Beacon Of Light"
+        Me.RadioButtonAngalucianBeaconoflight.UseVisualStyleBackColor = True
+        '
         'ButtonAngelucianInfo
         '
         Me.ButtonAngelucianInfo.Location = New System.Drawing.Point(457, 142)
@@ -2013,30 +2082,6 @@ Partial Class Form1
         Me.ButtonAngalucianKin.TabIndex = 0
         Me.ButtonAngalucianKin.Text = "Previous"
         Me.ButtonAngalucianKin.UseVisualStyleBackColor = True
-        '
-        'RadioButtonAngalucianBeaconoflight
-        '
-        Me.RadioButtonAngalucianBeaconoflight.AutoSize = True
-        Me.RadioButtonAngalucianBeaconoflight.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonAngalucianBeaconoflight.Location = New System.Drawing.Point(267, 201)
-        Me.RadioButtonAngalucianBeaconoflight.Name = "RadioButtonAngalucianBeaconoflight"
-        Me.RadioButtonAngalucianBeaconoflight.Size = New System.Drawing.Size(115, 20)
-        Me.RadioButtonAngalucianBeaconoflight.TabIndex = 7
-        Me.RadioButtonAngalucianBeaconoflight.TabStop = True
-        Me.RadioButtonAngalucianBeaconoflight.Text = "Beacon Of Light"
-        Me.RadioButtonAngalucianBeaconoflight.UseVisualStyleBackColor = True
-        '
-        'RadioButtonAngalucianBlessedweapon
-        '
-        Me.RadioButtonAngalucianBlessedweapon.AutoSize = True
-        Me.RadioButtonAngalucianBlessedweapon.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonAngalucianBlessedweapon.Location = New System.Drawing.Point(267, 226)
-        Me.RadioButtonAngalucianBlessedweapon.Name = "RadioButtonAngalucianBlessedweapon"
-        Me.RadioButtonAngalucianBlessedweapon.Size = New System.Drawing.Size(120, 20)
-        Me.RadioButtonAngalucianBlessedweapon.TabIndex = 8
-        Me.RadioButtonAngalucianBlessedweapon.TabStop = True
-        Me.RadioButtonAngalucianBlessedweapon.Text = "Blessed Weapon"
-        Me.RadioButtonAngalucianBlessedweapon.UseVisualStyleBackColor = True
         '
         'ButtonMinotaurKin
         '
@@ -2501,6 +2546,18 @@ Partial Class Form1
         Me.PanelFaerleth.Size = New System.Drawing.Size(621, 316)
         Me.PanelFaerleth.TabIndex = 22
         '
+        'RadioButtonFaerlethMastermunchyologist
+        '
+        Me.RadioButtonFaerlethMastermunchyologist.AutoSize = True
+        Me.RadioButtonFaerlethMastermunchyologist.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonFaerlethMastermunchyologist.Location = New System.Drawing.Point(267, 211)
+        Me.RadioButtonFaerlethMastermunchyologist.Name = "RadioButtonFaerlethMastermunchyologist"
+        Me.RadioButtonFaerlethMastermunchyologist.Size = New System.Drawing.Size(149, 20)
+        Me.RadioButtonFaerlethMastermunchyologist.TabIndex = 7
+        Me.RadioButtonFaerlethMastermunchyologist.TabStop = True
+        Me.RadioButtonFaerlethMastermunchyologist.Text = "Master Munchyologist"
+        Me.RadioButtonFaerlethMastermunchyologist.UseVisualStyleBackColor = True
+        '
         'ButtonFaerlethInfo
         '
         Me.ButtonFaerlethInfo.Location = New System.Drawing.Point(457, 142)
@@ -2573,24 +2630,461 @@ Partial Class Form1
         Me.ButtonFaerlethKin.Text = "Previous"
         Me.ButtonFaerlethKin.UseVisualStyleBackColor = True
         '
-        'RadioButtonFaerlethMastermunchyologist
+        'PanelOrc
         '
-        Me.RadioButtonFaerlethMastermunchyologist.AutoSize = True
-        Me.RadioButtonFaerlethMastermunchyologist.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonFaerlethMastermunchyologist.Location = New System.Drawing.Point(267, 211)
-        Me.RadioButtonFaerlethMastermunchyologist.Name = "RadioButtonFaerlethMastermunchyologist"
-        Me.RadioButtonFaerlethMastermunchyologist.Size = New System.Drawing.Size(149, 20)
-        Me.RadioButtonFaerlethMastermunchyologist.TabIndex = 7
-        Me.RadioButtonFaerlethMastermunchyologist.TabStop = True
-        Me.RadioButtonFaerlethMastermunchyologist.Text = "Master Munchyologist"
-        Me.RadioButtonFaerlethMastermunchyologist.UseVisualStyleBackColor = True
+        Me.PanelOrc.Controls.Add(Me.ButtonOrcInfo)
+        Me.PanelOrc.Controls.Add(Me.RadioButtonOrcGruff)
+        Me.PanelOrc.Controls.Add(Me.RadioButtonOrcBloodpool)
+        Me.PanelOrc.Controls.Add(Me.RadioButtonOrcFeelnopain)
+        Me.PanelOrc.Controls.Add(Me.LabelOrcIntro)
+        Me.PanelOrc.Controls.Add(Me.ButtonOrcBackgrounds)
+        Me.PanelOrc.Controls.Add(Me.ButtonOrcKin)
+        Me.PanelOrc.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelOrc.Enabled = False
+        Me.PanelOrc.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelOrc.Location = New System.Drawing.Point(0, 0)
+        Me.PanelOrc.Name = "PanelOrc"
+        Me.PanelOrc.Size = New System.Drawing.Size(621, 316)
+        Me.PanelOrc.TabIndex = 23
+        '
+        'ButtonOrcInfo
+        '
+        Me.ButtonOrcInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonOrcInfo.Name = "ButtonOrcInfo"
+        Me.ButtonOrcInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonOrcInfo.TabIndex = 6
+        Me.ButtonOrcInfo.Text = "Info"
+        Me.ButtonOrcInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonOrcGruff
+        '
+        Me.RadioButtonOrcGruff.AutoSize = True
+        Me.RadioButtonOrcGruff.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonOrcGruff.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonOrcGruff.Name = "RadioButtonOrcGruff"
+        Me.RadioButtonOrcGruff.Size = New System.Drawing.Size(54, 20)
+        Me.RadioButtonOrcGruff.TabIndex = 5
+        Me.RadioButtonOrcGruff.TabStop = True
+        Me.RadioButtonOrcGruff.Text = "Gruff"
+        Me.RadioButtonOrcGruff.UseVisualStyleBackColor = True
+        '
+        'RadioButtonOrcBloodpool
+        '
+        Me.RadioButtonOrcBloodpool.AutoSize = True
+        Me.RadioButtonOrcBloodpool.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonOrcBloodpool.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonOrcBloodpool.Name = "RadioButtonOrcBloodpool"
+        Me.RadioButtonOrcBloodpool.Size = New System.Drawing.Size(85, 20)
+        Me.RadioButtonOrcBloodpool.TabIndex = 4
+        Me.RadioButtonOrcBloodpool.TabStop = True
+        Me.RadioButtonOrcBloodpool.Text = "Blood Pool"
+        Me.RadioButtonOrcBloodpool.UseVisualStyleBackColor = True
+        '
+        'RadioButtonOrcFeelnopain
+        '
+        Me.RadioButtonOrcFeelnopain.AutoSize = True
+        Me.RadioButtonOrcFeelnopain.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonOrcFeelnopain.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonOrcFeelnopain.Name = "RadioButtonOrcFeelnopain"
+        Me.RadioButtonOrcFeelnopain.Size = New System.Drawing.Size(97, 20)
+        Me.RadioButtonOrcFeelnopain.TabIndex = 3
+        Me.RadioButtonOrcFeelnopain.TabStop = True
+        Me.RadioButtonOrcFeelnopain.Text = "Feel No Pain"
+        Me.RadioButtonOrcFeelnopain.UseVisualStyleBackColor = True
+        '
+        'LabelOrcIntro
+        '
+        Me.LabelOrcIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelOrcIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelOrcIntro.Name = "LabelOrcIntro"
+        Me.LabelOrcIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelOrcIntro.TabIndex = 2
+        Me.LabelOrcIntro.Text = resources.GetString("LabelOrcIntro.Text")
+        '
+        'ButtonOrcBackgrounds
+        '
+        Me.ButtonOrcBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonOrcBackgrounds.Name = "ButtonOrcBackgrounds"
+        Me.ButtonOrcBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonOrcBackgrounds.TabIndex = 1
+        Me.ButtonOrcBackgrounds.Text = "Next"
+        Me.ButtonOrcBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonOrcKin
+        '
+        Me.ButtonOrcKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonOrcKin.Name = "ButtonOrcKin"
+        Me.ButtonOrcKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonOrcKin.TabIndex = 0
+        Me.ButtonOrcKin.Text = "Previous"
+        Me.ButtonOrcKin.UseVisualStyleBackColor = True
+        '
+        'PanelSanjoran
+        '
+        Me.PanelSanjoran.Controls.Add(Me.ButtonSanjoranInfo)
+        Me.PanelSanjoran.Controls.Add(Me.RadioButtonSanjoranNip)
+        Me.PanelSanjoran.Controls.Add(Me.RadioButtonSanjoranRegrowth)
+        Me.PanelSanjoran.Controls.Add(Me.RadioButtonSanjoranResistance)
+        Me.PanelSanjoran.Controls.Add(Me.LabelSanjoranIntro)
+        Me.PanelSanjoran.Controls.Add(Me.ButtonSanjoranBackgrounds)
+        Me.PanelSanjoran.Controls.Add(Me.ButtonSanjoranKin)
+        Me.PanelSanjoran.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelSanjoran.Enabled = False
+        Me.PanelSanjoran.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelSanjoran.Location = New System.Drawing.Point(0, 0)
+        Me.PanelSanjoran.Name = "PanelSanjoran"
+        Me.PanelSanjoran.Size = New System.Drawing.Size(621, 316)
+        Me.PanelSanjoran.TabIndex = 24
+        '
+        'ButtonSanjoranInfo
+        '
+        Me.ButtonSanjoranInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonSanjoranInfo.Name = "ButtonSanjoranInfo"
+        Me.ButtonSanjoranInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonSanjoranInfo.TabIndex = 6
+        Me.ButtonSanjoranInfo.Text = "Info"
+        Me.ButtonSanjoranInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonSanjoranNip
+        '
+        Me.RadioButtonSanjoranNip.AutoSize = True
+        Me.RadioButtonSanjoranNip.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonSanjoranNip.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonSanjoranNip.Name = "RadioButtonSanjoranNip"
+        Me.RadioButtonSanjoranNip.Size = New System.Drawing.Size(44, 20)
+        Me.RadioButtonSanjoranNip.TabIndex = 5
+        Me.RadioButtonSanjoranNip.TabStop = True
+        Me.RadioButtonSanjoranNip.Text = "Nip"
+        Me.RadioButtonSanjoranNip.UseVisualStyleBackColor = True
+        '
+        'RadioButtonSanjoranRegrowth
+        '
+        Me.RadioButtonSanjoranRegrowth.AutoSize = True
+        Me.RadioButtonSanjoranRegrowth.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonSanjoranRegrowth.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonSanjoranRegrowth.Name = "RadioButtonSanjoranRegrowth"
+        Me.RadioButtonSanjoranRegrowth.Size = New System.Drawing.Size(81, 20)
+        Me.RadioButtonSanjoranRegrowth.TabIndex = 4
+        Me.RadioButtonSanjoranRegrowth.TabStop = True
+        Me.RadioButtonSanjoranRegrowth.Text = "Regrowth"
+        Me.RadioButtonSanjoranRegrowth.UseVisualStyleBackColor = True
+        '
+        'RadioButtonSanjoranResistance
+        '
+        Me.RadioButtonSanjoranResistance.AutoSize = True
+        Me.RadioButtonSanjoranResistance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonSanjoranResistance.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonSanjoranResistance.Name = "RadioButtonSanjoranResistance"
+        Me.RadioButtonSanjoranResistance.Size = New System.Drawing.Size(87, 20)
+        Me.RadioButtonSanjoranResistance.TabIndex = 3
+        Me.RadioButtonSanjoranResistance.TabStop = True
+        Me.RadioButtonSanjoranResistance.Text = "Resistance"
+        Me.RadioButtonSanjoranResistance.UseVisualStyleBackColor = True
+        '
+        'LabelSanjoranIntro
+        '
+        Me.LabelSanjoranIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelSanjoranIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelSanjoranIntro.Name = "LabelSanjoranIntro"
+        Me.LabelSanjoranIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelSanjoranIntro.TabIndex = 2
+        Me.LabelSanjoranIntro.Text = resources.GetString("LabelSanjoranIntro.Text")
+        '
+        'ButtonSanjoranBackgrounds
+        '
+        Me.ButtonSanjoranBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonSanjoranBackgrounds.Name = "ButtonSanjoranBackgrounds"
+        Me.ButtonSanjoranBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonSanjoranBackgrounds.TabIndex = 1
+        Me.ButtonSanjoranBackgrounds.Text = "Next"
+        Me.ButtonSanjoranBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonSanjoranKin
+        '
+        Me.ButtonSanjoranKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonSanjoranKin.Name = "ButtonSanjoranKin"
+        Me.ButtonSanjoranKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonSanjoranKin.TabIndex = 0
+        Me.ButtonSanjoranKin.Text = "Previous"
+        Me.ButtonSanjoranKin.UseVisualStyleBackColor = True
+        '
+        'PanelWastelander
+        '
+        Me.PanelWastelander.Controls.Add(Me.ButtonWastelanderInfo)
+        Me.PanelWastelander.Controls.Add(Me.RadioButtonWastelanderBlendin)
+        Me.PanelWastelander.Controls.Add(Me.RadioButtonWastelanderStreetsmart)
+        Me.PanelWastelander.Controls.Add(Me.RadioButtonWastelanderThuroughsearch)
+        Me.PanelWastelander.Controls.Add(Me.LabelWastelanderIntro)
+        Me.PanelWastelander.Controls.Add(Me.ButtonWastelanderBackgrounds)
+        Me.PanelWastelander.Controls.Add(Me.ButtonWastelanderKin)
+        Me.PanelWastelander.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelWastelander.Enabled = False
+        Me.PanelWastelander.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelWastelander.Location = New System.Drawing.Point(0, 0)
+        Me.PanelWastelander.Name = "PanelWastelander"
+        Me.PanelWastelander.Size = New System.Drawing.Size(621, 316)
+        Me.PanelWastelander.TabIndex = 25
+        '
+        'ButtonWastelanderInfo
+        '
+        Me.ButtonWastelanderInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonWastelanderInfo.Name = "ButtonWastelanderInfo"
+        Me.ButtonWastelanderInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWastelanderInfo.TabIndex = 6
+        Me.ButtonWastelanderInfo.Text = "Info"
+        Me.ButtonWastelanderInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWastelanderBlendin
+        '
+        Me.RadioButtonWastelanderBlendin.AutoSize = True
+        Me.RadioButtonWastelanderBlendin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonWastelanderBlendin.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonWastelanderBlendin.Name = "RadioButtonWastelanderBlendin"
+        Me.RadioButtonWastelanderBlendin.Size = New System.Drawing.Size(75, 20)
+        Me.RadioButtonWastelanderBlendin.TabIndex = 5
+        Me.RadioButtonWastelanderBlendin.TabStop = True
+        Me.RadioButtonWastelanderBlendin.Text = "Blend in "
+        Me.RadioButtonWastelanderBlendin.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWastelanderStreetsmart
+        '
+        Me.RadioButtonWastelanderStreetsmart.AutoSize = True
+        Me.RadioButtonWastelanderStreetsmart.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonWastelanderStreetsmart.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonWastelanderStreetsmart.Name = "RadioButtonWastelanderStreetsmart"
+        Me.RadioButtonWastelanderStreetsmart.Size = New System.Drawing.Size(100, 20)
+        Me.RadioButtonWastelanderStreetsmart.TabIndex = 4
+        Me.RadioButtonWastelanderStreetsmart.TabStop = True
+        Me.RadioButtonWastelanderStreetsmart.Text = "Street Smart"
+        Me.RadioButtonWastelanderStreetsmart.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWastelanderThuroughsearch
+        '
+        Me.RadioButtonWastelanderThuroughsearch.AutoSize = True
+        Me.RadioButtonWastelanderThuroughsearch.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonWastelanderThuroughsearch.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonWastelanderThuroughsearch.Name = "RadioButtonWastelanderThuroughsearch"
+        Me.RadioButtonWastelanderThuroughsearch.Size = New System.Drawing.Size(125, 20)
+        Me.RadioButtonWastelanderThuroughsearch.TabIndex = 3
+        Me.RadioButtonWastelanderThuroughsearch.TabStop = True
+        Me.RadioButtonWastelanderThuroughsearch.Text = "Thurough Search"
+        Me.RadioButtonWastelanderThuroughsearch.UseVisualStyleBackColor = True
+        '
+        'LabelWastelanderIntro
+        '
+        Me.LabelWastelanderIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelWastelanderIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelWastelanderIntro.Name = "LabelWastelanderIntro"
+        Me.LabelWastelanderIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelWastelanderIntro.TabIndex = 2
+        Me.LabelWastelanderIntro.Text = resources.GetString("LabelWastelanderIntro.Text")
+        '
+        'ButtonWastelanderBackgrounds
+        '
+        Me.ButtonWastelanderBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonWastelanderBackgrounds.Name = "ButtonWastelanderBackgrounds"
+        Me.ButtonWastelanderBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWastelanderBackgrounds.TabIndex = 1
+        Me.ButtonWastelanderBackgrounds.Text = "Next"
+        Me.ButtonWastelanderBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonWastelanderKin
+        '
+        Me.ButtonWastelanderKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonWastelanderKin.Name = "ButtonWastelanderKin"
+        Me.ButtonWastelanderKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWastelanderKin.TabIndex = 0
+        Me.ButtonWastelanderKin.Text = "Previous"
+        Me.ButtonWastelanderKin.UseVisualStyleBackColor = True
+        '
+        'PanelWolfsbein
+        '
+        Me.PanelWolfsbein.Controls.Add(Me.ButtonWolfsbeinInfo)
+        Me.PanelWolfsbein.Controls.Add(Me.RadioButtonWolfsbeinRedolent)
+        Me.PanelWolfsbein.Controls.Add(Me.RadioButtonWolfsbeinPowerthrough)
+        Me.PanelWolfsbein.Controls.Add(Me.RadioButtonWolfsbeinTrustworthy)
+        Me.PanelWolfsbein.Controls.Add(Me.LabelWolfsbeinIntro)
+        Me.PanelWolfsbein.Controls.Add(Me.ButtonWolfsbeinBackgrounds)
+        Me.PanelWolfsbein.Controls.Add(Me.ButtonWolfsbeinKin)
+        Me.PanelWolfsbein.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelWolfsbein.Enabled = False
+        Me.PanelWolfsbein.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelWolfsbein.Location = New System.Drawing.Point(0, 0)
+        Me.PanelWolfsbein.Name = "PanelWolfsbein"
+        Me.PanelWolfsbein.Size = New System.Drawing.Size(621, 316)
+        Me.PanelWolfsbein.TabIndex = 26
+        '
+        'ButtonWolfsbeinInfo
+        '
+        Me.ButtonWolfsbeinInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonWolfsbeinInfo.Name = "ButtonWolfsbeinInfo"
+        Me.ButtonWolfsbeinInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWolfsbeinInfo.TabIndex = 6
+        Me.ButtonWolfsbeinInfo.Text = "Info"
+        Me.ButtonWolfsbeinInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWolfsbeinRedolent
+        '
+        Me.RadioButtonWolfsbeinRedolent.AutoSize = True
+        Me.RadioButtonWolfsbeinRedolent.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonWolfsbeinRedolent.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonWolfsbeinRedolent.Name = "RadioButtonWolfsbeinRedolent"
+        Me.RadioButtonWolfsbeinRedolent.Size = New System.Drawing.Size(80, 20)
+        Me.RadioButtonWolfsbeinRedolent.TabIndex = 5
+        Me.RadioButtonWolfsbeinRedolent.TabStop = True
+        Me.RadioButtonWolfsbeinRedolent.Text = "Redolent "
+        Me.RadioButtonWolfsbeinRedolent.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWolfsbeinPowerthrough
+        '
+        Me.RadioButtonWolfsbeinPowerthrough.AutoSize = True
+        Me.RadioButtonWolfsbeinPowerthrough.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonWolfsbeinPowerthrough.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonWolfsbeinPowerthrough.Name = "RadioButtonWolfsbeinPowerthrough"
+        Me.RadioButtonWolfsbeinPowerthrough.Size = New System.Drawing.Size(114, 20)
+        Me.RadioButtonWolfsbeinPowerthrough.TabIndex = 4
+        Me.RadioButtonWolfsbeinPowerthrough.TabStop = True
+        Me.RadioButtonWolfsbeinPowerthrough.Text = "Power Through"
+        Me.RadioButtonWolfsbeinPowerthrough.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWolfsbeinTrustworthy
+        '
+        Me.RadioButtonWolfsbeinTrustworthy.AutoSize = True
+        Me.RadioButtonWolfsbeinTrustworthy.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonWolfsbeinTrustworthy.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonWolfsbeinTrustworthy.Name = "RadioButtonWolfsbeinTrustworthy"
+        Me.RadioButtonWolfsbeinTrustworthy.Size = New System.Drawing.Size(95, 20)
+        Me.RadioButtonWolfsbeinTrustworthy.TabIndex = 3
+        Me.RadioButtonWolfsbeinTrustworthy.TabStop = True
+        Me.RadioButtonWolfsbeinTrustworthy.Text = "Trustworthy"
+        Me.RadioButtonWolfsbeinTrustworthy.UseVisualStyleBackColor = True
+        '
+        'LabelWolfsbeinIntro
+        '
+        Me.LabelWolfsbeinIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelWolfsbeinIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelWolfsbeinIntro.Name = "LabelWolfsbeinIntro"
+        Me.LabelWolfsbeinIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelWolfsbeinIntro.TabIndex = 2
+        Me.LabelWolfsbeinIntro.Text = resources.GetString("LabelWolfsbeinIntro.Text")
+        '
+        'ButtonWolfsbeinBackgrounds
+        '
+        Me.ButtonWolfsbeinBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonWolfsbeinBackgrounds.Name = "ButtonWolfsbeinBackgrounds"
+        Me.ButtonWolfsbeinBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWolfsbeinBackgrounds.TabIndex = 1
+        Me.ButtonWolfsbeinBackgrounds.Text = "Next"
+        Me.ButtonWolfsbeinBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonWolfsbeinKin
+        '
+        Me.ButtonWolfsbeinKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonWolfsbeinKin.Name = "ButtonWolfsbeinKin"
+        Me.ButtonWolfsbeinKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWolfsbeinKin.TabIndex = 0
+        Me.ButtonWolfsbeinKin.Text = "Previous"
+        Me.ButtonWolfsbeinKin.UseVisualStyleBackColor = True
+        '
+        'PanelWoodelf
+        '
+        Me.PanelWoodelf.Controls.Add(Me.ButtonWoodelfInfo)
+        Me.PanelWoodelf.Controls.Add(Me.RadioButtonWoodelfElementaryinvocation)
+        Me.PanelWoodelf.Controls.Add(Me.RadioButtonWoodelfForestflight)
+        Me.PanelWoodelf.Controls.Add(Me.RadioButtonWoodelfLifeattunement)
+        Me.PanelWoodelf.Controls.Add(Me.LabelWoodelfIntro)
+        Me.PanelWoodelf.Controls.Add(Me.ButtonWoodelfBackgrounds)
+        Me.PanelWoodelf.Controls.Add(Me.ButtonWoodelfKin)
+        Me.PanelWoodelf.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelWoodelf.Enabled = False
+        Me.PanelWoodelf.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelWoodelf.Location = New System.Drawing.Point(0, 0)
+        Me.PanelWoodelf.Name = "PanelWoodelf"
+        Me.PanelWoodelf.Size = New System.Drawing.Size(621, 316)
+        Me.PanelWoodelf.TabIndex = 27
+        '
+        'ButtonWoodelfInfo
+        '
+        Me.ButtonWoodelfInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonWoodelfInfo.Name = "ButtonWoodelfInfo"
+        Me.ButtonWoodelfInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWoodelfInfo.TabIndex = 6
+        Me.ButtonWoodelfInfo.Text = "Info"
+        Me.ButtonWoodelfInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWoodelfElementaryinvocation
+        '
+        Me.RadioButtonWoodelfElementaryinvocation.AutoSize = True
+        Me.RadioButtonWoodelfElementaryinvocation.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonWoodelfElementaryinvocation.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonWoodelfElementaryinvocation.Name = "RadioButtonWoodelfElementaryinvocation"
+        Me.RadioButtonWoodelfElementaryinvocation.Size = New System.Drawing.Size(152, 20)
+        Me.RadioButtonWoodelfElementaryinvocation.TabIndex = 5
+        Me.RadioButtonWoodelfElementaryinvocation.TabStop = True
+        Me.RadioButtonWoodelfElementaryinvocation.Text = "Elementary Invocation"
+        Me.RadioButtonWoodelfElementaryinvocation.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWoodelfForestflight
+        '
+        Me.RadioButtonWoodelfForestflight.AutoSize = True
+        Me.RadioButtonWoodelfForestflight.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonWoodelfForestflight.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonWoodelfForestflight.Name = "RadioButtonWoodelfForestflight"
+        Me.RadioButtonWoodelfForestflight.Size = New System.Drawing.Size(97, 20)
+        Me.RadioButtonWoodelfForestflight.TabIndex = 4
+        Me.RadioButtonWoodelfForestflight.TabStop = True
+        Me.RadioButtonWoodelfForestflight.Text = "Forest Flight"
+        Me.RadioButtonWoodelfForestflight.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWoodelfLifeattunement
+        '
+        Me.RadioButtonWoodelfLifeattunement.AutoSize = True
+        Me.RadioButtonWoodelfLifeattunement.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonWoodelfLifeattunement.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonWoodelfLifeattunement.Name = "RadioButtonWoodelfLifeattunement"
+        Me.RadioButtonWoodelfLifeattunement.Size = New System.Drawing.Size(116, 20)
+        Me.RadioButtonWoodelfLifeattunement.TabIndex = 3
+        Me.RadioButtonWoodelfLifeattunement.TabStop = True
+        Me.RadioButtonWoodelfLifeattunement.Text = "Life Attunement"
+        Me.RadioButtonWoodelfLifeattunement.UseVisualStyleBackColor = True
+        '
+        'LabelWoodelfIntro
+        '
+        Me.LabelWoodelfIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelWoodelfIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelWoodelfIntro.Name = "LabelWoodelfIntro"
+        Me.LabelWoodelfIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelWoodelfIntro.TabIndex = 2
+        Me.LabelWoodelfIntro.Text = resources.GetString("LabelWoodelfIntro.Text")
+        '
+        'ButtonWoodelfBackgrounds
+        '
+        Me.ButtonWoodelfBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonWoodelfBackgrounds.Name = "ButtonWoodelfBackgrounds"
+        Me.ButtonWoodelfBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWoodelfBackgrounds.TabIndex = 1
+        Me.ButtonWoodelfBackgrounds.Text = "Next"
+        Me.ButtonWoodelfBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonWoodelfKin
+        '
+        Me.ButtonWoodelfKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonWoodelfKin.Name = "ButtonWoodelfKin"
+        Me.ButtonWoodelfKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWoodelfKin.TabIndex = 0
+        Me.ButtonWoodelfKin.Text = "Previous"
+        Me.ButtonWoodelfKin.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
-        Me.Controls.Add(Me.PanelFaerleth)
+        Me.Controls.Add(Me.PanelWoodelf)
+        Me.Controls.Add(Me.PanelWolfsbein)
+        Me.Controls.Add(Me.PanelWastelander)
+        Me.Controls.Add(Me.PanelSanjoran)
+        Me.Controls.Add(Me.PanelOrc)
         Me.Controls.Add(Me.PanelHighelf)
         Me.Controls.Add(Me.PanelGigayona)
         Me.Controls.Add(Me.PanelFelucian)
@@ -2609,6 +3103,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelWelcome)
         Me.Controls.Add(Me.PanelNyad)
         Me.Controls.Add(Me.PanelAngalucian)
+        Me.Controls.Add(Me.PanelFaerleth)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelWelcome.ResumeLayout(False)
@@ -2649,6 +3144,16 @@ Partial Class Form1
         Me.PanelHighelf.PerformLayout()
         Me.PanelFaerleth.ResumeLayout(False)
         Me.PanelFaerleth.PerformLayout()
+        Me.PanelOrc.ResumeLayout(False)
+        Me.PanelOrc.PerformLayout()
+        Me.PanelSanjoran.ResumeLayout(False)
+        Me.PanelSanjoran.PerformLayout()
+        Me.PanelWastelander.ResumeLayout(False)
+        Me.PanelWastelander.PerformLayout()
+        Me.PanelWolfsbein.ResumeLayout(False)
+        Me.PanelWolfsbein.PerformLayout()
+        Me.PanelWoodelf.ResumeLayout(False)
+        Me.PanelWoodelf.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2862,4 +3367,44 @@ Partial Class Form1
     Friend WithEvents LabelFaerlethIntro As Label
     Friend WithEvents ButtonFaerlethBackgrounds As Button
     Friend WithEvents ButtonFaerlethKin As Button
+    Friend WithEvents PanelOrc As Panel
+    Friend WithEvents ButtonOrcInfo As Button
+    Friend WithEvents RadioButtonOrcGruff As RadioButton
+    Friend WithEvents RadioButtonOrcBloodpool As RadioButton
+    Friend WithEvents RadioButtonOrcFeelnopain As RadioButton
+    Friend WithEvents LabelOrcIntro As Label
+    Friend WithEvents ButtonOrcBackgrounds As Button
+    Friend WithEvents ButtonOrcKin As Button
+    Friend WithEvents PanelSanjoran As Panel
+    Friend WithEvents ButtonSanjoranInfo As Button
+    Friend WithEvents RadioButtonSanjoranNip As RadioButton
+    Friend WithEvents RadioButtonSanjoranRegrowth As RadioButton
+    Friend WithEvents RadioButtonSanjoranResistance As RadioButton
+    Friend WithEvents LabelSanjoranIntro As Label
+    Friend WithEvents ButtonSanjoranBackgrounds As Button
+    Friend WithEvents ButtonSanjoranKin As Button
+    Friend WithEvents PanelWastelander As Panel
+    Friend WithEvents ButtonWastelanderInfo As Button
+    Friend WithEvents RadioButtonWastelanderBlendin As RadioButton
+    Friend WithEvents RadioButtonWastelanderStreetsmart As RadioButton
+    Friend WithEvents RadioButtonWastelanderThuroughsearch As RadioButton
+    Friend WithEvents LabelWastelanderIntro As Label
+    Friend WithEvents ButtonWastelanderBackgrounds As Button
+    Friend WithEvents ButtonWastelanderKin As Button
+    Friend WithEvents PanelWolfsbein As Panel
+    Friend WithEvents ButtonWolfsbeinInfo As Button
+    Friend WithEvents RadioButtonWolfsbeinRedolent As RadioButton
+    Friend WithEvents RadioButtonWolfsbeinPowerthrough As RadioButton
+    Friend WithEvents RadioButtonWolfsbeinTrustworthy As RadioButton
+    Friend WithEvents LabelWolfsbeinIntro As Label
+    Friend WithEvents ButtonWolfsbeinBackgrounds As Button
+    Friend WithEvents ButtonWolfsbeinKin As Button
+    Friend WithEvents PanelWoodelf As Panel
+    Friend WithEvents ButtonWoodelfInfo As Button
+    Friend WithEvents RadioButtonWoodelfElementaryinvocation As RadioButton
+    Friend WithEvents RadioButtonWoodelfForestflight As RadioButton
+    Friend WithEvents RadioButtonWoodelfLifeattunement As RadioButton
+    Friend WithEvents LabelWoodelfIntro As Label
+    Friend WithEvents ButtonWoodelfBackgrounds As Button
+    Friend WithEvents ButtonWoodelfKin As Button
 End Class

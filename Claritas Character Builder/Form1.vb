@@ -385,4 +385,84 @@
         'Me.PanelBackgrounds.BringToFront()
         'Me.PanelFaerleth.Enabled = False
     End Sub
+
+    Private Sub ButtonOrcInfo_Click(sender As Object, e As EventArgs) Handles ButtonOrcInfo.Click
+        ConstructInfoForm("AttributeOrc")
+    End Sub
+
+    Private Sub ButtonOrcKin_Click(sender As Object, e As EventArgs) Handles ButtonOrcKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelOrc.Enabled = False
+    End Sub
+
+    Private Sub ButtonOrcBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonOrcBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelOrc.Enabled = False
+    End Sub
+
+    Private Sub ButtonSanjoranInfo_Click(sender As Object, e As EventArgs) Handles ButtonSanjoranInfo.Click
+        ConstructInfoForm("AttributeSanjoran")
+    End Sub
+
+    Private Sub ButtonSanjoranKin_Click(sender As Object, e As EventArgs) Handles ButtonSanjoranKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelSanjoran.Enabled = False
+    End Sub
+
+    Private Sub ButtonSanjoranBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonSanjoranBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelSanjoran.Enabled = False
+    End Sub
+
+    Private Sub ButtonWastelanderInfo_Click(sender As Object, e As EventArgs) Handles ButtonWastelanderInfo.Click
+        ConstructInfoForm("AttributeWastelander")
+    End Sub
+
+    Private Sub ButtonWastelanderKin_Click(sender As Object, e As EventArgs) Handles ButtonWastelanderKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelWastelander.Enabled = False
+    End Sub
+
+    Private Sub ButtonWastelanderBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonWastelanderBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelWastelander.Enabled = False
+    End Sub
+
+    Private Sub ButtonWolfsbeinInfo_Click(sender As Object, e As EventArgs) Handles ButtonWolfsbeinInfo.Click
+        ConstructInfoForm("AttributeWolfsbein")
+    End Sub
+
+    Private Sub ButtonWolfsbeinKin_Click(sender As Object, e As EventArgs) Handles ButtonWolfsbeinKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelWolfsbein.Enabled = False
+    End Sub
+
+    Private Sub ButtonWolfsbeinBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonWolfsbeinBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelWolfsbein.Enabled = False
+    End Sub
+
+    Private Sub ButtonWoodelfInfo_Click(sender As Object, e As EventArgs) Handles ButtonWoodelfInfo.Click
+        ConstructInfoForm("AttributeWoodelf")
+    End Sub
+
+    Private Sub ButtonWoodelfKin_Click(sender As Object, e As EventArgs) Handles ButtonWoodelfKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelWoodelf.Enabled = False
+    End Sub
+
+    Private Sub ButtonWoodelfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonWoodelfBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelWoodelf.Enabled = False
+    End Sub
 End Class
