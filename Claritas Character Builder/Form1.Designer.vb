@@ -174,14 +174,65 @@ Partial Class Form1
         Me.LabelKinsmanIntro = New System.Windows.Forms.Label()
         Me.ButtonKinsmanBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonKinsmanKin = New System.Windows.Forms.Button()
-        Me.PanelMinotaur = New System.Windows.Forms.Panel()
-        Me.ButtonMinotaurInfo = New System.Windows.Forms.Button()
-        Me.RadioButtonMinotaurCharge = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonMinotaurDaunting = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonMinotaurRam = New System.Windows.Forms.RadioButton()
-        Me.LabelMinotaur = New System.Windows.Forms.Label()
-        Me.ButtonMinotaurBackgrounds = New System.Windows.Forms.Button()
+        Me.PanelAngalucian = New System.Windows.Forms.Panel()
+        Me.ButtonAngelucianInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonAngalucianTakeheed = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonAngalucianAmaze = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonAngalucianFlight = New System.Windows.Forms.RadioButton()
+        Me.LabelAngelucianIntro = New System.Windows.Forms.Label()
+        Me.ButtonAngalucianBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonAngalucianKin = New System.Windows.Forms.Button()
+        Me.RadioButtonAngalucianBeaconoflight = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonAngalucianBlessedweapon = New System.Windows.Forms.RadioButton()
         Me.ButtonMinotaurKin = New System.Windows.Forms.Button()
+        Me.ButtonMinotaurBackgrounds = New System.Windows.Forms.Button()
+        Me.LabelMinotaur = New System.Windows.Forms.Label()
+        Me.RadioButtonMinotaurRam = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonMinotaurDaunting = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonMinotaurCharge = New System.Windows.Forms.RadioButton()
+        Me.ButtonMinotaurInfo = New System.Windows.Forms.Button()
+        Me.PanelMinotaur = New System.Windows.Forms.Panel()
+        Me.PanelDarkelf = New System.Windows.Forms.Panel()
+        Me.ButtonDarkelfInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonDarkelfLightsleeper = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonDarkelfAlignment = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonDarkelfNightvision = New System.Windows.Forms.RadioButton()
+        Me.LabelDarkelfIntro = New System.Windows.Forms.Label()
+        Me.ButtonDarkelfBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonDarkelfKin = New System.Windows.Forms.Button()
+        Me.PanelFelucian = New System.Windows.Forms.Panel()
+        Me.ButtonFelucianInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonFelucianWingburst = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonFelucianHangingaround = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonFelucianDarkness = New System.Windows.Forms.RadioButton()
+        Me.LabelFelucianIntro = New System.Windows.Forms.Label()
+        Me.ButtonFelucianBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonFelucianKin = New System.Windows.Forms.Button()
+        Me.PanelGigayona = New System.Windows.Forms.Panel()
+        Me.ButtonGigayonaInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonGigayonaThickcoat = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonGigayonaFoodsfood = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonGigayonaBellysmash = New System.Windows.Forms.RadioButton()
+        Me.LabelGigayonaIntro = New System.Windows.Forms.Label()
+        Me.ButtonGigayonaBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonGigayonaKin = New System.Windows.Forms.Button()
+        Me.PanelHighelf = New System.Windows.Forms.Panel()
+        Me.ButtonHighelfInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonHighelfColorsofthewind = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHighelfLightfoot = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHighelfBedazzle = New System.Windows.Forms.RadioButton()
+        Me.LabelHighelfIntro = New System.Windows.Forms.Label()
+        Me.ButtonHighelfBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonHighelfKin = New System.Windows.Forms.Button()
+        Me.PanelFaerleth = New System.Windows.Forms.Panel()
+        Me.ButtonFaerlethInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonFaerlethRiddle = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonFaerlethToughfeet = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonFaerlethHideyhole = New System.Windows.Forms.RadioButton()
+        Me.LabelFaerlethIntro = New System.Windows.Forms.Label()
+        Me.ButtonFaerlethBackgrounds = New System.Windows.Forms.Button()
+        Me.ButtonFaerlethKin = New System.Windows.Forms.Button()
+        Me.RadioButtonFaerlethMastermunchyologist = New System.Windows.Forms.RadioButton()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
@@ -194,7 +245,13 @@ Partial Class Form1
         Me.PanelTroll.SuspendLayout()
         Me.PanelCatdrah.SuspendLayout()
         Me.PanelKinsman.SuspendLayout()
+        Me.PanelAngalucian.SuspendLayout()
         Me.PanelMinotaur.SuspendLayout()
+        Me.PanelDarkelf.SuspendLayout()
+        Me.PanelFelucian.SuspendLayout()
+        Me.PanelGigayona.SuspendLayout()
+        Me.PanelHighelf.SuspendLayout()
+        Me.PanelFaerleth.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -1866,6 +1923,193 @@ Partial Class Form1
         Me.ButtonKinsmanKin.Text = "Previous"
         Me.ButtonKinsmanKin.UseVisualStyleBackColor = True
         '
+        'PanelAngalucian
+        '
+        Me.PanelAngalucian.Controls.Add(Me.RadioButtonAngalucianBlessedweapon)
+        Me.PanelAngalucian.Controls.Add(Me.RadioButtonAngalucianBeaconoflight)
+        Me.PanelAngalucian.Controls.Add(Me.ButtonAngelucianInfo)
+        Me.PanelAngalucian.Controls.Add(Me.RadioButtonAngalucianTakeheed)
+        Me.PanelAngalucian.Controls.Add(Me.RadioButtonAngalucianAmaze)
+        Me.PanelAngalucian.Controls.Add(Me.RadioButtonAngalucianFlight)
+        Me.PanelAngalucian.Controls.Add(Me.LabelAngelucianIntro)
+        Me.PanelAngalucian.Controls.Add(Me.ButtonAngalucianBackgrounds)
+        Me.PanelAngalucian.Controls.Add(Me.ButtonAngalucianKin)
+        Me.PanelAngalucian.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelAngalucian.Enabled = False
+        Me.PanelAngalucian.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelAngalucian.Location = New System.Drawing.Point(0, 0)
+        Me.PanelAngalucian.Name = "PanelAngalucian"
+        Me.PanelAngalucian.Size = New System.Drawing.Size(621, 316)
+        Me.PanelAngalucian.TabIndex = 17
+        '
+        'ButtonAngelucianInfo
+        '
+        Me.ButtonAngelucianInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonAngelucianInfo.Name = "ButtonAngelucianInfo"
+        Me.ButtonAngelucianInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonAngelucianInfo.TabIndex = 6
+        Me.ButtonAngelucianInfo.Text = "Info"
+        Me.ButtonAngelucianInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonAngalucianTakeheed
+        '
+        Me.RadioButtonAngalucianTakeheed.AutoSize = True
+        Me.RadioButtonAngalucianTakeheed.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonAngalucianTakeheed.Location = New System.Drawing.Point(267, 175)
+        Me.RadioButtonAngalucianTakeheed.Name = "RadioButtonAngalucianTakeheed"
+        Me.RadioButtonAngalucianTakeheed.Size = New System.Drawing.Size(87, 20)
+        Me.RadioButtonAngalucianTakeheed.TabIndex = 5
+        Me.RadioButtonAngalucianTakeheed.TabStop = True
+        Me.RadioButtonAngalucianTakeheed.Text = "Take Heed"
+        Me.RadioButtonAngalucianTakeheed.UseVisualStyleBackColor = True
+        '
+        'RadioButtonAngalucianAmaze
+        '
+        Me.RadioButtonAngalucianAmaze.AutoSize = True
+        Me.RadioButtonAngalucianAmaze.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonAngalucianAmaze.Location = New System.Drawing.Point(267, 149)
+        Me.RadioButtonAngalucianAmaze.Name = "RadioButtonAngalucianAmaze"
+        Me.RadioButtonAngalucianAmaze.Size = New System.Drawing.Size(65, 20)
+        Me.RadioButtonAngalucianAmaze.TabIndex = 4
+        Me.RadioButtonAngalucianAmaze.TabStop = True
+        Me.RadioButtonAngalucianAmaze.Text = "Amaze"
+        Me.RadioButtonAngalucianAmaze.UseVisualStyleBackColor = True
+        '
+        'RadioButtonAngalucianFlight
+        '
+        Me.RadioButtonAngalucianFlight.AutoSize = True
+        Me.RadioButtonAngalucianFlight.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonAngalucianFlight.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonAngalucianFlight.Name = "RadioButtonAngalucianFlight"
+        Me.RadioButtonAngalucianFlight.Size = New System.Drawing.Size(57, 20)
+        Me.RadioButtonAngalucianFlight.TabIndex = 3
+        Me.RadioButtonAngalucianFlight.TabStop = True
+        Me.RadioButtonAngalucianFlight.Text = "Flight"
+        Me.RadioButtonAngalucianFlight.UseVisualStyleBackColor = True
+        '
+        'LabelAngelucianIntro
+        '
+        Me.LabelAngelucianIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelAngelucianIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelAngelucianIntro.Name = "LabelAngelucianIntro"
+        Me.LabelAngelucianIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelAngelucianIntro.TabIndex = 2
+        Me.LabelAngelucianIntro.Text = resources.GetString("LabelAngelucianIntro.Text")
+        '
+        'ButtonAngalucianBackgrounds
+        '
+        Me.ButtonAngalucianBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonAngalucianBackgrounds.Name = "ButtonAngalucianBackgrounds"
+        Me.ButtonAngalucianBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonAngalucianBackgrounds.TabIndex = 1
+        Me.ButtonAngalucianBackgrounds.Text = "Next"
+        Me.ButtonAngalucianBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonAngalucianKin
+        '
+        Me.ButtonAngalucianKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonAngalucianKin.Name = "ButtonAngalucianKin"
+        Me.ButtonAngalucianKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonAngalucianKin.TabIndex = 0
+        Me.ButtonAngalucianKin.Text = "Previous"
+        Me.ButtonAngalucianKin.UseVisualStyleBackColor = True
+        '
+        'RadioButtonAngalucianBeaconoflight
+        '
+        Me.RadioButtonAngalucianBeaconoflight.AutoSize = True
+        Me.RadioButtonAngalucianBeaconoflight.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonAngalucianBeaconoflight.Location = New System.Drawing.Point(267, 201)
+        Me.RadioButtonAngalucianBeaconoflight.Name = "RadioButtonAngalucianBeaconoflight"
+        Me.RadioButtonAngalucianBeaconoflight.Size = New System.Drawing.Size(115, 20)
+        Me.RadioButtonAngalucianBeaconoflight.TabIndex = 7
+        Me.RadioButtonAngalucianBeaconoflight.TabStop = True
+        Me.RadioButtonAngalucianBeaconoflight.Text = "Beacon Of Light"
+        Me.RadioButtonAngalucianBeaconoflight.UseVisualStyleBackColor = True
+        '
+        'RadioButtonAngalucianBlessedweapon
+        '
+        Me.RadioButtonAngalucianBlessedweapon.AutoSize = True
+        Me.RadioButtonAngalucianBlessedweapon.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonAngalucianBlessedweapon.Location = New System.Drawing.Point(267, 226)
+        Me.RadioButtonAngalucianBlessedweapon.Name = "RadioButtonAngalucianBlessedweapon"
+        Me.RadioButtonAngalucianBlessedweapon.Size = New System.Drawing.Size(120, 20)
+        Me.RadioButtonAngalucianBlessedweapon.TabIndex = 8
+        Me.RadioButtonAngalucianBlessedweapon.TabStop = True
+        Me.RadioButtonAngalucianBlessedweapon.Text = "Blessed Weapon"
+        Me.RadioButtonAngalucianBlessedweapon.UseVisualStyleBackColor = True
+        '
+        'ButtonMinotaurKin
+        '
+        Me.ButtonMinotaurKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonMinotaurKin.Name = "ButtonMinotaurKin"
+        Me.ButtonMinotaurKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonMinotaurKin.TabIndex = 0
+        Me.ButtonMinotaurKin.Text = "Previous"
+        Me.ButtonMinotaurKin.UseVisualStyleBackColor = True
+        '
+        'ButtonMinotaurBackgrounds
+        '
+        Me.ButtonMinotaurBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonMinotaurBackgrounds.Name = "ButtonMinotaurBackgrounds"
+        Me.ButtonMinotaurBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonMinotaurBackgrounds.TabIndex = 1
+        Me.ButtonMinotaurBackgrounds.Text = "Next"
+        Me.ButtonMinotaurBackgrounds.UseVisualStyleBackColor = True
+        '
+        'LabelMinotaur
+        '
+        Me.LabelMinotaur.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelMinotaur.Location = New System.Drawing.Point(4, 4)
+        Me.LabelMinotaur.Name = "LabelMinotaur"
+        Me.LabelMinotaur.Size = New System.Drawing.Size(605, 80)
+        Me.LabelMinotaur.TabIndex = 2
+        Me.LabelMinotaur.Text = resources.GetString("LabelMinotaur.Text")
+        '
+        'RadioButtonMinotaurRam
+        '
+        Me.RadioButtonMinotaurRam.AutoSize = True
+        Me.RadioButtonMinotaurRam.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonMinotaurRam.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonMinotaurRam.Name = "RadioButtonMinotaurRam"
+        Me.RadioButtonMinotaurRam.Size = New System.Drawing.Size(52, 20)
+        Me.RadioButtonMinotaurRam.TabIndex = 3
+        Me.RadioButtonMinotaurRam.TabStop = True
+        Me.RadioButtonMinotaurRam.Text = "Ram"
+        Me.RadioButtonMinotaurRam.UseVisualStyleBackColor = True
+        '
+        'RadioButtonMinotaurDaunting
+        '
+        Me.RadioButtonMinotaurDaunting.AutoSize = True
+        Me.RadioButtonMinotaurDaunting.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonMinotaurDaunting.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonMinotaurDaunting.Name = "RadioButtonMinotaurDaunting"
+        Me.RadioButtonMinotaurDaunting.Size = New System.Drawing.Size(76, 20)
+        Me.RadioButtonMinotaurDaunting.TabIndex = 4
+        Me.RadioButtonMinotaurDaunting.TabStop = True
+        Me.RadioButtonMinotaurDaunting.Text = "Daunting"
+        Me.RadioButtonMinotaurDaunting.UseVisualStyleBackColor = True
+        '
+        'RadioButtonMinotaurCharge
+        '
+        Me.RadioButtonMinotaurCharge.AutoSize = True
+        Me.RadioButtonMinotaurCharge.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonMinotaurCharge.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonMinotaurCharge.Name = "RadioButtonMinotaurCharge"
+        Me.RadioButtonMinotaurCharge.Size = New System.Drawing.Size(67, 20)
+        Me.RadioButtonMinotaurCharge.TabIndex = 5
+        Me.RadioButtonMinotaurCharge.TabStop = True
+        Me.RadioButtonMinotaurCharge.Text = "Charge"
+        Me.RadioButtonMinotaurCharge.UseVisualStyleBackColor = True
+        '
+        'ButtonMinotaurInfo
+        '
+        Me.ButtonMinotaurInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonMinotaurInfo.Name = "ButtonMinotaurInfo"
+        Me.ButtonMinotaurInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonMinotaurInfo.TabIndex = 6
+        Me.ButtonMinotaurInfo.Text = "Info"
+        Me.ButtonMinotaurInfo.UseVisualStyleBackColor = True
+        '
         'PanelMinotaur
         '
         Me.PanelMinotaur.Controls.Add(Me.ButtonMinotaurInfo)
@@ -1883,83 +2127,474 @@ Partial Class Form1
         Me.PanelMinotaur.Size = New System.Drawing.Size(621, 316)
         Me.PanelMinotaur.TabIndex = 16
         '
-        'ButtonMinotaurInfo
+        'PanelDarkelf
         '
-        Me.ButtonMinotaurInfo.Location = New System.Drawing.Point(457, 142)
-        Me.ButtonMinotaurInfo.Name = "ButtonMinotaurInfo"
-        Me.ButtonMinotaurInfo.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonMinotaurInfo.TabIndex = 6
-        Me.ButtonMinotaurInfo.Text = "Info"
-        Me.ButtonMinotaurInfo.UseVisualStyleBackColor = True
+        Me.PanelDarkelf.Controls.Add(Me.ButtonDarkelfInfo)
+        Me.PanelDarkelf.Controls.Add(Me.RadioButtonDarkelfLightsleeper)
+        Me.PanelDarkelf.Controls.Add(Me.RadioButtonDarkelfAlignment)
+        Me.PanelDarkelf.Controls.Add(Me.RadioButtonDarkelfNightvision)
+        Me.PanelDarkelf.Controls.Add(Me.LabelDarkelfIntro)
+        Me.PanelDarkelf.Controls.Add(Me.ButtonDarkelfBackgrounds)
+        Me.PanelDarkelf.Controls.Add(Me.ButtonDarkelfKin)
+        Me.PanelDarkelf.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelDarkelf.Enabled = False
+        Me.PanelDarkelf.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelDarkelf.Location = New System.Drawing.Point(0, 0)
+        Me.PanelDarkelf.Name = "PanelDarkelf"
+        Me.PanelDarkelf.Size = New System.Drawing.Size(621, 316)
+        Me.PanelDarkelf.TabIndex = 18
         '
-        'RadioButtonMinotaurCharge
+        'ButtonDarkelfInfo
         '
-        Me.RadioButtonMinotaurCharge.AutoSize = True
-        Me.RadioButtonMinotaurCharge.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonMinotaurCharge.Location = New System.Drawing.Point(267, 204)
-        Me.RadioButtonMinotaurCharge.Name = "RadioButtonMinotaurCharge"
-        Me.RadioButtonMinotaurCharge.Size = New System.Drawing.Size(67, 20)
-        Me.RadioButtonMinotaurCharge.TabIndex = 5
-        Me.RadioButtonMinotaurCharge.TabStop = True
-        Me.RadioButtonMinotaurCharge.Text = "Charge"
-        Me.RadioButtonMinotaurCharge.UseVisualStyleBackColor = True
+        Me.ButtonDarkelfInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonDarkelfInfo.Name = "ButtonDarkelfInfo"
+        Me.ButtonDarkelfInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDarkelfInfo.TabIndex = 6
+        Me.ButtonDarkelfInfo.Text = "Info"
+        Me.ButtonDarkelfInfo.UseVisualStyleBackColor = True
         '
-        'RadioButtonMinotaurDaunting
+        'RadioButtonDarkelfLightsleeper
         '
-        Me.RadioButtonMinotaurDaunting.AutoSize = True
-        Me.RadioButtonMinotaurDaunting.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonMinotaurDaunting.Location = New System.Drawing.Point(267, 161)
-        Me.RadioButtonMinotaurDaunting.Name = "RadioButtonMinotaurDaunting"
-        Me.RadioButtonMinotaurDaunting.Size = New System.Drawing.Size(76, 20)
-        Me.RadioButtonMinotaurDaunting.TabIndex = 4
-        Me.RadioButtonMinotaurDaunting.TabStop = True
-        Me.RadioButtonMinotaurDaunting.Text = "Daunting"
-        Me.RadioButtonMinotaurDaunting.UseVisualStyleBackColor = True
+        Me.RadioButtonDarkelfLightsleeper.AutoSize = True
+        Me.RadioButtonDarkelfLightsleeper.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonDarkelfLightsleeper.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonDarkelfLightsleeper.Name = "RadioButtonDarkelfLightsleeper"
+        Me.RadioButtonDarkelfLightsleeper.Size = New System.Drawing.Size(101, 20)
+        Me.RadioButtonDarkelfLightsleeper.TabIndex = 5
+        Me.RadioButtonDarkelfLightsleeper.TabStop = True
+        Me.RadioButtonDarkelfLightsleeper.Text = "Light Sleeper"
+        Me.RadioButtonDarkelfLightsleeper.UseVisualStyleBackColor = True
         '
-        'RadioButtonMinotaurRam
+        'RadioButtonDarkelfAlignment
         '
-        Me.RadioButtonMinotaurRam.AutoSize = True
-        Me.RadioButtonMinotaurRam.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonMinotaurRam.Location = New System.Drawing.Point(267, 121)
-        Me.RadioButtonMinotaurRam.Name = "RadioButtonMinotaurRam"
-        Me.RadioButtonMinotaurRam.Size = New System.Drawing.Size(52, 20)
-        Me.RadioButtonMinotaurRam.TabIndex = 3
-        Me.RadioButtonMinotaurRam.TabStop = True
-        Me.RadioButtonMinotaurRam.Text = "Ram"
-        Me.RadioButtonMinotaurRam.UseVisualStyleBackColor = True
+        Me.RadioButtonDarkelfAlignment.AutoSize = True
+        Me.RadioButtonDarkelfAlignment.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonDarkelfAlignment.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonDarkelfAlignment.Name = "RadioButtonDarkelfAlignment"
+        Me.RadioButtonDarkelfAlignment.Size = New System.Drawing.Size(83, 20)
+        Me.RadioButtonDarkelfAlignment.TabIndex = 4
+        Me.RadioButtonDarkelfAlignment.TabStop = True
+        Me.RadioButtonDarkelfAlignment.Text = "Alignment"
+        Me.RadioButtonDarkelfAlignment.UseVisualStyleBackColor = True
         '
-        'LabelMinotaur
+        'RadioButtonDarkelfNightvision
         '
-        Me.LabelMinotaur.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelMinotaur.Location = New System.Drawing.Point(4, 4)
-        Me.LabelMinotaur.Name = "LabelMinotaur"
-        Me.LabelMinotaur.Size = New System.Drawing.Size(605, 80)
-        Me.LabelMinotaur.TabIndex = 2
-        Me.LabelMinotaur.Text = resources.GetString("LabelMinotaur.Text")
+        Me.RadioButtonDarkelfNightvision.AutoSize = True
+        Me.RadioButtonDarkelfNightvision.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonDarkelfNightvision.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonDarkelfNightvision.Name = "RadioButtonDarkelfNightvision"
+        Me.RadioButtonDarkelfNightvision.Size = New System.Drawing.Size(93, 20)
+        Me.RadioButtonDarkelfNightvision.TabIndex = 3
+        Me.RadioButtonDarkelfNightvision.TabStop = True
+        Me.RadioButtonDarkelfNightvision.Text = "Night Vision"
+        Me.RadioButtonDarkelfNightvision.UseVisualStyleBackColor = True
         '
-        'ButtonMinotaurBackgrounds
+        'LabelDarkelfIntro
         '
-        Me.ButtonMinotaurBackgrounds.Location = New System.Drawing.Point(543, 290)
-        Me.ButtonMinotaurBackgrounds.Name = "ButtonMinotaurBackgrounds"
-        Me.ButtonMinotaurBackgrounds.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonMinotaurBackgrounds.TabIndex = 1
-        Me.ButtonMinotaurBackgrounds.Text = "Next"
-        Me.ButtonMinotaurBackgrounds.UseVisualStyleBackColor = True
+        Me.LabelDarkelfIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelDarkelfIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelDarkelfIntro.Name = "LabelDarkelfIntro"
+        Me.LabelDarkelfIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelDarkelfIntro.TabIndex = 2
+        Me.LabelDarkelfIntro.Text = resources.GetString("LabelDarkelfIntro.Text")
         '
-        'ButtonMinotaurKin
+        'ButtonDarkelfBackgrounds
         '
-        Me.ButtonMinotaurKin.Location = New System.Drawing.Point(3, 290)
-        Me.ButtonMinotaurKin.Name = "ButtonMinotaurKin"
-        Me.ButtonMinotaurKin.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonMinotaurKin.TabIndex = 0
-        Me.ButtonMinotaurKin.Text = "Previous"
-        Me.ButtonMinotaurKin.UseVisualStyleBackColor = True
+        Me.ButtonDarkelfBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonDarkelfBackgrounds.Name = "ButtonDarkelfBackgrounds"
+        Me.ButtonDarkelfBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDarkelfBackgrounds.TabIndex = 1
+        Me.ButtonDarkelfBackgrounds.Text = "Next"
+        Me.ButtonDarkelfBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonDarkelfKin
+        '
+        Me.ButtonDarkelfKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonDarkelfKin.Name = "ButtonDarkelfKin"
+        Me.ButtonDarkelfKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDarkelfKin.TabIndex = 0
+        Me.ButtonDarkelfKin.Text = "Previous"
+        Me.ButtonDarkelfKin.UseVisualStyleBackColor = True
+        '
+        'PanelFelucian
+        '
+        Me.PanelFelucian.Controls.Add(Me.ButtonFelucianInfo)
+        Me.PanelFelucian.Controls.Add(Me.RadioButtonFelucianWingburst)
+        Me.PanelFelucian.Controls.Add(Me.RadioButtonFelucianHangingaround)
+        Me.PanelFelucian.Controls.Add(Me.RadioButtonFelucianDarkness)
+        Me.PanelFelucian.Controls.Add(Me.LabelFelucianIntro)
+        Me.PanelFelucian.Controls.Add(Me.ButtonFelucianBackgrounds)
+        Me.PanelFelucian.Controls.Add(Me.ButtonFelucianKin)
+        Me.PanelFelucian.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelFelucian.Enabled = False
+        Me.PanelFelucian.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelFelucian.Location = New System.Drawing.Point(0, 0)
+        Me.PanelFelucian.Name = "PanelFelucian"
+        Me.PanelFelucian.Size = New System.Drawing.Size(621, 316)
+        Me.PanelFelucian.TabIndex = 19
+        '
+        'ButtonFelucianInfo
+        '
+        Me.ButtonFelucianInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonFelucianInfo.Name = "ButtonFelucianInfo"
+        Me.ButtonFelucianInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonFelucianInfo.TabIndex = 6
+        Me.ButtonFelucianInfo.Text = "Info"
+        Me.ButtonFelucianInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonFelucianWingburst
+        '
+        Me.RadioButtonFelucianWingburst.AutoSize = True
+        Me.RadioButtonFelucianWingburst.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonFelucianWingburst.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonFelucianWingburst.Name = "RadioButtonFelucianWingburst"
+        Me.RadioButtonFelucianWingburst.Size = New System.Drawing.Size(88, 20)
+        Me.RadioButtonFelucianWingburst.TabIndex = 5
+        Me.RadioButtonFelucianWingburst.TabStop = True
+        Me.RadioButtonFelucianWingburst.Text = "Wing Burst"
+        Me.RadioButtonFelucianWingburst.UseVisualStyleBackColor = True
+        '
+        'RadioButtonFelucianHangingaround
+        '
+        Me.RadioButtonFelucianHangingaround.AutoSize = True
+        Me.RadioButtonFelucianHangingaround.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonFelucianHangingaround.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonFelucianHangingaround.Name = "RadioButtonFelucianHangingaround"
+        Me.RadioButtonFelucianHangingaround.Size = New System.Drawing.Size(117, 20)
+        Me.RadioButtonFelucianHangingaround.TabIndex = 4
+        Me.RadioButtonFelucianHangingaround.TabStop = True
+        Me.RadioButtonFelucianHangingaround.Text = "Hanging Around"
+        Me.RadioButtonFelucianHangingaround.UseVisualStyleBackColor = True
+        '
+        'RadioButtonFelucianDarkness
+        '
+        Me.RadioButtonFelucianDarkness.AutoSize = True
+        Me.RadioButtonFelucianDarkness.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonFelucianDarkness.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonFelucianDarkness.Name = "RadioButtonFelucianDarkness"
+        Me.RadioButtonFelucianDarkness.Size = New System.Drawing.Size(78, 20)
+        Me.RadioButtonFelucianDarkness.TabIndex = 3
+        Me.RadioButtonFelucianDarkness.TabStop = True
+        Me.RadioButtonFelucianDarkness.Text = "Darkness"
+        Me.RadioButtonFelucianDarkness.UseVisualStyleBackColor = True
+        '
+        'LabelFelucianIntro
+        '
+        Me.LabelFelucianIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelFelucianIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelFelucianIntro.Name = "LabelFelucianIntro"
+        Me.LabelFelucianIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelFelucianIntro.TabIndex = 2
+        Me.LabelFelucianIntro.Text = resources.GetString("LabelFelucianIntro.Text")
+        '
+        'ButtonFelucianBackgrounds
+        '
+        Me.ButtonFelucianBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonFelucianBackgrounds.Name = "ButtonFelucianBackgrounds"
+        Me.ButtonFelucianBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonFelucianBackgrounds.TabIndex = 1
+        Me.ButtonFelucianBackgrounds.Text = "Next"
+        Me.ButtonFelucianBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonFelucianKin
+        '
+        Me.ButtonFelucianKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonFelucianKin.Name = "ButtonFelucianKin"
+        Me.ButtonFelucianKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonFelucianKin.TabIndex = 0
+        Me.ButtonFelucianKin.Text = "Previous"
+        Me.ButtonFelucianKin.UseVisualStyleBackColor = True
+        '
+        'PanelGigayona
+        '
+        Me.PanelGigayona.Controls.Add(Me.ButtonGigayonaInfo)
+        Me.PanelGigayona.Controls.Add(Me.RadioButtonGigayonaThickcoat)
+        Me.PanelGigayona.Controls.Add(Me.RadioButtonGigayonaFoodsfood)
+        Me.PanelGigayona.Controls.Add(Me.RadioButtonGigayonaBellysmash)
+        Me.PanelGigayona.Controls.Add(Me.LabelGigayonaIntro)
+        Me.PanelGigayona.Controls.Add(Me.ButtonGigayonaBackgrounds)
+        Me.PanelGigayona.Controls.Add(Me.ButtonGigayonaKin)
+        Me.PanelGigayona.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelGigayona.Enabled = False
+        Me.PanelGigayona.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelGigayona.Location = New System.Drawing.Point(0, 0)
+        Me.PanelGigayona.Name = "PanelGigayona"
+        Me.PanelGigayona.Size = New System.Drawing.Size(621, 316)
+        Me.PanelGigayona.TabIndex = 20
+        '
+        'ButtonGigayonaInfo
+        '
+        Me.ButtonGigayonaInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonGigayonaInfo.Name = "ButtonGigayonaInfo"
+        Me.ButtonGigayonaInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonGigayonaInfo.TabIndex = 6
+        Me.ButtonGigayonaInfo.Text = "Info"
+        Me.ButtonGigayonaInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonGigayonaThickcoat
+        '
+        Me.RadioButtonGigayonaThickcoat.AutoSize = True
+        Me.RadioButtonGigayonaThickcoat.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonGigayonaThickcoat.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonGigayonaThickcoat.Name = "RadioButtonGigayonaThickcoat"
+        Me.RadioButtonGigayonaThickcoat.Size = New System.Drawing.Size(86, 20)
+        Me.RadioButtonGigayonaThickcoat.TabIndex = 5
+        Me.RadioButtonGigayonaThickcoat.TabStop = True
+        Me.RadioButtonGigayonaThickcoat.Text = "Thick Coat"
+        Me.RadioButtonGigayonaThickcoat.UseVisualStyleBackColor = True
+        '
+        'RadioButtonGigayonaFoodsfood
+        '
+        Me.RadioButtonGigayonaFoodsfood.AutoSize = True
+        Me.RadioButtonGigayonaFoodsfood.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonGigayonaFoodsfood.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonGigayonaFoodsfood.Name = "RadioButtonGigayonaFoodsfood"
+        Me.RadioButtonGigayonaFoodsfood.Size = New System.Drawing.Size(92, 20)
+        Me.RadioButtonGigayonaFoodsfood.TabIndex = 4
+        Me.RadioButtonGigayonaFoodsfood.TabStop = True
+        Me.RadioButtonGigayonaFoodsfood.Text = "Foods Food"
+        Me.RadioButtonGigayonaFoodsfood.UseVisualStyleBackColor = True
+        '
+        'RadioButtonGigayonaBellysmash
+        '
+        Me.RadioButtonGigayonaBellysmash.AutoSize = True
+        Me.RadioButtonGigayonaBellysmash.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonGigayonaBellysmash.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonGigayonaBellysmash.Name = "RadioButtonGigayonaBellysmash"
+        Me.RadioButtonGigayonaBellysmash.Size = New System.Drawing.Size(95, 20)
+        Me.RadioButtonGigayonaBellysmash.TabIndex = 3
+        Me.RadioButtonGigayonaBellysmash.TabStop = True
+        Me.RadioButtonGigayonaBellysmash.Text = "Belly Smash"
+        Me.RadioButtonGigayonaBellysmash.UseVisualStyleBackColor = True
+        '
+        'LabelGigayonaIntro
+        '
+        Me.LabelGigayonaIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelGigayonaIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelGigayonaIntro.Name = "LabelGigayonaIntro"
+        Me.LabelGigayonaIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelGigayonaIntro.TabIndex = 2
+        Me.LabelGigayonaIntro.Text = resources.GetString("LabelGigayonaIntro.Text")
+        '
+        'ButtonGigayonaBackgrounds
+        '
+        Me.ButtonGigayonaBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonGigayonaBackgrounds.Name = "ButtonGigayonaBackgrounds"
+        Me.ButtonGigayonaBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonGigayonaBackgrounds.TabIndex = 1
+        Me.ButtonGigayonaBackgrounds.Text = "Next"
+        Me.ButtonGigayonaBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonGigayonaKin
+        '
+        Me.ButtonGigayonaKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonGigayonaKin.Name = "ButtonGigayonaKin"
+        Me.ButtonGigayonaKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonGigayonaKin.TabIndex = 0
+        Me.ButtonGigayonaKin.Text = "Previous"
+        Me.ButtonGigayonaKin.UseVisualStyleBackColor = True
+        '
+        'PanelHighelf
+        '
+        Me.PanelHighelf.Controls.Add(Me.ButtonHighelfInfo)
+        Me.PanelHighelf.Controls.Add(Me.RadioButtonHighelfColorsofthewind)
+        Me.PanelHighelf.Controls.Add(Me.RadioButtonHighelfLightfoot)
+        Me.PanelHighelf.Controls.Add(Me.RadioButtonHighelfBedazzle)
+        Me.PanelHighelf.Controls.Add(Me.LabelHighelfIntro)
+        Me.PanelHighelf.Controls.Add(Me.ButtonHighelfBackgrounds)
+        Me.PanelHighelf.Controls.Add(Me.ButtonHighelfKin)
+        Me.PanelHighelf.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelHighelf.Enabled = False
+        Me.PanelHighelf.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelHighelf.Location = New System.Drawing.Point(0, 0)
+        Me.PanelHighelf.Name = "PanelHighelf"
+        Me.PanelHighelf.Size = New System.Drawing.Size(621, 316)
+        Me.PanelHighelf.TabIndex = 21
+        '
+        'ButtonHighelfInfo
+        '
+        Me.ButtonHighelfInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonHighelfInfo.Name = "ButtonHighelfInfo"
+        Me.ButtonHighelfInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonHighelfInfo.TabIndex = 6
+        Me.ButtonHighelfInfo.Text = "Info"
+        Me.ButtonHighelfInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonHighelfColorsofthewind
+        '
+        Me.RadioButtonHighelfColorsofthewind.AutoSize = True
+        Me.RadioButtonHighelfColorsofthewind.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHighelfColorsofthewind.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonHighelfColorsofthewind.Name = "RadioButtonHighelfColorsofthewind"
+        Me.RadioButtonHighelfColorsofthewind.Size = New System.Drawing.Size(132, 20)
+        Me.RadioButtonHighelfColorsofthewind.TabIndex = 5
+        Me.RadioButtonHighelfColorsofthewind.TabStop = True
+        Me.RadioButtonHighelfColorsofthewind.Text = "Colors of the Wind"
+        Me.RadioButtonHighelfColorsofthewind.UseVisualStyleBackColor = True
+        '
+        'RadioButtonHighelfLightfoot
+        '
+        Me.RadioButtonHighelfLightfoot.AutoSize = True
+        Me.RadioButtonHighelfLightfoot.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHighelfLightfoot.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonHighelfLightfoot.Name = "RadioButtonHighelfLightfoot"
+        Me.RadioButtonHighelfLightfoot.Size = New System.Drawing.Size(85, 20)
+        Me.RadioButtonHighelfLightfoot.TabIndex = 4
+        Me.RadioButtonHighelfLightfoot.TabStop = True
+        Me.RadioButtonHighelfLightfoot.Text = "Light Food"
+        Me.RadioButtonHighelfLightfoot.UseVisualStyleBackColor = True
+        '
+        'RadioButtonHighelfBedazzle
+        '
+        Me.RadioButtonHighelfBedazzle.AutoSize = True
+        Me.RadioButtonHighelfBedazzle.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHighelfBedazzle.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonHighelfBedazzle.Name = "RadioButtonHighelfBedazzle"
+        Me.RadioButtonHighelfBedazzle.Size = New System.Drawing.Size(76, 20)
+        Me.RadioButtonHighelfBedazzle.TabIndex = 3
+        Me.RadioButtonHighelfBedazzle.TabStop = True
+        Me.RadioButtonHighelfBedazzle.Text = "Bedazzle"
+        Me.RadioButtonHighelfBedazzle.UseVisualStyleBackColor = True
+        '
+        'LabelHighelfIntro
+        '
+        Me.LabelHighelfIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHighelfIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelHighelfIntro.Name = "LabelHighelfIntro"
+        Me.LabelHighelfIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelHighelfIntro.TabIndex = 2
+        Me.LabelHighelfIntro.Text = resources.GetString("LabelHighelfIntro.Text")
+        '
+        'ButtonHighelfBackgrounds
+        '
+        Me.ButtonHighelfBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonHighelfBackgrounds.Name = "ButtonHighelfBackgrounds"
+        Me.ButtonHighelfBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonHighelfBackgrounds.TabIndex = 1
+        Me.ButtonHighelfBackgrounds.Text = "Next"
+        Me.ButtonHighelfBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonHighelfKin
+        '
+        Me.ButtonHighelfKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonHighelfKin.Name = "ButtonHighelfKin"
+        Me.ButtonHighelfKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonHighelfKin.TabIndex = 0
+        Me.ButtonHighelfKin.Text = "Previous"
+        Me.ButtonHighelfKin.UseVisualStyleBackColor = True
+        '
+        'PanelFaerleth
+        '
+        Me.PanelFaerleth.Controls.Add(Me.RadioButtonFaerlethMastermunchyologist)
+        Me.PanelFaerleth.Controls.Add(Me.ButtonFaerlethInfo)
+        Me.PanelFaerleth.Controls.Add(Me.RadioButtonFaerlethRiddle)
+        Me.PanelFaerleth.Controls.Add(Me.RadioButtonFaerlethToughfeet)
+        Me.PanelFaerleth.Controls.Add(Me.RadioButtonFaerlethHideyhole)
+        Me.PanelFaerleth.Controls.Add(Me.LabelFaerlethIntro)
+        Me.PanelFaerleth.Controls.Add(Me.ButtonFaerlethBackgrounds)
+        Me.PanelFaerleth.Controls.Add(Me.ButtonFaerlethKin)
+        Me.PanelFaerleth.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelFaerleth.Enabled = False
+        Me.PanelFaerleth.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PanelFaerleth.Location = New System.Drawing.Point(0, 0)
+        Me.PanelFaerleth.Name = "PanelFaerleth"
+        Me.PanelFaerleth.Size = New System.Drawing.Size(621, 316)
+        Me.PanelFaerleth.TabIndex = 22
+        '
+        'ButtonFaerlethInfo
+        '
+        Me.ButtonFaerlethInfo.Location = New System.Drawing.Point(457, 142)
+        Me.ButtonFaerlethInfo.Name = "ButtonFaerlethInfo"
+        Me.ButtonFaerlethInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonFaerlethInfo.TabIndex = 6
+        Me.ButtonFaerlethInfo.Text = "Info"
+        Me.ButtonFaerlethInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButtonFaerlethRiddle
+        '
+        Me.RadioButtonFaerlethRiddle.AutoSize = True
+        Me.RadioButtonFaerlethRiddle.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonFaerlethRiddle.Location = New System.Drawing.Point(267, 181)
+        Me.RadioButtonFaerlethRiddle.Name = "RadioButtonFaerlethRiddle"
+        Me.RadioButtonFaerlethRiddle.Size = New System.Drawing.Size(61, 20)
+        Me.RadioButtonFaerlethRiddle.TabIndex = 5
+        Me.RadioButtonFaerlethRiddle.TabStop = True
+        Me.RadioButtonFaerlethRiddle.Text = "Riddle"
+        Me.RadioButtonFaerlethRiddle.UseVisualStyleBackColor = True
+        '
+        'RadioButtonFaerlethToughfeet
+        '
+        Me.RadioButtonFaerlethToughfeet.AutoSize = True
+        Me.RadioButtonFaerlethToughfeet.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonFaerlethToughfeet.Location = New System.Drawing.Point(267, 149)
+        Me.RadioButtonFaerlethToughfeet.Name = "RadioButtonFaerlethToughfeet"
+        Me.RadioButtonFaerlethToughfeet.Size = New System.Drawing.Size(91, 20)
+        Me.RadioButtonFaerlethToughfeet.TabIndex = 4
+        Me.RadioButtonFaerlethToughfeet.TabStop = True
+        Me.RadioButtonFaerlethToughfeet.Text = "Tough Feet"
+        Me.RadioButtonFaerlethToughfeet.UseVisualStyleBackColor = True
+        '
+        'RadioButtonFaerlethHideyhole
+        '
+        Me.RadioButtonFaerlethHideyhole.AutoSize = True
+        Me.RadioButtonFaerlethHideyhole.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonFaerlethHideyhole.Location = New System.Drawing.Point(266, 116)
+        Me.RadioButtonFaerlethHideyhole.Name = "RadioButtonFaerlethHideyhole"
+        Me.RadioButtonFaerlethHideyhole.Size = New System.Drawing.Size(86, 20)
+        Me.RadioButtonFaerlethHideyhole.TabIndex = 3
+        Me.RadioButtonFaerlethHideyhole.TabStop = True
+        Me.RadioButtonFaerlethHideyhole.Text = "Hidey Hole"
+        Me.RadioButtonFaerlethHideyhole.UseVisualStyleBackColor = True
+        '
+        'LabelFaerlethIntro
+        '
+        Me.LabelFaerlethIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelFaerlethIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelFaerlethIntro.Name = "LabelFaerlethIntro"
+        Me.LabelFaerlethIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelFaerlethIntro.TabIndex = 2
+        Me.LabelFaerlethIntro.Text = resources.GetString("LabelFaerlethIntro.Text")
+        '
+        'ButtonFaerlethBackgrounds
+        '
+        Me.ButtonFaerlethBackgrounds.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonFaerlethBackgrounds.Name = "ButtonFaerlethBackgrounds"
+        Me.ButtonFaerlethBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonFaerlethBackgrounds.TabIndex = 1
+        Me.ButtonFaerlethBackgrounds.Text = "Next"
+        Me.ButtonFaerlethBackgrounds.UseVisualStyleBackColor = True
+        '
+        'ButtonFaerlethKin
+        '
+        Me.ButtonFaerlethKin.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonFaerlethKin.Name = "ButtonFaerlethKin"
+        Me.ButtonFaerlethKin.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonFaerlethKin.TabIndex = 0
+        Me.ButtonFaerlethKin.Text = "Previous"
+        Me.ButtonFaerlethKin.UseVisualStyleBackColor = True
+        '
+        'RadioButtonFaerlethMastermunchyologist
+        '
+        Me.RadioButtonFaerlethMastermunchyologist.AutoSize = True
+        Me.RadioButtonFaerlethMastermunchyologist.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonFaerlethMastermunchyologist.Location = New System.Drawing.Point(267, 211)
+        Me.RadioButtonFaerlethMastermunchyologist.Name = "RadioButtonFaerlethMastermunchyologist"
+        Me.RadioButtonFaerlethMastermunchyologist.Size = New System.Drawing.Size(149, 20)
+        Me.RadioButtonFaerlethMastermunchyologist.TabIndex = 7
+        Me.RadioButtonFaerlethMastermunchyologist.TabStop = True
+        Me.RadioButtonFaerlethMastermunchyologist.Text = "Master Munchyologist"
+        Me.RadioButtonFaerlethMastermunchyologist.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelFaerleth)
+        Me.Controls.Add(Me.PanelHighelf)
+        Me.Controls.Add(Me.PanelGigayona)
+        Me.Controls.Add(Me.PanelFelucian)
+        Me.Controls.Add(Me.PanelDarkelf)
         Me.Controls.Add(Me.PanelMinotaur)
         Me.Controls.Add(Me.PanelKinsman)
         Me.Controls.Add(Me.PanelCatdrah)
@@ -1973,6 +2608,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelGoblin)
         Me.Controls.Add(Me.PanelWelcome)
         Me.Controls.Add(Me.PanelNyad)
+        Me.Controls.Add(Me.PanelAngalucian)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelWelcome.ResumeLayout(False)
@@ -1999,8 +2635,20 @@ Partial Class Form1
         Me.PanelCatdrah.PerformLayout()
         Me.PanelKinsman.ResumeLayout(False)
         Me.PanelKinsman.PerformLayout()
+        Me.PanelAngalucian.ResumeLayout(False)
+        Me.PanelAngalucian.PerformLayout()
         Me.PanelMinotaur.ResumeLayout(False)
         Me.PanelMinotaur.PerformLayout()
+        Me.PanelDarkelf.ResumeLayout(False)
+        Me.PanelDarkelf.PerformLayout()
+        Me.PanelFelucian.ResumeLayout(False)
+        Me.PanelFelucian.PerformLayout()
+        Me.PanelGigayona.ResumeLayout(False)
+        Me.PanelGigayona.PerformLayout()
+        Me.PanelHighelf.ResumeLayout(False)
+        Me.PanelHighelf.PerformLayout()
+        Me.PanelFaerleth.ResumeLayout(False)
+        Me.PanelFaerleth.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2155,12 +2803,63 @@ Partial Class Form1
     Friend WithEvents LabelKinsmanIntro As Label
     Friend WithEvents ButtonKinsmanBackgrounds As Button
     Friend WithEvents ButtonKinsmanKin As Button
-    Friend WithEvents PanelMinotaur As Panel
-    Friend WithEvents ButtonMinotaurInfo As Button
-    Friend WithEvents RadioButtonMinotaurCharge As RadioButton
-    Friend WithEvents RadioButtonMinotaurDaunting As RadioButton
-    Friend WithEvents RadioButtonMinotaurRam As RadioButton
-    Friend WithEvents LabelMinotaur As Label
-    Friend WithEvents ButtonMinotaurBackgrounds As Button
+    Friend WithEvents PanelAngalucian As Panel
+    Friend WithEvents RadioButtonAngalucianBlessedweapon As RadioButton
+    Friend WithEvents RadioButtonAngalucianBeaconoflight As RadioButton
+    Friend WithEvents ButtonAngelucianInfo As Button
+    Friend WithEvents RadioButtonAngalucianTakeheed As RadioButton
+    Friend WithEvents RadioButtonAngalucianAmaze As RadioButton
+    Friend WithEvents RadioButtonAngalucianFlight As RadioButton
+    Friend WithEvents LabelAngelucianIntro As Label
+    Friend WithEvents ButtonAngalucianBackgrounds As Button
+    Friend WithEvents ButtonAngalucianKin As Button
     Friend WithEvents ButtonMinotaurKin As Button
+    Friend WithEvents ButtonMinotaurBackgrounds As Button
+    Friend WithEvents LabelMinotaur As Label
+    Friend WithEvents RadioButtonMinotaurRam As RadioButton
+    Friend WithEvents RadioButtonMinotaurDaunting As RadioButton
+    Friend WithEvents RadioButtonMinotaurCharge As RadioButton
+    Friend WithEvents ButtonMinotaurInfo As Button
+    Friend WithEvents PanelMinotaur As Panel
+    Friend WithEvents PanelDarkelf As Panel
+    Friend WithEvents ButtonDarkelfInfo As Button
+    Friend WithEvents RadioButtonDarkelfLightsleeper As RadioButton
+    Friend WithEvents RadioButtonDarkelfAlignment As RadioButton
+    Friend WithEvents RadioButtonDarkelfNightvision As RadioButton
+    Friend WithEvents LabelDarkelfIntro As Label
+    Friend WithEvents ButtonDarkelfBackgrounds As Button
+    Friend WithEvents ButtonDarkelfKin As Button
+    Friend WithEvents PanelFelucian As Panel
+    Friend WithEvents ButtonFelucianInfo As Button
+    Friend WithEvents RadioButtonFelucianWingburst As RadioButton
+    Friend WithEvents RadioButtonFelucianHangingaround As RadioButton
+    Friend WithEvents RadioButtonFelucianDarkness As RadioButton
+    Friend WithEvents LabelFelucianIntro As Label
+    Friend WithEvents ButtonFelucianBackgrounds As Button
+    Friend WithEvents ButtonFelucianKin As Button
+    Friend WithEvents PanelGigayona As Panel
+    Friend WithEvents ButtonGigayonaInfo As Button
+    Friend WithEvents RadioButtonGigayonaThickcoat As RadioButton
+    Friend WithEvents RadioButtonGigayonaFoodsfood As RadioButton
+    Friend WithEvents RadioButtonGigayonaBellysmash As RadioButton
+    Friend WithEvents LabelGigayonaIntro As Label
+    Friend WithEvents ButtonGigayonaBackgrounds As Button
+    Friend WithEvents ButtonGigayonaKin As Button
+    Friend WithEvents PanelHighelf As Panel
+    Friend WithEvents ButtonHighelfInfo As Button
+    Friend WithEvents RadioButtonHighelfColorsofthewind As RadioButton
+    Friend WithEvents RadioButtonHighelfLightfoot As RadioButton
+    Friend WithEvents RadioButtonHighelfBedazzle As RadioButton
+    Friend WithEvents LabelHighelfIntro As Label
+    Friend WithEvents ButtonHighelfBackgrounds As Button
+    Friend WithEvents ButtonHighelfKin As Button
+    Friend WithEvents PanelFaerleth As Panel
+    Friend WithEvents RadioButtonFaerlethMastermunchyologist As RadioButton
+    Friend WithEvents ButtonFaerlethInfo As Button
+    Friend WithEvents RadioButtonFaerlethRiddle As RadioButton
+    Friend WithEvents RadioButtonFaerlethToughfeet As RadioButton
+    Friend WithEvents RadioButtonFaerlethHideyhole As RadioButton
+    Friend WithEvents LabelFaerlethIntro As Label
+    Friend WithEvents ButtonFaerlethBackgrounds As Button
+    Friend WithEvents ButtonFaerlethKin As Button
 End Class

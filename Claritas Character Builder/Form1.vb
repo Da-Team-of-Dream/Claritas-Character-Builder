@@ -289,4 +289,100 @@
         'Me.PanelBackgrounds.BringToFront()
         'Me.PanelMinotaur.Enabled = False
     End Sub
+
+    Private Sub ButtonAngelucianInfo_Click(sender As Object, e As EventArgs) Handles ButtonAngelucianInfo.Click
+        ConstructInfoForm("AttributeAngalucian")
+    End Sub
+
+    Private Sub ButtonAngalucianKin_Click(sender As Object, e As EventArgs) Handles ButtonAngalucianKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelAngalucian.Enabled = False
+    End Sub
+
+    Private Sub ButtonAngalucianBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonAngalucianBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelAngalucian.Enabled = False
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles ButtonDarkelfKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelDarkelf.Enabled = False
+    End Sub
+
+    Private Sub ButtonDarkelfInfo_Click(sender As Object, e As EventArgs) Handles ButtonDarkelfInfo.Click
+        ConstructInfoForm("AttributeDarkelf")
+    End Sub
+
+    Private Sub ButtonDarkelfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonDarkelfBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelDarkelf.Enabled = False
+    End Sub
+
+    Private Sub ButtonFelucianInfo_Click(sender As Object, e As EventArgs) Handles ButtonFelucianInfo.Click
+        ConstructInfoForm("AttributeFelucian")
+    End Sub
+
+    Private Sub ButtonFelucianKin_Click(sender As Object, e As EventArgs) Handles ButtonFelucianKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelFelucian.Enabled = False
+    End Sub
+
+    Private Sub ButtonFelucianBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonFelucianBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelFelucian.Enabled = False
+    End Sub
+
+    Private Sub ButtonGigayonaInfo_Click(sender As Object, e As EventArgs) Handles ButtonGigayonaInfo.Click
+        ConstructInfoForm("AttributeGigayona")
+    End Sub
+
+    Private Sub ButtonGigayonaKin_Click(sender As Object, e As EventArgs) Handles ButtonGigayonaKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelGigayona.Enabled = False
+    End Sub
+
+    Private Sub ButtonGigayonaBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonGigayonaBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelGigayona.Enabled = False
+    End Sub
+
+    Private Sub ButtonHighelfInfo_Click(sender As Object, e As EventArgs) Handles ButtonHighelfInfo.Click
+        ConstructInfoForm("AttributeHighelf")
+    End Sub
+
+    Private Sub ButtonHighelfKin_Click(sender As Object, e As EventArgs) Handles ButtonHighelfKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelHighelf.Enabled = False
+    End Sub
+
+    Private Sub ButtonHighelfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonHighelfBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelHighelf.Enabled = False
+    End Sub
+
+    Private Sub ButtonFaerlethInfo_Click(sender As Object, e As EventArgs) Handles ButtonFaerlethInfo.Click
+        ConstructInfoForm("AttributeFaerleth")
+    End Sub
+
+    Private Sub ButtonFaerlethKin_Click(sender As Object, e As EventArgs) Handles ButtonFaerlethKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelFaerleth.Enabled = False
+    End Sub
+
+    Private Sub ButtonFaerlethBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonFaerlethBackgrounds.Click
+        'Me.PanelBackgrounds.Enabled = True
+        'Me.PanelBackgrounds.BringToFront()
+        'Me.PanelFaerleth.Enabled = False
+    End Sub
 End Class
