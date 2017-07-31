@@ -273,6 +273,33 @@ Partial Class Form1
         Me.LabelWoodelfIntro = New System.Windows.Forms.Label()
         Me.ButtonWoodelfBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonWoodelfKin = New System.Windows.Forms.Button()
+        Me.PanelBackgrounds = New System.Windows.Forms.Panel()
+        Me.ButtonBackgroundsInfo = New System.Windows.Forms.Button()
+        Me.CheckBoxBackgroundsCourier = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsSmuggler = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsFisherman = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsMiddleman = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsUrchin = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsRepairman = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsBotanist = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsWanderer = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsArcanescholar = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsTradesman = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsScholar = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsCleanser = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsHistorian = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsTailor = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsEnchantmentspecialist = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsWeaponsarmorknowledge = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsBlacksmith = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsGuard = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsCartographer = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsSeaworthy = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsWoodsman = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxBackgroundsArchitect = New System.Windows.Forms.CheckBox()
+        Me.LabelBackgroundsIntro = New System.Windows.Forms.Label()
+        Me.ButtonBackgroundsClass = New System.Windows.Forms.Button()
+        Me.ButtonBackgroundsKintype = New System.Windows.Forms.Button()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
@@ -297,6 +324,7 @@ Partial Class Form1
         Me.PanelWastelander.SuspendLayout()
         Me.PanelWolfsbein.SuspendLayout()
         Me.PanelWoodelf.SuspendLayout()
+        Me.PanelBackgrounds.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -3075,11 +3103,303 @@ Partial Class Form1
         Me.ButtonWoodelfKin.Text = "Previous"
         Me.ButtonWoodelfKin.UseVisualStyleBackColor = True
         '
+        'PanelBackgrounds
+        '
+        Me.PanelBackgrounds.Controls.Add(Me.ButtonBackgroundsInfo)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsCourier)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsSmuggler)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsFisherman)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsMiddleman)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsUrchin)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsRepairman)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsBotanist)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsWanderer)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsArcanescholar)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsTradesman)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsScholar)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsCleanser)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsHistorian)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsTailor)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsEnchantmentspecialist)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsWeaponsarmorknowledge)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsBlacksmith)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsGuard)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsCartographer)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsSeaworthy)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsWoodsman)
+        Me.PanelBackgrounds.Controls.Add(Me.CheckBoxBackgroundsArchitect)
+        Me.PanelBackgrounds.Controls.Add(Me.LabelBackgroundsIntro)
+        Me.PanelBackgrounds.Controls.Add(Me.ButtonBackgroundsClass)
+        Me.PanelBackgrounds.Controls.Add(Me.ButtonBackgroundsKintype)
+        Me.PanelBackgrounds.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelBackgrounds.Location = New System.Drawing.Point(0, 0)
+        Me.PanelBackgrounds.Name = "PanelBackgrounds"
+        Me.PanelBackgrounds.Size = New System.Drawing.Size(621, 316)
+        Me.PanelBackgrounds.TabIndex = 28
+        '
+        'ButtonBackgroundsInfo
+        '
+        Me.ButtonBackgroundsInfo.Location = New System.Drawing.Point(506, 169)
+        Me.ButtonBackgroundsInfo.Name = "ButtonBackgroundsInfo"
+        Me.ButtonBackgroundsInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBackgroundsInfo.TabIndex = 11
+        Me.ButtonBackgroundsInfo.Text = "Info"
+        Me.ButtonBackgroundsInfo.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsCourier
+        '
+        Me.CheckBoxBackgroundsCourier.AutoSize = True
+        Me.CheckBoxBackgroundsCourier.Location = New System.Drawing.Point(512, 81)
+        Me.CheckBoxBackgroundsCourier.Name = "CheckBoxBackgroundsCourier"
+        Me.CheckBoxBackgroundsCourier.Size = New System.Drawing.Size(59, 17)
+        Me.CheckBoxBackgroundsCourier.TabIndex = 10
+        Me.CheckBoxBackgroundsCourier.Text = "Courier"
+        Me.CheckBoxBackgroundsCourier.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsSmuggler
+        '
+        Me.CheckBoxBackgroundsSmuggler.AutoSize = True
+        Me.CheckBoxBackgroundsSmuggler.Location = New System.Drawing.Point(214, 155)
+        Me.CheckBoxBackgroundsSmuggler.Name = "CheckBoxBackgroundsSmuggler"
+        Me.CheckBoxBackgroundsSmuggler.Size = New System.Drawing.Size(70, 17)
+        Me.CheckBoxBackgroundsSmuggler.TabIndex = 9
+        Me.CheckBoxBackgroundsSmuggler.Text = "Smuggler"
+        Me.CheckBoxBackgroundsSmuggler.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsFisherman
+        '
+        Me.CheckBoxBackgroundsFisherman.AutoSize = True
+        Me.CheckBoxBackgroundsFisherman.Location = New System.Drawing.Point(68, 227)
+        Me.CheckBoxBackgroundsFisherman.Name = "CheckBoxBackgroundsFisherman"
+        Me.CheckBoxBackgroundsFisherman.Size = New System.Drawing.Size(74, 17)
+        Me.CheckBoxBackgroundsFisherman.TabIndex = 9
+        Me.CheckBoxBackgroundsFisherman.Text = "Fisherman"
+        Me.CheckBoxBackgroundsFisherman.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsMiddleman
+        '
+        Me.CheckBoxBackgroundsMiddleman.AutoSize = True
+        Me.CheckBoxBackgroundsMiddleman.Location = New System.Drawing.Point(214, 226)
+        Me.CheckBoxBackgroundsMiddleman.Name = "CheckBoxBackgroundsMiddleman"
+        Me.CheckBoxBackgroundsMiddleman.Size = New System.Drawing.Size(77, 17)
+        Me.CheckBoxBackgroundsMiddleman.TabIndex = 9
+        Me.CheckBoxBackgroundsMiddleman.Text = "Middleman"
+        Me.CheckBoxBackgroundsMiddleman.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsUrchin
+        '
+        Me.CheckBoxBackgroundsUrchin.AutoSize = True
+        Me.CheckBoxBackgroundsUrchin.Location = New System.Drawing.Point(365, 200)
+        Me.CheckBoxBackgroundsUrchin.Name = "CheckBoxBackgroundsUrchin"
+        Me.CheckBoxBackgroundsUrchin.Size = New System.Drawing.Size(57, 17)
+        Me.CheckBoxBackgroundsUrchin.TabIndex = 8
+        Me.CheckBoxBackgroundsUrchin.Text = "Urchin"
+        Me.CheckBoxBackgroundsUrchin.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsRepairman
+        '
+        Me.CheckBoxBackgroundsRepairman.AutoSize = True
+        Me.CheckBoxBackgroundsRepairman.Location = New System.Drawing.Point(68, 203)
+        Me.CheckBoxBackgroundsRepairman.Name = "CheckBoxBackgroundsRepairman"
+        Me.CheckBoxBackgroundsRepairman.Size = New System.Drawing.Size(77, 17)
+        Me.CheckBoxBackgroundsRepairman.TabIndex = 8
+        Me.CheckBoxBackgroundsRepairman.Text = "Repairman"
+        Me.CheckBoxBackgroundsRepairman.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsBotanist
+        '
+        Me.CheckBoxBackgroundsBotanist.AutoSize = True
+        Me.CheckBoxBackgroundsBotanist.Location = New System.Drawing.Point(214, 202)
+        Me.CheckBoxBackgroundsBotanist.Name = "CheckBoxBackgroundsBotanist"
+        Me.CheckBoxBackgroundsBotanist.Size = New System.Drawing.Size(64, 17)
+        Me.CheckBoxBackgroundsBotanist.TabIndex = 8
+        Me.CheckBoxBackgroundsBotanist.Text = "Botanist"
+        Me.CheckBoxBackgroundsBotanist.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsWanderer
+        '
+        Me.CheckBoxBackgroundsWanderer.AutoSize = True
+        Me.CheckBoxBackgroundsWanderer.Location = New System.Drawing.Point(365, 176)
+        Me.CheckBoxBackgroundsWanderer.Name = "CheckBoxBackgroundsWanderer"
+        Me.CheckBoxBackgroundsWanderer.Size = New System.Drawing.Size(73, 17)
+        Me.CheckBoxBackgroundsWanderer.TabIndex = 7
+        Me.CheckBoxBackgroundsWanderer.Text = "Wanderer"
+        Me.CheckBoxBackgroundsWanderer.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsArcanescholar
+        '
+        Me.CheckBoxBackgroundsArcanescholar.AutoSize = True
+        Me.CheckBoxBackgroundsArcanescholar.Location = New System.Drawing.Point(68, 179)
+        Me.CheckBoxBackgroundsArcanescholar.Name = "CheckBoxBackgroundsArcanescholar"
+        Me.CheckBoxBackgroundsArcanescholar.Size = New System.Drawing.Size(99, 17)
+        Me.CheckBoxBackgroundsArcanescholar.TabIndex = 7
+        Me.CheckBoxBackgroundsArcanescholar.Text = "Arcane Scholar"
+        Me.CheckBoxBackgroundsArcanescholar.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsTradesman
+        '
+        Me.CheckBoxBackgroundsTradesman.AutoSize = True
+        Me.CheckBoxBackgroundsTradesman.Location = New System.Drawing.Point(365, 152)
+        Me.CheckBoxBackgroundsTradesman.Name = "CheckBoxBackgroundsTradesman"
+        Me.CheckBoxBackgroundsTradesman.Size = New System.Drawing.Size(79, 17)
+        Me.CheckBoxBackgroundsTradesman.TabIndex = 6
+        Me.CheckBoxBackgroundsTradesman.Text = "Tradesman"
+        Me.CheckBoxBackgroundsTradesman.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsScholar
+        '
+        Me.CheckBoxBackgroundsScholar.AutoSize = True
+        Me.CheckBoxBackgroundsScholar.Location = New System.Drawing.Point(68, 155)
+        Me.CheckBoxBackgroundsScholar.Name = "CheckBoxBackgroundsScholar"
+        Me.CheckBoxBackgroundsScholar.Size = New System.Drawing.Size(62, 17)
+        Me.CheckBoxBackgroundsScholar.TabIndex = 6
+        Me.CheckBoxBackgroundsScholar.Text = "Scholar"
+        Me.CheckBoxBackgroundsScholar.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsCleanser
+        '
+        Me.CheckBoxBackgroundsCleanser.AutoSize = True
+        Me.CheckBoxBackgroundsCleanser.Location = New System.Drawing.Point(365, 128)
+        Me.CheckBoxBackgroundsCleanser.Name = "CheckBoxBackgroundsCleanser"
+        Me.CheckBoxBackgroundsCleanser.Size = New System.Drawing.Size(67, 17)
+        Me.CheckBoxBackgroundsCleanser.TabIndex = 5
+        Me.CheckBoxBackgroundsCleanser.Text = "Cleanser"
+        Me.CheckBoxBackgroundsCleanser.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsHistorian
+        '
+        Me.CheckBoxBackgroundsHistorian.AutoSize = True
+        Me.CheckBoxBackgroundsHistorian.Location = New System.Drawing.Point(214, 178)
+        Me.CheckBoxBackgroundsHistorian.Name = "CheckBoxBackgroundsHistorian"
+        Me.CheckBoxBackgroundsHistorian.Size = New System.Drawing.Size(67, 17)
+        Me.CheckBoxBackgroundsHistorian.TabIndex = 7
+        Me.CheckBoxBackgroundsHistorian.Text = "Historian"
+        Me.CheckBoxBackgroundsHistorian.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsTailor
+        '
+        Me.CheckBoxBackgroundsTailor.AutoSize = True
+        Me.CheckBoxBackgroundsTailor.Location = New System.Drawing.Point(68, 131)
+        Me.CheckBoxBackgroundsTailor.Name = "CheckBoxBackgroundsTailor"
+        Me.CheckBoxBackgroundsTailor.Size = New System.Drawing.Size(52, 17)
+        Me.CheckBoxBackgroundsTailor.TabIndex = 5
+        Me.CheckBoxBackgroundsTailor.Text = "Tailor"
+        Me.CheckBoxBackgroundsTailor.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsEnchantmentspecialist
+        '
+        Me.CheckBoxBackgroundsEnchantmentspecialist.AutoSize = True
+        Me.CheckBoxBackgroundsEnchantmentspecialist.Location = New System.Drawing.Point(365, 105)
+        Me.CheckBoxBackgroundsEnchantmentspecialist.Name = "CheckBoxBackgroundsEnchantmentspecialist"
+        Me.CheckBoxBackgroundsEnchantmentspecialist.Size = New System.Drawing.Size(137, 17)
+        Me.CheckBoxBackgroundsEnchantmentspecialist.TabIndex = 4
+        Me.CheckBoxBackgroundsEnchantmentspecialist.Text = "Enchantment Specialist"
+        Me.CheckBoxBackgroundsEnchantmentspecialist.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsWeaponsarmorknowledge
+        '
+        Me.CheckBoxBackgroundsWeaponsarmorknowledge.AutoSize = True
+        Me.CheckBoxBackgroundsWeaponsarmorknowledge.Location = New System.Drawing.Point(365, 227)
+        Me.CheckBoxBackgroundsWeaponsarmorknowledge.Name = "CheckBoxBackgroundsWeaponsarmorknowledge"
+        Me.CheckBoxBackgroundsWeaponsarmorknowledge.Size = New System.Drawing.Size(160, 17)
+        Me.CheckBoxBackgroundsWeaponsarmorknowledge.TabIndex = 6
+        Me.CheckBoxBackgroundsWeaponsarmorknowledge.Text = "Weapons/Armor Knowledge"
+        Me.CheckBoxBackgroundsWeaponsarmorknowledge.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsBlacksmith
+        '
+        Me.CheckBoxBackgroundsBlacksmith.AutoSize = True
+        Me.CheckBoxBackgroundsBlacksmith.Location = New System.Drawing.Point(68, 108)
+        Me.CheckBoxBackgroundsBlacksmith.Name = "CheckBoxBackgroundsBlacksmith"
+        Me.CheckBoxBackgroundsBlacksmith.Size = New System.Drawing.Size(77, 17)
+        Me.CheckBoxBackgroundsBlacksmith.TabIndex = 4
+        Me.CheckBoxBackgroundsBlacksmith.Text = "Blacksmith"
+        Me.CheckBoxBackgroundsBlacksmith.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsGuard
+        '
+        Me.CheckBoxBackgroundsGuard.AutoSize = True
+        Me.CheckBoxBackgroundsGuard.Location = New System.Drawing.Point(365, 82)
+        Me.CheckBoxBackgroundsGuard.Name = "CheckBoxBackgroundsGuard"
+        Me.CheckBoxBackgroundsGuard.Size = New System.Drawing.Size(55, 17)
+        Me.CheckBoxBackgroundsGuard.TabIndex = 3
+        Me.CheckBoxBackgroundsGuard.Text = "Guard"
+        Me.CheckBoxBackgroundsGuard.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsCartographer
+        '
+        Me.CheckBoxBackgroundsCartographer.AutoSize = True
+        Me.CheckBoxBackgroundsCartographer.Location = New System.Drawing.Point(214, 130)
+        Me.CheckBoxBackgroundsCartographer.Name = "CheckBoxBackgroundsCartographer"
+        Me.CheckBoxBackgroundsCartographer.Size = New System.Drawing.Size(87, 17)
+        Me.CheckBoxBackgroundsCartographer.TabIndex = 5
+        Me.CheckBoxBackgroundsCartographer.Text = "Cartographer"
+        Me.CheckBoxBackgroundsCartographer.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsSeaworthy
+        '
+        Me.CheckBoxBackgroundsSeaworthy.AutoSize = True
+        Me.CheckBoxBackgroundsSeaworthy.Location = New System.Drawing.Point(68, 85)
+        Me.CheckBoxBackgroundsSeaworthy.Name = "CheckBoxBackgroundsSeaworthy"
+        Me.CheckBoxBackgroundsSeaworthy.Size = New System.Drawing.Size(76, 17)
+        Me.CheckBoxBackgroundsSeaworthy.TabIndex = 3
+        Me.CheckBoxBackgroundsSeaworthy.Text = "Seaworthy"
+        Me.CheckBoxBackgroundsSeaworthy.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsWoodsman
+        '
+        Me.CheckBoxBackgroundsWoodsman.AutoSize = True
+        Me.CheckBoxBackgroundsWoodsman.Location = New System.Drawing.Point(214, 107)
+        Me.CheckBoxBackgroundsWoodsman.Name = "CheckBoxBackgroundsWoodsman"
+        Me.CheckBoxBackgroundsWoodsman.Size = New System.Drawing.Size(80, 17)
+        Me.CheckBoxBackgroundsWoodsman.TabIndex = 4
+        Me.CheckBoxBackgroundsWoodsman.Text = "Woodsman"
+        Me.CheckBoxBackgroundsWoodsman.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBackgroundsArchitect
+        '
+        Me.CheckBoxBackgroundsArchitect.AutoSize = True
+        Me.CheckBoxBackgroundsArchitect.Location = New System.Drawing.Point(214, 84)
+        Me.CheckBoxBackgroundsArchitect.Name = "CheckBoxBackgroundsArchitect"
+        Me.CheckBoxBackgroundsArchitect.Size = New System.Drawing.Size(68, 17)
+        Me.CheckBoxBackgroundsArchitect.TabIndex = 3
+        Me.CheckBoxBackgroundsArchitect.Text = "Architect"
+        Me.CheckBoxBackgroundsArchitect.UseVisualStyleBackColor = True
+        '
+        'LabelBackgroundsIntro
+        '
+        Me.LabelBackgroundsIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelBackgroundsIntro.Location = New System.Drawing.Point(39, 11)
+        Me.LabelBackgroundsIntro.Name = "LabelBackgroundsIntro"
+        Me.LabelBackgroundsIntro.Size = New System.Drawing.Size(521, 65)
+        Me.LabelBackgroundsIntro.TabIndex = 2
+        Me.LabelBackgroundsIntro.Text = "Next pick two backgrounds for your character. These should reflect your character" &
+    "'s backstory and why they became who they did. Click for Info"
+        '
+        'ButtonBackgroundsClass
+        '
+        Me.ButtonBackgroundsClass.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonBackgroundsClass.Name = "ButtonBackgroundsClass"
+        Me.ButtonBackgroundsClass.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBackgroundsClass.TabIndex = 1
+        Me.ButtonBackgroundsClass.Text = "Next"
+        Me.ButtonBackgroundsClass.UseVisualStyleBackColor = True
+        '
+        'ButtonBackgroundsKintype
+        '
+        Me.ButtonBackgroundsKintype.Location = New System.Drawing.Point(3, 291)
+        Me.ButtonBackgroundsKintype.Name = "ButtonBackgroundsKintype"
+        Me.ButtonBackgroundsKintype.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonBackgroundsKintype.TabIndex = 0
+        Me.ButtonBackgroundsKintype.Text = "Previous"
+        Me.ButtonBackgroundsKintype.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelBackgrounds)
         Me.Controls.Add(Me.PanelWoodelf)
         Me.Controls.Add(Me.PanelWolfsbein)
         Me.Controls.Add(Me.PanelWastelander)
@@ -3154,6 +3474,8 @@ Partial Class Form1
         Me.PanelWolfsbein.PerformLayout()
         Me.PanelWoodelf.ResumeLayout(False)
         Me.PanelWoodelf.PerformLayout()
+        Me.PanelBackgrounds.ResumeLayout(False)
+        Me.PanelBackgrounds.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -3407,4 +3729,31 @@ Partial Class Form1
     Friend WithEvents LabelWoodelfIntro As Label
     Friend WithEvents ButtonWoodelfBackgrounds As Button
     Friend WithEvents ButtonWoodelfKin As Button
+    Friend WithEvents PanelBackgrounds As Panel
+    Friend WithEvents ButtonBackgroundsInfo As Button
+    Friend WithEvents CheckBoxBackgroundsCourier As CheckBox
+    Friend WithEvents CheckBoxBackgroundsSmuggler As CheckBox
+    Friend WithEvents CheckBoxBackgroundsFisherman As CheckBox
+    Friend WithEvents CheckBoxBackgroundsMiddleman As CheckBox
+    Friend WithEvents CheckBoxBackgroundsUrchin As CheckBox
+    Friend WithEvents CheckBoxBackgroundsRepairman As CheckBox
+    Friend WithEvents CheckBoxBackgroundsBotanist As CheckBox
+    Friend WithEvents CheckBoxBackgroundsWanderer As CheckBox
+    Friend WithEvents CheckBoxBackgroundsArcanescholar As CheckBox
+    Friend WithEvents CheckBoxBackgroundsTradesman As CheckBox
+    Friend WithEvents CheckBoxBackgroundsScholar As CheckBox
+    Friend WithEvents CheckBoxBackgroundsCleanser As CheckBox
+    Friend WithEvents CheckBoxBackgroundsHistorian As CheckBox
+    Friend WithEvents CheckBoxBackgroundsTailor As CheckBox
+    Friend WithEvents CheckBoxBackgroundsEnchantmentspecialist As CheckBox
+    Friend WithEvents CheckBoxBackgroundsWeaponsarmorknowledge As CheckBox
+    Friend WithEvents CheckBoxBackgroundsBlacksmith As CheckBox
+    Friend WithEvents CheckBoxBackgroundsGuard As CheckBox
+    Friend WithEvents CheckBoxBackgroundsCartographer As CheckBox
+    Friend WithEvents CheckBoxBackgroundsSeaworthy As CheckBox
+    Friend WithEvents CheckBoxBackgroundsWoodsman As CheckBox
+    Friend WithEvents CheckBoxBackgroundsArchitect As CheckBox
+    Friend WithEvents LabelBackgroundsIntro As Label
+    Friend WithEvents ButtonBackgroundsClass As Button
+    Friend WithEvents ButtonBackgroundsKintype As Button
 End Class

@@ -120,9 +120,9 @@
     End Sub
 
     Private Sub ButtonNyadBackground_Click(sender As Object, e As EventArgs) Handles ButtonNyadBackground.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelNyad.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelNyad.Enabled = False
 
     End Sub
 
@@ -137,9 +137,9 @@
     End Sub
 
     Private Sub ButtonDryadBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonDryadBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelDryad.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelDryad.Enabled = False
     End Sub
 
     Private Sub ButtonDryadInfo_Click(sender As Object, e As EventArgs) Handles ButtonDryadInfo.Click
@@ -157,9 +157,9 @@
     End Sub
 
     Private Sub ButtonGoblinBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonGoblinBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelGoblin.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelGoblin.Enabled = False
     End Sub
 
     Private Sub ButtonGnomeKin_Click(sender As Object, e As EventArgs) Handles ButtonGnomeKin.Click
@@ -169,9 +169,9 @@
     End Sub
 
     Private Sub ButtonGnomeBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonGnomeBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelGnome.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelGnome.Enabled = False
     End Sub
 
     Private Sub ButtonGnomeInfo_Click(sender As Object, e As EventArgs) Handles ButtonGnomeInfo.Click
@@ -189,9 +189,9 @@
     End Sub
 
     Private Sub ButtonDwarfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonDwarfBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelDwarf.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelDwarf.Enabled = False
     End Sub
 
     Private Sub ButtonJadeImperialInfo_Click(sender As Object, e As EventArgs) Handles ButtonJadeImperialInfo.Click
@@ -205,9 +205,9 @@
     End Sub
 
     Private Sub ButtonJadeImperialBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonJadeImperialBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelJadeImperial.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelJadeImperial.Enabled = False
     End Sub
 
     Private Sub ButtonSquirrelInfo_Click(sender As Object, e As EventArgs) Handles ButtonSquirrelInfo.Click
@@ -221,9 +221,9 @@
     End Sub
 
     Private Sub ButtonSquirrelBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonSquirrelBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelSquirrel.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelSquirrel.Enabled = False
     End Sub
 
     Private Sub ButtonTrollInfo_Click(sender As Object, e As EventArgs) Handles ButtonTrollInfo.Click
@@ -237,9 +237,9 @@
     End Sub
 
     Private Sub ButtonTrollBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonTrollBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelTroll.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelTroll.Enabled = False
     End Sub
 
     Private Sub ButtonCatdrahInfo_Click(sender As Object, e As EventArgs) Handles ButtonCatdrahInfo.Click
@@ -253,9 +253,9 @@
     End Sub
 
     Private Sub ButtonCatdrahBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonCatdrahBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelCatdrah.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelCatdrah.Enabled = False
     End Sub
 
     Private Sub ButtonKinsmanInfo_Click(sender As Object, e As EventArgs) Handles ButtonKinsmanInfo.Click
@@ -269,9 +269,9 @@
     End Sub
 
     Private Sub ButtonKinsmanBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonKinsmanBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelKinsman.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelKinsman.Enabled = False
     End Sub
 
     Private Sub ButtonMinotaurInfo_Click(sender As Object, e As EventArgs) Handles ButtonMinotaurInfo.Click
@@ -285,9 +285,9 @@
     End Sub
 
     Private Sub ButtonMinotaurBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonMinotaurBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelMinotaur.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelMinotaur.Enabled = False
     End Sub
 
     Private Sub ButtonAngelucianInfo_Click(sender As Object, e As EventArgs) Handles ButtonAngelucianInfo.Click
@@ -301,9 +301,9 @@
     End Sub
 
     Private Sub ButtonAngalucianBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonAngalucianBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelAngalucian.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelAngalucian.Enabled = False
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles ButtonDarkelfKin.Click
@@ -317,9 +317,9 @@
     End Sub
 
     Private Sub ButtonDarkelfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonDarkelfBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelDarkelf.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelDarkelf.Enabled = False
     End Sub
 
     Private Sub ButtonFelucianInfo_Click(sender As Object, e As EventArgs) Handles ButtonFelucianInfo.Click
@@ -333,9 +333,9 @@
     End Sub
 
     Private Sub ButtonFelucianBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonFelucianBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelFelucian.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelFelucian.Enabled = False
     End Sub
 
     Private Sub ButtonGigayonaInfo_Click(sender As Object, e As EventArgs) Handles ButtonGigayonaInfo.Click
@@ -349,9 +349,9 @@
     End Sub
 
     Private Sub ButtonGigayonaBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonGigayonaBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelGigayona.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelGigayona.Enabled = False
     End Sub
 
     Private Sub ButtonHighelfInfo_Click(sender As Object, e As EventArgs) Handles ButtonHighelfInfo.Click
@@ -365,9 +365,9 @@
     End Sub
 
     Private Sub ButtonHighelfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonHighelfBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelHighelf.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelHighelf.Enabled = False
     End Sub
 
     Private Sub ButtonFaerlethInfo_Click(sender As Object, e As EventArgs) Handles ButtonFaerlethInfo.Click
@@ -381,9 +381,9 @@
     End Sub
 
     Private Sub ButtonFaerlethBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonFaerlethBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelFaerleth.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelFaerleth.Enabled = False
     End Sub
 
     Private Sub ButtonOrcInfo_Click(sender As Object, e As EventArgs) Handles ButtonOrcInfo.Click
@@ -397,9 +397,9 @@
     End Sub
 
     Private Sub ButtonOrcBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonOrcBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelOrc.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelOrc.Enabled = False
     End Sub
 
     Private Sub ButtonSanjoranInfo_Click(sender As Object, e As EventArgs) Handles ButtonSanjoranInfo.Click
@@ -413,9 +413,9 @@
     End Sub
 
     Private Sub ButtonSanjoranBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonSanjoranBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelSanjoran.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelSanjoran.Enabled = False
     End Sub
 
     Private Sub ButtonWastelanderInfo_Click(sender As Object, e As EventArgs) Handles ButtonWastelanderInfo.Click
@@ -429,9 +429,9 @@
     End Sub
 
     Private Sub ButtonWastelanderBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonWastelanderBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelWastelander.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelWastelander.Enabled = False
     End Sub
 
     Private Sub ButtonWolfsbeinInfo_Click(sender As Object, e As EventArgs) Handles ButtonWolfsbeinInfo.Click
@@ -445,9 +445,9 @@
     End Sub
 
     Private Sub ButtonWolfsbeinBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonWolfsbeinBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelWolfsbein.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelWolfsbein.Enabled = False
     End Sub
 
     Private Sub ButtonWoodelfInfo_Click(sender As Object, e As EventArgs) Handles ButtonWoodelfInfo.Click
@@ -461,8 +461,8 @@
     End Sub
 
     Private Sub ButtonWoodelfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonWoodelfBackgrounds.Click
-        'Me.PanelBackgrounds.Enabled = True
-        'Me.PanelBackgrounds.BringToFront()
-        'Me.PanelWoodelf.Enabled = False
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelWoodelf.Enabled = False
     End Sub
-End Class
+
