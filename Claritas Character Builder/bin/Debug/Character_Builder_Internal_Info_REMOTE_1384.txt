@@ -884,11 +884,6 @@ null
 AllTalentsKairoNeuro
 -----------------------Modifiers-----------------------
 Modifiers
-<<<<<<< HEAD
-null
-Modifiers
-end
-=======
 
 Common - Adds no additional effect or modification to player.
 
@@ -919,4 +914,3 @@ Flashback - Allows the player to perfectly remember a situation/area (can even a
 Indebted Soul - Cannot make deals with Death, yet cannot die in the traditional sense. When health reaches 0, body goes dormant; the soul being permanently tethered to the body. Can never be raised through necromancy. If the character dies they will be revived as though they had bribed Death with XP (XPed out). This can only be done once per event. If a player bribes death, any and all money they touch upon revival will be immediately lost, transported to the person/thing/object that revived them until they have given a total of 350 Gold. (All gold the player loses upon death counts toward their sum.)
 
 Modifiers
->>>>>>> Internal_info
