@@ -120,4 +120,70 @@
   <data name="LabelKinDescription.Text" xml:space="preserve">
     <value>First pick your Kin! This determines what you look like, what culture you come from, how you look, and even how you might act. Remember this is your character, so your appearance, upbringing, and personality are ultimately up to you so this is just a base. Click on a name for more info about the kin.</value>
   </data>
+  <data name="LabelNyadIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelDryadIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelGoblinIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelGnomeIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelDwarfIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelJadeImperialIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelSquirrelIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelTrollIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelCatdrahIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelKinsmanIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelAngelucianIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelMinotaur.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelDarkelfIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelFelucianIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelGigayonaIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelHighelfIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelFaerlethIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelOrcIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelSanjoranIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelWastelanderIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelWolfsbeinIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelWoodelfIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
 </root>
