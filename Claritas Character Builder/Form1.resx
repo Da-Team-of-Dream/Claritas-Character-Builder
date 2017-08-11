@@ -186,4 +186,7 @@
   <data name="LabelWoodelfIntro.Text" xml:space="preserve">
     <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
   </data>
+  <data name="LabelWizardIntro.Text" xml:space="preserve">
+    <value>You chose to be a Wizard! Wizards work a little differently than the other classes. Instead of having two factions they can choose between wizard's have 6 total factions. They are split up into two categories of three, elemental magic and manifold magic. Pick one from each category. Click for info.</value>
+  </data>
 </root>

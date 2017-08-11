@@ -221,9 +221,9 @@ Partial Class Form1
         Me.RadioButtonHighelfColorsofthewind = New System.Windows.Forms.RadioButton()
         Me.RadioButtonHighelfLightfoot = New System.Windows.Forms.RadioButton()
         Me.RadioButtonHighelfBedazzle = New System.Windows.Forms.RadioButton()
-        Me.LabelHighelfIntro = New System.Windows.Forms.Label()
         Me.ButtonHighelfBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonHighelfKin = New System.Windows.Forms.Button()
+        Me.LabelHighelfIntro = New System.Windows.Forms.Label()
         Me.PanelFaerleth = New System.Windows.Forms.Panel()
         Me.RadioButtonFaerlethMastermunchyologist = New System.Windows.Forms.RadioButton()
         Me.ButtonFaerlethInfo = New System.Windows.Forms.Button()
@@ -300,6 +300,51 @@ Partial Class Form1
         Me.LabelBackgroundsIntro = New System.Windows.Forms.Label()
         Me.ButtonBackgroundsClass = New System.Windows.Forms.Button()
         Me.ButtonBackgroundsKintype = New System.Windows.Forms.Button()
+        Me.PanelClass = New System.Windows.Forms.Panel()
+        Me.LabelClassCleric = New System.Windows.Forms.Label()
+        Me.LabelClassNoble = New System.Windows.Forms.Label()
+        Me.LabelClassClerictalents = New System.Windows.Forms.Label()
+        Me.LabelClassNobletalents = New System.Windows.Forms.Label()
+        Me.LabelClassWizard = New System.Windows.Forms.Label()
+        Me.LabelClassRanger = New System.Windows.Forms.Label()
+        Me.LabelClassVoidknight = New System.Windows.Forms.Label()
+        Me.LabelClassWizardtalents = New System.Windows.Forms.Label()
+        Me.LabelClassRogue = New System.Windows.Forms.Label()
+        Me.LabelClassVoidknighttalents = New System.Windows.Forms.Label()
+        Me.LabelClassRangertalents = New System.Windows.Forms.Label()
+        Me.LabelClassRoguetalents = New System.Windows.Forms.Label()
+        Me.LabelClassWarrior = New System.Windows.Forms.Label()
+        Me.LabelClassWarriortalents = New System.Windows.Forms.Label()
+        Me.ButtonClassNext = New System.Windows.Forms.Button()
+        Me.ButtonClassBackgrounds = New System.Windows.Forms.Button()
+        Me.RadioButtonClassCleric = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonClassNoble = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonClassVoidKnight = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonRogue = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonClassWizard = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonClassRanger = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonClassWarrior = New System.Windows.Forms.RadioButton()
+        Me.LabelClassIntro = New System.Windows.Forms.Label()
+        Me.PanelWizard = New System.Windows.Forms.Panel()
+        Me.GroupBoxWizardManifold = New System.Windows.Forms.GroupBox()
+        Me.RadioButtonWizardNeuromancy = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWizardKinesiomancy = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWizardNecromancy = New System.Windows.Forms.RadioButton()
+        Me.GroupBoxWizardElemental = New System.Windows.Forms.GroupBox()
+        Me.LabelWizardHydromancy = New System.Windows.Forms.Label()
+        Me.LabelWizardPyromancy = New System.Windows.Forms.Label()
+        Me.LabelWizardKairomancy = New System.Windows.Forms.Label()
+        Me.RadioButtonWizardHydromancy = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWizardPyromancy = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWizardKairomancy = New System.Windows.Forms.RadioButton()
+        Me.ButtonWizardTalents = New System.Windows.Forms.Button()
+        Me.ButtonWizardClass = New System.Windows.Forms.Button()
+        Me.LabelWizardIntro = New System.Windows.Forms.Label()
+        Me.LabelWizardKinesiomancy = New System.Windows.Forms.Label()
+        Me.LabelWizardNecromancy = New System.Windows.Forms.Label()
+        Me.LabelWizardNeuromancy = New System.Windows.Forms.Label()
+        Me.PanelWarrior = New System.Windows.Forms.Panel()
+        Me.LabelWarriorIntro = New System.Windows.Forms.Label()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
@@ -325,6 +370,11 @@ Partial Class Form1
         Me.PanelWolfsbein.SuspendLayout()
         Me.PanelWoodelf.SuspendLayout()
         Me.PanelBackgrounds.SuspendLayout()
+        Me.PanelClass.SuspendLayout()
+        Me.PanelWizard.SuspendLayout()
+        Me.GroupBoxWizardManifold.SuspendLayout()
+        Me.GroupBoxWizardElemental.SuspendLayout()
+        Me.PanelWarrior.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -2473,9 +2523,9 @@ Partial Class Form1
         Me.PanelHighelf.Controls.Add(Me.RadioButtonHighelfColorsofthewind)
         Me.PanelHighelf.Controls.Add(Me.RadioButtonHighelfLightfoot)
         Me.PanelHighelf.Controls.Add(Me.RadioButtonHighelfBedazzle)
-        Me.PanelHighelf.Controls.Add(Me.LabelHighelfIntro)
         Me.PanelHighelf.Controls.Add(Me.ButtonHighelfBackgrounds)
         Me.PanelHighelf.Controls.Add(Me.ButtonHighelfKin)
+        Me.PanelHighelf.Controls.Add(Me.LabelHighelfIntro)
         Me.PanelHighelf.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelHighelf.Enabled = False
         Me.PanelHighelf.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -2529,15 +2579,6 @@ Partial Class Form1
         Me.RadioButtonHighelfBedazzle.Text = "Bedazzle"
         Me.RadioButtonHighelfBedazzle.UseVisualStyleBackColor = True
         '
-        'LabelHighelfIntro
-        '
-        Me.LabelHighelfIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelHighelfIntro.Location = New System.Drawing.Point(4, 4)
-        Me.LabelHighelfIntro.Name = "LabelHighelfIntro"
-        Me.LabelHighelfIntro.Size = New System.Drawing.Size(605, 80)
-        Me.LabelHighelfIntro.TabIndex = 2
-        Me.LabelHighelfIntro.Text = resources.GetString("LabelHighelfIntro.Text")
-        '
         'ButtonHighelfBackgrounds
         '
         Me.ButtonHighelfBackgrounds.Location = New System.Drawing.Point(543, 290)
@@ -2555,6 +2596,15 @@ Partial Class Form1
         Me.ButtonHighelfKin.TabIndex = 0
         Me.ButtonHighelfKin.Text = "Previous"
         Me.ButtonHighelfKin.UseVisualStyleBackColor = True
+        '
+        'LabelHighelfIntro
+        '
+        Me.LabelHighelfIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHighelfIntro.Location = New System.Drawing.Point(4, 4)
+        Me.LabelHighelfIntro.Name = "LabelHighelfIntro"
+        Me.LabelHighelfIntro.Size = New System.Drawing.Size(605, 80)
+        Me.LabelHighelfIntro.TabIndex = 2
+        Me.LabelHighelfIntro.Text = resources.GetString("LabelHighelfIntro.Text")
         '
         'PanelFaerleth
         '
@@ -3394,11 +3444,464 @@ Partial Class Form1
         Me.ButtonBackgroundsKintype.Text = "Previous"
         Me.ButtonBackgroundsKintype.UseVisualStyleBackColor = True
         '
+        'PanelClass
+        '
+        Me.PanelClass.Controls.Add(Me.LabelClassCleric)
+        Me.PanelClass.Controls.Add(Me.LabelClassNoble)
+        Me.PanelClass.Controls.Add(Me.LabelClassClerictalents)
+        Me.PanelClass.Controls.Add(Me.LabelClassNobletalents)
+        Me.PanelClass.Controls.Add(Me.LabelClassWizard)
+        Me.PanelClass.Controls.Add(Me.LabelClassRanger)
+        Me.PanelClass.Controls.Add(Me.LabelClassVoidknight)
+        Me.PanelClass.Controls.Add(Me.LabelClassWizardtalents)
+        Me.PanelClass.Controls.Add(Me.LabelClassRogue)
+        Me.PanelClass.Controls.Add(Me.LabelClassVoidknighttalents)
+        Me.PanelClass.Controls.Add(Me.LabelClassRangertalents)
+        Me.PanelClass.Controls.Add(Me.LabelClassRoguetalents)
+        Me.PanelClass.Controls.Add(Me.LabelClassWarrior)
+        Me.PanelClass.Controls.Add(Me.LabelClassWarriortalents)
+        Me.PanelClass.Controls.Add(Me.ButtonClassNext)
+        Me.PanelClass.Controls.Add(Me.ButtonClassBackgrounds)
+        Me.PanelClass.Controls.Add(Me.RadioButtonClassCleric)
+        Me.PanelClass.Controls.Add(Me.RadioButtonClassNoble)
+        Me.PanelClass.Controls.Add(Me.RadioButtonClassVoidKnight)
+        Me.PanelClass.Controls.Add(Me.RadioButtonRogue)
+        Me.PanelClass.Controls.Add(Me.RadioButtonClassWizard)
+        Me.PanelClass.Controls.Add(Me.RadioButtonClassRanger)
+        Me.PanelClass.Controls.Add(Me.RadioButtonClassWarrior)
+        Me.PanelClass.Controls.Add(Me.LabelClassIntro)
+        Me.PanelClass.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelClass.Enabled = False
+        Me.PanelClass.Location = New System.Drawing.Point(0, 0)
+        Me.PanelClass.Name = "PanelClass"
+        Me.PanelClass.Size = New System.Drawing.Size(621, 316)
+        Me.PanelClass.TabIndex = 29
+        '
+        'LabelClassCleric
+        '
+        Me.LabelClassCleric.Location = New System.Drawing.Point(391, 187)
+        Me.LabelClassCleric.Name = "LabelClassCleric"
+        Me.LabelClassCleric.Size = New System.Drawing.Size(44, 15)
+        Me.LabelClassCleric.TabIndex = 7
+        Me.LabelClassCleric.Text = "Cleric"
+        '
+        'LabelClassNoble
+        '
+        Me.LabelClassNoble.Location = New System.Drawing.Point(188, 231)
+        Me.LabelClassNoble.Name = "LabelClassNoble"
+        Me.LabelClassNoble.Size = New System.Drawing.Size(44, 15)
+        Me.LabelClassNoble.TabIndex = 7
+        Me.LabelClassNoble.Text = "Noble"
+        '
+        'LabelClassClerictalents
+        '
+        Me.LabelClassClerictalents.Location = New System.Drawing.Point(460, 187)
+        Me.LabelClassClerictalents.Name = "LabelClassClerictalents"
+        Me.LabelClassClerictalents.Size = New System.Drawing.Size(55, 15)
+        Me.LabelClassClerictalents.TabIndex = 7
+        Me.LabelClassClerictalents.Text = "Talents"
+        '
+        'LabelClassNobletalents
+        '
+        Me.LabelClassNobletalents.Location = New System.Drawing.Point(258, 231)
+        Me.LabelClassNobletalents.Name = "LabelClassNobletalents"
+        Me.LabelClassNobletalents.Size = New System.Drawing.Size(55, 15)
+        Me.LabelClassNobletalents.TabIndex = 7
+        Me.LabelClassNobletalents.Text = "Talents"
+        '
+        'LabelClassWizard
+        '
+        Me.LabelClassWizard.Location = New System.Drawing.Point(391, 90)
+        Me.LabelClassWizard.Name = "LabelClassWizard"
+        Me.LabelClassWizard.Size = New System.Drawing.Size(44, 15)
+        Me.LabelClassWizard.TabIndex = 7
+        Me.LabelClassWizard.Text = "Wizard"
+        '
+        'LabelClassRanger
+        '
+        Me.LabelClassRanger.Location = New System.Drawing.Point(188, 134)
+        Me.LabelClassRanger.Name = "LabelClassRanger"
+        Me.LabelClassRanger.Size = New System.Drawing.Size(44, 15)
+        Me.LabelClassRanger.TabIndex = 7
+        Me.LabelClassRanger.Text = "Ranger"
+        '
+        'LabelClassVoidknight
+        '
+        Me.LabelClassVoidknight.Location = New System.Drawing.Point(391, 141)
+        Me.LabelClassVoidknight.Name = "LabelClassVoidknight"
+        Me.LabelClassVoidknight.Size = New System.Drawing.Size(72, 15)
+        Me.LabelClassVoidknight.TabIndex = 7
+        Me.LabelClassVoidknight.Text = "Void Knight"
+        '
+        'LabelClassWizardtalents
+        '
+        Me.LabelClassWizardtalents.Location = New System.Drawing.Point(460, 90)
+        Me.LabelClassWizardtalents.Name = "LabelClassWizardtalents"
+        Me.LabelClassWizardtalents.Size = New System.Drawing.Size(55, 15)
+        Me.LabelClassWizardtalents.TabIndex = 7
+        Me.LabelClassWizardtalents.Text = "Talents"
+        '
+        'LabelClassRogue
+        '
+        Me.LabelClassRogue.Location = New System.Drawing.Point(188, 183)
+        Me.LabelClassRogue.Name = "LabelClassRogue"
+        Me.LabelClassRogue.Size = New System.Drawing.Size(44, 15)
+        Me.LabelClassRogue.TabIndex = 7
+        Me.LabelClassRogue.Text = "Rogue"
+        '
+        'LabelClassVoidknighttalents
+        '
+        Me.LabelClassVoidknighttalents.Location = New System.Drawing.Point(460, 141)
+        Me.LabelClassVoidknighttalents.Name = "LabelClassVoidknighttalents"
+        Me.LabelClassVoidknighttalents.Size = New System.Drawing.Size(55, 15)
+        Me.LabelClassVoidknighttalents.TabIndex = 7
+        Me.LabelClassVoidknighttalents.Text = "Talents"
+        '
+        'LabelClassRangertalents
+        '
+        Me.LabelClassRangertalents.Location = New System.Drawing.Point(258, 134)
+        Me.LabelClassRangertalents.Name = "LabelClassRangertalents"
+        Me.LabelClassRangertalents.Size = New System.Drawing.Size(55, 15)
+        Me.LabelClassRangertalents.TabIndex = 7
+        Me.LabelClassRangertalents.Text = "Talents"
+        '
+        'LabelClassRoguetalents
+        '
+        Me.LabelClassRoguetalents.Location = New System.Drawing.Point(258, 183)
+        Me.LabelClassRoguetalents.Name = "LabelClassRoguetalents"
+        Me.LabelClassRoguetalents.Size = New System.Drawing.Size(55, 15)
+        Me.LabelClassRoguetalents.TabIndex = 7
+        Me.LabelClassRoguetalents.Text = "Talents"
+        '
+        'LabelClassWarrior
+        '
+        Me.LabelClassWarrior.Location = New System.Drawing.Point(188, 92)
+        Me.LabelClassWarrior.Name = "LabelClassWarrior"
+        Me.LabelClassWarrior.Size = New System.Drawing.Size(44, 15)
+        Me.LabelClassWarrior.TabIndex = 7
+        Me.LabelClassWarrior.Text = "Warrior"
+        '
+        'LabelClassWarriortalents
+        '
+        Me.LabelClassWarriortalents.Location = New System.Drawing.Point(258, 92)
+        Me.LabelClassWarriortalents.Name = "LabelClassWarriortalents"
+        Me.LabelClassWarriortalents.Size = New System.Drawing.Size(55, 15)
+        Me.LabelClassWarriortalents.TabIndex = 7
+        Me.LabelClassWarriortalents.Text = "Talents"
+        '
+        'ButtonClassNext
+        '
+        Me.ButtonClassNext.Location = New System.Drawing.Point(543, 289)
+        Me.ButtonClassNext.Name = "ButtonClassNext"
+        Me.ButtonClassNext.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonClassNext.TabIndex = 6
+        Me.ButtonClassNext.Text = "Next"
+        Me.ButtonClassNext.UseVisualStyleBackColor = True
+        '
+        'ButtonClassBackgrounds
+        '
+        Me.ButtonClassBackgrounds.Location = New System.Drawing.Point(4, 289)
+        Me.ButtonClassBackgrounds.Name = "ButtonClassBackgrounds"
+        Me.ButtonClassBackgrounds.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonClassBackgrounds.TabIndex = 5
+        Me.ButtonClassBackgrounds.Text = "Previous"
+        Me.ButtonClassBackgrounds.UseVisualStyleBackColor = True
+        '
+        'RadioButtonClassCleric
+        '
+        Me.RadioButtonClassCleric.AutoSize = True
+        Me.RadioButtonClassCleric.Location = New System.Drawing.Point(371, 188)
+        Me.RadioButtonClassCleric.Name = "RadioButtonClassCleric"
+        Me.RadioButtonClassCleric.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonClassCleric.TabIndex = 4
+        Me.RadioButtonClassCleric.TabStop = True
+        Me.RadioButtonClassCleric.UseVisualStyleBackColor = True
+        '
+        'RadioButtonClassNoble
+        '
+        Me.RadioButtonClassNoble.AutoSize = True
+        Me.RadioButtonClassNoble.Location = New System.Drawing.Point(168, 232)
+        Me.RadioButtonClassNoble.Name = "RadioButtonClassNoble"
+        Me.RadioButtonClassNoble.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonClassNoble.TabIndex = 4
+        Me.RadioButtonClassNoble.TabStop = True
+        Me.RadioButtonClassNoble.UseVisualStyleBackColor = True
+        '
+        'RadioButtonClassVoidKnight
+        '
+        Me.RadioButtonClassVoidKnight.AutoSize = True
+        Me.RadioButtonClassVoidKnight.Location = New System.Drawing.Point(371, 141)
+        Me.RadioButtonClassVoidKnight.Name = "RadioButtonClassVoidKnight"
+        Me.RadioButtonClassVoidKnight.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonClassVoidKnight.TabIndex = 3
+        Me.RadioButtonClassVoidKnight.TabStop = True
+        Me.RadioButtonClassVoidKnight.UseVisualStyleBackColor = True
+        '
+        'RadioButtonRogue
+        '
+        Me.RadioButtonRogue.AutoSize = True
+        Me.RadioButtonRogue.Location = New System.Drawing.Point(168, 185)
+        Me.RadioButtonRogue.Name = "RadioButtonRogue"
+        Me.RadioButtonRogue.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonRogue.TabIndex = 3
+        Me.RadioButtonRogue.TabStop = True
+        Me.RadioButtonRogue.UseVisualStyleBackColor = True
+        '
+        'RadioButtonClassWizard
+        '
+        Me.RadioButtonClassWizard.AutoSize = True
+        Me.RadioButtonClassWizard.Location = New System.Drawing.Point(371, 92)
+        Me.RadioButtonClassWizard.Name = "RadioButtonClassWizard"
+        Me.RadioButtonClassWizard.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonClassWizard.TabIndex = 2
+        Me.RadioButtonClassWizard.TabStop = True
+        Me.RadioButtonClassWizard.UseVisualStyleBackColor = True
+        '
+        'RadioButtonClassRanger
+        '
+        Me.RadioButtonClassRanger.AutoSize = True
+        Me.RadioButtonClassRanger.Location = New System.Drawing.Point(168, 136)
+        Me.RadioButtonClassRanger.Name = "RadioButtonClassRanger"
+        Me.RadioButtonClassRanger.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonClassRanger.TabIndex = 2
+        Me.RadioButtonClassRanger.TabStop = True
+        Me.RadioButtonClassRanger.UseVisualStyleBackColor = True
+        '
+        'RadioButtonClassWarrior
+        '
+        Me.RadioButtonClassWarrior.AutoSize = True
+        Me.RadioButtonClassWarrior.Location = New System.Drawing.Point(168, 92)
+        Me.RadioButtonClassWarrior.Name = "RadioButtonClassWarrior"
+        Me.RadioButtonClassWarrior.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonClassWarrior.TabIndex = 1
+        Me.RadioButtonClassWarrior.TabStop = True
+        Me.RadioButtonClassWarrior.UseVisualStyleBackColor = True
+        '
+        'LabelClassIntro
+        '
+        Me.LabelClassIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelClassIntro.Location = New System.Drawing.Point(15, 20)
+        Me.LabelClassIntro.Name = "LabelClassIntro"
+        Me.LabelClassIntro.Size = New System.Drawing.Size(591, 43)
+        Me.LabelClassIntro.TabIndex = 0
+        Me.LabelClassIntro.Text = "Now choose your class. This determines what your character does and what talents " &
+    "he or she can get. All classes except for wizards can eventually choose one of t" &
+    "wo factions. Click for info."
+        '
+        'PanelWizard
+        '
+        Me.PanelWizard.Controls.Add(Me.GroupBoxWizardManifold)
+        Me.PanelWizard.Controls.Add(Me.GroupBoxWizardElemental)
+        Me.PanelWizard.Controls.Add(Me.ButtonWizardTalents)
+        Me.PanelWizard.Controls.Add(Me.ButtonWizardClass)
+        Me.PanelWizard.Controls.Add(Me.LabelWizardIntro)
+        Me.PanelWizard.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelWizard.Location = New System.Drawing.Point(0, 0)
+        Me.PanelWizard.Name = "PanelWizard"
+        Me.PanelWizard.Size = New System.Drawing.Size(621, 316)
+        Me.PanelWizard.TabIndex = 29
+        '
+        'GroupBoxWizardManifold
+        '
+        Me.GroupBoxWizardManifold.Controls.Add(Me.LabelWizardNeuromancy)
+        Me.GroupBoxWizardManifold.Controls.Add(Me.RadioButtonWizardNeuromancy)
+        Me.GroupBoxWizardManifold.Controls.Add(Me.LabelWizardNecromancy)
+        Me.GroupBoxWizardManifold.Controls.Add(Me.RadioButtonWizardKinesiomancy)
+        Me.GroupBoxWizardManifold.Controls.Add(Me.LabelWizardKinesiomancy)
+        Me.GroupBoxWizardManifold.Controls.Add(Me.RadioButtonWizardNecromancy)
+        Me.GroupBoxWizardManifold.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBoxWizardManifold.Location = New System.Drawing.Point(342, 82)
+        Me.GroupBoxWizardManifold.Name = "GroupBoxWizardManifold"
+        Me.GroupBoxWizardManifold.Size = New System.Drawing.Size(190, 164)
+        Me.GroupBoxWizardManifold.TabIndex = 3
+        Me.GroupBoxWizardManifold.TabStop = False
+        Me.GroupBoxWizardManifold.Text = "Manifold"
+        '
+        'RadioButtonWizardNeuromancy
+        '
+        Me.RadioButtonWizardNeuromancy.AutoSize = True
+        Me.RadioButtonWizardNeuromancy.Location = New System.Drawing.Point(47, 104)
+        Me.RadioButtonWizardNeuromancy.Name = "RadioButtonWizardNeuromancy"
+        Me.RadioButtonWizardNeuromancy.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonWizardNeuromancy.TabIndex = 2
+        Me.RadioButtonWizardNeuromancy.TabStop = True
+        Me.RadioButtonWizardNeuromancy.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWizardKinesiomancy
+        '
+        Me.RadioButtonWizardKinesiomancy.AutoSize = True
+        Me.RadioButtonWizardKinesiomancy.Location = New System.Drawing.Point(47, 47)
+        Me.RadioButtonWizardKinesiomancy.Name = "RadioButtonWizardKinesiomancy"
+        Me.RadioButtonWizardKinesiomancy.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonWizardKinesiomancy.TabIndex = 0
+        Me.RadioButtonWizardKinesiomancy.TabStop = True
+        Me.RadioButtonWizardKinesiomancy.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWizardNecromancy
+        '
+        Me.RadioButtonWizardNecromancy.AutoSize = True
+        Me.RadioButtonWizardNecromancy.Location = New System.Drawing.Point(47, 76)
+        Me.RadioButtonWizardNecromancy.Name = "RadioButtonWizardNecromancy"
+        Me.RadioButtonWizardNecromancy.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonWizardNecromancy.TabIndex = 1
+        Me.RadioButtonWizardNecromancy.TabStop = True
+        Me.RadioButtonWizardNecromancy.UseVisualStyleBackColor = True
+        '
+        'GroupBoxWizardElemental
+        '
+        Me.GroupBoxWizardElemental.Controls.Add(Me.LabelWizardHydromancy)
+        Me.GroupBoxWizardElemental.Controls.Add(Me.LabelWizardPyromancy)
+        Me.GroupBoxWizardElemental.Controls.Add(Me.LabelWizardKairomancy)
+        Me.GroupBoxWizardElemental.Controls.Add(Me.RadioButtonWizardHydromancy)
+        Me.GroupBoxWizardElemental.Controls.Add(Me.RadioButtonWizardPyromancy)
+        Me.GroupBoxWizardElemental.Controls.Add(Me.RadioButtonWizardKairomancy)
+        Me.GroupBoxWizardElemental.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBoxWizardElemental.Location = New System.Drawing.Point(81, 82)
+        Me.GroupBoxWizardElemental.Name = "GroupBoxWizardElemental"
+        Me.GroupBoxWizardElemental.Size = New System.Drawing.Size(190, 164)
+        Me.GroupBoxWizardElemental.TabIndex = 3
+        Me.GroupBoxWizardElemental.TabStop = False
+        Me.GroupBoxWizardElemental.Text = "Elemental"
+        '
+        'LabelWizardHydromancy
+        '
+        Me.LabelWizardHydromancy.AutoSize = True
+        Me.LabelWizardHydromancy.Location = New System.Drawing.Point(65, 101)
+        Me.LabelWizardHydromancy.Name = "LabelWizardHydromancy"
+        Me.LabelWizardHydromancy.Size = New System.Drawing.Size(78, 16)
+        Me.LabelWizardHydromancy.TabIndex = 5
+        Me.LabelWizardHydromancy.Text = "Hydromancy"
+        '
+        'LabelWizardPyromancy
+        '
+        Me.LabelWizardPyromancy.AutoSize = True
+        Me.LabelWizardPyromancy.Location = New System.Drawing.Point(65, 71)
+        Me.LabelWizardPyromancy.Name = "LabelWizardPyromancy"
+        Me.LabelWizardPyromancy.Size = New System.Drawing.Size(70, 16)
+        Me.LabelWizardPyromancy.TabIndex = 4
+        Me.LabelWizardPyromancy.Text = "Pyromancy"
+        '
+        'LabelWizardKairomancy
+        '
+        Me.LabelWizardKairomancy.AutoSize = True
+        Me.LabelWizardKairomancy.Location = New System.Drawing.Point(65, 43)
+        Me.LabelWizardKairomancy.Name = "LabelWizardKairomancy"
+        Me.LabelWizardKairomancy.Size = New System.Drawing.Size(74, 16)
+        Me.LabelWizardKairomancy.TabIndex = 3
+        Me.LabelWizardKairomancy.Text = "Kairomancy"
+        '
+        'RadioButtonWizardHydromancy
+        '
+        Me.RadioButtonWizardHydromancy.AutoSize = True
+        Me.RadioButtonWizardHydromancy.Location = New System.Drawing.Point(45, 103)
+        Me.RadioButtonWizardHydromancy.Name = "RadioButtonWizardHydromancy"
+        Me.RadioButtonWizardHydromancy.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonWizardHydromancy.TabIndex = 2
+        Me.RadioButtonWizardHydromancy.TabStop = True
+        Me.RadioButtonWizardHydromancy.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWizardPyromancy
+        '
+        Me.RadioButtonWizardPyromancy.AutoSize = True
+        Me.RadioButtonWizardPyromancy.Location = New System.Drawing.Point(45, 75)
+        Me.RadioButtonWizardPyromancy.Name = "RadioButtonWizardPyromancy"
+        Me.RadioButtonWizardPyromancy.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonWizardPyromancy.TabIndex = 1
+        Me.RadioButtonWizardPyromancy.TabStop = True
+        Me.RadioButtonWizardPyromancy.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWizardKairomancy
+        '
+        Me.RadioButtonWizardKairomancy.AutoSize = True
+        Me.RadioButtonWizardKairomancy.Location = New System.Drawing.Point(45, 46)
+        Me.RadioButtonWizardKairomancy.Name = "RadioButtonWizardKairomancy"
+        Me.RadioButtonWizardKairomancy.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonWizardKairomancy.TabIndex = 0
+        Me.RadioButtonWizardKairomancy.TabStop = True
+        Me.RadioButtonWizardKairomancy.UseVisualStyleBackColor = True
+        '
+        'ButtonWizardTalents
+        '
+        Me.ButtonWizardTalents.Location = New System.Drawing.Point(542, 289)
+        Me.ButtonWizardTalents.Name = "ButtonWizardTalents"
+        Me.ButtonWizardTalents.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWizardTalents.TabIndex = 2
+        Me.ButtonWizardTalents.Text = "Next"
+        Me.ButtonWizardTalents.UseVisualStyleBackColor = True
+        '
+        'ButtonWizardClass
+        '
+        Me.ButtonWizardClass.Location = New System.Drawing.Point(4, 289)
+        Me.ButtonWizardClass.Name = "ButtonWizardClass"
+        Me.ButtonWizardClass.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWizardClass.TabIndex = 1
+        Me.ButtonWizardClass.Text = "Previous"
+        Me.ButtonWizardClass.UseVisualStyleBackColor = True
+        '
+        'LabelWizardIntro
+        '
+        Me.LabelWizardIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelWizardIntro.Location = New System.Drawing.Point(18, 9)
+        Me.LabelWizardIntro.Name = "LabelWizardIntro"
+        Me.LabelWizardIntro.Size = New System.Drawing.Size(588, 80)
+        Me.LabelWizardIntro.TabIndex = 0
+        Me.LabelWizardIntro.Text = resources.GetString("LabelWizardIntro.Text")
+        '
+        'LabelWizardKinesiomancy
+        '
+        Me.LabelWizardKinesiomancy.AutoSize = True
+        Me.LabelWizardKinesiomancy.Location = New System.Drawing.Point(67, 44)
+        Me.LabelWizardKinesiomancy.Name = "LabelWizardKinesiomancy"
+        Me.LabelWizardKinesiomancy.Size = New System.Drawing.Size(85, 16)
+        Me.LabelWizardKinesiomancy.TabIndex = 3
+        Me.LabelWizardKinesiomancy.Text = "Kinesiomancy"
+        '
+        'LabelWizardNecromancy
+        '
+        Me.LabelWizardNecromancy.AutoSize = True
+        Me.LabelWizardNecromancy.Location = New System.Drawing.Point(67, 72)
+        Me.LabelWizardNecromancy.Name = "LabelWizardNecromancy"
+        Me.LabelWizardNecromancy.Size = New System.Drawing.Size(78, 16)
+        Me.LabelWizardNecromancy.TabIndex = 4
+        Me.LabelWizardNecromancy.Text = "Necromancy"
+        '
+        'LabelWizardNeuromancy
+        '
+        Me.LabelWizardNeuromancy.AutoSize = True
+        Me.LabelWizardNeuromancy.Location = New System.Drawing.Point(67, 102)
+        Me.LabelWizardNeuromancy.Name = "LabelWizardNeuromancy"
+        Me.LabelWizardNeuromancy.Size = New System.Drawing.Size(79, 16)
+        Me.LabelWizardNeuromancy.TabIndex = 5
+        Me.LabelWizardNeuromancy.Text = "Neuromancy"
+        '
+        'PanelWarrior
+        '
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorIntro)
+        Me.PanelWarrior.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelWarrior.Location = New System.Drawing.Point(0, 0)
+        Me.PanelWarrior.Name = "PanelWarrior"
+        Me.PanelWarrior.Size = New System.Drawing.Size(621, 316)
+        Me.PanelWarrior.TabIndex = 30
+        '
+        'LabelWarriorIntro
+        '
+        Me.LabelWarriorIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelWarriorIntro.Location = New System.Drawing.Point(12, 6)
+        Me.LabelWarriorIntro.Name = "LabelWarriorIntro"
+        Me.LabelWarriorIntro.Size = New System.Drawing.Size(594, 50)
+        Me.LabelWarriorIntro.TabIndex = 0
+        Me.LabelWarriorIntro.Text = "Time to pick your starting talents. As you play you'll be able to learn higher le" &
+    "vel talents, but for now you start with level one. You do not have to use all of" &
+    " your experience right now."
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelWarrior)
+        Me.Controls.Add(Me.PanelWizard)
+        Me.Controls.Add(Me.PanelClass)
         Me.Controls.Add(Me.PanelBackgrounds)
         Me.Controls.Add(Me.PanelWoodelf)
         Me.Controls.Add(Me.PanelWolfsbein)
@@ -3476,6 +3979,14 @@ Partial Class Form1
         Me.PanelWoodelf.PerformLayout()
         Me.PanelBackgrounds.ResumeLayout(False)
         Me.PanelBackgrounds.PerformLayout()
+        Me.PanelClass.ResumeLayout(False)
+        Me.PanelClass.PerformLayout()
+        Me.PanelWizard.ResumeLayout(False)
+        Me.GroupBoxWizardManifold.ResumeLayout(False)
+        Me.GroupBoxWizardManifold.PerformLayout()
+        Me.GroupBoxWizardElemental.ResumeLayout(False)
+        Me.GroupBoxWizardElemental.PerformLayout()
+        Me.PanelWarrior.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -3756,4 +4267,49 @@ Partial Class Form1
     Friend WithEvents LabelBackgroundsIntro As Label
     Friend WithEvents ButtonBackgroundsClass As Button
     Friend WithEvents ButtonBackgroundsKintype As Button
+    Friend WithEvents PanelClass As Panel
+    Friend WithEvents LabelClassCleric As Label
+    Friend WithEvents LabelClassNoble As Label
+    Friend WithEvents LabelClassClerictalents As Label
+    Friend WithEvents LabelClassNobletalents As Label
+    Friend WithEvents LabelClassWizard As Label
+    Friend WithEvents LabelClassRanger As Label
+    Friend WithEvents LabelClassVoidknight As Label
+    Friend WithEvents LabelClassWizardtalents As Label
+    Friend WithEvents LabelClassRogue As Label
+    Friend WithEvents LabelClassVoidknighttalents As Label
+    Friend WithEvents LabelClassRangertalents As Label
+    Friend WithEvents LabelClassRoguetalents As Label
+    Friend WithEvents LabelClassWarrior As Label
+    Friend WithEvents LabelClassWarriortalents As Label
+    Friend WithEvents ButtonClassNext As Button
+    Friend WithEvents ButtonClassBackgrounds As Button
+    Friend WithEvents RadioButtonClassCleric As RadioButton
+    Friend WithEvents RadioButtonClassNoble As RadioButton
+    Friend WithEvents RadioButtonClassVoidKnight As RadioButton
+    Friend WithEvents RadioButtonRogue As RadioButton
+    Friend WithEvents RadioButtonClassWizard As RadioButton
+    Friend WithEvents RadioButtonClassRanger As RadioButton
+    Friend WithEvents RadioButtonClassWarrior As RadioButton
+    Friend WithEvents LabelClassIntro As Label
+    Friend WithEvents PanelWizard As Panel
+    Friend WithEvents ButtonWizardTalents As Button
+    Friend WithEvents ButtonWizardClass As Button
+    Friend WithEvents LabelWizardIntro As Label
+    Friend WithEvents GroupBoxWizardElemental As GroupBox
+    Friend WithEvents RadioButtonWizardKairomancy As RadioButton
+    Friend WithEvents GroupBoxWizardManifold As GroupBox
+    Friend WithEvents RadioButtonWizardNeuromancy As RadioButton
+    Friend WithEvents RadioButtonWizardKinesiomancy As RadioButton
+    Friend WithEvents RadioButtonWizardNecromancy As RadioButton
+    Friend WithEvents RadioButtonWizardHydromancy As RadioButton
+    Friend WithEvents RadioButtonWizardPyromancy As RadioButton
+    Friend WithEvents LabelWizardHydromancy As Label
+    Friend WithEvents LabelWizardPyromancy As Label
+    Friend WithEvents LabelWizardKairomancy As Label
+    Friend WithEvents LabelWizardNeuromancy As Label
+    Friend WithEvents LabelWizardNecromancy As Label
+    Friend WithEvents LabelWizardKinesiomancy As Label
+    Friend WithEvents PanelWarrior As Panel
+    Friend WithEvents LabelWarriorIntro As Label
 End Class
