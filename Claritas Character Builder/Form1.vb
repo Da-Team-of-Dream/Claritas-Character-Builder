@@ -466,5 +466,7 @@
         Me.PanelWoodelf.Enabled = False
     End Sub
 
+    Private Sub PanelWarrior_Paint(sender As Object, e As PaintEventArgs) Handles PanelWarrior.Paint
 
+    End Sub
 End Class

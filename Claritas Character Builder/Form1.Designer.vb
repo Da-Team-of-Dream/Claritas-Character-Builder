@@ -327,8 +327,11 @@ Partial Class Form1
         Me.LabelClassIntro = New System.Windows.Forms.Label()
         Me.PanelWizard = New System.Windows.Forms.Panel()
         Me.GroupBoxWizardManifold = New System.Windows.Forms.GroupBox()
+        Me.LabelWizardNeuromancy = New System.Windows.Forms.Label()
         Me.RadioButtonWizardNeuromancy = New System.Windows.Forms.RadioButton()
+        Me.LabelWizardNecromancy = New System.Windows.Forms.Label()
         Me.RadioButtonWizardKinesiomancy = New System.Windows.Forms.RadioButton()
+        Me.LabelWizardKinesiomancy = New System.Windows.Forms.Label()
         Me.RadioButtonWizardNecromancy = New System.Windows.Forms.RadioButton()
         Me.GroupBoxWizardElemental = New System.Windows.Forms.GroupBox()
         Me.LabelWizardHydromancy = New System.Windows.Forms.Label()
@@ -340,11 +343,96 @@ Partial Class Form1
         Me.ButtonWizardTalents = New System.Windows.Forms.Button()
         Me.ButtonWizardClass = New System.Windows.Forms.Button()
         Me.LabelWizardIntro = New System.Windows.Forms.Label()
-        Me.LabelWizardKinesiomancy = New System.Windows.Forms.Label()
-        Me.LabelWizardNecromancy = New System.Windows.Forms.Label()
-        Me.LabelWizardNeuromancy = New System.Windows.Forms.Label()
         Me.PanelWarrior = New System.Windows.Forms.Panel()
         Me.LabelWarriorIntro = New System.Windows.Forms.Label()
+        Me.LabelWarriorXp = New System.Windows.Forms.Label()
+        Me.LabelWarriorCrushingblow = New System.Windows.Forms.Label()
+        Me.LabelWarriorLikearock = New System.Windows.Forms.Label()
+        Me.LabelWarriorGimp = New System.Windows.Forms.Label()
+        Me.LabelWarriorKnockdown = New System.Windows.Forms.Label()
+        Me.LabelWarriorDisarm = New System.Windows.Forms.Label()
+        Me.LabelWarriorForestry = New System.Windows.Forms.Label()
+        Me.LabelWarriorMining = New System.Windows.Forms.Label()
+        Me.LabelWarriorLeatherworking = New System.Windows.Forms.Label()
+        Me.LabelWarriorProwess = New System.Windows.Forms.Label()
+        Me.LabelWarriorSmithing = New System.Windows.Forms.Label()
+        Me.LabelWarriorWeapondexterity = New System.Windows.Forms.Label()
+        Me.LabelWarriorSense = New System.Windows.Forms.Label()
+        Me.LabelWarriorDetection = New System.Windows.Forms.Label()
+        Me.LabelWarriorChosen = New System.Windows.Forms.Label()
+        Me.ButtonWarriorCrushingblowPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorCrushingblowMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorLikearockPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorLikearockMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorGimpPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorKnockdownPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorGimpMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorKnockdownMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorDisarmPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorDisarmMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorClass = New System.Windows.Forms.Button()
+        Me.ButtonWarriorModifier = New System.Windows.Forms.Button()
+        Me.ButtonWarriorForestryPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorLeatherworkingPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorMiningPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorProwessPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorForestryMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorSmithingPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorMiningMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorLeatherworkingMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorProwessMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorSmithingMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorWeapondexterityPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorSensePlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorDetectionPlus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorWeapondexterityMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorDetectionMinus = New System.Windows.Forms.Button()
+        Me.ButtonWarriorSenseMinus = New System.Windows.Forms.Button()
+        Me.PanelRanger = New System.Windows.Forms.Panel()
+        Me.ButtonRangerModifier = New System.Windows.Forms.Button()
+        Me.ButtonRangerClass = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Button18 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
+        Me.Button24 = New System.Windows.Forms.Button()
+        Me.Button25 = New System.Windows.Forms.Button()
+        Me.Button26 = New System.Windows.Forms.Button()
+        Me.Button27 = New System.Windows.Forms.Button()
+        Me.Button28 = New System.Windows.Forms.Button()
+        Me.LabelRangerChosen = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.LabelRangerXp = New System.Windows.Forms.Label()
+        Me.LabelRangerIntro = New System.Windows.Forms.Label()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
@@ -375,6 +463,7 @@ Partial Class Form1
         Me.GroupBoxWizardManifold.SuspendLayout()
         Me.GroupBoxWizardElemental.SuspendLayout()
         Me.PanelWarrior.SuspendLayout()
+        Me.PanelRanger.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -3717,6 +3806,15 @@ Partial Class Form1
         Me.GroupBoxWizardManifold.TabStop = False
         Me.GroupBoxWizardManifold.Text = "Manifold"
         '
+        'LabelWizardNeuromancy
+        '
+        Me.LabelWizardNeuromancy.AutoSize = True
+        Me.LabelWizardNeuromancy.Location = New System.Drawing.Point(67, 102)
+        Me.LabelWizardNeuromancy.Name = "LabelWizardNeuromancy"
+        Me.LabelWizardNeuromancy.Size = New System.Drawing.Size(79, 16)
+        Me.LabelWizardNeuromancy.TabIndex = 5
+        Me.LabelWizardNeuromancy.Text = "Neuromancy"
+        '
         'RadioButtonWizardNeuromancy
         '
         Me.RadioButtonWizardNeuromancy.AutoSize = True
@@ -3727,6 +3825,15 @@ Partial Class Form1
         Me.RadioButtonWizardNeuromancy.TabStop = True
         Me.RadioButtonWizardNeuromancy.UseVisualStyleBackColor = True
         '
+        'LabelWizardNecromancy
+        '
+        Me.LabelWizardNecromancy.AutoSize = True
+        Me.LabelWizardNecromancy.Location = New System.Drawing.Point(67, 72)
+        Me.LabelWizardNecromancy.Name = "LabelWizardNecromancy"
+        Me.LabelWizardNecromancy.Size = New System.Drawing.Size(78, 16)
+        Me.LabelWizardNecromancy.TabIndex = 4
+        Me.LabelWizardNecromancy.Text = "Necromancy"
+        '
         'RadioButtonWizardKinesiomancy
         '
         Me.RadioButtonWizardKinesiomancy.AutoSize = True
@@ -3736,6 +3843,15 @@ Partial Class Form1
         Me.RadioButtonWizardKinesiomancy.TabIndex = 0
         Me.RadioButtonWizardKinesiomancy.TabStop = True
         Me.RadioButtonWizardKinesiomancy.UseVisualStyleBackColor = True
+        '
+        'LabelWizardKinesiomancy
+        '
+        Me.LabelWizardKinesiomancy.AutoSize = True
+        Me.LabelWizardKinesiomancy.Location = New System.Drawing.Point(67, 44)
+        Me.LabelWizardKinesiomancy.Name = "LabelWizardKinesiomancy"
+        Me.LabelWizardKinesiomancy.Size = New System.Drawing.Size(85, 16)
+        Me.LabelWizardKinesiomancy.TabIndex = 3
+        Me.LabelWizardKinesiomancy.Text = "Kinesiomancy"
         '
         'RadioButtonWizardNecromancy
         '
@@ -3847,37 +3963,53 @@ Partial Class Form1
         Me.LabelWizardIntro.TabIndex = 0
         Me.LabelWizardIntro.Text = resources.GetString("LabelWizardIntro.Text")
         '
-        'LabelWizardKinesiomancy
-        '
-        Me.LabelWizardKinesiomancy.AutoSize = True
-        Me.LabelWizardKinesiomancy.Location = New System.Drawing.Point(67, 44)
-        Me.LabelWizardKinesiomancy.Name = "LabelWizardKinesiomancy"
-        Me.LabelWizardKinesiomancy.Size = New System.Drawing.Size(85, 16)
-        Me.LabelWizardKinesiomancy.TabIndex = 3
-        Me.LabelWizardKinesiomancy.Text = "Kinesiomancy"
-        '
-        'LabelWizardNecromancy
-        '
-        Me.LabelWizardNecromancy.AutoSize = True
-        Me.LabelWizardNecromancy.Location = New System.Drawing.Point(67, 72)
-        Me.LabelWizardNecromancy.Name = "LabelWizardNecromancy"
-        Me.LabelWizardNecromancy.Size = New System.Drawing.Size(78, 16)
-        Me.LabelWizardNecromancy.TabIndex = 4
-        Me.LabelWizardNecromancy.Text = "Necromancy"
-        '
-        'LabelWizardNeuromancy
-        '
-        Me.LabelWizardNeuromancy.AutoSize = True
-        Me.LabelWizardNeuromancy.Location = New System.Drawing.Point(67, 102)
-        Me.LabelWizardNeuromancy.Name = "LabelWizardNeuromancy"
-        Me.LabelWizardNeuromancy.Size = New System.Drawing.Size(79, 16)
-        Me.LabelWizardNeuromancy.TabIndex = 5
-        Me.LabelWizardNeuromancy.Text = "Neuromancy"
-        '
         'PanelWarrior
         '
+        Me.PanelWarrior.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorModifier)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorClass)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorSmithingMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorDisarmMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorProwessMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorKnockdownMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorSenseMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorLeatherworkingMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorLikearockMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorDetectionMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorMiningMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorGimpMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorSmithingPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorDisarmPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorWeapondexterityMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorForestryMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorProwessPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorDetectionPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorCrushingblowMinus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorMiningPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorSensePlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorKnockdownPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorLeatherworkingPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorWeapondexterityPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorGimpPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorForestryPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorLikearockPlus)
+        Me.PanelWarrior.Controls.Add(Me.ButtonWarriorCrushingblowPlus)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorChosen)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorDetection)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorSmithing)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorDisarm)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorSense)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorProwess)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorKnockdown)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorLeatherworking)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorLikearock)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorWeapondexterity)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorMining)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorGimp)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorForestry)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorCrushingblow)
+        Me.PanelWarrior.Controls.Add(Me.LabelWarriorXp)
         Me.PanelWarrior.Controls.Add(Me.LabelWarriorIntro)
-        Me.PanelWarrior.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelWarrior.Location = New System.Drawing.Point(0, 0)
         Me.PanelWarrior.Name = "PanelWarrior"
         Me.PanelWarrior.Size = New System.Drawing.Size(621, 316)
@@ -3890,15 +4022,979 @@ Partial Class Form1
         Me.LabelWarriorIntro.Name = "LabelWarriorIntro"
         Me.LabelWarriorIntro.Size = New System.Drawing.Size(594, 50)
         Me.LabelWarriorIntro.TabIndex = 0
-        Me.LabelWarriorIntro.Text = "Time to pick your starting talents. As you play you'll be able to learn higher le" &
-    "vel talents, but for now you start with level one. You do not have to use all of" &
-    " your experience right now."
+        Me.LabelWarriorIntro.Text = resources.GetString("LabelWarriorIntro.Text")
+        '
+        'LabelWarriorXp
+        '
+        Me.LabelWarriorXp.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelWarriorXp.Location = New System.Drawing.Point(512, 75)
+        Me.LabelWarriorXp.Name = "LabelWarriorXp"
+        Me.LabelWarriorXp.Size = New System.Drawing.Size(78, 21)
+        Me.LabelWarriorXp.TabIndex = 1
+        Me.LabelWarriorXp.Text = "XP left:  15"
+        '
+        'LabelWarriorCrushingblow
+        '
+        Me.LabelWarriorCrushingblow.AutoSize = True
+        Me.LabelWarriorCrushingblow.Location = New System.Drawing.Point(65, 83)
+        Me.LabelWarriorCrushingblow.Name = "LabelWarriorCrushingblow"
+        Me.LabelWarriorCrushingblow.Size = New System.Drawing.Size(74, 13)
+        Me.LabelWarriorCrushingblow.TabIndex = 2
+        Me.LabelWarriorCrushingblow.Text = "Crushing Blow"
+        '
+        'LabelWarriorLikearock
+        '
+        Me.LabelWarriorLikearock.AutoSize = True
+        Me.LabelWarriorLikearock.Location = New System.Drawing.Point(64, 121)
+        Me.LabelWarriorLikearock.Name = "LabelWarriorLikearock"
+        Me.LabelWarriorLikearock.Size = New System.Drawing.Size(65, 13)
+        Me.LabelWarriorLikearock.TabIndex = 2
+        Me.LabelWarriorLikearock.Text = "Like a Rock"
+        '
+        'LabelWarriorGimp
+        '
+        Me.LabelWarriorGimp.AutoSize = True
+        Me.LabelWarriorGimp.Location = New System.Drawing.Point(64, 159)
+        Me.LabelWarriorGimp.Name = "LabelWarriorGimp"
+        Me.LabelWarriorGimp.Size = New System.Drawing.Size(31, 13)
+        Me.LabelWarriorGimp.TabIndex = 2
+        Me.LabelWarriorGimp.Text = "Gimp"
+        '
+        'LabelWarriorKnockdown
+        '
+        Me.LabelWarriorKnockdown.AutoSize = True
+        Me.LabelWarriorKnockdown.Location = New System.Drawing.Point(65, 191)
+        Me.LabelWarriorKnockdown.Name = "LabelWarriorKnockdown"
+        Me.LabelWarriorKnockdown.Size = New System.Drawing.Size(69, 13)
+        Me.LabelWarriorKnockdown.TabIndex = 2
+        Me.LabelWarriorKnockdown.Text = "Knock Down"
+        '
+        'LabelWarriorDisarm
+        '
+        Me.LabelWarriorDisarm.AutoSize = True
+        Me.LabelWarriorDisarm.Location = New System.Drawing.Point(65, 235)
+        Me.LabelWarriorDisarm.Name = "LabelWarriorDisarm"
+        Me.LabelWarriorDisarm.Size = New System.Drawing.Size(39, 13)
+        Me.LabelWarriorDisarm.TabIndex = 2
+        Me.LabelWarriorDisarm.Text = "Disarm"
+        '
+        'LabelWarriorForestry
+        '
+        Me.LabelWarriorForestry.AutoSize = True
+        Me.LabelWarriorForestry.Location = New System.Drawing.Point(208, 83)
+        Me.LabelWarriorForestry.Name = "LabelWarriorForestry"
+        Me.LabelWarriorForestry.Size = New System.Drawing.Size(44, 13)
+        Me.LabelWarriorForestry.TabIndex = 2
+        Me.LabelWarriorForestry.Text = "Forestry"
+        '
+        'LabelWarriorMining
+        '
+        Me.LabelWarriorMining.AutoSize = True
+        Me.LabelWarriorMining.Location = New System.Drawing.Point(208, 158)
+        Me.LabelWarriorMining.Name = "LabelWarriorMining"
+        Me.LabelWarriorMining.Size = New System.Drawing.Size(38, 13)
+        Me.LabelWarriorMining.TabIndex = 2
+        Me.LabelWarriorMining.Text = "Mining"
+        '
+        'LabelWarriorLeatherworking
+        '
+        Me.LabelWarriorLeatherworking.AutoSize = True
+        Me.LabelWarriorLeatherworking.Location = New System.Drawing.Point(208, 120)
+        Me.LabelWarriorLeatherworking.Name = "LabelWarriorLeatherworking"
+        Me.LabelWarriorLeatherworking.Size = New System.Drawing.Size(80, 13)
+        Me.LabelWarriorLeatherworking.TabIndex = 2
+        Me.LabelWarriorLeatherworking.Text = "Leatherworking"
+        '
+        'LabelWarriorProwess
+        '
+        Me.LabelWarriorProwess.AutoSize = True
+        Me.LabelWarriorProwess.Location = New System.Drawing.Point(208, 195)
+        Me.LabelWarriorProwess.Name = "LabelWarriorProwess"
+        Me.LabelWarriorProwess.Size = New System.Drawing.Size(47, 13)
+        Me.LabelWarriorProwess.TabIndex = 2
+        Me.LabelWarriorProwess.Text = "Prowess"
+        '
+        'LabelWarriorSmithing
+        '
+        Me.LabelWarriorSmithing.AutoSize = True
+        Me.LabelWarriorSmithing.Location = New System.Drawing.Point(208, 236)
+        Me.LabelWarriorSmithing.Name = "LabelWarriorSmithing"
+        Me.LabelWarriorSmithing.Size = New System.Drawing.Size(47, 13)
+        Me.LabelWarriorSmithing.TabIndex = 2
+        Me.LabelWarriorSmithing.Text = "Smithing"
+        '
+        'LabelWarriorWeapondexterity
+        '
+        Me.LabelWarriorWeapondexterity.AutoSize = True
+        Me.LabelWarriorWeapondexterity.Location = New System.Drawing.Point(352, 83)
+        Me.LabelWarriorWeapondexterity.Name = "LabelWarriorWeapondexterity"
+        Me.LabelWarriorWeapondexterity.Size = New System.Drawing.Size(92, 13)
+        Me.LabelWarriorWeapondexterity.TabIndex = 2
+        Me.LabelWarriorWeapondexterity.Text = "Weapon Dexterity"
+        '
+        'LabelWarriorSense
+        '
+        Me.LabelWarriorSense.AutoSize = True
+        Me.LabelWarriorSense.Location = New System.Drawing.Point(352, 119)
+        Me.LabelWarriorSense.Name = "LabelWarriorSense"
+        Me.LabelWarriorSense.Size = New System.Drawing.Size(37, 13)
+        Me.LabelWarriorSense.TabIndex = 2
+        Me.LabelWarriorSense.Text = "Sense"
+        '
+        'LabelWarriorDetection
+        '
+        Me.LabelWarriorDetection.AutoSize = True
+        Me.LabelWarriorDetection.Location = New System.Drawing.Point(352, 158)
+        Me.LabelWarriorDetection.Name = "LabelWarriorDetection"
+        Me.LabelWarriorDetection.Size = New System.Drawing.Size(53, 13)
+        Me.LabelWarriorDetection.TabIndex = 2
+        Me.LabelWarriorDetection.Text = "Detection"
+        '
+        'LabelWarriorChosen
+        '
+        Me.LabelWarriorChosen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.LabelWarriorChosen.Location = New System.Drawing.Point(469, 105)
+        Me.LabelWarriorChosen.Name = "LabelWarriorChosen"
+        Me.LabelWarriorChosen.Size = New System.Drawing.Size(131, 127)
+        Me.LabelWarriorChosen.TabIndex = 3
+        Me.LabelWarriorChosen.Text = "Already Chosen:"
+        '
+        'ButtonWarriorCrushingblowPlus
+        '
+        Me.ButtonWarriorCrushingblowPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorCrushingblowPlus.Location = New System.Drawing.Point(16, 78)
+        Me.ButtonWarriorCrushingblowPlus.Name = "ButtonWarriorCrushingblowPlus"
+        Me.ButtonWarriorCrushingblowPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorCrushingblowPlus.TabIndex = 4
+        Me.ButtonWarriorCrushingblowPlus.Text = "+"
+        Me.ButtonWarriorCrushingblowPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorCrushingblowMinus
+        '
+        Me.ButtonWarriorCrushingblowMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorCrushingblowMinus.Location = New System.Drawing.Point(41, 78)
+        Me.ButtonWarriorCrushingblowMinus.Name = "ButtonWarriorCrushingblowMinus"
+        Me.ButtonWarriorCrushingblowMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorCrushingblowMinus.TabIndex = 5
+        Me.ButtonWarriorCrushingblowMinus.Text = "-"
+        Me.ButtonWarriorCrushingblowMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorCrushingblowMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorLikearockPlus
+        '
+        Me.ButtonWarriorLikearockPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorLikearockPlus.Location = New System.Drawing.Point(17, 115)
+        Me.ButtonWarriorLikearockPlus.Name = "ButtonWarriorLikearockPlus"
+        Me.ButtonWarriorLikearockPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorLikearockPlus.TabIndex = 4
+        Me.ButtonWarriorLikearockPlus.Text = "+"
+        Me.ButtonWarriorLikearockPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorLikearockMinus
+        '
+        Me.ButtonWarriorLikearockMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorLikearockMinus.Location = New System.Drawing.Point(42, 115)
+        Me.ButtonWarriorLikearockMinus.Name = "ButtonWarriorLikearockMinus"
+        Me.ButtonWarriorLikearockMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorLikearockMinus.TabIndex = 5
+        Me.ButtonWarriorLikearockMinus.Text = "-"
+        Me.ButtonWarriorLikearockMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorLikearockMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorGimpPlus
+        '
+        Me.ButtonWarriorGimpPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorGimpPlus.Location = New System.Drawing.Point(17, 154)
+        Me.ButtonWarriorGimpPlus.Name = "ButtonWarriorGimpPlus"
+        Me.ButtonWarriorGimpPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorGimpPlus.TabIndex = 4
+        Me.ButtonWarriorGimpPlus.Text = "+"
+        Me.ButtonWarriorGimpPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorKnockdownPlus
+        '
+        Me.ButtonWarriorKnockdownPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorKnockdownPlus.Location = New System.Drawing.Point(17, 188)
+        Me.ButtonWarriorKnockdownPlus.Name = "ButtonWarriorKnockdownPlus"
+        Me.ButtonWarriorKnockdownPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorKnockdownPlus.TabIndex = 4
+        Me.ButtonWarriorKnockdownPlus.Text = "+"
+        Me.ButtonWarriorKnockdownPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorGimpMinus
+        '
+        Me.ButtonWarriorGimpMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorGimpMinus.Location = New System.Drawing.Point(42, 154)
+        Me.ButtonWarriorGimpMinus.Name = "ButtonWarriorGimpMinus"
+        Me.ButtonWarriorGimpMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorGimpMinus.TabIndex = 5
+        Me.ButtonWarriorGimpMinus.Text = "-"
+        Me.ButtonWarriorGimpMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorGimpMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorKnockdownMinus
+        '
+        Me.ButtonWarriorKnockdownMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorKnockdownMinus.Location = New System.Drawing.Point(42, 188)
+        Me.ButtonWarriorKnockdownMinus.Name = "ButtonWarriorKnockdownMinus"
+        Me.ButtonWarriorKnockdownMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorKnockdownMinus.TabIndex = 5
+        Me.ButtonWarriorKnockdownMinus.Text = "-"
+        Me.ButtonWarriorKnockdownMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorKnockdownMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorDisarmPlus
+        '
+        Me.ButtonWarriorDisarmPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorDisarmPlus.Location = New System.Drawing.Point(17, 231)
+        Me.ButtonWarriorDisarmPlus.Name = "ButtonWarriorDisarmPlus"
+        Me.ButtonWarriorDisarmPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorDisarmPlus.TabIndex = 4
+        Me.ButtonWarriorDisarmPlus.Text = "+"
+        Me.ButtonWarriorDisarmPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorDisarmMinus
+        '
+        Me.ButtonWarriorDisarmMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorDisarmMinus.Location = New System.Drawing.Point(42, 231)
+        Me.ButtonWarriorDisarmMinus.Name = "ButtonWarriorDisarmMinus"
+        Me.ButtonWarriorDisarmMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorDisarmMinus.TabIndex = 5
+        Me.ButtonWarriorDisarmMinus.Text = "-"
+        Me.ButtonWarriorDisarmMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorDisarmMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorClass
+        '
+        Me.ButtonWarriorClass.Location = New System.Drawing.Point(3, 289)
+        Me.ButtonWarriorClass.Name = "ButtonWarriorClass"
+        Me.ButtonWarriorClass.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWarriorClass.TabIndex = 6
+        Me.ButtonWarriorClass.Text = "Previous"
+        Me.ButtonWarriorClass.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorModifier
+        '
+        Me.ButtonWarriorModifier.Location = New System.Drawing.Point(542, 289)
+        Me.ButtonWarriorModifier.Name = "ButtonWarriorModifier"
+        Me.ButtonWarriorModifier.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWarriorModifier.TabIndex = 7
+        Me.ButtonWarriorModifier.Text = "Next"
+        Me.ButtonWarriorModifier.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorForestryPlus
+        '
+        Me.ButtonWarriorForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorForestryPlus.Location = New System.Drawing.Point(163, 79)
+        Me.ButtonWarriorForestryPlus.Name = "ButtonWarriorForestryPlus"
+        Me.ButtonWarriorForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorForestryPlus.TabIndex = 4
+        Me.ButtonWarriorForestryPlus.Text = "+"
+        Me.ButtonWarriorForestryPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorLeatherworkingPlus
+        '
+        Me.ButtonWarriorLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorLeatherworkingPlus.Location = New System.Drawing.Point(164, 116)
+        Me.ButtonWarriorLeatherworkingPlus.Name = "ButtonWarriorLeatherworkingPlus"
+        Me.ButtonWarriorLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorLeatherworkingPlus.TabIndex = 4
+        Me.ButtonWarriorLeatherworkingPlus.Text = "+"
+        Me.ButtonWarriorLeatherworkingPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorMiningPlus
+        '
+        Me.ButtonWarriorMiningPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorMiningPlus.Location = New System.Drawing.Point(164, 155)
+        Me.ButtonWarriorMiningPlus.Name = "ButtonWarriorMiningPlus"
+        Me.ButtonWarriorMiningPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorMiningPlus.TabIndex = 4
+        Me.ButtonWarriorMiningPlus.Text = "+"
+        Me.ButtonWarriorMiningPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorProwessPlus
+        '
+        Me.ButtonWarriorProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorProwessPlus.Location = New System.Drawing.Point(164, 189)
+        Me.ButtonWarriorProwessPlus.Name = "ButtonWarriorProwessPlus"
+        Me.ButtonWarriorProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorProwessPlus.TabIndex = 4
+        Me.ButtonWarriorProwessPlus.Text = "+"
+        Me.ButtonWarriorProwessPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorForestryMinus
+        '
+        Me.ButtonWarriorForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorForestryMinus.Location = New System.Drawing.Point(188, 79)
+        Me.ButtonWarriorForestryMinus.Name = "ButtonWarriorForestryMinus"
+        Me.ButtonWarriorForestryMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorForestryMinus.TabIndex = 5
+        Me.ButtonWarriorForestryMinus.Text = "-"
+        Me.ButtonWarriorForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorForestryMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorSmithingPlus
+        '
+        Me.ButtonWarriorSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorSmithingPlus.Location = New System.Drawing.Point(164, 232)
+        Me.ButtonWarriorSmithingPlus.Name = "ButtonWarriorSmithingPlus"
+        Me.ButtonWarriorSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorSmithingPlus.TabIndex = 4
+        Me.ButtonWarriorSmithingPlus.Text = "+"
+        Me.ButtonWarriorSmithingPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorMiningMinus
+        '
+        Me.ButtonWarriorMiningMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorMiningMinus.Location = New System.Drawing.Point(189, 155)
+        Me.ButtonWarriorMiningMinus.Name = "ButtonWarriorMiningMinus"
+        Me.ButtonWarriorMiningMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorMiningMinus.TabIndex = 5
+        Me.ButtonWarriorMiningMinus.Text = "-"
+        Me.ButtonWarriorMiningMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorMiningMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorLeatherworkingMinus
+        '
+        Me.ButtonWarriorLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorLeatherworkingMinus.Location = New System.Drawing.Point(189, 116)
+        Me.ButtonWarriorLeatherworkingMinus.Name = "ButtonWarriorLeatherworkingMinus"
+        Me.ButtonWarriorLeatherworkingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorLeatherworkingMinus.TabIndex = 5
+        Me.ButtonWarriorLeatherworkingMinus.Text = "-"
+        Me.ButtonWarriorLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorLeatherworkingMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorProwessMinus
+        '
+        Me.ButtonWarriorProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorProwessMinus.Location = New System.Drawing.Point(189, 189)
+        Me.ButtonWarriorProwessMinus.Name = "ButtonWarriorProwessMinus"
+        Me.ButtonWarriorProwessMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorProwessMinus.TabIndex = 5
+        Me.ButtonWarriorProwessMinus.Text = "-"
+        Me.ButtonWarriorProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorProwessMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorSmithingMinus
+        '
+        Me.ButtonWarriorSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorSmithingMinus.Location = New System.Drawing.Point(189, 232)
+        Me.ButtonWarriorSmithingMinus.Name = "ButtonWarriorSmithingMinus"
+        Me.ButtonWarriorSmithingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorSmithingMinus.TabIndex = 5
+        Me.ButtonWarriorSmithingMinus.Text = "-"
+        Me.ButtonWarriorSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorSmithingMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorWeapondexterityPlus
+        '
+        Me.ButtonWarriorWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorWeapondexterityPlus.Location = New System.Drawing.Point(309, 79)
+        Me.ButtonWarriorWeapondexterityPlus.Name = "ButtonWarriorWeapondexterityPlus"
+        Me.ButtonWarriorWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorWeapondexterityPlus.TabIndex = 4
+        Me.ButtonWarriorWeapondexterityPlus.Text = "+"
+        Me.ButtonWarriorWeapondexterityPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorSensePlus
+        '
+        Me.ButtonWarriorSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorSensePlus.Location = New System.Drawing.Point(310, 116)
+        Me.ButtonWarriorSensePlus.Name = "ButtonWarriorSensePlus"
+        Me.ButtonWarriorSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorSensePlus.TabIndex = 4
+        Me.ButtonWarriorSensePlus.Text = "+"
+        Me.ButtonWarriorSensePlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorDetectionPlus
+        '
+        Me.ButtonWarriorDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonWarriorDetectionPlus.Location = New System.Drawing.Point(310, 155)
+        Me.ButtonWarriorDetectionPlus.Name = "ButtonWarriorDetectionPlus"
+        Me.ButtonWarriorDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorDetectionPlus.TabIndex = 4
+        Me.ButtonWarriorDetectionPlus.Text = "+"
+        Me.ButtonWarriorDetectionPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorWeapondexterityMinus
+        '
+        Me.ButtonWarriorWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorWeapondexterityMinus.Location = New System.Drawing.Point(334, 79)
+        Me.ButtonWarriorWeapondexterityMinus.Name = "ButtonWarriorWeapondexterityMinus"
+        Me.ButtonWarriorWeapondexterityMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorWeapondexterityMinus.TabIndex = 5
+        Me.ButtonWarriorWeapondexterityMinus.Text = "-"
+        Me.ButtonWarriorWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorWeapondexterityMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorDetectionMinus
+        '
+        Me.ButtonWarriorDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorDetectionMinus.Location = New System.Drawing.Point(335, 155)
+        Me.ButtonWarriorDetectionMinus.Name = "ButtonWarriorDetectionMinus"
+        Me.ButtonWarriorDetectionMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorDetectionMinus.TabIndex = 5
+        Me.ButtonWarriorDetectionMinus.Text = "-"
+        Me.ButtonWarriorDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorDetectionMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonWarriorSenseMinus
+        '
+        Me.ButtonWarriorSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonWarriorSenseMinus.Location = New System.Drawing.Point(335, 116)
+        Me.ButtonWarriorSenseMinus.Name = "ButtonWarriorSenseMinus"
+        Me.ButtonWarriorSenseMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorSenseMinus.TabIndex = 5
+        Me.ButtonWarriorSenseMinus.Text = "-"
+        Me.ButtonWarriorSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonWarriorSenseMinus.UseVisualStyleBackColor = True
+        '
+        'PanelRanger
+        '
+        Me.PanelRanger.Controls.Add(Me.ButtonRangerModifier)
+        Me.PanelRanger.Controls.Add(Me.ButtonRangerClass)
+        Me.PanelRanger.Controls.Add(Me.Button3)
+        Me.PanelRanger.Controls.Add(Me.Button4)
+        Me.PanelRanger.Controls.Add(Me.Button5)
+        Me.PanelRanger.Controls.Add(Me.Button6)
+        Me.PanelRanger.Controls.Add(Me.Button7)
+        Me.PanelRanger.Controls.Add(Me.Button8)
+        Me.PanelRanger.Controls.Add(Me.Button9)
+        Me.PanelRanger.Controls.Add(Me.Button10)
+        Me.PanelRanger.Controls.Add(Me.Button11)
+        Me.PanelRanger.Controls.Add(Me.Button12)
+        Me.PanelRanger.Controls.Add(Me.Button13)
+        Me.PanelRanger.Controls.Add(Me.Button14)
+        Me.PanelRanger.Controls.Add(Me.Button15)
+        Me.PanelRanger.Controls.Add(Me.Button16)
+        Me.PanelRanger.Controls.Add(Me.Button17)
+        Me.PanelRanger.Controls.Add(Me.Button18)
+        Me.PanelRanger.Controls.Add(Me.Button19)
+        Me.PanelRanger.Controls.Add(Me.Button20)
+        Me.PanelRanger.Controls.Add(Me.Button21)
+        Me.PanelRanger.Controls.Add(Me.Button22)
+        Me.PanelRanger.Controls.Add(Me.Button23)
+        Me.PanelRanger.Controls.Add(Me.Button24)
+        Me.PanelRanger.Controls.Add(Me.Button25)
+        Me.PanelRanger.Controls.Add(Me.Button26)
+        Me.PanelRanger.Controls.Add(Me.Button27)
+        Me.PanelRanger.Controls.Add(Me.Button28)
+        Me.PanelRanger.Controls.Add(Me.LabelRangerChosen)
+        Me.PanelRanger.Controls.Add(Me.Label3)
+        Me.PanelRanger.Controls.Add(Me.Label5)
+        Me.PanelRanger.Controls.Add(Me.Label6)
+        Me.PanelRanger.Controls.Add(Me.Label8)
+        Me.PanelRanger.Controls.Add(Me.Label10)
+        Me.PanelRanger.Controls.Add(Me.Label11)
+        Me.PanelRanger.Controls.Add(Me.Label12)
+        Me.PanelRanger.Controls.Add(Me.Label14)
+        Me.PanelRanger.Controls.Add(Me.Label15)
+        Me.PanelRanger.Controls.Add(Me.Label17)
+        Me.PanelRanger.Controls.Add(Me.Label20)
+        Me.PanelRanger.Controls.Add(Me.Label21)
+        Me.PanelRanger.Controls.Add(Me.Label22)
+        Me.PanelRanger.Controls.Add(Me.LabelRangerXp)
+        Me.PanelRanger.Controls.Add(Me.LabelRangerIntro)
+        Me.PanelRanger.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelRanger.Location = New System.Drawing.Point(0, 0)
+        Me.PanelRanger.Name = "PanelRanger"
+        Me.PanelRanger.Size = New System.Drawing.Size(621, 316)
+        Me.PanelRanger.TabIndex = 31
+        '
+        'ButtonRangerModifier
+        '
+        Me.ButtonRangerModifier.Location = New System.Drawing.Point(542, 289)
+        Me.ButtonRangerModifier.Name = "ButtonRangerModifier"
+        Me.ButtonRangerModifier.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonRangerModifier.TabIndex = 7
+        Me.ButtonRangerModifier.Text = "Next"
+        Me.ButtonRangerModifier.UseVisualStyleBackColor = True
+        '
+        'ButtonRangerClass
+        '
+        Me.ButtonRangerClass.Location = New System.Drawing.Point(3, 289)
+        Me.ButtonRangerClass.Name = "ButtonRangerClass"
+        Me.ButtonRangerClass.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonRangerClass.TabIndex = 6
+        Me.ButtonRangerClass.Text = "Previous"
+        Me.ButtonRangerClass.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button3.Location = New System.Drawing.Point(189, 232)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(18, 23)
+        Me.Button3.TabIndex = 5
+        Me.Button3.Text = "-"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button4.Location = New System.Drawing.Point(42, 231)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(18, 23)
+        Me.Button4.TabIndex = 5
+        Me.Button4.Text = "-"
+        Me.Button4.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button5.Location = New System.Drawing.Point(189, 189)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(18, 23)
+        Me.Button5.TabIndex = 5
+        Me.Button5.Text = "-"
+        Me.Button5.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button6.Location = New System.Drawing.Point(42, 188)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(18, 23)
+        Me.Button6.TabIndex = 5
+        Me.Button6.Text = "-"
+        Me.Button6.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button7.Location = New System.Drawing.Point(335, 116)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(18, 23)
+        Me.Button7.TabIndex = 5
+        Me.Button7.Text = "-"
+        Me.Button7.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button8
+        '
+        Me.Button8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button8.Location = New System.Drawing.Point(189, 116)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(18, 23)
+        Me.Button8.TabIndex = 5
+        Me.Button8.Text = "-"
+        Me.Button8.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button9.Location = New System.Drawing.Point(42, 115)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(18, 23)
+        Me.Button9.TabIndex = 5
+        Me.Button9.Text = "-"
+        Me.Button9.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button10.Location = New System.Drawing.Point(335, 155)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(18, 23)
+        Me.Button10.TabIndex = 5
+        Me.Button10.Text = "-"
+        Me.Button10.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Button11
+        '
+        Me.Button11.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button11.Location = New System.Drawing.Point(189, 155)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(18, 23)
+        Me.Button11.TabIndex = 5
+        Me.Button11.Text = "-"
+        Me.Button11.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button11.UseVisualStyleBackColor = True
+        '
+        'Button12
+        '
+        Me.Button12.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button12.Location = New System.Drawing.Point(42, 154)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(18, 23)
+        Me.Button12.TabIndex = 5
+        Me.Button12.Text = "-"
+        Me.Button12.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Button13
+        '
+        Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.Location = New System.Drawing.Point(164, 232)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(19, 23)
+        Me.Button13.TabIndex = 4
+        Me.Button13.Text = "+"
+        Me.Button13.UseVisualStyleBackColor = True
+        '
+        'Button14
+        '
+        Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.Location = New System.Drawing.Point(17, 231)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(19, 23)
+        Me.Button14.TabIndex = 4
+        Me.Button14.Text = "+"
+        Me.Button14.UseVisualStyleBackColor = True
+        '
+        'Button15
+        '
+        Me.Button15.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button15.Location = New System.Drawing.Point(334, 79)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(18, 23)
+        Me.Button15.TabIndex = 5
+        Me.Button15.Text = "-"
+        Me.Button15.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button15.UseVisualStyleBackColor = True
+        '
+        'Button16
+        '
+        Me.Button16.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button16.Location = New System.Drawing.Point(188, 79)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(18, 23)
+        Me.Button16.TabIndex = 5
+        Me.Button16.Text = "-"
+        Me.Button16.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button16.UseVisualStyleBackColor = True
+        '
+        'Button17
+        '
+        Me.Button17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button17.Location = New System.Drawing.Point(164, 189)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(19, 23)
+        Me.Button17.TabIndex = 4
+        Me.Button17.Text = "+"
+        Me.Button17.UseVisualStyleBackColor = True
+        '
+        'Button18
+        '
+        Me.Button18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button18.Location = New System.Drawing.Point(310, 155)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(19, 23)
+        Me.Button18.TabIndex = 4
+        Me.Button18.Text = "+"
+        Me.Button18.UseVisualStyleBackColor = True
+        '
+        'Button19
+        '
+        Me.Button19.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button19.Location = New System.Drawing.Point(41, 78)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(18, 23)
+        Me.Button19.TabIndex = 5
+        Me.Button19.Text = "-"
+        Me.Button19.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button19.UseVisualStyleBackColor = True
+        '
+        'Button20
+        '
+        Me.Button20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button20.Location = New System.Drawing.Point(164, 155)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(19, 23)
+        Me.Button20.TabIndex = 4
+        Me.Button20.Text = "+"
+        Me.Button20.UseVisualStyleBackColor = True
+        '
+        'Button21
+        '
+        Me.Button21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button21.Location = New System.Drawing.Point(310, 116)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(19, 23)
+        Me.Button21.TabIndex = 4
+        Me.Button21.Text = "+"
+        Me.Button21.UseVisualStyleBackColor = True
+        '
+        'Button22
+        '
+        Me.Button22.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button22.Location = New System.Drawing.Point(17, 188)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(19, 23)
+        Me.Button22.TabIndex = 4
+        Me.Button22.Text = "+"
+        Me.Button22.UseVisualStyleBackColor = True
+        '
+        'Button23
+        '
+        Me.Button23.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button23.Location = New System.Drawing.Point(164, 116)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(19, 23)
+        Me.Button23.TabIndex = 4
+        Me.Button23.Text = "+"
+        Me.Button23.UseVisualStyleBackColor = True
+        '
+        'Button24
+        '
+        Me.Button24.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button24.Location = New System.Drawing.Point(309, 79)
+        Me.Button24.Name = "Button24"
+        Me.Button24.Size = New System.Drawing.Size(19, 23)
+        Me.Button24.TabIndex = 4
+        Me.Button24.Text = "+"
+        Me.Button24.UseVisualStyleBackColor = True
+        '
+        'Button25
+        '
+        Me.Button25.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button25.Location = New System.Drawing.Point(17, 154)
+        Me.Button25.Name = "Button25"
+        Me.Button25.Size = New System.Drawing.Size(19, 23)
+        Me.Button25.TabIndex = 4
+        Me.Button25.Text = "+"
+        Me.Button25.UseVisualStyleBackColor = True
+        '
+        'Button26
+        '
+        Me.Button26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button26.Location = New System.Drawing.Point(163, 79)
+        Me.Button26.Name = "Button26"
+        Me.Button26.Size = New System.Drawing.Size(19, 23)
+        Me.Button26.TabIndex = 4
+        Me.Button26.Text = "+"
+        Me.Button26.UseVisualStyleBackColor = True
+        '
+        'Button27
+        '
+        Me.Button27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button27.Location = New System.Drawing.Point(17, 115)
+        Me.Button27.Name = "Button27"
+        Me.Button27.Size = New System.Drawing.Size(19, 23)
+        Me.Button27.TabIndex = 4
+        Me.Button27.Text = "+"
+        Me.Button27.UseVisualStyleBackColor = True
+        '
+        'Button28
+        '
+        Me.Button28.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button28.Location = New System.Drawing.Point(16, 78)
+        Me.Button28.Name = "Button28"
+        Me.Button28.Size = New System.Drawing.Size(19, 23)
+        Me.Button28.TabIndex = 4
+        Me.Button28.Text = "+"
+        Me.Button28.UseVisualStyleBackColor = True
+        '
+        'LabelRangerChosen
+        '
+        Me.LabelRangerChosen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.LabelRangerChosen.Location = New System.Drawing.Point(469, 105)
+        Me.LabelRangerChosen.Name = "LabelRangerChosen"
+        Me.LabelRangerChosen.Size = New System.Drawing.Size(131, 127)
+        Me.LabelRangerChosen.TabIndex = 3
+        Me.LabelRangerChosen.Text = "Already Chosen:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(352, 158)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(53, 13)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Detection"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(208, 236)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(47, 13)
+        Me.Label5.TabIndex = 2
+        Me.Label5.Text = "Smithing"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(65, 235)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(49, 13)
+        Me.Label6.TabIndex = 2
+        Me.Label6.Text = "Tracking"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(352, 119)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(37, 13)
+        Me.Label8.TabIndex = 2
+        Me.Label8.Text = "Sense"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(208, 195)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(47, 13)
+        Me.Label10.TabIndex = 2
+        Me.Label10.Text = "Prowess"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(65, 191)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(29, 13)
+        Me.Label11.TabIndex = 2
+        Me.Label11.Text = "Hide"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(208, 120)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(80, 13)
+        Me.Label12.TabIndex = 2
+        Me.Label12.Text = "Leatherworking"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(64, 121)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(34, 13)
+        Me.Label14.TabIndex = 2
+        Me.Label14.Text = "Traps"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(352, 83)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(92, 13)
+        Me.Label15.TabIndex = 2
+        Me.Label15.Text = "Weapon Dexterity"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(208, 158)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(38, 13)
+        Me.Label17.TabIndex = 2
+        Me.Label17.Text = "Mining"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Location = New System.Drawing.Point(64, 159)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(40, 13)
+        Me.Label20.TabIndex = 2
+        Me.Label20.Text = "Iaijutsu"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(208, 83)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(44, 13)
+        Me.Label21.TabIndex = 2
+        Me.Label21.Text = "Forestry"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(65, 83)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(54, 13)
+        Me.Label22.TabIndex = 2
+        Me.Label22.Text = "Dead Eye"
+        '
+        'LabelRangerXp
+        '
+        Me.LabelRangerXp.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelRangerXp.Location = New System.Drawing.Point(512, 75)
+        Me.LabelRangerXp.Name = "LabelRangerXp"
+        Me.LabelRangerXp.Size = New System.Drawing.Size(78, 21)
+        Me.LabelRangerXp.TabIndex = 1
+        Me.LabelRangerXp.Text = "XP left:  15"
+        '
+        'LabelRangerIntro
+        '
+        Me.LabelRangerIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelRangerIntro.Location = New System.Drawing.Point(12, 6)
+        Me.LabelRangerIntro.Name = "LabelRangerIntro"
+        Me.LabelRangerIntro.Size = New System.Drawing.Size(594, 50)
+        Me.LabelRangerIntro.TabIndex = 0
+        Me.LabelRangerIntro.Text = resources.GetString("LabelRangerIntro.Text")
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelRanger)
         Me.Controls.Add(Me.PanelWarrior)
         Me.Controls.Add(Me.PanelWizard)
         Me.Controls.Add(Me.PanelClass)
@@ -3987,6 +5083,9 @@ Partial Class Form1
         Me.GroupBoxWizardElemental.ResumeLayout(False)
         Me.GroupBoxWizardElemental.PerformLayout()
         Me.PanelWarrior.ResumeLayout(False)
+        Me.PanelWarrior.PerformLayout()
+        Me.PanelRanger.ResumeLayout(False)
+        Me.PanelRanger.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -4312,4 +5411,92 @@ Partial Class Form1
     Friend WithEvents LabelWizardKinesiomancy As Label
     Friend WithEvents PanelWarrior As Panel
     Friend WithEvents LabelWarriorIntro As Label
+    Friend WithEvents ButtonWarriorLikearockMinus As Button
+    Friend WithEvents ButtonWarriorCrushingblowMinus As Button
+    Friend WithEvents ButtonWarriorLikearockPlus As Button
+    Friend WithEvents ButtonWarriorCrushingblowPlus As Button
+    Friend WithEvents LabelWarriorChosen As Label
+    Friend WithEvents LabelWarriorDetection As Label
+    Friend WithEvents LabelWarriorSmithing As Label
+    Friend WithEvents LabelWarriorDisarm As Label
+    Friend WithEvents LabelWarriorSense As Label
+    Friend WithEvents LabelWarriorProwess As Label
+    Friend WithEvents LabelWarriorKnockdown As Label
+    Friend WithEvents LabelWarriorLeatherworking As Label
+    Friend WithEvents LabelWarriorLikearock As Label
+    Friend WithEvents LabelWarriorWeapondexterity As Label
+    Friend WithEvents LabelWarriorMining As Label
+    Friend WithEvents LabelWarriorGimp As Label
+    Friend WithEvents LabelWarriorForestry As Label
+    Friend WithEvents LabelWarriorCrushingblow As Label
+    Friend WithEvents LabelWarriorXp As Label
+    Friend WithEvents ButtonWarriorDisarmMinus As Button
+    Friend WithEvents ButtonWarriorKnockdownMinus As Button
+    Friend WithEvents ButtonWarriorGimpMinus As Button
+    Friend WithEvents ButtonWarriorDisarmPlus As Button
+    Friend WithEvents ButtonWarriorKnockdownPlus As Button
+    Friend WithEvents ButtonWarriorGimpPlus As Button
+    Friend WithEvents ButtonWarriorModifier As Button
+    Friend WithEvents ButtonWarriorClass As Button
+    Friend WithEvents ButtonWarriorSmithingMinus As Button
+    Friend WithEvents ButtonWarriorProwessMinus As Button
+    Friend WithEvents ButtonWarriorSenseMinus As Button
+    Friend WithEvents ButtonWarriorLeatherworkingMinus As Button
+    Friend WithEvents ButtonWarriorDetectionMinus As Button
+    Friend WithEvents ButtonWarriorMiningMinus As Button
+    Friend WithEvents ButtonWarriorSmithingPlus As Button
+    Friend WithEvents ButtonWarriorWeapondexterityMinus As Button
+    Friend WithEvents ButtonWarriorForestryMinus As Button
+    Friend WithEvents ButtonWarriorProwessPlus As Button
+    Friend WithEvents ButtonWarriorDetectionPlus As Button
+    Friend WithEvents ButtonWarriorMiningPlus As Button
+    Friend WithEvents ButtonWarriorSensePlus As Button
+    Friend WithEvents ButtonWarriorLeatherworkingPlus As Button
+    Friend WithEvents ButtonWarriorWeapondexterityPlus As Button
+    Friend WithEvents ButtonWarriorForestryPlus As Button
+    Friend WithEvents PanelRanger As Panel
+    Friend WithEvents ButtonRangerModifier As Button
+    Friend WithEvents ButtonRangerClass As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button10 As Button
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button14 As Button
+    Friend WithEvents Button15 As Button
+    Friend WithEvents Button16 As Button
+    Friend WithEvents Button17 As Button
+    Friend WithEvents Button18 As Button
+    Friend WithEvents Button19 As Button
+    Friend WithEvents Button20 As Button
+    Friend WithEvents Button21 As Button
+    Friend WithEvents Button22 As Button
+    Friend WithEvents Button23 As Button
+    Friend WithEvents Button24 As Button
+    Friend WithEvents Button25 As Button
+    Friend WithEvents Button26 As Button
+    Friend WithEvents Button27 As Button
+    Friend WithEvents Button28 As Button
+    Friend WithEvents LabelRangerChosen As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents LabelRangerXp As Label
+    Friend WithEvents LabelRangerIntro As Label
 End Class
