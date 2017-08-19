@@ -190,15 +190,18 @@
     <value>You chose to be a Wizard! Wizards work a little differently than the other classes. Instead of having two factions they can choose between wizard's have 6 total factions. They are split up into two categories of three, elemental magic and manifold magic. Pick one from each category. Click for info.</value>
   </data>
   <data name="LabelWarriorIntro.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one. You can buy up to level 2 fom the classless talent list. You do not have to use all of your experience right now.</value>
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
   <data name="LabelRangerIntro.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one. You can buy up to level 2 fom the classless talent list. You do not have to use all of your experience right now.</value>
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
   <data name="LabelRogueintro.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one. You can buy up to level 2 fom the classless talent list. You do not have to use all of your experience right now.</value>
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
   <data name="LabelNobleIntro.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one. You can buy up to level 2 fom the classless talent list. You do not have to use all of your experience right now.</value>
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelClericIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
 </root>
