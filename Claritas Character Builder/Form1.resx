@@ -204,4 +204,10 @@
   <data name="LabelClericIntro.Text" xml:space="preserve">
     <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
+  <data name="LabelVoidknightIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelNeuroHydroIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
 </root>
