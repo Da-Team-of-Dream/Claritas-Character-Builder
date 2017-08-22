@@ -674,6 +674,49 @@ Partial Class Form1
         Me.LabelNeuroHydroMigraine = New System.Windows.Forms.Label()
         Me.LabelNeuroHydroXp = New System.Windows.Forms.Label()
         Me.LabelNeuroHydroIntro = New System.Windows.Forms.Label()
+        Me.PanelNeuropyro = New System.Windows.Forms.Panel()
+        Me.ButtonNeuropyroInfo = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroModifier = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroClass = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroSmithingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroProwessMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroSenseMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroLeatherworkingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroFireballMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroEnchantingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroHealthMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroScrollwritingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroDetectionMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroSmithingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroWeapondexterityMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroForestryMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroProwessPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroEnchantingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroHealthPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroScrollwritingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroDetectionPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroMigraineMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroSensePlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroLeatherworkingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroWeapondexterityPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroForestryPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroFireballPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeuropyroMigrainePlus = New System.Windows.Forms.Button()
+        Me.LabelNeuropyroChosen = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroEnchanting = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroHealth = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroScrollwriting = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroDetection = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroSmithing = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroSense = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroProwess = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroLeatherworking = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroFireball = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroWeapondexterity = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroForestry = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroMigraine = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroXp = New System.Windows.Forms.Label()
+        Me.LabelNeuropyroIntro = New System.Windows.Forms.Label()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
@@ -710,6 +753,7 @@ Partial Class Form1
         Me.PanelCleric.SuspendLayout()
         Me.PanelVoidknight.SuspendLayout()
         Me.PanelNeuroHydro.SuspendLayout()
+        Me.PanelNeuropyro.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -7975,11 +8019,500 @@ Partial Class Form1
         Me.LabelNeuroHydroIntro.TabIndex = 0
         Me.LabelNeuroHydroIntro.Text = resources.GetString("LabelNeuroHydroIntro.Text")
         '
+        'PanelNeuropyro
+        '
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroInfo)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroModifier)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroClass)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroSmithingMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroProwessMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroSenseMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroLeatherworkingMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroFireballMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroEnchantingMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroHealthMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroScrollwritingMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroDetectionMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroSmithingPlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroWeapondexterityMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroForestryMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroProwessPlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroEnchantingPlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroHealthPlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroScrollwritingPlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroDetectionPlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroMigraineMinus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroSensePlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroLeatherworkingPlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroWeapondexterityPlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroForestryPlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroFireballPlus)
+        Me.PanelNeuropyro.Controls.Add(Me.ButtonNeuropyroMigrainePlus)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroChosen)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroEnchanting)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroHealth)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroScrollwriting)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroDetection)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroSmithing)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroSense)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroProwess)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroLeatherworking)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroFireball)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroWeapondexterity)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroForestry)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroMigraine)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroXp)
+        Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroIntro)
+        Me.PanelNeuropyro.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelNeuropyro.Location = New System.Drawing.Point(0, 0)
+        Me.PanelNeuropyro.Name = "PanelNeuropyro"
+        Me.PanelNeuropyro.Size = New System.Drawing.Size(621, 316)
+        Me.PanelNeuropyro.TabIndex = 37
+        '
+        'ButtonNeuropyroInfo
+        '
+        Me.ButtonNeuropyroInfo.Location = New System.Drawing.Point(496, 252)
+        Me.ButtonNeuropyroInfo.Name = "ButtonNeuropyroInfo"
+        Me.ButtonNeuropyroInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNeuropyroInfo.TabIndex = 8
+        Me.ButtonNeuropyroInfo.Text = "Info"
+        Me.ButtonNeuropyroInfo.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroModifier
+        '
+        Me.ButtonNeuropyroModifier.Location = New System.Drawing.Point(542, 289)
+        Me.ButtonNeuropyroModifier.Name = "ButtonNeuropyroModifier"
+        Me.ButtonNeuropyroModifier.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNeuropyroModifier.TabIndex = 7
+        Me.ButtonNeuropyroModifier.Text = "Next"
+        Me.ButtonNeuropyroModifier.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroClass
+        '
+        Me.ButtonNeuropyroClass.Location = New System.Drawing.Point(3, 289)
+        Me.ButtonNeuropyroClass.Name = "ButtonNeuropyroClass"
+        Me.ButtonNeuropyroClass.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNeuropyroClass.TabIndex = 6
+        Me.ButtonNeuropyroClass.Text = "Previous"
+        Me.ButtonNeuropyroClass.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroSmithingMinus
+        '
+        Me.ButtonNeuropyroSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroSmithingMinus.Location = New System.Drawing.Point(187, 201)
+        Me.ButtonNeuropyroSmithingMinus.Name = "ButtonNeuropyroSmithingMinus"
+        Me.ButtonNeuropyroSmithingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroSmithingMinus.TabIndex = 5
+        Me.ButtonNeuropyroSmithingMinus.Text = "-"
+        Me.ButtonNeuropyroSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroSmithingMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroProwessMinus
+        '
+        Me.ButtonNeuropyroProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroProwessMinus.Location = New System.Drawing.Point(186, 160)
+        Me.ButtonNeuropyroProwessMinus.Name = "ButtonNeuropyroProwessMinus"
+        Me.ButtonNeuropyroProwessMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroProwessMinus.TabIndex = 5
+        Me.ButtonNeuropyroProwessMinus.Text = "-"
+        Me.ButtonNeuropyroProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroProwessMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroSenseMinus
+        '
+        Me.ButtonNeuropyroSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroSenseMinus.Location = New System.Drawing.Point(353, 85)
+        Me.ButtonNeuropyroSenseMinus.Name = "ButtonNeuropyroSenseMinus"
+        Me.ButtonNeuropyroSenseMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroSenseMinus.TabIndex = 5
+        Me.ButtonNeuropyroSenseMinus.Text = "-"
+        Me.ButtonNeuropyroSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroSenseMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroLeatherworkingMinus
+        '
+        Me.ButtonNeuropyroLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
+        Me.ButtonNeuropyroLeatherworkingMinus.Name = "ButtonNeuropyroLeatherworkingMinus"
+        Me.ButtonNeuropyroLeatherworkingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroLeatherworkingMinus.TabIndex = 5
+        Me.ButtonNeuropyroLeatherworkingMinus.Text = "-"
+        Me.ButtonNeuropyroLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroLeatherworkingMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroFireballMinus
+        '
+        Me.ButtonNeuropyroFireballMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroFireballMinus.Location = New System.Drawing.Point(57, 178)
+        Me.ButtonNeuropyroFireballMinus.Name = "ButtonNeuropyroFireballMinus"
+        Me.ButtonNeuropyroFireballMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroFireballMinus.TabIndex = 5
+        Me.ButtonNeuropyroFireballMinus.Text = "-"
+        Me.ButtonNeuropyroFireballMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroFireballMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroEnchantingMinus
+        '
+        Me.ButtonNeuropyroEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroEnchantingMinus.Location = New System.Drawing.Point(353, 237)
+        Me.ButtonNeuropyroEnchantingMinus.Name = "ButtonNeuropyroEnchantingMinus"
+        Me.ButtonNeuropyroEnchantingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroEnchantingMinus.TabIndex = 5
+        Me.ButtonNeuropyroEnchantingMinus.Text = "-"
+        Me.ButtonNeuropyroEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroEnchantingMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroHealthMinus
+        '
+        Me.ButtonNeuropyroHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroHealthMinus.Location = New System.Drawing.Point(353, 161)
+        Me.ButtonNeuropyroHealthMinus.Name = "ButtonNeuropyroHealthMinus"
+        Me.ButtonNeuropyroHealthMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroHealthMinus.TabIndex = 5
+        Me.ButtonNeuropyroHealthMinus.Text = "-"
+        Me.ButtonNeuropyroHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroHealthMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroScrollwritingMinus
+        '
+        Me.ButtonNeuropyroScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
+        Me.ButtonNeuropyroScrollwritingMinus.Name = "ButtonNeuropyroScrollwritingMinus"
+        Me.ButtonNeuropyroScrollwritingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroScrollwritingMinus.TabIndex = 5
+        Me.ButtonNeuropyroScrollwritingMinus.Text = "-"
+        Me.ButtonNeuropyroScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroScrollwritingMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroDetectionMinus
+        '
+        Me.ButtonNeuropyroDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroDetectionMinus.Location = New System.Drawing.Point(353, 124)
+        Me.ButtonNeuropyroDetectionMinus.Name = "ButtonNeuropyroDetectionMinus"
+        Me.ButtonNeuropyroDetectionMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroDetectionMinus.TabIndex = 5
+        Me.ButtonNeuropyroDetectionMinus.Text = "-"
+        Me.ButtonNeuropyroDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroDetectionMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroSmithingPlus
+        '
+        Me.ButtonNeuropyroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroSmithingPlus.Location = New System.Drawing.Point(162, 201)
+        Me.ButtonNeuropyroSmithingPlus.Name = "ButtonNeuropyroSmithingPlus"
+        Me.ButtonNeuropyroSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroSmithingPlus.TabIndex = 4
+        Me.ButtonNeuropyroSmithingPlus.Text = "+"
+        Me.ButtonNeuropyroSmithingPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroWeapondexterityMinus
+        '
+        Me.ButtonNeuropyroWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
+        Me.ButtonNeuropyroWeapondexterityMinus.Name = "ButtonNeuropyroWeapondexterityMinus"
+        Me.ButtonNeuropyroWeapondexterityMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroWeapondexterityMinus.TabIndex = 5
+        Me.ButtonNeuropyroWeapondexterityMinus.Text = "-"
+        Me.ButtonNeuropyroWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroWeapondexterityMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroForestryMinus
+        '
+        Me.ButtonNeuropyroForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroForestryMinus.Location = New System.Drawing.Point(186, 87)
+        Me.ButtonNeuropyroForestryMinus.Name = "ButtonNeuropyroForestryMinus"
+        Me.ButtonNeuropyroForestryMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroForestryMinus.TabIndex = 5
+        Me.ButtonNeuropyroForestryMinus.Text = "-"
+        Me.ButtonNeuropyroForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroForestryMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroProwessPlus
+        '
+        Me.ButtonNeuropyroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroProwessPlus.Location = New System.Drawing.Point(161, 160)
+        Me.ButtonNeuropyroProwessPlus.Name = "ButtonNeuropyroProwessPlus"
+        Me.ButtonNeuropyroProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroProwessPlus.TabIndex = 4
+        Me.ButtonNeuropyroProwessPlus.Text = "+"
+        Me.ButtonNeuropyroProwessPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroEnchantingPlus
+        '
+        Me.ButtonNeuropyroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroEnchantingPlus.Location = New System.Drawing.Point(328, 237)
+        Me.ButtonNeuropyroEnchantingPlus.Name = "ButtonNeuropyroEnchantingPlus"
+        Me.ButtonNeuropyroEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroEnchantingPlus.TabIndex = 4
+        Me.ButtonNeuropyroEnchantingPlus.Text = "+"
+        Me.ButtonNeuropyroEnchantingPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroHealthPlus
+        '
+        Me.ButtonNeuropyroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroHealthPlus.Location = New System.Drawing.Point(328, 161)
+        Me.ButtonNeuropyroHealthPlus.Name = "ButtonNeuropyroHealthPlus"
+        Me.ButtonNeuropyroHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroHealthPlus.TabIndex = 4
+        Me.ButtonNeuropyroHealthPlus.Text = "+"
+        Me.ButtonNeuropyroHealthPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroScrollwritingPlus
+        '
+        Me.ButtonNeuropyroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
+        Me.ButtonNeuropyroScrollwritingPlus.Name = "ButtonNeuropyroScrollwritingPlus"
+        Me.ButtonNeuropyroScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroScrollwritingPlus.TabIndex = 4
+        Me.ButtonNeuropyroScrollwritingPlus.Text = "+"
+        Me.ButtonNeuropyroScrollwritingPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroDetectionPlus
+        '
+        Me.ButtonNeuropyroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroDetectionPlus.Location = New System.Drawing.Point(328, 124)
+        Me.ButtonNeuropyroDetectionPlus.Name = "ButtonNeuropyroDetectionPlus"
+        Me.ButtonNeuropyroDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroDetectionPlus.TabIndex = 4
+        Me.ButtonNeuropyroDetectionPlus.Text = "+"
+        Me.ButtonNeuropyroDetectionPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroMigraineMinus
+        '
+        Me.ButtonNeuropyroMigraineMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeuropyroMigraineMinus.Location = New System.Drawing.Point(57, 140)
+        Me.ButtonNeuropyroMigraineMinus.Name = "ButtonNeuropyroMigraineMinus"
+        Me.ButtonNeuropyroMigraineMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeuropyroMigraineMinus.TabIndex = 5
+        Me.ButtonNeuropyroMigraineMinus.Text = "-"
+        Me.ButtonNeuropyroMigraineMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeuropyroMigraineMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroSensePlus
+        '
+        Me.ButtonNeuropyroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroSensePlus.Location = New System.Drawing.Point(328, 85)
+        Me.ButtonNeuropyroSensePlus.Name = "ButtonNeuropyroSensePlus"
+        Me.ButtonNeuropyroSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroSensePlus.TabIndex = 4
+        Me.ButtonNeuropyroSensePlus.Text = "+"
+        Me.ButtonNeuropyroSensePlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroLeatherworkingPlus
+        '
+        Me.ButtonNeuropyroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
+        Me.ButtonNeuropyroLeatherworkingPlus.Name = "ButtonNeuropyroLeatherworkingPlus"
+        Me.ButtonNeuropyroLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroLeatherworkingPlus.TabIndex = 4
+        Me.ButtonNeuropyroLeatherworkingPlus.Text = "+"
+        Me.ButtonNeuropyroLeatherworkingPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroWeapondexterityPlus
+        '
+        Me.ButtonNeuropyroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
+        Me.ButtonNeuropyroWeapondexterityPlus.Name = "ButtonNeuropyroWeapondexterityPlus"
+        Me.ButtonNeuropyroWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroWeapondexterityPlus.TabIndex = 4
+        Me.ButtonNeuropyroWeapondexterityPlus.Text = "+"
+        Me.ButtonNeuropyroWeapondexterityPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroForestryPlus
+        '
+        Me.ButtonNeuropyroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroForestryPlus.Location = New System.Drawing.Point(161, 87)
+        Me.ButtonNeuropyroForestryPlus.Name = "ButtonNeuropyroForestryPlus"
+        Me.ButtonNeuropyroForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroForestryPlus.TabIndex = 4
+        Me.ButtonNeuropyroForestryPlus.Text = "+"
+        Me.ButtonNeuropyroForestryPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroFireballPlus
+        '
+        Me.ButtonNeuropyroFireballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroFireballPlus.Location = New System.Drawing.Point(32, 178)
+        Me.ButtonNeuropyroFireballPlus.Name = "ButtonNeuropyroFireballPlus"
+        Me.ButtonNeuropyroFireballPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroFireballPlus.TabIndex = 4
+        Me.ButtonNeuropyroFireballPlus.Text = "+"
+        Me.ButtonNeuropyroFireballPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeuropyroMigrainePlus
+        '
+        Me.ButtonNeuropyroMigrainePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeuropyroMigrainePlus.Location = New System.Drawing.Point(32, 140)
+        Me.ButtonNeuropyroMigrainePlus.Name = "ButtonNeuropyroMigrainePlus"
+        Me.ButtonNeuropyroMigrainePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroMigrainePlus.TabIndex = 4
+        Me.ButtonNeuropyroMigrainePlus.Text = "+"
+        Me.ButtonNeuropyroMigrainePlus.UseVisualStyleBackColor = True
+        '
+        'LabelNeuropyroChosen
+        '
+        Me.LabelNeuropyroChosen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.LabelNeuropyroChosen.Location = New System.Drawing.Point(469, 105)
+        Me.LabelNeuropyroChosen.Name = "LabelNeuropyroChosen"
+        Me.LabelNeuropyroChosen.Size = New System.Drawing.Size(131, 127)
+        Me.LabelNeuropyroChosen.TabIndex = 3
+        Me.LabelNeuropyroChosen.Text = "Already Chosen:"
+        '
+        'LabelNeuropyroEnchanting
+        '
+        Me.LabelNeuropyroEnchanting.AutoSize = True
+        Me.LabelNeuropyroEnchanting.Location = New System.Drawing.Point(373, 241)
+        Me.LabelNeuropyroEnchanting.Name = "LabelNeuropyroEnchanting"
+        Me.LabelNeuropyroEnchanting.Size = New System.Drawing.Size(61, 13)
+        Me.LabelNeuropyroEnchanting.TabIndex = 2
+        Me.LabelNeuropyroEnchanting.Text = "Enchanting"
+        '
+        'LabelNeuropyroHealth
+        '
+        Me.LabelNeuropyroHealth.AutoSize = True
+        Me.LabelNeuropyroHealth.Location = New System.Drawing.Point(373, 165)
+        Me.LabelNeuropyroHealth.Name = "LabelNeuropyroHealth"
+        Me.LabelNeuropyroHealth.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeuropyroHealth.TabIndex = 2
+        Me.LabelNeuropyroHealth.Text = "1 Health"
+        '
+        'LabelNeuropyroScrollwriting
+        '
+        Me.LabelNeuropyroScrollwriting.AutoSize = True
+        Me.LabelNeuropyroScrollwriting.Location = New System.Drawing.Point(372, 202)
+        Me.LabelNeuropyroScrollwriting.Name = "LabelNeuropyroScrollwriting"
+        Me.LabelNeuropyroScrollwriting.Size = New System.Drawing.Size(69, 13)
+        Me.LabelNeuropyroScrollwriting.TabIndex = 2
+        Me.LabelNeuropyroScrollwriting.Text = "Scroll Writing"
+        '
+        'LabelNeuropyroDetection
+        '
+        Me.LabelNeuropyroDetection.AutoSize = True
+        Me.LabelNeuropyroDetection.Location = New System.Drawing.Point(372, 130)
+        Me.LabelNeuropyroDetection.Name = "LabelNeuropyroDetection"
+        Me.LabelNeuropyroDetection.Size = New System.Drawing.Size(53, 13)
+        Me.LabelNeuropyroDetection.TabIndex = 2
+        Me.LabelNeuropyroDetection.Text = "Detection"
+        '
+        'LabelNeuropyroSmithing
+        '
+        Me.LabelNeuropyroSmithing.AutoSize = True
+        Me.LabelNeuropyroSmithing.Location = New System.Drawing.Point(206, 205)
+        Me.LabelNeuropyroSmithing.Name = "LabelNeuropyroSmithing"
+        Me.LabelNeuropyroSmithing.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeuropyroSmithing.TabIndex = 2
+        Me.LabelNeuropyroSmithing.Text = "Smithing"
+        '
+        'LabelNeuropyroSense
+        '
+        Me.LabelNeuropyroSense.AutoSize = True
+        Me.LabelNeuropyroSense.Location = New System.Drawing.Point(374, 90)
+        Me.LabelNeuropyroSense.Name = "LabelNeuropyroSense"
+        Me.LabelNeuropyroSense.Size = New System.Drawing.Size(37, 13)
+        Me.LabelNeuropyroSense.TabIndex = 2
+        Me.LabelNeuropyroSense.Text = "Sense"
+        '
+        'LabelNeuropyroProwess
+        '
+        Me.LabelNeuropyroProwess.AutoSize = True
+        Me.LabelNeuropyroProwess.Location = New System.Drawing.Point(205, 166)
+        Me.LabelNeuropyroProwess.Name = "LabelNeuropyroProwess"
+        Me.LabelNeuropyroProwess.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeuropyroProwess.TabIndex = 2
+        Me.LabelNeuropyroProwess.Text = "Prowess"
+        '
+        'LabelNeuropyroLeatherworking
+        '
+        Me.LabelNeuropyroLeatherworking.AutoSize = True
+        Me.LabelNeuropyroLeatherworking.Location = New System.Drawing.Point(206, 128)
+        Me.LabelNeuropyroLeatherworking.Name = "LabelNeuropyroLeatherworking"
+        Me.LabelNeuropyroLeatherworking.Size = New System.Drawing.Size(80, 13)
+        Me.LabelNeuropyroLeatherworking.TabIndex = 2
+        Me.LabelNeuropyroLeatherworking.Text = "Leatherworking"
+        '
+        'LabelNeuropyroFireball
+        '
+        Me.LabelNeuropyroFireball.AutoSize = True
+        Me.LabelNeuropyroFireball.Location = New System.Drawing.Point(81, 182)
+        Me.LabelNeuropyroFireball.Name = "LabelNeuropyroFireball"
+        Me.LabelNeuropyroFireball.Size = New System.Drawing.Size(40, 13)
+        Me.LabelNeuropyroFireball.TabIndex = 2
+        Me.LabelNeuropyroFireball.Text = "Fireball"
+        '
+        'LabelNeuropyroWeapondexterity
+        '
+        Me.LabelNeuropyroWeapondexterity.AutoSize = True
+        Me.LabelNeuropyroWeapondexterity.Location = New System.Drawing.Point(205, 242)
+        Me.LabelNeuropyroWeapondexterity.Name = "LabelNeuropyroWeapondexterity"
+        Me.LabelNeuropyroWeapondexterity.Size = New System.Drawing.Size(92, 13)
+        Me.LabelNeuropyroWeapondexterity.TabIndex = 2
+        Me.LabelNeuropyroWeapondexterity.Text = "Weapon Dexterity"
+        '
+        'LabelNeuropyroForestry
+        '
+        Me.LabelNeuropyroForestry.AutoSize = True
+        Me.LabelNeuropyroForestry.Location = New System.Drawing.Point(206, 91)
+        Me.LabelNeuropyroForestry.Name = "LabelNeuropyroForestry"
+        Me.LabelNeuropyroForestry.Size = New System.Drawing.Size(44, 13)
+        Me.LabelNeuropyroForestry.TabIndex = 2
+        Me.LabelNeuropyroForestry.Text = "Forestry"
+        '
+        'LabelNeuropyroMigraine
+        '
+        Me.LabelNeuropyroMigraine.AutoSize = True
+        Me.LabelNeuropyroMigraine.Location = New System.Drawing.Point(81, 145)
+        Me.LabelNeuropyroMigraine.Name = "LabelNeuropyroMigraine"
+        Me.LabelNeuropyroMigraine.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeuropyroMigraine.TabIndex = 2
+        Me.LabelNeuropyroMigraine.Text = "Migraine"
+        '
+        'LabelNeuropyroXp
+        '
+        Me.LabelNeuropyroXp.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelNeuropyroXp.Location = New System.Drawing.Point(512, 75)
+        Me.LabelNeuropyroXp.Name = "LabelNeuropyroXp"
+        Me.LabelNeuropyroXp.Size = New System.Drawing.Size(78, 21)
+        Me.LabelNeuropyroXp.TabIndex = 1
+        Me.LabelNeuropyroXp.Text = "XP left:  15"
+        '
+        'LabelNeuropyroIntro
+        '
+        Me.LabelNeuropyroIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelNeuropyroIntro.Location = New System.Drawing.Point(12, 6)
+        Me.LabelNeuropyroIntro.Name = "LabelNeuropyroIntro"
+        Me.LabelNeuropyroIntro.Size = New System.Drawing.Size(594, 70)
+        Me.LabelNeuropyroIntro.TabIndex = 0
+        Me.LabelNeuropyroIntro.Text = resources.GetString("LabelNeuropyroIntro.Text")
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelNeuropyro)
         Me.Controls.Add(Me.PanelNeuroHydro)
         Me.Controls.Add(Me.PanelVoidknight)
         Me.Controls.Add(Me.PanelCleric)
@@ -8087,6 +8620,8 @@ Partial Class Form1
         Me.PanelVoidknight.PerformLayout()
         Me.PanelNeuroHydro.ResumeLayout(False)
         Me.PanelNeuroHydro.PerformLayout()
+        Me.PanelNeuropyro.ResumeLayout(False)
+        Me.PanelNeuropyro.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -8741,4 +9276,47 @@ Partial Class Form1
     Friend WithEvents LabelNeuroHydroMigraine As Label
     Friend WithEvents LabelNeuroHydroXp As Label
     Friend WithEvents LabelNeuroHydroIntro As Label
+    Friend WithEvents PanelNeuropyro As Panel
+    Friend WithEvents ButtonNeuropyroInfo As Button
+    Friend WithEvents ButtonNeuropyroModifier As Button
+    Friend WithEvents ButtonNeuropyroClass As Button
+    Friend WithEvents ButtonNeuropyroSmithingMinus As Button
+    Friend WithEvents ButtonNeuropyroProwessMinus As Button
+    Friend WithEvents ButtonNeuropyroSenseMinus As Button
+    Friend WithEvents ButtonNeuropyroLeatherworkingMinus As Button
+    Friend WithEvents ButtonNeuropyroFireballMinus As Button
+    Friend WithEvents ButtonNeuropyroEnchantingMinus As Button
+    Friend WithEvents ButtonNeuropyroHealthMinus As Button
+    Friend WithEvents ButtonNeuropyroScrollwritingMinus As Button
+    Friend WithEvents ButtonNeuropyroDetectionMinus As Button
+    Friend WithEvents ButtonNeuropyroSmithingPlus As Button
+    Friend WithEvents ButtonNeuropyroWeapondexterityMinus As Button
+    Friend WithEvents ButtonNeuropyroForestryMinus As Button
+    Friend WithEvents ButtonNeuropyroProwessPlus As Button
+    Friend WithEvents ButtonNeuropyroEnchantingPlus As Button
+    Friend WithEvents ButtonNeuropyroHealthPlus As Button
+    Friend WithEvents ButtonNeuropyroScrollwritingPlus As Button
+    Friend WithEvents ButtonNeuropyroDetectionPlus As Button
+    Friend WithEvents ButtonNeuropyroMigraineMinus As Button
+    Friend WithEvents ButtonNeuropyroSensePlus As Button
+    Friend WithEvents ButtonNeuropyroLeatherworkingPlus As Button
+    Friend WithEvents ButtonNeuropyroWeapondexterityPlus As Button
+    Friend WithEvents ButtonNeuropyroForestryPlus As Button
+    Friend WithEvents ButtonNeuropyroFireballPlus As Button
+    Friend WithEvents ButtonNeuropyroMigrainePlus As Button
+    Friend WithEvents LabelNeuropyroChosen As Label
+    Friend WithEvents LabelNeuropyroEnchanting As Label
+    Friend WithEvents LabelNeuropyroHealth As Label
+    Friend WithEvents LabelNeuropyroScrollwriting As Label
+    Friend WithEvents LabelNeuropyroDetection As Label
+    Friend WithEvents LabelNeuropyroSmithing As Label
+    Friend WithEvents LabelNeuropyroSense As Label
+    Friend WithEvents LabelNeuropyroProwess As Label
+    Friend WithEvents LabelNeuropyroLeatherworking As Label
+    Friend WithEvents LabelNeuropyroFireball As Label
+    Friend WithEvents LabelNeuropyroWeapondexterity As Label
+    Friend WithEvents LabelNeuropyroForestry As Label
+    Friend WithEvents LabelNeuropyroMigraine As Label
+    Friend WithEvents LabelNeuropyroXp As Label
+    Friend WithEvents LabelNeuropyroIntro As Label
 End Class
