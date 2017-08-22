@@ -717,6 +717,49 @@ Partial Class Form1
         Me.LabelNeuropyroMigraine = New System.Windows.Forms.Label()
         Me.LabelNeuropyroXp = New System.Windows.Forms.Label()
         Me.LabelNeuropyroIntro = New System.Windows.Forms.Label()
+        Me.PanelNeurokairo = New System.Windows.Forms.Panel()
+        Me.ButtonNeurokairoInfo = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoModifier = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoWizard = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoSmithingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoProwessMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoSenseMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoLeatherworkingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoLightningboldMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoEnchantingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoHealthMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoScrollwritingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoDetectionMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoSmithingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoWeapondexterityMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoForestryMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoProwessPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoEnchantingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoHealthPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoScrollwritingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoDetectionPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoMigraineMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoSensePlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoLeatherworkingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoWeapondexterityPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoForestryPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoLightningboltPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurokairoMigrainePlus = New System.Windows.Forms.Button()
+        Me.LabeNeurokairoChosen = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoEnchanting = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoHealth = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoScrollwriting = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoDetection = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoSmithing = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoSense = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoProwess = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoLeatherworking = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoLightningbolt = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoWeapondexterity = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoForestry = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoMigraine = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoXp = New System.Windows.Forms.Label()
+        Me.LabelNeurokairoIntro = New System.Windows.Forms.Label()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
@@ -754,6 +797,7 @@ Partial Class Form1
         Me.PanelVoidknight.SuspendLayout()
         Me.PanelNeuroHydro.SuspendLayout()
         Me.PanelNeuropyro.SuspendLayout()
+        Me.PanelNeurokairo.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -8507,11 +8551,500 @@ Partial Class Form1
         Me.LabelNeuropyroIntro.TabIndex = 0
         Me.LabelNeuropyroIntro.Text = resources.GetString("LabelNeuropyroIntro.Text")
         '
+        'PanelNeurokairo
+        '
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoInfo)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoModifier)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoWizard)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoSmithingMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoProwessMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoSenseMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoLeatherworkingMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoLightningboldMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoEnchantingMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoHealthMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoScrollwritingMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoDetectionMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoSmithingPlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoWeapondexterityMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoForestryMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoProwessPlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoEnchantingPlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoHealthPlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoScrollwritingPlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoDetectionPlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoMigraineMinus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoSensePlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoLeatherworkingPlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoWeapondexterityPlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoForestryPlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoLightningboltPlus)
+        Me.PanelNeurokairo.Controls.Add(Me.ButtonNeurokairoMigrainePlus)
+        Me.PanelNeurokairo.Controls.Add(Me.LabeNeurokairoChosen)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoEnchanting)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoHealth)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoScrollwriting)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoDetection)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoSmithing)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoSense)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoProwess)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoLeatherworking)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoLightningbolt)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoWeapondexterity)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoForestry)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoMigraine)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoXp)
+        Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoIntro)
+        Me.PanelNeurokairo.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelNeurokairo.Location = New System.Drawing.Point(0, 0)
+        Me.PanelNeurokairo.Name = "PanelNeurokairo"
+        Me.PanelNeurokairo.Size = New System.Drawing.Size(621, 316)
+        Me.PanelNeurokairo.TabIndex = 38
+        '
+        'ButtonNeurokairoInfo
+        '
+        Me.ButtonNeurokairoInfo.Location = New System.Drawing.Point(496, 252)
+        Me.ButtonNeurokairoInfo.Name = "ButtonNeurokairoInfo"
+        Me.ButtonNeurokairoInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNeurokairoInfo.TabIndex = 8
+        Me.ButtonNeurokairoInfo.Text = "Info"
+        Me.ButtonNeurokairoInfo.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoModifier
+        '
+        Me.ButtonNeurokairoModifier.Location = New System.Drawing.Point(542, 289)
+        Me.ButtonNeurokairoModifier.Name = "ButtonNeurokairoModifier"
+        Me.ButtonNeurokairoModifier.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNeurokairoModifier.TabIndex = 7
+        Me.ButtonNeurokairoModifier.Text = "Next"
+        Me.ButtonNeurokairoModifier.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoWizard
+        '
+        Me.ButtonNeurokairoWizard.Location = New System.Drawing.Point(3, 289)
+        Me.ButtonNeurokairoWizard.Name = "ButtonNeurokairoWizard"
+        Me.ButtonNeurokairoWizard.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNeurokairoWizard.TabIndex = 6
+        Me.ButtonNeurokairoWizard.Text = "Previous"
+        Me.ButtonNeurokairoWizard.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoSmithingMinus
+        '
+        Me.ButtonNeurokairoSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoSmithingMinus.Location = New System.Drawing.Point(187, 201)
+        Me.ButtonNeurokairoSmithingMinus.Name = "ButtonNeurokairoSmithingMinus"
+        Me.ButtonNeurokairoSmithingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoSmithingMinus.TabIndex = 5
+        Me.ButtonNeurokairoSmithingMinus.Text = "-"
+        Me.ButtonNeurokairoSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoSmithingMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoProwessMinus
+        '
+        Me.ButtonNeurokairoProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoProwessMinus.Location = New System.Drawing.Point(186, 160)
+        Me.ButtonNeurokairoProwessMinus.Name = "ButtonNeurokairoProwessMinus"
+        Me.ButtonNeurokairoProwessMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoProwessMinus.TabIndex = 5
+        Me.ButtonNeurokairoProwessMinus.Text = "-"
+        Me.ButtonNeurokairoProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoProwessMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoSenseMinus
+        '
+        Me.ButtonNeurokairoSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoSenseMinus.Location = New System.Drawing.Point(353, 85)
+        Me.ButtonNeurokairoSenseMinus.Name = "ButtonNeurokairoSenseMinus"
+        Me.ButtonNeurokairoSenseMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoSenseMinus.TabIndex = 5
+        Me.ButtonNeurokairoSenseMinus.Text = "-"
+        Me.ButtonNeurokairoSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoSenseMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoLeatherworkingMinus
+        '
+        Me.ButtonNeurokairoLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
+        Me.ButtonNeurokairoLeatherworkingMinus.Name = "ButtonNeurokairoLeatherworkingMinus"
+        Me.ButtonNeurokairoLeatherworkingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoLeatherworkingMinus.TabIndex = 5
+        Me.ButtonNeurokairoLeatherworkingMinus.Text = "-"
+        Me.ButtonNeurokairoLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoLeatherworkingMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoLightningboldMinus
+        '
+        Me.ButtonNeurokairoLightningboldMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoLightningboldMinus.Location = New System.Drawing.Point(57, 178)
+        Me.ButtonNeurokairoLightningboldMinus.Name = "ButtonNeurokairoLightningboldMinus"
+        Me.ButtonNeurokairoLightningboldMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoLightningboldMinus.TabIndex = 5
+        Me.ButtonNeurokairoLightningboldMinus.Text = "-"
+        Me.ButtonNeurokairoLightningboldMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoLightningboldMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoEnchantingMinus
+        '
+        Me.ButtonNeurokairoEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoEnchantingMinus.Location = New System.Drawing.Point(353, 237)
+        Me.ButtonNeurokairoEnchantingMinus.Name = "ButtonNeurokairoEnchantingMinus"
+        Me.ButtonNeurokairoEnchantingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoEnchantingMinus.TabIndex = 5
+        Me.ButtonNeurokairoEnchantingMinus.Text = "-"
+        Me.ButtonNeurokairoEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoEnchantingMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoHealthMinus
+        '
+        Me.ButtonNeurokairoHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoHealthMinus.Location = New System.Drawing.Point(353, 161)
+        Me.ButtonNeurokairoHealthMinus.Name = "ButtonNeurokairoHealthMinus"
+        Me.ButtonNeurokairoHealthMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoHealthMinus.TabIndex = 5
+        Me.ButtonNeurokairoHealthMinus.Text = "-"
+        Me.ButtonNeurokairoHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoHealthMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoScrollwritingMinus
+        '
+        Me.ButtonNeurokairoScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
+        Me.ButtonNeurokairoScrollwritingMinus.Name = "ButtonNeurokairoScrollwritingMinus"
+        Me.ButtonNeurokairoScrollwritingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoScrollwritingMinus.TabIndex = 5
+        Me.ButtonNeurokairoScrollwritingMinus.Text = "-"
+        Me.ButtonNeurokairoScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoScrollwritingMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoDetectionMinus
+        '
+        Me.ButtonNeurokairoDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoDetectionMinus.Location = New System.Drawing.Point(353, 124)
+        Me.ButtonNeurokairoDetectionMinus.Name = "ButtonNeurokairoDetectionMinus"
+        Me.ButtonNeurokairoDetectionMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoDetectionMinus.TabIndex = 5
+        Me.ButtonNeurokairoDetectionMinus.Text = "-"
+        Me.ButtonNeurokairoDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoDetectionMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoSmithingPlus
+        '
+        Me.ButtonNeurokairoSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoSmithingPlus.Location = New System.Drawing.Point(162, 201)
+        Me.ButtonNeurokairoSmithingPlus.Name = "ButtonNeurokairoSmithingPlus"
+        Me.ButtonNeurokairoSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoSmithingPlus.TabIndex = 4
+        Me.ButtonNeurokairoSmithingPlus.Text = "+"
+        Me.ButtonNeurokairoSmithingPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoWeapondexterityMinus
+        '
+        Me.ButtonNeurokairoWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
+        Me.ButtonNeurokairoWeapondexterityMinus.Name = "ButtonNeurokairoWeapondexterityMinus"
+        Me.ButtonNeurokairoWeapondexterityMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoWeapondexterityMinus.TabIndex = 5
+        Me.ButtonNeurokairoWeapondexterityMinus.Text = "-"
+        Me.ButtonNeurokairoWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoWeapondexterityMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoForestryMinus
+        '
+        Me.ButtonNeurokairoForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoForestryMinus.Location = New System.Drawing.Point(186, 87)
+        Me.ButtonNeurokairoForestryMinus.Name = "ButtonNeurokairoForestryMinus"
+        Me.ButtonNeurokairoForestryMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoForestryMinus.TabIndex = 5
+        Me.ButtonNeurokairoForestryMinus.Text = "-"
+        Me.ButtonNeurokairoForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoForestryMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoProwessPlus
+        '
+        Me.ButtonNeurokairoProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoProwessPlus.Location = New System.Drawing.Point(161, 160)
+        Me.ButtonNeurokairoProwessPlus.Name = "ButtonNeurokairoProwessPlus"
+        Me.ButtonNeurokairoProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoProwessPlus.TabIndex = 4
+        Me.ButtonNeurokairoProwessPlus.Text = "+"
+        Me.ButtonNeurokairoProwessPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoEnchantingPlus
+        '
+        Me.ButtonNeurokairoEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoEnchantingPlus.Location = New System.Drawing.Point(328, 237)
+        Me.ButtonNeurokairoEnchantingPlus.Name = "ButtonNeurokairoEnchantingPlus"
+        Me.ButtonNeurokairoEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoEnchantingPlus.TabIndex = 4
+        Me.ButtonNeurokairoEnchantingPlus.Text = "+"
+        Me.ButtonNeurokairoEnchantingPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoHealthPlus
+        '
+        Me.ButtonNeurokairoHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoHealthPlus.Location = New System.Drawing.Point(328, 161)
+        Me.ButtonNeurokairoHealthPlus.Name = "ButtonNeurokairoHealthPlus"
+        Me.ButtonNeurokairoHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoHealthPlus.TabIndex = 4
+        Me.ButtonNeurokairoHealthPlus.Text = "+"
+        Me.ButtonNeurokairoHealthPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoScrollwritingPlus
+        '
+        Me.ButtonNeurokairoScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
+        Me.ButtonNeurokairoScrollwritingPlus.Name = "ButtonNeurokairoScrollwritingPlus"
+        Me.ButtonNeurokairoScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoScrollwritingPlus.TabIndex = 4
+        Me.ButtonNeurokairoScrollwritingPlus.Text = "+"
+        Me.ButtonNeurokairoScrollwritingPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoDetectionPlus
+        '
+        Me.ButtonNeurokairoDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoDetectionPlus.Location = New System.Drawing.Point(328, 124)
+        Me.ButtonNeurokairoDetectionPlus.Name = "ButtonNeurokairoDetectionPlus"
+        Me.ButtonNeurokairoDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoDetectionPlus.TabIndex = 4
+        Me.ButtonNeurokairoDetectionPlus.Text = "+"
+        Me.ButtonNeurokairoDetectionPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoMigraineMinus
+        '
+        Me.ButtonNeurokairoMigraineMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ButtonNeurokairoMigraineMinus.Location = New System.Drawing.Point(57, 140)
+        Me.ButtonNeurokairoMigraineMinus.Name = "ButtonNeurokairoMigraineMinus"
+        Me.ButtonNeurokairoMigraineMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurokairoMigraineMinus.TabIndex = 5
+        Me.ButtonNeurokairoMigraineMinus.Text = "-"
+        Me.ButtonNeurokairoMigraineMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurokairoMigraineMinus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoSensePlus
+        '
+        Me.ButtonNeurokairoSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoSensePlus.Location = New System.Drawing.Point(328, 85)
+        Me.ButtonNeurokairoSensePlus.Name = "ButtonNeurokairoSensePlus"
+        Me.ButtonNeurokairoSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoSensePlus.TabIndex = 4
+        Me.ButtonNeurokairoSensePlus.Text = "+"
+        Me.ButtonNeurokairoSensePlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoLeatherworkingPlus
+        '
+        Me.ButtonNeurokairoLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
+        Me.ButtonNeurokairoLeatherworkingPlus.Name = "ButtonNeurokairoLeatherworkingPlus"
+        Me.ButtonNeurokairoLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoLeatherworkingPlus.TabIndex = 4
+        Me.ButtonNeurokairoLeatherworkingPlus.Text = "+"
+        Me.ButtonNeurokairoLeatherworkingPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoWeapondexterityPlus
+        '
+        Me.ButtonNeurokairoWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
+        Me.ButtonNeurokairoWeapondexterityPlus.Name = "ButtonNeurokairoWeapondexterityPlus"
+        Me.ButtonNeurokairoWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoWeapondexterityPlus.TabIndex = 4
+        Me.ButtonNeurokairoWeapondexterityPlus.Text = "+"
+        Me.ButtonNeurokairoWeapondexterityPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoForestryPlus
+        '
+        Me.ButtonNeurokairoForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoForestryPlus.Location = New System.Drawing.Point(161, 87)
+        Me.ButtonNeurokairoForestryPlus.Name = "ButtonNeurokairoForestryPlus"
+        Me.ButtonNeurokairoForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoForestryPlus.TabIndex = 4
+        Me.ButtonNeurokairoForestryPlus.Text = "+"
+        Me.ButtonNeurokairoForestryPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoLightningboltPlus
+        '
+        Me.ButtonNeurokairoLightningboltPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoLightningboltPlus.Location = New System.Drawing.Point(32, 178)
+        Me.ButtonNeurokairoLightningboltPlus.Name = "ButtonNeurokairoLightningboltPlus"
+        Me.ButtonNeurokairoLightningboltPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoLightningboltPlus.TabIndex = 4
+        Me.ButtonNeurokairoLightningboltPlus.Text = "+"
+        Me.ButtonNeurokairoLightningboltPlus.UseVisualStyleBackColor = True
+        '
+        'ButtonNeurokairoMigrainePlus
+        '
+        Me.ButtonNeurokairoMigrainePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurokairoMigrainePlus.Location = New System.Drawing.Point(32, 140)
+        Me.ButtonNeurokairoMigrainePlus.Name = "ButtonNeurokairoMigrainePlus"
+        Me.ButtonNeurokairoMigrainePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoMigrainePlus.TabIndex = 4
+        Me.ButtonNeurokairoMigrainePlus.Text = "+"
+        Me.ButtonNeurokairoMigrainePlus.UseVisualStyleBackColor = True
+        '
+        'LabeNeurokairoChosen
+        '
+        Me.LabeNeurokairoChosen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.LabeNeurokairoChosen.Location = New System.Drawing.Point(469, 105)
+        Me.LabeNeurokairoChosen.Name = "LabeNeurokairoChosen"
+        Me.LabeNeurokairoChosen.Size = New System.Drawing.Size(131, 127)
+        Me.LabeNeurokairoChosen.TabIndex = 3
+        Me.LabeNeurokairoChosen.Text = "Already Chosen:"
+        '
+        'LabelNeurokairoEnchanting
+        '
+        Me.LabelNeurokairoEnchanting.AutoSize = True
+        Me.LabelNeurokairoEnchanting.Location = New System.Drawing.Point(373, 241)
+        Me.LabelNeurokairoEnchanting.Name = "LabelNeurokairoEnchanting"
+        Me.LabelNeurokairoEnchanting.Size = New System.Drawing.Size(61, 13)
+        Me.LabelNeurokairoEnchanting.TabIndex = 2
+        Me.LabelNeurokairoEnchanting.Text = "Enchanting"
+        '
+        'LabelNeurokairoHealth
+        '
+        Me.LabelNeurokairoHealth.AutoSize = True
+        Me.LabelNeurokairoHealth.Location = New System.Drawing.Point(373, 165)
+        Me.LabelNeurokairoHealth.Name = "LabelNeurokairoHealth"
+        Me.LabelNeurokairoHealth.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeurokairoHealth.TabIndex = 2
+        Me.LabelNeurokairoHealth.Text = "1 Health"
+        '
+        'LabelNeurokairoScrollwriting
+        '
+        Me.LabelNeurokairoScrollwriting.AutoSize = True
+        Me.LabelNeurokairoScrollwriting.Location = New System.Drawing.Point(372, 202)
+        Me.LabelNeurokairoScrollwriting.Name = "LabelNeurokairoScrollwriting"
+        Me.LabelNeurokairoScrollwriting.Size = New System.Drawing.Size(69, 13)
+        Me.LabelNeurokairoScrollwriting.TabIndex = 2
+        Me.LabelNeurokairoScrollwriting.Text = "Scroll Writing"
+        '
+        'LabelNeurokairoDetection
+        '
+        Me.LabelNeurokairoDetection.AutoSize = True
+        Me.LabelNeurokairoDetection.Location = New System.Drawing.Point(372, 130)
+        Me.LabelNeurokairoDetection.Name = "LabelNeurokairoDetection"
+        Me.LabelNeurokairoDetection.Size = New System.Drawing.Size(53, 13)
+        Me.LabelNeurokairoDetection.TabIndex = 2
+        Me.LabelNeurokairoDetection.Text = "Detection"
+        '
+        'LabelNeurokairoSmithing
+        '
+        Me.LabelNeurokairoSmithing.AutoSize = True
+        Me.LabelNeurokairoSmithing.Location = New System.Drawing.Point(206, 205)
+        Me.LabelNeurokairoSmithing.Name = "LabelNeurokairoSmithing"
+        Me.LabelNeurokairoSmithing.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeurokairoSmithing.TabIndex = 2
+        Me.LabelNeurokairoSmithing.Text = "Smithing"
+        '
+        'LabelNeurokairoSense
+        '
+        Me.LabelNeurokairoSense.AutoSize = True
+        Me.LabelNeurokairoSense.Location = New System.Drawing.Point(374, 90)
+        Me.LabelNeurokairoSense.Name = "LabelNeurokairoSense"
+        Me.LabelNeurokairoSense.Size = New System.Drawing.Size(37, 13)
+        Me.LabelNeurokairoSense.TabIndex = 2
+        Me.LabelNeurokairoSense.Text = "Sense"
+        '
+        'LabelNeurokairoProwess
+        '
+        Me.LabelNeurokairoProwess.AutoSize = True
+        Me.LabelNeurokairoProwess.Location = New System.Drawing.Point(205, 166)
+        Me.LabelNeurokairoProwess.Name = "LabelNeurokairoProwess"
+        Me.LabelNeurokairoProwess.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeurokairoProwess.TabIndex = 2
+        Me.LabelNeurokairoProwess.Text = "Prowess"
+        '
+        'LabelNeurokairoLeatherworking
+        '
+        Me.LabelNeurokairoLeatherworking.AutoSize = True
+        Me.LabelNeurokairoLeatherworking.Location = New System.Drawing.Point(206, 128)
+        Me.LabelNeurokairoLeatherworking.Name = "LabelNeurokairoLeatherworking"
+        Me.LabelNeurokairoLeatherworking.Size = New System.Drawing.Size(80, 13)
+        Me.LabelNeurokairoLeatherworking.TabIndex = 2
+        Me.LabelNeurokairoLeatherworking.Text = "Leatherworking"
+        '
+        'LabelNeurokairoLightningbolt
+        '
+        Me.LabelNeurokairoLightningbolt.AutoSize = True
+        Me.LabelNeurokairoLightningbolt.Location = New System.Drawing.Point(81, 182)
+        Me.LabelNeurokairoLightningbolt.Name = "LabelNeurokairoLightningbolt"
+        Me.LabelNeurokairoLightningbolt.Size = New System.Drawing.Size(71, 13)
+        Me.LabelNeurokairoLightningbolt.TabIndex = 2
+        Me.LabelNeurokairoLightningbolt.Text = "Lightning Bolt"
+        '
+        'LabelNeurokairoWeapondexterity
+        '
+        Me.LabelNeurokairoWeapondexterity.AutoSize = True
+        Me.LabelNeurokairoWeapondexterity.Location = New System.Drawing.Point(205, 242)
+        Me.LabelNeurokairoWeapondexterity.Name = "LabelNeurokairoWeapondexterity"
+        Me.LabelNeurokairoWeapondexterity.Size = New System.Drawing.Size(92, 13)
+        Me.LabelNeurokairoWeapondexterity.TabIndex = 2
+        Me.LabelNeurokairoWeapondexterity.Text = "Weapon Dexterity"
+        '
+        'LabelNeurokairoForestry
+        '
+        Me.LabelNeurokairoForestry.AutoSize = True
+        Me.LabelNeurokairoForestry.Location = New System.Drawing.Point(206, 91)
+        Me.LabelNeurokairoForestry.Name = "LabelNeurokairoForestry"
+        Me.LabelNeurokairoForestry.Size = New System.Drawing.Size(44, 13)
+        Me.LabelNeurokairoForestry.TabIndex = 2
+        Me.LabelNeurokairoForestry.Text = "Forestry"
+        '
+        'LabelNeurokairoMigraine
+        '
+        Me.LabelNeurokairoMigraine.AutoSize = True
+        Me.LabelNeurokairoMigraine.Location = New System.Drawing.Point(81, 145)
+        Me.LabelNeurokairoMigraine.Name = "LabelNeurokairoMigraine"
+        Me.LabelNeurokairoMigraine.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeurokairoMigraine.TabIndex = 2
+        Me.LabelNeurokairoMigraine.Text = "Migraine"
+        '
+        'LabelNeurokairoXp
+        '
+        Me.LabelNeurokairoXp.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelNeurokairoXp.Location = New System.Drawing.Point(512, 75)
+        Me.LabelNeurokairoXp.Name = "LabelNeurokairoXp"
+        Me.LabelNeurokairoXp.Size = New System.Drawing.Size(78, 21)
+        Me.LabelNeurokairoXp.TabIndex = 1
+        Me.LabelNeurokairoXp.Text = "XP left:  15"
+        '
+        'LabelNeurokairoIntro
+        '
+        Me.LabelNeurokairoIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelNeurokairoIntro.Location = New System.Drawing.Point(12, 6)
+        Me.LabelNeurokairoIntro.Name = "LabelNeurokairoIntro"
+        Me.LabelNeurokairoIntro.Size = New System.Drawing.Size(594, 70)
+        Me.LabelNeurokairoIntro.TabIndex = 0
+        Me.LabelNeurokairoIntro.Text = resources.GetString("LabelNeurokairoIntro.Text")
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelNeurokairo)
         Me.Controls.Add(Me.PanelNeuropyro)
         Me.Controls.Add(Me.PanelNeuroHydro)
         Me.Controls.Add(Me.PanelVoidknight)
@@ -8622,6 +9155,8 @@ Partial Class Form1
         Me.PanelNeuroHydro.PerformLayout()
         Me.PanelNeuropyro.ResumeLayout(False)
         Me.PanelNeuropyro.PerformLayout()
+        Me.PanelNeurokairo.ResumeLayout(False)
+        Me.PanelNeurokairo.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -9319,4 +9854,47 @@ Partial Class Form1
     Friend WithEvents LabelNeuropyroMigraine As Label
     Friend WithEvents LabelNeuropyroXp As Label
     Friend WithEvents LabelNeuropyroIntro As Label
+    Friend WithEvents PanelNeurokairo As Panel
+    Friend WithEvents ButtonNeurokairoInfo As Button
+    Friend WithEvents ButtonNeurokairoModifier As Button
+    Friend WithEvents ButtonNeurokairoWizard As Button
+    Friend WithEvents ButtonNeurokairoSmithingMinus As Button
+    Friend WithEvents ButtonNeurokairoProwessMinus As Button
+    Friend WithEvents ButtonNeurokairoSenseMinus As Button
+    Friend WithEvents ButtonNeurokairoLeatherworkingMinus As Button
+    Friend WithEvents ButtonNeurokairoLightningboldMinus As Button
+    Friend WithEvents ButtonNeurokairoEnchantingMinus As Button
+    Friend WithEvents ButtonNeurokairoHealthMinus As Button
+    Friend WithEvents ButtonNeurokairoScrollwritingMinus As Button
+    Friend WithEvents ButtonNeurokairoDetectionMinus As Button
+    Friend WithEvents ButtonNeurokairoSmithingPlus As Button
+    Friend WithEvents ButtonNeurokairoWeapondexterityMinus As Button
+    Friend WithEvents ButtonNeurokairoForestryMinus As Button
+    Friend WithEvents ButtonNeurokairoProwessPlus As Button
+    Friend WithEvents ButtonNeurokairoEnchantingPlus As Button
+    Friend WithEvents ButtonNeurokairoHealthPlus As Button
+    Friend WithEvents ButtonNeurokairoScrollwritingPlus As Button
+    Friend WithEvents ButtonNeurokairoDetectionPlus As Button
+    Friend WithEvents ButtonNeurokairoMigraineMinus As Button
+    Friend WithEvents ButtonNeurokairoSensePlus As Button
+    Friend WithEvents ButtonNeurokairoLeatherworkingPlus As Button
+    Friend WithEvents ButtonNeurokairoWeapondexterityPlus As Button
+    Friend WithEvents ButtonNeurokairoForestryPlus As Button
+    Friend WithEvents ButtonNeurokairoLightningboltPlus As Button
+    Friend WithEvents ButtonNeurokairoMigrainePlus As Button
+    Friend WithEvents LabeNeurokairoChosen As Label
+    Friend WithEvents LabelNeurokairoEnchanting As Label
+    Friend WithEvents LabelNeurokairoHealth As Label
+    Friend WithEvents LabelNeurokairoScrollwriting As Label
+    Friend WithEvents LabelNeurokairoDetection As Label
+    Friend WithEvents LabelNeurokairoSmithing As Label
+    Friend WithEvents LabelNeurokairoSense As Label
+    Friend WithEvents LabelNeurokairoProwess As Label
+    Friend WithEvents LabelNeurokairoLeatherworking As Label
+    Friend WithEvents LabelNeurokairoLightningbolt As Label
+    Friend WithEvents LabelNeurokairoWeapondexterity As Label
+    Friend WithEvents LabelNeurokairoForestry As Label
+    Friend WithEvents LabelNeurokairoMigraine As Label
+    Friend WithEvents LabelNeurokairoXp As Label
+    Friend WithEvents LabelNeurokairoIntro As Label
 End Class
