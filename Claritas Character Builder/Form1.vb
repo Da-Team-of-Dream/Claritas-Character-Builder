@@ -469,4 +469,20 @@
     Private Sub PanelWarrior_Paint(sender As Object, e As PaintEventArgs) Handles PanelWarrior.Paint
 
     End Sub
+
+    Private Sub ButtonDrakohnonInfo_Click(sender As Object, e As EventArgs) Handles ButtonDrakohnonInfo.Click
+        ConstructInfoForm("AttributeDrakonnon")
+    End Sub
+
+    Private Sub ButtonDrakohnonBackground_Click(sender As Object, e As EventArgs) Handles ButtonDrakohnonBackground.Click
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelDrakohnon.Enabled = False
+    End Sub
+
+    Private Sub ButtonDrakohnonKin_Click(sender As Object, e As EventArgs) Handles ButtonDrakohnonKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelDrakohnon.Enabled = False
+    End Sub
 End Class

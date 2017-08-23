@@ -190,15 +190,54 @@
     <value>You chose to be a Wizard! Wizards work a little differently than the other classes. Instead of having two factions they can choose between wizard's have 6 total factions. They are split up into two categories of three, elemental magic and manifold magic. Pick one from each category. Click for info.</value>
   </data>
   <data name="LabelWarriorIntro.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one. You can buy up to level 2 fom the classless talent list. You do not have to use all of your experience right now.</value>
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
   <data name="LabelRangerIntro.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one. You can buy up to level 2 fom the classless talent list. You do not have to use all of your experience right now.</value>
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
   <data name="LabelRogueintro.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one. You can buy up to level 2 fom the classless talent list. You do not have to use all of your experience right now.</value>
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
   <data name="LabelNobleIntro.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one. You can buy up to level 2 fom the classless talent list. You do not have to use all of your experience right now.</value>
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelClericIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelVoidknightIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelNeuroHydroIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelNeuropyroIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelNeurokairoIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelNecrohydroIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelNecropyroIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelNecrokairoIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelKinesiopyroIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelKinesiokairoIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  </data>
+  <data name="LabelDrakohnonIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelFairyIntro.Text" xml:space="preserve">
+    <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
   </data>
 </root>
