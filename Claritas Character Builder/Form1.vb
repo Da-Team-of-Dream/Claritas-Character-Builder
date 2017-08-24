@@ -1,13 +1,110 @@
 ﻿Public Class Form1
+
+    Dim BackgroundBox(23) As Boolean
+    Dim OldBackgroundBox As Integer = 0
+    Dim NewBackgroundBox As Integer = 0
+
+    Function BackgroundCount() As Boolean
+        Dim n As Integer = 0
+        For x = 0 To 22
+            If BackgroundBox(x) Then
+                n = n + 1
+            End If
+        Next
+        If n >= 2 Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
+
+    Sub BackgroundCheckboxControl(N As Integer)
+        If BackgroundBox(N) = False Then
+            If BackgroundCount() Then
+                If OldBackgroundBox = 1 Then
+                    Me.CheckBoxBackgroundsSeaworthy.Checked = False
+                ElseIf OldBackgroundBox = 2 Then
+                    Me.CheckBoxBackgroundsBlacksmith.Checked = False
+                ElseIf OldBackgroundBox = 3 Then
+                    Me.CheckBoxBackgroundsTailor.Checked = False
+                ElseIf OldBackgroundBox = 4 Then
+                    Me.CheckBoxBackgroundsScholar.Checked = False
+                ElseIf OldBackgroundBox = 5 Then
+                    Me.CheckBoxBackgroundsArcanescholar.Checked = False
+                ElseIf OldBackgroundBox = 6 Then
+                    Me.CheckBoxBackgroundsRepairman.Checked = False
+                ElseIf OldBackgroundBox = 7 Then
+                    Me.CheckBoxBackgroundsFisherman.Checked = False
+                ElseIf OldBackgroundBox = 8 Then
+                    Me.CheckBoxBackgroundsArchitect.Checked = False
+                ElseIf OldBackgroundBox = 9 Then
+                    Me.CheckBoxBackgroundsWoodsman.Checked = False
+                ElseIf OldBackgroundBox = 10 Then
+                    Me.CheckBoxBackgroundsCartographer.Checked = False
+                ElseIf OldBackgroundBox = 11 Then
+                    Me.CheckBoxBackgroundsSmuggler.Checked = False
+                ElseIf OldBackgroundBox = 12 Then
+                    Me.CheckBoxBackgroundsHistorian.Checked = False
+                ElseIf OldBackgroundBox = 13 Then
+                    Me.CheckBoxBackgroundsBotanist.Checked = False
+                ElseIf OldBackgroundBox = 14 Then
+                    Me.CheckBoxBackgroundsMiddleman.Checked = False
+                ElseIf OldBackgroundBox = 15 Then
+                    Me.CheckBoxBackgroundsGuard.Checked = False
+                ElseIf OldBackgroundBox = 16 Then
+                    Me.CheckBoxBackgroundsEnchantmentspecialist.Checked = False
+                ElseIf OldBackgroundBox = 17 Then
+                    Me.CheckBoxBackgroundsCleanser.Checked = False
+                ElseIf OldBackgroundBox = 18 Then
+                    Me.CheckBoxBackgroundsTradesman.Checked = False
+                ElseIf OldBackgroundBox = 19 Then
+                    Me.CheckBoxBackgroundsWanderer.Checked = False
+                ElseIf OldBackgroundBox = 20 Then
+                    Me.CheckBoxBackgroundsUrchin.Checked = False
+                ElseIf OldBackgroundBox = 21 Then
+                    Me.CheckBoxBackgroundsWeaponsarmorknowledge.Checked = False
+                ElseIf OldBackgroundBox = 22 Then
+                    Me.CheckBoxBackgroundsCourier.Checked = False
+                End If
+            End If
+            OldBackgroundBox = NewBackgroundBox
+            NewBackgroundBox = N
+        End If
+        BackgroundBox(1) = Me.CheckBoxBackgroundsSeaworthy.Checked
+        BackgroundBox(2) = Me.CheckBoxBackgroundsBlacksmith.Checked
+        BackgroundBox(3) = Me.CheckBoxBackgroundsTailor.Checked
+        BackgroundBox(4) = Me.CheckBoxBackgroundsScholar.Checked
+        BackgroundBox(5) = Me.CheckBoxBackgroundsArcanescholar.Checked
+        BackgroundBox(6) = Me.CheckBoxBackgroundsRepairman.Checked
+        BackgroundBox(7) = Me.CheckBoxBackgroundsFisherman.Checked
+        BackgroundBox(8) = Me.CheckBoxBackgroundsArchitect.Checked
+        BackgroundBox(9) = Me.CheckBoxBackgroundsWoodsman.Checked
+        BackgroundBox(10) = Me.CheckBoxBackgroundsCartographer.Checked
+        BackgroundBox(11) = Me.CheckBoxBackgroundsSmuggler.Checked
+        BackgroundBox(12) = Me.CheckBoxBackgroundsHistorian.Checked
+        BackgroundBox(13) = Me.CheckBoxBackgroundsBotanist.Checked
+        BackgroundBox(14) = Me.CheckBoxBackgroundsMiddleman.Checked
+        BackgroundBox(15) = Me.CheckBoxBackgroundsGuard.Checked
+        BackgroundBox(16) = Me.CheckBoxBackgroundsEnchantmentspecialist.Checked
+        BackgroundBox(17) = Me.CheckBoxBackgroundsCleanser.Checked
+        BackgroundBox(18) = Me.CheckBoxBackgroundsTradesman.Checked
+        BackgroundBox(19) = Me.CheckBoxBackgroundsWanderer.Checked
+        BackgroundBox(20) = Me.CheckBoxBackgroundsUrchin.Checked
+        BackgroundBox(21) = Me.CheckBoxBackgroundsWeaponsarmorknowledge.Checked
+        BackgroundBox(22) = Me.CheckBoxBackgroundsCourier.Checked
+
+    End Sub
+
+
+
+
+
     Private Sub ButtonWelcomeKin_Click(sender As Object, e As EventArgs) Handles ButtonWelcomeKin.Click
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelWelcome.Enabled = False
     End Sub
 
-    Private Sub RadioButton3_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonKinWolfsbein.CheckedChanged, RadioButtonKinWastelander.CheckedChanged, RadioButtonKinAngalucian.CheckedChanged, RadioButtonKinWoodElf.CheckedChanged
-
-    End Sub
 
     Private Sub ButtonKinWelcome_Click(sender As Object, e As EventArgs) Handles ButtonKinWelcome.Click
         Me.PanelWelcome.Enabled = True
@@ -17,8 +114,7 @@
     End Sub
 
     Private Sub LabelKinAngalucian_Click(sender As Object, e As EventArgs) Handles LabelKinAngalucian.Click
-        MsgBox("it worked!!")
-        'ConstructInfoForm("KinAngalucian")
+        ConstructInfoForm("KinAngalucian")
     End Sub
 
     Private Sub LabelKinCatdrah_Click(sender As Object, e As EventArgs) Handles LabelKinCatdrah.Click
@@ -65,8 +161,8 @@
         ConstructInfoForm("KinHighElf")
     End Sub
 
-    Private Sub LabelKinHobbit_Click(sender As Object, e As EventArgs) Handles LabelKinHobbit.Click
-        ConstructInfoForm("KinHobbit")
+    Private Sub LabelKinFaerleth_Click(sender As Object, e As EventArgs) Handles LabelKinFaerleth.Click
+        ConstructInfoForm("KinFaerleth")
     End Sub
 
     Private Sub LabelKinJadeImperial_Click(sender As Object, e As EventArgs) Handles LabelKinJadeImperial.Click
@@ -117,6 +213,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelNyad.Enabled = False
+        'resets
+        Me.RadioButtonNyadTaint.Checked = False
+        Me.RadioButtonNyadWateraffinity.Checked = False
+        Me.RadioButtonNyadSqueeze.Checked = False
     End Sub
 
     Private Sub ButtonNyadBackground_Click(sender As Object, e As EventArgs) Handles ButtonNyadBackground.Click
@@ -134,6 +234,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelDryad.Enabled = False
+        'resets
+        Me.RadioButtonDryadBarkSkin.Checked = False
+        Me.RadioButtonDryadNutrients.Checked = False
+        Me.RadioButtonDryadRooted.Checked = False
     End Sub
 
     Private Sub ButtonDryadBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonDryadBackgrounds.Click
@@ -154,6 +258,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelGoblin.Enabled = False
+        'resets
+        Me.RadioButtonGoblinEntertaining.Checked = False
+        Me.RadioButtonGoblinLightFrame.Checked = False
+        Me.RadioButtonGoblinRollAway.Checked = False
     End Sub
 
     Private Sub ButtonGoblinBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonGoblinBackgrounds.Click
@@ -166,6 +274,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelGnome.Enabled = False
+        'resets
+        Me.RadioButtonGnomeEfficientArmor.Checked = False
+        Me.RadioButtonGnomeSmallSize.Checked = False
+        Me.RadioButtonGnomeTrinkets.Checked = False
     End Sub
 
     Private Sub ButtonGnomeBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonGnomeBackgrounds.Click
@@ -186,6 +298,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelDwarf.Enabled = False
+        'resets
+        Me.RadioButtonDwarfDwarfIt.Checked = False
+        Me.RadioButtonDwarfExamination.Checked = False
+        Me.RadioButtonDwarfLowLightVision.Checked = False
     End Sub
 
     Private Sub ButtonDwarfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonDwarfBackgrounds.Click
@@ -202,6 +318,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelJadeImperial.Enabled = False
+        'resets
+        Me.RadioButtonJadeImperailSanctioned.Checked = False
+        Me.RadioButtonJadeImperialAncestry.Checked = False
+        Me.RadioButtonJadeImperialTeamPlayer.Checked = False
     End Sub
 
     Private Sub ButtonJadeImperialBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonJadeImperialBackgrounds.Click
@@ -218,6 +338,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelSquirrel.Enabled = False
+        'resets
+        Me.RadioButtonSquirrelForage.Checked = False
+        Me.RadioButtonSquirrelHonorDuel.Checked = False
+        Me.RadioButtonSquirrelTacticalWithdrawl.Checked = False
     End Sub
 
     Private Sub ButtonSquirrelBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonSquirrelBackgrounds.Click
@@ -234,6 +358,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelTroll.Enabled = False
+        'resets
+        Me.RadioButtonTrollLug.Checked = False
+        Me.RadioButtonTrollStoneDigestion.Checked = False
+        Me.RadioButtonTrollStout.Checked = False
     End Sub
 
     Private Sub ButtonTrollBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonTrollBackgrounds.Click
@@ -250,6 +378,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelCatdrah.Enabled = False
+        'resets
+        Me.RadioButtonCatdrahClimbTree.Checked = False
+        Me.RadioButtonCatdrahCuteness.Checked = False
+        Me.RadioButtonCatdrahSafeLanding.Checked = False
     End Sub
 
     Private Sub ButtonCatdrahBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonCatdrahBackgrounds.Click
@@ -266,6 +398,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelKinsman.Enabled = False
+        'resets
+        Me.RadioButtonKinsmanMilitia.Checked = False
+        Me.RadioButtonKinsmanNeutrality.Checked = False
+        Me.RadioButtonKinsmanTrustMe.Checked = False
     End Sub
 
     Private Sub ButtonKinsmanBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonKinsmanBackgrounds.Click
@@ -282,6 +418,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelMinotaur.Enabled = False
+        'resets
+        Me.RadioButtonMinotaurCharge.Checked = False
+        Me.RadioButtonMinotaurDaunting.Checked = False
+        Me.RadioButtonMinotaurRam.Checked = False
     End Sub
 
     Private Sub ButtonMinotaurBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonMinotaurBackgrounds.Click
@@ -298,6 +438,13 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelAngalucian.Enabled = False
+        'resets
+        Me.RadioButtonAngalucianAmaze.Checked = False
+        Me.RadioButtonAngalucianBeaconoflight.Checked = False
+        Me.RadioButtonAngalucianBlessedweapon.Checked = False
+        Me.RadioButtonAngalucianFlight.Checked = False
+        Me.RadioButtonAngalucianTakeheed.Checked = False
+
     End Sub
 
     Private Sub ButtonAngalucianBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonAngalucianBackgrounds.Click
@@ -306,10 +453,14 @@
         Me.PanelAngalucian.Enabled = False
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles ButtonDarkelfKin.Click
+    Private Sub ButtonDarkelfKin_Click(sender As Object, e As EventArgs) Handles ButtonDarkelfKin.Click
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelDarkelf.Enabled = False
+        'resets
+        Me.RadioButtonDarkelfAlignment.Checked = False
+        Me.RadioButtonDarkelfLightsleeper.Checked = False
+        Me.RadioButtonDarkelfNightvision.Checked = False
     End Sub
 
     Private Sub ButtonDarkelfInfo_Click(sender As Object, e As EventArgs) Handles ButtonDarkelfInfo.Click
@@ -330,6 +481,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelFelucian.Enabled = False
+        'resets
+        Me.RadioButtonFelucianDarkness.Checked = False
+        Me.RadioButtonFelucianHangingaround.Checked = False
+        Me.RadioButtonFelucianWingburst.Checked = False
     End Sub
 
     Private Sub ButtonFelucianBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonFelucianBackgrounds.Click
@@ -346,6 +501,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelGigayona.Enabled = False
+        'resets
+        Me.RadioButtonGigayonaBellysmash.Checked = False
+        Me.RadioButtonGigayonaFoodsfood.Checked = False
+        Me.RadioButtonGigayonaThickcoat.Checked = False
     End Sub
 
     Private Sub ButtonGigayonaBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonGigayonaBackgrounds.Click
@@ -362,6 +521,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelHighelf.Enabled = False
+        'resets
+        Me.RadioButtonHighelfBedazzle.Checked = False
+        Me.RadioButtonHighelfColorsofthewind.Checked = False
+        Me.RadioButtonHighelfLightfoot.Checked = False
     End Sub
 
     Private Sub ButtonHighelfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonHighelfBackgrounds.Click
@@ -378,6 +541,11 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelFaerleth.Enabled = False
+        'resets
+        Me.RadioButtonFaerlethHideyhole.Checked = False
+        Me.RadioButtonFaerlethMastermunchyologist.Checked = False
+        Me.RadioButtonFaerlethRiddle.Checked = False
+        Me.RadioButtonFaerlethToughfeet.Checked = False
     End Sub
 
     Private Sub ButtonFaerlethBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonFaerlethBackgrounds.Click
@@ -394,6 +562,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelOrc.Enabled = False
+        'resets
+        Me.RadioButtonOrcBloodpool.Checked = False
+        Me.RadioButtonOrcFeelnopain.Checked = False
+        Me.RadioButtonOrcGruff.Checked = False
     End Sub
 
     Private Sub ButtonOrcBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonOrcBackgrounds.Click
@@ -410,6 +582,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelSanjoran.Enabled = False
+        'resets
+        Me.RadioButtonSanjoranNip.Checked = False
+        Me.RadioButtonSanjoranRegrowth.Checked = False
+        Me.RadioButtonSanjoranResistance.Checked = False
     End Sub
 
     Private Sub ButtonSanjoranBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonSanjoranBackgrounds.Click
@@ -426,6 +602,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelWastelander.Enabled = False
+        'resets
+        Me.RadioButtonWastelanderBlendin.Checked = False
+        Me.RadioButtonWastelanderStreetsmart.Checked = False
+        Me.RadioButtonWastelanderThuroughsearch.Checked = False
     End Sub
 
     Private Sub ButtonWastelanderBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonWastelanderBackgrounds.Click
@@ -442,6 +622,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelWolfsbein.Enabled = False
+        'resets
+        Me.RadioButtonWolfsbeinPowerthrough.Checked = False
+        Me.RadioButtonWolfsbeinRedolent.Checked = False
+        Me.RadioButtonWolfsbeinTrustworthy.Checked = False
     End Sub
 
     Private Sub ButtonWolfsbeinBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonWolfsbeinBackgrounds.Click
@@ -458,6 +642,10 @@
         Me.PanelKin.Enabled = True
         Me.PanelKin.BringToFront()
         Me.PanelWoodelf.Enabled = False
+        'resets
+        Me.RadioButtonWoodelfElementaryinvocation.Checked = False
+        Me.RadioButtonWoodelfForestflight.Checked = False
+        Me.RadioButtonWoodelfLifeattunement.Checked = False
     End Sub
 
     Private Sub ButtonWoodelfBackgrounds_Click(sender As Object, e As EventArgs) Handles ButtonWoodelfBackgrounds.Click
@@ -466,9 +654,7 @@
         Me.PanelWoodelf.Enabled = False
     End Sub
 
-    Private Sub PanelWarrior_Paint(sender As Object, e As PaintEventArgs) Handles PanelWarrior.Paint
 
-    End Sub
 
     Private Sub ButtonDrakohnonInfo_Click(sender As Object, e As EventArgs) Handles ButtonDrakohnonInfo.Click
         ConstructInfoForm("AttributeDrakonnon")
