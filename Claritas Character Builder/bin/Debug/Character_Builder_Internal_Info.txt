@@ -16,7 +16,8 @@ Null
 KinC----------
 ------------------
 KinDarkElf
-Dark elves mostly reside on an island to the east of Wilshire, ruled by a Monarchical government that is at the center of dark elf life. Dark elves all have a strong sense of civic duty, and those who strike out for their own purposes away from their island are uncommon, with those who actively oppose their government being exceedingly rare. Physically, dark elves resemble other elves only superficially; being of a similar average height and a proportionally slim build. Other than bone structure, dark elves are quite different from the typical high elves and wood elves. Most noticeably, their skin is a slightly pale and bluish with veins more noticeable than in other humanoid kin; appearing like a human whom is short of breath, or choking. Their eyes are invariably a dark ruddy brown, appearing black from a distance, with the only exceptions being seen in aged individuals (whom are few and far between) whose typical dark red-brown irises have begun to change to one of any normal human eye color. Their voices are naturally gravely, although this is somewhat less apparent in dark elves who do not hail from their traditional island nation, as the Wilshire continental accent helps it sound to more normative to non-elven ears.
+Dark Elf - Prowess M, Average Height 6‚Äô6‚Äô‚Äô
+	Description: Dark elves mostly reside on an island to the east of Wilshire, ruled by a Monarchical government that is at the center of dark elf life. Dark elves all have a strong sense of civic duty, and those who strike out for their own purposes away from their island are uncommon, with those who actively oppose their government being exceedingly rare. Physically, dark elves resemble other elves only superficially; being of a similar average height and a proportionally slim build. Other than bone structure, dark elves are quite different from the typical high elves and wood elves. Most noticeably, their skin is a slightly pale and bluish with veins more noticeable than in other humanoid kin; appearing like a human whom is short of breath, or hypothermic. Their eyes are invariably a dark ruddy brown, appearing black from a distance. The only exceptions are seen in aged individuals (whom are very rare) whose typical dark red-brown irises have begun to change to one of any normal human eye color. Their voices are naturally gravely, although this is somewhat less apparent in dark elves who do not hail from their traditional island nation, as the Wilshire continental accent helps it sound to more normative to non-elven ears.
 KinDarkElf
 ------------------
 KinDrakhonon
@@ -24,7 +25,8 @@ Null
 KinDrakhonon
 ------------------
 KinDryad
-Dryads are slightly larger than most humans. They have dark to light brown skin and bark covering them. The amount of bark on individuals vary. Their hair is made up of leaves such as long thin leaves, locust leaves, or pine needles depending on what climate theyíre from. Their eyes are deep green and almond shaped and their faces are slightly flatter than normal. Dryads are a kind and calm people, but they never let their decisions be made for them. If anyone or anything tries to make them move or change their mind the Dryads will not budge. Even in the wake of war Dryads would rather fortify their city and hold than move.
+Dryad - Prowess L, Average Height ‚Äì 6‚Äô
+        	Description: Dryads are slightly larger than most humans. They have dark to light brown skin and bark covering them. The amount of bark on individuals vary. Their hair is made up of leaves such as long thin leaves, locust leaves, or pine needles depending on what climate they‚Äôre from. Their eyes are deep green and almond shaped and their faces are slightly flatter than normal. Dryads are a kind and calm people, but they never let their decisions be made for them. If anyone or anything tries to make them move or change their mind the Dryads will not budge. Even in the wake of war Dryads would rather fortify their city and hold than move.
 KinDryad
 ------------------
 KinDwarf
@@ -36,7 +38,13 @@ Null
 KinE----------
 ------------------
 KinFairy
- There are four major kinds of fairies; the Shaoothuto, the Szhoom, the Ahlookaro, and the Ecall. The Shaoothuto are the most common type of fairy standing between 1í and 2í with an average weight of about 22 lb. Their skin colors vary between varieties of green, blue, purple, yellow, or red
+Fairy - Prowess S, Average Height ‚Äì 1‚Äô6‚Äô‚Äô
+        	Description: There are four major kinds of fairies; the Shaoothuto, the Ahlookaro, the Szhoom, and the Ecall. The Shaoothuto are the most common type of fairy standing between 1‚Äô and 2‚Äô with an average weight of about 22 lb. Their skin colors vary between varieties of green, blue, purple, yellow, or red. Shaoothuto skin is covered in spots a slightly darker hue than their skin in a variety of patterns. Their hair is usually some shade of their skin color. Ecall, the rarest variety of fairy, are shaped like a Shaoothuto but have human coloring. Ahlookaro is a term used to describe a fairy with some animal feature ie. a cat tail, bird wings instead of fairy wings, etc. Finally Szhoom is a term used to describe a large fairy. Szhoom usually stand between 2‚Äô and 3‚Äô tall and generally have a larger frame than other fairies. Despite their bigger size, their wings remain about the size of most fairies causing them to appear awkwardly small. All of these kinds of fairy are not exclusive and can be mixed ie. a fairy can be both a Szhoom and an Ahlookaro.
+	The Fairy kingdom is split into four nations: Earth, Water, Wind, and Fire. all of the nations work together to try to improve the fairy kingdom as a whole. Each nation holds its own temperament.
+Earth - Generally, Fairies from the earth nation express themselves through their craft. They take whatever job is required of them and make it their own. They are usually agreeable people; however, it is hard to change an earth fairy‚Äôs mind.
+Water - Generally, Fairies from the water nation are observers and learners. They enjoy the freedom to observe the world around them.
+Wind - Generally, Fairies from the wind nation are fleety and free. They tend to act on their instinct rather than logic. 
+Fire - Generally, Fairies from the fire nation express themselves through controlled passion. They best understand cause and effect.
 KinFairy
 ------------------
 KinFelucian
@@ -48,23 +56,29 @@ Null
 KinGi-GaYo-Na
 ------------------
 KinGnome
-Gnomes are short and stout, and their head come to a gentle point. They are highly-intelligent and creative beings who tend to be quite unpleasant to other intelligent races. Gnomes are often extremely prejudiced against non-gnomes and tend to be short tempered as well. Not all gnomes feel like this however, and their incredible aptitude for inventing and tinkering with small, intricately crafted items makes them highly appreciated in diverse societies. In fact, the incredibly fine craftsmanship of their little inventions surpasses even dwarven technology, in many ways. 
+Gnome - Prowess S, Average Height ‚Äì 1‚Äô
+        	Description:
+Gnomes are short and stout, and their head come to a gentle point. They are highly-intelligent and creative beings who tend to be quite unpleasant to other intelligent races. Gnomes are often extremely prejudiced against non-gnomes and tend to be short tempered as well. Not all gnomes feel like this however, and their incredible aptitude for inventing and tinkering with small, intricately crafted items makes them highly appreciated in diverse societies. In fact, the incredibly fine craftsmanship of their little inventions surpasses even dwarven technology, in many ways.  
 KinGnome
 ------------------
 KinGoblin
-Goblins average around 4 to 5 feet tall. They are thin with smooth green to brown skin. They have slightly pointed ears, long arms, shorter legs, thin black hair and large eyes. Goblins are light on their feet and nimble and are quick to catch onto things and learn.
+Goblin - Prowess S Average Height ‚Äì 4‚Äô
+        	Description: Goblins average around 4 to 5 feet tall. They are thin with smooth green to brown skin. They have slightly pointed ears, long arms, shorter legs, thin black hair and large eyes. Goblins are light on their feet and nimble and are quick to catch onto things and learn.
 KinGoblin
 ------------------
 KinHighElf
-High elves are relatively uncommon outside their homeland in the Golden Dove kingdom. They are often very proud of their heritage, and most of them hundreds, if not thousands, of years old. Not naturally inclined to put themselves at risk, they often prefer archery to keep danger at a distance. However, this isn't usually necessary, as they are the most magic-affine kin among those commonly found around Wilshire, with a large percentage of their population  being able to use magic. For this reason, as well as their ever-graceful appearances and suitably haughty demeanor, they are often seen as prim cowards.
+High Elf - Prowess M Average Height 6‚Äô6‚Äù
+	Description: High elves are relatively uncommon outside their homeland in the Golden Dove kingdom. They are usually very proud of their heritage, and most of them hundreds, if not thousands, of years old. Not naturally inclined to put themselves at risk, they often prefer archery to keep danger at a distance. However, this isn't usually necessary, as they are the most magic-affine kin among those commonly found around Wilshire, with a large majority of their kin being able to use magic. For this reason, as well as their ever-graceful appearances and suitably haughty demeanor, they are often seen as prim cowards.
 KinHighElf
 ------------------
-KinHobbit
+KinFaerleth
 null
-KinHobbit
+KinFaerleth
 ------------------
 KinJadeImperial
-The Jade Imperials stand between 5í5íí and 5í10íí. They have an average weight of 160 lb. Their hair is primarily brown and black. Their skin ranges between tan and pale and appears slightly translucent similar to the quality of jade. When a Jade Imperial dies their body is converted into a variety jade depending on their life style. Most of the infrastructure of jade imperial cities is made from jade. Jade imperials are known for their ambition, this shows through in the strength of their central government, strong military, progressive society, and shrewd business dealing.
+Jade Imperial  - Prowess M, Average Height ‚Äì 5‚Äô6‚Äô‚Äô
+        	Description:The Jade Imperials stand between 5‚Äô3‚Äô‚Äô and 5‚Äô9‚Äô‚Äô. They have an average weight of 140 lb. Their hair is primarily brown and black. Their skin ranges between tan and pale and appears slightly translucent similar to the quality of jade. When a Jade Imperial dies, their body is converted into a variety jade depending on their lifestyle. Using magic this jade is crafted into weapons, armor, jewelry, etc. Most of the infrastructure of jade imperial cities is made from jade. Jade imperials are known for their ambition, which shows through in the strength of their central government, strong military, progressive society, and shrewd business dealing. Most Jade Imperials come a small capital island that is the largest in a chain of islands known as the Jade isles. The Capital island is a densely populated city made almost entirely of jade. Although most Jades come from the Jade isles, many small Jade Imperial towns can be found along coastlines of various different nations.
+	Jade Imperials are cohesive in groups. They value ambition, responsibility, and family. They are strengthened by the knowledge that they are a piece of a greater puzzle. 
 KinJadeImperial
 ------------------
 KinKinsmen
@@ -80,7 +94,9 @@ Null
 KinMinotaur
 ------------------
 KinNyad
-Nyads human like in shape with blue to green skin, light lined patterns on their skin down the middle of their bodies and limbs and splotches of scales. Their skin is halfway between human and fish skin. Their feet are webbed and their hands are webbed halfway up the fingers. Their ears have fins/webbing coming off of them resembling the shape of elf ears. Their teeth come to a point, they have slitted eyes and gills under their ears. Different Nyads can potentially have different colored accents on their webbing or patterns. You can tell geographically where a nyad is from by its skin tone. Darker colors are from deeper ocean or ocean shelfs, lighter colors are from the shallows, brighter colors are from reefs, and there are a very small number of river nyads that tend to be a more brown color. River nyads also have a more streamlined body and features. They are easy going, follow rules that are in place well, and are very conscious about keeping things clean and tidy
+Nyad - Prowess M Average Height 5‚Äô
+        	Description:
+Nyads human like in shape with blue to green skin, light lined patterns on their skin down the middle of their bodies and limbs and splotches of scales. Their skin is halfway between human and fish skin. Their feet are webbed and their hands are webbed halfway up the fingers. Their ears have fins/webbing coming off of them resembling the shape of elf ears. Their teeth come to a point, they have slitted eyes and gills under their ears. Different Nyads can potentially have different colored accents on their webbing or patterns. You can tell geographically where a nyad is from by its skin tone. Darker colors are from deeper ocean or ocean shelfs, lighter colors are from the shallows, brighter colors are from reefs, and there are a very small number of river nyads that tend to be a more brown color. River nyads also have a more streamlined body and features. They are easy going, follow rules that are in place well, and are very conscious about keeping things clean and tidy.
 KinNyad
 ------------------
 KinOrc
@@ -120,7 +136,19 @@ Null
 KinWoodElf
 -----------------------Attributes-------------------------
 AttributeAngalucian
-null
+
+Angalucian - Weight Capacity 80
+
+Flight - The player can take off into the air and fly for 5 minutes, can not attack or be attacked except by other airborne targets or artillery weapons. (OPQ)
+
+Amaze - The player opens their wings, and stuns enemies, or friends for 5 Seconds, but if someone attacks the stun is broken. (OPQ)
+
+Take heed - Allows the player to pick up a friend of any size, and fly them back to the Hero‚Äôs Encampment. (OPIGD)
+
+Beacon of Light - (OPQ) May summon a light source that glows a 20x20 around (your wings are the cause). It may also be used when dead to illuminate one self (It is magic - Your wings begin to glow)
+
+Blessed weapon - (OPE) Player may activate their blessed weapon (Non-voidable) which can no break, nor be disarmed. The weapon becomes divined and may do double damage against non-holy enemies. ‚ÄúYour weapons bursts into a bright glow of blue‚Äù. Only lasts for an encounter. 
+
 AttributeAngalucian
 ------------------
 AttributeB-----------
@@ -128,7 +156,13 @@ null
 AttributeB-----------
 ------------------
 AttributeCatdrah
-null
+
+Climb Tree - Allows the player to instantly climb a tree.
+
+Safe Landing - Can fall any distance onto regular terrain and take no damage.
+
+Cuteness - Allows player to ease any anger directed at them. (OPQ)
+
 AttributeCatdrah
 ------------------
 AttributeC-----------
@@ -136,19 +170,47 @@ Null
 AttributeC-----------
 ------------------
 AttributeDarkElf
-null
+
+Night Vision - Allows the player to see up to 100 feet in the dark. 
+
+Alignment - Allows The player to join hostile dark elves or make a hostile dark elf fight for them. (OPQ)
+
+Light Sleeper - Will always wake up if approached while asleep.
+
+*Dark Blood* - Player may sacrifice 3 HP to use their blood as a R3 disease, either on the next hit with the weapon they drew their blood with, or in a liquid/food (Contamination will be obvious in most substances. It‚Äôs blood.).
+
 AttributeDarkElf
 ------------------
 AttributeDrakhonon
-Null
+
+Fire is Energy - Allows the player to absorb man made fires, or natural fires into their abilities. Small fires gain 1 ability, medium fire gains 2 abilities, and large fires gains 4 abilities back. Can be used as many times as there is natural fire, or man made fires around. 
+
+Heat Vision - Allows the player to see heat signatures, or lower ranking abilities such as HIDE, or INVISIBILITY. The player has to call out the attribute and activate the skill, and can not move from their location. (The drakohnon‚Äôs eyes begin to glow and allows them to see thermal signatures of those near them.) Player also needs to deactivate this skill for normal daily actions. (OPQ)
+
+Piercing Gaze - Player can ask a target who has just spoken, whether or not the given statement is true. (OPQ)
+
+Dragon Skin - Allows the player to ignore full of fire damage taken. (OPIGD)
+
 AttributeDrakhonon
 ------------------
 AttributeDryad
-null
+
+Rooted- Allows a player to hold their ground. The player can‚Äôt move, can‚Äôt be moved, and can‚Äôt be knocked down. If the player moves this is broked. (OPQ)
+
+Nutrients- After 5 seconds of kneeling a player can refresh one use of a level 1 ability. (OPQ)
+
+Barkskin- Player gets 2 extra Hp points on top of their health that refreshes after every encounter.
+
 AttributeDryad
 ------------------
 AttributeDwarf
-null
+
+Low Light Vision - Allows the player to see in enclosed spaces.
+
+Dwarf it - allows the player to toss another character 20‚Äô. (OPQ)
+
+Examination - Allows the player to tell whether something is real or not.
+
 AttributeDwarf
 ------------------
 AttributeE--------
@@ -156,39 +218,93 @@ Null
 AttributeE--------
 ------------------
 AttributeFairy
-null
+
+Flutter - Allows the player to fly a short distance. Could be used to escape in open areas, or access high places, etc. (OPQ)
+
+Illumination - Allows the player to light up a 10‚Äô radius around them in a dark area.
+
+Plant Telepathy - Allows the player to talk to plants, or leave messages with them.
+
 AttributeFairy
 ------------------
 AttributeFelucian
-Null
+
+Darkness - Allows the player to hide in shadows and not be seen for 5 seconds, but if they leave the darkness or attack the effect is broken. (OPQ)
+
+Hanging around - Allows the player to hang upside down while sleeping, or hiding in a tree. (OPQ)
+
+Wing burst - Allows the player to take flight into the air with a burst of wind, pushing them upwards and knocking nearby targets over, they have 5 seconds to relocate before landing. (OPQ)
+
 AttributeFelucian
 ------------------
 AttributeGi-GaYo-Na
-Null
+
+Belly Smash - The player (Has to be facing a target) can either strike an enemy and call belly smash to push them back 5 feet, or belly smash the ground and cause enemies and friends to fall down. (OPQ)
+
+Food‚Äôs Food - The player can eat a dead enemy, or dead animal for a meal (OPQ).
+
+Thick Coat - Player can negate any attack, poison, curse, or magic (OPQ)  
+
 AttributeGi-GaYo-Na
 ------------------
 AttributeGnome
-null
+
+Trinkets - Allows a player to fix small things.
+
+Efficient Armor - Armor is 75% purchase and 1 less Weight. Cannot be less than 0.
+
+Small Size - Allows the player to go through tight spots head first. Cannot get stuck in a small space.
+
 AttributeGnome
 ------------------
 AttributeGoblin
-null
+
+Light Frame - player has only partially significant weight.
+
+Entertaining - Gives the player a chance to distract, or entertain/earn money. Forcing people to watch the Act, or listen to the joke. (OPQ)
+
+Roll Away - The player must roll and it allows them to void any regular attack or conflicts. (OPQ)
+
 AttributeGoblin
 ------------------
 AttributeHighElf
-null
+
+Bedazzle - Means the player is overwhelmingly attractive, and makes the listeners more receptive. (OPQ)
+
+Arcane Attunement - Allows the player to sense when magic has been used recently in the immediate area, and with enough time, what type of magic it was. (Passive)
+
 AttributeHighElf
 ------------------
-AttributeHobbit
-null
-AttributeHobbit
+AttributeFaerleth
+
+Hidey Hole - Player can dig a rudimentary dwelling into suitable earth, allowing for much safer rest.
+
+Tough Feet - Walking across harsh surfaces, with no shoes on, does not affect the player.
+
+Riddle - The player can ask the enemy a riddle, forcing non combative enemies to answer it. (OPQ)
+
+Master Munchyologist - Player can scrounge hodgepodge rations for their party from the recesses of their pack. (OPQ)
+
+AttributeFaerleth
 ------------------
 AttributeJadeImperial
-null
+
+Sanctioned - Allows the player to place the responsibility of a non lethal action onto a group they are a part of. (OPQ)
+
+Ancestry - Jade equipment weighs half as much.
+
+Team Player - Allows the player to use the R1 of a non-combat skill a member of their party just used. (OPIGD)
+
 AttributeJadeImperial
 ------------------
 AttributeKinsmen
-null
+
+Neutrality- Allows the player to claim neutrality if anyone is trying to start up a conflict, unless they‚Äôre the target of the conflict.
+
+Trust Me - Allows player to earn trust, and possibly skip some low-level trust-earning tasks based on their honor alone. Must never betray trust given from this attribute.
+
+Militia- Allows player to improvise replacement weaponry from common tools and similar objects. Resulting weapon has stats of bronze for which ever weapon type it is replacing.
+
 AttributeKinsmen
 ------------------
 AttributeK--------
@@ -196,15 +312,33 @@ null
 AttributeK--------
 ------------------
 AttributeMinotaur
-null
+
+Ram - Allows the player to ram down a normal threshold. (OPQ)
+
+Daunting - Allows the player to scare a "low level" NPC. 
+
+Charge - Allows to player to travel more quickly / run into a battle (battle proceeds when player arrives). (OPQ)
+
 AttributeMinotaur
 ------------------
 AttributeNyad
-null
+
+Water Affinity - Allows the player breath and move freely underwater.
+
+Squeeze - Allows the player to turn themselves into the form of a puddle in order to fit into small spaces and move through cracks. (OPQ)
+
+Taint - Allows the player to tell what is in water, mainly if its been poisoned, or otherwise tainted and how.
+
 AttributeNyad
 ------------------
 AttributeOrc
-null
+
+Feel No Pain - Allows the player to feel no pain.
+
+Blood Pool - Player has an infinite blood supply.
+
+Gruff - Allows the player to negate a physical effect related to cold. (OPQ)
+
 AttributeOrc
 ------------------
 AttributeP-----------
@@ -212,7 +346,13 @@ null
 AttributeP-----------
 ------------------
 AttributeSanjoran
-Null
+
+Resistance - Allows the player to negate an animal‚Äôs venomous effect. (OPQ)
+
+Regrowth - Allows the player regrow a limb after 1 watch of rest.
+
+Nip - Player can use their tongue to grab small objects 3 weight and less.
+
 AttributeSanjoran
 ------------------
 AttributeS----------
@@ -220,26 +360,61 @@ Null
 AttributeS----------
 ------------------
 AttributeSquirrels
-Null
+
+Tactical Withdrawal - Allows player to exit a fight if in a wooded area. (OPQ)
+
+Honor Duel - Allows a player to call an honor duel and force a 1 on 1 fight with a combative opponent. (OPQ)
+
+Forage - The player does not need food if in a wooded area.
+
 AttributeSquirrels
 ------------------
 AttributeTroll
-Null
+
+Stout - Allows the player to carry an additional 2 weight.
+
+Stone Digestion - Allows the player to eat stone.
+
+Lug - Allows the player to carry up to 4 other players of any Kin in one hand.
+
 AttributeTroll
 ------------------
 AttributeWastelander
-Null
+
+Thorough Search - Improved looting, i.e. can find hidden items on a dead NPC. (OPIGD) 
+
+Street Smart - Player may ask target(s) if they are planning/considering using any negative rank I non-attack abilities on the player or their party.
+
+Blend in - Allows the player to disappear from sight if in a large crowd (5 or more people). (OPQ)
+
 AttributeWastelander
 ------------------
 AttributeWolfsbein
-Null
+
+Trustworthy - Allows the player to force PC‚Äôs to trust them. (OPQ)
+
+Power Through - The Player can move a heavy object out of their path, or if a heavy object falls on them, they can push it off. (OPQ)
+
+Redolent - Allows the player to recognize things/people by scent.
+
 AttributeWolfsbein
 ------------------
 AttributeWoodElf
-Null
+
+Life Attunement - Player may meditate for 1 or 3 watches. The IGD after meditating, if the player drops to 0 HP, they will be KO‚Äôd as normal, but will regain consciousness after the encounter ends. If they meditated for 1 watch, they can travel, but not fight. If they meditated for 3 watches, they will regains consciousness with 1 HP, and be able to fight.
+
+Forest Flight - Allows the player to escape if in a wooded area. (OPQ)
+
+Elemental Invocation - If in need of Fire, Water, or a small amount of naturally-occurring material (i.e. stone, metal ore, etc.) all you need to do is dance for 15 sec. (OPQ)
+
+Connected - Allows the player to see the next encounter by using his connection to nature. (OPQ)
+
+Light-Foot - Allows the player to negate the activation of pressurized traps.
+
 AttributeWoodElf
 -----------------------Backgrounds-----------------------
 Backgrounds
+
 Seaworthy - Can captain a ship.
 
 Blacksmith - Has a good understanding and crafting ability with basic metals. (Does not include weapons and armor)
@@ -254,11 +429,11 @@ Repairman - Can make repairs to basic objects and make structural repairs.
 
 Fisherman - Can fish. May also have special knowledge of the sea/bodies of water, water creatures, and fishing equipment.
 
-Architect - Can understand essential mechanical theorems. An architect can even perceive a structureís strengths and weaknesses by looking at it closely.
+Architect - Can understand essential mechanical theorems. An architect can even perceive a structure‚Äôs strengths and weaknesses by looking at it closely.
 
 Woodsman - Is knowledgeable about all living creatures and knows a little about mythical creatures.
 
-Cartographer - At the cost of a nightís rest the player can draw a map of the general location.
+Cartographer - At the cost of a night‚Äôs rest the player can draw a map of the general location.
 
 Weapon/Armor knowledge - Can recognize basic armors and weapons by look and weight.
 
@@ -283,6 +458,7 @@ Urchin -  Accustomed to dealing with a rough crowd. Can seek out and fit in at t
 Smuggler - Has learned how to avoid unwanted attention from nosy individuals. OPIGD Can hide up to 5 weight of non-weapon items so that this portion of their inventory cannot be stolen from or found if searched for. The hidden items revert to their normal visible status if you attack or are attacked in close combat. May also be able to hide larger objects, given a barrel, or a cart.
 
 Courier- Can escape danger by moving efficiently and inconspicuously through the cracks and crannies of a city. Able to withdraw from combat safely OPIGD if in a city or large town, and/or move quickly and undetectably to anywhere else in a city or large town.
+
 Backgrounds
 -----------------------Class-----------------------
 ClassCleric
@@ -323,7 +499,7 @@ Revive a knocked out target.
 (Rank III) Brings back anything to 3 HP.
 
 Convert 
-Convert is a full body shield, which takes a total damage. Not regional damage. Doesnít negate damage.
+Convert is a full body shield, which takes a total damage. Not regional damage. Doesn't negate damage.
 (Rank I) Converts half of any talent damage done to the player into a shield over armor, to be used on themselves or anyone in their reach.
 (Rank II) Converts any talent damage done to the player into a shield over armor, to be used on themselves or anyone in their reach.
 (Rank III) Converts twice any talent damage done to the player into shield over armor to be used on themselves or anyone in their reach.
@@ -373,8 +549,8 @@ Languages
 (Rank III) Allows the player to speak in any language and read and write in any developed language.
 
 Leadership
-(Rank I) Allows the players to see the first encounter before it begins. Allows the playerís party to go 4 encounters without resting. 
-(Rank II) Allows the players to see the first encounter before it begins and know the encounter type. Allows the playerís party to go 5 encounters without resting. Players can sleep one watch fewer.
+(Rank I) Allows the players to see the first encounter before it begins. Allows the player's party to go 4 encounters without resting. 
+(Rank II) Allows the players to see the first encounter before it begins and know the encounter type. Allows the player's party to go 5 encounters without resting. Players can sleep one watch fewer.
 (Rank III) Allows the players to see the first encounter before it begins and know the encounter type and rank. Allows the players party to go 6 encounters without resting. Players can sleep one watch fewer. Player may choose to have an additional party member.
 TalentsNoble
 ------------------
@@ -431,12 +607,12 @@ Disguise
 Expose
 (Rank I) Allows the player to negate a target's DR for 5 seconds.
 (Rank II) Allows the player to negate a target's DR, DC and any active positive stat alterations for 5 seconds.
-(Rank III) Allows the player to negate a targetís DR, DC and cancel all active positive stat alterations and silence them for the next 15 seconds.
+(Rank III) Allows the player to negate a target's DR, DC and cancel all active positive stat alterations and silence them for the next 15 seconds.
 
 Vanish
-(Rank I) Allows player to sprint incredibly quick in a straight line ìinstantaneouslyî in in-game time. (Not through people or objects) The player has 5 seconds of real time.
-(Rank II) Allows player to sprint ìinstantaneouslyî and make a 90 degree turn (Not through people or objects). Has 10 seconds.
-(Rank III) Allows player to sprint ìinstantaneouslyî with a full rang of motion (Not through people or objects). Has 15 seconds and can take another player.
+(Rank I) Allows player to sprint incredibly quick in a straight line "instantaneously" in in-game time. (Not through people or objects) The player has 5 seconds of real time.
+(Rank II) Allows player to sprint "instantaneously" and make a 90 degree turn (Not through people or objects). Has 10 seconds.
+(Rank III) Allows player to sprint "instantaneously" with a full rang of motion (Not through people or objects). Has 15 seconds and can take another player.
 
 Skills
 
@@ -454,7 +630,7 @@ Abilities
 Jump
 (Rank I) If affected by magic a player can instantly close 2/3rds of the gap between them and the target.
 (Rank II) If affected by magic a player can instantly teleport to anywhere between them and the target.
-(Rank III) If affected by magic the player can move anywhere within 10í of the target.
+(Rank III) If affected by magic the player can move anywhere within 10' of the target.
 
 Life-link
 (Rank I) A player can pick a target hit by a damaging spell and half the damage taken by the target but the player takes the full damage of the spell.
@@ -491,11 +667,11 @@ Must hit weapon.
 (Rankless) Allows the player to force their opponent to throw their weapon in the direction they swung. 
 
 Gimp
-Must hit a targetís leg.
+Must hit a target's leg.
 (Rankless) Causes the target to drag the leg that was hit throughout the encounter or until healed.
 
 Knock Down
-Must hit targetís leg.
+Must hit target's leg.
 (Rankless) Forces target to fall down. (target must have both hands and knees, back, or bum on the ground to work).
  
 Like A Rock
@@ -508,7 +684,7 @@ Hydromancy
 Tier I
 Snowball
 (Rank I) 0 damage 2 castings. Slows target for 5 seconds.
-(Rank II) 1 damage 2 castings. Numbs area hit for 5 seconds. (If it hits a limb, limb canít move.)
+(Rank II) 1 damage 2 castings. Numbs area hit for 5 seconds. (If it hits a limb, limb can't move.)
 (Rank III) 2 damage 2 castings. Kneel for 5 seconds.
  
 Tier II
@@ -526,8 +702,8 @@ Frostbite
 Black Ice
 (Cast with magic sphere) Creates a patch of circular black ice, and causes all in radius to fall.
 (Rank I) Forces target hit to fall.
-(Rank II) Patch is 5í diameter.
-(Rank III) Patch is 5í diameter and those affected must stay down for 5 seconds.
+(Rank II) Patch is 5' diameter.
+(Rank III) Patch is 5' diameter and those affected must stay down for 5 seconds.
 
 Tier III
 Stay Frosty
@@ -542,7 +718,7 @@ Liquid Mantle
 (Rank III) Allows the player to deliver a shield that protects against the next 2 abilities used against the target.
 
 Ice Spear
-(Caster throws magic that in air appears to change into a flying lance, and sticks the target(s) to the nearest obstruction or ground within 5í In the direction cast, rooting them in place.)
+(Caster throws magic that in air appears to change into a flying lance, and sticks the target(s) to the nearest obstruction or ground within 5' In the direction cast, rooting them in place.)
 (Rank I) Delivers 4 damage and takes 10 uninterrupted seconds to remove the root.
 (Rank II) Delivers 5 damage and takes 10 uninterrupted seconds to remove the root. (Can impale 2 people)
 (Rank III) 10 damage and takes 10 uninterrupted seconds to remove the root. (Can impale infinite people)
@@ -569,15 +745,15 @@ Lighting Shield
 (Rank III) Player can summon a lightning shield. The shield can take 4 hits, regardless of strength. If the shield is hit, the attacker takes 2 damage to limb HP.
 
 Magnet 
-Canít be used if target doesnít have metal.
+Can't be used if target doesn't have metal.
 (Rank I) Causes weapons the size of a dagger or a short to be disarmed.
 (Rank II) Causes any weapon to be disarmed.
 (Rank III) Causes Target to be thrown in the direction of the caster.
 
 Tier III
 Recharge
-(Rank I) Caster meditates for 10 seconds gathering electricity making the casters next single target spell have a 3 second stun as well as itís regular effect. 
-(Rank II) Caster meditates for 10 seconds gathering electricity making the casters next AoE target spell have a 3 second stun as well as itís regular effect. 
+(Rank I) Caster meditates for 10 seconds gathering electricity making the casters next single target spell have a 3 second stun as well as it's regular effect. 
+(Rank II) Caster meditates for 10 seconds gathering electricity making the casters next AoE target spell have a 3 second stun as well as it's regular effect. 
 (Rank III) Makes charge time from previous ranks 5 seconds. It also allows the player to consume all of either their rank 1s or rank 2s into a single cast with all the charge times and stuns combined.
 
 Lighting Storm
@@ -586,9 +762,9 @@ Lighting Storm
 (Rank III) A great cloud appears and strikes the earth and does 4 damage to HP to anyone in a diameter of 5 ft around where the ball was thrown.
 
 Static Charge
-(Rank I) Allows the player to ìmarkî a target with a spell, that doubles the next Lightning Boltís damage done to that target.
-(Rank II) Allows the player to ìmarkî a target with a spell, that triples the next Lightning Boltís damage done to that target.
-(Rank III) Allows the player to ìmarkî a target with a spell, increases all Lightning Bolt damage done to that target by 1.
+(Rank I) Allows the player to "mark" a target with a spell, that doubles the next Lightning Bolt's damage done to that target.
+(Rank II) Allows the player to "mark" a target with a spell, that triples the next Lightning Bolt's damage done to that target.
+(Rank III) Allows the player to "mark" a target with a spell, increases all Lightning Bolt damage done to that target by 1.
 
 Kairomancy
 ------------------
@@ -602,25 +778,25 @@ Fireball
 
 Tier II
 Ember
-(Rank I) Encases the casterís weapon in flames adding 1 damage to the next swing.
-(Rank II) Encases the casterís weapon in flames adding 3 damage to the next swing.
-(Rank III) Encases the casterís weapon in flames adding 5 damage to the next 2 swings.
+(Rank I) Encases the caster's weapon in flames adding 1 damage to the next swing.
+(Rank II) Encases the caster's weapon in flames adding 3 damage to the next swing.
+(Rank III) Encases the caster's weapon in flames adding 5 damage to the next 2 swings.
 
 Enraged
 Player may use this ability upon receiving damage or a status effect from an enemy, or upon an ally dropping to 0 HP
-(Rank I) Increases casterís next single target fire spell damage by 1
-(Rank II) Increases casterís next single target fire spell damage by 3
-(Rank III) Increases casterís next single target fire spell damage by 5
+(Rank I) Increases caster's next single target fire spell damage by 1
+(Rank II) Increases caster's next single target fire spell damage by 3
+(Rank III) Increases caster's next single target fire spell damage by 5
 
 Fire Breath
-(Rank I) Player can shoot a 5í long conical flame in front of player for 3 points of damage.
-(Rank II) Player can shoot a 5í long conical flame in front of player for 5 points of damage.
-(Rank III) Player can shoot a 5í long conical flame in front of player for 10 points of damage.
+(Rank I) Player can shoot a 5' long conical flame in front of player for 3 points of damage.
+(Rank II) Player can shoot a 5' long conical flame in front of player for 5 points of damage.
+(Rank III) Player can shoot a 5' long conical flame in front of player for 10 points of damage.
 
 Tier III
 Building Flame
 The caster must hit any rank Fireball to use this ability. This ability can stack.
-(Rank I) Adds 1 damage to the casterís next  Fireball.
+(Rank I) Adds 1 damage to the caster's next  Fireball.
 (Rank II) Adds 1 damage to all Fireballs for that encounter.
 (Rank III) Adds 2 damage to all Fireballs for that encounter.
 
@@ -662,7 +838,7 @@ Creates a pulse of energy from the caster that pushes players back.
 (Rank III) Pushes all targets in directed location 20 feet away and knocks them down.
 
 Telekinesis
-Allows player to moves any inanimate object. Canít cause damage.
+Allows player to moves any inanimate object. Can't cause damage.
 (Rank I) Player can move objects that weigh 25 units within 10 feet.
 (Rank II) Player can move objects that weigh 75 units within 20 feet.
 (Rank III) Player can move any object within reason and sight.
@@ -671,7 +847,7 @@ Tier III
 All spells in this tier are purchased as skills and have 2 casts
 
 Ethereal
-Puts the caster into an ìetherealî state.
+Puts the caster into an "ethereal" state.
 (Rank I) No damage or effects can be done to or by the caster for 15 seconds.
 (Rank II) No damage or effects can be done to or by the caster for 1 minute.
 (Rank III) No damage or effects can be done to or by the caster until the end of the encounter. Additionally allows the player to move through objects.
@@ -710,7 +886,7 @@ Raises a newly killed being to aid the caster. Can only have one active at a tim
 
 Syphoning Strike
 Only affects base swing damage. This HP is non-replenishable. This spell is self stackable. This effect goes to a character.
-(Rank I) The targetís next attack heals them for the amount of damage dealt by their next successful attack.
+(Rank I) The target's next attack heals them for the amount of damage dealt by their next successful attack.
 (Rank II) The target's next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
 (Rank III) The target's next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
 
@@ -731,12 +907,12 @@ Raises a newly killed being to aid the caster with all of their equipment includ
 
 Dormancy 
 Both uses of this spell must be landed on the same target in order to take effect. If body is struck by Syphoning Strike the target is Reincarnated and frenzied, attacking the closest target at all times. Sets stats to 20/20 and original swing. If the target kills anything the effect is reversed.
-(Rank I) Causes target to fall unconscious for 10 seconds. Target canít be damaged or affected.
-(Rank II) Causes target to fall unconscious for 20 seconds. Target canít be damaged or affected. 
-(Rank III) Causes target to fall unconscious for 20 seconds. Target canít be damaged or affected. Target hit by at least 1 cast of Dormancy restores an additional HP with Life Syphon to caster for the encounter this.
+(Rank I) Causes target to fall unconscious for 10 seconds. Target can't be damaged or affected.
+(Rank II) Causes target to fall unconscious for 20 seconds. Target can't be damaged or affected. 
+(Rank III) Causes target to fall unconscious for 20 seconds. Target can't be damaged or affected. Target hit by at least 1 cast of Dormancy restores an additional HP with Life Syphon to caster for the encounter this.
 
 Death Walk
-Necromancer must hit a dead body with a spell ball causing the body to explode dealing physical damage in a radius of 5ë.
+Necromancer must hit a dead body with a spell ball causing the body to explode dealing physical damage in a radius of 5'.
 (Rank I) The explosion does 10 physical damage
 (Rank II) The explosion does 15 physical damage
 (Rank III) The explosion does 25 physical damage
@@ -746,19 +922,19 @@ Necromancy
 Neuromancy
 
 Mental Fortitude
-Every time a Neuromancy spell is purchased it increases the Wizardís fortitude by 1. Mental fortitude is required to use all tier 2 and 3 neuromantic spells and is refreshed every encounter.
+Every time a Neuromancy spell is purchased it increases the Wizard's fortitude by 1. Mental fortitude is required to use all tier 2 and 3 neuromantic spells and is refreshed every encounter.
 Abilities in tier 2 and 3: The player may choose to purchase 1 of 2 abilities in a set as a Rank 1, when you purchase the Rank 2 of a set you may choose to either Rank up whichever ability you have already purchased the Rank 1 of to a Rank 2 or get the other optionís Rank 1, when you purchase the rank 3 of a set you may upgrade both abilities to Rank 2, or upgrade 1 Rank 1 ability to Rank 3 and leave the other at Rank 1 or upgrade 1 ability to Rank 3 and purchase the other in the setís Rank 1.
 
 Tier I
 Migraine
-(Rank I) Target canít run for 5 seconds and 2 casts. 
-(Rank II) Target canít deal damage for 5 seconds 2 casts. 
-(Rank III) Target is blinded and canít deal damage for 5 seconds 2 casts. 
+(Rank I) Target can't run for 5 seconds and 2 casts. 
+(Rank II) Target can't deal damage for 5 seconds 2 casts. 
+(Rank III) Target is blinded and can't deal damage for 5 seconds 2 casts. 
 
 Tier II
 All spells in this tier cost Fortitude to use
 Mind Read
-(Rank I) (1) Allows the caster to read a targetís intentions.
+(Rank I) (1) Allows the caster to read a target's intentions.
 (Rank II) (2) Allows caster to read a target's current thoughts.
 (Rank III) (3) Allows caster to read a target's recent memory and current thoughts.
 OR
@@ -783,9 +959,9 @@ Sleep
 (Rank III) (3) Causes a calm target to sleep instantly, They can only be woken by receiving damage of 5 or more.
 OR
 Nightmere
-(Rank I) (1) Allows the player to place an image or occurrence into a targetís dream.
-(Rank II) (2) Allows the player to fully manipulate a targetís dream.
-(Rank III) (4) Allows the player to fully manipulate a targetís dream and takes all effects in real life that take place in the dream.
+(Rank I) (1) Allows the player to place an image or occurrence into a target's dream.
+(Rank II) (2) Allows the player to fully manipulate a target's dream.
+(Rank III) (4) Allows the player to fully manipulate a target's dream and takes all effects in real life that take place in the dream.
 
 Tier III
 All spells in this tier cost Fortitude to use
@@ -808,7 +984,7 @@ OR
 Gathering Pain
 (Rank I) (2) Allows the player to cause an immense amount of pain.
 (Rank II) (4) Allows the player to cause a target to frenzy, attacking the closest thing at all times for 15 seconds.
-(Rank III) (6) Allows the player to cause a target to frenzy, adding 1 to the targetís base swing and attacking the closest thing at all times for 30 seconds.
+(Rank III) (6) Allows the player to cause a target to frenzy, adding 1 to the target's base swing and attacking the closest thing at all times for 30 seconds.
 
 Aphasia
 Lasts until the end of the encounter or till the wizard dispels the effect.
@@ -889,25 +1065,25 @@ Common - Adds no additional effect or modification to player.
 
 Half-breed - Has to be half human and half another playable kinl. Starts with one attribute and has the potential to have one attribute from each race but can't obtain a third. Weight capacity is the average of the two races selected.
 
-Soul-splitter - The character has a medium sized crustacean permanently attached to the back of their neck that they share thoughts with. The playerís kin attributes are significantly stronger. The playerís back cannot be covered by armor.
+Soul-splitter - The character has a medium sized crustacean permanently attached to the back of their neck that they share thoughts with. The player's kin attributes are significantly stronger. The playerís back cannot be covered by armor.
 
 Spark of insanity - Can speak with their conscience and ask one question OPIGD, but are seen as insane. 
 
 Undead - Bound to a specific personal beacon. They will always revive for free to wherever the beacon is placed, but if they want to stay they must use an XP to remain with their current party. If the player is transported back they will leave everything on them at the place of their death. If the player dies in range of their beacon they can only XP out or make a deal with death. Can never be revived by/through miracles. The playerís beacon can be moved as long as a GM is aware and present. 20 seconds uninterrupted to place your beacon.
 
-Vampiric - Must drink humanoid blood instead of resting. Canít be turned and canít turn others. Canít be cured.
+Vampiric - Must drink humanoid blood instead of resting. Can't be turned and can't turn others. Can't be cured.
 
-Werewolf - Allows the player to invoke werewolf form; multiplying the playerís health by three, giving them a damage reduction of 1, and automatically removing their armor. Player always has a weakness to silver and canít rest after invocation until the player has fed. The invocation only lasts as long as a single encounter. Canít be cured. (OPQ)
+Werewolf - Allows the player to invoke werewolf form; multiplying the player's health by three, giving them a damage reduction of 1, and automatically removing their armor. Player always has a weakness to silver and canít rest after invocation until the player has fed. The invocation only lasts as long as a single encounter. Canít be cured. (OPQ)
 
 Bound weapon  - The player cannot be disarmed if they are only in possession of only one weapon but must always be in contact with at least one weapon. The only way they can not be in contact with a weapon is if they die and the weapon is taken from them. The next weapon they come into contact with restarts the effect.
 
-Naturalist - Canít use or eat anything animal. Animals will not attack them unless provoked.
+Naturalist - Can't use or eat anything animal. Animals will not attack them unless provoked.
 
 Gaunt - Has -5 starting weight capacity but only has to eat once an event.
 
 Fast Metabolism - Eats 2x the food for +20% more weight capacity.
 
-Tough skin - You canít wear armor, but you start with 8 health and health cost never goes above 3.
+Tough skin - You can't wear armor, but you start with 8 health and health cost never goes above 3.
 
 Flashback - Allows the player to perfectly remember a situation/area (can even ask GM for details) but player must sleep all three watches during a night.
 
