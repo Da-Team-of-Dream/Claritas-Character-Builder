@@ -632,48 +632,48 @@ Partial Class Form1
         Me.LabelVoidknightXp = New System.Windows.Forms.Label()
         Me.LabelVoidknightIntro = New System.Windows.Forms.Label()
         Me.PanelNeurohydro = New System.Windows.Forms.Panel()
-        Me.ButtonNeuroHydroInfo = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroModifier = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroWizard = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroSmithingMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroProwessMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroSenseMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroLeatherworkingMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroSnowballMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroEnchantingMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroHealthMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroScrollwritingMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroDetectionMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroSmithingPlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroWeapondexterityMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroForestryMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroProwessPlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroEnchantingPlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroHealthPlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroScrollwritingPlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroDetectionPlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroMigraineMinus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroSensePlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroLeatherworkingPlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroWeapondexterityPlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroForestryPlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroSnowballPlus = New System.Windows.Forms.Button()
-        Me.ButtonNeuroHydroMigrainePlus = New System.Windows.Forms.Button()
-        Me.LabelNeuroHydroChosen = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroEnchanting = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroHealth = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroScrollwriting = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroDetection = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroSmithing = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroSense = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroProwess = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroLeatherworking = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroWeapondexterity = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroForestry = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroMigraine = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroXp = New System.Windows.Forms.Label()
-        Me.LabelNeuroHydroIntro = New System.Windows.Forms.Label()
+        Me.ButtonNeurohydroInfo = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroModifier = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroWizard = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroSmithingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroProwessMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroSenseMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroLeatherworkingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroSnowballMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroEnchantingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroHealthMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroScrollwritingMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroDetectionMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroSmithingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroWeapondexterityMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroForestryMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroProwessPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroEnchantingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroHealthPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroScrollwritingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroDetectionPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroMigraineMinus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroSensePlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroLeatherworkingPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroWeapondexterityPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroForestryPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroSnowballPlus = New System.Windows.Forms.Button()
+        Me.ButtonNeurohydroMigrainePlus = New System.Windows.Forms.Button()
+        Me.LabelNeurohydroChosen = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroEnchanting = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroHealth = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroScrollwriting = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroDetection = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroSmithing = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroSense = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroProwess = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroLeatherworking = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroSnowball = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroWeapondexterity = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroForestry = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroMigraine = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroXp = New System.Windows.Forms.Label()
+        Me.LabelNeurohydroIntro = New System.Windows.Forms.Label()
         Me.PanelNeuropyro = New System.Windows.Forms.Panel()
         Me.ButtonNeuropyroInfo = New System.Windows.Forms.Button()
         Me.ButtonNeuropyroModifier = New System.Windows.Forms.Button()
@@ -1020,15 +1020,16 @@ Partial Class Form1
         Me.LabelKinesiokairoIntro = New System.Windows.Forms.Label()
         Me.PanelDrakohnon = New System.Windows.Forms.Panel()
         Me.ButtonDrakohnonInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonDrakohnonDragonskin = New System.Windows.Forms.RadioButton()
         Me.RadioButtonDrakohnonPiercinggaze = New System.Windows.Forms.RadioButton()
         Me.RadioButtonDrakohnonHeatvision = New System.Windows.Forms.RadioButton()
         Me.RadioButtonDrakohnonFireisenergy = New System.Windows.Forms.RadioButton()
         Me.LabelDrakohnonIntro = New System.Windows.Forms.Label()
         Me.ButtonDrakohnonBackground = New System.Windows.Forms.Button()
         Me.ButtonDrakohnonKin = New System.Windows.Forms.Button()
-        Me.RadioButtonDrakohnonDragonskin = New System.Windows.Forms.RadioButton()
         Me.PanelFairy = New System.Windows.Forms.Panel()
         Me.ButtonFairyInfo = New System.Windows.Forms.Button()
+        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButtonFairyPlanttelepathy = New System.Windows.Forms.RadioButton()
         Me.RadioButtonFairyFlutter = New System.Windows.Forms.RadioButton()
@@ -1036,7 +1037,36 @@ Partial Class Form1
         Me.LabelFairyIntro = New System.Windows.Forms.Label()
         Me.ButtonFairyBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonFairyKin = New System.Windows.Forms.Button()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonNyadFlow = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonNyadThebiggertheyare = New System.Windows.Forms.RadioButton()
+        Me.PanelModifier = New System.Windows.Forms.Panel()
+        Me.ButtonModifierEnd = New System.Windows.Forms.Button()
+        Me.ButtonModifierClasstype = New System.Windows.Forms.Button()
+        Me.LabelModifierIntro = New System.Windows.Forms.Label()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton13 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton14 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton15 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
+        Me.ButtonModifierInfo = New System.Windows.Forms.Button()
+        Me.PanelEnd = New System.Windows.Forms.Panel()
+        Me.ButtonEndCharactersheet = New System.Windows.Forms.Button()
+        Me.ButtonEndModifier = New System.Windows.Forms.Button()
+        Me.LabelEndIntro = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBoxEndBackstory = New System.Windows.Forms.TextBox()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
@@ -1083,6 +1113,8 @@ Partial Class Form1
         Me.PanelKinesiokairo.SuspendLayout()
         Me.PanelDrakohnon.SuspendLayout()
         Me.PanelFairy.SuspendLayout()
+        Me.PanelModifier.SuspendLayout()
+        Me.PanelEnd.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -1867,8 +1899,10 @@ Partial Class Form1
         'PanelNyad
         '
         Me.PanelNyad.Controls.Add(Me.ButtonNyadInfo)
+        Me.PanelNyad.Controls.Add(Me.RadioButtonNyadThebiggertheyare)
         Me.PanelNyad.Controls.Add(Me.RadioButtonNyad)
         Me.PanelNyad.Controls.Add(Me.RadioButtonNyadWateraffinity)
+        Me.PanelNyad.Controls.Add(Me.RadioButtonNyadFlow)
         Me.PanelNyad.Controls.Add(Me.RadioButtonNyadTaint)
         Me.PanelNyad.Controls.Add(Me.LabelNyadIntro)
         Me.PanelNyad.Controls.Add(Me.ButtonNyadBackground)
@@ -1894,7 +1928,7 @@ Partial Class Form1
         '
         Me.RadioButtonNyad.AutoSize = True
         Me.RadioButtonNyad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNyad.Location = New System.Drawing.Point(267, 204)
+        Me.RadioButtonNyad.Location = New System.Drawing.Point(271, 128)
         Me.RadioButtonNyad.Name = "RadioButtonNyad"
         Me.RadioButtonNyad.Size = New System.Drawing.Size(75, 20)
         Me.RadioButtonNyad.TabIndex = 5
@@ -1906,7 +1940,7 @@ Partial Class Form1
         '
         Me.RadioButtonNyadWateraffinity.AutoSize = True
         Me.RadioButtonNyadWateraffinity.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNyadWateraffinity.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonNyadWateraffinity.Location = New System.Drawing.Point(271, 90)
         Me.RadioButtonNyadWateraffinity.Name = "RadioButtonNyadWateraffinity"
         Me.RadioButtonNyadWateraffinity.Size = New System.Drawing.Size(104, 20)
         Me.RadioButtonNyadWateraffinity.TabIndex = 4
@@ -1918,7 +1952,7 @@ Partial Class Form1
         '
         Me.RadioButtonNyadTaint.AutoSize = True
         Me.RadioButtonNyadTaint.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNyadTaint.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonNyadTaint.Location = New System.Drawing.Point(271, 170)
         Me.RadioButtonNyadTaint.Name = "RadioButtonNyadTaint"
         Me.RadioButtonNyadTaint.Size = New System.Drawing.Size(55, 20)
         Me.RadioButtonNyadTaint.TabIndex = 3
@@ -7862,491 +7896,491 @@ Partial Class Form1
         '
         'PanelNeurohydro
         '
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroInfo)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroModifier)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroWizard)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroSmithingMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroProwessMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroSenseMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroLeatherworkingMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroSnowballMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroEnchantingMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroHealthMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroScrollwritingMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroDetectionMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroSmithingPlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroWeapondexterityMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroForestryMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroProwessPlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroEnchantingPlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroHealthPlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroScrollwritingPlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroDetectionPlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroMigraineMinus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroSensePlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroLeatherworkingPlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroWeapondexterityPlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroForestryPlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroSnowballPlus)
-        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeuroHydroMigrainePlus)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroChosen)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroEnchanting)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroHealth)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroScrollwriting)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroDetection)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroSmithing)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroSense)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroProwess)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroLeatherworking)
-        Me.PanelNeurohydro.Controls.Add(Me.Label21)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroWeapondexterity)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroForestry)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroMigraine)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroXp)
-        Me.PanelNeurohydro.Controls.Add(Me.LabelNeuroHydroIntro)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroInfo)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroModifier)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroWizard)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroSmithingMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroProwessMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroSenseMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroLeatherworkingMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroSnowballMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroEnchantingMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroHealthMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroScrollwritingMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroDetectionMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroSmithingPlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroWeapondexterityMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroForestryMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroProwessPlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroEnchantingPlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroHealthPlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroScrollwritingPlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroDetectionPlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroMigraineMinus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroSensePlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroLeatherworkingPlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroWeapondexterityPlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroForestryPlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroSnowballPlus)
+        Me.PanelNeurohydro.Controls.Add(Me.ButtonNeurohydroMigrainePlus)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroChosen)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroEnchanting)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroHealth)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroScrollwriting)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroDetection)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroSmithing)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroSense)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroProwess)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroLeatherworking)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroSnowball)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroWeapondexterity)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroForestry)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroMigraine)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroXp)
+        Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroIntro)
         Me.PanelNeurohydro.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelNeurohydro.Location = New System.Drawing.Point(0, 0)
         Me.PanelNeurohydro.Name = "PanelNeurohydro"
         Me.PanelNeurohydro.Size = New System.Drawing.Size(621, 316)
         Me.PanelNeurohydro.TabIndex = 36
         '
-        'ButtonNeuroHydroInfo
+        'ButtonNeurohydroInfo
         '
-        Me.ButtonNeuroHydroInfo.Location = New System.Drawing.Point(496, 252)
-        Me.ButtonNeuroHydroInfo.Name = "ButtonNeuroHydroInfo"
-        Me.ButtonNeuroHydroInfo.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonNeuroHydroInfo.TabIndex = 8
-        Me.ButtonNeuroHydroInfo.Text = "Info"
-        Me.ButtonNeuroHydroInfo.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroInfo.Location = New System.Drawing.Point(496, 252)
+        Me.ButtonNeurohydroInfo.Name = "ButtonNeurohydroInfo"
+        Me.ButtonNeurohydroInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNeurohydroInfo.TabIndex = 8
+        Me.ButtonNeurohydroInfo.Text = "Info"
+        Me.ButtonNeurohydroInfo.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroModifier
+        'ButtonNeurohydroModifier
         '
-        Me.ButtonNeuroHydroModifier.Location = New System.Drawing.Point(542, 289)
-        Me.ButtonNeuroHydroModifier.Name = "ButtonNeuroHydroModifier"
-        Me.ButtonNeuroHydroModifier.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonNeuroHydroModifier.TabIndex = 7
-        Me.ButtonNeuroHydroModifier.Text = "Next"
-        Me.ButtonNeuroHydroModifier.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroModifier.Location = New System.Drawing.Point(542, 289)
+        Me.ButtonNeurohydroModifier.Name = "ButtonNeurohydroModifier"
+        Me.ButtonNeurohydroModifier.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNeurohydroModifier.TabIndex = 7
+        Me.ButtonNeurohydroModifier.Text = "Next"
+        Me.ButtonNeurohydroModifier.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroWizard
+        'ButtonNeurohydroWizard
         '
-        Me.ButtonNeuroHydroWizard.Location = New System.Drawing.Point(3, 289)
-        Me.ButtonNeuroHydroWizard.Name = "ButtonNeuroHydroWizard"
-        Me.ButtonNeuroHydroWizard.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonNeuroHydroWizard.TabIndex = 6
-        Me.ButtonNeuroHydroWizard.Text = "Previous"
-        Me.ButtonNeuroHydroWizard.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroWizard.Location = New System.Drawing.Point(3, 289)
+        Me.ButtonNeurohydroWizard.Name = "ButtonNeurohydroWizard"
+        Me.ButtonNeurohydroWizard.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonNeurohydroWizard.TabIndex = 6
+        Me.ButtonNeurohydroWizard.Text = "Previous"
+        Me.ButtonNeurohydroWizard.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroSmithingMinus
+        'ButtonNeurohydroSmithingMinus
         '
-        Me.ButtonNeuroHydroSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroSmithingMinus.Location = New System.Drawing.Point(187, 201)
-        Me.ButtonNeuroHydroSmithingMinus.Name = "ButtonNeuroHydroSmithingMinus"
-        Me.ButtonNeuroHydroSmithingMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroSmithingMinus.TabIndex = 5
-        Me.ButtonNeuroHydroSmithingMinus.Text = "-"
-        Me.ButtonNeuroHydroSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroSmithingMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroSmithingMinus.Location = New System.Drawing.Point(187, 201)
+        Me.ButtonNeurohydroSmithingMinus.Name = "ButtonNeurohydroSmithingMinus"
+        Me.ButtonNeurohydroSmithingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroSmithingMinus.TabIndex = 5
+        Me.ButtonNeurohydroSmithingMinus.Text = "-"
+        Me.ButtonNeurohydroSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroSmithingMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroProwessMinus
+        'ButtonNeurohydroProwessMinus
         '
-        Me.ButtonNeuroHydroProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroProwessMinus.Location = New System.Drawing.Point(186, 160)
-        Me.ButtonNeuroHydroProwessMinus.Name = "ButtonNeuroHydroProwessMinus"
-        Me.ButtonNeuroHydroProwessMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroProwessMinus.TabIndex = 5
-        Me.ButtonNeuroHydroProwessMinus.Text = "-"
-        Me.ButtonNeuroHydroProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroProwessMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroProwessMinus.Location = New System.Drawing.Point(186, 160)
+        Me.ButtonNeurohydroProwessMinus.Name = "ButtonNeurohydroProwessMinus"
+        Me.ButtonNeurohydroProwessMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroProwessMinus.TabIndex = 5
+        Me.ButtonNeurohydroProwessMinus.Text = "-"
+        Me.ButtonNeurohydroProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroProwessMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroSenseMinus
+        'ButtonNeurohydroSenseMinus
         '
-        Me.ButtonNeuroHydroSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroSenseMinus.Location = New System.Drawing.Point(353, 85)
-        Me.ButtonNeuroHydroSenseMinus.Name = "ButtonNeuroHydroSenseMinus"
-        Me.ButtonNeuroHydroSenseMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroSenseMinus.TabIndex = 5
-        Me.ButtonNeuroHydroSenseMinus.Text = "-"
-        Me.ButtonNeuroHydroSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroSenseMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroSenseMinus.Location = New System.Drawing.Point(353, 85)
+        Me.ButtonNeurohydroSenseMinus.Name = "ButtonNeurohydroSenseMinus"
+        Me.ButtonNeurohydroSenseMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroSenseMinus.TabIndex = 5
+        Me.ButtonNeurohydroSenseMinus.Text = "-"
+        Me.ButtonNeurohydroSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroSenseMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroLeatherworkingMinus
+        'ButtonNeurohydroLeatherworkingMinus
         '
-        Me.ButtonNeuroHydroLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
-        Me.ButtonNeuroHydroLeatherworkingMinus.Name = "ButtonNeuroHydroLeatherworkingMinus"
-        Me.ButtonNeuroHydroLeatherworkingMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroLeatherworkingMinus.TabIndex = 5
-        Me.ButtonNeuroHydroLeatherworkingMinus.Text = "-"
-        Me.ButtonNeuroHydroLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroLeatherworkingMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
+        Me.ButtonNeurohydroLeatherworkingMinus.Name = "ButtonNeurohydroLeatherworkingMinus"
+        Me.ButtonNeurohydroLeatherworkingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroLeatherworkingMinus.TabIndex = 5
+        Me.ButtonNeurohydroLeatherworkingMinus.Text = "-"
+        Me.ButtonNeurohydroLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroLeatherworkingMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroSnowballMinus
+        'ButtonNeurohydroSnowballMinus
         '
-        Me.ButtonNeuroHydroSnowballMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroSnowballMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroSnowballMinus.Location = New System.Drawing.Point(57, 178)
-        Me.ButtonNeuroHydroSnowballMinus.Name = "ButtonNeuroHydroSnowballMinus"
-        Me.ButtonNeuroHydroSnowballMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroSnowballMinus.TabIndex = 5
-        Me.ButtonNeuroHydroSnowballMinus.Text = "-"
-        Me.ButtonNeuroHydroSnowballMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroSnowballMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroSnowballMinus.Location = New System.Drawing.Point(57, 178)
+        Me.ButtonNeurohydroSnowballMinus.Name = "ButtonNeurohydroSnowballMinus"
+        Me.ButtonNeurohydroSnowballMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroSnowballMinus.TabIndex = 5
+        Me.ButtonNeurohydroSnowballMinus.Text = "-"
+        Me.ButtonNeurohydroSnowballMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroSnowballMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroEnchantingMinus
+        'ButtonNeurohydroEnchantingMinus
         '
-        Me.ButtonNeuroHydroEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroEnchantingMinus.Location = New System.Drawing.Point(353, 237)
-        Me.ButtonNeuroHydroEnchantingMinus.Name = "ButtonNeuroHydroEnchantingMinus"
-        Me.ButtonNeuroHydroEnchantingMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroEnchantingMinus.TabIndex = 5
-        Me.ButtonNeuroHydroEnchantingMinus.Text = "-"
-        Me.ButtonNeuroHydroEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroEnchantingMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroEnchantingMinus.Location = New System.Drawing.Point(353, 237)
+        Me.ButtonNeurohydroEnchantingMinus.Name = "ButtonNeurohydroEnchantingMinus"
+        Me.ButtonNeurohydroEnchantingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroEnchantingMinus.TabIndex = 5
+        Me.ButtonNeurohydroEnchantingMinus.Text = "-"
+        Me.ButtonNeurohydroEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroEnchantingMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroHealthMinus
+        'ButtonNeurohydroHealthMinus
         '
-        Me.ButtonNeuroHydroHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroHealthMinus.Location = New System.Drawing.Point(353, 161)
-        Me.ButtonNeuroHydroHealthMinus.Name = "ButtonNeuroHydroHealthMinus"
-        Me.ButtonNeuroHydroHealthMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroHealthMinus.TabIndex = 5
-        Me.ButtonNeuroHydroHealthMinus.Text = "-"
-        Me.ButtonNeuroHydroHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroHealthMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroHealthMinus.Location = New System.Drawing.Point(353, 161)
+        Me.ButtonNeurohydroHealthMinus.Name = "ButtonNeurohydroHealthMinus"
+        Me.ButtonNeurohydroHealthMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroHealthMinus.TabIndex = 5
+        Me.ButtonNeurohydroHealthMinus.Text = "-"
+        Me.ButtonNeurohydroHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroHealthMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroScrollwritingMinus
+        'ButtonNeurohydroScrollwritingMinus
         '
-        Me.ButtonNeuroHydroScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
-        Me.ButtonNeuroHydroScrollwritingMinus.Name = "ButtonNeuroHydroScrollwritingMinus"
-        Me.ButtonNeuroHydroScrollwritingMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroScrollwritingMinus.TabIndex = 5
-        Me.ButtonNeuroHydroScrollwritingMinus.Text = "-"
-        Me.ButtonNeuroHydroScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroScrollwritingMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
+        Me.ButtonNeurohydroScrollwritingMinus.Name = "ButtonNeurohydroScrollwritingMinus"
+        Me.ButtonNeurohydroScrollwritingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroScrollwritingMinus.TabIndex = 5
+        Me.ButtonNeurohydroScrollwritingMinus.Text = "-"
+        Me.ButtonNeurohydroScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroScrollwritingMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroDetectionMinus
+        'ButtonNeurohydroDetectionMinus
         '
-        Me.ButtonNeuroHydroDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroDetectionMinus.Location = New System.Drawing.Point(353, 124)
-        Me.ButtonNeuroHydroDetectionMinus.Name = "ButtonNeuroHydroDetectionMinus"
-        Me.ButtonNeuroHydroDetectionMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroDetectionMinus.TabIndex = 5
-        Me.ButtonNeuroHydroDetectionMinus.Text = "-"
-        Me.ButtonNeuroHydroDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroDetectionMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroDetectionMinus.Location = New System.Drawing.Point(353, 124)
+        Me.ButtonNeurohydroDetectionMinus.Name = "ButtonNeurohydroDetectionMinus"
+        Me.ButtonNeurohydroDetectionMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroDetectionMinus.TabIndex = 5
+        Me.ButtonNeurohydroDetectionMinus.Text = "-"
+        Me.ButtonNeurohydroDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroDetectionMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroSmithingPlus
+        'ButtonNeurohydroSmithingPlus
         '
-        Me.ButtonNeuroHydroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroSmithingPlus.Location = New System.Drawing.Point(162, 201)
-        Me.ButtonNeuroHydroSmithingPlus.Name = "ButtonNeuroHydroSmithingPlus"
-        Me.ButtonNeuroHydroSmithingPlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroSmithingPlus.TabIndex = 4
-        Me.ButtonNeuroHydroSmithingPlus.Text = "+"
-        Me.ButtonNeuroHydroSmithingPlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroSmithingPlus.Location = New System.Drawing.Point(162, 201)
+        Me.ButtonNeurohydroSmithingPlus.Name = "ButtonNeurohydroSmithingPlus"
+        Me.ButtonNeurohydroSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroSmithingPlus.TabIndex = 4
+        Me.ButtonNeurohydroSmithingPlus.Text = "+"
+        Me.ButtonNeurohydroSmithingPlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroWeapondexterityMinus
+        'ButtonNeurohydroWeapondexterityMinus
         '
-        Me.ButtonNeuroHydroWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
-        Me.ButtonNeuroHydroWeapondexterityMinus.Name = "ButtonNeuroHydroWeapondexterityMinus"
-        Me.ButtonNeuroHydroWeapondexterityMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroWeapondexterityMinus.TabIndex = 5
-        Me.ButtonNeuroHydroWeapondexterityMinus.Text = "-"
-        Me.ButtonNeuroHydroWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroWeapondexterityMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
+        Me.ButtonNeurohydroWeapondexterityMinus.Name = "ButtonNeurohydroWeapondexterityMinus"
+        Me.ButtonNeurohydroWeapondexterityMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroWeapondexterityMinus.TabIndex = 5
+        Me.ButtonNeurohydroWeapondexterityMinus.Text = "-"
+        Me.ButtonNeurohydroWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroWeapondexterityMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroForestryMinus
+        'ButtonNeurohydroForestryMinus
         '
-        Me.ButtonNeuroHydroForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroForestryMinus.Location = New System.Drawing.Point(186, 87)
-        Me.ButtonNeuroHydroForestryMinus.Name = "ButtonNeuroHydroForestryMinus"
-        Me.ButtonNeuroHydroForestryMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroForestryMinus.TabIndex = 5
-        Me.ButtonNeuroHydroForestryMinus.Text = "-"
-        Me.ButtonNeuroHydroForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroForestryMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroForestryMinus.Location = New System.Drawing.Point(186, 87)
+        Me.ButtonNeurohydroForestryMinus.Name = "ButtonNeurohydroForestryMinus"
+        Me.ButtonNeurohydroForestryMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroForestryMinus.TabIndex = 5
+        Me.ButtonNeurohydroForestryMinus.Text = "-"
+        Me.ButtonNeurohydroForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroForestryMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroProwessPlus
+        'ButtonNeurohydroProwessPlus
         '
-        Me.ButtonNeuroHydroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroProwessPlus.Location = New System.Drawing.Point(161, 160)
-        Me.ButtonNeuroHydroProwessPlus.Name = "ButtonNeuroHydroProwessPlus"
-        Me.ButtonNeuroHydroProwessPlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroProwessPlus.TabIndex = 4
-        Me.ButtonNeuroHydroProwessPlus.Text = "+"
-        Me.ButtonNeuroHydroProwessPlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroProwessPlus.Location = New System.Drawing.Point(161, 160)
+        Me.ButtonNeurohydroProwessPlus.Name = "ButtonNeurohydroProwessPlus"
+        Me.ButtonNeurohydroProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroProwessPlus.TabIndex = 4
+        Me.ButtonNeurohydroProwessPlus.Text = "+"
+        Me.ButtonNeurohydroProwessPlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroEnchantingPlus
+        'ButtonNeurohydroEnchantingPlus
         '
-        Me.ButtonNeuroHydroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroEnchantingPlus.Location = New System.Drawing.Point(328, 237)
-        Me.ButtonNeuroHydroEnchantingPlus.Name = "ButtonNeuroHydroEnchantingPlus"
-        Me.ButtonNeuroHydroEnchantingPlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroEnchantingPlus.TabIndex = 4
-        Me.ButtonNeuroHydroEnchantingPlus.Text = "+"
-        Me.ButtonNeuroHydroEnchantingPlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroEnchantingPlus.Location = New System.Drawing.Point(328, 237)
+        Me.ButtonNeurohydroEnchantingPlus.Name = "ButtonNeurohydroEnchantingPlus"
+        Me.ButtonNeurohydroEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroEnchantingPlus.TabIndex = 4
+        Me.ButtonNeurohydroEnchantingPlus.Text = "+"
+        Me.ButtonNeurohydroEnchantingPlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroHealthPlus
+        'ButtonNeurohydroHealthPlus
         '
-        Me.ButtonNeuroHydroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroHealthPlus.Location = New System.Drawing.Point(328, 161)
-        Me.ButtonNeuroHydroHealthPlus.Name = "ButtonNeuroHydroHealthPlus"
-        Me.ButtonNeuroHydroHealthPlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroHealthPlus.TabIndex = 4
-        Me.ButtonNeuroHydroHealthPlus.Text = "+"
-        Me.ButtonNeuroHydroHealthPlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroHealthPlus.Location = New System.Drawing.Point(328, 161)
+        Me.ButtonNeurohydroHealthPlus.Name = "ButtonNeurohydroHealthPlus"
+        Me.ButtonNeurohydroHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroHealthPlus.TabIndex = 4
+        Me.ButtonNeurohydroHealthPlus.Text = "+"
+        Me.ButtonNeurohydroHealthPlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroScrollwritingPlus
+        'ButtonNeurohydroScrollwritingPlus
         '
-        Me.ButtonNeuroHydroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
-        Me.ButtonNeuroHydroScrollwritingPlus.Name = "ButtonNeuroHydroScrollwritingPlus"
-        Me.ButtonNeuroHydroScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroScrollwritingPlus.TabIndex = 4
-        Me.ButtonNeuroHydroScrollwritingPlus.Text = "+"
-        Me.ButtonNeuroHydroScrollwritingPlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
+        Me.ButtonNeurohydroScrollwritingPlus.Name = "ButtonNeurohydroScrollwritingPlus"
+        Me.ButtonNeurohydroScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroScrollwritingPlus.TabIndex = 4
+        Me.ButtonNeurohydroScrollwritingPlus.Text = "+"
+        Me.ButtonNeurohydroScrollwritingPlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroDetectionPlus
+        'ButtonNeurohydroDetectionPlus
         '
-        Me.ButtonNeuroHydroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroDetectionPlus.Location = New System.Drawing.Point(328, 124)
-        Me.ButtonNeuroHydroDetectionPlus.Name = "ButtonNeuroHydroDetectionPlus"
-        Me.ButtonNeuroHydroDetectionPlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroDetectionPlus.TabIndex = 4
-        Me.ButtonNeuroHydroDetectionPlus.Text = "+"
-        Me.ButtonNeuroHydroDetectionPlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroDetectionPlus.Location = New System.Drawing.Point(328, 124)
+        Me.ButtonNeurohydroDetectionPlus.Name = "ButtonNeurohydroDetectionPlus"
+        Me.ButtonNeurohydroDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroDetectionPlus.TabIndex = 4
+        Me.ButtonNeurohydroDetectionPlus.Text = "+"
+        Me.ButtonNeurohydroDetectionPlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroMigraineMinus
+        'ButtonNeurohydroMigraineMinus
         '
-        Me.ButtonNeuroHydroMigraineMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.ButtonNeurohydroMigraineMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNeuroHydroMigraineMinus.Location = New System.Drawing.Point(57, 140)
-        Me.ButtonNeuroHydroMigraineMinus.Name = "ButtonNeuroHydroMigraineMinus"
-        Me.ButtonNeuroHydroMigraineMinus.Size = New System.Drawing.Size(18, 23)
-        Me.ButtonNeuroHydroMigraineMinus.TabIndex = 5
-        Me.ButtonNeuroHydroMigraineMinus.Text = "-"
-        Me.ButtonNeuroHydroMigraineMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ButtonNeuroHydroMigraineMinus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroMigraineMinus.Location = New System.Drawing.Point(57, 140)
+        Me.ButtonNeurohydroMigraineMinus.Name = "ButtonNeurohydroMigraineMinus"
+        Me.ButtonNeurohydroMigraineMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonNeurohydroMigraineMinus.TabIndex = 5
+        Me.ButtonNeurohydroMigraineMinus.Text = "-"
+        Me.ButtonNeurohydroMigraineMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ButtonNeurohydroMigraineMinus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroSensePlus
+        'ButtonNeurohydroSensePlus
         '
-        Me.ButtonNeuroHydroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroSensePlus.Location = New System.Drawing.Point(328, 85)
-        Me.ButtonNeuroHydroSensePlus.Name = "ButtonNeuroHydroSensePlus"
-        Me.ButtonNeuroHydroSensePlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroSensePlus.TabIndex = 4
-        Me.ButtonNeuroHydroSensePlus.Text = "+"
-        Me.ButtonNeuroHydroSensePlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroSensePlus.Location = New System.Drawing.Point(328, 85)
+        Me.ButtonNeurohydroSensePlus.Name = "ButtonNeurohydroSensePlus"
+        Me.ButtonNeurohydroSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroSensePlus.TabIndex = 4
+        Me.ButtonNeurohydroSensePlus.Text = "+"
+        Me.ButtonNeurohydroSensePlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroLeatherworkingPlus
+        'ButtonNeurohydroLeatherworkingPlus
         '
-        Me.ButtonNeuroHydroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
-        Me.ButtonNeuroHydroLeatherworkingPlus.Name = "ButtonNeuroHydroLeatherworkingPlus"
-        Me.ButtonNeuroHydroLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroLeatherworkingPlus.TabIndex = 4
-        Me.ButtonNeuroHydroLeatherworkingPlus.Text = "+"
-        Me.ButtonNeuroHydroLeatherworkingPlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
+        Me.ButtonNeurohydroLeatherworkingPlus.Name = "ButtonNeurohydroLeatherworkingPlus"
+        Me.ButtonNeurohydroLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroLeatherworkingPlus.TabIndex = 4
+        Me.ButtonNeurohydroLeatherworkingPlus.Text = "+"
+        Me.ButtonNeurohydroLeatherworkingPlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroWeapondexterityPlus
+        'ButtonNeurohydroWeapondexterityPlus
         '
-        Me.ButtonNeuroHydroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
-        Me.ButtonNeuroHydroWeapondexterityPlus.Name = "ButtonNeuroHydroWeapondexterityPlus"
-        Me.ButtonNeuroHydroWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroWeapondexterityPlus.TabIndex = 4
-        Me.ButtonNeuroHydroWeapondexterityPlus.Text = "+"
-        Me.ButtonNeuroHydroWeapondexterityPlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
+        Me.ButtonNeurohydroWeapondexterityPlus.Name = "ButtonNeurohydroWeapondexterityPlus"
+        Me.ButtonNeurohydroWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroWeapondexterityPlus.TabIndex = 4
+        Me.ButtonNeurohydroWeapondexterityPlus.Text = "+"
+        Me.ButtonNeurohydroWeapondexterityPlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroForestryPlus
+        'ButtonNeurohydroForestryPlus
         '
-        Me.ButtonNeuroHydroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroForestryPlus.Location = New System.Drawing.Point(161, 87)
-        Me.ButtonNeuroHydroForestryPlus.Name = "ButtonNeuroHydroForestryPlus"
-        Me.ButtonNeuroHydroForestryPlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroForestryPlus.TabIndex = 4
-        Me.ButtonNeuroHydroForestryPlus.Text = "+"
-        Me.ButtonNeuroHydroForestryPlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroForestryPlus.Location = New System.Drawing.Point(161, 87)
+        Me.ButtonNeurohydroForestryPlus.Name = "ButtonNeurohydroForestryPlus"
+        Me.ButtonNeurohydroForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroForestryPlus.TabIndex = 4
+        Me.ButtonNeurohydroForestryPlus.Text = "+"
+        Me.ButtonNeurohydroForestryPlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroSnowballPlus
+        'ButtonNeurohydroSnowballPlus
         '
-        Me.ButtonNeuroHydroSnowballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroSnowballPlus.Location = New System.Drawing.Point(32, 178)
-        Me.ButtonNeuroHydroSnowballPlus.Name = "ButtonNeuroHydroSnowballPlus"
-        Me.ButtonNeuroHydroSnowballPlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroSnowballPlus.TabIndex = 4
-        Me.ButtonNeuroHydroSnowballPlus.Text = "+"
-        Me.ButtonNeuroHydroSnowballPlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroSnowballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroSnowballPlus.Location = New System.Drawing.Point(32, 178)
+        Me.ButtonNeurohydroSnowballPlus.Name = "ButtonNeurohydroSnowballPlus"
+        Me.ButtonNeurohydroSnowballPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroSnowballPlus.TabIndex = 4
+        Me.ButtonNeurohydroSnowballPlus.Text = "+"
+        Me.ButtonNeurohydroSnowballPlus.UseVisualStyleBackColor = True
         '
-        'ButtonNeuroHydroMigrainePlus
+        'ButtonNeurohydroMigrainePlus
         '
-        Me.ButtonNeuroHydroMigrainePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonNeuroHydroMigrainePlus.Location = New System.Drawing.Point(32, 140)
-        Me.ButtonNeuroHydroMigrainePlus.Name = "ButtonNeuroHydroMigrainePlus"
-        Me.ButtonNeuroHydroMigrainePlus.Size = New System.Drawing.Size(19, 23)
-        Me.ButtonNeuroHydroMigrainePlus.TabIndex = 4
-        Me.ButtonNeuroHydroMigrainePlus.Text = "+"
-        Me.ButtonNeuroHydroMigrainePlus.UseVisualStyleBackColor = True
+        Me.ButtonNeurohydroMigrainePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonNeurohydroMigrainePlus.Location = New System.Drawing.Point(32, 140)
+        Me.ButtonNeurohydroMigrainePlus.Name = "ButtonNeurohydroMigrainePlus"
+        Me.ButtonNeurohydroMigrainePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurohydroMigrainePlus.TabIndex = 4
+        Me.ButtonNeurohydroMigrainePlus.Text = "+"
+        Me.ButtonNeurohydroMigrainePlus.UseVisualStyleBackColor = True
         '
-        'LabelNeuroHydroChosen
+        'LabelNeurohydroChosen
         '
-        Me.LabelNeuroHydroChosen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.LabelNeuroHydroChosen.Location = New System.Drawing.Point(469, 105)
-        Me.LabelNeuroHydroChosen.Name = "LabelNeuroHydroChosen"
-        Me.LabelNeuroHydroChosen.Size = New System.Drawing.Size(131, 127)
-        Me.LabelNeuroHydroChosen.TabIndex = 3
-        Me.LabelNeuroHydroChosen.Text = "Already Chosen:"
+        Me.LabelNeurohydroChosen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.LabelNeurohydroChosen.Location = New System.Drawing.Point(469, 105)
+        Me.LabelNeurohydroChosen.Name = "LabelNeurohydroChosen"
+        Me.LabelNeurohydroChosen.Size = New System.Drawing.Size(131, 127)
+        Me.LabelNeurohydroChosen.TabIndex = 3
+        Me.LabelNeurohydroChosen.Text = "Already Chosen:"
         '
-        'LabelNeuroHydroEnchanting
+        'LabelNeurohydroEnchanting
         '
-        Me.LabelNeuroHydroEnchanting.AutoSize = True
-        Me.LabelNeuroHydroEnchanting.Location = New System.Drawing.Point(373, 241)
-        Me.LabelNeuroHydroEnchanting.Name = "LabelNeuroHydroEnchanting"
-        Me.LabelNeuroHydroEnchanting.Size = New System.Drawing.Size(61, 13)
-        Me.LabelNeuroHydroEnchanting.TabIndex = 2
-        Me.LabelNeuroHydroEnchanting.Text = "Enchanting"
+        Me.LabelNeurohydroEnchanting.AutoSize = True
+        Me.LabelNeurohydroEnchanting.Location = New System.Drawing.Point(373, 241)
+        Me.LabelNeurohydroEnchanting.Name = "LabelNeurohydroEnchanting"
+        Me.LabelNeurohydroEnchanting.Size = New System.Drawing.Size(61, 13)
+        Me.LabelNeurohydroEnchanting.TabIndex = 2
+        Me.LabelNeurohydroEnchanting.Text = "Enchanting"
         '
-        'LabelNeuroHydroHealth
+        'LabelNeurohydroHealth
         '
-        Me.LabelNeuroHydroHealth.AutoSize = True
-        Me.LabelNeuroHydroHealth.Location = New System.Drawing.Point(373, 165)
-        Me.LabelNeuroHydroHealth.Name = "LabelNeuroHydroHealth"
-        Me.LabelNeuroHydroHealth.Size = New System.Drawing.Size(47, 13)
-        Me.LabelNeuroHydroHealth.TabIndex = 2
-        Me.LabelNeuroHydroHealth.Text = "1 Health"
+        Me.LabelNeurohydroHealth.AutoSize = True
+        Me.LabelNeurohydroHealth.Location = New System.Drawing.Point(373, 165)
+        Me.LabelNeurohydroHealth.Name = "LabelNeurohydroHealth"
+        Me.LabelNeurohydroHealth.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeurohydroHealth.TabIndex = 2
+        Me.LabelNeurohydroHealth.Text = "1 Health"
         '
-        'LabelNeuroHydroScrollwriting
+        'LabelNeurohydroScrollwriting
         '
-        Me.LabelNeuroHydroScrollwriting.AutoSize = True
-        Me.LabelNeuroHydroScrollwriting.Location = New System.Drawing.Point(372, 202)
-        Me.LabelNeuroHydroScrollwriting.Name = "LabelNeuroHydroScrollwriting"
-        Me.LabelNeuroHydroScrollwriting.Size = New System.Drawing.Size(69, 13)
-        Me.LabelNeuroHydroScrollwriting.TabIndex = 2
-        Me.LabelNeuroHydroScrollwriting.Text = "Scroll Writing"
+        Me.LabelNeurohydroScrollwriting.AutoSize = True
+        Me.LabelNeurohydroScrollwriting.Location = New System.Drawing.Point(372, 202)
+        Me.LabelNeurohydroScrollwriting.Name = "LabelNeurohydroScrollwriting"
+        Me.LabelNeurohydroScrollwriting.Size = New System.Drawing.Size(69, 13)
+        Me.LabelNeurohydroScrollwriting.TabIndex = 2
+        Me.LabelNeurohydroScrollwriting.Text = "Scroll Writing"
         '
-        'LabelNeuroHydroDetection
+        'LabelNeurohydroDetection
         '
-        Me.LabelNeuroHydroDetection.AutoSize = True
-        Me.LabelNeuroHydroDetection.Location = New System.Drawing.Point(372, 130)
-        Me.LabelNeuroHydroDetection.Name = "LabelNeuroHydroDetection"
-        Me.LabelNeuroHydroDetection.Size = New System.Drawing.Size(53, 13)
-        Me.LabelNeuroHydroDetection.TabIndex = 2
-        Me.LabelNeuroHydroDetection.Text = "Detection"
+        Me.LabelNeurohydroDetection.AutoSize = True
+        Me.LabelNeurohydroDetection.Location = New System.Drawing.Point(372, 130)
+        Me.LabelNeurohydroDetection.Name = "LabelNeurohydroDetection"
+        Me.LabelNeurohydroDetection.Size = New System.Drawing.Size(53, 13)
+        Me.LabelNeurohydroDetection.TabIndex = 2
+        Me.LabelNeurohydroDetection.Text = "Detection"
         '
-        'LabelNeuroHydroSmithing
+        'LabelNeurohydroSmithing
         '
-        Me.LabelNeuroHydroSmithing.AutoSize = True
-        Me.LabelNeuroHydroSmithing.Location = New System.Drawing.Point(206, 205)
-        Me.LabelNeuroHydroSmithing.Name = "LabelNeuroHydroSmithing"
-        Me.LabelNeuroHydroSmithing.Size = New System.Drawing.Size(47, 13)
-        Me.LabelNeuroHydroSmithing.TabIndex = 2
-        Me.LabelNeuroHydroSmithing.Text = "Smithing"
+        Me.LabelNeurohydroSmithing.AutoSize = True
+        Me.LabelNeurohydroSmithing.Location = New System.Drawing.Point(206, 205)
+        Me.LabelNeurohydroSmithing.Name = "LabelNeurohydroSmithing"
+        Me.LabelNeurohydroSmithing.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeurohydroSmithing.TabIndex = 2
+        Me.LabelNeurohydroSmithing.Text = "Smithing"
         '
-        'LabelNeuroHydroSense
+        'LabelNeurohydroSense
         '
-        Me.LabelNeuroHydroSense.AutoSize = True
-        Me.LabelNeuroHydroSense.Location = New System.Drawing.Point(374, 90)
-        Me.LabelNeuroHydroSense.Name = "LabelNeuroHydroSense"
-        Me.LabelNeuroHydroSense.Size = New System.Drawing.Size(37, 13)
-        Me.LabelNeuroHydroSense.TabIndex = 2
-        Me.LabelNeuroHydroSense.Text = "Sense"
+        Me.LabelNeurohydroSense.AutoSize = True
+        Me.LabelNeurohydroSense.Location = New System.Drawing.Point(374, 90)
+        Me.LabelNeurohydroSense.Name = "LabelNeurohydroSense"
+        Me.LabelNeurohydroSense.Size = New System.Drawing.Size(37, 13)
+        Me.LabelNeurohydroSense.TabIndex = 2
+        Me.LabelNeurohydroSense.Text = "Sense"
         '
-        'LabelNeuroHydroProwess
+        'LabelNeurohydroProwess
         '
-        Me.LabelNeuroHydroProwess.AutoSize = True
-        Me.LabelNeuroHydroProwess.Location = New System.Drawing.Point(205, 166)
-        Me.LabelNeuroHydroProwess.Name = "LabelNeuroHydroProwess"
-        Me.LabelNeuroHydroProwess.Size = New System.Drawing.Size(47, 13)
-        Me.LabelNeuroHydroProwess.TabIndex = 2
-        Me.LabelNeuroHydroProwess.Text = "Prowess"
+        Me.LabelNeurohydroProwess.AutoSize = True
+        Me.LabelNeurohydroProwess.Location = New System.Drawing.Point(205, 166)
+        Me.LabelNeurohydroProwess.Name = "LabelNeurohydroProwess"
+        Me.LabelNeurohydroProwess.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeurohydroProwess.TabIndex = 2
+        Me.LabelNeurohydroProwess.Text = "Prowess"
         '
-        'LabelNeuroHydroLeatherworking
+        'LabelNeurohydroLeatherworking
         '
-        Me.LabelNeuroHydroLeatherworking.AutoSize = True
-        Me.LabelNeuroHydroLeatherworking.Location = New System.Drawing.Point(206, 128)
-        Me.LabelNeuroHydroLeatherworking.Name = "LabelNeuroHydroLeatherworking"
-        Me.LabelNeuroHydroLeatherworking.Size = New System.Drawing.Size(80, 13)
-        Me.LabelNeuroHydroLeatherworking.TabIndex = 2
-        Me.LabelNeuroHydroLeatherworking.Text = "Leatherworking"
+        Me.LabelNeurohydroLeatherworking.AutoSize = True
+        Me.LabelNeurohydroLeatherworking.Location = New System.Drawing.Point(206, 128)
+        Me.LabelNeurohydroLeatherworking.Name = "LabelNeurohydroLeatherworking"
+        Me.LabelNeurohydroLeatherworking.Size = New System.Drawing.Size(80, 13)
+        Me.LabelNeurohydroLeatherworking.TabIndex = 2
+        Me.LabelNeurohydroLeatherworking.Text = "Leatherworking"
         '
-        'Label21
+        'LabelNeurohydroSnowball
         '
-        Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(81, 182)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(50, 13)
-        Me.Label21.TabIndex = 2
-        Me.Label21.Text = "Snowball"
+        Me.LabelNeurohydroSnowball.AutoSize = True
+        Me.LabelNeurohydroSnowball.Location = New System.Drawing.Point(81, 182)
+        Me.LabelNeurohydroSnowball.Name = "LabelNeurohydroSnowball"
+        Me.LabelNeurohydroSnowball.Size = New System.Drawing.Size(50, 13)
+        Me.LabelNeurohydroSnowball.TabIndex = 2
+        Me.LabelNeurohydroSnowball.Text = "Snowball"
         '
-        'LabelNeuroHydroWeapondexterity
+        'LabelNeurohydroWeapondexterity
         '
-        Me.LabelNeuroHydroWeapondexterity.AutoSize = True
-        Me.LabelNeuroHydroWeapondexterity.Location = New System.Drawing.Point(205, 242)
-        Me.LabelNeuroHydroWeapondexterity.Name = "LabelNeuroHydroWeapondexterity"
-        Me.LabelNeuroHydroWeapondexterity.Size = New System.Drawing.Size(92, 13)
-        Me.LabelNeuroHydroWeapondexterity.TabIndex = 2
-        Me.LabelNeuroHydroWeapondexterity.Text = "Weapon Dexterity"
+        Me.LabelNeurohydroWeapondexterity.AutoSize = True
+        Me.LabelNeurohydroWeapondexterity.Location = New System.Drawing.Point(205, 242)
+        Me.LabelNeurohydroWeapondexterity.Name = "LabelNeurohydroWeapondexterity"
+        Me.LabelNeurohydroWeapondexterity.Size = New System.Drawing.Size(92, 13)
+        Me.LabelNeurohydroWeapondexterity.TabIndex = 2
+        Me.LabelNeurohydroWeapondexterity.Text = "Weapon Dexterity"
         '
-        'LabelNeuroHydroForestry
+        'LabelNeurohydroForestry
         '
-        Me.LabelNeuroHydroForestry.AutoSize = True
-        Me.LabelNeuroHydroForestry.Location = New System.Drawing.Point(206, 91)
-        Me.LabelNeuroHydroForestry.Name = "LabelNeuroHydroForestry"
-        Me.LabelNeuroHydroForestry.Size = New System.Drawing.Size(44, 13)
-        Me.LabelNeuroHydroForestry.TabIndex = 2
-        Me.LabelNeuroHydroForestry.Text = "Forestry"
+        Me.LabelNeurohydroForestry.AutoSize = True
+        Me.LabelNeurohydroForestry.Location = New System.Drawing.Point(206, 91)
+        Me.LabelNeurohydroForestry.Name = "LabelNeurohydroForestry"
+        Me.LabelNeurohydroForestry.Size = New System.Drawing.Size(44, 13)
+        Me.LabelNeurohydroForestry.TabIndex = 2
+        Me.LabelNeurohydroForestry.Text = "Forestry"
         '
-        'LabelNeuroHydroMigraine
+        'LabelNeurohydroMigraine
         '
-        Me.LabelNeuroHydroMigraine.AutoSize = True
-        Me.LabelNeuroHydroMigraine.Location = New System.Drawing.Point(81, 145)
-        Me.LabelNeuroHydroMigraine.Name = "LabelNeuroHydroMigraine"
-        Me.LabelNeuroHydroMigraine.Size = New System.Drawing.Size(47, 13)
-        Me.LabelNeuroHydroMigraine.TabIndex = 2
-        Me.LabelNeuroHydroMigraine.Text = "Migraine"
+        Me.LabelNeurohydroMigraine.AutoSize = True
+        Me.LabelNeurohydroMigraine.Location = New System.Drawing.Point(81, 145)
+        Me.LabelNeurohydroMigraine.Name = "LabelNeurohydroMigraine"
+        Me.LabelNeurohydroMigraine.Size = New System.Drawing.Size(47, 13)
+        Me.LabelNeurohydroMigraine.TabIndex = 2
+        Me.LabelNeurohydroMigraine.Text = "Migraine"
         '
-        'LabelNeuroHydroXp
+        'LabelNeurohydroXp
         '
-        Me.LabelNeuroHydroXp.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelNeuroHydroXp.Location = New System.Drawing.Point(512, 75)
-        Me.LabelNeuroHydroXp.Name = "LabelNeuroHydroXp"
-        Me.LabelNeuroHydroXp.Size = New System.Drawing.Size(78, 21)
-        Me.LabelNeuroHydroXp.TabIndex = 1
-        Me.LabelNeuroHydroXp.Text = "XP left:  15"
+        Me.LabelNeurohydroXp.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelNeurohydroXp.Location = New System.Drawing.Point(512, 75)
+        Me.LabelNeurohydroXp.Name = "LabelNeurohydroXp"
+        Me.LabelNeurohydroXp.Size = New System.Drawing.Size(78, 21)
+        Me.LabelNeurohydroXp.TabIndex = 1
+        Me.LabelNeurohydroXp.Text = "XP left:  15"
         '
-        'LabelNeuroHydroIntro
+        'LabelNeurohydroIntro
         '
-        Me.LabelNeuroHydroIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelNeuroHydroIntro.Location = New System.Drawing.Point(12, 6)
-        Me.LabelNeuroHydroIntro.Name = "LabelNeuroHydroIntro"
-        Me.LabelNeuroHydroIntro.Size = New System.Drawing.Size(594, 70)
-        Me.LabelNeuroHydroIntro.TabIndex = 0
-        Me.LabelNeuroHydroIntro.Text = resources.GetString("LabelNeuroHydroIntro.Text")
+        Me.LabelNeurohydroIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelNeurohydroIntro.Location = New System.Drawing.Point(12, 6)
+        Me.LabelNeurohydroIntro.Name = "LabelNeurohydroIntro"
+        Me.LabelNeurohydroIntro.Size = New System.Drawing.Size(594, 70)
+        Me.LabelNeurohydroIntro.TabIndex = 0
+        Me.LabelNeurohydroIntro.Text = resources.GetString("LabelNeurohydroIntro.Text")
         '
         'PanelNeuropyro
         '
@@ -12279,6 +12313,18 @@ Partial Class Form1
         Me.ButtonDrakohnonInfo.Text = "Info"
         Me.ButtonDrakohnonInfo.UseVisualStyleBackColor = True
         '
+        'RadioButtonDrakohnonDragonskin
+        '
+        Me.RadioButtonDrakohnonDragonskin.AutoSize = True
+        Me.RadioButtonDrakohnonDragonskin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonDrakohnonDragonskin.Location = New System.Drawing.Point(267, 242)
+        Me.RadioButtonDrakohnonDragonskin.Name = "RadioButtonDrakohnonDragonskin"
+        Me.RadioButtonDrakohnonDragonskin.Size = New System.Drawing.Size(95, 20)
+        Me.RadioButtonDrakohnonDragonskin.TabIndex = 5
+        Me.RadioButtonDrakohnonDragonskin.TabStop = True
+        Me.RadioButtonDrakohnonDragonskin.Text = "Dragon Skin"
+        Me.RadioButtonDrakohnonDragonskin.UseVisualStyleBackColor = True
+        '
         'RadioButtonDrakohnonPiercinggaze
         '
         Me.RadioButtonDrakohnonPiercinggaze.AutoSize = True
@@ -12342,18 +12388,6 @@ Partial Class Form1
         Me.ButtonDrakohnonKin.Text = "Previous"
         Me.ButtonDrakohnonKin.UseVisualStyleBackColor = True
         '
-        'RadioButtonDrakohnonDragonskin
-        '
-        Me.RadioButtonDrakohnonDragonskin.AutoSize = True
-        Me.RadioButtonDrakohnonDragonskin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonDrakohnonDragonskin.Location = New System.Drawing.Point(267, 242)
-        Me.RadioButtonDrakohnonDragonskin.Name = "RadioButtonDrakohnonDragonskin"
-        Me.RadioButtonDrakohnonDragonskin.Size = New System.Drawing.Size(95, 20)
-        Me.RadioButtonDrakohnonDragonskin.TabIndex = 5
-        Me.RadioButtonDrakohnonDragonskin.TabStop = True
-        Me.RadioButtonDrakohnonDragonskin.Text = "Dragon Skin"
-        Me.RadioButtonDrakohnonDragonskin.UseVisualStyleBackColor = True
-        '
         'PanelFairy
         '
         Me.PanelFairy.Controls.Add(Me.ButtonFairyInfo)
@@ -12381,6 +12415,18 @@ Partial Class Form1
         Me.ButtonFairyInfo.TabIndex = 6
         Me.ButtonFairyInfo.Text = "Info"
         Me.ButtonFairyInfo.UseVisualStyleBackColor = True
+        '
+        'RadioButton5
+        '
+        Me.RadioButton5.AutoSize = True
+        Me.RadioButton5.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton5.Location = New System.Drawing.Point(277, 253)
+        Me.RadioButton5.Name = "RadioButton5"
+        Me.RadioButton5.Size = New System.Drawing.Size(76, 20)
+        Me.RadioButton5.TabIndex = 5
+        Me.RadioButton5.TabStop = True
+        Me.RadioButton5.Text = "Ahlucaro"
+        Me.RadioButton5.UseVisualStyleBackColor = True
         '
         'RadioButton1
         '
@@ -12457,23 +12503,357 @@ Partial Class Form1
         Me.ButtonFairyKin.Text = "Previous"
         Me.ButtonFairyKin.UseVisualStyleBackColor = True
         '
-        'RadioButton5
+        'RadioButtonNyadFlow
         '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton5.Location = New System.Drawing.Point(277, 253)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(76, 20)
-        Me.RadioButton5.TabIndex = 5
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "Ahlucaro"
-        Me.RadioButton5.UseVisualStyleBackColor = True
+        Me.RadioButtonNyadFlow.AutoSize = True
+        Me.RadioButtonNyadFlow.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonNyadFlow.Location = New System.Drawing.Point(271, 250)
+        Me.RadioButtonNyadFlow.Name = "RadioButtonNyadFlow"
+        Me.RadioButtonNyadFlow.Size = New System.Drawing.Size(53, 20)
+        Me.RadioButtonNyadFlow.TabIndex = 3
+        Me.RadioButtonNyadFlow.TabStop = True
+        Me.RadioButtonNyadFlow.Text = "Flow"
+        Me.RadioButtonNyadFlow.UseVisualStyleBackColor = True
+        '
+        'RadioButtonNyadThebiggertheyare
+        '
+        Me.RadioButtonNyadThebiggertheyare.AutoSize = True
+        Me.RadioButtonNyadThebiggertheyare.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonNyadThebiggertheyare.Location = New System.Drawing.Point(271, 208)
+        Me.RadioButtonNyadThebiggertheyare.Name = "RadioButtonNyadThebiggertheyare"
+        Me.RadioButtonNyadThebiggertheyare.Size = New System.Drawing.Size(144, 20)
+        Me.RadioButtonNyadThebiggertheyare.TabIndex = 5
+        Me.RadioButtonNyadThebiggertheyare.TabStop = True
+        Me.RadioButtonNyadThebiggertheyare.Text = "The Bigger They Are"
+        Me.RadioButtonNyadThebiggertheyare.UseVisualStyleBackColor = True
+        '
+        'PanelModifier
+        '
+        Me.PanelModifier.Controls.Add(Me.ButtonModifierInfo)
+        Me.PanelModifier.Controls.Add(Me.RadioButton11)
+        Me.PanelModifier.Controls.Add(Me.RadioButton16)
+        Me.PanelModifier.Controls.Add(Me.RadioButton15)
+        Me.PanelModifier.Controls.Add(Me.RadioButton9)
+        Me.PanelModifier.Controls.Add(Me.RadioButton10)
+        Me.PanelModifier.Controls.Add(Me.RadioButton12)
+        Me.PanelModifier.Controls.Add(Me.RadioButton14)
+        Me.PanelModifier.Controls.Add(Me.RadioButton6)
+        Me.PanelModifier.Controls.Add(Me.RadioButton13)
+        Me.PanelModifier.Controls.Add(Me.RadioButton8)
+        Me.PanelModifier.Controls.Add(Me.RadioButton7)
+        Me.PanelModifier.Controls.Add(Me.RadioButton4)
+        Me.PanelModifier.Controls.Add(Me.RadioButton3)
+        Me.PanelModifier.Controls.Add(Me.RadioButton2)
+        Me.PanelModifier.Controls.Add(Me.LabelModifierIntro)
+        Me.PanelModifier.Controls.Add(Me.ButtonModifierEnd)
+        Me.PanelModifier.Controls.Add(Me.ButtonModifierClasstype)
+        Me.PanelModifier.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelModifier.Location = New System.Drawing.Point(0, 0)
+        Me.PanelModifier.Name = "PanelModifier"
+        Me.PanelModifier.Size = New System.Drawing.Size(621, 316)
+        Me.PanelModifier.TabIndex = 47
+        '
+        'ButtonModifierEnd
+        '
+        Me.ButtonModifierEnd.Location = New System.Drawing.Point(542, 289)
+        Me.ButtonModifierEnd.Name = "ButtonModifierEnd"
+        Me.ButtonModifierEnd.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonModifierEnd.TabIndex = 7
+        Me.ButtonModifierEnd.Text = "Next"
+        Me.ButtonModifierEnd.UseVisualStyleBackColor = True
+        '
+        'ButtonModifierClasstype
+        '
+        Me.ButtonModifierClasstype.Location = New System.Drawing.Point(3, 289)
+        Me.ButtonModifierClasstype.Name = "ButtonModifierClasstype"
+        Me.ButtonModifierClasstype.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonModifierClasstype.TabIndex = 6
+        Me.ButtonModifierClasstype.Text = "Previous"
+        Me.ButtonModifierClasstype.UseVisualStyleBackColor = True
+        '
+        'LabelModifierIntro
+        '
+        Me.LabelModifierIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelModifierIntro.Location = New System.Drawing.Point(15, 14)
+        Me.LabelModifierIntro.Name = "LabelModifierIntro"
+        Me.LabelModifierIntro.Size = New System.Drawing.Size(591, 70)
+        Me.LabelModifierIntro.TabIndex = 8
+        Me.LabelModifierIntro.Text = resources.GetString("LabelModifierIntro.Text")
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(62, 103)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(66, 17)
+        Me.RadioButton2.TabIndex = 9
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Common"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(62, 135)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(75, 17)
+        Me.RadioButton3.TabIndex = 10
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "Half-Breed"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'RadioButton4
+        '
+        Me.RadioButton4.AutoSize = True
+        Me.RadioButton4.Location = New System.Drawing.Point(62, 168)
+        Me.RadioButton4.Name = "RadioButton4"
+        Me.RadioButton4.Size = New System.Drawing.Size(81, 17)
+        Me.RadioButton4.TabIndex = 9
+        Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Text = "Soul Splitter"
+        Me.RadioButton4.UseVisualStyleBackColor = True
+        '
+        'RadioButton6
+        '
+        Me.RadioButton6.AutoSize = True
+        Me.RadioButton6.Location = New System.Drawing.Point(62, 200)
+        Me.RadioButton6.Name = "RadioButton6"
+        Me.RadioButton6.Size = New System.Drawing.Size(104, 17)
+        Me.RadioButton6.TabIndex = 10
+        Me.RadioButton6.TabStop = True
+        Me.RadioButton6.Text = "Spark of Insanity"
+        Me.RadioButton6.UseVisualStyleBackColor = True
+        '
+        'RadioButton7
+        '
+        Me.RadioButton7.AutoSize = True
+        Me.RadioButton7.Location = New System.Drawing.Point(215, 105)
+        Me.RadioButton7.Name = "RadioButton7"
+        Me.RadioButton7.Size = New System.Drawing.Size(65, 17)
+        Me.RadioButton7.TabIndex = 10
+        Me.RadioButton7.TabStop = True
+        Me.RadioButton7.Text = "Vampiric"
+        Me.RadioButton7.UseVisualStyleBackColor = True
+        '
+        'RadioButton8
+        '
+        Me.RadioButton8.AutoSize = True
+        Me.RadioButton8.Location = New System.Drawing.Point(215, 138)
+        Me.RadioButton8.Name = "RadioButton8"
+        Me.RadioButton8.Size = New System.Drawing.Size(70, 17)
+        Me.RadioButton8.TabIndex = 9
+        Me.RadioButton8.TabStop = True
+        Me.RadioButton8.Text = "Werewolf"
+        Me.RadioButton8.UseVisualStyleBackColor = True
+        '
+        'RadioButton9
+        '
+        Me.RadioButton9.AutoSize = True
+        Me.RadioButton9.Location = New System.Drawing.Point(215, 170)
+        Me.RadioButton9.Name = "RadioButton9"
+        Me.RadioButton9.Size = New System.Drawing.Size(100, 17)
+        Me.RadioButton9.TabIndex = 10
+        Me.RadioButton9.TabStop = True
+        Me.RadioButton9.Text = "Bound Weapon"
+        Me.RadioButton9.UseVisualStyleBackColor = True
+        '
+        'RadioButton10
+        '
+        Me.RadioButton10.AutoSize = True
+        Me.RadioButton10.Location = New System.Drawing.Point(215, 203)
+        Me.RadioButton10.Name = "RadioButton10"
+        Me.RadioButton10.Size = New System.Drawing.Size(69, 17)
+        Me.RadioButton10.TabIndex = 9
+        Me.RadioButton10.TabStop = True
+        Me.RadioButton10.Text = "Naturalist"
+        Me.RadioButton10.UseVisualStyleBackColor = True
+        '
+        'RadioButton11
+        '
+        Me.RadioButton11.AutoSize = True
+        Me.RadioButton11.Location = New System.Drawing.Point(215, 235)
+        Me.RadioButton11.Name = "RadioButton11"
+        Me.RadioButton11.Size = New System.Drawing.Size(54, 17)
+        Me.RadioButton11.TabIndex = 10
+        Me.RadioButton11.TabStop = True
+        Me.RadioButton11.Text = "Guant"
+        Me.RadioButton11.UseVisualStyleBackColor = True
+        '
+        'RadioButton12
+        '
+        Me.RadioButton12.AutoSize = True
+        Me.RadioButton12.Location = New System.Drawing.Point(62, 234)
+        Me.RadioButton12.Name = "RadioButton12"
+        Me.RadioButton12.Size = New System.Drawing.Size(63, 17)
+        Me.RadioButton12.TabIndex = 10
+        Me.RadioButton12.TabStop = True
+        Me.RadioButton12.Text = "Undead"
+        Me.RadioButton12.UseVisualStyleBackColor = True
+        '
+        'RadioButton13
+        '
+        Me.RadioButton13.AutoSize = True
+        Me.RadioButton13.Location = New System.Drawing.Point(358, 105)
+        Me.RadioButton13.Name = "RadioButton13"
+        Me.RadioButton13.Size = New System.Drawing.Size(101, 17)
+        Me.RadioButton13.TabIndex = 10
+        Me.RadioButton13.TabStop = True
+        Me.RadioButton13.Text = "Fast Metabolism"
+        Me.RadioButton13.UseVisualStyleBackColor = True
+        '
+        'RadioButton14
+        '
+        Me.RadioButton14.AutoSize = True
+        Me.RadioButton14.Location = New System.Drawing.Point(358, 138)
+        Me.RadioButton14.Name = "RadioButton14"
+        Me.RadioButton14.Size = New System.Drawing.Size(80, 17)
+        Me.RadioButton14.TabIndex = 9
+        Me.RadioButton14.TabStop = True
+        Me.RadioButton14.Text = "Tough Skin"
+        Me.RadioButton14.UseVisualStyleBackColor = True
+        '
+        'RadioButton15
+        '
+        Me.RadioButton15.AutoSize = True
+        Me.RadioButton15.Location = New System.Drawing.Point(358, 203)
+        Me.RadioButton15.Name = "RadioButton15"
+        Me.RadioButton15.Size = New System.Drawing.Size(91, 17)
+        Me.RadioButton15.TabIndex = 9
+        Me.RadioButton15.TabStop = True
+        Me.RadioButton15.Text = "Indebted Soul"
+        Me.RadioButton15.UseVisualStyleBackColor = True
+        '
+        'RadioButton16
+        '
+        Me.RadioButton16.AutoSize = True
+        Me.RadioButton16.Location = New System.Drawing.Point(358, 170)
+        Me.RadioButton16.Name = "RadioButton16"
+        Me.RadioButton16.Size = New System.Drawing.Size(74, 17)
+        Me.RadioButton16.TabIndex = 10
+        Me.RadioButton16.TabStop = True
+        Me.RadioButton16.Text = "Flashback"
+        Me.RadioButton16.UseVisualStyleBackColor = True
+        '
+        'ButtonModifierInfo
+        '
+        Me.ButtonModifierInfo.Location = New System.Drawing.Point(496, 147)
+        Me.ButtonModifierInfo.Name = "ButtonModifierInfo"
+        Me.ButtonModifierInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonModifierInfo.TabIndex = 11
+        Me.ButtonModifierInfo.Text = "Info"
+        Me.ButtonModifierInfo.UseVisualStyleBackColor = True
+        '
+        'PanelEnd
+        '
+        Me.PanelEnd.Controls.Add(Me.TextBoxEndBackstory)
+        Me.PanelEnd.Controls.Add(Me.Label5)
+        Me.PanelEnd.Controls.Add(Me.Label3)
+        Me.PanelEnd.Controls.Add(Me.TextBox2)
+        Me.PanelEnd.Controls.Add(Me.TextBox1)
+        Me.PanelEnd.Controls.Add(Me.LabelEndIntro)
+        Me.PanelEnd.Controls.Add(Me.ButtonEndCharactersheet)
+        Me.PanelEnd.Controls.Add(Me.ButtonEndModifier)
+        Me.PanelEnd.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelEnd.Location = New System.Drawing.Point(0, 0)
+        Me.PanelEnd.Name = "PanelEnd"
+        Me.PanelEnd.Size = New System.Drawing.Size(621, 316)
+        Me.PanelEnd.TabIndex = 48
+        '
+        'ButtonEndCharactersheet
+        '
+        Me.ButtonEndCharactersheet.Location = New System.Drawing.Point(542, 289)
+        Me.ButtonEndCharactersheet.Name = "ButtonEndCharactersheet"
+        Me.ButtonEndCharactersheet.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonEndCharactersheet.TabIndex = 7
+        Me.ButtonEndCharactersheet.Text = "Next"
+        Me.ButtonEndCharactersheet.UseVisualStyleBackColor = True
+        '
+        'ButtonEndModifier
+        '
+        Me.ButtonEndModifier.Location = New System.Drawing.Point(3, 289)
+        Me.ButtonEndModifier.Name = "ButtonEndModifier"
+        Me.ButtonEndModifier.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonEndModifier.TabIndex = 6
+        Me.ButtonEndModifier.Text = "Previous"
+        Me.ButtonEndModifier.UseVisualStyleBackColor = True
+        '
+        'LabelEndIntro
+        '
+        Me.LabelEndIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelEndIntro.Location = New System.Drawing.Point(13, 9)
+        Me.LabelEndIntro.Name = "LabelEndIntro"
+        Me.LabelEndIntro.Size = New System.Drawing.Size(596, 138)
+        Me.LabelEndIntro.TabIndex = 8
+        Me.LabelEndIntro.Text = resources.GetString("LabelEndIntro.Text")
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(119, 156)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(163, 20)
+        Me.TextBox1.TabIndex = 9
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(119, 224)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.TabIndex = 10
+        '
+        'Label3
+        '
+        Me.Label3.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(13, 156)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(103, 23)
+        Me.Label3.TabIndex = 11
+        Me.Label3.Text = "Character Name"
+        '
+        'Label5
+        '
+        Me.Label5.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(13, 226)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(97, 23)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "Character Age"
+        '
+        'TextBoxEndBackstory
+        '
+        Me.TextBoxEndBackstory.AllowDrop = True
+        Me.TextBoxEndBackstory.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxEndBackstory.Location = New System.Drawing.Point(318, 154)
+        Me.TextBoxEndBackstory.Name = "TextBoxEndBackstory"
+        Me.TextBoxEndBackstory.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TextBoxEndBackstory.Size = New System.Drawing.Size(291, 23)
+        Me.TextBoxEndBackstory.TabIndex = 13
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelEnd)
+        Me.Controls.Add(Me.PanelModifier)
+        Me.Controls.Add(Me.PanelKinesiokairo)
+        Me.Controls.Add(Me.PanelKinesiopyro)
+        Me.Controls.Add(Me.PanelKinesiohydro)
+        Me.Controls.Add(Me.PanelNecrokairo)
+        Me.Controls.Add(Me.PanelNecropyro)
+        Me.Controls.Add(Me.PanelNecrohydro)
+        Me.Controls.Add(Me.PanelNeurokairo)
+        Me.Controls.Add(Me.PanelNeuropyro)
+        Me.Controls.Add(Me.PanelNeurohydro)
+        Me.Controls.Add(Me.PanelVoidknight)
+        Me.Controls.Add(Me.PanelCleric)
+        Me.Controls.Add(Me.PanelNoble)
+        Me.Controls.Add(Me.PanelRogue)
+        Me.Controls.Add(Me.PanelRanger)
+        Me.Controls.Add(Me.PanelWarrior)
+        Me.Controls.Add(Me.PanelWizard)
+        Me.Controls.Add(Me.PanelClass)
+        Me.Controls.Add(Me.PanelBackgrounds)
+        Me.Controls.Add(Me.PanelWoodelf)
         Me.Controls.Add(Me.PanelFairy)
         Me.Controls.Add(Me.PanelDrakohnon)
         Me.Controls.Add(Me.PanelWolfsbein)
@@ -12499,25 +12879,6 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelNyad)
         Me.Controls.Add(Me.PanelAngalucian)
         Me.Controls.Add(Me.PanelFaerleth)
-        Me.Controls.Add(Me.PanelKinesiokairo)
-        Me.Controls.Add(Me.PanelKinesiopyro)
-        Me.Controls.Add(Me.PanelKinesiohydro)
-        Me.Controls.Add(Me.PanelNecrokairo)
-        Me.Controls.Add(Me.PanelNecropyro)
-        Me.Controls.Add(Me.PanelNecrohydro)
-        Me.Controls.Add(Me.PanelNeurokairo)
-        Me.Controls.Add(Me.PanelNeuropyro)
-        Me.Controls.Add(Me.PanelNeurohydro)
-        Me.Controls.Add(Me.PanelVoidknight)
-        Me.Controls.Add(Me.PanelCleric)
-        Me.Controls.Add(Me.PanelNoble)
-        Me.Controls.Add(Me.PanelRogue)
-        Me.Controls.Add(Me.PanelRanger)
-        Me.Controls.Add(Me.PanelWarrior)
-        Me.Controls.Add(Me.PanelWizard)
-        Me.Controls.Add(Me.PanelClass)
-        Me.Controls.Add(Me.PanelBackgrounds)
-        Me.Controls.Add(Me.PanelWoodelf)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelWelcome.ResumeLayout(False)
@@ -12611,6 +12972,10 @@ Partial Class Form1
         Me.PanelDrakohnon.PerformLayout()
         Me.PanelFairy.ResumeLayout(False)
         Me.PanelFairy.PerformLayout()
+        Me.PanelModifier.ResumeLayout(False)
+        Me.PanelModifier.PerformLayout()
+        Me.PanelEnd.ResumeLayout(False)
+        Me.PanelEnd.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -13223,48 +13588,48 @@ Partial Class Form1
     Friend WithEvents LabelVoidknightXp As Label
     Friend WithEvents LabelVoidknightIntro As Label
     Friend WithEvents PanelNeurohydro As Panel
-    Friend WithEvents ButtonNeuroHydroInfo As Button
-    Friend WithEvents ButtonNeuroHydroModifier As Button
-    Friend WithEvents ButtonNeuroHydroWizard As Button
-    Friend WithEvents ButtonNeuroHydroSmithingMinus As Button
-    Friend WithEvents ButtonNeuroHydroProwessMinus As Button
-    Friend WithEvents ButtonNeuroHydroSenseMinus As Button
-    Friend WithEvents ButtonNeuroHydroLeatherworkingMinus As Button
-    Friend WithEvents ButtonNeuroHydroSnowballMinus As Button
-    Friend WithEvents ButtonNeuroHydroEnchantingMinus As Button
-    Friend WithEvents ButtonNeuroHydroHealthMinus As Button
-    Friend WithEvents ButtonNeuroHydroScrollwritingMinus As Button
-    Friend WithEvents ButtonNeuroHydroDetectionMinus As Button
-    Friend WithEvents ButtonNeuroHydroSmithingPlus As Button
-    Friend WithEvents ButtonNeuroHydroWeapondexterityMinus As Button
-    Friend WithEvents ButtonNeuroHydroForestryMinus As Button
-    Friend WithEvents ButtonNeuroHydroProwessPlus As Button
-    Friend WithEvents ButtonNeuroHydroEnchantingPlus As Button
-    Friend WithEvents ButtonNeuroHydroHealthPlus As Button
-    Friend WithEvents ButtonNeuroHydroScrollwritingPlus As Button
-    Friend WithEvents ButtonNeuroHydroDetectionPlus As Button
-    Friend WithEvents ButtonNeuroHydroMigraineMinus As Button
-    Friend WithEvents ButtonNeuroHydroSensePlus As Button
-    Friend WithEvents ButtonNeuroHydroLeatherworkingPlus As Button
-    Friend WithEvents ButtonNeuroHydroWeapondexterityPlus As Button
-    Friend WithEvents ButtonNeuroHydroForestryPlus As Button
-    Friend WithEvents ButtonNeuroHydroSnowballPlus As Button
-    Friend WithEvents ButtonNeuroHydroMigrainePlus As Button
-    Friend WithEvents LabelNeuroHydroChosen As Label
-    Friend WithEvents LabelNeuroHydroEnchanting As Label
-    Friend WithEvents LabelNeuroHydroHealth As Label
-    Friend WithEvents LabelNeuroHydroScrollwriting As Label
-    Friend WithEvents LabelNeuroHydroDetection As Label
-    Friend WithEvents LabelNeuroHydroSmithing As Label
-    Friend WithEvents LabelNeuroHydroSense As Label
-    Friend WithEvents LabelNeuroHydroProwess As Label
-    Friend WithEvents LabelNeuroHydroLeatherworking As Label
-    Friend WithEvents Label21 As Label
-    Friend WithEvents LabelNeuroHydroWeapondexterity As Label
-    Friend WithEvents LabelNeuroHydroForestry As Label
-    Friend WithEvents LabelNeuroHydroMigraine As Label
-    Friend WithEvents LabelNeuroHydroXp As Label
-    Friend WithEvents LabelNeuroHydroIntro As Label
+    Friend WithEvents ButtonNeurohydroInfo As Button
+    Friend WithEvents ButtonNeurohydroModifier As Button
+    Friend WithEvents ButtonNeurohydroWizard As Button
+    Friend WithEvents ButtonNeurohydroSmithingMinus As Button
+    Friend WithEvents ButtonNeurohydroProwessMinus As Button
+    Friend WithEvents ButtonNeurohydroSenseMinus As Button
+    Friend WithEvents ButtonNeurohydroLeatherworkingMinus As Button
+    Friend WithEvents ButtonNeurohydroSnowballMinus As Button
+    Friend WithEvents ButtonNeurohydroEnchantingMinus As Button
+    Friend WithEvents ButtonNeurohydroHealthMinus As Button
+    Friend WithEvents ButtonNeurohydroScrollwritingMinus As Button
+    Friend WithEvents ButtonNeurohydroDetectionMinus As Button
+    Friend WithEvents ButtonNeurohydroSmithingPlus As Button
+    Friend WithEvents ButtonNeurohydroWeapondexterityMinus As Button
+    Friend WithEvents ButtonNeurohydroForestryMinus As Button
+    Friend WithEvents ButtonNeurohydroProwessPlus As Button
+    Friend WithEvents ButtonNeurohydroEnchantingPlus As Button
+    Friend WithEvents ButtonNeurohydroHealthPlus As Button
+    Friend WithEvents ButtonNeurohydroScrollwritingPlus As Button
+    Friend WithEvents ButtonNeurohydroDetectionPlus As Button
+    Friend WithEvents ButtonNeurohydroMigraineMinus As Button
+    Friend WithEvents ButtonNeurohydroSensePlus As Button
+    Friend WithEvents ButtonNeurohydroLeatherworkingPlus As Button
+    Friend WithEvents ButtonNeurohydroWeapondexterityPlus As Button
+    Friend WithEvents ButtonNeurohydroForestryPlus As Button
+    Friend WithEvents ButtonNeurohydroSnowballPlus As Button
+    Friend WithEvents ButtonNeurohydroMigrainePlus As Button
+    Friend WithEvents LabelNeurohydroChosen As Label
+    Friend WithEvents LabelNeurohydroEnchanting As Label
+    Friend WithEvents LabelNeurohydroHealth As Label
+    Friend WithEvents LabelNeurohydroScrollwriting As Label
+    Friend WithEvents LabelNeurohydroDetection As Label
+    Friend WithEvents LabelNeurohydroSmithing As Label
+    Friend WithEvents LabelNeurohydroSense As Label
+    Friend WithEvents LabelNeurohydroProwess As Label
+    Friend WithEvents LabelNeurohydroLeatherworking As Label
+    Friend WithEvents LabelNeurohydroSnowball As Label
+    Friend WithEvents LabelNeurohydroWeapondexterity As Label
+    Friend WithEvents LabelNeurohydroForestry As Label
+    Friend WithEvents LabelNeurohydroMigraine As Label
+    Friend WithEvents LabelNeurohydroXp As Label
+    Friend WithEvents LabelNeurohydroIntro As Label
     Friend WithEvents PanelNeuropyro As Panel
     Friend WithEvents ButtonNeuropyroInfo As Button
     Friend WithEvents ButtonNeuropyroModifier As Button
@@ -13628,4 +13993,34 @@ Partial Class Form1
     Friend WithEvents ButtonFairyBackgrounds As Button
     Friend WithEvents ButtonFairyKin As Button
     Friend WithEvents RadioButton5 As RadioButton
+    Friend WithEvents RadioButtonNyadThebiggertheyare As RadioButton
+    Friend WithEvents RadioButtonNyadFlow As RadioButton
+    Friend WithEvents PanelModifier As Panel
+    Friend WithEvents ButtonModifierInfo As Button
+    Friend WithEvents RadioButton11 As RadioButton
+    Friend WithEvents RadioButton16 As RadioButton
+    Friend WithEvents RadioButton15 As RadioButton
+    Friend WithEvents RadioButton9 As RadioButton
+    Friend WithEvents RadioButton10 As RadioButton
+    Friend WithEvents RadioButton12 As RadioButton
+    Friend WithEvents RadioButton14 As RadioButton
+    Friend WithEvents RadioButton6 As RadioButton
+    Friend WithEvents RadioButton13 As RadioButton
+    Friend WithEvents RadioButton8 As RadioButton
+    Friend WithEvents RadioButton7 As RadioButton
+    Friend WithEvents RadioButton4 As RadioButton
+    Friend WithEvents RadioButton3 As RadioButton
+    Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents LabelModifierIntro As Label
+    Friend WithEvents ButtonModifierEnd As Button
+    Friend WithEvents ButtonModifierClasstype As Button
+    Friend WithEvents PanelEnd As Panel
+    Friend WithEvents TextBoxEndBackstory As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents LabelEndIntro As Label
+    Friend WithEvents ButtonEndCharactersheet As Button
+    Friend WithEvents ButtonEndModifier As Button
 End Class
