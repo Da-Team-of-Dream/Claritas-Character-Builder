@@ -96,8 +96,10 @@ Partial Class Form1
         Me.LabelKinDescription = New System.Windows.Forms.Label()
         Me.PanelNyad = New System.Windows.Forms.Panel()
         Me.ButtonNyadInfo = New System.Windows.Forms.Button()
+        Me.RadioButtonNyadThebiggertheyare = New System.Windows.Forms.RadioButton()
         Me.RadioButtonNyad = New System.Windows.Forms.RadioButton()
         Me.RadioButtonNyadWateraffinity = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonNyadFlow = New System.Windows.Forms.RadioButton()
         Me.RadioButtonNyadTaint = New System.Windows.Forms.RadioButton()
         Me.LabelNyadIntro = New System.Windows.Forms.Label()
         Me.ButtonNyadBackground = New System.Windows.Forms.Button()
@@ -1037,36 +1039,110 @@ Partial Class Form1
         Me.LabelFairyIntro = New System.Windows.Forms.Label()
         Me.ButtonFairyBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonFairyKin = New System.Windows.Forms.Button()
-        Me.RadioButtonNyadFlow = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonNyadThebiggertheyare = New System.Windows.Forms.RadioButton()
         Me.PanelModifier = New System.Windows.Forms.Panel()
-        Me.ButtonModifierEnd = New System.Windows.Forms.Button()
-        Me.ButtonModifierClasstype = New System.Windows.Forms.Button()
-        Me.LabelModifierIntro = New System.Windows.Forms.Label()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
+        Me.ButtonModifierInfo = New System.Windows.Forms.Button()
+        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton15 = New System.Windows.Forms.RadioButton()
         Me.RadioButton9 = New System.Windows.Forms.RadioButton()
         Me.RadioButton10 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
         Me.RadioButton12 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton13 = New System.Windows.Forms.RadioButton()
         Me.RadioButton14 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton15 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
-        Me.ButtonModifierInfo = New System.Windows.Forms.Button()
+        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton13 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.LabelModifierIntro = New System.Windows.Forms.Label()
+        Me.ButtonModifierEnd = New System.Windows.Forms.Button()
+        Me.ButtonModifierClasstype = New System.Windows.Forms.Button()
         Me.PanelEnd = New System.Windows.Forms.Panel()
+        Me.TextboxEndBackstory = New System.Windows.Forms.TextBox()
+        Me.LabelEndCharacterage = New System.Windows.Forms.Label()
+        Me.LabelEndCharactername = New System.Windows.Forms.Label()
+        Me.TextboxEndCharacterage = New System.Windows.Forms.TextBox()
+        Me.TextboxEndCharactername = New System.Windows.Forms.TextBox()
+        Me.LabelEndIntro = New System.Windows.Forms.Label()
         Me.ButtonEndCharactersheet = New System.Windows.Forms.Button()
         Me.ButtonEndModifier = New System.Windows.Forms.Button()
-        Me.LabelEndIntro = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.LabelEndBackstory = New System.Windows.Forms.Label()
+        Me.PanelHalfbreedhuman = New System.Windows.Forms.Panel()
+        Me.LabelHalfbreedhumanAngelucian = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBoxEndBackstory = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.Label49 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.RadioButton17 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton18 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton19 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton20 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton21 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton22 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton23 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton24 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton25 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton26 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton27 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton28 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton29 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton30 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton31 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton32 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton33 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton34 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton35 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton36 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton37 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton38 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton39 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton40 = New System.Windows.Forms.RadioButton()
+        Me.ButtonHalfbreedhumanEnd = New System.Windows.Forms.Button()
+        Me.ButtonHalfbreedhumanModifier = New System.Windows.Forms.Button()
+        Me.LabelHalfbreedhumanIntro = New System.Windows.Forms.Label()
+        Me.PanelHalfbreedother = New System.Windows.Forms.Panel()
+        Me.Label55 = New System.Windows.Forms.Label()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.Label73 = New System.Windows.Forms.Label()
+        Me.Label77 = New System.Windows.Forms.Label()
+        Me.RadioButton42 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton49 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton54 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton62 = New System.Windows.Forms.RadioButton()
+        Me.ButtonHalfbreedotherEnd = New System.Windows.Forms.Button()
+        Me.ButtonHalfbreedotherModifier = New System.Windows.Forms.Button()
+        Me.LabelHalfbreedotherIntro = New System.Windows.Forms.Label()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
@@ -1115,6 +1191,8 @@ Partial Class Form1
         Me.PanelFairy.SuspendLayout()
         Me.PanelModifier.SuspendLayout()
         Me.PanelEnd.SuspendLayout()
+        Me.PanelHalfbreedhuman.SuspendLayout()
+        Me.PanelHalfbreedother.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelWelcome
@@ -1924,6 +2002,18 @@ Partial Class Form1
         Me.ButtonNyadInfo.Text = "Info"
         Me.ButtonNyadInfo.UseVisualStyleBackColor = True
         '
+        'RadioButtonNyadThebiggertheyare
+        '
+        Me.RadioButtonNyadThebiggertheyare.AutoSize = True
+        Me.RadioButtonNyadThebiggertheyare.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonNyadThebiggertheyare.Location = New System.Drawing.Point(271, 208)
+        Me.RadioButtonNyadThebiggertheyare.Name = "RadioButtonNyadThebiggertheyare"
+        Me.RadioButtonNyadThebiggertheyare.Size = New System.Drawing.Size(144, 20)
+        Me.RadioButtonNyadThebiggertheyare.TabIndex = 5
+        Me.RadioButtonNyadThebiggertheyare.TabStop = True
+        Me.RadioButtonNyadThebiggertheyare.Text = "The Bigger They Are"
+        Me.RadioButtonNyadThebiggertheyare.UseVisualStyleBackColor = True
+        '
         'RadioButtonNyad
         '
         Me.RadioButtonNyad.AutoSize = True
@@ -1947,6 +2037,18 @@ Partial Class Form1
         Me.RadioButtonNyadWateraffinity.TabStop = True
         Me.RadioButtonNyadWateraffinity.Text = "Water Affinity"
         Me.RadioButtonNyadWateraffinity.UseVisualStyleBackColor = True
+        '
+        'RadioButtonNyadFlow
+        '
+        Me.RadioButtonNyadFlow.AutoSize = True
+        Me.RadioButtonNyadFlow.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonNyadFlow.Location = New System.Drawing.Point(271, 250)
+        Me.RadioButtonNyadFlow.Name = "RadioButtonNyadFlow"
+        Me.RadioButtonNyadFlow.Size = New System.Drawing.Size(53, 20)
+        Me.RadioButtonNyadFlow.TabIndex = 3
+        Me.RadioButtonNyadFlow.TabStop = True
+        Me.RadioButtonNyadFlow.Text = "Flow"
+        Me.RadioButtonNyadFlow.UseVisualStyleBackColor = True
         '
         'RadioButtonNyadTaint
         '
@@ -12503,30 +12605,6 @@ Partial Class Form1
         Me.ButtonFairyKin.Text = "Previous"
         Me.ButtonFairyKin.UseVisualStyleBackColor = True
         '
-        'RadioButtonNyadFlow
-        '
-        Me.RadioButtonNyadFlow.AutoSize = True
-        Me.RadioButtonNyadFlow.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNyadFlow.Location = New System.Drawing.Point(271, 250)
-        Me.RadioButtonNyadFlow.Name = "RadioButtonNyadFlow"
-        Me.RadioButtonNyadFlow.Size = New System.Drawing.Size(53, 20)
-        Me.RadioButtonNyadFlow.TabIndex = 3
-        Me.RadioButtonNyadFlow.TabStop = True
-        Me.RadioButtonNyadFlow.Text = "Flow"
-        Me.RadioButtonNyadFlow.UseVisualStyleBackColor = True
-        '
-        'RadioButtonNyadThebiggertheyare
-        '
-        Me.RadioButtonNyadThebiggertheyare.AutoSize = True
-        Me.RadioButtonNyadThebiggertheyare.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNyadThebiggertheyare.Location = New System.Drawing.Point(271, 208)
-        Me.RadioButtonNyadThebiggertheyare.Name = "RadioButtonNyadThebiggertheyare"
-        Me.RadioButtonNyadThebiggertheyare.Size = New System.Drawing.Size(144, 20)
-        Me.RadioButtonNyadThebiggertheyare.TabIndex = 5
-        Me.RadioButtonNyadThebiggertheyare.TabStop = True
-        Me.RadioButtonNyadThebiggertheyare.Text = "The Bigger They Are"
-        Me.RadioButtonNyadThebiggertheyare.UseVisualStyleBackColor = True
-        '
         'PanelModifier
         '
         Me.PanelModifier.Controls.Add(Me.ButtonModifierInfo)
@@ -12553,98 +12631,47 @@ Partial Class Form1
         Me.PanelModifier.Size = New System.Drawing.Size(621, 316)
         Me.PanelModifier.TabIndex = 47
         '
-        'ButtonModifierEnd
+        'ButtonModifierInfo
         '
-        Me.ButtonModifierEnd.Location = New System.Drawing.Point(542, 289)
-        Me.ButtonModifierEnd.Name = "ButtonModifierEnd"
-        Me.ButtonModifierEnd.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonModifierEnd.TabIndex = 7
-        Me.ButtonModifierEnd.Text = "Next"
-        Me.ButtonModifierEnd.UseVisualStyleBackColor = True
+        Me.ButtonModifierInfo.Location = New System.Drawing.Point(496, 147)
+        Me.ButtonModifierInfo.Name = "ButtonModifierInfo"
+        Me.ButtonModifierInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonModifierInfo.TabIndex = 11
+        Me.ButtonModifierInfo.Text = "Info"
+        Me.ButtonModifierInfo.UseVisualStyleBackColor = True
         '
-        'ButtonModifierClasstype
+        'RadioButton11
         '
-        Me.ButtonModifierClasstype.Location = New System.Drawing.Point(3, 289)
-        Me.ButtonModifierClasstype.Name = "ButtonModifierClasstype"
-        Me.ButtonModifierClasstype.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonModifierClasstype.TabIndex = 6
-        Me.ButtonModifierClasstype.Text = "Previous"
-        Me.ButtonModifierClasstype.UseVisualStyleBackColor = True
+        Me.RadioButton11.AutoSize = True
+        Me.RadioButton11.Location = New System.Drawing.Point(215, 235)
+        Me.RadioButton11.Name = "RadioButton11"
+        Me.RadioButton11.Size = New System.Drawing.Size(54, 17)
+        Me.RadioButton11.TabIndex = 10
+        Me.RadioButton11.TabStop = True
+        Me.RadioButton11.Text = "Guant"
+        Me.RadioButton11.UseVisualStyleBackColor = True
         '
-        'LabelModifierIntro
+        'RadioButton16
         '
-        Me.LabelModifierIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelModifierIntro.Location = New System.Drawing.Point(15, 14)
-        Me.LabelModifierIntro.Name = "LabelModifierIntro"
-        Me.LabelModifierIntro.Size = New System.Drawing.Size(591, 70)
-        Me.LabelModifierIntro.TabIndex = 8
-        Me.LabelModifierIntro.Text = resources.GetString("LabelModifierIntro.Text")
+        Me.RadioButton16.AutoSize = True
+        Me.RadioButton16.Location = New System.Drawing.Point(358, 170)
+        Me.RadioButton16.Name = "RadioButton16"
+        Me.RadioButton16.Size = New System.Drawing.Size(74, 17)
+        Me.RadioButton16.TabIndex = 10
+        Me.RadioButton16.TabStop = True
+        Me.RadioButton16.Text = "Flashback"
+        Me.RadioButton16.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'RadioButton15
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(62, 103)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(66, 17)
-        Me.RadioButton2.TabIndex = 9
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Common"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'RadioButton3
-        '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(62, 135)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(75, 17)
-        Me.RadioButton3.TabIndex = 10
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Half-Breed"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
-        'RadioButton4
-        '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(62, 168)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(81, 17)
-        Me.RadioButton4.TabIndex = 9
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Soul Splitter"
-        Me.RadioButton4.UseVisualStyleBackColor = True
-        '
-        'RadioButton6
-        '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(62, 200)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(104, 17)
-        Me.RadioButton6.TabIndex = 10
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Spark of Insanity"
-        Me.RadioButton6.UseVisualStyleBackColor = True
-        '
-        'RadioButton7
-        '
-        Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.Location = New System.Drawing.Point(215, 105)
-        Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(65, 17)
-        Me.RadioButton7.TabIndex = 10
-        Me.RadioButton7.TabStop = True
-        Me.RadioButton7.Text = "Vampiric"
-        Me.RadioButton7.UseVisualStyleBackColor = True
-        '
-        'RadioButton8
-        '
-        Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.Location = New System.Drawing.Point(215, 138)
-        Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(70, 17)
-        Me.RadioButton8.TabIndex = 9
-        Me.RadioButton8.TabStop = True
-        Me.RadioButton8.Text = "Werewolf"
-        Me.RadioButton8.UseVisualStyleBackColor = True
+        Me.RadioButton15.AutoSize = True
+        Me.RadioButton15.Location = New System.Drawing.Point(358, 203)
+        Me.RadioButton15.Name = "RadioButton15"
+        Me.RadioButton15.Size = New System.Drawing.Size(91, 17)
+        Me.RadioButton15.TabIndex = 9
+        Me.RadioButton15.TabStop = True
+        Me.RadioButton15.Text = "Indebted Soul"
+        Me.RadioButton15.UseVisualStyleBackColor = True
         '
         'RadioButton9
         '
@@ -12668,17 +12695,6 @@ Partial Class Form1
         Me.RadioButton10.Text = "Naturalist"
         Me.RadioButton10.UseVisualStyleBackColor = True
         '
-        'RadioButton11
-        '
-        Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Location = New System.Drawing.Point(215, 235)
-        Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(54, 17)
-        Me.RadioButton11.TabIndex = 10
-        Me.RadioButton11.TabStop = True
-        Me.RadioButton11.Text = "Guant"
-        Me.RadioButton11.UseVisualStyleBackColor = True
-        '
         'RadioButton12
         '
         Me.RadioButton12.AutoSize = True
@@ -12689,17 +12705,6 @@ Partial Class Form1
         Me.RadioButton12.TabStop = True
         Me.RadioButton12.Text = "Undead"
         Me.RadioButton12.UseVisualStyleBackColor = True
-        '
-        'RadioButton13
-        '
-        Me.RadioButton13.AutoSize = True
-        Me.RadioButton13.Location = New System.Drawing.Point(358, 105)
-        Me.RadioButton13.Name = "RadioButton13"
-        Me.RadioButton13.Size = New System.Drawing.Size(101, 17)
-        Me.RadioButton13.TabIndex = 10
-        Me.RadioButton13.TabStop = True
-        Me.RadioButton13.Text = "Fast Metabolism"
-        Me.RadioButton13.UseVisualStyleBackColor = True
         '
         'RadioButton14
         '
@@ -12712,44 +12717,118 @@ Partial Class Form1
         Me.RadioButton14.Text = "Tough Skin"
         Me.RadioButton14.UseVisualStyleBackColor = True
         '
-        'RadioButton15
+        'RadioButton6
         '
-        Me.RadioButton15.AutoSize = True
-        Me.RadioButton15.Location = New System.Drawing.Point(358, 203)
-        Me.RadioButton15.Name = "RadioButton15"
-        Me.RadioButton15.Size = New System.Drawing.Size(91, 17)
-        Me.RadioButton15.TabIndex = 9
-        Me.RadioButton15.TabStop = True
-        Me.RadioButton15.Text = "Indebted Soul"
-        Me.RadioButton15.UseVisualStyleBackColor = True
+        Me.RadioButton6.AutoSize = True
+        Me.RadioButton6.Location = New System.Drawing.Point(62, 200)
+        Me.RadioButton6.Name = "RadioButton6"
+        Me.RadioButton6.Size = New System.Drawing.Size(104, 17)
+        Me.RadioButton6.TabIndex = 10
+        Me.RadioButton6.TabStop = True
+        Me.RadioButton6.Text = "Spark of Insanity"
+        Me.RadioButton6.UseVisualStyleBackColor = True
         '
-        'RadioButton16
+        'RadioButton13
         '
-        Me.RadioButton16.AutoSize = True
-        Me.RadioButton16.Location = New System.Drawing.Point(358, 170)
-        Me.RadioButton16.Name = "RadioButton16"
-        Me.RadioButton16.Size = New System.Drawing.Size(74, 17)
-        Me.RadioButton16.TabIndex = 10
-        Me.RadioButton16.TabStop = True
-        Me.RadioButton16.Text = "Flashback"
-        Me.RadioButton16.UseVisualStyleBackColor = True
+        Me.RadioButton13.AutoSize = True
+        Me.RadioButton13.Location = New System.Drawing.Point(358, 105)
+        Me.RadioButton13.Name = "RadioButton13"
+        Me.RadioButton13.Size = New System.Drawing.Size(101, 17)
+        Me.RadioButton13.TabIndex = 10
+        Me.RadioButton13.TabStop = True
+        Me.RadioButton13.Text = "Fast Metabolism"
+        Me.RadioButton13.UseVisualStyleBackColor = True
         '
-        'ButtonModifierInfo
+        'RadioButton8
         '
-        Me.ButtonModifierInfo.Location = New System.Drawing.Point(496, 147)
-        Me.ButtonModifierInfo.Name = "ButtonModifierInfo"
-        Me.ButtonModifierInfo.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonModifierInfo.TabIndex = 11
-        Me.ButtonModifierInfo.Text = "Info"
-        Me.ButtonModifierInfo.UseVisualStyleBackColor = True
+        Me.RadioButton8.AutoSize = True
+        Me.RadioButton8.Location = New System.Drawing.Point(215, 138)
+        Me.RadioButton8.Name = "RadioButton8"
+        Me.RadioButton8.Size = New System.Drawing.Size(70, 17)
+        Me.RadioButton8.TabIndex = 9
+        Me.RadioButton8.TabStop = True
+        Me.RadioButton8.Text = "Werewolf"
+        Me.RadioButton8.UseVisualStyleBackColor = True
+        '
+        'RadioButton7
+        '
+        Me.RadioButton7.AutoSize = True
+        Me.RadioButton7.Location = New System.Drawing.Point(215, 105)
+        Me.RadioButton7.Name = "RadioButton7"
+        Me.RadioButton7.Size = New System.Drawing.Size(65, 17)
+        Me.RadioButton7.TabIndex = 10
+        Me.RadioButton7.TabStop = True
+        Me.RadioButton7.Text = "Vampiric"
+        Me.RadioButton7.UseVisualStyleBackColor = True
+        '
+        'RadioButton4
+        '
+        Me.RadioButton4.AutoSize = True
+        Me.RadioButton4.Location = New System.Drawing.Point(62, 168)
+        Me.RadioButton4.Name = "RadioButton4"
+        Me.RadioButton4.Size = New System.Drawing.Size(81, 17)
+        Me.RadioButton4.TabIndex = 9
+        Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Text = "Soul Splitter"
+        Me.RadioButton4.UseVisualStyleBackColor = True
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(62, 135)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(75, 17)
+        Me.RadioButton3.TabIndex = 10
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "Half-Breed"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(62, 103)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(66, 17)
+        Me.RadioButton2.TabIndex = 9
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Common"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'LabelModifierIntro
+        '
+        Me.LabelModifierIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelModifierIntro.Location = New System.Drawing.Point(15, 14)
+        Me.LabelModifierIntro.Name = "LabelModifierIntro"
+        Me.LabelModifierIntro.Size = New System.Drawing.Size(591, 70)
+        Me.LabelModifierIntro.TabIndex = 8
+        Me.LabelModifierIntro.Text = resources.GetString("LabelModifierIntro.Text")
+        '
+        'ButtonModifierEnd
+        '
+        Me.ButtonModifierEnd.Location = New System.Drawing.Point(542, 289)
+        Me.ButtonModifierEnd.Name = "ButtonModifierEnd"
+        Me.ButtonModifierEnd.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonModifierEnd.TabIndex = 7
+        Me.ButtonModifierEnd.Text = "Next"
+        Me.ButtonModifierEnd.UseVisualStyleBackColor = True
+        '
+        'ButtonModifierClasstype
+        '
+        Me.ButtonModifierClasstype.Location = New System.Drawing.Point(3, 289)
+        Me.ButtonModifierClasstype.Name = "ButtonModifierClasstype"
+        Me.ButtonModifierClasstype.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonModifierClasstype.TabIndex = 6
+        Me.ButtonModifierClasstype.Text = "Previous"
+        Me.ButtonModifierClasstype.UseVisualStyleBackColor = True
         '
         'PanelEnd
         '
-        Me.PanelEnd.Controls.Add(Me.TextBoxEndBackstory)
-        Me.PanelEnd.Controls.Add(Me.Label5)
-        Me.PanelEnd.Controls.Add(Me.Label3)
-        Me.PanelEnd.Controls.Add(Me.TextBox2)
-        Me.PanelEnd.Controls.Add(Me.TextBox1)
+        Me.PanelEnd.Controls.Add(Me.LabelEndBackstory)
+        Me.PanelEnd.Controls.Add(Me.TextboxEndBackstory)
+        Me.PanelEnd.Controls.Add(Me.LabelEndCharacterage)
+        Me.PanelEnd.Controls.Add(Me.LabelEndCharactername)
+        Me.PanelEnd.Controls.Add(Me.TextboxEndCharacterage)
+        Me.PanelEnd.Controls.Add(Me.TextboxEndCharactername)
         Me.PanelEnd.Controls.Add(Me.LabelEndIntro)
         Me.PanelEnd.Controls.Add(Me.ButtonEndCharactersheet)
         Me.PanelEnd.Controls.Add(Me.ButtonEndModifier)
@@ -12759,13 +12838,64 @@ Partial Class Form1
         Me.PanelEnd.Size = New System.Drawing.Size(621, 316)
         Me.PanelEnd.TabIndex = 48
         '
+        'TextboxEndBackstory
+        '
+        Me.TextboxEndBackstory.AllowDrop = True
+        Me.TextboxEndBackstory.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextboxEndBackstory.Location = New System.Drawing.Point(315, 173)
+        Me.TextboxEndBackstory.Name = "TextboxEndBackstory"
+        Me.TextboxEndBackstory.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TextboxEndBackstory.Size = New System.Drawing.Size(291, 23)
+        Me.TextboxEndBackstory.TabIndex = 13
+        '
+        'LabelEndCharacterage
+        '
+        Me.LabelEndCharacterage.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelEndCharacterage.Location = New System.Drawing.Point(13, 226)
+        Me.LabelEndCharacterage.Name = "LabelEndCharacterage"
+        Me.LabelEndCharacterage.Size = New System.Drawing.Size(97, 23)
+        Me.LabelEndCharacterage.TabIndex = 12
+        Me.LabelEndCharacterage.Text = "Character Age"
+        '
+        'LabelEndCharactername
+        '
+        Me.LabelEndCharactername.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelEndCharactername.Location = New System.Drawing.Point(10, 175)
+        Me.LabelEndCharactername.Name = "LabelEndCharactername"
+        Me.LabelEndCharactername.Size = New System.Drawing.Size(103, 23)
+        Me.LabelEndCharactername.TabIndex = 11
+        Me.LabelEndCharactername.Text = "Character Name"
+        '
+        'TextboxEndCharacterage
+        '
+        Me.TextboxEndCharacterage.Location = New System.Drawing.Point(119, 224)
+        Me.TextboxEndCharacterage.Name = "TextboxEndCharacterage"
+        Me.TextboxEndCharacterage.Size = New System.Drawing.Size(100, 20)
+        Me.TextboxEndCharacterage.TabIndex = 10
+        '
+        'TextboxEndCharactername
+        '
+        Me.TextboxEndCharactername.Location = New System.Drawing.Point(116, 175)
+        Me.TextboxEndCharactername.Name = "TextboxEndCharactername"
+        Me.TextboxEndCharactername.Size = New System.Drawing.Size(163, 20)
+        Me.TextboxEndCharactername.TabIndex = 9
+        '
+        'LabelEndIntro
+        '
+        Me.LabelEndIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelEndIntro.Location = New System.Drawing.Point(13, 9)
+        Me.LabelEndIntro.Name = "LabelEndIntro"
+        Me.LabelEndIntro.Size = New System.Drawing.Size(596, 132)
+        Me.LabelEndIntro.TabIndex = 8
+        Me.LabelEndIntro.Text = resources.GetString("LabelEndIntro.Text")
+        '
         'ButtonEndCharactersheet
         '
-        Me.ButtonEndCharactersheet.Location = New System.Drawing.Point(542, 289)
+        Me.ButtonEndCharactersheet.Location = New System.Drawing.Point(439, 289)
         Me.ButtonEndCharactersheet.Name = "ButtonEndCharactersheet"
-        Me.ButtonEndCharactersheet.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonEndCharactersheet.Size = New System.Drawing.Size(178, 23)
         Me.ButtonEndCharactersheet.TabIndex = 7
-        Me.ButtonEndCharactersheet.Text = "Next"
+        Me.ButtonEndCharactersheet.Text = "Create Character Sheet"
         Me.ButtonEndCharactersheet.UseVisualStyleBackColor = True
         '
         'ButtonEndModifier
@@ -12777,62 +12907,860 @@ Partial Class Form1
         Me.ButtonEndModifier.Text = "Previous"
         Me.ButtonEndModifier.UseVisualStyleBackColor = True
         '
-        'LabelEndIntro
+        'LabelEndBackstory
         '
-        Me.LabelEndIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelEndIntro.Location = New System.Drawing.Point(13, 9)
-        Me.LabelEndIntro.Name = "LabelEndIntro"
-        Me.LabelEndIntro.Size = New System.Drawing.Size(596, 138)
-        Me.LabelEndIntro.TabIndex = 8
-        Me.LabelEndIntro.Text = resources.GetString("LabelEndIntro.Text")
+        Me.LabelEndBackstory.AutoSize = True
+        Me.LabelEndBackstory.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelEndBackstory.Location = New System.Drawing.Point(313, 150)
+        Me.LabelEndBackstory.Name = "LabelEndBackstory"
+        Me.LabelEndBackstory.Size = New System.Drawing.Size(121, 16)
+        Me.LabelEndBackstory.TabIndex = 14
+        Me.LabelEndBackstory.Text = "Backstory Summary"
         '
-        'TextBox1
+        'PanelHalfbreedhuman
         '
-        Me.TextBox1.Location = New System.Drawing.Point(119, 156)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(163, 20)
-        Me.TextBox1.TabIndex = 9
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanAngelucian)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label5)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label6)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label8)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label10)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label11)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label12)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label15)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label17)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label20)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label21)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label22)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label23)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label27)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label28)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label29)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label30)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label32)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label33)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label35)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label36)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label37)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label38)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label39)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label40)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label41)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label42)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label43)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label44)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label45)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label46)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label47)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label48)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label49)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.Label50)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton17)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton18)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton19)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton20)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton21)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton22)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton23)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton24)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton25)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton26)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton27)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton28)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton29)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton30)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton31)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton32)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton33)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton34)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton35)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton36)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton37)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton38)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton39)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton40)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.ButtonHalfbreedhumanEnd)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.ButtonHalfbreedhumanModifier)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanIntro)
+        Me.PanelHalfbreedhuman.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelHalfbreedhuman.Enabled = False
+        Me.PanelHalfbreedhuman.Location = New System.Drawing.Point(0, 0)
+        Me.PanelHalfbreedhuman.Name = "PanelHalfbreedhuman"
+        Me.PanelHalfbreedhuman.Size = New System.Drawing.Size(621, 316)
+        Me.PanelHalfbreedhuman.TabIndex = 49
         '
-        'TextBox2
+        'LabelHalfbreedhumanAngelucian
         '
-        Me.TextBox2.Location = New System.Drawing.Point(119, 224)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 10
-        '
-        'Label3
-        '
-        Me.Label3.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(13, 156)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(103, 23)
-        Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Character Name"
+        Me.LabelHalfbreedhumanAngelucian.AutoSize = True
+        Me.LabelHalfbreedhumanAngelucian.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanAngelucian.Location = New System.Drawing.Point(222, 17)
+        Me.LabelHalfbreedhumanAngelucian.Name = "LabelHalfbreedhumanAngelucian"
+        Me.LabelHalfbreedhumanAngelucian.Size = New System.Drawing.Size(70, 16)
+        Me.LabelHalfbreedhumanAngelucian.TabIndex = 6
+        Me.LabelHalfbreedhumanAngelucian.Text = "Angalucian"
         '
         'Label5
         '
+        Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(13, 226)
+        Me.Label5.Location = New System.Drawing.Point(526, 19)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(97, 23)
-        Me.Label5.TabIndex = 12
-        Me.Label5.Text = "Character Age"
+        Me.Label5.Size = New System.Drawing.Size(34, 16)
+        Me.Label5.TabIndex = 6
+        Me.Label5.Text = "Troll"
         '
-        'TextBoxEndBackstory
+        'Label6
         '
-        Me.TextBoxEndBackstory.AllowDrop = True
-        Me.TextBoxEndBackstory.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxEndBackstory.Location = New System.Drawing.Point(318, 154)
-        Me.TextBoxEndBackstory.Name = "TextBoxEndBackstory"
-        Me.TextBoxEndBackstory.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBoxEndBackstory.Size = New System.Drawing.Size(291, 23)
-        Me.TextBoxEndBackstory.TabIndex = 13
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(379, 18)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(43, 16)
+        Me.Label6.TabIndex = 6
+        Me.Label6.Text = "Goblin"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(378, 192)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(60, 16)
+        Me.Label8.TabIndex = 6
+        Me.Label8.Text = "Sanjoran"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(222, 190)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(77, 16)
+        Me.Label10.TabIndex = 6
+        Me.Label10.Text = "Gi-Ga Yo-Na"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(378, 107)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(56, 16)
+        Me.Label11.TabIndex = 6
+        Me.Label11.Text = "Kinsmen"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(222, 105)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(41, 16)
+        Me.Label12.TabIndex = 6
+        Me.Label12.Text = "Dryad"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(378, 215)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(53, 16)
+        Me.Label15.TabIndex = 6
+        Me.Label15.Text = "Squirrel"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(222, 213)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(48, 16)
+        Me.Label17.TabIndex = 6
+        Me.Label17.Text = "Gnome"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(378, 147)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(36, 16)
+        Me.Label20.TabIndex = 6
+        Me.Label20.Text = "Nyad"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(222, 145)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(36, 16)
+        Me.Label21.TabIndex = 6
+        Me.Label21.Text = "Fairy"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(378, 169)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(28, 16)
+        Me.Label22.TabIndex = 6
+        Me.Label22.Text = "Orc"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(222, 167)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(55, 16)
+        Me.Label23.TabIndex = 6
+        Me.Label23.Text = "Felucian"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(378, 215)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(45, 16)
+        Me.Label27.TabIndex = 6
+        Me.Label27.Text = "Label1"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(222, 213)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(45, 16)
+        Me.Label28.TabIndex = 6
+        Me.Label28.Text = "Label1"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(526, 63)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(64, 16)
+        Me.Label29.TabIndex = 6
+        Me.Label29.Text = "Wolfsbein"
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(378, 63)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(44, 16)
+        Me.Label30.TabIndex = 6
+        Me.Label30.Text = "Hobbit"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Location = New System.Drawing.Point(526, 84)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(59, 16)
+        Me.Label32.TabIndex = 6
+        Me.Label32.Text = "Wood Elf"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(222, 61)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(52, 16)
+        Me.Label33.TabIndex = 6
+        Me.Label33.Text = "Dark Elf"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.Location = New System.Drawing.Point(378, 84)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(85, 16)
+        Me.Label35.TabIndex = 6
+        Me.Label35.Text = "Jade Imperial"
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Location = New System.Drawing.Point(222, 168)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(45, 16)
+        Me.Label36.TabIndex = 6
+        Me.Label36.Text = "Label1"
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Location = New System.Drawing.Point(378, 126)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(58, 16)
+        Me.Label37.TabIndex = 6
+        Me.Label37.Text = "Minotaur"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(526, 84)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(45, 16)
+        Me.Label38.TabIndex = 6
+        Me.Label38.Text = "Label1"
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(222, 82)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(69, 16)
+        Me.Label39.TabIndex = 6
+        Me.Label39.Text = "Drakhonon"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Location = New System.Drawing.Point(378, 84)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(45, 16)
+        Me.Label40.TabIndex = 6
+        Me.Label40.Text = "Label1"
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(222, 124)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(42, 16)
+        Me.Label41.TabIndex = 6
+        Me.Label41.Text = "Dwarf"
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(378, 126)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(45, 16)
+        Me.Label42.TabIndex = 6
+        Me.Label42.Text = "Label1"
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(526, 41)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(80, 16)
+        Me.Label43.TabIndex = 6
+        Me.Label43.Text = "Wastelander"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Location = New System.Drawing.Point(222, 82)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(45, 16)
+        Me.Label44.TabIndex = 6
+        Me.Label44.Text = "Label1"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label45.Location = New System.Drawing.Point(378, 41)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(51, 16)
+        Me.Label45.TabIndex = 6
+        Me.Label45.Text = "High Elf"
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.Location = New System.Drawing.Point(526, 40)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(45, 16)
+        Me.Label46.TabIndex = 6
+        Me.Label46.Text = "Label1"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.Location = New System.Drawing.Point(222, 124)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(45, 16)
+        Me.Label47.TabIndex = 6
+        Me.Label47.Text = "Label1"
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.Location = New System.Drawing.Point(378, 40)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(45, 16)
+        Me.Label48.TabIndex = 6
+        Me.Label48.Text = "Label1"
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label49.Location = New System.Drawing.Point(222, 38)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(53, 16)
+        Me.Label49.TabIndex = 6
+        Me.Label49.Text = "Catdrah"
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Location = New System.Drawing.Point(222, 38)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(52, 16)
+        Me.Label50.TabIndex = 6
+        Me.Label50.Text = "Label50"
+        '
+        'RadioButton17
+        '
+        Me.RadioButton17.AutoSize = True
+        Me.RadioButton17.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton17.Location = New System.Drawing.Point(506, 85)
+        Me.RadioButton17.Name = "RadioButton17"
+        Me.RadioButton17.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton17.TabIndex = 5
+        Me.RadioButton17.TabStop = True
+        Me.RadioButton17.UseVisualStyleBackColor = True
+        '
+        'RadioButton18
+        '
+        Me.RadioButton18.AutoSize = True
+        Me.RadioButton18.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton18.Location = New System.Drawing.Point(506, 41)
+        Me.RadioButton18.Name = "RadioButton18"
+        Me.RadioButton18.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton18.TabIndex = 5
+        Me.RadioButton18.TabStop = True
+        Me.RadioButton18.UseVisualStyleBackColor = True
+        '
+        'RadioButton19
+        '
+        Me.RadioButton19.AutoSize = True
+        Me.RadioButton19.Location = New System.Drawing.Point(202, 19)
+        Me.RadioButton19.Name = "RadioButton19"
+        Me.RadioButton19.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton19.TabIndex = 5
+        Me.RadioButton19.TabStop = True
+        Me.RadioButton19.UseVisualStyleBackColor = True
+        '
+        'RadioButton20
+        '
+        Me.RadioButton20.AutoSize = True
+        Me.RadioButton20.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton20.Location = New System.Drawing.Point(506, 63)
+        Me.RadioButton20.Name = "RadioButton20"
+        Me.RadioButton20.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton20.TabIndex = 5
+        Me.RadioButton20.TabStop = True
+        Me.RadioButton20.UseVisualStyleBackColor = True
+        '
+        'RadioButton21
+        '
+        Me.RadioButton21.AutoSize = True
+        Me.RadioButton21.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton21.Location = New System.Drawing.Point(506, 19)
+        Me.RadioButton21.Name = "RadioButton21"
+        Me.RadioButton21.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton21.TabIndex = 4
+        Me.RadioButton21.TabStop = True
+        Me.RadioButton21.UseVisualStyleBackColor = True
+        '
+        'RadioButton22
+        '
+        Me.RadioButton22.AutoSize = True
+        Me.RadioButton22.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton22.Location = New System.Drawing.Point(358, 192)
+        Me.RadioButton22.Name = "RadioButton22"
+        Me.RadioButton22.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton22.TabIndex = 4
+        Me.RadioButton22.TabStop = True
+        Me.RadioButton22.UseVisualStyleBackColor = True
+        '
+        'RadioButton23
+        '
+        Me.RadioButton23.AutoSize = True
+        Me.RadioButton23.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton23.Location = New System.Drawing.Point(358, 149)
+        Me.RadioButton23.Name = "RadioButton23"
+        Me.RadioButton23.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton23.TabIndex = 4
+        Me.RadioButton23.TabStop = True
+        Me.RadioButton23.UseVisualStyleBackColor = True
+        '
+        'RadioButton24
+        '
+        Me.RadioButton24.AutoSize = True
+        Me.RadioButton24.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton24.Location = New System.Drawing.Point(358, 215)
+        Me.RadioButton24.Name = "RadioButton24"
+        Me.RadioButton24.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton24.TabIndex = 4
+        Me.RadioButton24.TabStop = True
+        Me.RadioButton24.UseVisualStyleBackColor = True
+        '
+        'RadioButton25
+        '
+        Me.RadioButton25.AutoSize = True
+        Me.RadioButton25.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton25.Location = New System.Drawing.Point(358, 107)
+        Me.RadioButton25.Name = "RadioButton25"
+        Me.RadioButton25.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton25.TabIndex = 4
+        Me.RadioButton25.TabStop = True
+        Me.RadioButton25.UseVisualStyleBackColor = True
+        '
+        'RadioButton26
+        '
+        Me.RadioButton26.AutoSize = True
+        Me.RadioButton26.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton26.Location = New System.Drawing.Point(358, 170)
+        Me.RadioButton26.Name = "RadioButton26"
+        Me.RadioButton26.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton26.TabIndex = 4
+        Me.RadioButton26.TabStop = True
+        Me.RadioButton26.UseVisualStyleBackColor = True
+        '
+        'RadioButton27
+        '
+        Me.RadioButton27.AutoSize = True
+        Me.RadioButton27.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton27.Location = New System.Drawing.Point(358, 63)
+        Me.RadioButton27.Name = "RadioButton27"
+        Me.RadioButton27.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton27.TabIndex = 4
+        Me.RadioButton27.TabStop = True
+        Me.RadioButton27.UseVisualStyleBackColor = True
+        '
+        'RadioButton28
+        '
+        Me.RadioButton28.AutoSize = True
+        Me.RadioButton28.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton28.Location = New System.Drawing.Point(358, 127)
+        Me.RadioButton28.Name = "RadioButton28"
+        Me.RadioButton28.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton28.TabIndex = 4
+        Me.RadioButton28.TabStop = True
+        Me.RadioButton28.UseVisualStyleBackColor = True
+        '
+        'RadioButton29
+        '
+        Me.RadioButton29.AutoSize = True
+        Me.RadioButton29.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton29.Location = New System.Drawing.Point(359, 18)
+        Me.RadioButton29.Name = "RadioButton29"
+        Me.RadioButton29.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton29.TabIndex = 3
+        Me.RadioButton29.TabStop = True
+        Me.RadioButton29.UseVisualStyleBackColor = True
+        '
+        'RadioButton30
+        '
+        Me.RadioButton30.AutoSize = True
+        Me.RadioButton30.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton30.Location = New System.Drawing.Point(358, 85)
+        Me.RadioButton30.Name = "RadioButton30"
+        Me.RadioButton30.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton30.TabIndex = 4
+        Me.RadioButton30.TabStop = True
+        Me.RadioButton30.UseVisualStyleBackColor = True
+        '
+        'RadioButton31
+        '
+        Me.RadioButton31.AutoSize = True
+        Me.RadioButton31.Location = New System.Drawing.Point(202, 192)
+        Me.RadioButton31.Name = "RadioButton31"
+        Me.RadioButton31.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton31.TabIndex = 3
+        Me.RadioButton31.TabStop = True
+        Me.RadioButton31.UseVisualStyleBackColor = True
+        '
+        'RadioButton32
+        '
+        Me.RadioButton32.AutoSize = True
+        Me.RadioButton32.Location = New System.Drawing.Point(202, 214)
+        Me.RadioButton32.Name = "RadioButton32"
+        Me.RadioButton32.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton32.TabIndex = 3
+        Me.RadioButton32.TabStop = True
+        Me.RadioButton32.UseVisualStyleBackColor = True
+        '
+        'RadioButton33
+        '
+        Me.RadioButton33.AutoSize = True
+        Me.RadioButton33.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton33.Location = New System.Drawing.Point(358, 41)
+        Me.RadioButton33.Name = "RadioButton33"
+        Me.RadioButton33.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton33.TabIndex = 4
+        Me.RadioButton33.TabStop = True
+        Me.RadioButton33.UseVisualStyleBackColor = True
+        '
+        'RadioButton34
+        '
+        Me.RadioButton34.AutoSize = True
+        Me.RadioButton34.Location = New System.Drawing.Point(202, 169)
+        Me.RadioButton34.Name = "RadioButton34"
+        Me.RadioButton34.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton34.TabIndex = 3
+        Me.RadioButton34.TabStop = True
+        Me.RadioButton34.UseVisualStyleBackColor = True
+        '
+        'RadioButton35
+        '
+        Me.RadioButton35.AutoSize = True
+        Me.RadioButton35.Location = New System.Drawing.Point(202, 149)
+        Me.RadioButton35.Name = "RadioButton35"
+        Me.RadioButton35.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton35.TabIndex = 3
+        Me.RadioButton35.TabStop = True
+        Me.RadioButton35.UseVisualStyleBackColor = True
+        '
+        'RadioButton36
+        '
+        Me.RadioButton36.AutoSize = True
+        Me.RadioButton36.Location = New System.Drawing.Point(202, 127)
+        Me.RadioButton36.Name = "RadioButton36"
+        Me.RadioButton36.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton36.TabIndex = 3
+        Me.RadioButton36.TabStop = True
+        Me.RadioButton36.UseVisualStyleBackColor = True
+        '
+        'RadioButton37
+        '
+        Me.RadioButton37.AutoSize = True
+        Me.RadioButton37.Location = New System.Drawing.Point(202, 107)
+        Me.RadioButton37.Name = "RadioButton37"
+        Me.RadioButton37.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton37.TabIndex = 3
+        Me.RadioButton37.TabStop = True
+        Me.RadioButton37.UseVisualStyleBackColor = True
+        '
+        'RadioButton38
+        '
+        Me.RadioButton38.AutoSize = True
+        Me.RadioButton38.Location = New System.Drawing.Point(202, 84)
+        Me.RadioButton38.Name = "RadioButton38"
+        Me.RadioButton38.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton38.TabIndex = 3
+        Me.RadioButton38.TabStop = True
+        Me.RadioButton38.UseVisualStyleBackColor = True
+        '
+        'RadioButton39
+        '
+        Me.RadioButton39.AutoSize = True
+        Me.RadioButton39.Location = New System.Drawing.Point(202, 63)
+        Me.RadioButton39.Name = "RadioButton39"
+        Me.RadioButton39.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton39.TabIndex = 3
+        Me.RadioButton39.TabStop = True
+        Me.RadioButton39.UseVisualStyleBackColor = True
+        '
+        'RadioButton40
+        '
+        Me.RadioButton40.AutoSize = True
+        Me.RadioButton40.Location = New System.Drawing.Point(202, 40)
+        Me.RadioButton40.Name = "RadioButton40"
+        Me.RadioButton40.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton40.TabIndex = 3
+        Me.RadioButton40.TabStop = True
+        Me.RadioButton40.UseVisualStyleBackColor = True
+        '
+        'ButtonHalfbreedhumanEnd
+        '
+        Me.ButtonHalfbreedhumanEnd.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonHalfbreedhumanEnd.Name = "ButtonHalfbreedhumanEnd"
+        Me.ButtonHalfbreedhumanEnd.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonHalfbreedhumanEnd.TabIndex = 2
+        Me.ButtonHalfbreedhumanEnd.Text = "Next"
+        Me.ButtonHalfbreedhumanEnd.UseVisualStyleBackColor = True
+        '
+        'ButtonHalfbreedhumanModifier
+        '
+        Me.ButtonHalfbreedhumanModifier.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonHalfbreedhumanModifier.Name = "ButtonHalfbreedhumanModifier"
+        Me.ButtonHalfbreedhumanModifier.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonHalfbreedhumanModifier.TabIndex = 1
+        Me.ButtonHalfbreedhumanModifier.Text = "Previous"
+        Me.ButtonHalfbreedhumanModifier.UseVisualStyleBackColor = True
+        '
+        'LabelHalfbreedhumanIntro
+        '
+        Me.LabelHalfbreedhumanIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanIntro.Location = New System.Drawing.Point(12, 9)
+        Me.LabelHalfbreedhumanIntro.Name = "LabelHalfbreedhumanIntro"
+        Me.LabelHalfbreedhumanIntro.Size = New System.Drawing.Size(165, 203)
+        Me.LabelHalfbreedhumanIntro.TabIndex = 0
+        Me.LabelHalfbreedhumanIntro.Text = resources.GetString("LabelHalfbreedhumanIntro.Text")
+        '
+        'PanelHalfbreedother
+        '
+        Me.PanelHalfbreedother.Controls.Add(Me.Label55)
+        Me.PanelHalfbreedother.Controls.Add(Me.Label69)
+        Me.PanelHalfbreedother.Controls.Add(Me.Label73)
+        Me.PanelHalfbreedother.Controls.Add(Me.Label77)
+        Me.PanelHalfbreedother.Controls.Add(Me.RadioButton42)
+        Me.PanelHalfbreedother.Controls.Add(Me.RadioButton49)
+        Me.PanelHalfbreedother.Controls.Add(Me.RadioButton54)
+        Me.PanelHalfbreedother.Controls.Add(Me.RadioButton62)
+        Me.PanelHalfbreedother.Controls.Add(Me.ButtonHalfbreedotherEnd)
+        Me.PanelHalfbreedother.Controls.Add(Me.ButtonHalfbreedotherModifier)
+        Me.PanelHalfbreedother.Controls.Add(Me.LabelHalfbreedotherIntro)
+        Me.PanelHalfbreedother.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelHalfbreedother.Enabled = False
+        Me.PanelHalfbreedother.Location = New System.Drawing.Point(0, 0)
+        Me.PanelHalfbreedother.Name = "PanelHalfbreedother"
+        Me.PanelHalfbreedother.Size = New System.Drawing.Size(621, 316)
+        Me.PanelHalfbreedother.TabIndex = 50
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label55.Location = New System.Drawing.Point(407, 156)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(56, 16)
+        Me.Label55.TabIndex = 6
+        Me.Label55.Text = "Kinsmen"
+        '
+        'Label69
+        '
+        Me.Label69.AutoSize = True
+        Me.Label69.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Location = New System.Drawing.Point(268, 156)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(85, 16)
+        Me.Label69.TabIndex = 6
+        Me.Label69.Text = "Jade Imperial"
+        '
+        'Label73
+        '
+        Me.Label73.AutoSize = True
+        Me.Label73.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.Location = New System.Drawing.Point(269, 83)
+        Me.Label73.Name = "Label73"
+        Me.Label73.Size = New System.Drawing.Size(69, 16)
+        Me.Label73.TabIndex = 6
+        Me.Label73.Text = "Drakhonon"
+        '
+        'Label77
+        '
+        Me.Label77.AutoSize = True
+        Me.Label77.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.Location = New System.Drawing.Point(405, 84)
+        Me.Label77.Name = "Label77"
+        Me.Label77.Size = New System.Drawing.Size(80, 16)
+        Me.Label77.TabIndex = 6
+        Me.Label77.Text = "Wastelander"
+        '
+        'RadioButton42
+        '
+        Me.RadioButton42.AutoSize = True
+        Me.RadioButton42.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton42.Location = New System.Drawing.Point(385, 86)
+        Me.RadioButton42.Name = "RadioButton42"
+        Me.RadioButton42.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton42.TabIndex = 5
+        Me.RadioButton42.TabStop = True
+        Me.RadioButton42.UseVisualStyleBackColor = True
+        '
+        'RadioButton49
+        '
+        Me.RadioButton49.AutoSize = True
+        Me.RadioButton49.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton49.Location = New System.Drawing.Point(387, 158)
+        Me.RadioButton49.Name = "RadioButton49"
+        Me.RadioButton49.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton49.TabIndex = 4
+        Me.RadioButton49.TabStop = True
+        Me.RadioButton49.UseVisualStyleBackColor = True
+        '
+        'RadioButton54
+        '
+        Me.RadioButton54.AutoSize = True
+        Me.RadioButton54.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton54.Location = New System.Drawing.Point(248, 157)
+        Me.RadioButton54.Name = "RadioButton54"
+        Me.RadioButton54.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton54.TabIndex = 4
+        Me.RadioButton54.TabStop = True
+        Me.RadioButton54.UseVisualStyleBackColor = True
+        '
+        'RadioButton62
+        '
+        Me.RadioButton62.AutoSize = True
+        Me.RadioButton62.Location = New System.Drawing.Point(249, 85)
+        Me.RadioButton62.Name = "RadioButton62"
+        Me.RadioButton62.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButton62.TabIndex = 3
+        Me.RadioButton62.TabStop = True
+        Me.RadioButton62.UseVisualStyleBackColor = True
+        '
+        'ButtonHalfbreedotherEnd
+        '
+        Me.ButtonHalfbreedotherEnd.Location = New System.Drawing.Point(543, 290)
+        Me.ButtonHalfbreedotherEnd.Name = "ButtonHalfbreedotherEnd"
+        Me.ButtonHalfbreedotherEnd.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonHalfbreedotherEnd.TabIndex = 2
+        Me.ButtonHalfbreedotherEnd.Text = "Next"
+        Me.ButtonHalfbreedotherEnd.UseVisualStyleBackColor = True
+        '
+        'ButtonHalfbreedotherModifier
+        '
+        Me.ButtonHalfbreedotherModifier.Location = New System.Drawing.Point(3, 290)
+        Me.ButtonHalfbreedotherModifier.Name = "ButtonHalfbreedotherModifier"
+        Me.ButtonHalfbreedotherModifier.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonHalfbreedotherModifier.TabIndex = 1
+        Me.ButtonHalfbreedotherModifier.Text = "Previous"
+        Me.ButtonHalfbreedotherModifier.UseVisualStyleBackColor = True
+        '
+        'LabelHalfbreedotherIntro
+        '
+        Me.LabelHalfbreedotherIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedotherIntro.Location = New System.Drawing.Point(12, 9)
+        Me.LabelHalfbreedotherIntro.Name = "LabelHalfbreedotherIntro"
+        Me.LabelHalfbreedotherIntro.Size = New System.Drawing.Size(165, 203)
+        Me.LabelHalfbreedotherIntro.TabIndex = 0
+        Me.LabelHalfbreedotherIntro.Text = resources.GetString("LabelHalfbreedotherIntro.Text")
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelHalfbreedhuman)
+        Me.Controls.Add(Me.PanelKin)
+        Me.Controls.Add(Me.PanelGoblin)
+        Me.Controls.Add(Me.PanelWelcome)
+        Me.Controls.Add(Me.PanelNyad)
+        Me.Controls.Add(Me.PanelAngalucian)
+        Me.Controls.Add(Me.PanelFaerleth)
         Me.Controls.Add(Me.PanelEnd)
         Me.Controls.Add(Me.PanelModifier)
         Me.Controls.Add(Me.PanelKinesiokairo)
@@ -12873,12 +13801,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelDwarf)
         Me.Controls.Add(Me.PanelDryad)
         Me.Controls.Add(Me.PanelGnome)
-        Me.Controls.Add(Me.PanelKin)
-        Me.Controls.Add(Me.PanelGoblin)
-        Me.Controls.Add(Me.PanelWelcome)
-        Me.Controls.Add(Me.PanelNyad)
-        Me.Controls.Add(Me.PanelAngalucian)
-        Me.Controls.Add(Me.PanelFaerleth)
+        Me.Controls.Add(Me.PanelHalfbreedother)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelWelcome.ResumeLayout(False)
@@ -12976,6 +13899,10 @@ Partial Class Form1
         Me.PanelModifier.PerformLayout()
         Me.PanelEnd.ResumeLayout(False)
         Me.PanelEnd.PerformLayout()
+        Me.PanelHalfbreedhuman.ResumeLayout(False)
+        Me.PanelHalfbreedhuman.PerformLayout()
+        Me.PanelHalfbreedother.ResumeLayout(False)
+        Me.PanelHalfbreedother.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -14015,12 +14942,88 @@ Partial Class Form1
     Friend WithEvents ButtonModifierEnd As Button
     Friend WithEvents ButtonModifierClasstype As Button
     Friend WithEvents PanelEnd As Panel
-    Friend WithEvents TextBoxEndBackstory As TextBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextboxEndBackstory As TextBox
+    Friend WithEvents LabelEndCharacterage As Label
+    Friend WithEvents LabelEndCharactername As Label
+    Friend WithEvents TextboxEndCharacterage As TextBox
+    Friend WithEvents TextboxEndCharactername As TextBox
     Friend WithEvents LabelEndIntro As Label
     Friend WithEvents ButtonEndCharactersheet As Button
     Friend WithEvents ButtonEndModifier As Button
+    Friend WithEvents LabelEndBackstory As Label
+    Friend WithEvents PanelHalfbreedhuman As Panel
+    Friend WithEvents LabelHalfbreedhumanAngelucian As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Label35 As Label
+    Friend WithEvents Label36 As Label
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents Label41 As Label
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label43 As Label
+    Friend WithEvents Label44 As Label
+    Friend WithEvents Label45 As Label
+    Friend WithEvents Label46 As Label
+    Friend WithEvents Label47 As Label
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label49 As Label
+    Friend WithEvents Label50 As Label
+    Friend WithEvents RadioButton17 As RadioButton
+    Friend WithEvents RadioButton18 As RadioButton
+    Friend WithEvents RadioButton19 As RadioButton
+    Friend WithEvents RadioButton20 As RadioButton
+    Friend WithEvents RadioButton21 As RadioButton
+    Friend WithEvents RadioButton22 As RadioButton
+    Friend WithEvents RadioButton23 As RadioButton
+    Friend WithEvents RadioButton24 As RadioButton
+    Friend WithEvents RadioButton25 As RadioButton
+    Friend WithEvents RadioButton26 As RadioButton
+    Friend WithEvents RadioButton27 As RadioButton
+    Friend WithEvents RadioButton28 As RadioButton
+    Friend WithEvents RadioButton29 As RadioButton
+    Friend WithEvents RadioButton30 As RadioButton
+    Friend WithEvents RadioButton31 As RadioButton
+    Friend WithEvents RadioButton32 As RadioButton
+    Friend WithEvents RadioButton33 As RadioButton
+    Friend WithEvents RadioButton34 As RadioButton
+    Friend WithEvents RadioButton35 As RadioButton
+    Friend WithEvents RadioButton36 As RadioButton
+    Friend WithEvents RadioButton37 As RadioButton
+    Friend WithEvents RadioButton38 As RadioButton
+    Friend WithEvents RadioButton39 As RadioButton
+    Friend WithEvents RadioButton40 As RadioButton
+    Friend WithEvents ButtonHalfbreedhumanEnd As Button
+    Friend WithEvents ButtonHalfbreedhumanModifier As Button
+    Friend WithEvents LabelHalfbreedhumanIntro As Label
+    Friend WithEvents PanelHalfbreedother As Panel
+    Friend WithEvents Label55 As Label
+    Friend WithEvents Label69 As Label
+    Friend WithEvents Label73 As Label
+    Friend WithEvents Label77 As Label
+    Friend WithEvents RadioButton42 As RadioButton
+    Friend WithEvents RadioButton49 As RadioButton
+    Friend WithEvents RadioButton54 As RadioButton
+    Friend WithEvents RadioButton62 As RadioButton
+    Friend WithEvents ButtonHalfbreedotherEnd As Button
+    Friend WithEvents ButtonHalfbreedotherModifier As Button
+    Friend WithEvents LabelHalfbreedotherIntro As Label
 End Class
