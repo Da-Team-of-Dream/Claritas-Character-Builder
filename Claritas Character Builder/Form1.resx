@@ -207,7 +207,7 @@
   <data name="LabelVoidknightIntro.Text" xml:space="preserve">
     <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
-  <data name="LabelNeuroHydroIntro.Text" xml:space="preserve">
+  <data name="LabelNeurohydroIntro.Text" xml:space="preserve">
     <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
   <data name="LabelNeuropyroIntro.Text" xml:space="preserve">
@@ -239,5 +239,17 @@
   </data>
   <data name="LabelFairyIntro.Text" xml:space="preserve">
     <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
+  </data>
+  <data name="LabelModifierIntro.Text" xml:space="preserve">
+    <value>We're almost done. This is the modifier page. Modifiers help make your character unique and interesting.  Each one adds its own mechanic that you can use to your advantage in some circumstances, or make into a very cool backstory trait. If this isn't something you want to add to your character, just hit common. Common is the same as having no modifier. As always click for info.</value>
+  </data>
+  <data name="LabelEndIntro.Text" xml:space="preserve">
+    <value>You did it! Hopefully by this point you have a good image of what you want your character to be. Remeber your character is more than a bunch of stats you just chose. Your character is a personality that you're going to live during events, so make sure they're someone that is exciting for you to be. Someone you can use to escape reality for just a little. The last thing to do is put in your character's name, age, and a description of their backstory and life previous to entering Willshire. You don't need to fill out the backstory part of it now, you can always come up with those specifics later. Once you're done with this, go back through and make sure everything is where you want it. You can still change stuff! Thank you for your participation and we can't wait to see you there!</value>
+  </data>
+  <data name="LabelHalfbreedhumanIntro.Text" xml:space="preserve">
+    <value>You picked Half-Breed! This means you are half Human kin, half something else. Since the kin you picked was human, you can pick anything to be your other half. Click the name for info and of course pick something different than you did earlier.</value>
+  </data>
+  <data name="LabelHalfbreedotherIntro.Text" xml:space="preserve">
+    <value>You picked Half-Breed! This means you are half Human kin, half something else. Since the kin you picked was not human, you need to pick a human half. Click on the kin for info, and of course pick a different kin than you did earlier.</value>
   </data>
 </root>
