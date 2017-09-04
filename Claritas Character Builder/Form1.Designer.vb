@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PanelWelcome = New System.Windows.Forms.Panel()
@@ -99,11 +99,11 @@ Partial Class Form1
         Me.RadioButtonNyadThebiggertheyare = New System.Windows.Forms.RadioButton()
         Me.RadioButtonNyadWateraffinity = New System.Windows.Forms.RadioButton()
         Me.RadioButtonNyadFlow = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonNyadSqueeze = New System.Windows.Forms.RadioButton()
         Me.RadioButtonNyadTaint = New System.Windows.Forms.RadioButton()
         Me.LabelNyadIntro = New System.Windows.Forms.Label()
         Me.ButtonNyadBackground = New System.Windows.Forms.Button()
         Me.ButtonNyadKin = New System.Windows.Forms.Button()
-        Me.RadioButtonNyadSqueeze = New System.Windows.Forms.RadioButton()
         Me.PanelDryad = New System.Windows.Forms.Panel()
         Me.ButtonDryadInfo = New System.Windows.Forms.Button()
         Me.RadioButtonDryadBarkSkin = New System.Windows.Forms.RadioButton()
@@ -1070,64 +1070,64 @@ Partial Class Form1
         Me.ButtonEndModifier = New System.Windows.Forms.Button()
         Me.PanelHalfbreedhuman = New System.Windows.Forms.Panel()
         Me.LabelHalfbreedhumanAngelucian = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanTroll = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanGoblin = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanSanjoran = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanGigayona = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanKinsman = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanDryad = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanSquirrel = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanGnome = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanNyad = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanFairy = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanOrc = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanFelucian = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label35 = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanWolfbein = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanHobbit = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanWoodelf = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanDarkelf = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanJadeimperial = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanMinotaur = New System.Windows.Forms.Label()
         Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label39 = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanDrakhonon = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
-        Me.Label41 = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanDwarf = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label43 = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanWastelander = New System.Windows.Forms.Label()
         Me.Label44 = New System.Windows.Forms.Label()
-        Me.Label45 = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanHighelf = New System.Windows.Forms.Label()
         Me.Label46 = New System.Windows.Forms.Label()
         Me.Label47 = New System.Windows.Forms.Label()
         Me.Label48 = New System.Windows.Forms.Label()
-        Me.Label49 = New System.Windows.Forms.Label()
+        Me.LabelHalfbreedhumanCatdrah = New System.Windows.Forms.Label()
         Me.Label50 = New System.Windows.Forms.Label()
-        Me.RadioButton17 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton18 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton19 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton20 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton21 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton22 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton23 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton24 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton25 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton26 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton27 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton28 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton29 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton30 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton31 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton32 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton33 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton34 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton35 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton36 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton37 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton38 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton39 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton40 = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanWoodelf = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanWastelander = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanAngelucian = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanWolfsbein = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanTroll = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanSanjoran = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanNyad = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanSquirrel = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanKinsmen = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanOrc = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanHobbit = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanMinotaur = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanGoblin = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanJadeimperial = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanGigayona = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanGnome = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanHighelf = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanFelucian = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanFairy = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanDwarf = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanDryad = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanDrakhonon = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanDarkelf = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonHalfbreedhumanCatdrah = New System.Windows.Forms.RadioButton()
         Me.ButtonHalfbreedhumanEnd = New System.Windows.Forms.Button()
         Me.ButtonHalfbreedhumanModifier = New System.Windows.Forms.Button()
         Me.LabelHalfbreedhumanIntro = New System.Windows.Forms.Label()
@@ -1347,7 +1347,7 @@ Partial Class Form1
         '
         Me.LabelKinAngalucian.AutoSize = True
         Me.LabelKinAngalucian.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinAngalucian.Location = New System.Drawing.Point(222, 19)
+        Me.LabelKinAngalucian.Location = New System.Drawing.Point(222, 49)
         Me.LabelKinAngalucian.Name = "LabelKinAngalucian"
         Me.LabelKinAngalucian.Size = New System.Drawing.Size(70, 16)
         Me.LabelKinAngalucian.TabIndex = 6
@@ -1357,7 +1357,7 @@ Partial Class Form1
         '
         Me.LabelKinTroll.AutoSize = True
         Me.LabelKinTroll.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinTroll.Location = New System.Drawing.Point(526, 19)
+        Me.LabelKinTroll.Location = New System.Drawing.Point(526, 49)
         Me.LabelKinTroll.Name = "LabelKinTroll"
         Me.LabelKinTroll.Size = New System.Drawing.Size(34, 16)
         Me.LabelKinTroll.TabIndex = 6
@@ -1367,7 +1367,7 @@ Partial Class Form1
         '
         Me.LabelKinGoblin.AutoSize = True
         Me.LabelKinGoblin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinGoblin.Location = New System.Drawing.Point(379, 18)
+        Me.LabelKinGoblin.Location = New System.Drawing.Point(379, 48)
         Me.LabelKinGoblin.Name = "LabelKinGoblin"
         Me.LabelKinGoblin.Size = New System.Drawing.Size(43, 16)
         Me.LabelKinGoblin.TabIndex = 6
@@ -1377,7 +1377,7 @@ Partial Class Form1
         '
         Me.LabelKinSanjoran.AutoSize = True
         Me.LabelKinSanjoran.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinSanjoran.Location = New System.Drawing.Point(378, 192)
+        Me.LabelKinSanjoran.Location = New System.Drawing.Point(378, 222)
         Me.LabelKinSanjoran.Name = "LabelKinSanjoran"
         Me.LabelKinSanjoran.Size = New System.Drawing.Size(60, 16)
         Me.LabelKinSanjoran.TabIndex = 6
@@ -1387,7 +1387,7 @@ Partial Class Form1
         '
         Me.LabelKinGiGaYoNa.AutoSize = True
         Me.LabelKinGiGaYoNa.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinGiGaYoNa.Location = New System.Drawing.Point(222, 192)
+        Me.LabelKinGiGaYoNa.Location = New System.Drawing.Point(222, 222)
         Me.LabelKinGiGaYoNa.Name = "LabelKinGiGaYoNa"
         Me.LabelKinGiGaYoNa.Size = New System.Drawing.Size(77, 16)
         Me.LabelKinGiGaYoNa.TabIndex = 6
@@ -1397,7 +1397,7 @@ Partial Class Form1
         '
         Me.LabelKinKinsmen.AutoSize = True
         Me.LabelKinKinsmen.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinKinsmen.Location = New System.Drawing.Point(378, 107)
+        Me.LabelKinKinsmen.Location = New System.Drawing.Point(378, 137)
         Me.LabelKinKinsmen.Name = "LabelKinKinsmen"
         Me.LabelKinKinsmen.Size = New System.Drawing.Size(56, 16)
         Me.LabelKinKinsmen.TabIndex = 6
@@ -1407,7 +1407,7 @@ Partial Class Form1
         '
         Me.LabelKinDryad.AutoSize = True
         Me.LabelKinDryad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinDryad.Location = New System.Drawing.Point(222, 107)
+        Me.LabelKinDryad.Location = New System.Drawing.Point(222, 137)
         Me.LabelKinDryad.Name = "LabelKinDryad"
         Me.LabelKinDryad.Size = New System.Drawing.Size(41, 16)
         Me.LabelKinDryad.TabIndex = 6
@@ -1417,7 +1417,7 @@ Partial Class Form1
         '
         Me.LabelKinSquirrel.AutoSize = True
         Me.LabelKinSquirrel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinSquirrel.Location = New System.Drawing.Point(378, 215)
+        Me.LabelKinSquirrel.Location = New System.Drawing.Point(378, 245)
         Me.LabelKinSquirrel.Name = "LabelKinSquirrel"
         Me.LabelKinSquirrel.Size = New System.Drawing.Size(53, 16)
         Me.LabelKinSquirrel.TabIndex = 6
@@ -1427,7 +1427,7 @@ Partial Class Form1
         '
         Me.LabelKinGnome.AutoSize = True
         Me.LabelKinGnome.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinGnome.Location = New System.Drawing.Point(222, 215)
+        Me.LabelKinGnome.Location = New System.Drawing.Point(222, 245)
         Me.LabelKinGnome.Name = "LabelKinGnome"
         Me.LabelKinGnome.Size = New System.Drawing.Size(48, 16)
         Me.LabelKinGnome.TabIndex = 6
@@ -1437,7 +1437,7 @@ Partial Class Form1
         '
         Me.LabelKinNyad.AutoSize = True
         Me.LabelKinNyad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinNyad.Location = New System.Drawing.Point(378, 147)
+        Me.LabelKinNyad.Location = New System.Drawing.Point(378, 177)
         Me.LabelKinNyad.Name = "LabelKinNyad"
         Me.LabelKinNyad.Size = New System.Drawing.Size(36, 16)
         Me.LabelKinNyad.TabIndex = 6
@@ -1447,7 +1447,7 @@ Partial Class Form1
         '
         Me.LabelKinFairy.AutoSize = True
         Me.LabelKinFairy.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinFairy.Location = New System.Drawing.Point(222, 147)
+        Me.LabelKinFairy.Location = New System.Drawing.Point(222, 177)
         Me.LabelKinFairy.Name = "LabelKinFairy"
         Me.LabelKinFairy.Size = New System.Drawing.Size(36, 16)
         Me.LabelKinFairy.TabIndex = 6
@@ -1457,7 +1457,7 @@ Partial Class Form1
         '
         Me.LabelKinOrc.AutoSize = True
         Me.LabelKinOrc.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinOrc.Location = New System.Drawing.Point(378, 169)
+        Me.LabelKinOrc.Location = New System.Drawing.Point(378, 199)
         Me.LabelKinOrc.Name = "LabelKinOrc"
         Me.LabelKinOrc.Size = New System.Drawing.Size(28, 16)
         Me.LabelKinOrc.TabIndex = 6
@@ -1467,7 +1467,7 @@ Partial Class Form1
         '
         Me.LabelKinFelucian.AutoSize = True
         Me.LabelKinFelucian.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinFelucian.Location = New System.Drawing.Point(222, 169)
+        Me.LabelKinFelucian.Location = New System.Drawing.Point(222, 199)
         Me.LabelKinFelucian.Name = "LabelKinFelucian"
         Me.LabelKinFelucian.Size = New System.Drawing.Size(55, 16)
         Me.LabelKinFelucian.TabIndex = 6
@@ -1477,7 +1477,7 @@ Partial Class Form1
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(378, 215)
+        Me.Label24.Location = New System.Drawing.Point(378, 245)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(45, 16)
         Me.Label24.TabIndex = 6
@@ -1487,7 +1487,7 @@ Partial Class Form1
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(222, 215)
+        Me.Label13.Location = New System.Drawing.Point(222, 245)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(45, 16)
         Me.Label13.TabIndex = 6
@@ -1497,7 +1497,7 @@ Partial Class Form1
         '
         Me.LabelKinWolfsbein.AutoSize = True
         Me.LabelKinWolfsbein.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinWolfsbein.Location = New System.Drawing.Point(526, 63)
+        Me.LabelKinWolfsbein.Location = New System.Drawing.Point(526, 93)
         Me.LabelKinWolfsbein.Name = "LabelKinWolfsbein"
         Me.LabelKinWolfsbein.Size = New System.Drawing.Size(64, 16)
         Me.LabelKinWolfsbein.TabIndex = 6
@@ -1507,7 +1507,7 @@ Partial Class Form1
         '
         Me.LabelKinFaerleth.AutoSize = True
         Me.LabelKinFaerleth.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinFaerleth.Location = New System.Drawing.Point(378, 63)
+        Me.LabelKinFaerleth.Location = New System.Drawing.Point(378, 93)
         Me.LabelKinFaerleth.Name = "LabelKinFaerleth"
         Me.LabelKinFaerleth.Size = New System.Drawing.Size(55, 16)
         Me.LabelKinFaerleth.TabIndex = 6
@@ -1517,7 +1517,7 @@ Partial Class Form1
         '
         Me.LabelKinWoodElf.AutoSize = True
         Me.LabelKinWoodElf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinWoodElf.Location = New System.Drawing.Point(526, 84)
+        Me.LabelKinWoodElf.Location = New System.Drawing.Point(526, 114)
         Me.LabelKinWoodElf.Name = "LabelKinWoodElf"
         Me.LabelKinWoodElf.Size = New System.Drawing.Size(59, 16)
         Me.LabelKinWoodElf.TabIndex = 6
@@ -1527,7 +1527,7 @@ Partial Class Form1
         '
         Me.LabelKinDarkelf.AutoSize = True
         Me.LabelKinDarkelf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinDarkelf.Location = New System.Drawing.Point(222, 63)
+        Me.LabelKinDarkelf.Location = New System.Drawing.Point(222, 93)
         Me.LabelKinDarkelf.Name = "LabelKinDarkelf"
         Me.LabelKinDarkelf.Size = New System.Drawing.Size(52, 16)
         Me.LabelKinDarkelf.TabIndex = 6
@@ -1537,7 +1537,7 @@ Partial Class Form1
         '
         Me.LabelKinJadeImperial.AutoSize = True
         Me.LabelKinJadeImperial.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinJadeImperial.Location = New System.Drawing.Point(378, 84)
+        Me.LabelKinJadeImperial.Location = New System.Drawing.Point(378, 114)
         Me.LabelKinJadeImperial.Name = "LabelKinJadeImperial"
         Me.LabelKinJadeImperial.Size = New System.Drawing.Size(85, 16)
         Me.LabelKinJadeImperial.TabIndex = 6
@@ -1547,7 +1547,7 @@ Partial Class Form1
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(222, 170)
+        Me.Label9.Location = New System.Drawing.Point(222, 200)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(45, 16)
         Me.Label9.TabIndex = 6
@@ -1557,7 +1557,7 @@ Partial Class Form1
         '
         Me.LabelKinMinotaur.AutoSize = True
         Me.LabelKinMinotaur.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinMinotaur.Location = New System.Drawing.Point(378, 126)
+        Me.LabelKinMinotaur.Location = New System.Drawing.Point(378, 156)
         Me.LabelKinMinotaur.Name = "LabelKinMinotaur"
         Me.LabelKinMinotaur.Size = New System.Drawing.Size(58, 16)
         Me.LabelKinMinotaur.TabIndex = 6
@@ -1567,7 +1567,7 @@ Partial Class Form1
         '
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(526, 84)
+        Me.Label34.Location = New System.Drawing.Point(526, 114)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(45, 16)
         Me.Label34.TabIndex = 6
@@ -1577,7 +1577,7 @@ Partial Class Form1
         '
         Me.LabelKinDrakhonon.AutoSize = True
         Me.LabelKinDrakhonon.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinDrakhonon.Location = New System.Drawing.Point(222, 84)
+        Me.LabelKinDrakhonon.Location = New System.Drawing.Point(222, 114)
         Me.LabelKinDrakhonon.Name = "LabelKinDrakhonon"
         Me.LabelKinDrakhonon.Size = New System.Drawing.Size(69, 16)
         Me.LabelKinDrakhonon.TabIndex = 6
@@ -1587,7 +1587,7 @@ Partial Class Form1
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(378, 84)
+        Me.Label19.Location = New System.Drawing.Point(378, 114)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(45, 16)
         Me.Label19.TabIndex = 6
@@ -1597,7 +1597,7 @@ Partial Class Form1
         '
         Me.LabelKinDwarf.AutoSize = True
         Me.LabelKinDwarf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinDwarf.Location = New System.Drawing.Point(222, 126)
+        Me.LabelKinDwarf.Location = New System.Drawing.Point(222, 156)
         Me.LabelKinDwarf.Name = "LabelKinDwarf"
         Me.LabelKinDwarf.Size = New System.Drawing.Size(42, 16)
         Me.LabelKinDwarf.TabIndex = 6
@@ -1607,7 +1607,7 @@ Partial Class Form1
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(378, 126)
+        Me.Label18.Location = New System.Drawing.Point(378, 156)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(45, 16)
         Me.Label18.TabIndex = 6
@@ -1617,7 +1617,7 @@ Partial Class Form1
         '
         Me.LabelKinWastelander.AutoSize = True
         Me.LabelKinWastelander.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinWastelander.Location = New System.Drawing.Point(526, 41)
+        Me.LabelKinWastelander.Location = New System.Drawing.Point(526, 71)
         Me.LabelKinWastelander.Name = "LabelKinWastelander"
         Me.LabelKinWastelander.Size = New System.Drawing.Size(80, 16)
         Me.LabelKinWastelander.TabIndex = 6
@@ -1627,7 +1627,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(222, 84)
+        Me.Label4.Location = New System.Drawing.Point(222, 114)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(45, 16)
         Me.Label4.TabIndex = 6
@@ -1637,7 +1637,7 @@ Partial Class Form1
         '
         Me.LabelKinHighElf.AutoSize = True
         Me.LabelKinHighElf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinHighElf.Location = New System.Drawing.Point(378, 41)
+        Me.LabelKinHighElf.Location = New System.Drawing.Point(378, 71)
         Me.LabelKinHighElf.Name = "LabelKinHighElf"
         Me.LabelKinHighElf.Size = New System.Drawing.Size(51, 16)
         Me.LabelKinHighElf.TabIndex = 6
@@ -1647,7 +1647,7 @@ Partial Class Form1
         '
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(526, 40)
+        Me.Label31.Location = New System.Drawing.Point(526, 70)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(45, 16)
         Me.Label31.TabIndex = 6
@@ -1657,7 +1657,7 @@ Partial Class Form1
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(222, 126)
+        Me.Label7.Location = New System.Drawing.Point(222, 156)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(45, 16)
         Me.Label7.TabIndex = 6
@@ -1667,7 +1667,7 @@ Partial Class Form1
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(378, 40)
+        Me.Label16.Location = New System.Drawing.Point(378, 70)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(45, 16)
         Me.Label16.TabIndex = 6
@@ -1677,7 +1677,7 @@ Partial Class Form1
         '
         Me.LabelKinCatdrah.AutoSize = True
         Me.LabelKinCatdrah.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinCatdrah.Location = New System.Drawing.Point(222, 40)
+        Me.LabelKinCatdrah.Location = New System.Drawing.Point(222, 70)
         Me.LabelKinCatdrah.Name = "LabelKinCatdrah"
         Me.LabelKinCatdrah.Size = New System.Drawing.Size(53, 16)
         Me.LabelKinCatdrah.TabIndex = 6
@@ -1687,7 +1687,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(222, 40)
+        Me.Label1.Location = New System.Drawing.Point(222, 70)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(45, 16)
         Me.Label1.TabIndex = 6
@@ -1697,7 +1697,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinWoodElf.AutoSize = True
         Me.RadioButtonKinWoodElf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinWoodElf.Location = New System.Drawing.Point(506, 85)
+        Me.RadioButtonKinWoodElf.Location = New System.Drawing.Point(506, 115)
         Me.RadioButtonKinWoodElf.Name = "RadioButtonKinWoodElf"
         Me.RadioButtonKinWoodElf.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinWoodElf.TabIndex = 5
@@ -1708,7 +1708,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinWastelander.AutoSize = True
         Me.RadioButtonKinWastelander.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinWastelander.Location = New System.Drawing.Point(506, 41)
+        Me.RadioButtonKinWastelander.Location = New System.Drawing.Point(506, 71)
         Me.RadioButtonKinWastelander.Name = "RadioButtonKinWastelander"
         Me.RadioButtonKinWastelander.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinWastelander.TabIndex = 5
@@ -1718,7 +1718,7 @@ Partial Class Form1
         'RadioButtonKinAngalucian
         '
         Me.RadioButtonKinAngalucian.AutoSize = True
-        Me.RadioButtonKinAngalucian.Location = New System.Drawing.Point(202, 19)
+        Me.RadioButtonKinAngalucian.Location = New System.Drawing.Point(202, 49)
         Me.RadioButtonKinAngalucian.Name = "RadioButtonKinAngalucian"
         Me.RadioButtonKinAngalucian.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinAngalucian.TabIndex = 5
@@ -1729,7 +1729,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinWolfsbein.AutoSize = True
         Me.RadioButtonKinWolfsbein.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinWolfsbein.Location = New System.Drawing.Point(506, 63)
+        Me.RadioButtonKinWolfsbein.Location = New System.Drawing.Point(506, 93)
         Me.RadioButtonKinWolfsbein.Name = "RadioButtonKinWolfsbein"
         Me.RadioButtonKinWolfsbein.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinWolfsbein.TabIndex = 5
@@ -1740,7 +1740,7 @@ Partial Class Form1
         '
         Me.RadioButtonTroll.AutoSize = True
         Me.RadioButtonTroll.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonTroll.Location = New System.Drawing.Point(506, 19)
+        Me.RadioButtonTroll.Location = New System.Drawing.Point(506, 49)
         Me.RadioButtonTroll.Name = "RadioButtonTroll"
         Me.RadioButtonTroll.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonTroll.TabIndex = 4
@@ -1751,7 +1751,7 @@ Partial Class Form1
         '
         Me.RadioButtonSanjoran.AutoSize = True
         Me.RadioButtonSanjoran.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonSanjoran.Location = New System.Drawing.Point(358, 192)
+        Me.RadioButtonSanjoran.Location = New System.Drawing.Point(358, 222)
         Me.RadioButtonSanjoran.Name = "RadioButtonSanjoran"
         Me.RadioButtonSanjoran.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonSanjoran.TabIndex = 4
@@ -1762,7 +1762,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinNyad.AutoSize = True
         Me.RadioButtonKinNyad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinNyad.Location = New System.Drawing.Point(358, 149)
+        Me.RadioButtonKinNyad.Location = New System.Drawing.Point(358, 179)
         Me.RadioButtonKinNyad.Name = "RadioButtonKinNyad"
         Me.RadioButtonKinNyad.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinNyad.TabIndex = 4
@@ -1773,7 +1773,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinSquirrel.AutoSize = True
         Me.RadioButtonKinSquirrel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinSquirrel.Location = New System.Drawing.Point(358, 215)
+        Me.RadioButtonKinSquirrel.Location = New System.Drawing.Point(358, 245)
         Me.RadioButtonKinSquirrel.Name = "RadioButtonKinSquirrel"
         Me.RadioButtonKinSquirrel.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinSquirrel.TabIndex = 4
@@ -1784,7 +1784,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinKinsmen.AutoSize = True
         Me.RadioButtonKinKinsmen.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinKinsmen.Location = New System.Drawing.Point(358, 107)
+        Me.RadioButtonKinKinsmen.Location = New System.Drawing.Point(358, 137)
         Me.RadioButtonKinKinsmen.Name = "RadioButtonKinKinsmen"
         Me.RadioButtonKinKinsmen.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinKinsmen.TabIndex = 4
@@ -1795,7 +1795,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinOrc.AutoSize = True
         Me.RadioButtonKinOrc.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinOrc.Location = New System.Drawing.Point(358, 170)
+        Me.RadioButtonKinOrc.Location = New System.Drawing.Point(358, 200)
         Me.RadioButtonKinOrc.Name = "RadioButtonKinOrc"
         Me.RadioButtonKinOrc.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinOrc.TabIndex = 4
@@ -1806,7 +1806,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinFaerleth.AutoSize = True
         Me.RadioButtonKinFaerleth.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinFaerleth.Location = New System.Drawing.Point(358, 63)
+        Me.RadioButtonKinFaerleth.Location = New System.Drawing.Point(358, 93)
         Me.RadioButtonKinFaerleth.Name = "RadioButtonKinFaerleth"
         Me.RadioButtonKinFaerleth.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinFaerleth.TabIndex = 4
@@ -1817,7 +1817,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinMinotaur.AutoSize = True
         Me.RadioButtonKinMinotaur.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinMinotaur.Location = New System.Drawing.Point(358, 127)
+        Me.RadioButtonKinMinotaur.Location = New System.Drawing.Point(358, 157)
         Me.RadioButtonKinMinotaur.Name = "RadioButtonKinMinotaur"
         Me.RadioButtonKinMinotaur.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinMinotaur.TabIndex = 4
@@ -1828,7 +1828,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinGoblin.AutoSize = True
         Me.RadioButtonKinGoblin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinGoblin.Location = New System.Drawing.Point(359, 18)
+        Me.RadioButtonKinGoblin.Location = New System.Drawing.Point(359, 48)
         Me.RadioButtonKinGoblin.Name = "RadioButtonKinGoblin"
         Me.RadioButtonKinGoblin.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinGoblin.TabIndex = 3
@@ -1839,7 +1839,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinJadeImperial.AutoSize = True
         Me.RadioButtonKinJadeImperial.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinJadeImperial.Location = New System.Drawing.Point(358, 85)
+        Me.RadioButtonKinJadeImperial.Location = New System.Drawing.Point(358, 115)
         Me.RadioButtonKinJadeImperial.Name = "RadioButtonKinJadeImperial"
         Me.RadioButtonKinJadeImperial.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinJadeImperial.TabIndex = 4
@@ -1849,7 +1849,7 @@ Partial Class Form1
         'RadioButtonKinGiGaYoNa
         '
         Me.RadioButtonKinGiGaYoNa.AutoSize = True
-        Me.RadioButtonKinGiGaYoNa.Location = New System.Drawing.Point(202, 192)
+        Me.RadioButtonKinGiGaYoNa.Location = New System.Drawing.Point(202, 222)
         Me.RadioButtonKinGiGaYoNa.Name = "RadioButtonKinGiGaYoNa"
         Me.RadioButtonKinGiGaYoNa.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinGiGaYoNa.TabIndex = 3
@@ -1859,7 +1859,7 @@ Partial Class Form1
         'RadioButtonKinGnome
         '
         Me.RadioButtonKinGnome.AutoSize = True
-        Me.RadioButtonKinGnome.Location = New System.Drawing.Point(202, 214)
+        Me.RadioButtonKinGnome.Location = New System.Drawing.Point(202, 244)
         Me.RadioButtonKinGnome.Name = "RadioButtonKinGnome"
         Me.RadioButtonKinGnome.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinGnome.TabIndex = 3
@@ -1870,7 +1870,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinHighElf.AutoSize = True
         Me.RadioButtonKinHighElf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonKinHighElf.Location = New System.Drawing.Point(358, 41)
+        Me.RadioButtonKinHighElf.Location = New System.Drawing.Point(358, 71)
         Me.RadioButtonKinHighElf.Name = "RadioButtonKinHighElf"
         Me.RadioButtonKinHighElf.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinHighElf.TabIndex = 4
@@ -1880,7 +1880,7 @@ Partial Class Form1
         'RadioButtonKinFelucian
         '
         Me.RadioButtonKinFelucian.AutoSize = True
-        Me.RadioButtonKinFelucian.Location = New System.Drawing.Point(202, 169)
+        Me.RadioButtonKinFelucian.Location = New System.Drawing.Point(202, 199)
         Me.RadioButtonKinFelucian.Name = "RadioButtonKinFelucian"
         Me.RadioButtonKinFelucian.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinFelucian.TabIndex = 3
@@ -1890,7 +1890,7 @@ Partial Class Form1
         'RadioButtonKinFairy
         '
         Me.RadioButtonKinFairy.AutoSize = True
-        Me.RadioButtonKinFairy.Location = New System.Drawing.Point(202, 149)
+        Me.RadioButtonKinFairy.Location = New System.Drawing.Point(202, 179)
         Me.RadioButtonKinFairy.Name = "RadioButtonKinFairy"
         Me.RadioButtonKinFairy.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinFairy.TabIndex = 3
@@ -1900,7 +1900,7 @@ Partial Class Form1
         'RadioButtonKinDwarf
         '
         Me.RadioButtonKinDwarf.AutoSize = True
-        Me.RadioButtonKinDwarf.Location = New System.Drawing.Point(202, 127)
+        Me.RadioButtonKinDwarf.Location = New System.Drawing.Point(202, 157)
         Me.RadioButtonKinDwarf.Name = "RadioButtonKinDwarf"
         Me.RadioButtonKinDwarf.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinDwarf.TabIndex = 3
@@ -1910,7 +1910,7 @@ Partial Class Form1
         'RadioButtonKinDryad
         '
         Me.RadioButtonKinDryad.AutoSize = True
-        Me.RadioButtonKinDryad.Location = New System.Drawing.Point(202, 107)
+        Me.RadioButtonKinDryad.Location = New System.Drawing.Point(202, 137)
         Me.RadioButtonKinDryad.Name = "RadioButtonKinDryad"
         Me.RadioButtonKinDryad.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinDryad.TabIndex = 3
@@ -1920,7 +1920,7 @@ Partial Class Form1
         'RadioButtonKinDrakhonon
         '
         Me.RadioButtonKinDrakhonon.AutoSize = True
-        Me.RadioButtonKinDrakhonon.Location = New System.Drawing.Point(202, 84)
+        Me.RadioButtonKinDrakhonon.Location = New System.Drawing.Point(202, 114)
         Me.RadioButtonKinDrakhonon.Name = "RadioButtonKinDrakhonon"
         Me.RadioButtonKinDrakhonon.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinDrakhonon.TabIndex = 3
@@ -1930,7 +1930,7 @@ Partial Class Form1
         'RadioButtonKinDarkelf
         '
         Me.RadioButtonKinDarkelf.AutoSize = True
-        Me.RadioButtonKinDarkelf.Location = New System.Drawing.Point(202, 63)
+        Me.RadioButtonKinDarkelf.Location = New System.Drawing.Point(202, 93)
         Me.RadioButtonKinDarkelf.Name = "RadioButtonKinDarkelf"
         Me.RadioButtonKinDarkelf.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinDarkelf.TabIndex = 3
@@ -1940,7 +1940,7 @@ Partial Class Form1
         'RadioButtonKinCatdrah
         '
         Me.RadioButtonKinCatdrah.AutoSize = True
-        Me.RadioButtonKinCatdrah.Location = New System.Drawing.Point(202, 40)
+        Me.RadioButtonKinCatdrah.Location = New System.Drawing.Point(202, 70)
         Me.RadioButtonKinCatdrah.Name = "RadioButtonKinCatdrah"
         Me.RadioButtonKinCatdrah.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonKinCatdrah.TabIndex = 3
@@ -1980,6 +1980,7 @@ Partial Class Form1
         Me.PanelNyad.Controls.Add(Me.RadioButtonNyadThebiggertheyare)
         Me.PanelNyad.Controls.Add(Me.RadioButtonNyadWateraffinity)
         Me.PanelNyad.Controls.Add(Me.RadioButtonNyadFlow)
+        Me.PanelNyad.Controls.Add(Me.RadioButtonNyadSqueeze)
         Me.PanelNyad.Controls.Add(Me.RadioButtonNyadTaint)
         Me.PanelNyad.Controls.Add(Me.LabelNyadIntro)
         Me.PanelNyad.Controls.Add(Me.ButtonNyadBackground)
@@ -2005,8 +2006,8 @@ Partial Class Form1
         '
         Me.RadioButtonNyadThebiggertheyare.AutoSize = True
         Me.RadioButtonNyadThebiggertheyare.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNyadThebiggertheyare.Location = New System.Drawing.Point(181, 135)
-        Me.RadioButtonNyadThebiggertheyare.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButtonNyadThebiggertheyare.Location = New System.Drawing.Point(261, 205)
+        Me.RadioButtonNyadThebiggertheyare.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButtonNyadThebiggertheyare.Name = "RadioButtonNyadThebiggertheyare"
         Me.RadioButtonNyadThebiggertheyare.Size = New System.Drawing.Size(144, 20)
         Me.RadioButtonNyadThebiggertheyare.TabIndex = 5
@@ -2018,7 +2019,7 @@ Partial Class Form1
         '
         Me.RadioButtonNyadWateraffinity.AutoSize = True
         Me.RadioButtonNyadWateraffinity.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNyadWateraffinity.Location = New System.Drawing.Point(267, 161)
+        Me.RadioButtonNyadWateraffinity.Location = New System.Drawing.Point(260, 130)
         Me.RadioButtonNyadWateraffinity.Name = "RadioButtonNyadWateraffinity"
         Me.RadioButtonNyadWateraffinity.Size = New System.Drawing.Size(104, 20)
         Me.RadioButtonNyadWateraffinity.TabIndex = 4
@@ -2030,8 +2031,8 @@ Partial Class Form1
         '
         Me.RadioButtonNyadFlow.AutoSize = True
         Me.RadioButtonNyadFlow.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNyadFlow.Location = New System.Drawing.Point(181, 162)
-        Me.RadioButtonNyadFlow.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButtonNyadFlow.Location = New System.Drawing.Point(260, 167)
+        Me.RadioButtonNyadFlow.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButtonNyadFlow.Name = "RadioButtonNyadFlow"
         Me.RadioButtonNyadFlow.Size = New System.Drawing.Size(53, 20)
         Me.RadioButtonNyadFlow.TabIndex = 3
@@ -2039,11 +2040,24 @@ Partial Class Form1
         Me.RadioButtonNyadFlow.Text = "Flow"
         Me.RadioButtonNyadFlow.UseVisualStyleBackColor = True
         '
+        'RadioButtonNyadSqueeze
+        '
+        Me.RadioButtonNyadSqueeze.AutoSize = True
+        Me.RadioButtonNyadSqueeze.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonNyadSqueeze.Location = New System.Drawing.Point(261, 92)
+        Me.RadioButtonNyadSqueeze.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.RadioButtonNyadSqueeze.Name = "RadioButtonNyadSqueeze"
+        Me.RadioButtonNyadSqueeze.Size = New System.Drawing.Size(75, 20)
+        Me.RadioButtonNyadSqueeze.TabIndex = 5
+        Me.RadioButtonNyadSqueeze.TabStop = True
+        Me.RadioButtonNyadSqueeze.Text = "Squeeze"
+        Me.RadioButtonNyadSqueeze.UseVisualStyleBackColor = True
+        '
         'RadioButtonNyadTaint
         '
         Me.RadioButtonNyadTaint.AutoSize = True
         Me.RadioButtonNyadTaint.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNyadTaint.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonNyadTaint.Location = New System.Drawing.Point(261, 245)
         Me.RadioButtonNyadTaint.Name = "RadioButtonNyadTaint"
         Me.RadioButtonNyadTaint.Size = New System.Drawing.Size(55, 20)
         Me.RadioButtonNyadTaint.TabIndex = 3
@@ -2077,19 +2091,6 @@ Partial Class Form1
         Me.ButtonNyadKin.TabIndex = 0
         Me.ButtonNyadKin.Text = "Previous"
         Me.ButtonNyadKin.UseVisualStyleBackColor = True
-        '
-        'RadioButtonNyadSqueeze
-        '
-        Me.RadioButtonNyadSqueeze.AutoSize = True
-        Me.RadioButtonNyadSqueeze.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNyadSqueeze.Location = New System.Drawing.Point(400, 314)
-        Me.RadioButtonNyadSqueeze.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.RadioButtonNyadSqueeze.Name = "RadioButtonNyadSqueeze"
-        Me.RadioButtonNyadSqueeze.Size = New System.Drawing.Size(110, 28)
-        Me.RadioButtonNyadSqueeze.TabIndex = 5
-        Me.RadioButtonNyadSqueeze.TabStop = True
-        Me.RadioButtonNyadSqueeze.Text = "Squeeze"
-        Me.RadioButtonNyadSqueeze.UseVisualStyleBackColor = True
         '
         'PanelDryad
         '
@@ -2915,7 +2916,7 @@ Partial Class Form1
         '
         Me.RadioButtonAngalucianBlessedweapon.AutoSize = True
         Me.RadioButtonAngalucianBlessedweapon.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonAngalucianBlessedweapon.Location = New System.Drawing.Point(267, 226)
+        Me.RadioButtonAngalucianBlessedweapon.Location = New System.Drawing.Point(267, 251)
         Me.RadioButtonAngalucianBlessedweapon.Name = "RadioButtonAngalucianBlessedweapon"
         Me.RadioButtonAngalucianBlessedweapon.Size = New System.Drawing.Size(120, 20)
         Me.RadioButtonAngalucianBlessedweapon.TabIndex = 8
@@ -2927,7 +2928,7 @@ Partial Class Form1
         '
         Me.RadioButtonAngalucianBeaconoflight.AutoSize = True
         Me.RadioButtonAngalucianBeaconoflight.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonAngalucianBeaconoflight.Location = New System.Drawing.Point(267, 201)
+        Me.RadioButtonAngalucianBeaconoflight.Location = New System.Drawing.Point(267, 207)
         Me.RadioButtonAngalucianBeaconoflight.Name = "RadioButtonAngalucianBeaconoflight"
         Me.RadioButtonAngalucianBeaconoflight.Size = New System.Drawing.Size(115, 20)
         Me.RadioButtonAngalucianBeaconoflight.TabIndex = 7
@@ -2948,7 +2949,7 @@ Partial Class Form1
         '
         Me.RadioButtonAngalucianTakeheed.AutoSize = True
         Me.RadioButtonAngalucianTakeheed.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonAngalucianTakeheed.Location = New System.Drawing.Point(267, 175)
+        Me.RadioButtonAngalucianTakeheed.Location = New System.Drawing.Point(267, 166)
         Me.RadioButtonAngalucianTakeheed.Name = "RadioButtonAngalucianTakeheed"
         Me.RadioButtonAngalucianTakeheed.Size = New System.Drawing.Size(87, 20)
         Me.RadioButtonAngalucianTakeheed.TabIndex = 5
@@ -2960,7 +2961,7 @@ Partial Class Form1
         '
         Me.RadioButtonAngalucianAmaze.AutoSize = True
         Me.RadioButtonAngalucianAmaze.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonAngalucianAmaze.Location = New System.Drawing.Point(267, 149)
+        Me.RadioButtonAngalucianAmaze.Location = New System.Drawing.Point(267, 125)
         Me.RadioButtonAngalucianAmaze.Name = "RadioButtonAngalucianAmaze"
         Me.RadioButtonAngalucianAmaze.Size = New System.Drawing.Size(65, 20)
         Me.RadioButtonAngalucianAmaze.TabIndex = 4
@@ -2972,7 +2973,7 @@ Partial Class Form1
         '
         Me.RadioButtonAngalucianFlight.AutoSize = True
         Me.RadioButtonAngalucianFlight.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonAngalucianFlight.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonAngalucianFlight.Location = New System.Drawing.Point(267, 87)
         Me.RadioButtonAngalucianFlight.Name = "RadioButtonAngalucianFlight"
         Me.RadioButtonAngalucianFlight.Size = New System.Drawing.Size(57, 20)
         Me.RadioButtonAngalucianFlight.TabIndex = 3
@@ -8051,7 +8052,7 @@ Partial Class Form1
         'ButtonNeurohydroInfo
         '
         Me.ButtonNeurohydroInfo.Location = New System.Drawing.Point(501, 205)
-        Me.ButtonNeurohydroInfo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroInfo.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroInfo.Name = "ButtonNeurohydroInfo"
         Me.ButtonNeurohydroInfo.Size = New System.Drawing.Size(56, 23)
         Me.ButtonNeurohydroInfo.TabIndex = 8
@@ -8061,7 +8062,7 @@ Partial Class Form1
         'ButtonNeurohydroModifier
         '
         Me.ButtonNeurohydroModifier.Location = New System.Drawing.Point(562, 287)
-        Me.ButtonNeurohydroModifier.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroModifier.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroModifier.Name = "ButtonNeurohydroModifier"
         Me.ButtonNeurohydroModifier.Size = New System.Drawing.Size(54, 24)
         Me.ButtonNeurohydroModifier.TabIndex = 7
@@ -8071,7 +8072,7 @@ Partial Class Form1
         'ButtonNeurohydroWizard
         '
         Me.ButtonNeurohydroWizard.Location = New System.Drawing.Point(6, 286)
-        Me.ButtonNeurohydroWizard.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroWizard.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroWizard.Name = "ButtonNeurohydroWizard"
         Me.ButtonNeurohydroWizard.Size = New System.Drawing.Size(60, 25)
         Me.ButtonNeurohydroWizard.TabIndex = 6
@@ -8084,7 +8085,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroSmithingMinus.Location = New System.Drawing.Point(188, 191)
-        Me.ButtonNeurohydroSmithingMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroSmithingMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSmithingMinus.Name = "ButtonNeurohydroSmithingMinus"
         Me.ButtonNeurohydroSmithingMinus.Size = New System.Drawing.Size(21, 23)
         Me.ButtonNeurohydroSmithingMinus.TabIndex = 5
@@ -8098,7 +8099,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroProwessMinus.Location = New System.Drawing.Point(187, 150)
-        Me.ButtonNeurohydroProwessMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroProwessMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroProwessMinus.Name = "ButtonNeurohydroProwessMinus"
         Me.ButtonNeurohydroProwessMinus.Size = New System.Drawing.Size(21, 23)
         Me.ButtonNeurohydroProwessMinus.TabIndex = 5
@@ -8112,7 +8113,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroSenseMinus.Location = New System.Drawing.Point(354, 75)
-        Me.ButtonNeurohydroSenseMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroSenseMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSenseMinus.Name = "ButtonNeurohydroSenseMinus"
         Me.ButtonNeurohydroSenseMinus.Size = New System.Drawing.Size(21, 22)
         Me.ButtonNeurohydroSenseMinus.TabIndex = 5
@@ -8126,7 +8127,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroLeatherworkingMinus.Location = New System.Drawing.Point(187, 114)
-        Me.ButtonNeurohydroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroLeatherworkingMinus.Name = "ButtonNeurohydroLeatherworkingMinus"
         Me.ButtonNeurohydroLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
         Me.ButtonNeurohydroLeatherworkingMinus.TabIndex = 5
@@ -8140,7 +8141,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroSnowballMinus.Location = New System.Drawing.Point(56, 159)
-        Me.ButtonNeurohydroSnowballMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroSnowballMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSnowballMinus.Name = "ButtonNeurohydroSnowballMinus"
         Me.ButtonNeurohydroSnowballMinus.Size = New System.Drawing.Size(20, 22)
         Me.ButtonNeurohydroSnowballMinus.TabIndex = 5
@@ -8154,7 +8155,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroEnchantingMinus.Location = New System.Drawing.Point(355, 226)
-        Me.ButtonNeurohydroEnchantingMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroEnchantingMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroEnchantingMinus.Name = "ButtonNeurohydroEnchantingMinus"
         Me.ButtonNeurohydroEnchantingMinus.Size = New System.Drawing.Size(21, 22)
         Me.ButtonNeurohydroEnchantingMinus.TabIndex = 5
@@ -8168,7 +8169,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroHealthMinus.Location = New System.Drawing.Point(355, 151)
-        Me.ButtonNeurohydroHealthMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroHealthMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroHealthMinus.Name = "ButtonNeurohydroHealthMinus"
         Me.ButtonNeurohydroHealthMinus.Size = New System.Drawing.Size(21, 22)
         Me.ButtonNeurohydroHealthMinus.TabIndex = 5
@@ -8182,7 +8183,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroScrollwritingMinus.Location = New System.Drawing.Point(355, 187)
-        Me.ButtonNeurohydroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroScrollwritingMinus.Name = "ButtonNeurohydroScrollwritingMinus"
         Me.ButtonNeurohydroScrollwritingMinus.Size = New System.Drawing.Size(21, 22)
         Me.ButtonNeurohydroScrollwritingMinus.TabIndex = 5
@@ -8196,7 +8197,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroDetectionMinus.Location = New System.Drawing.Point(354, 114)
-        Me.ButtonNeurohydroDetectionMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroDetectionMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroDetectionMinus.Name = "ButtonNeurohydroDetectionMinus"
         Me.ButtonNeurohydroDetectionMinus.Size = New System.Drawing.Size(21, 22)
         Me.ButtonNeurohydroDetectionMinus.TabIndex = 5
@@ -8208,7 +8209,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroSmithingPlus.Location = New System.Drawing.Point(165, 191)
-        Me.ButtonNeurohydroSmithingPlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroSmithingPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSmithingPlus.Name = "ButtonNeurohydroSmithingPlus"
         Me.ButtonNeurohydroSmithingPlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroSmithingPlus.TabIndex = 4
@@ -8221,7 +8222,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroWeapondexterityMinus.Location = New System.Drawing.Point(187, 230)
-        Me.ButtonNeurohydroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroWeapondexterityMinus.Name = "ButtonNeurohydroWeapondexterityMinus"
         Me.ButtonNeurohydroWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
         Me.ButtonNeurohydroWeapondexterityMinus.TabIndex = 5
@@ -8235,7 +8236,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroForestryMinus.Location = New System.Drawing.Point(186, 77)
-        Me.ButtonNeurohydroForestryMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroForestryMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroForestryMinus.Name = "ButtonNeurohydroForestryMinus"
         Me.ButtonNeurohydroForestryMinus.Size = New System.Drawing.Size(21, 23)
         Me.ButtonNeurohydroForestryMinus.TabIndex = 5
@@ -8247,7 +8248,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroProwessPlus.Location = New System.Drawing.Point(164, 150)
-        Me.ButtonNeurohydroProwessPlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroProwessPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroProwessPlus.Name = "ButtonNeurohydroProwessPlus"
         Me.ButtonNeurohydroProwessPlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroProwessPlus.TabIndex = 4
@@ -8258,7 +8259,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroEnchantingPlus.Location = New System.Drawing.Point(334, 226)
-        Me.ButtonNeurohydroEnchantingPlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroEnchantingPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroEnchantingPlus.Name = "ButtonNeurohydroEnchantingPlus"
         Me.ButtonNeurohydroEnchantingPlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroEnchantingPlus.TabIndex = 4
@@ -8269,7 +8270,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroHealthPlus.Location = New System.Drawing.Point(334, 151)
-        Me.ButtonNeurohydroHealthPlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroHealthPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroHealthPlus.Name = "ButtonNeurohydroHealthPlus"
         Me.ButtonNeurohydroHealthPlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroHealthPlus.TabIndex = 4
@@ -8280,7 +8281,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroScrollwritingPlus.Location = New System.Drawing.Point(334, 187)
-        Me.ButtonNeurohydroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroScrollwritingPlus.Name = "ButtonNeurohydroScrollwritingPlus"
         Me.ButtonNeurohydroScrollwritingPlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroScrollwritingPlus.TabIndex = 4
@@ -8291,7 +8292,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroDetectionPlus.Location = New System.Drawing.Point(333, 114)
-        Me.ButtonNeurohydroDetectionPlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroDetectionPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroDetectionPlus.Name = "ButtonNeurohydroDetectionPlus"
         Me.ButtonNeurohydroDetectionPlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroDetectionPlus.TabIndex = 4
@@ -8304,7 +8305,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroMigraineMinus.Location = New System.Drawing.Point(56, 123)
-        Me.ButtonNeurohydroMigraineMinus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroMigraineMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroMigraineMinus.Name = "ButtonNeurohydroMigraineMinus"
         Me.ButtonNeurohydroMigraineMinus.Size = New System.Drawing.Size(20, 22)
         Me.ButtonNeurohydroMigraineMinus.TabIndex = 5
@@ -8316,7 +8317,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroSensePlus.Location = New System.Drawing.Point(333, 75)
-        Me.ButtonNeurohydroSensePlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroSensePlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSensePlus.Name = "ButtonNeurohydroSensePlus"
         Me.ButtonNeurohydroSensePlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroSensePlus.TabIndex = 4
@@ -8327,7 +8328,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroLeatherworkingPlus.Location = New System.Drawing.Point(164, 114)
-        Me.ButtonNeurohydroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroLeatherworkingPlus.Name = "ButtonNeurohydroLeatherworkingPlus"
         Me.ButtonNeurohydroLeatherworkingPlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroLeatherworkingPlus.TabIndex = 4
@@ -8338,7 +8339,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroWeapondexterityPlus.Location = New System.Drawing.Point(164, 230)
-        Me.ButtonNeurohydroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroWeapondexterityPlus.Name = "ButtonNeurohydroWeapondexterityPlus"
         Me.ButtonNeurohydroWeapondexterityPlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroWeapondexterityPlus.TabIndex = 4
@@ -8349,7 +8350,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroForestryPlus.Location = New System.Drawing.Point(163, 77)
-        Me.ButtonNeurohydroForestryPlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroForestryPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroForestryPlus.Name = "ButtonNeurohydroForestryPlus"
         Me.ButtonNeurohydroForestryPlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroForestryPlus.TabIndex = 4
@@ -8360,7 +8361,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroSnowballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroSnowballPlus.Location = New System.Drawing.Point(32, 160)
-        Me.ButtonNeurohydroSnowballPlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroSnowballPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSnowballPlus.Name = "ButtonNeurohydroSnowballPlus"
         Me.ButtonNeurohydroSnowballPlus.Size = New System.Drawing.Size(19, 21)
         Me.ButtonNeurohydroSnowballPlus.TabIndex = 4
@@ -8371,7 +8372,7 @@ Partial Class Form1
         '
         Me.ButtonNeurohydroMigrainePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurohydroMigrainePlus.Location = New System.Drawing.Point(32, 123)
-        Me.ButtonNeurohydroMigrainePlus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonNeurohydroMigrainePlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroMigrainePlus.Name = "ButtonNeurohydroMigrainePlus"
         Me.ButtonNeurohydroMigrainePlus.Size = New System.Drawing.Size(19, 22)
         Me.ButtonNeurohydroMigrainePlus.TabIndex = 4
@@ -12671,7 +12672,7 @@ Partial Class Form1
         Me.PanelModifier.Controls.Add(Me.ButtonModifierClasstype)
         Me.PanelModifier.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelModifier.Location = New System.Drawing.Point(0, 0)
-        Me.PanelModifier.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PanelModifier.Margin = New System.Windows.Forms.Padding(2)
         Me.PanelModifier.Name = "PanelModifier"
         Me.PanelModifier.Size = New System.Drawing.Size(621, 316)
         Me.PanelModifier.TabIndex = 47
@@ -12679,7 +12680,7 @@ Partial Class Form1
         'ButtonModifierInfo
         '
         Me.ButtonModifierInfo.Location = New System.Drawing.Point(492, 138)
-        Me.ButtonModifierInfo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonModifierInfo.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonModifierInfo.Name = "ButtonModifierInfo"
         Me.ButtonModifierInfo.Size = New System.Drawing.Size(54, 21)
         Me.ButtonModifierInfo.TabIndex = 11
@@ -12690,7 +12691,7 @@ Partial Class Form1
         '
         Me.RadioButton11.AutoSize = True
         Me.RadioButton11.Location = New System.Drawing.Point(222, 223)
-        Me.RadioButton11.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton11.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton11.Name = "RadioButton11"
         Me.RadioButton11.Size = New System.Drawing.Size(54, 17)
         Me.RadioButton11.TabIndex = 10
@@ -12702,7 +12703,7 @@ Partial Class Form1
         '
         Me.RadioButton16.AutoSize = True
         Me.RadioButton16.Location = New System.Drawing.Point(355, 151)
-        Me.RadioButton16.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton16.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton16.Name = "RadioButton16"
         Me.RadioButton16.Size = New System.Drawing.Size(74, 17)
         Me.RadioButton16.TabIndex = 10
@@ -12714,7 +12715,7 @@ Partial Class Form1
         '
         Me.RadioButton15.AutoSize = True
         Me.RadioButton15.Location = New System.Drawing.Point(355, 190)
-        Me.RadioButton15.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton15.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton15.Name = "RadioButton15"
         Me.RadioButton15.Size = New System.Drawing.Size(91, 17)
         Me.RadioButton15.TabIndex = 9
@@ -12726,7 +12727,7 @@ Partial Class Form1
         '
         Me.RadioButton9.AutoSize = True
         Me.RadioButton9.Location = New System.Drawing.Point(220, 151)
-        Me.RadioButton9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton9.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton9.Name = "RadioButton9"
         Me.RadioButton9.Size = New System.Drawing.Size(100, 17)
         Me.RadioButton9.TabIndex = 10
@@ -12738,7 +12739,7 @@ Partial Class Form1
         '
         Me.RadioButton10.AutoSize = True
         Me.RadioButton10.Location = New System.Drawing.Point(220, 188)
-        Me.RadioButton10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton10.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton10.Name = "RadioButton10"
         Me.RadioButton10.Size = New System.Drawing.Size(69, 17)
         Me.RadioButton10.TabIndex = 9
@@ -12750,7 +12751,7 @@ Partial Class Form1
         '
         Me.RadioButton12.AutoSize = True
         Me.RadioButton12.Location = New System.Drawing.Point(82, 224)
-        Me.RadioButton12.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton12.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton12.Name = "RadioButton12"
         Me.RadioButton12.Size = New System.Drawing.Size(63, 17)
         Me.RadioButton12.TabIndex = 10
@@ -12762,7 +12763,7 @@ Partial Class Form1
         '
         Me.RadioButton14.AutoSize = True
         Me.RadioButton14.Location = New System.Drawing.Point(355, 120)
-        Me.RadioButton14.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton14.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton14.Name = "RadioButton14"
         Me.RadioButton14.Size = New System.Drawing.Size(80, 17)
         Me.RadioButton14.TabIndex = 9
@@ -12774,7 +12775,7 @@ Partial Class Form1
         '
         Me.RadioButton6.AutoSize = True
         Me.RadioButton6.Location = New System.Drawing.Point(80, 188)
-        Me.RadioButton6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton6.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton6.Name = "RadioButton6"
         Me.RadioButton6.Size = New System.Drawing.Size(104, 17)
         Me.RadioButton6.TabIndex = 10
@@ -12786,7 +12787,7 @@ Partial Class Form1
         '
         Me.RadioButton13.AutoSize = True
         Me.RadioButton13.Location = New System.Drawing.Point(355, 90)
-        Me.RadioButton13.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton13.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton13.Name = "RadioButton13"
         Me.RadioButton13.Size = New System.Drawing.Size(101, 17)
         Me.RadioButton13.TabIndex = 10
@@ -12798,7 +12799,7 @@ Partial Class Form1
         '
         Me.RadioButton8.AutoSize = True
         Me.RadioButton8.Location = New System.Drawing.Point(220, 120)
-        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton8.Name = "RadioButton8"
         Me.RadioButton8.Size = New System.Drawing.Size(70, 17)
         Me.RadioButton8.TabIndex = 9
@@ -12810,7 +12811,7 @@ Partial Class Form1
         '
         Me.RadioButton7.AutoSize = True
         Me.RadioButton7.Location = New System.Drawing.Point(220, 90)
-        Me.RadioButton7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton7.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton7.Name = "RadioButton7"
         Me.RadioButton7.Size = New System.Drawing.Size(65, 17)
         Me.RadioButton7.TabIndex = 10
@@ -12822,7 +12823,7 @@ Partial Class Form1
         '
         Me.RadioButton4.AutoSize = True
         Me.RadioButton4.Location = New System.Drawing.Point(80, 152)
-        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(81, 17)
         Me.RadioButton4.TabIndex = 9
@@ -12834,7 +12835,7 @@ Partial Class Form1
         '
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.Location = New System.Drawing.Point(80, 120)
-        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(75, 17)
         Me.RadioButton3.TabIndex = 10
@@ -12846,7 +12847,7 @@ Partial Class Form1
         '
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.Location = New System.Drawing.Point(80, 91)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(66, 17)
         Me.RadioButton2.TabIndex = 9
@@ -12867,7 +12868,7 @@ Partial Class Form1
         'ButtonModifierEnd
         '
         Me.ButtonModifierEnd.Location = New System.Drawing.Point(550, 289)
-        Me.ButtonModifierEnd.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonModifierEnd.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonModifierEnd.Name = "ButtonModifierEnd"
         Me.ButtonModifierEnd.Size = New System.Drawing.Size(66, 23)
         Me.ButtonModifierEnd.TabIndex = 7
@@ -12877,7 +12878,7 @@ Partial Class Form1
         'ButtonModifierClasstype
         '
         Me.ButtonModifierClasstype.Location = New System.Drawing.Point(4, 288)
-        Me.ButtonModifierClasstype.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonModifierClasstype.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonModifierClasstype.Name = "ButtonModifierClasstype"
         Me.ButtonModifierClasstype.Size = New System.Drawing.Size(59, 23)
         Me.ButtonModifierClasstype.TabIndex = 6
@@ -12897,7 +12898,7 @@ Partial Class Form1
         Me.PanelEnd.Controls.Add(Me.ButtonEndModifier)
         Me.PanelEnd.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelEnd.Location = New System.Drawing.Point(0, 0)
-        Me.PanelEnd.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PanelEnd.Margin = New System.Windows.Forms.Padding(2)
         Me.PanelEnd.Name = "PanelEnd"
         Me.PanelEnd.Size = New System.Drawing.Size(621, 316)
         Me.PanelEnd.TabIndex = 48
@@ -12906,7 +12907,7 @@ Partial Class Form1
         '
         Me.LabelEndBackstory.AutoSize = True
         Me.LabelEndBackstory.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelEndBackstory.Location = New System.Drawing.Point(361, 110)
+        Me.LabelEndBackstory.Location = New System.Drawing.Point(278, 151)
         Me.LabelEndBackstory.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelEndBackstory.Name = "LabelEndBackstory"
         Me.LabelEndBackstory.Size = New System.Drawing.Size(121, 16)
@@ -12917,45 +12918,46 @@ Partial Class Form1
         '
         Me.TextboxEndBackstory.AllowDrop = True
         Me.TextboxEndBackstory.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextboxEndBackstory.Location = New System.Drawing.Point(362, 131)
-        Me.TextboxEndBackstory.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextboxEndBackstory.Location = New System.Drawing.Point(277, 169)
+        Me.TextboxEndBackstory.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextboxEndBackstory.Multiline = True
         Me.TextboxEndBackstory.Name = "TextboxEndBackstory"
         Me.TextboxEndBackstory.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextboxEndBackstory.Size = New System.Drawing.Size(195, 23)
+        Me.TextboxEndBackstory.Size = New System.Drawing.Size(323, 104)
         Me.TextboxEndBackstory.TabIndex = 13
         '
         'LabelEndCharacterage
         '
         Me.LabelEndCharacterage.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelEndCharacterage.Location = New System.Drawing.Point(16, 227)
+        Me.LabelEndCharacterage.Location = New System.Drawing.Point(14, 224)
         Me.LabelEndCharacterage.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelEndCharacterage.Name = "LabelEndCharacterage"
-        Me.LabelEndCharacterage.Size = New System.Drawing.Size(65, 15)
+        Me.LabelEndCharacterage.Size = New System.Drawing.Size(90, 21)
         Me.LabelEndCharacterage.TabIndex = 12
         Me.LabelEndCharacterage.Text = "Character Age"
         '
         'LabelEndCharactername
         '
         Me.LabelEndCharactername.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelEndCharactername.Location = New System.Drawing.Point(14, 139)
+        Me.LabelEndCharactername.Location = New System.Drawing.Point(14, 170)
         Me.LabelEndCharactername.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelEndCharactername.Name = "LabelEndCharactername"
-        Me.LabelEndCharactername.Size = New System.Drawing.Size(69, 15)
+        Me.LabelEndCharactername.Size = New System.Drawing.Size(102, 15)
         Me.LabelEndCharactername.TabIndex = 11
         Me.LabelEndCharactername.Text = "Character Name"
         '
         'TextboxEndCharacterage
         '
-        Me.TextboxEndCharacterage.Location = New System.Drawing.Point(86, 226)
-        Me.TextboxEndCharacterage.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextboxEndCharacterage.Location = New System.Drawing.Point(120, 222)
+        Me.TextboxEndCharacterage.Margin = New System.Windows.Forms.Padding(2)
         Me.TextboxEndCharacterage.Name = "TextboxEndCharacterage"
         Me.TextboxEndCharacterage.Size = New System.Drawing.Size(68, 20)
         Me.TextboxEndCharacterage.TabIndex = 10
         '
         'TextboxEndCharactername
         '
-        Me.TextboxEndCharactername.Location = New System.Drawing.Point(84, 139)
-        Me.TextboxEndCharactername.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextboxEndCharactername.Location = New System.Drawing.Point(120, 168)
+        Me.TextboxEndCharactername.Margin = New System.Windows.Forms.Padding(2)
         Me.TextboxEndCharactername.Name = "TextboxEndCharactername"
         Me.TextboxEndCharactername.Size = New System.Drawing.Size(110, 20)
         Me.TextboxEndCharactername.TabIndex = 9
@@ -12966,14 +12968,14 @@ Partial Class Form1
         Me.LabelEndIntro.Location = New System.Drawing.Point(9, 6)
         Me.LabelEndIntro.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelEndIntro.Name = "LabelEndIntro"
-        Me.LabelEndIntro.Size = New System.Drawing.Size(597, 86)
+        Me.LabelEndIntro.Size = New System.Drawing.Size(597, 152)
         Me.LabelEndIntro.TabIndex = 8
         Me.LabelEndIntro.Text = resources.GetString("LabelEndIntro.Text")
         '
         'ButtonEndCharactersheet
         '
         Me.ButtonEndCharactersheet.Location = New System.Drawing.Point(479, 277)
-        Me.ButtonEndCharactersheet.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonEndCharactersheet.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonEndCharactersheet.Name = "ButtonEndCharactersheet"
         Me.ButtonEndCharactersheet.Size = New System.Drawing.Size(138, 35)
         Me.ButtonEndCharactersheet.TabIndex = 7
@@ -12983,7 +12985,7 @@ Partial Class Form1
         'ButtonEndModifier
         '
         Me.ButtonEndModifier.Location = New System.Drawing.Point(7, 289)
-        Me.ButtonEndModifier.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonEndModifier.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonEndModifier.Name = "ButtonEndModifier"
         Me.ButtonEndModifier.Size = New System.Drawing.Size(59, 22)
         Me.ButtonEndModifier.TabIndex = 6
@@ -12993,71 +12995,71 @@ Partial Class Form1
         'PanelHalfbreedhuman
         '
         Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanAngelucian)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label5)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label6)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label8)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label10)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label11)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label12)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label15)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label17)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label20)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label21)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label22)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label23)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanTroll)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanGoblin)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanSanjoran)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanGigayona)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanKinsman)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanDryad)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanSquirrel)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanGnome)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanNyad)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanFairy)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanOrc)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanFelucian)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label27)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label28)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label29)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label30)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label32)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label33)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label35)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanWolfbein)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanHobbit)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanWoodelf)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanDarkelf)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanJadeimperial)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label36)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label37)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanMinotaur)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label38)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label39)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanDrakhonon)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label40)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label41)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanDwarf)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label42)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label43)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanWastelander)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label44)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label45)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanHighelf)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label46)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label47)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label48)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.Label49)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanCatdrah)
         Me.PanelHalfbreedhuman.Controls.Add(Me.Label50)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton17)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton18)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton19)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton20)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton21)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton22)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton23)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton24)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton25)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton26)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton27)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton28)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton29)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton30)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton31)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton32)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton33)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton34)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton35)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton36)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton37)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton38)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton39)
-        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButton40)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanWoodelf)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanWastelander)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanAngelucian)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanWolfsbein)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanTroll)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanSanjoran)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanNyad)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanSquirrel)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanKinsmen)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanOrc)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanHobbit)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanMinotaur)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanGoblin)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanJadeimperial)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanGigayona)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanGnome)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanHighelf)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanFelucian)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanFairy)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanDwarf)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanDryad)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanDrakhonon)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanDarkelf)
+        Me.PanelHalfbreedhuman.Controls.Add(Me.RadioButtonHalfbreedhumanCatdrah)
         Me.PanelHalfbreedhuman.Controls.Add(Me.ButtonHalfbreedhumanEnd)
         Me.PanelHalfbreedhuman.Controls.Add(Me.ButtonHalfbreedhumanModifier)
         Me.PanelHalfbreedhuman.Controls.Add(Me.LabelHalfbreedhumanIntro)
         Me.PanelHalfbreedhuman.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelHalfbreedhuman.Enabled = False
         Me.PanelHalfbreedhuman.Location = New System.Drawing.Point(0, 0)
-        Me.PanelHalfbreedhuman.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PanelHalfbreedhuman.Margin = New System.Windows.Forms.Padding(2)
         Me.PanelHalfbreedhuman.Name = "PanelHalfbreedhuman"
         Me.PanelHalfbreedhuman.Size = New System.Drawing.Size(621, 316)
         Me.PanelHalfbreedhuman.TabIndex = 49
@@ -13066,150 +13068,150 @@ Partial Class Form1
         '
         Me.LabelHalfbreedhumanAngelucian.AutoSize = True
         Me.LabelHalfbreedhumanAngelucian.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelHalfbreedhumanAngelucian.Location = New System.Drawing.Point(148, 11)
+        Me.LabelHalfbreedhumanAngelucian.Location = New System.Drawing.Point(205, 26)
         Me.LabelHalfbreedhumanAngelucian.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelHalfbreedhumanAngelucian.Name = "LabelHalfbreedhumanAngelucian"
         Me.LabelHalfbreedhumanAngelucian.Size = New System.Drawing.Size(70, 16)
         Me.LabelHalfbreedhumanAngelucian.TabIndex = 6
         Me.LabelHalfbreedhumanAngelucian.Text = "Angalucian"
         '
-        'Label5
+        'LabelHalfbreedhumanTroll
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(351, 12)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(34, 16)
-        Me.Label5.TabIndex = 6
-        Me.Label5.Text = "Troll"
+        Me.LabelHalfbreedhumanTroll.AutoSize = True
+        Me.LabelHalfbreedhumanTroll.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanTroll.Location = New System.Drawing.Point(486, 25)
+        Me.LabelHalfbreedhumanTroll.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanTroll.Name = "LabelHalfbreedhumanTroll"
+        Me.LabelHalfbreedhumanTroll.Size = New System.Drawing.Size(34, 16)
+        Me.LabelHalfbreedhumanTroll.TabIndex = 6
+        Me.LabelHalfbreedhumanTroll.Text = "Troll"
         '
-        'Label6
+        'LabelHalfbreedhumanGoblin
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(253, 12)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(43, 16)
-        Me.Label6.TabIndex = 6
-        Me.Label6.Text = "Goblin"
+        Me.LabelHalfbreedhumanGoblin.AutoSize = True
+        Me.LabelHalfbreedhumanGoblin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanGoblin.Location = New System.Drawing.Point(354, 25)
+        Me.LabelHalfbreedhumanGoblin.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanGoblin.Name = "LabelHalfbreedhumanGoblin"
+        Me.LabelHalfbreedhumanGoblin.Size = New System.Drawing.Size(43, 16)
+        Me.LabelHalfbreedhumanGoblin.TabIndex = 6
+        Me.LabelHalfbreedhumanGoblin.Text = "Goblin"
         '
-        'Label8
+        'LabelHalfbreedhumanSanjoran
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(252, 125)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(60, 16)
-        Me.Label8.TabIndex = 6
-        Me.Label8.Text = "Sanjoran"
+        Me.LabelHalfbreedhumanSanjoran.AutoSize = True
+        Me.LabelHalfbreedhumanSanjoran.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanSanjoran.Location = New System.Drawing.Point(353, 236)
+        Me.LabelHalfbreedhumanSanjoran.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanSanjoran.Name = "LabelHalfbreedhumanSanjoran"
+        Me.LabelHalfbreedhumanSanjoran.Size = New System.Drawing.Size(60, 16)
+        Me.LabelHalfbreedhumanSanjoran.TabIndex = 6
+        Me.LabelHalfbreedhumanSanjoran.Text = "Sanjoran"
         '
-        'Label10
+        'LabelHalfbreedhumanGigayona
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(148, 123)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(77, 16)
-        Me.Label10.TabIndex = 6
-        Me.Label10.Text = "Gi-Ga Yo-Na"
+        Me.LabelHalfbreedhumanGigayona.AutoSize = True
+        Me.LabelHalfbreedhumanGigayona.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanGigayona.Location = New System.Drawing.Point(205, 236)
+        Me.LabelHalfbreedhumanGigayona.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanGigayona.Name = "LabelHalfbreedhumanGigayona"
+        Me.LabelHalfbreedhumanGigayona.Size = New System.Drawing.Size(77, 16)
+        Me.LabelHalfbreedhumanGigayona.TabIndex = 6
+        Me.LabelHalfbreedhumanGigayona.Text = "Gi-Ga Yo-Na"
         '
-        'Label11
+        'LabelHalfbreedhumanKinsman
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(252, 70)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(56, 16)
-        Me.Label11.TabIndex = 6
-        Me.Label11.Text = "Kinsmen"
+        Me.LabelHalfbreedhumanKinsman.AutoSize = True
+        Me.LabelHalfbreedhumanKinsman.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanKinsman.Location = New System.Drawing.Point(353, 129)
+        Me.LabelHalfbreedhumanKinsman.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanKinsman.Name = "LabelHalfbreedhumanKinsman"
+        Me.LabelHalfbreedhumanKinsman.Size = New System.Drawing.Size(56, 16)
+        Me.LabelHalfbreedhumanKinsman.TabIndex = 6
+        Me.LabelHalfbreedhumanKinsman.Text = "Kinsmen"
         '
-        'Label12
+        'LabelHalfbreedhumanDryad
         '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(148, 68)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(41, 16)
-        Me.Label12.TabIndex = 6
-        Me.Label12.Text = "Dryad"
+        Me.LabelHalfbreedhumanDryad.AutoSize = True
+        Me.LabelHalfbreedhumanDryad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanDryad.Location = New System.Drawing.Point(205, 129)
+        Me.LabelHalfbreedhumanDryad.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanDryad.Name = "LabelHalfbreedhumanDryad"
+        Me.LabelHalfbreedhumanDryad.Size = New System.Drawing.Size(41, 16)
+        Me.LabelHalfbreedhumanDryad.TabIndex = 6
+        Me.LabelHalfbreedhumanDryad.Text = "Dryad"
         '
-        'Label15
+        'LabelHalfbreedhumanSquirrel
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(252, 140)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(53, 16)
-        Me.Label15.TabIndex = 6
-        Me.Label15.Text = "Squirrel"
+        Me.LabelHalfbreedhumanSquirrel.AutoSize = True
+        Me.LabelHalfbreedhumanSquirrel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanSquirrel.Location = New System.Drawing.Point(353, 266)
+        Me.LabelHalfbreedhumanSquirrel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanSquirrel.Name = "LabelHalfbreedhumanSquirrel"
+        Me.LabelHalfbreedhumanSquirrel.Size = New System.Drawing.Size(53, 16)
+        Me.LabelHalfbreedhumanSquirrel.TabIndex = 6
+        Me.LabelHalfbreedhumanSquirrel.Text = "Squirrel"
         '
-        'Label17
+        'LabelHalfbreedhumanGnome
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(148, 138)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(48, 16)
-        Me.Label17.TabIndex = 6
-        Me.Label17.Text = "Gnome"
+        Me.LabelHalfbreedhumanGnome.AutoSize = True
+        Me.LabelHalfbreedhumanGnome.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanGnome.Location = New System.Drawing.Point(205, 266)
+        Me.LabelHalfbreedhumanGnome.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanGnome.Name = "LabelHalfbreedhumanGnome"
+        Me.LabelHalfbreedhumanGnome.Size = New System.Drawing.Size(48, 16)
+        Me.LabelHalfbreedhumanGnome.TabIndex = 6
+        Me.LabelHalfbreedhumanGnome.Text = "Gnome"
         '
-        'Label20
+        'LabelHalfbreedhumanNyad
         '
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(252, 96)
-        Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(36, 16)
-        Me.Label20.TabIndex = 6
-        Me.Label20.Text = "Nyad"
+        Me.LabelHalfbreedhumanNyad.AutoSize = True
+        Me.LabelHalfbreedhumanNyad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanNyad.Location = New System.Drawing.Point(354, 182)
+        Me.LabelHalfbreedhumanNyad.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanNyad.Name = "LabelHalfbreedhumanNyad"
+        Me.LabelHalfbreedhumanNyad.Size = New System.Drawing.Size(36, 16)
+        Me.LabelHalfbreedhumanNyad.TabIndex = 6
+        Me.LabelHalfbreedhumanNyad.Text = "Nyad"
         '
-        'Label21
+        'LabelHalfbreedhumanFairy
         '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(148, 94)
-        Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(36, 16)
-        Me.Label21.TabIndex = 6
-        Me.Label21.Text = "Fairy"
+        Me.LabelHalfbreedhumanFairy.AutoSize = True
+        Me.LabelHalfbreedhumanFairy.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanFairy.Location = New System.Drawing.Point(206, 182)
+        Me.LabelHalfbreedhumanFairy.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanFairy.Name = "LabelHalfbreedhumanFairy"
+        Me.LabelHalfbreedhumanFairy.Size = New System.Drawing.Size(36, 16)
+        Me.LabelHalfbreedhumanFairy.TabIndex = 6
+        Me.LabelHalfbreedhumanFairy.Text = "Fairy"
         '
-        'Label22
+        'LabelHalfbreedhumanOrc
         '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(252, 110)
-        Me.Label22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(28, 16)
-        Me.Label22.TabIndex = 6
-        Me.Label22.Text = "Orc"
+        Me.LabelHalfbreedhumanOrc.AutoSize = True
+        Me.LabelHalfbreedhumanOrc.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanOrc.Location = New System.Drawing.Point(353, 210)
+        Me.LabelHalfbreedhumanOrc.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanOrc.Name = "LabelHalfbreedhumanOrc"
+        Me.LabelHalfbreedhumanOrc.Size = New System.Drawing.Size(28, 16)
+        Me.LabelHalfbreedhumanOrc.TabIndex = 6
+        Me.LabelHalfbreedhumanOrc.Text = "Orc"
         '
-        'Label23
+        'LabelHalfbreedhumanFelucian
         '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(148, 109)
-        Me.Label23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(55, 16)
-        Me.Label23.TabIndex = 6
-        Me.Label23.Text = "Felucian"
+        Me.LabelHalfbreedhumanFelucian.AutoSize = True
+        Me.LabelHalfbreedhumanFelucian.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanFelucian.Location = New System.Drawing.Point(205, 211)
+        Me.LabelHalfbreedhumanFelucian.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanFelucian.Name = "LabelHalfbreedhumanFelucian"
+        Me.LabelHalfbreedhumanFelucian.Size = New System.Drawing.Size(55, 16)
+        Me.LabelHalfbreedhumanFelucian.TabIndex = 6
+        Me.LabelHalfbreedhumanFelucian.Text = "Felucian"
         '
         'Label27
         '
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(252, 140)
+        Me.Label27.Location = New System.Drawing.Point(353, 266)
         Me.Label27.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(45, 16)
@@ -13220,183 +13222,183 @@ Partial Class Form1
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(148, 138)
+        Me.Label28.Location = New System.Drawing.Point(205, 266)
         Me.Label28.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(45, 16)
         Me.Label28.TabIndex = 6
         Me.Label28.Text = "Label1"
         '
-        'Label29
+        'LabelHalfbreedhumanWolfbein
         '
-        Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(351, 41)
-        Me.Label29.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(64, 16)
-        Me.Label29.TabIndex = 6
-        Me.Label29.Text = "Wolfsbein"
+        Me.LabelHalfbreedhumanWolfbein.AutoSize = True
+        Me.LabelHalfbreedhumanWolfbein.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanWolfbein.Location = New System.Drawing.Point(486, 78)
+        Me.LabelHalfbreedhumanWolfbein.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanWolfbein.Name = "LabelHalfbreedhumanWolfbein"
+        Me.LabelHalfbreedhumanWolfbein.Size = New System.Drawing.Size(64, 16)
+        Me.LabelHalfbreedhumanWolfbein.TabIndex = 6
+        Me.LabelHalfbreedhumanWolfbein.Text = "Wolfsbein"
         '
-        'Label30
+        'LabelHalfbreedhumanHobbit
         '
-        Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(252, 41)
-        Me.Label30.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(44, 16)
-        Me.Label30.TabIndex = 6
-        Me.Label30.Text = "Hobbit"
+        Me.LabelHalfbreedhumanHobbit.AutoSize = True
+        Me.LabelHalfbreedhumanHobbit.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanHobbit.Location = New System.Drawing.Point(353, 78)
+        Me.LabelHalfbreedhumanHobbit.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanHobbit.Name = "LabelHalfbreedhumanHobbit"
+        Me.LabelHalfbreedhumanHobbit.Size = New System.Drawing.Size(44, 16)
+        Me.LabelHalfbreedhumanHobbit.TabIndex = 6
+        Me.LabelHalfbreedhumanHobbit.Text = "Hobbit"
         '
-        'Label32
+        'LabelHalfbreedhumanWoodelf
         '
-        Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(351, 55)
-        Me.Label32.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(59, 16)
-        Me.Label32.TabIndex = 6
-        Me.Label32.Text = "Wood Elf"
+        Me.LabelHalfbreedhumanWoodelf.AutoSize = True
+        Me.LabelHalfbreedhumanWoodelf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanWoodelf.Location = New System.Drawing.Point(486, 103)
+        Me.LabelHalfbreedhumanWoodelf.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanWoodelf.Name = "LabelHalfbreedhumanWoodelf"
+        Me.LabelHalfbreedhumanWoodelf.Size = New System.Drawing.Size(59, 16)
+        Me.LabelHalfbreedhumanWoodelf.TabIndex = 6
+        Me.LabelHalfbreedhumanWoodelf.Text = "Wood Elf"
         '
-        'Label33
+        'LabelHalfbreedhumanDarkelf
         '
-        Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(148, 40)
-        Me.Label33.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(52, 16)
-        Me.Label33.TabIndex = 6
-        Me.Label33.Text = "Dark Elf"
+        Me.LabelHalfbreedhumanDarkelf.AutoSize = True
+        Me.LabelHalfbreedhumanDarkelf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanDarkelf.Location = New System.Drawing.Point(205, 79)
+        Me.LabelHalfbreedhumanDarkelf.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanDarkelf.Name = "LabelHalfbreedhumanDarkelf"
+        Me.LabelHalfbreedhumanDarkelf.Size = New System.Drawing.Size(52, 16)
+        Me.LabelHalfbreedhumanDarkelf.TabIndex = 6
+        Me.LabelHalfbreedhumanDarkelf.Text = "Dark Elf"
         '
-        'Label35
+        'LabelHalfbreedhumanJadeimperial
         '
-        Me.Label35.AutoSize = True
-        Me.Label35.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(252, 55)
-        Me.Label35.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(85, 16)
-        Me.Label35.TabIndex = 6
-        Me.Label35.Text = "Jade Imperial"
+        Me.LabelHalfbreedhumanJadeimperial.AutoSize = True
+        Me.LabelHalfbreedhumanJadeimperial.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanJadeimperial.Location = New System.Drawing.Point(353, 103)
+        Me.LabelHalfbreedhumanJadeimperial.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanJadeimperial.Name = "LabelHalfbreedhumanJadeimperial"
+        Me.LabelHalfbreedhumanJadeimperial.Size = New System.Drawing.Size(85, 16)
+        Me.LabelHalfbreedhumanJadeimperial.TabIndex = 6
+        Me.LabelHalfbreedhumanJadeimperial.Text = "Jade Imperial"
         '
         'Label36
         '
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(148, 109)
+        Me.Label36.Location = New System.Drawing.Point(205, 211)
         Me.Label36.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(45, 16)
         Me.Label36.TabIndex = 6
         Me.Label36.Text = "Label1"
         '
-        'Label37
+        'LabelHalfbreedhumanMinotaur
         '
-        Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(252, 82)
-        Me.Label37.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(58, 16)
-        Me.Label37.TabIndex = 6
-        Me.Label37.Text = "Minotaur"
+        Me.LabelHalfbreedhumanMinotaur.AutoSize = True
+        Me.LabelHalfbreedhumanMinotaur.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanMinotaur.Location = New System.Drawing.Point(353, 155)
+        Me.LabelHalfbreedhumanMinotaur.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanMinotaur.Name = "LabelHalfbreedhumanMinotaur"
+        Me.LabelHalfbreedhumanMinotaur.Size = New System.Drawing.Size(58, 16)
+        Me.LabelHalfbreedhumanMinotaur.TabIndex = 6
+        Me.LabelHalfbreedhumanMinotaur.Text = "Minotaur"
         '
         'Label38
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(351, 55)
+        Me.Label38.Location = New System.Drawing.Point(486, 103)
         Me.Label38.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(45, 16)
         Me.Label38.TabIndex = 6
         Me.Label38.Text = "Label1"
         '
-        'Label39
+        'LabelHalfbreedhumanDrakhonon
         '
-        Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(148, 53)
-        Me.Label39.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(69, 16)
-        Me.Label39.TabIndex = 6
-        Me.Label39.Text = "Drakhonon"
+        Me.LabelHalfbreedhumanDrakhonon.AutoSize = True
+        Me.LabelHalfbreedhumanDrakhonon.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanDrakhonon.Location = New System.Drawing.Point(205, 103)
+        Me.LabelHalfbreedhumanDrakhonon.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanDrakhonon.Name = "LabelHalfbreedhumanDrakhonon"
+        Me.LabelHalfbreedhumanDrakhonon.Size = New System.Drawing.Size(69, 16)
+        Me.LabelHalfbreedhumanDrakhonon.TabIndex = 6
+        Me.LabelHalfbreedhumanDrakhonon.Text = "Drakhonon"
         '
         'Label40
         '
         Me.Label40.AutoSize = True
         Me.Label40.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(252, 55)
+        Me.Label40.Location = New System.Drawing.Point(353, 103)
         Me.Label40.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(45, 16)
         Me.Label40.TabIndex = 6
         Me.Label40.Text = "Label1"
         '
-        'Label41
+        'LabelHalfbreedhumanDwarf
         '
-        Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(148, 81)
-        Me.Label41.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(42, 16)
-        Me.Label41.TabIndex = 6
-        Me.Label41.Text = "Dwarf"
+        Me.LabelHalfbreedhumanDwarf.AutoSize = True
+        Me.LabelHalfbreedhumanDwarf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanDwarf.Location = New System.Drawing.Point(205, 156)
+        Me.LabelHalfbreedhumanDwarf.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanDwarf.Name = "LabelHalfbreedhumanDwarf"
+        Me.LabelHalfbreedhumanDwarf.Size = New System.Drawing.Size(42, 16)
+        Me.LabelHalfbreedhumanDwarf.TabIndex = 6
+        Me.LabelHalfbreedhumanDwarf.Text = "Dwarf"
         '
         'Label42
         '
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(252, 82)
+        Me.Label42.Location = New System.Drawing.Point(353, 155)
         Me.Label42.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(45, 16)
         Me.Label42.TabIndex = 6
         Me.Label42.Text = "Label1"
         '
-        'Label43
+        'LabelHalfbreedhumanWastelander
         '
-        Me.Label43.AutoSize = True
-        Me.Label43.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(351, 27)
-        Me.Label43.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(80, 16)
-        Me.Label43.TabIndex = 6
-        Me.Label43.Text = "Wastelander"
+        Me.LabelHalfbreedhumanWastelander.AutoSize = True
+        Me.LabelHalfbreedhumanWastelander.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanWastelander.Location = New System.Drawing.Point(486, 51)
+        Me.LabelHalfbreedhumanWastelander.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanWastelander.Name = "LabelHalfbreedhumanWastelander"
+        Me.LabelHalfbreedhumanWastelander.Size = New System.Drawing.Size(80, 16)
+        Me.LabelHalfbreedhumanWastelander.TabIndex = 6
+        Me.LabelHalfbreedhumanWastelander.Text = "Wastelander"
         '
         'Label44
         '
         Me.Label44.AutoSize = True
         Me.Label44.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.Location = New System.Drawing.Point(148, 53)
+        Me.Label44.Location = New System.Drawing.Point(205, 103)
         Me.Label44.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(45, 16)
         Me.Label44.TabIndex = 6
         Me.Label44.Text = "Label1"
         '
-        'Label45
+        'LabelHalfbreedhumanHighelf
         '
-        Me.Label45.AutoSize = True
-        Me.Label45.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(252, 27)
-        Me.Label45.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(51, 16)
-        Me.Label45.TabIndex = 6
-        Me.Label45.Text = "High Elf"
+        Me.LabelHalfbreedhumanHighelf.AutoSize = True
+        Me.LabelHalfbreedhumanHighelf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanHighelf.Location = New System.Drawing.Point(353, 51)
+        Me.LabelHalfbreedhumanHighelf.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanHighelf.Name = "LabelHalfbreedhumanHighelf"
+        Me.LabelHalfbreedhumanHighelf.Size = New System.Drawing.Size(51, 16)
+        Me.LabelHalfbreedhumanHighelf.TabIndex = 6
+        Me.LabelHalfbreedhumanHighelf.Text = "High Elf"
         '
         'Label46
         '
         Me.Label46.AutoSize = True
         Me.Label46.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(351, 26)
+        Me.Label46.Location = New System.Drawing.Point(486, 50)
         Me.Label46.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(45, 16)
@@ -13407,7 +13409,7 @@ Partial Class Form1
         '
         Me.Label47.AutoSize = True
         Me.Label47.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.Location = New System.Drawing.Point(148, 81)
+        Me.Label47.Location = New System.Drawing.Point(205, 156)
         Me.Label47.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(45, 16)
@@ -13418,329 +13420,329 @@ Partial Class Form1
         '
         Me.Label48.AutoSize = True
         Me.Label48.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.Location = New System.Drawing.Point(252, 26)
+        Me.Label48.Location = New System.Drawing.Point(353, 50)
         Me.Label48.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(45, 16)
         Me.Label48.TabIndex = 6
         Me.Label48.Text = "Label1"
         '
-        'Label49
+        'LabelHalfbreedhumanCatdrah
         '
-        Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(148, 25)
-        Me.Label49.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(53, 16)
-        Me.Label49.TabIndex = 6
-        Me.Label49.Text = "Catdrah"
+        Me.LabelHalfbreedhumanCatdrah.AutoSize = True
+        Me.LabelHalfbreedhumanCatdrah.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelHalfbreedhumanCatdrah.Location = New System.Drawing.Point(205, 51)
+        Me.LabelHalfbreedhumanCatdrah.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LabelHalfbreedhumanCatdrah.Name = "LabelHalfbreedhumanCatdrah"
+        Me.LabelHalfbreedhumanCatdrah.Size = New System.Drawing.Size(53, 16)
+        Me.LabelHalfbreedhumanCatdrah.TabIndex = 6
+        Me.LabelHalfbreedhumanCatdrah.Text = "Catdrah"
         '
         'Label50
         '
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(148, 25)
+        Me.Label50.Location = New System.Drawing.Point(205, 51)
         Me.Label50.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label50.Name = "Label50"
         Me.Label50.Size = New System.Drawing.Size(52, 16)
         Me.Label50.TabIndex = 6
         Me.Label50.Text = "Label50"
         '
-        'RadioButton17
+        'RadioButtonHalfbreedhumanWoodelf
         '
-        Me.RadioButton17.AutoSize = True
-        Me.RadioButton17.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton17.Location = New System.Drawing.Point(337, 55)
-        Me.RadioButton17.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton17.Name = "RadioButton17"
-        Me.RadioButton17.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton17.TabIndex = 5
-        Me.RadioButton17.TabStop = True
-        Me.RadioButton17.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanWoodelf.AutoSize = True
+        Me.RadioButtonHalfbreedhumanWoodelf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanWoodelf.Location = New System.Drawing.Point(472, 103)
+        Me.RadioButtonHalfbreedhumanWoodelf.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanWoodelf.Name = "RadioButtonHalfbreedhumanWoodelf"
+        Me.RadioButtonHalfbreedhumanWoodelf.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanWoodelf.TabIndex = 5
+        Me.RadioButtonHalfbreedhumanWoodelf.TabStop = True
+        Me.RadioButtonHalfbreedhumanWoodelf.UseVisualStyleBackColor = True
         '
-        'RadioButton18
+        'RadioButtonHalfbreedhumanWastelander
         '
-        Me.RadioButton18.AutoSize = True
-        Me.RadioButton18.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton18.Location = New System.Drawing.Point(337, 27)
-        Me.RadioButton18.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton18.Name = "RadioButton18"
-        Me.RadioButton18.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton18.TabIndex = 5
-        Me.RadioButton18.TabStop = True
-        Me.RadioButton18.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanWastelander.AutoSize = True
+        Me.RadioButtonHalfbreedhumanWastelander.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanWastelander.Location = New System.Drawing.Point(472, 51)
+        Me.RadioButtonHalfbreedhumanWastelander.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanWastelander.Name = "RadioButtonHalfbreedhumanWastelander"
+        Me.RadioButtonHalfbreedhumanWastelander.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanWastelander.TabIndex = 5
+        Me.RadioButtonHalfbreedhumanWastelander.TabStop = True
+        Me.RadioButtonHalfbreedhumanWastelander.UseVisualStyleBackColor = True
         '
-        'RadioButton19
+        'RadioButtonHalfbreedhumanAngelucian
         '
-        Me.RadioButton19.AutoSize = True
-        Me.RadioButton19.Location = New System.Drawing.Point(135, 12)
-        Me.RadioButton19.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton19.Name = "RadioButton19"
-        Me.RadioButton19.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton19.TabIndex = 5
-        Me.RadioButton19.TabStop = True
-        Me.RadioButton19.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanAngelucian.AutoSize = True
+        Me.RadioButtonHalfbreedhumanAngelucian.Location = New System.Drawing.Point(192, 27)
+        Me.RadioButtonHalfbreedhumanAngelucian.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanAngelucian.Name = "RadioButtonHalfbreedhumanAngelucian"
+        Me.RadioButtonHalfbreedhumanAngelucian.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanAngelucian.TabIndex = 5
+        Me.RadioButtonHalfbreedhumanAngelucian.TabStop = True
+        Me.RadioButtonHalfbreedhumanAngelucian.UseVisualStyleBackColor = True
         '
-        'RadioButton20
+        'RadioButtonHalfbreedhumanWolfsbein
         '
-        Me.RadioButton20.AutoSize = True
-        Me.RadioButton20.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton20.Location = New System.Drawing.Point(337, 41)
-        Me.RadioButton20.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton20.Name = "RadioButton20"
-        Me.RadioButton20.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton20.TabIndex = 5
-        Me.RadioButton20.TabStop = True
-        Me.RadioButton20.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanWolfsbein.AutoSize = True
+        Me.RadioButtonHalfbreedhumanWolfsbein.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanWolfsbein.Location = New System.Drawing.Point(472, 78)
+        Me.RadioButtonHalfbreedhumanWolfsbein.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanWolfsbein.Name = "RadioButtonHalfbreedhumanWolfsbein"
+        Me.RadioButtonHalfbreedhumanWolfsbein.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanWolfsbein.TabIndex = 5
+        Me.RadioButtonHalfbreedhumanWolfsbein.TabStop = True
+        Me.RadioButtonHalfbreedhumanWolfsbein.UseVisualStyleBackColor = True
         '
-        'RadioButton21
+        'RadioButtonHalfbreedhumanTroll
         '
-        Me.RadioButton21.AutoSize = True
-        Me.RadioButton21.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton21.Location = New System.Drawing.Point(337, 12)
-        Me.RadioButton21.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton21.Name = "RadioButton21"
-        Me.RadioButton21.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton21.TabIndex = 4
-        Me.RadioButton21.TabStop = True
-        Me.RadioButton21.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanTroll.AutoSize = True
+        Me.RadioButtonHalfbreedhumanTroll.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanTroll.Location = New System.Drawing.Point(472, 25)
+        Me.RadioButtonHalfbreedhumanTroll.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanTroll.Name = "RadioButtonHalfbreedhumanTroll"
+        Me.RadioButtonHalfbreedhumanTroll.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanTroll.TabIndex = 4
+        Me.RadioButtonHalfbreedhumanTroll.TabStop = True
+        Me.RadioButtonHalfbreedhumanTroll.UseVisualStyleBackColor = True
         '
-        'RadioButton22
+        'RadioButtonHalfbreedhumanSanjoran
         '
-        Me.RadioButton22.AutoSize = True
-        Me.RadioButton22.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton22.Location = New System.Drawing.Point(239, 125)
-        Me.RadioButton22.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton22.Name = "RadioButton22"
-        Me.RadioButton22.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton22.TabIndex = 4
-        Me.RadioButton22.TabStop = True
-        Me.RadioButton22.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanSanjoran.AutoSize = True
+        Me.RadioButtonHalfbreedhumanSanjoran.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanSanjoran.Location = New System.Drawing.Point(340, 236)
+        Me.RadioButtonHalfbreedhumanSanjoran.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanSanjoran.Name = "RadioButtonHalfbreedhumanSanjoran"
+        Me.RadioButtonHalfbreedhumanSanjoran.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanSanjoran.TabIndex = 4
+        Me.RadioButtonHalfbreedhumanSanjoran.TabStop = True
+        Me.RadioButtonHalfbreedhumanSanjoran.UseVisualStyleBackColor = True
         '
-        'RadioButton23
+        'RadioButtonHalfbreedhumanNyad
         '
-        Me.RadioButton23.AutoSize = True
-        Me.RadioButton23.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton23.Location = New System.Drawing.Point(239, 97)
-        Me.RadioButton23.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton23.Name = "RadioButton23"
-        Me.RadioButton23.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton23.TabIndex = 4
-        Me.RadioButton23.TabStop = True
-        Me.RadioButton23.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanNyad.AutoSize = True
+        Me.RadioButtonHalfbreedhumanNyad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanNyad.Location = New System.Drawing.Point(341, 183)
+        Me.RadioButtonHalfbreedhumanNyad.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanNyad.Name = "RadioButtonHalfbreedhumanNyad"
+        Me.RadioButtonHalfbreedhumanNyad.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanNyad.TabIndex = 4
+        Me.RadioButtonHalfbreedhumanNyad.TabStop = True
+        Me.RadioButtonHalfbreedhumanNyad.UseVisualStyleBackColor = True
         '
-        'RadioButton24
+        'RadioButtonHalfbreedhumanSquirrel
         '
-        Me.RadioButton24.AutoSize = True
-        Me.RadioButton24.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton24.Location = New System.Drawing.Point(239, 140)
-        Me.RadioButton24.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton24.Name = "RadioButton24"
-        Me.RadioButton24.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton24.TabIndex = 4
-        Me.RadioButton24.TabStop = True
-        Me.RadioButton24.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanSquirrel.AutoSize = True
+        Me.RadioButtonHalfbreedhumanSquirrel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanSquirrel.Location = New System.Drawing.Point(340, 266)
+        Me.RadioButtonHalfbreedhumanSquirrel.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanSquirrel.Name = "RadioButtonHalfbreedhumanSquirrel"
+        Me.RadioButtonHalfbreedhumanSquirrel.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanSquirrel.TabIndex = 4
+        Me.RadioButtonHalfbreedhumanSquirrel.TabStop = True
+        Me.RadioButtonHalfbreedhumanSquirrel.UseVisualStyleBackColor = True
         '
-        'RadioButton25
+        'RadioButtonHalfbreedhumanKinsmen
         '
-        Me.RadioButton25.AutoSize = True
-        Me.RadioButton25.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton25.Location = New System.Drawing.Point(239, 70)
-        Me.RadioButton25.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton25.Name = "RadioButton25"
-        Me.RadioButton25.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton25.TabIndex = 4
-        Me.RadioButton25.TabStop = True
-        Me.RadioButton25.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanKinsmen.AutoSize = True
+        Me.RadioButtonHalfbreedhumanKinsmen.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanKinsmen.Location = New System.Drawing.Point(340, 129)
+        Me.RadioButtonHalfbreedhumanKinsmen.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanKinsmen.Name = "RadioButtonHalfbreedhumanKinsmen"
+        Me.RadioButtonHalfbreedhumanKinsmen.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanKinsmen.TabIndex = 4
+        Me.RadioButtonHalfbreedhumanKinsmen.TabStop = True
+        Me.RadioButtonHalfbreedhumanKinsmen.UseVisualStyleBackColor = True
         '
-        'RadioButton26
+        'RadioButtonHalfbreedhumanOrc
         '
-        Me.RadioButton26.AutoSize = True
-        Me.RadioButton26.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton26.Location = New System.Drawing.Point(239, 110)
-        Me.RadioButton26.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton26.Name = "RadioButton26"
-        Me.RadioButton26.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton26.TabIndex = 4
-        Me.RadioButton26.TabStop = True
-        Me.RadioButton26.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanOrc.AutoSize = True
+        Me.RadioButtonHalfbreedhumanOrc.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanOrc.Location = New System.Drawing.Point(340, 210)
+        Me.RadioButtonHalfbreedhumanOrc.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanOrc.Name = "RadioButtonHalfbreedhumanOrc"
+        Me.RadioButtonHalfbreedhumanOrc.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanOrc.TabIndex = 4
+        Me.RadioButtonHalfbreedhumanOrc.TabStop = True
+        Me.RadioButtonHalfbreedhumanOrc.UseVisualStyleBackColor = True
         '
-        'RadioButton27
+        'RadioButtonHalfbreedhumanHobbit
         '
-        Me.RadioButton27.AutoSize = True
-        Me.RadioButton27.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton27.Location = New System.Drawing.Point(239, 41)
-        Me.RadioButton27.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton27.Name = "RadioButton27"
-        Me.RadioButton27.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton27.TabIndex = 4
-        Me.RadioButton27.TabStop = True
-        Me.RadioButton27.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanHobbit.AutoSize = True
+        Me.RadioButtonHalfbreedhumanHobbit.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanHobbit.Location = New System.Drawing.Point(340, 78)
+        Me.RadioButtonHalfbreedhumanHobbit.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanHobbit.Name = "RadioButtonHalfbreedhumanHobbit"
+        Me.RadioButtonHalfbreedhumanHobbit.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanHobbit.TabIndex = 4
+        Me.RadioButtonHalfbreedhumanHobbit.TabStop = True
+        Me.RadioButtonHalfbreedhumanHobbit.UseVisualStyleBackColor = True
         '
-        'RadioButton28
+        'RadioButtonHalfbreedhumanMinotaur
         '
-        Me.RadioButton28.AutoSize = True
-        Me.RadioButton28.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton28.Location = New System.Drawing.Point(239, 83)
-        Me.RadioButton28.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton28.Name = "RadioButton28"
-        Me.RadioButton28.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton28.TabIndex = 4
-        Me.RadioButton28.TabStop = True
-        Me.RadioButton28.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanMinotaur.AutoSize = True
+        Me.RadioButtonHalfbreedhumanMinotaur.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanMinotaur.Location = New System.Drawing.Point(340, 156)
+        Me.RadioButtonHalfbreedhumanMinotaur.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanMinotaur.Name = "RadioButtonHalfbreedhumanMinotaur"
+        Me.RadioButtonHalfbreedhumanMinotaur.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanMinotaur.TabIndex = 4
+        Me.RadioButtonHalfbreedhumanMinotaur.TabStop = True
+        Me.RadioButtonHalfbreedhumanMinotaur.UseVisualStyleBackColor = True
         '
-        'RadioButton29
+        'RadioButtonHalfbreedhumanGoblin
         '
-        Me.RadioButton29.AutoSize = True
-        Me.RadioButton29.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton29.Location = New System.Drawing.Point(239, 12)
-        Me.RadioButton29.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton29.Name = "RadioButton29"
-        Me.RadioButton29.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton29.TabIndex = 3
-        Me.RadioButton29.TabStop = True
-        Me.RadioButton29.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanGoblin.AutoSize = True
+        Me.RadioButtonHalfbreedhumanGoblin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanGoblin.Location = New System.Drawing.Point(340, 25)
+        Me.RadioButtonHalfbreedhumanGoblin.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanGoblin.Name = "RadioButtonHalfbreedhumanGoblin"
+        Me.RadioButtonHalfbreedhumanGoblin.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanGoblin.TabIndex = 3
+        Me.RadioButtonHalfbreedhumanGoblin.TabStop = True
+        Me.RadioButtonHalfbreedhumanGoblin.UseVisualStyleBackColor = True
         '
-        'RadioButton30
+        'RadioButtonHalfbreedhumanJadeimperial
         '
-        Me.RadioButton30.AutoSize = True
-        Me.RadioButton30.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton30.Location = New System.Drawing.Point(239, 55)
-        Me.RadioButton30.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton30.Name = "RadioButton30"
-        Me.RadioButton30.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton30.TabIndex = 4
-        Me.RadioButton30.TabStop = True
-        Me.RadioButton30.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanJadeimperial.AutoSize = True
+        Me.RadioButtonHalfbreedhumanJadeimperial.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanJadeimperial.Location = New System.Drawing.Point(340, 103)
+        Me.RadioButtonHalfbreedhumanJadeimperial.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanJadeimperial.Name = "RadioButtonHalfbreedhumanJadeimperial"
+        Me.RadioButtonHalfbreedhumanJadeimperial.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanJadeimperial.TabIndex = 4
+        Me.RadioButtonHalfbreedhumanJadeimperial.TabStop = True
+        Me.RadioButtonHalfbreedhumanJadeimperial.UseVisualStyleBackColor = True
         '
-        'RadioButton31
+        'RadioButtonHalfbreedhumanGigayona
         '
-        Me.RadioButton31.AutoSize = True
-        Me.RadioButton31.Location = New System.Drawing.Point(135, 125)
-        Me.RadioButton31.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton31.Name = "RadioButton31"
-        Me.RadioButton31.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton31.TabIndex = 3
-        Me.RadioButton31.TabStop = True
-        Me.RadioButton31.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanGigayona.AutoSize = True
+        Me.RadioButtonHalfbreedhumanGigayona.Location = New System.Drawing.Point(192, 238)
+        Me.RadioButtonHalfbreedhumanGigayona.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanGigayona.Name = "RadioButtonHalfbreedhumanGigayona"
+        Me.RadioButtonHalfbreedhumanGigayona.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanGigayona.TabIndex = 3
+        Me.RadioButtonHalfbreedhumanGigayona.TabStop = True
+        Me.RadioButtonHalfbreedhumanGigayona.UseVisualStyleBackColor = True
         '
-        'RadioButton32
+        'RadioButtonHalfbreedhumanGnome
         '
-        Me.RadioButton32.AutoSize = True
-        Me.RadioButton32.Location = New System.Drawing.Point(135, 139)
-        Me.RadioButton32.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton32.Name = "RadioButton32"
-        Me.RadioButton32.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton32.TabIndex = 3
-        Me.RadioButton32.TabStop = True
-        Me.RadioButton32.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanGnome.AutoSize = True
+        Me.RadioButtonHalfbreedhumanGnome.Location = New System.Drawing.Point(192, 267)
+        Me.RadioButtonHalfbreedhumanGnome.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanGnome.Name = "RadioButtonHalfbreedhumanGnome"
+        Me.RadioButtonHalfbreedhumanGnome.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanGnome.TabIndex = 3
+        Me.RadioButtonHalfbreedhumanGnome.TabStop = True
+        Me.RadioButtonHalfbreedhumanGnome.UseVisualStyleBackColor = True
         '
-        'RadioButton33
+        'RadioButtonHalfbreedhumanHighelf
         '
-        Me.RadioButton33.AutoSize = True
-        Me.RadioButton33.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton33.Location = New System.Drawing.Point(239, 27)
-        Me.RadioButton33.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton33.Name = "RadioButton33"
-        Me.RadioButton33.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton33.TabIndex = 4
-        Me.RadioButton33.TabStop = True
-        Me.RadioButton33.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanHighelf.AutoSize = True
+        Me.RadioButtonHalfbreedhumanHighelf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonHalfbreedhumanHighelf.Location = New System.Drawing.Point(340, 51)
+        Me.RadioButtonHalfbreedhumanHighelf.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanHighelf.Name = "RadioButtonHalfbreedhumanHighelf"
+        Me.RadioButtonHalfbreedhumanHighelf.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanHighelf.TabIndex = 4
+        Me.RadioButtonHalfbreedhumanHighelf.TabStop = True
+        Me.RadioButtonHalfbreedhumanHighelf.UseVisualStyleBackColor = True
         '
-        'RadioButton34
+        'RadioButtonHalfbreedhumanFelucian
         '
-        Me.RadioButton34.AutoSize = True
-        Me.RadioButton34.Location = New System.Drawing.Point(135, 110)
-        Me.RadioButton34.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton34.Name = "RadioButton34"
-        Me.RadioButton34.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton34.TabIndex = 3
-        Me.RadioButton34.TabStop = True
-        Me.RadioButton34.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanFelucian.AutoSize = True
+        Me.RadioButtonHalfbreedhumanFelucian.Location = New System.Drawing.Point(192, 212)
+        Me.RadioButtonHalfbreedhumanFelucian.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanFelucian.Name = "RadioButtonHalfbreedhumanFelucian"
+        Me.RadioButtonHalfbreedhumanFelucian.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanFelucian.TabIndex = 3
+        Me.RadioButtonHalfbreedhumanFelucian.TabStop = True
+        Me.RadioButtonHalfbreedhumanFelucian.UseVisualStyleBackColor = True
         '
-        'RadioButton35
+        'RadioButtonHalfbreedhumanFairy
         '
-        Me.RadioButton35.AutoSize = True
-        Me.RadioButton35.Location = New System.Drawing.Point(135, 97)
-        Me.RadioButton35.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton35.Name = "RadioButton35"
-        Me.RadioButton35.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton35.TabIndex = 3
-        Me.RadioButton35.TabStop = True
-        Me.RadioButton35.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanFairy.AutoSize = True
+        Me.RadioButtonHalfbreedhumanFairy.Location = New System.Drawing.Point(193, 185)
+        Me.RadioButtonHalfbreedhumanFairy.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanFairy.Name = "RadioButtonHalfbreedhumanFairy"
+        Me.RadioButtonHalfbreedhumanFairy.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanFairy.TabIndex = 3
+        Me.RadioButtonHalfbreedhumanFairy.TabStop = True
+        Me.RadioButtonHalfbreedhumanFairy.UseVisualStyleBackColor = True
         '
-        'RadioButton36
+        'RadioButtonHalfbreedhumanDwarf
         '
-        Me.RadioButton36.AutoSize = True
-        Me.RadioButton36.Location = New System.Drawing.Point(135, 83)
-        Me.RadioButton36.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton36.Name = "RadioButton36"
-        Me.RadioButton36.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton36.TabIndex = 3
-        Me.RadioButton36.TabStop = True
-        Me.RadioButton36.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanDwarf.AutoSize = True
+        Me.RadioButtonHalfbreedhumanDwarf.Location = New System.Drawing.Point(192, 158)
+        Me.RadioButtonHalfbreedhumanDwarf.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanDwarf.Name = "RadioButtonHalfbreedhumanDwarf"
+        Me.RadioButtonHalfbreedhumanDwarf.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanDwarf.TabIndex = 3
+        Me.RadioButtonHalfbreedhumanDwarf.TabStop = True
+        Me.RadioButtonHalfbreedhumanDwarf.UseVisualStyleBackColor = True
         '
-        'RadioButton37
+        'RadioButtonHalfbreedhumanDryad
         '
-        Me.RadioButton37.AutoSize = True
-        Me.RadioButton37.Location = New System.Drawing.Point(135, 70)
-        Me.RadioButton37.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton37.Name = "RadioButton37"
-        Me.RadioButton37.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton37.TabIndex = 3
-        Me.RadioButton37.TabStop = True
-        Me.RadioButton37.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanDryad.AutoSize = True
+        Me.RadioButtonHalfbreedhumanDryad.Location = New System.Drawing.Point(192, 131)
+        Me.RadioButtonHalfbreedhumanDryad.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanDryad.Name = "RadioButtonHalfbreedhumanDryad"
+        Me.RadioButtonHalfbreedhumanDryad.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanDryad.TabIndex = 3
+        Me.RadioButtonHalfbreedhumanDryad.TabStop = True
+        Me.RadioButtonHalfbreedhumanDryad.UseVisualStyleBackColor = True
         '
-        'RadioButton38
+        'RadioButtonHalfbreedhumanDrakhonon
         '
-        Me.RadioButton38.AutoSize = True
-        Me.RadioButton38.Location = New System.Drawing.Point(135, 55)
-        Me.RadioButton38.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton38.Name = "RadioButton38"
-        Me.RadioButton38.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton38.TabIndex = 3
-        Me.RadioButton38.TabStop = True
-        Me.RadioButton38.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanDrakhonon.AutoSize = True
+        Me.RadioButtonHalfbreedhumanDrakhonon.Location = New System.Drawing.Point(192, 105)
+        Me.RadioButtonHalfbreedhumanDrakhonon.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanDrakhonon.Name = "RadioButtonHalfbreedhumanDrakhonon"
+        Me.RadioButtonHalfbreedhumanDrakhonon.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanDrakhonon.TabIndex = 3
+        Me.RadioButtonHalfbreedhumanDrakhonon.TabStop = True
+        Me.RadioButtonHalfbreedhumanDrakhonon.UseVisualStyleBackColor = True
         '
-        'RadioButton39
+        'RadioButtonHalfbreedhumanDarkelf
         '
-        Me.RadioButton39.AutoSize = True
-        Me.RadioButton39.Location = New System.Drawing.Point(135, 41)
-        Me.RadioButton39.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton39.Name = "RadioButton39"
-        Me.RadioButton39.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton39.TabIndex = 3
-        Me.RadioButton39.TabStop = True
-        Me.RadioButton39.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanDarkelf.AutoSize = True
+        Me.RadioButtonHalfbreedhumanDarkelf.Location = New System.Drawing.Point(192, 80)
+        Me.RadioButtonHalfbreedhumanDarkelf.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanDarkelf.Name = "RadioButtonHalfbreedhumanDarkelf"
+        Me.RadioButtonHalfbreedhumanDarkelf.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanDarkelf.TabIndex = 3
+        Me.RadioButtonHalfbreedhumanDarkelf.TabStop = True
+        Me.RadioButtonHalfbreedhumanDarkelf.UseVisualStyleBackColor = True
         '
-        'RadioButton40
+        'RadioButtonHalfbreedhumanCatdrah
         '
-        Me.RadioButton40.AutoSize = True
-        Me.RadioButton40.Location = New System.Drawing.Point(135, 26)
-        Me.RadioButton40.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton40.Name = "RadioButton40"
-        Me.RadioButton40.Size = New System.Drawing.Size(14, 13)
-        Me.RadioButton40.TabIndex = 3
-        Me.RadioButton40.TabStop = True
-        Me.RadioButton40.UseVisualStyleBackColor = True
+        Me.RadioButtonHalfbreedhumanCatdrah.AutoSize = True
+        Me.RadioButtonHalfbreedhumanCatdrah.Location = New System.Drawing.Point(192, 52)
+        Me.RadioButtonHalfbreedhumanCatdrah.Margin = New System.Windows.Forms.Padding(2)
+        Me.RadioButtonHalfbreedhumanCatdrah.Name = "RadioButtonHalfbreedhumanCatdrah"
+        Me.RadioButtonHalfbreedhumanCatdrah.Size = New System.Drawing.Size(14, 13)
+        Me.RadioButtonHalfbreedhumanCatdrah.TabIndex = 3
+        Me.RadioButtonHalfbreedhumanCatdrah.TabStop = True
+        Me.RadioButtonHalfbreedhumanCatdrah.UseVisualStyleBackColor = True
         '
         'ButtonHalfbreedhumanEnd
         '
-        Me.ButtonHalfbreedhumanEnd.Location = New System.Drawing.Point(362, 188)
-        Me.ButtonHalfbreedhumanEnd.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonHalfbreedhumanEnd.Location = New System.Drawing.Point(562, 293)
+        Me.ButtonHalfbreedhumanEnd.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonHalfbreedhumanEnd.Name = "ButtonHalfbreedhumanEnd"
-        Me.ButtonHalfbreedhumanEnd.Size = New System.Drawing.Size(50, 15)
+        Me.ButtonHalfbreedhumanEnd.Size = New System.Drawing.Size(54, 20)
         Me.ButtonHalfbreedhumanEnd.TabIndex = 2
         Me.ButtonHalfbreedhumanEnd.Text = "Next"
         Me.ButtonHalfbreedhumanEnd.UseVisualStyleBackColor = True
         '
         'ButtonHalfbreedhumanModifier
         '
-        Me.ButtonHalfbreedhumanModifier.Location = New System.Drawing.Point(2, 188)
-        Me.ButtonHalfbreedhumanModifier.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonHalfbreedhumanModifier.Location = New System.Drawing.Point(4, 288)
+        Me.ButtonHalfbreedhumanModifier.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonHalfbreedhumanModifier.Name = "ButtonHalfbreedhumanModifier"
-        Me.ButtonHalfbreedhumanModifier.Size = New System.Drawing.Size(50, 15)
+        Me.ButtonHalfbreedhumanModifier.Size = New System.Drawing.Size(58, 23)
         Me.ButtonHalfbreedhumanModifier.TabIndex = 1
         Me.ButtonHalfbreedhumanModifier.Text = "Previous"
         Me.ButtonHalfbreedhumanModifier.UseVisualStyleBackColor = True
@@ -13751,7 +13753,7 @@ Partial Class Form1
         Me.LabelHalfbreedhumanIntro.Location = New System.Drawing.Point(8, 6)
         Me.LabelHalfbreedhumanIntro.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelHalfbreedhumanIntro.Name = "LabelHalfbreedhumanIntro"
-        Me.LabelHalfbreedhumanIntro.Size = New System.Drawing.Size(110, 132)
+        Me.LabelHalfbreedhumanIntro.Size = New System.Drawing.Size(144, 234)
         Me.LabelHalfbreedhumanIntro.TabIndex = 0
         Me.LabelHalfbreedhumanIntro.Text = resources.GetString("LabelHalfbreedhumanIntro.Text")
         '
@@ -13771,7 +13773,7 @@ Partial Class Form1
         Me.PanelHalfbreedother.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelHalfbreedother.Enabled = False
         Me.PanelHalfbreedother.Location = New System.Drawing.Point(0, 0)
-        Me.PanelHalfbreedother.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PanelHalfbreedother.Margin = New System.Windows.Forms.Padding(2)
         Me.PanelHalfbreedother.Name = "PanelHalfbreedother"
         Me.PanelHalfbreedother.Size = New System.Drawing.Size(621, 316)
         Me.PanelHalfbreedother.TabIndex = 50
@@ -13825,7 +13827,7 @@ Partial Class Form1
         Me.RadioButtonHalfbreedotherWastelander.AutoSize = True
         Me.RadioButtonHalfbreedotherWastelander.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonHalfbreedotherWastelander.Location = New System.Drawing.Point(371, 92)
-        Me.RadioButtonHalfbreedotherWastelander.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButtonHalfbreedotherWastelander.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButtonHalfbreedotherWastelander.Name = "RadioButtonHalfbreedotherWastelander"
         Me.RadioButtonHalfbreedotherWastelander.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonHalfbreedotherWastelander.TabIndex = 5
@@ -13837,7 +13839,7 @@ Partial Class Form1
         Me.RadioButtonHalfbreedotherKinsmen.AutoSize = True
         Me.RadioButtonHalfbreedotherKinsmen.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonHalfbreedotherKinsmen.Location = New System.Drawing.Point(374, 180)
-        Me.RadioButtonHalfbreedotherKinsmen.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButtonHalfbreedotherKinsmen.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButtonHalfbreedotherKinsmen.Name = "RadioButtonHalfbreedotherKinsmen"
         Me.RadioButtonHalfbreedotherKinsmen.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonHalfbreedotherKinsmen.TabIndex = 4
@@ -13849,7 +13851,7 @@ Partial Class Form1
         Me.RadioButtonHalfbreedotherJadeimperial.AutoSize = True
         Me.RadioButtonHalfbreedotherJadeimperial.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonHalfbreedotherJadeimperial.Location = New System.Drawing.Point(231, 178)
-        Me.RadioButtonHalfbreedotherJadeimperial.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButtonHalfbreedotherJadeimperial.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButtonHalfbreedotherJadeimperial.Name = "RadioButtonHalfbreedotherJadeimperial"
         Me.RadioButtonHalfbreedotherJadeimperial.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonHalfbreedotherJadeimperial.TabIndex = 4
@@ -13860,7 +13862,7 @@ Partial Class Form1
         '
         Me.RadioButtonHalfbreedotherDrakhonon.AutoSize = True
         Me.RadioButtonHalfbreedotherDrakhonon.Location = New System.Drawing.Point(231, 92)
-        Me.RadioButtonHalfbreedotherDrakhonon.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButtonHalfbreedotherDrakhonon.Margin = New System.Windows.Forms.Padding(2)
         Me.RadioButtonHalfbreedotherDrakhonon.Name = "RadioButtonHalfbreedotherDrakhonon"
         Me.RadioButtonHalfbreedotherDrakhonon.Size = New System.Drawing.Size(14, 13)
         Me.RadioButtonHalfbreedotherDrakhonon.TabIndex = 3
@@ -13870,7 +13872,7 @@ Partial Class Form1
         'ButtonHalfbreedotherEnd
         '
         Me.ButtonHalfbreedotherEnd.Location = New System.Drawing.Point(558, 292)
-        Me.ButtonHalfbreedotherEnd.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonHalfbreedotherEnd.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonHalfbreedotherEnd.Name = "ButtonHalfbreedotherEnd"
         Me.ButtonHalfbreedotherEnd.Size = New System.Drawing.Size(58, 20)
         Me.ButtonHalfbreedotherEnd.TabIndex = 2
@@ -13880,7 +13882,7 @@ Partial Class Form1
         'ButtonHalfbreedotherModifier
         '
         Me.ButtonHalfbreedotherModifier.Location = New System.Drawing.Point(4, 289)
-        Me.ButtonHalfbreedotherModifier.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ButtonHalfbreedotherModifier.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonHalfbreedotherModifier.Name = "ButtonHalfbreedotherModifier"
         Me.ButtonHalfbreedotherModifier.Size = New System.Drawing.Size(59, 22)
         Me.ButtonHalfbreedotherModifier.TabIndex = 1
@@ -13902,11 +13904,6 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
-        Me.Controls.Add(Me.PanelHalfbreedhuman)
-        Me.Controls.Add(Me.PanelWelcome)
-        Me.Controls.Add(Me.PanelNyad)
-        Me.Controls.Add(Me.PanelAngalucian)
-        Me.Controls.Add(Me.PanelFaerleth)
         Me.Controls.Add(Me.PanelEnd)
         Me.Controls.Add(Me.PanelModifier)
         Me.Controls.Add(Me.PanelKinesiokairo)
@@ -13950,6 +13947,11 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelKin)
         Me.Controls.Add(Me.PanelHalfbreedother)
         Me.Controls.Add(Me.PanelGoblin)
+        Me.Controls.Add(Me.PanelHalfbreedhuman)
+        Me.Controls.Add(Me.PanelWelcome)
+        Me.Controls.Add(Me.PanelNyad)
+        Me.Controls.Add(Me.PanelAngalucian)
+        Me.Controls.Add(Me.PanelFaerleth)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelWelcome.ResumeLayout(False)
@@ -15101,64 +15103,64 @@ Partial Class Form1
     Friend WithEvents LabelEndBackstory As Label
     Friend WithEvents PanelHalfbreedhuman As Panel
     Friend WithEvents LabelHalfbreedhumanAngelucian As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label17 As Label
-    Friend WithEvents Label20 As Label
-    Friend WithEvents Label21 As Label
-    Friend WithEvents Label22 As Label
-    Friend WithEvents Label23 As Label
+    Friend WithEvents LabelHalfbreedhumanTroll As Label
+    Friend WithEvents LabelHalfbreedhumanGoblin As Label
+    Friend WithEvents LabelHalfbreedhumanSanjoran As Label
+    Friend WithEvents LabelHalfbreedhumanGigayona As Label
+    Friend WithEvents LabelHalfbreedhumanKinsman As Label
+    Friend WithEvents LabelHalfbreedhumanDryad As Label
+    Friend WithEvents LabelHalfbreedhumanSquirrel As Label
+    Friend WithEvents LabelHalfbreedhumanGnome As Label
+    Friend WithEvents LabelHalfbreedhumanNyad As Label
+    Friend WithEvents LabelHalfbreedhumanFairy As Label
+    Friend WithEvents LabelHalfbreedhumanOrc As Label
+    Friend WithEvents LabelHalfbreedhumanFelucian As Label
     Friend WithEvents Label27 As Label
     Friend WithEvents Label28 As Label
-    Friend WithEvents Label29 As Label
-    Friend WithEvents Label30 As Label
-    Friend WithEvents Label32 As Label
-    Friend WithEvents Label33 As Label
-    Friend WithEvents Label35 As Label
+    Friend WithEvents LabelHalfbreedhumanWolfbein As Label
+    Friend WithEvents LabelHalfbreedhumanHobbit As Label
+    Friend WithEvents LabelHalfbreedhumanWoodelf As Label
+    Friend WithEvents LabelHalfbreedhumanDarkelf As Label
+    Friend WithEvents LabelHalfbreedhumanJadeimperial As Label
     Friend WithEvents Label36 As Label
-    Friend WithEvents Label37 As Label
+    Friend WithEvents LabelHalfbreedhumanMinotaur As Label
     Friend WithEvents Label38 As Label
-    Friend WithEvents Label39 As Label
+    Friend WithEvents LabelHalfbreedhumanDrakhonon As Label
     Friend WithEvents Label40 As Label
-    Friend WithEvents Label41 As Label
+    Friend WithEvents LabelHalfbreedhumanDwarf As Label
     Friend WithEvents Label42 As Label
-    Friend WithEvents Label43 As Label
+    Friend WithEvents LabelHalfbreedhumanWastelander As Label
     Friend WithEvents Label44 As Label
-    Friend WithEvents Label45 As Label
+    Friend WithEvents LabelHalfbreedhumanHighelf As Label
     Friend WithEvents Label46 As Label
     Friend WithEvents Label47 As Label
     Friend WithEvents Label48 As Label
-    Friend WithEvents Label49 As Label
+    Friend WithEvents LabelHalfbreedhumanCatdrah As Label
     Friend WithEvents Label50 As Label
-    Friend WithEvents RadioButton17 As RadioButton
-    Friend WithEvents RadioButton18 As RadioButton
-    Friend WithEvents RadioButton19 As RadioButton
-    Friend WithEvents RadioButton20 As RadioButton
-    Friend WithEvents RadioButton21 As RadioButton
-    Friend WithEvents RadioButton22 As RadioButton
-    Friend WithEvents RadioButton23 As RadioButton
-    Friend WithEvents RadioButton24 As RadioButton
-    Friend WithEvents RadioButton25 As RadioButton
-    Friend WithEvents RadioButton26 As RadioButton
-    Friend WithEvents RadioButton27 As RadioButton
-    Friend WithEvents RadioButton28 As RadioButton
-    Friend WithEvents RadioButton29 As RadioButton
-    Friend WithEvents RadioButton30 As RadioButton
-    Friend WithEvents RadioButton31 As RadioButton
-    Friend WithEvents RadioButton32 As RadioButton
-    Friend WithEvents RadioButton33 As RadioButton
-    Friend WithEvents RadioButton34 As RadioButton
-    Friend WithEvents RadioButton35 As RadioButton
-    Friend WithEvents RadioButton36 As RadioButton
-    Friend WithEvents RadioButton37 As RadioButton
-    Friend WithEvents RadioButton38 As RadioButton
-    Friend WithEvents RadioButton39 As RadioButton
-    Friend WithEvents RadioButton40 As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanWoodelf As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanWastelander As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanAngelucian As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanWolfsbein As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanTroll As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanSanjoran As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanNyad As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanSquirrel As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanKinsmen As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanOrc As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanHobbit As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanMinotaur As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanGoblin As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanJadeimperial As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanGigayona As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanGnome As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanHighelf As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanFelucian As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanFairy As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanDwarf As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanDryad As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanDrakhonon As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanDarkelf As RadioButton
+    Friend WithEvents RadioButtonHalfbreedhumanCatdrah As RadioButton
     Friend WithEvents ButtonHalfbreedhumanEnd As Button
     Friend WithEvents ButtonHalfbreedhumanModifier As Button
     Friend WithEvents LabelHalfbreedhumanIntro As Label
