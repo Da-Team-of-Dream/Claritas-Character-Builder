@@ -322,7 +322,7 @@ Partial Class Form1
         Me.RadioButtonClassCleric = New System.Windows.Forms.RadioButton()
         Me.RadioButtonClassNoble = New System.Windows.Forms.RadioButton()
         Me.RadioButtonClassVoidKnight = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonRogue = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonClassRogue = New System.Windows.Forms.RadioButton()
         Me.RadioButtonClassWizard = New System.Windows.Forms.RadioButton()
         Me.RadioButtonClassRanger = New System.Windows.Forms.RadioButton()
         Me.RadioButtonClassWarrior = New System.Windows.Forms.RadioButton()
@@ -894,7 +894,7 @@ Partial Class Form1
         Me.PanelKinesiohydro = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.ButtonKinesiohydroWizard = New System.Windows.Forms.Button()
         Me.ButtonKinesiohydroSmithingMinus = New System.Windows.Forms.Button()
         Me.ButtonKinesiohydroProwessMinus = New System.Windows.Forms.Button()
         Me.ButtonKinesiohydroSenseMinus = New System.Windows.Forms.Button()
@@ -919,7 +919,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroForestryPlus = New System.Windows.Forms.Button()
         Me.ButtonKinesiohydroSnowballPlus = New System.Windows.Forms.Button()
         Me.ButtonKinesiohydroSurgePlus = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.LabelKinesioHydroChosen = New System.Windows.Forms.Label()
         Me.LabelKinesiohydroEnchanting = New System.Windows.Forms.Label()
         Me.LabelKinesiohydroHealth = New System.Windows.Forms.Label()
         Me.LabelKinesiohydroScrollwriting = New System.Windows.Forms.Label()
@@ -932,7 +932,7 @@ Partial Class Form1
         Me.LabelKinesiohydroWeapondexterity = New System.Windows.Forms.Label()
         Me.LabelKinesiohydroForestry = New System.Windows.Forms.Label()
         Me.LabelKinesiohydroSurge = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
+        Me.LabelKinesioHydroXp = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.PanelKinesiopyro = New System.Windows.Forms.Panel()
         Me.ButtonKinesiopyroInfo = New System.Windows.Forms.Button()
@@ -14353,7 +14353,7 @@ Partial Class Form1
     Friend WithEvents RadioButtonClassCleric As RadioButton
     Friend WithEvents RadioButtonClassNoble As RadioButton
     Friend WithEvents RadioButtonClassVoidKnight As RadioButton
-    Friend WithEvents RadioButtonRogue As RadioButton
+    Friend WithEvents RadioButtonClassRogue As RadioButton
     Friend WithEvents RadioButtonClassWizard As RadioButton
     Friend WithEvents RadioButtonClassRanger As RadioButton
     Friend WithEvents RadioButtonClassWarrior As RadioButton
@@ -14778,7 +14778,7 @@ Partial Class Form1
     Friend WithEvents ButtonNeurokairoForestryPlus As Button
     Friend WithEvents ButtonNeurokairoLightningboltPlus As Button
     Friend WithEvents ButtonNeurokairoMigrainePlus As Button
-    Friend WithEvents LabeNeurokairoChosen As Label
+    Friend WithEvents LabelNeurokairoChosen As Label
     Friend WithEvents LabelNeurokairoEnchanting As Label
     Friend WithEvents LabelNeurokairoHealth As Label
     Friend WithEvents LabelNeurokairoScrollwriting As Label
@@ -14925,7 +14925,7 @@ Partial Class Form1
     Friend WithEvents PanelKinesiohydro As Panel
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents ButtonKinesiohydroWizard As Button
     Friend WithEvents ButtonKinesiohydroSmithingMinus As Button
     Friend WithEvents ButtonKinesiohydroProwessMinus As Button
     Friend WithEvents ButtonKinesiohydroSenseMinus As Button
@@ -14950,7 +14950,7 @@ Partial Class Form1
     Friend WithEvents ButtonKinesiohydroForestryPlus As Button
     Friend WithEvents ButtonKinesiohydroSnowballPlus As Button
     Friend WithEvents ButtonKinesiohydroSurgePlus As Button
-    Friend WithEvents Label2 As Label
+    Friend WithEvents LabelKinesioHydroChosen As Label
     Friend WithEvents LabelKinesiohydroEnchanting As Label
     Friend WithEvents LabelKinesiohydroHealth As Label
     Friend WithEvents LabelKinesiohydroScrollwriting As Label
@@ -14963,7 +14963,7 @@ Partial Class Form1
     Friend WithEvents LabelKinesiohydroWeapondexterity As Label
     Friend WithEvents LabelKinesiohydroForestry As Label
     Friend WithEvents LabelKinesiohydroSurge As Label
-    Friend WithEvents Label25 As Label
+    Friend WithEvents LabelKinesioHydroXp As Label
     Friend WithEvents Label26 As Label
     Friend WithEvents PanelKinesiopyro As Panel
     Friend WithEvents ButtonKinesiopyroInfo As Button
