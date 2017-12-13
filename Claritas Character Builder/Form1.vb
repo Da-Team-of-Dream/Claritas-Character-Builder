@@ -1976,11 +1976,11 @@
 #Region "ClericTalents"
 
     Private Sub ButtonClericHealingPlus_Click(sender As Object, e As EventArgs) Handles ButtonClericHealingPlus.Click
-        If XP < 5 Then
+        If XP < (HP + 2) Then
             MsgBox("You do not have enough XP!!")
         Else
-            Healing = Healing + 1
-            XP = XP - 5
+            HP = HP + 1
+            XP = XP - HP - 1
         End If
         TalentLableChange()
     End Sub
@@ -2618,7 +2618,13 @@
     End Sub
 
     Private Sub ButtonRogueHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonRogueHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonRogueVanishMinus_Click(sender As Object, e As EventArgs) Handles ButtonRogueVanishMinus.Click
@@ -2774,11 +2780,11 @@
     End Sub
 
     Private Sub ButtonRangerHidePlus_Click(sender As Object, e As EventArgs) Handles ButtonRangerHidePlus.Click
-        If XP < 5 Then
+        If XP < (HP + 2) Then
             MsgBox("You do not have enough XP!!")
         Else
-            AHide = AHide + 1
-            XP = XP - 5
+            HP = HP + 1
+            XP = XP - HP - 1
         End If
         TalentLableChange()
     End Sub
@@ -3314,7 +3320,13 @@
     End Sub
 
     Private Sub ButtonWarriorHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonWarriorHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonWarriorCrushingblowMinus_Click(sender As Object, e As EventArgs) Handles ButtonWarriorCrushingblowMinus.Click
@@ -3667,7 +3679,13 @@
     End Sub
 
     Private Sub ButtonKinesiokairoHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiokairoScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoScrollwritingPlus.Click
@@ -4068,7 +4086,13 @@
     End Sub
 
     Private Sub ButtonKinesiopyroHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiopyroScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroScrollwritingPlus.Click
@@ -4460,7 +4484,13 @@
     End Sub
 
     Private Sub ButtonKinesiohydroHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiohydroScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroScrollwritingPlus.Click
@@ -4860,7 +4890,13 @@
     End Sub
 
     Private Sub ButtonNecrokairoHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNecrokairoScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoScrollwritingPlus.Click
@@ -5260,7 +5296,13 @@
     End Sub
 
     Private Sub ButtonNecropyroHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNecropyroScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroScrollwritingPlus.Click
@@ -5659,7 +5701,13 @@
     End Sub
 
     Private Sub ButtonNecrohydroHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNecrohydroScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroScrollwritingPlus.Click
@@ -6057,7 +6105,13 @@
     End Sub
 
     Private Sub ButtonNeurokairoHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNeurokairoScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoScrollwritingPlus.Click
@@ -6457,7 +6511,13 @@
     End Sub
 
     Private Sub ButtonNeuropyroHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNeuropyroScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroScrollwritingPlus.Click
@@ -6857,7 +6917,13 @@
     End Sub
 
     Private Sub ButtonNeuroHydroHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNeuroHydroScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroScrollwritingPlus.Click
