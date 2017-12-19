@@ -1069,6 +1069,12 @@
         PanelClass.BringToFront()
         PanelClass.Enabled = True
         PanelWizard.Enabled = False
+        RadioButtonWizardHydromancy.Checked = False
+        RadioButtonWizardKairomancy.Checked = False
+        RadioButtonWizardPyromancy.Checked = False
+        RadioButtonWizardKinesiomancy.Checked = False
+        RadioButtonWizardNecromancy.Checked = False
+        RadioButtonWizardNeuromancy.Checked = False
     End Sub
 
     Private Sub ButtonKinesiokairoWizard_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoWizard.Click
@@ -7092,4 +7098,217 @@
 
 #End Region
 
+#Region "Talent modifyers page navagation"
+
+
+    Private Sub ButtonKinesiokairoModifier_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelKinesiokairo.Enabled = False
+    End Sub
+
+    Private Sub ButtonKinesiopyroModifier_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelKinesiopyro.Enabled = False
+    End Sub
+
+    Private Sub ButtonKinesiohydroModifyer_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroModifyer.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelKinesiohydro.Enabled = False
+    End Sub
+
+    Private Sub ButtonNecrokairoModifier_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelNecrokairo.Enabled = False
+    End Sub
+
+    Private Sub ButtonNecropyroModifier_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelNecropyro.Enabled = False
+    End Sub
+
+    Private Sub ButtonNecrohydroModifier_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelNecrohydro.Enabled = False
+    End Sub
+
+    Private Sub ButtonNeurokairoModifier_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelNeurokairo.Enabled = False
+    End Sub
+
+    Private Sub ButtonNeuropyroModifier_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelNeuropyro.Enabled = False
+    End Sub
+
+    Private Sub ButtonNeurohydroModifier_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelNeurohydro.Enabled = False
+    End Sub
+
+    Private Sub ButtonVoidknightModifier_Click(sender As Object, e As EventArgs) Handles ButtonVoidknightModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelVoidknight.Enabled = False
+    End Sub
+
+    Private Sub ButtonClericModifier_Click(sender As Object, e As EventArgs) Handles ButtonClericModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelCleric.Enabled = False
+    End Sub
+
+    Private Sub ButtonNobleModifier_Click(sender As Object, e As EventArgs) Handles ButtonNobleModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelNoble.Enabled = False
+    End Sub
+
+    Private Sub ButtonRogueModifier_Click(sender As Object, e As EventArgs) Handles ButtonRogueModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelRogue.Enabled = False
+    End Sub
+
+    Private Sub ButtonRangerModifier_Click(sender As Object, e As EventArgs) Handles ButtonRangerModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelRanger.Enabled = False
+    End Sub
+
+    Private Sub ButtonWarriorModifier_Click(sender As Object, e As EventArgs) Handles ButtonWarriorModifier.Click
+        Me.PanelModifier.Enabled = True
+        Me.PanelModifier.BringToFront()
+        Me.PanelWarrior.Enabled = False
+    End Sub
+
+    Private Sub ButtonModifierClasstype_Click(sender As Object, e As EventArgs) Handles ButtonModifierClasstype.Click
+        If RadioButtonWizardHydromancy.Checked = True And RadioButtonWizardNecromancy.Checked = True Then
+            Me.PanelNecrohydro.Enabled = True
+            Me.PanelNecrohydro.BringToFront()
+            Me.PanelModifier.Enabled = False
+        ElseIf RadioButtonWizardHydromancy.Checked = True And RadioButtonWizardNeuromancy.Checked = True Then
+            Me.PanelNeurohydro.Enabled = True
+            Me.PanelNeurohydro.BringToFront()
+            Me.PanelModifier.Enabled = False
+        ElseIf RadioButtonWizardHydromancy.Checked = True And RadioButtonWizardKinesiomancy.Checked = True Then
+            Me.PanelKinesiohydro.Enabled = True
+            Me.PanelKinesiohydro.BringToFront()
+            Me.PanelModifier.Enabled = False
+        ElseIf RadioButtonWizardPyromancy.Checked = True And RadioButtonWizardNecromancy.Checked = True Then
+            Me.PanelNecropyro.Enabled = True
+            Me.PanelNecropyro.BringToFront()
+            Me.PanelModifier.Enabled = False
+        ElseIf RadioButtonWizardPyromancy.Checked = True And RadioButtonWizardNeuromancy.Checked = True Then
+            Me.PanelNeuropyro.Enabled = True
+            Me.PanelNeuropyro.BringToFront()
+            Me.PanelModifier.Enabled = False
+        ElseIf RadioButtonWizardPyromancy.Checked = True And RadioButtonWizardKinesiomancy.Checked = True Then
+            Me.PanelKinesiopyro.Enabled = True
+            Me.PanelKinesiopyro.BringToFront()
+            Me.PanelModifier.Enabled = False
+        ElseIf RadioButtonWizardKairomancy.Checked = True And RadioButtonWizardNecromancy.Checked = True Then
+            Me.PanelNecrokairo.Enabled = True
+            Me.PanelNecrokairo.BringToFront()
+            Me.PanelModifier.Enabled = False
+        ElseIf RadioButtonWizardKairomancy.Checked = True And RadioButtonWizardNeuromancy.Checked = True Then
+            Me.PanelNeurokairo.Enabled = True
+            Me.PanelNeurokairo.BringToFront()
+            Me.PanelModifier.Enabled = False
+        ElseIf RadioButtonWizardKairomancy.Checked = True And RadioButtonWizardKinesiomancy.Checked = True Then
+            Me.PanelKinesiokairo.Enabled = True
+            Me.PanelKinesiokairo.BringToFront()
+            Me.PanelModifier.Enabled = False
+        ElseIf RadioButtonClassCleric.Checked = True Or RadioButtonClassNoble.Checked = True Or RadioButtonClassRanger.Checked = True Or RadioButtonClassRogue.Checked Or RadioButtonClassVoidKnight.Checked = True Or RadioButtonClassWarrior.Checked = True Then
+            Me.PanelClass.Enabled = True
+            Me.PanelClass.BringToFront()
+            Me.PanelModifier.Enabled = False
+        End If
+    End Sub
+#End Region
+#Region "Background Info"
+    Private Sub ButtonBackgroundsInfo_Click(sender As Object, e As EventArgs) Handles ButtonBackgroundsInfo.Click
+        ConstructInfoForm("Backgrounds")
+    End Sub
+#End Region
+
+#Region "Talent Info"
+    Private Sub ButtonKinesiokairoInfo_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoInfo.Click
+        ConstructInfoForm("AllTalentsKairoKinesio")
+    End Sub
+
+    Private Sub ButtonKinesiopyroInfo_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroInfo.Click
+        ConstructInfoForm("AllTalentsPyroKinesio")
+    End Sub
+
+    Private Sub ButtonKinesiohydroInfo_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroInfo.Click
+        ConstructInfoForm("AllTalentsHydroKinesio")
+    End Sub
+
+    Private Sub ButtonnecrokairoinfoInfo_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoInfo.Click
+        ConstructInfoForm("AllTalentsKairoNecro")
+    End Sub
+
+    Private Sub ButtonNecropyroInfo_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroInfo.Click
+        ConstructInfoForm("AllTalentsPyroNecro")
+    End Sub
+
+    Private Sub ButtonNecrohydroInfo_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroInfo.Click
+        ConstructInfoForm("AllTalentsHydroNecro")
+    End Sub
+
+    Private Sub ButtonNeurokairoInfo_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoInfo.Click
+        ConstructInfoForm("AllTalentsKairoNeuro")
+    End Sub
+
+    Private Sub ButtonNeuropyroInfo_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroInfo.Click
+        ConstructInfoForm("AllTalentsPyroNeuro")
+    End Sub
+
+    Private Sub ButtonNeurohydroInfo_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroInfo.Click
+        ConstructInfoForm("AllTalentsPyroNecro")
+    End Sub
+
+    Private Sub ButtonClericInfo_Click(sender As Object, e As EventArgs) Handles ButtonClericInfo.Click
+        ConstructInfoForm("AllTalentsCleric")
+    End Sub
+
+    Private Sub ButtonNobleInfo_Click(sender As Object, e As EventArgs) Handles ButtonNobleInfo.Click
+        ConstructInfoForm("AllTalentsNoble")
+    End Sub
+
+    Private Sub ButtonRangerInfo_Click(sender As Object, e As EventArgs) Handles ButtonRangerInfo.Click
+        ConstructInfoForm("AllTalentsRanger")
+    End Sub
+
+    Private Sub ButtonRogueInfo_Click(sender As Object, e As EventArgs) Handles ButtonRogueInfo.Click
+        ConstructInfoForm("AllTalentsRogue")
+    End Sub
+
+    Private Sub ButtonVoidknightInfo_Click(sender As Object, e As EventArgs) Handles ButtonVoidknightInfo.Click
+        ConstructInfoForm("AllTalentsVoidKnight")
+    End Sub
+
+    Private Sub ButtonWarriorInfo_Click(sender As Object, e As EventArgs) Handles ButtonWarriorInfo.Click
+        ConstructInfoForm("AllTalentsWarrior")
+    End Sub
+
+#End Region
+
+#Region "Modifiers info"
+    Private Sub ButtonModifierInfo_Click(sender As Object, e As EventArgs) Handles ButtonModifierInfo.Click
+        ConstructInfoForm("Modifiers")
+    End Sub
+
+
+#End Region
 End Class

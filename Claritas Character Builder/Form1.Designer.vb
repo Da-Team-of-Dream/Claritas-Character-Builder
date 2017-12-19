@@ -932,8 +932,8 @@ Partial Class Form1
         Me.LabelKinesiohydroWeapondexterity = New System.Windows.Forms.Label()
         Me.LabelKinesiohydroForestry = New System.Windows.Forms.Label()
         Me.LabelKinesiohydroSurge = New System.Windows.Forms.Label()
-        Me.LabelKinesiokairoXp = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
+        Me.LabelKinesiokairoXp = New System.Windows.Forms.Label()
         Me.LabelKinesioHydroXp = New System.Windows.Forms.Label()
         Me.PanelKinesiopyro = New System.Windows.Forms.Panel()
         Me.ButtonKinesiopyroInfo = New System.Windows.Forms.Button()
@@ -1044,17 +1044,17 @@ Partial Class Form1
         Me.RadioButton11 = New System.Windows.Forms.RadioButton()
         Me.RadioButton16 = New System.Windows.Forms.RadioButton()
         Me.RadioButton15 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonModifiersBoundWeapon = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonNaturalist = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonModifiersUndead = New System.Windows.Forms.RadioButton()
         Me.RadioButton14 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonModifiersSparkofInsanity = New System.Windows.Forms.RadioButton()
         Me.RadioButton13 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonModifiersWerewolf = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonModifiersVampiric = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonModifiersSoulSplitter = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonModifiersHalfBreed = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonModifiersCommon = New System.Windows.Forms.RadioButton()
         Me.LabelModifierIntro = New System.Windows.Forms.Label()
         Me.ButtonModifierEnd = New System.Windows.Forms.Button()
         Me.ButtonModifierClasstype = New System.Windows.Forms.Button()
@@ -1206,7 +1206,7 @@ Partial Class Form1
         Me.PanelWelcome.Controls.Add(Me.LabelWelcomeHeading)
         Me.PanelWelcome.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelWelcome.Location = New System.Drawing.Point(0, 0)
-        Me.PanelWelcome.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelWelcome.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelWelcome.Name = "PanelWelcome"
         Me.PanelWelcome.Size = New System.Drawing.Size(828, 389)
         Me.PanelWelcome.TabIndex = 1
@@ -1246,7 +1246,7 @@ Partial Class Form1
         'TextboxWelcomePlayerage
         '
         Me.TextboxWelcomePlayerage.Location = New System.Drawing.Point(553, 142)
-        Me.TextboxWelcomePlayerage.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextboxWelcomePlayerage.Margin = New System.Windows.Forms.Padding(4)
         Me.TextboxWelcomePlayerage.Name = "TextboxWelcomePlayerage"
         Me.TextboxWelcomePlayerage.Size = New System.Drawing.Size(132, 22)
         Me.TextboxWelcomePlayerage.TabIndex = 3
@@ -1254,7 +1254,7 @@ Partial Class Form1
         'TextboxWelcomePlayername
         '
         Me.TextboxWelcomePlayername.Location = New System.Drawing.Point(244, 142)
-        Me.TextboxWelcomePlayername.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextboxWelcomePlayername.Margin = New System.Windows.Forms.Padding(4)
         Me.TextboxWelcomePlayername.Name = "TextboxWelcomePlayername"
         Me.TextboxWelcomePlayername.Size = New System.Drawing.Size(132, 22)
         Me.TextboxWelcomePlayername.TabIndex = 2
@@ -1262,7 +1262,7 @@ Partial Class Form1
         'ButtonWelcomeKin
         '
         Me.ButtonWelcomeKin.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonWelcomeKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWelcomeKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWelcomeKin.Name = "ButtonWelcomeKin"
         Me.ButtonWelcomeKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWelcomeKin.TabIndex = 1
@@ -1347,7 +1347,7 @@ Partial Class Form1
         Me.PanelKin.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelKin.Enabled = False
         Me.PanelKin.Location = New System.Drawing.Point(0, 0)
-        Me.PanelKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelKin.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelKin.Name = "PanelKin"
         Me.PanelKin.Size = New System.Drawing.Size(828, 389)
         Me.PanelKin.TabIndex = 0
@@ -1742,7 +1742,7 @@ Partial Class Form1
         Me.RadioButtonKinWoodElf.AutoSize = True
         Me.RadioButtonKinWoodElf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinWoodElf.Location = New System.Drawing.Point(675, 142)
-        Me.RadioButtonKinWoodElf.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinWoodElf.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinWoodElf.Name = "RadioButtonKinWoodElf"
         Me.RadioButtonKinWoodElf.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinWoodElf.TabIndex = 5
@@ -1754,7 +1754,7 @@ Partial Class Form1
         Me.RadioButtonKinWastelander.AutoSize = True
         Me.RadioButtonKinWastelander.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinWastelander.Location = New System.Drawing.Point(675, 87)
-        Me.RadioButtonKinWastelander.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinWastelander.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinWastelander.Name = "RadioButtonKinWastelander"
         Me.RadioButtonKinWastelander.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinWastelander.TabIndex = 5
@@ -1765,7 +1765,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinAngalucian.AutoSize = True
         Me.RadioButtonKinAngalucian.Location = New System.Drawing.Point(269, 60)
-        Me.RadioButtonKinAngalucian.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinAngalucian.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinAngalucian.Name = "RadioButtonKinAngalucian"
         Me.RadioButtonKinAngalucian.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinAngalucian.TabIndex = 5
@@ -1777,7 +1777,7 @@ Partial Class Form1
         Me.RadioButtonKinWolfsbein.AutoSize = True
         Me.RadioButtonKinWolfsbein.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinWolfsbein.Location = New System.Drawing.Point(675, 114)
-        Me.RadioButtonKinWolfsbein.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinWolfsbein.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinWolfsbein.Name = "RadioButtonKinWolfsbein"
         Me.RadioButtonKinWolfsbein.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinWolfsbein.TabIndex = 5
@@ -1789,7 +1789,7 @@ Partial Class Form1
         Me.RadioButtonTroll.AutoSize = True
         Me.RadioButtonTroll.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonTroll.Location = New System.Drawing.Point(675, 60)
-        Me.RadioButtonTroll.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonTroll.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonTroll.Name = "RadioButtonTroll"
         Me.RadioButtonTroll.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonTroll.TabIndex = 4
@@ -1801,7 +1801,7 @@ Partial Class Form1
         Me.RadioButtonSanjoran.AutoSize = True
         Me.RadioButtonSanjoran.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonSanjoran.Location = New System.Drawing.Point(477, 273)
-        Me.RadioButtonSanjoran.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonSanjoran.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonSanjoran.Name = "RadioButtonSanjoran"
         Me.RadioButtonSanjoran.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonSanjoran.TabIndex = 4
@@ -1813,7 +1813,7 @@ Partial Class Form1
         Me.RadioButtonKinNyad.AutoSize = True
         Me.RadioButtonKinNyad.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinNyad.Location = New System.Drawing.Point(477, 220)
-        Me.RadioButtonKinNyad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinNyad.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinNyad.Name = "RadioButtonKinNyad"
         Me.RadioButtonKinNyad.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinNyad.TabIndex = 4
@@ -1825,7 +1825,7 @@ Partial Class Form1
         Me.RadioButtonKinSquirrel.AutoSize = True
         Me.RadioButtonKinSquirrel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinSquirrel.Location = New System.Drawing.Point(477, 302)
-        Me.RadioButtonKinSquirrel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinSquirrel.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinSquirrel.Name = "RadioButtonKinSquirrel"
         Me.RadioButtonKinSquirrel.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinSquirrel.TabIndex = 4
@@ -1837,7 +1837,7 @@ Partial Class Form1
         Me.RadioButtonKinKinsmen.AutoSize = True
         Me.RadioButtonKinKinsmen.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinKinsmen.Location = New System.Drawing.Point(477, 169)
-        Me.RadioButtonKinKinsmen.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinKinsmen.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinKinsmen.Name = "RadioButtonKinKinsmen"
         Me.RadioButtonKinKinsmen.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinKinsmen.TabIndex = 4
@@ -1849,7 +1849,7 @@ Partial Class Form1
         Me.RadioButtonKinOrc.AutoSize = True
         Me.RadioButtonKinOrc.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinOrc.Location = New System.Drawing.Point(477, 246)
-        Me.RadioButtonKinOrc.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinOrc.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinOrc.Name = "RadioButtonKinOrc"
         Me.RadioButtonKinOrc.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinOrc.TabIndex = 4
@@ -1861,7 +1861,7 @@ Partial Class Form1
         Me.RadioButtonKinFaerleth.AutoSize = True
         Me.RadioButtonKinFaerleth.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinFaerleth.Location = New System.Drawing.Point(477, 114)
-        Me.RadioButtonKinFaerleth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinFaerleth.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinFaerleth.Name = "RadioButtonKinFaerleth"
         Me.RadioButtonKinFaerleth.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinFaerleth.TabIndex = 4
@@ -1873,7 +1873,7 @@ Partial Class Form1
         Me.RadioButtonKinMinotaur.AutoSize = True
         Me.RadioButtonKinMinotaur.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinMinotaur.Location = New System.Drawing.Point(477, 193)
-        Me.RadioButtonKinMinotaur.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinMinotaur.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinMinotaur.Name = "RadioButtonKinMinotaur"
         Me.RadioButtonKinMinotaur.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinMinotaur.TabIndex = 4
@@ -1885,7 +1885,7 @@ Partial Class Form1
         Me.RadioButtonKinGoblin.AutoSize = True
         Me.RadioButtonKinGoblin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinGoblin.Location = New System.Drawing.Point(479, 59)
-        Me.RadioButtonKinGoblin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinGoblin.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinGoblin.Name = "RadioButtonKinGoblin"
         Me.RadioButtonKinGoblin.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinGoblin.TabIndex = 3
@@ -1897,7 +1897,7 @@ Partial Class Form1
         Me.RadioButtonKinJadeImperial.AutoSize = True
         Me.RadioButtonKinJadeImperial.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinJadeImperial.Location = New System.Drawing.Point(477, 142)
-        Me.RadioButtonKinJadeImperial.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinJadeImperial.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinJadeImperial.Name = "RadioButtonKinJadeImperial"
         Me.RadioButtonKinJadeImperial.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinJadeImperial.TabIndex = 4
@@ -1908,7 +1908,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinGiGaYoNa.AutoSize = True
         Me.RadioButtonKinGiGaYoNa.Location = New System.Drawing.Point(269, 273)
-        Me.RadioButtonKinGiGaYoNa.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinGiGaYoNa.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinGiGaYoNa.Name = "RadioButtonKinGiGaYoNa"
         Me.RadioButtonKinGiGaYoNa.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinGiGaYoNa.TabIndex = 3
@@ -1919,7 +1919,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinGnome.AutoSize = True
         Me.RadioButtonKinGnome.Location = New System.Drawing.Point(269, 300)
-        Me.RadioButtonKinGnome.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinGnome.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinGnome.Name = "RadioButtonKinGnome"
         Me.RadioButtonKinGnome.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinGnome.TabIndex = 3
@@ -1931,7 +1931,7 @@ Partial Class Form1
         Me.RadioButtonKinHighElf.AutoSize = True
         Me.RadioButtonKinHighElf.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinHighElf.Location = New System.Drawing.Point(477, 87)
-        Me.RadioButtonKinHighElf.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinHighElf.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinHighElf.Name = "RadioButtonKinHighElf"
         Me.RadioButtonKinHighElf.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinHighElf.TabIndex = 4
@@ -1942,7 +1942,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinFelucian.AutoSize = True
         Me.RadioButtonKinFelucian.Location = New System.Drawing.Point(269, 245)
-        Me.RadioButtonKinFelucian.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinFelucian.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinFelucian.Name = "RadioButtonKinFelucian"
         Me.RadioButtonKinFelucian.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinFelucian.TabIndex = 3
@@ -1953,7 +1953,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinFairy.AutoSize = True
         Me.RadioButtonKinFairy.Location = New System.Drawing.Point(269, 220)
-        Me.RadioButtonKinFairy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinFairy.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinFairy.Name = "RadioButtonKinFairy"
         Me.RadioButtonKinFairy.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinFairy.TabIndex = 3
@@ -1964,7 +1964,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinDwarf.AutoSize = True
         Me.RadioButtonKinDwarf.Location = New System.Drawing.Point(269, 193)
-        Me.RadioButtonKinDwarf.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinDwarf.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinDwarf.Name = "RadioButtonKinDwarf"
         Me.RadioButtonKinDwarf.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinDwarf.TabIndex = 3
@@ -1975,7 +1975,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinDryad.AutoSize = True
         Me.RadioButtonKinDryad.Location = New System.Drawing.Point(269, 169)
-        Me.RadioButtonKinDryad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinDryad.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinDryad.Name = "RadioButtonKinDryad"
         Me.RadioButtonKinDryad.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinDryad.TabIndex = 3
@@ -1986,7 +1986,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinDrakhonon.AutoSize = True
         Me.RadioButtonKinDrakhonon.Location = New System.Drawing.Point(269, 140)
-        Me.RadioButtonKinDrakhonon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinDrakhonon.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinDrakhonon.Name = "RadioButtonKinDrakhonon"
         Me.RadioButtonKinDrakhonon.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinDrakhonon.TabIndex = 3
@@ -1997,7 +1997,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinDarkelf.AutoSize = True
         Me.RadioButtonKinDarkelf.Location = New System.Drawing.Point(269, 114)
-        Me.RadioButtonKinDarkelf.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinDarkelf.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinDarkelf.Name = "RadioButtonKinDarkelf"
         Me.RadioButtonKinDarkelf.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinDarkelf.TabIndex = 3
@@ -2008,7 +2008,7 @@ Partial Class Form1
         '
         Me.RadioButtonKinCatdrah.AutoSize = True
         Me.RadioButtonKinCatdrah.Location = New System.Drawing.Point(269, 86)
-        Me.RadioButtonKinCatdrah.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinCatdrah.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinCatdrah.Name = "RadioButtonKinCatdrah"
         Me.RadioButtonKinCatdrah.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonKinCatdrah.TabIndex = 3
@@ -2018,7 +2018,7 @@ Partial Class Form1
         'ButtonKinAttributes
         '
         Me.ButtonKinAttributes.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonKinAttributes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinAttributes.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinAttributes.Name = "ButtonKinAttributes"
         Me.ButtonKinAttributes.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinAttributes.TabIndex = 2
@@ -2028,7 +2028,7 @@ Partial Class Form1
         'ButtonKinWelcome
         '
         Me.ButtonKinWelcome.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonKinWelcome.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinWelcome.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinWelcome.Name = "ButtonKinWelcome"
         Me.ButtonKinWelcome.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinWelcome.TabIndex = 1
@@ -2060,7 +2060,7 @@ Partial Class Form1
         Me.PanelNyad.Enabled = False
         Me.PanelNyad.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelNyad.Location = New System.Drawing.Point(0, 0)
-        Me.PanelNyad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelNyad.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelNyad.Name = "PanelNyad"
         Me.PanelNyad.Size = New System.Drawing.Size(828, 389)
         Me.PanelNyad.TabIndex = 7
@@ -2068,7 +2068,7 @@ Partial Class Form1
         'ButtonNyadInfo
         '
         Me.ButtonNyadInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonNyadInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNyadInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNyadInfo.Name = "ButtonNyadInfo"
         Me.ButtonNyadInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNyadInfo.TabIndex = 6
@@ -2093,7 +2093,7 @@ Partial Class Form1
         Me.RadioButtonNyadWateraffinity.AutoSize = True
         Me.RadioButtonNyadWateraffinity.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonNyadWateraffinity.Location = New System.Drawing.Point(347, 160)
-        Me.RadioButtonNyadWateraffinity.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonNyadWateraffinity.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonNyadWateraffinity.Name = "RadioButtonNyadWateraffinity"
         Me.RadioButtonNyadWateraffinity.Size = New System.Drawing.Size(133, 25)
         Me.RadioButtonNyadWateraffinity.TabIndex = 4
@@ -2132,7 +2132,7 @@ Partial Class Form1
         Me.RadioButtonNyadTaint.AutoSize = True
         Me.RadioButtonNyadTaint.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonNyadTaint.Location = New System.Drawing.Point(348, 302)
-        Me.RadioButtonNyadTaint.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonNyadTaint.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonNyadTaint.Name = "RadioButtonNyadTaint"
         Me.RadioButtonNyadTaint.Size = New System.Drawing.Size(69, 25)
         Me.RadioButtonNyadTaint.TabIndex = 3
@@ -2153,7 +2153,7 @@ Partial Class Form1
         'ButtonNyadBackground
         '
         Me.ButtonNyadBackground.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonNyadBackground.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNyadBackground.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNyadBackground.Name = "ButtonNyadBackground"
         Me.ButtonNyadBackground.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNyadBackground.TabIndex = 1
@@ -2163,7 +2163,7 @@ Partial Class Form1
         'ButtonNyadKin
         '
         Me.ButtonNyadKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonNyadKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNyadKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNyadKin.Name = "ButtonNyadKin"
         Me.ButtonNyadKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNyadKin.TabIndex = 0
@@ -2183,7 +2183,7 @@ Partial Class Form1
         Me.PanelDryad.Enabled = False
         Me.PanelDryad.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelDryad.Location = New System.Drawing.Point(0, 0)
-        Me.PanelDryad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelDryad.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelDryad.Name = "PanelDryad"
         Me.PanelDryad.Size = New System.Drawing.Size(828, 389)
         Me.PanelDryad.TabIndex = 8
@@ -2191,7 +2191,7 @@ Partial Class Form1
         'ButtonDryadInfo
         '
         Me.ButtonDryadInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonDryadInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDryadInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDryadInfo.Name = "ButtonDryadInfo"
         Me.ButtonDryadInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDryadInfo.TabIndex = 6
@@ -2203,7 +2203,7 @@ Partial Class Form1
         Me.RadioButtonDryadBarkSkin.AutoSize = True
         Me.RadioButtonDryadBarkSkin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDryadBarkSkin.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonDryadBarkSkin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDryadBarkSkin.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDryadBarkSkin.Name = "RadioButtonDryadBarkSkin"
         Me.RadioButtonDryadBarkSkin.Size = New System.Drawing.Size(99, 25)
         Me.RadioButtonDryadBarkSkin.TabIndex = 5
@@ -2216,7 +2216,7 @@ Partial Class Form1
         Me.RadioButtonDryadNutrients.AutoSize = True
         Me.RadioButtonDryadNutrients.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDryadNutrients.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonDryadNutrients.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDryadNutrients.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDryadNutrients.Name = "RadioButtonDryadNutrients"
         Me.RadioButtonDryadNutrients.Size = New System.Drawing.Size(99, 25)
         Me.RadioButtonDryadNutrients.TabIndex = 4
@@ -2229,7 +2229,7 @@ Partial Class Form1
         Me.RadioButtonDryadRooted.AutoSize = True
         Me.RadioButtonDryadRooted.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDryadRooted.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonDryadRooted.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDryadRooted.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDryadRooted.Name = "RadioButtonDryadRooted"
         Me.RadioButtonDryadRooted.Size = New System.Drawing.Size(84, 25)
         Me.RadioButtonDryadRooted.TabIndex = 3
@@ -2250,7 +2250,7 @@ Partial Class Form1
         'ButtonDryadBackgrounds
         '
         Me.ButtonDryadBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonDryadBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDryadBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDryadBackgrounds.Name = "ButtonDryadBackgrounds"
         Me.ButtonDryadBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDryadBackgrounds.TabIndex = 1
@@ -2260,7 +2260,7 @@ Partial Class Form1
         'ButtonDryadKin
         '
         Me.ButtonDryadKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonDryadKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDryadKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDryadKin.Name = "ButtonDryadKin"
         Me.ButtonDryadKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDryadKin.TabIndex = 0
@@ -2280,7 +2280,7 @@ Partial Class Form1
         Me.PanelGoblin.Enabled = False
         Me.PanelGoblin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelGoblin.Location = New System.Drawing.Point(0, 0)
-        Me.PanelGoblin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelGoblin.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelGoblin.Name = "PanelGoblin"
         Me.PanelGoblin.Size = New System.Drawing.Size(828, 389)
         Me.PanelGoblin.TabIndex = 9
@@ -2288,7 +2288,7 @@ Partial Class Form1
         'ButtonGoblinInfo
         '
         Me.ButtonGoblinInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonGoblinInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonGoblinInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonGoblinInfo.Name = "ButtonGoblinInfo"
         Me.ButtonGoblinInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonGoblinInfo.TabIndex = 6
@@ -2300,7 +2300,7 @@ Partial Class Form1
         Me.RadioButtonGoblinRollAway.AutoSize = True
         Me.RadioButtonGoblinRollAway.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonGoblinRollAway.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonGoblinRollAway.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonGoblinRollAway.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonGoblinRollAway.Name = "RadioButtonGoblinRollAway"
         Me.RadioButtonGoblinRollAway.Size = New System.Drawing.Size(105, 25)
         Me.RadioButtonGoblinRollAway.TabIndex = 5
@@ -2313,7 +2313,7 @@ Partial Class Form1
         Me.RadioButtonGoblinEntertaining.AutoSize = True
         Me.RadioButtonGoblinEntertaining.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonGoblinEntertaining.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonGoblinEntertaining.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonGoblinEntertaining.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonGoblinEntertaining.Name = "RadioButtonGoblinEntertaining"
         Me.RadioButtonGoblinEntertaining.Size = New System.Drawing.Size(121, 25)
         Me.RadioButtonGoblinEntertaining.TabIndex = 4
@@ -2326,7 +2326,7 @@ Partial Class Form1
         Me.RadioButtonGoblinLightFrame.AutoSize = True
         Me.RadioButtonGoblinLightFrame.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonGoblinLightFrame.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonGoblinLightFrame.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonGoblinLightFrame.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonGoblinLightFrame.Name = "RadioButtonGoblinLightFrame"
         Me.RadioButtonGoblinLightFrame.Size = New System.Drawing.Size(119, 25)
         Me.RadioButtonGoblinLightFrame.TabIndex = 3
@@ -2347,7 +2347,7 @@ Partial Class Form1
         'ButtonGoblinBackgrounds
         '
         Me.ButtonGoblinBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonGoblinBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonGoblinBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonGoblinBackgrounds.Name = "ButtonGoblinBackgrounds"
         Me.ButtonGoblinBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonGoblinBackgrounds.TabIndex = 1
@@ -2357,7 +2357,7 @@ Partial Class Form1
         'ButtonGoblinKin
         '
         Me.ButtonGoblinKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonGoblinKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonGoblinKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonGoblinKin.Name = "ButtonGoblinKin"
         Me.ButtonGoblinKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonGoblinKin.TabIndex = 0
@@ -2377,7 +2377,7 @@ Partial Class Form1
         Me.PanelGnome.Enabled = False
         Me.PanelGnome.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelGnome.Location = New System.Drawing.Point(0, 0)
-        Me.PanelGnome.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelGnome.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelGnome.Name = "PanelGnome"
         Me.PanelGnome.Size = New System.Drawing.Size(828, 389)
         Me.PanelGnome.TabIndex = 9
@@ -2385,7 +2385,7 @@ Partial Class Form1
         'ButtonGnomeInfo
         '
         Me.ButtonGnomeInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonGnomeInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonGnomeInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonGnomeInfo.Name = "ButtonGnomeInfo"
         Me.ButtonGnomeInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonGnomeInfo.TabIndex = 6
@@ -2397,7 +2397,7 @@ Partial Class Form1
         Me.RadioButtonGnomeEfficientArmor.AutoSize = True
         Me.RadioButtonGnomeEfficientArmor.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonGnomeEfficientArmor.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonGnomeEfficientArmor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonGnomeEfficientArmor.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonGnomeEfficientArmor.Name = "RadioButtonGnomeEfficientArmor"
         Me.RadioButtonGnomeEfficientArmor.Size = New System.Drawing.Size(142, 25)
         Me.RadioButtonGnomeEfficientArmor.TabIndex = 5
@@ -2410,7 +2410,7 @@ Partial Class Form1
         Me.RadioButtonGnomeSmallSize.AutoSize = True
         Me.RadioButtonGnomeSmallSize.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonGnomeSmallSize.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonGnomeSmallSize.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonGnomeSmallSize.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonGnomeSmallSize.Name = "RadioButtonGnomeSmallSize"
         Me.RadioButtonGnomeSmallSize.Size = New System.Drawing.Size(106, 25)
         Me.RadioButtonGnomeSmallSize.TabIndex = 4
@@ -2423,7 +2423,7 @@ Partial Class Form1
         Me.RadioButtonGnomeTrinkets.AutoSize = True
         Me.RadioButtonGnomeTrinkets.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonGnomeTrinkets.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonGnomeTrinkets.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonGnomeTrinkets.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonGnomeTrinkets.Name = "RadioButtonGnomeTrinkets"
         Me.RadioButtonGnomeTrinkets.Size = New System.Drawing.Size(91, 25)
         Me.RadioButtonGnomeTrinkets.TabIndex = 3
@@ -2444,7 +2444,7 @@ Partial Class Form1
         'ButtonGnomeBackgrounds
         '
         Me.ButtonGnomeBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonGnomeBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonGnomeBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonGnomeBackgrounds.Name = "ButtonGnomeBackgrounds"
         Me.ButtonGnomeBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonGnomeBackgrounds.TabIndex = 1
@@ -2454,7 +2454,7 @@ Partial Class Form1
         'ButtonGnomeKin
         '
         Me.ButtonGnomeKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonGnomeKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonGnomeKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonGnomeKin.Name = "ButtonGnomeKin"
         Me.ButtonGnomeKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonGnomeKin.TabIndex = 0
@@ -2474,7 +2474,7 @@ Partial Class Form1
         Me.PanelDwarf.Enabled = False
         Me.PanelDwarf.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelDwarf.Location = New System.Drawing.Point(0, 0)
-        Me.PanelDwarf.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelDwarf.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelDwarf.Name = "PanelDwarf"
         Me.PanelDwarf.Size = New System.Drawing.Size(828, 389)
         Me.PanelDwarf.TabIndex = 10
@@ -2482,7 +2482,7 @@ Partial Class Form1
         'ButtonDwarfInfo
         '
         Me.ButtonDwarfInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonDwarfInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDwarfInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDwarfInfo.Name = "ButtonDwarfInfo"
         Me.ButtonDwarfInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDwarfInfo.TabIndex = 6
@@ -2494,7 +2494,7 @@ Partial Class Form1
         Me.RadioButtonDwarfExamination.AutoSize = True
         Me.RadioButtonDwarfExamination.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDwarfExamination.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonDwarfExamination.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDwarfExamination.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDwarfExamination.Name = "RadioButtonDwarfExamination"
         Me.RadioButtonDwarfExamination.Size = New System.Drawing.Size(122, 25)
         Me.RadioButtonDwarfExamination.TabIndex = 5
@@ -2507,7 +2507,7 @@ Partial Class Form1
         Me.RadioButtonDwarfLowLightVision.AutoSize = True
         Me.RadioButtonDwarfLowLightVision.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDwarfLowLightVision.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonDwarfLowLightVision.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDwarfLowLightVision.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDwarfLowLightVision.Name = "RadioButtonDwarfLowLightVision"
         Me.RadioButtonDwarfLowLightVision.Size = New System.Drawing.Size(151, 25)
         Me.RadioButtonDwarfLowLightVision.TabIndex = 4
@@ -2520,7 +2520,7 @@ Partial Class Form1
         Me.RadioButtonDwarfDwarfIt.AutoSize = True
         Me.RadioButtonDwarfDwarfIt.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDwarfDwarfIt.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonDwarfDwarfIt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDwarfDwarfIt.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDwarfDwarfIt.Name = "RadioButtonDwarfDwarfIt"
         Me.RadioButtonDwarfDwarfIt.Size = New System.Drawing.Size(92, 25)
         Me.RadioButtonDwarfDwarfIt.TabIndex = 3
@@ -2541,7 +2541,7 @@ Partial Class Form1
         'ButtonDwarfBackgrounds
         '
         Me.ButtonDwarfBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonDwarfBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDwarfBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDwarfBackgrounds.Name = "ButtonDwarfBackgrounds"
         Me.ButtonDwarfBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDwarfBackgrounds.TabIndex = 1
@@ -2551,7 +2551,7 @@ Partial Class Form1
         'ButtonDwarfKin
         '
         Me.ButtonDwarfKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonDwarfKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDwarfKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDwarfKin.Name = "ButtonDwarfKin"
         Me.ButtonDwarfKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDwarfKin.TabIndex = 0
@@ -2571,7 +2571,7 @@ Partial Class Form1
         Me.PanelJadeImperial.Enabled = False
         Me.PanelJadeImperial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelJadeImperial.Location = New System.Drawing.Point(0, 0)
-        Me.PanelJadeImperial.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelJadeImperial.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelJadeImperial.Name = "PanelJadeImperial"
         Me.PanelJadeImperial.Size = New System.Drawing.Size(828, 389)
         Me.PanelJadeImperial.TabIndex = 11
@@ -2579,7 +2579,7 @@ Partial Class Form1
         'ButtonJadeImperialInfo
         '
         Me.ButtonJadeImperialInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonJadeImperialInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonJadeImperialInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonJadeImperialInfo.Name = "ButtonJadeImperialInfo"
         Me.ButtonJadeImperialInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonJadeImperialInfo.TabIndex = 6
@@ -2591,7 +2591,7 @@ Partial Class Form1
         Me.RadioButtonJadeImperialTeamPlayer.AutoSize = True
         Me.RadioButtonJadeImperialTeamPlayer.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonJadeImperialTeamPlayer.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonJadeImperialTeamPlayer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonJadeImperialTeamPlayer.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonJadeImperialTeamPlayer.Name = "RadioButtonJadeImperialTeamPlayer"
         Me.RadioButtonJadeImperialTeamPlayer.Size = New System.Drawing.Size(123, 25)
         Me.RadioButtonJadeImperialTeamPlayer.TabIndex = 5
@@ -2604,7 +2604,7 @@ Partial Class Form1
         Me.RadioButtonJadeImperialAncestry.AutoSize = True
         Me.RadioButtonJadeImperialAncestry.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonJadeImperialAncestry.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonJadeImperialAncestry.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonJadeImperialAncestry.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonJadeImperialAncestry.Name = "RadioButtonJadeImperialAncestry"
         Me.RadioButtonJadeImperialAncestry.Size = New System.Drawing.Size(96, 25)
         Me.RadioButtonJadeImperialAncestry.TabIndex = 4
@@ -2617,7 +2617,7 @@ Partial Class Form1
         Me.RadioButtonJadeImperailSanctioned.AutoSize = True
         Me.RadioButtonJadeImperailSanctioned.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonJadeImperailSanctioned.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonJadeImperailSanctioned.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonJadeImperailSanctioned.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonJadeImperailSanctioned.Name = "RadioButtonJadeImperailSanctioned"
         Me.RadioButtonJadeImperailSanctioned.Size = New System.Drawing.Size(112, 25)
         Me.RadioButtonJadeImperailSanctioned.TabIndex = 3
@@ -2638,7 +2638,7 @@ Partial Class Form1
         'ButtonJadeImperialBackgrounds
         '
         Me.ButtonJadeImperialBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonJadeImperialBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonJadeImperialBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonJadeImperialBackgrounds.Name = "ButtonJadeImperialBackgrounds"
         Me.ButtonJadeImperialBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonJadeImperialBackgrounds.TabIndex = 1
@@ -2648,7 +2648,7 @@ Partial Class Form1
         'ButtonJadeImperialKin
         '
         Me.ButtonJadeImperialKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonJadeImperialKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonJadeImperialKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonJadeImperialKin.Name = "ButtonJadeImperialKin"
         Me.ButtonJadeImperialKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonJadeImperialKin.TabIndex = 0
@@ -2668,7 +2668,7 @@ Partial Class Form1
         Me.PanelSquirrel.Enabled = False
         Me.PanelSquirrel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelSquirrel.Location = New System.Drawing.Point(0, 0)
-        Me.PanelSquirrel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelSquirrel.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelSquirrel.Name = "PanelSquirrel"
         Me.PanelSquirrel.Size = New System.Drawing.Size(828, 389)
         Me.PanelSquirrel.TabIndex = 12
@@ -2676,7 +2676,7 @@ Partial Class Form1
         'ButtonSquirrelInfo
         '
         Me.ButtonSquirrelInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonSquirrelInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonSquirrelInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonSquirrelInfo.Name = "ButtonSquirrelInfo"
         Me.ButtonSquirrelInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonSquirrelInfo.TabIndex = 6
@@ -2688,7 +2688,7 @@ Partial Class Form1
         Me.RadioButtonSquirrelForage.AutoSize = True
         Me.RadioButtonSquirrelForage.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonSquirrelForage.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonSquirrelForage.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonSquirrelForage.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonSquirrelForage.Name = "RadioButtonSquirrelForage"
         Me.RadioButtonSquirrelForage.Size = New System.Drawing.Size(123, 25)
         Me.RadioButtonSquirrelForage.TabIndex = 5
@@ -2701,7 +2701,7 @@ Partial Class Form1
         Me.RadioButtonSquirrelHonorDuel.AutoSize = True
         Me.RadioButtonSquirrelHonorDuel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonSquirrelHonorDuel.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonSquirrelHonorDuel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonSquirrelHonorDuel.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonSquirrelHonorDuel.Name = "RadioButtonSquirrelHonorDuel"
         Me.RadioButtonSquirrelHonorDuel.Size = New System.Drawing.Size(96, 25)
         Me.RadioButtonSquirrelHonorDuel.TabIndex = 4
@@ -2714,7 +2714,7 @@ Partial Class Form1
         Me.RadioButtonSquirrelTacticalWithdrawl.AutoSize = True
         Me.RadioButtonSquirrelTacticalWithdrawl.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonSquirrelTacticalWithdrawl.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonSquirrelTacticalWithdrawl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonSquirrelTacticalWithdrawl.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonSquirrelTacticalWithdrawl.Name = "RadioButtonSquirrelTacticalWithdrawl"
         Me.RadioButtonSquirrelTacticalWithdrawl.Size = New System.Drawing.Size(112, 25)
         Me.RadioButtonSquirrelTacticalWithdrawl.TabIndex = 3
@@ -2735,7 +2735,7 @@ Partial Class Form1
         'ButtonSquirrelBackgrounds
         '
         Me.ButtonSquirrelBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonSquirrelBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonSquirrelBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonSquirrelBackgrounds.Name = "ButtonSquirrelBackgrounds"
         Me.ButtonSquirrelBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonSquirrelBackgrounds.TabIndex = 1
@@ -2745,7 +2745,7 @@ Partial Class Form1
         'ButtonSquirrelKin
         '
         Me.ButtonSquirrelKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonSquirrelKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonSquirrelKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonSquirrelKin.Name = "ButtonSquirrelKin"
         Me.ButtonSquirrelKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonSquirrelKin.TabIndex = 0
@@ -2765,7 +2765,7 @@ Partial Class Form1
         Me.PanelTroll.Enabled = False
         Me.PanelTroll.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelTroll.Location = New System.Drawing.Point(0, 0)
-        Me.PanelTroll.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelTroll.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelTroll.Name = "PanelTroll"
         Me.PanelTroll.Size = New System.Drawing.Size(828, 389)
         Me.PanelTroll.TabIndex = 13
@@ -2773,7 +2773,7 @@ Partial Class Form1
         'ButtonTrollInfo
         '
         Me.ButtonTrollInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonTrollInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonTrollInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonTrollInfo.Name = "ButtonTrollInfo"
         Me.ButtonTrollInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonTrollInfo.TabIndex = 6
@@ -2785,7 +2785,7 @@ Partial Class Form1
         Me.RadioButtonTrollLug.AutoSize = True
         Me.RadioButtonTrollLug.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonTrollLug.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonTrollLug.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonTrollLug.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonTrollLug.Name = "RadioButtonTrollLug"
         Me.RadioButtonTrollLug.Size = New System.Drawing.Size(57, 25)
         Me.RadioButtonTrollLug.TabIndex = 5
@@ -2798,7 +2798,7 @@ Partial Class Form1
         Me.RadioButtonTrollStoneDigestion.AutoSize = True
         Me.RadioButtonTrollStoneDigestion.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonTrollStoneDigestion.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonTrollStoneDigestion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonTrollStoneDigestion.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonTrollStoneDigestion.Name = "RadioButtonTrollStoneDigestion"
         Me.RadioButtonTrollStoneDigestion.Size = New System.Drawing.Size(148, 25)
         Me.RadioButtonTrollStoneDigestion.TabIndex = 4
@@ -2811,7 +2811,7 @@ Partial Class Form1
         Me.RadioButtonTrollStout.AutoSize = True
         Me.RadioButtonTrollStout.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonTrollStout.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonTrollStout.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonTrollStout.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonTrollStout.Name = "RadioButtonTrollStout"
         Me.RadioButtonTrollStout.Size = New System.Drawing.Size(70, 25)
         Me.RadioButtonTrollStout.TabIndex = 3
@@ -2832,7 +2832,7 @@ Partial Class Form1
         'ButtonTrollBackgrounds
         '
         Me.ButtonTrollBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonTrollBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonTrollBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonTrollBackgrounds.Name = "ButtonTrollBackgrounds"
         Me.ButtonTrollBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonTrollBackgrounds.TabIndex = 1
@@ -2842,7 +2842,7 @@ Partial Class Form1
         'ButtonTrollKin
         '
         Me.ButtonTrollKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonTrollKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonTrollKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonTrollKin.Name = "ButtonTrollKin"
         Me.ButtonTrollKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonTrollKin.TabIndex = 0
@@ -2862,7 +2862,7 @@ Partial Class Form1
         Me.PanelCatdrah.Enabled = False
         Me.PanelCatdrah.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelCatdrah.Location = New System.Drawing.Point(0, 0)
-        Me.PanelCatdrah.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelCatdrah.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelCatdrah.Name = "PanelCatdrah"
         Me.PanelCatdrah.Size = New System.Drawing.Size(828, 389)
         Me.PanelCatdrah.TabIndex = 14
@@ -2870,7 +2870,7 @@ Partial Class Form1
         'ButtonCatdrahInfo
         '
         Me.ButtonCatdrahInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonCatdrahInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonCatdrahInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonCatdrahInfo.Name = "ButtonCatdrahInfo"
         Me.ButtonCatdrahInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonCatdrahInfo.TabIndex = 6
@@ -2882,7 +2882,7 @@ Partial Class Form1
         Me.RadioButtonCatdrahCuteness.AutoSize = True
         Me.RadioButtonCatdrahCuteness.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonCatdrahCuteness.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonCatdrahCuteness.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonCatdrahCuteness.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonCatdrahCuteness.Name = "RadioButtonCatdrahCuteness"
         Me.RadioButtonCatdrahCuteness.Size = New System.Drawing.Size(99, 25)
         Me.RadioButtonCatdrahCuteness.TabIndex = 5
@@ -2895,7 +2895,7 @@ Partial Class Form1
         Me.RadioButtonCatdrahSafeLanding.AutoSize = True
         Me.RadioButtonCatdrahSafeLanding.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonCatdrahSafeLanding.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonCatdrahSafeLanding.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonCatdrahSafeLanding.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonCatdrahSafeLanding.Name = "RadioButtonCatdrahSafeLanding"
         Me.RadioButtonCatdrahSafeLanding.Size = New System.Drawing.Size(125, 25)
         Me.RadioButtonCatdrahSafeLanding.TabIndex = 4
@@ -2908,7 +2908,7 @@ Partial Class Form1
         Me.RadioButtonCatdrahClimbTree.AutoSize = True
         Me.RadioButtonCatdrahClimbTree.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonCatdrahClimbTree.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonCatdrahClimbTree.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonCatdrahClimbTree.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonCatdrahClimbTree.Name = "RadioButtonCatdrahClimbTree"
         Me.RadioButtonCatdrahClimbTree.Size = New System.Drawing.Size(111, 25)
         Me.RadioButtonCatdrahClimbTree.TabIndex = 3
@@ -2929,7 +2929,7 @@ Partial Class Form1
         'ButtonCatdrahBackgrounds
         '
         Me.ButtonCatdrahBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonCatdrahBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonCatdrahBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonCatdrahBackgrounds.Name = "ButtonCatdrahBackgrounds"
         Me.ButtonCatdrahBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonCatdrahBackgrounds.TabIndex = 1
@@ -2939,7 +2939,7 @@ Partial Class Form1
         'ButtonCatdrahKin
         '
         Me.ButtonCatdrahKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonCatdrahKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonCatdrahKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonCatdrahKin.Name = "ButtonCatdrahKin"
         Me.ButtonCatdrahKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonCatdrahKin.TabIndex = 0
@@ -2959,7 +2959,7 @@ Partial Class Form1
         Me.PanelKinsman.Enabled = False
         Me.PanelKinsman.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelKinsman.Location = New System.Drawing.Point(0, 0)
-        Me.PanelKinsman.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelKinsman.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelKinsman.Name = "PanelKinsman"
         Me.PanelKinsman.Size = New System.Drawing.Size(828, 389)
         Me.PanelKinsman.TabIndex = 15
@@ -2967,7 +2967,7 @@ Partial Class Form1
         'ButtonKinsmanInfo
         '
         Me.ButtonKinsmanInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonKinsmanInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinsmanInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinsmanInfo.Name = "ButtonKinsmanInfo"
         Me.ButtonKinsmanInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinsmanInfo.TabIndex = 6
@@ -2979,7 +2979,7 @@ Partial Class Form1
         Me.RadioButtonKinsmanMilitia.AutoSize = True
         Me.RadioButtonKinsmanMilitia.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinsmanMilitia.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonKinsmanMilitia.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinsmanMilitia.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinsmanMilitia.Name = "RadioButtonKinsmanMilitia"
         Me.RadioButtonKinsmanMilitia.Size = New System.Drawing.Size(75, 25)
         Me.RadioButtonKinsmanMilitia.TabIndex = 5
@@ -2992,7 +2992,7 @@ Partial Class Form1
         Me.RadioButtonKinsmanTrustMe.AutoSize = True
         Me.RadioButtonKinsmanTrustMe.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinsmanTrustMe.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonKinsmanTrustMe.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinsmanTrustMe.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinsmanTrustMe.Name = "RadioButtonKinsmanTrustMe"
         Me.RadioButtonKinsmanTrustMe.Size = New System.Drawing.Size(97, 25)
         Me.RadioButtonKinsmanTrustMe.TabIndex = 4
@@ -3005,7 +3005,7 @@ Partial Class Form1
         Me.RadioButtonKinsmanNeutrality.AutoSize = True
         Me.RadioButtonKinsmanNeutrality.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonKinsmanNeutrality.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonKinsmanNeutrality.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonKinsmanNeutrality.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonKinsmanNeutrality.Name = "RadioButtonKinsmanNeutrality"
         Me.RadioButtonKinsmanNeutrality.Size = New System.Drawing.Size(103, 25)
         Me.RadioButtonKinsmanNeutrality.TabIndex = 3
@@ -3026,7 +3026,7 @@ Partial Class Form1
         'ButtonKinsmanBackgrounds
         '
         Me.ButtonKinsmanBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonKinsmanBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinsmanBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinsmanBackgrounds.Name = "ButtonKinsmanBackgrounds"
         Me.ButtonKinsmanBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinsmanBackgrounds.TabIndex = 1
@@ -3036,7 +3036,7 @@ Partial Class Form1
         'ButtonKinsmanKin
         '
         Me.ButtonKinsmanKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonKinsmanKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinsmanKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinsmanKin.Name = "ButtonKinsmanKin"
         Me.ButtonKinsmanKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinsmanKin.TabIndex = 0
@@ -3058,7 +3058,7 @@ Partial Class Form1
         Me.PanelAngalucian.Enabled = False
         Me.PanelAngalucian.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelAngalucian.Location = New System.Drawing.Point(0, 0)
-        Me.PanelAngalucian.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelAngalucian.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelAngalucian.Name = "PanelAngalucian"
         Me.PanelAngalucian.Size = New System.Drawing.Size(828, 389)
         Me.PanelAngalucian.TabIndex = 17
@@ -3068,7 +3068,7 @@ Partial Class Form1
         Me.RadioButtonAngalucianBlessedweapon.AutoSize = True
         Me.RadioButtonAngalucianBlessedweapon.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonAngalucianBlessedweapon.Location = New System.Drawing.Point(356, 309)
-        Me.RadioButtonAngalucianBlessedweapon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonAngalucianBlessedweapon.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonAngalucianBlessedweapon.Name = "RadioButtonAngalucianBlessedweapon"
         Me.RadioButtonAngalucianBlessedweapon.Size = New System.Drawing.Size(153, 25)
         Me.RadioButtonAngalucianBlessedweapon.TabIndex = 8
@@ -3081,7 +3081,7 @@ Partial Class Form1
         Me.RadioButtonAngalucianBeaconoflight.AutoSize = True
         Me.RadioButtonAngalucianBeaconoflight.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonAngalucianBeaconoflight.Location = New System.Drawing.Point(356, 255)
-        Me.RadioButtonAngalucianBeaconoflight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonAngalucianBeaconoflight.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonAngalucianBeaconoflight.Name = "RadioButtonAngalucianBeaconoflight"
         Me.RadioButtonAngalucianBeaconoflight.Size = New System.Drawing.Size(148, 25)
         Me.RadioButtonAngalucianBeaconoflight.TabIndex = 7
@@ -3092,7 +3092,7 @@ Partial Class Form1
         'ButtonAngelucianInfo
         '
         Me.ButtonAngelucianInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonAngelucianInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonAngelucianInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonAngelucianInfo.Name = "ButtonAngelucianInfo"
         Me.ButtonAngelucianInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonAngelucianInfo.TabIndex = 6
@@ -3104,7 +3104,7 @@ Partial Class Form1
         Me.RadioButtonAngalucianTakeheed.AutoSize = True
         Me.RadioButtonAngalucianTakeheed.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonAngalucianTakeheed.Location = New System.Drawing.Point(356, 204)
-        Me.RadioButtonAngalucianTakeheed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonAngalucianTakeheed.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonAngalucianTakeheed.Name = "RadioButtonAngalucianTakeheed"
         Me.RadioButtonAngalucianTakeheed.Size = New System.Drawing.Size(110, 25)
         Me.RadioButtonAngalucianTakeheed.TabIndex = 5
@@ -3117,7 +3117,7 @@ Partial Class Form1
         Me.RadioButtonAngalucianAmaze.AutoSize = True
         Me.RadioButtonAngalucianAmaze.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonAngalucianAmaze.Location = New System.Drawing.Point(356, 154)
-        Me.RadioButtonAngalucianAmaze.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonAngalucianAmaze.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonAngalucianAmaze.Name = "RadioButtonAngalucianAmaze"
         Me.RadioButtonAngalucianAmaze.Size = New System.Drawing.Size(82, 25)
         Me.RadioButtonAngalucianAmaze.TabIndex = 4
@@ -3130,7 +3130,7 @@ Partial Class Form1
         Me.RadioButtonAngalucianFlight.AutoSize = True
         Me.RadioButtonAngalucianFlight.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonAngalucianFlight.Location = New System.Drawing.Point(356, 107)
-        Me.RadioButtonAngalucianFlight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonAngalucianFlight.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonAngalucianFlight.Name = "RadioButtonAngalucianFlight"
         Me.RadioButtonAngalucianFlight.Size = New System.Drawing.Size(72, 25)
         Me.RadioButtonAngalucianFlight.TabIndex = 3
@@ -3151,7 +3151,7 @@ Partial Class Form1
         'ButtonAngalucianBackgrounds
         '
         Me.ButtonAngalucianBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonAngalucianBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonAngalucianBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonAngalucianBackgrounds.Name = "ButtonAngalucianBackgrounds"
         Me.ButtonAngalucianBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonAngalucianBackgrounds.TabIndex = 1
@@ -3161,7 +3161,7 @@ Partial Class Form1
         'ButtonAngalucianKin
         '
         Me.ButtonAngalucianKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonAngalucianKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonAngalucianKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonAngalucianKin.Name = "ButtonAngalucianKin"
         Me.ButtonAngalucianKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonAngalucianKin.TabIndex = 0
@@ -3171,7 +3171,7 @@ Partial Class Form1
         'ButtonMinotaurKin
         '
         Me.ButtonMinotaurKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonMinotaurKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonMinotaurKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonMinotaurKin.Name = "ButtonMinotaurKin"
         Me.ButtonMinotaurKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonMinotaurKin.TabIndex = 0
@@ -3181,7 +3181,7 @@ Partial Class Form1
         'ButtonMinotaurBackgrounds
         '
         Me.ButtonMinotaurBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonMinotaurBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonMinotaurBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonMinotaurBackgrounds.Name = "ButtonMinotaurBackgrounds"
         Me.ButtonMinotaurBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonMinotaurBackgrounds.TabIndex = 1
@@ -3203,7 +3203,7 @@ Partial Class Form1
         Me.RadioButtonMinotaurRam.AutoSize = True
         Me.RadioButtonMinotaurRam.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonMinotaurRam.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonMinotaurRam.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonMinotaurRam.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonMinotaurRam.Name = "RadioButtonMinotaurRam"
         Me.RadioButtonMinotaurRam.Size = New System.Drawing.Size(65, 25)
         Me.RadioButtonMinotaurRam.TabIndex = 3
@@ -3216,7 +3216,7 @@ Partial Class Form1
         Me.RadioButtonMinotaurDaunting.AutoSize = True
         Me.RadioButtonMinotaurDaunting.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonMinotaurDaunting.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonMinotaurDaunting.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonMinotaurDaunting.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonMinotaurDaunting.Name = "RadioButtonMinotaurDaunting"
         Me.RadioButtonMinotaurDaunting.Size = New System.Drawing.Size(98, 25)
         Me.RadioButtonMinotaurDaunting.TabIndex = 4
@@ -3229,7 +3229,7 @@ Partial Class Form1
         Me.RadioButtonMinotaurCharge.AutoSize = True
         Me.RadioButtonMinotaurCharge.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonMinotaurCharge.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonMinotaurCharge.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonMinotaurCharge.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonMinotaurCharge.Name = "RadioButtonMinotaurCharge"
         Me.RadioButtonMinotaurCharge.Size = New System.Drawing.Size(83, 25)
         Me.RadioButtonMinotaurCharge.TabIndex = 5
@@ -3240,7 +3240,7 @@ Partial Class Form1
         'ButtonMinotaurInfo
         '
         Me.ButtonMinotaurInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonMinotaurInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonMinotaurInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonMinotaurInfo.Name = "ButtonMinotaurInfo"
         Me.ButtonMinotaurInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonMinotaurInfo.TabIndex = 6
@@ -3260,7 +3260,7 @@ Partial Class Form1
         Me.PanelMinotaur.Enabled = False
         Me.PanelMinotaur.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelMinotaur.Location = New System.Drawing.Point(0, 0)
-        Me.PanelMinotaur.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelMinotaur.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelMinotaur.Name = "PanelMinotaur"
         Me.PanelMinotaur.Size = New System.Drawing.Size(828, 389)
         Me.PanelMinotaur.TabIndex = 16
@@ -3278,7 +3278,7 @@ Partial Class Form1
         Me.PanelDarkelf.Enabled = False
         Me.PanelDarkelf.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelDarkelf.Location = New System.Drawing.Point(0, 0)
-        Me.PanelDarkelf.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelDarkelf.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelDarkelf.Name = "PanelDarkelf"
         Me.PanelDarkelf.Size = New System.Drawing.Size(828, 389)
         Me.PanelDarkelf.TabIndex = 18
@@ -3286,7 +3286,7 @@ Partial Class Form1
         'ButtonDarkelfInfo
         '
         Me.ButtonDarkelfInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonDarkelfInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDarkelfInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDarkelfInfo.Name = "ButtonDarkelfInfo"
         Me.ButtonDarkelfInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDarkelfInfo.TabIndex = 6
@@ -3298,7 +3298,7 @@ Partial Class Form1
         Me.RadioButtonDarkelfLightsleeper.AutoSize = True
         Me.RadioButtonDarkelfLightsleeper.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDarkelfLightsleeper.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonDarkelfLightsleeper.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDarkelfLightsleeper.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDarkelfLightsleeper.Name = "RadioButtonDarkelfLightsleeper"
         Me.RadioButtonDarkelfLightsleeper.Size = New System.Drawing.Size(127, 25)
         Me.RadioButtonDarkelfLightsleeper.TabIndex = 5
@@ -3311,7 +3311,7 @@ Partial Class Form1
         Me.RadioButtonDarkelfAlignment.AutoSize = True
         Me.RadioButtonDarkelfAlignment.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDarkelfAlignment.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonDarkelfAlignment.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDarkelfAlignment.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDarkelfAlignment.Name = "RadioButtonDarkelfAlignment"
         Me.RadioButtonDarkelfAlignment.Size = New System.Drawing.Size(106, 25)
         Me.RadioButtonDarkelfAlignment.TabIndex = 4
@@ -3324,7 +3324,7 @@ Partial Class Form1
         Me.RadioButtonDarkelfNightvision.AutoSize = True
         Me.RadioButtonDarkelfNightvision.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDarkelfNightvision.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonDarkelfNightvision.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDarkelfNightvision.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDarkelfNightvision.Name = "RadioButtonDarkelfNightvision"
         Me.RadioButtonDarkelfNightvision.Size = New System.Drawing.Size(119, 25)
         Me.RadioButtonDarkelfNightvision.TabIndex = 3
@@ -3345,7 +3345,7 @@ Partial Class Form1
         'ButtonDarkelfBackgrounds
         '
         Me.ButtonDarkelfBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonDarkelfBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDarkelfBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDarkelfBackgrounds.Name = "ButtonDarkelfBackgrounds"
         Me.ButtonDarkelfBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDarkelfBackgrounds.TabIndex = 1
@@ -3355,7 +3355,7 @@ Partial Class Form1
         'ButtonDarkelfKin
         '
         Me.ButtonDarkelfKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonDarkelfKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDarkelfKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDarkelfKin.Name = "ButtonDarkelfKin"
         Me.ButtonDarkelfKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDarkelfKin.TabIndex = 0
@@ -3375,7 +3375,7 @@ Partial Class Form1
         Me.PanelFelucian.Enabled = False
         Me.PanelFelucian.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelFelucian.Location = New System.Drawing.Point(0, 0)
-        Me.PanelFelucian.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelFelucian.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelFelucian.Name = "PanelFelucian"
         Me.PanelFelucian.Size = New System.Drawing.Size(828, 389)
         Me.PanelFelucian.TabIndex = 19
@@ -3383,7 +3383,7 @@ Partial Class Form1
         'ButtonFelucianInfo
         '
         Me.ButtonFelucianInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonFelucianInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonFelucianInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonFelucianInfo.Name = "ButtonFelucianInfo"
         Me.ButtonFelucianInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonFelucianInfo.TabIndex = 6
@@ -3395,7 +3395,7 @@ Partial Class Form1
         Me.RadioButtonFelucianWingburst.AutoSize = True
         Me.RadioButtonFelucianWingburst.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonFelucianWingburst.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonFelucianWingburst.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonFelucianWingburst.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonFelucianWingburst.Name = "RadioButtonFelucianWingburst"
         Me.RadioButtonFelucianWingburst.Size = New System.Drawing.Size(112, 25)
         Me.RadioButtonFelucianWingburst.TabIndex = 5
@@ -3408,7 +3408,7 @@ Partial Class Form1
         Me.RadioButtonFelucianHangingaround.AutoSize = True
         Me.RadioButtonFelucianHangingaround.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonFelucianHangingaround.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonFelucianHangingaround.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonFelucianHangingaround.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonFelucianHangingaround.Name = "RadioButtonFelucianHangingaround"
         Me.RadioButtonFelucianHangingaround.Size = New System.Drawing.Size(149, 25)
         Me.RadioButtonFelucianHangingaround.TabIndex = 4
@@ -3421,7 +3421,7 @@ Partial Class Form1
         Me.RadioButtonFelucianDarkness.AutoSize = True
         Me.RadioButtonFelucianDarkness.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonFelucianDarkness.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonFelucianDarkness.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonFelucianDarkness.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonFelucianDarkness.Name = "RadioButtonFelucianDarkness"
         Me.RadioButtonFelucianDarkness.Size = New System.Drawing.Size(100, 25)
         Me.RadioButtonFelucianDarkness.TabIndex = 3
@@ -3442,7 +3442,7 @@ Partial Class Form1
         'ButtonFelucianBackgrounds
         '
         Me.ButtonFelucianBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonFelucianBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonFelucianBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonFelucianBackgrounds.Name = "ButtonFelucianBackgrounds"
         Me.ButtonFelucianBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonFelucianBackgrounds.TabIndex = 1
@@ -3452,7 +3452,7 @@ Partial Class Form1
         'ButtonFelucianKin
         '
         Me.ButtonFelucianKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonFelucianKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonFelucianKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonFelucianKin.Name = "ButtonFelucianKin"
         Me.ButtonFelucianKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonFelucianKin.TabIndex = 0
@@ -3472,7 +3472,7 @@ Partial Class Form1
         Me.PanelGigayona.Enabled = False
         Me.PanelGigayona.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelGigayona.Location = New System.Drawing.Point(0, 0)
-        Me.PanelGigayona.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelGigayona.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelGigayona.Name = "PanelGigayona"
         Me.PanelGigayona.Size = New System.Drawing.Size(828, 389)
         Me.PanelGigayona.TabIndex = 20
@@ -3480,7 +3480,7 @@ Partial Class Form1
         'ButtonGigayonaInfo
         '
         Me.ButtonGigayonaInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonGigayonaInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonGigayonaInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonGigayonaInfo.Name = "ButtonGigayonaInfo"
         Me.ButtonGigayonaInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonGigayonaInfo.TabIndex = 6
@@ -3492,7 +3492,7 @@ Partial Class Form1
         Me.RadioButtonGigayonaThickcoat.AutoSize = True
         Me.RadioButtonGigayonaThickcoat.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonGigayonaThickcoat.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonGigayonaThickcoat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonGigayonaThickcoat.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonGigayonaThickcoat.Name = "RadioButtonGigayonaThickcoat"
         Me.RadioButtonGigayonaThickcoat.Size = New System.Drawing.Size(109, 25)
         Me.RadioButtonGigayonaThickcoat.TabIndex = 5
@@ -3505,7 +3505,7 @@ Partial Class Form1
         Me.RadioButtonGigayonaFoodsfood.AutoSize = True
         Me.RadioButtonGigayonaFoodsfood.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonGigayonaFoodsfood.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonGigayonaFoodsfood.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonGigayonaFoodsfood.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonGigayonaFoodsfood.Name = "RadioButtonGigayonaFoodsfood"
         Me.RadioButtonGigayonaFoodsfood.Size = New System.Drawing.Size(116, 25)
         Me.RadioButtonGigayonaFoodsfood.TabIndex = 4
@@ -3518,7 +3518,7 @@ Partial Class Form1
         Me.RadioButtonGigayonaBellysmash.AutoSize = True
         Me.RadioButtonGigayonaBellysmash.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonGigayonaBellysmash.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonGigayonaBellysmash.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonGigayonaBellysmash.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonGigayonaBellysmash.Name = "RadioButtonGigayonaBellysmash"
         Me.RadioButtonGigayonaBellysmash.Size = New System.Drawing.Size(120, 25)
         Me.RadioButtonGigayonaBellysmash.TabIndex = 3
@@ -3539,7 +3539,7 @@ Partial Class Form1
         'ButtonGigayonaBackgrounds
         '
         Me.ButtonGigayonaBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonGigayonaBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonGigayonaBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonGigayonaBackgrounds.Name = "ButtonGigayonaBackgrounds"
         Me.ButtonGigayonaBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonGigayonaBackgrounds.TabIndex = 1
@@ -3549,7 +3549,7 @@ Partial Class Form1
         'ButtonGigayonaKin
         '
         Me.ButtonGigayonaKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonGigayonaKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonGigayonaKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonGigayonaKin.Name = "ButtonGigayonaKin"
         Me.ButtonGigayonaKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonGigayonaKin.TabIndex = 0
@@ -3569,7 +3569,7 @@ Partial Class Form1
         Me.PanelHighelf.Enabled = False
         Me.PanelHighelf.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelHighelf.Location = New System.Drawing.Point(0, 0)
-        Me.PanelHighelf.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelHighelf.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelHighelf.Name = "PanelHighelf"
         Me.PanelHighelf.Size = New System.Drawing.Size(828, 389)
         Me.PanelHighelf.TabIndex = 21
@@ -3577,7 +3577,7 @@ Partial Class Form1
         'ButtonHighelfInfo
         '
         Me.ButtonHighelfInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonHighelfInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonHighelfInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonHighelfInfo.Name = "ButtonHighelfInfo"
         Me.ButtonHighelfInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonHighelfInfo.TabIndex = 6
@@ -3589,7 +3589,7 @@ Partial Class Form1
         Me.RadioButtonHighelfColorsofthewind.AutoSize = True
         Me.RadioButtonHighelfColorsofthewind.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonHighelfColorsofthewind.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonHighelfColorsofthewind.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonHighelfColorsofthewind.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonHighelfColorsofthewind.Name = "RadioButtonHighelfColorsofthewind"
         Me.RadioButtonHighelfColorsofthewind.Size = New System.Drawing.Size(167, 25)
         Me.RadioButtonHighelfColorsofthewind.TabIndex = 5
@@ -3602,7 +3602,7 @@ Partial Class Form1
         Me.RadioButtonHighelfLightfoot.AutoSize = True
         Me.RadioButtonHighelfLightfoot.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonHighelfLightfoot.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonHighelfLightfoot.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonHighelfLightfoot.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonHighelfLightfoot.Name = "RadioButtonHighelfLightfoot"
         Me.RadioButtonHighelfLightfoot.Size = New System.Drawing.Size(108, 25)
         Me.RadioButtonHighelfLightfoot.TabIndex = 4
@@ -3615,7 +3615,7 @@ Partial Class Form1
         Me.RadioButtonHighelfBedazzle.AutoSize = True
         Me.RadioButtonHighelfBedazzle.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonHighelfBedazzle.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonHighelfBedazzle.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonHighelfBedazzle.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonHighelfBedazzle.Name = "RadioButtonHighelfBedazzle"
         Me.RadioButtonHighelfBedazzle.Size = New System.Drawing.Size(97, 25)
         Me.RadioButtonHighelfBedazzle.TabIndex = 3
@@ -3626,7 +3626,7 @@ Partial Class Form1
         'ButtonHighelfBackgrounds
         '
         Me.ButtonHighelfBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonHighelfBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonHighelfBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonHighelfBackgrounds.Name = "ButtonHighelfBackgrounds"
         Me.ButtonHighelfBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonHighelfBackgrounds.TabIndex = 1
@@ -3636,7 +3636,7 @@ Partial Class Form1
         'ButtonHighelfKin
         '
         Me.ButtonHighelfKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonHighelfKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonHighelfKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonHighelfKin.Name = "ButtonHighelfKin"
         Me.ButtonHighelfKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonHighelfKin.TabIndex = 0
@@ -3667,7 +3667,7 @@ Partial Class Form1
         Me.PanelFaerleth.Enabled = False
         Me.PanelFaerleth.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelFaerleth.Location = New System.Drawing.Point(0, 0)
-        Me.PanelFaerleth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelFaerleth.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelFaerleth.Name = "PanelFaerleth"
         Me.PanelFaerleth.Size = New System.Drawing.Size(828, 389)
         Me.PanelFaerleth.TabIndex = 22
@@ -3677,7 +3677,7 @@ Partial Class Form1
         Me.RadioButtonFaerlethMastermunchyologist.AutoSize = True
         Me.RadioButtonFaerlethMastermunchyologist.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonFaerlethMastermunchyologist.Location = New System.Drawing.Point(356, 260)
-        Me.RadioButtonFaerlethMastermunchyologist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonFaerlethMastermunchyologist.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonFaerlethMastermunchyologist.Name = "RadioButtonFaerlethMastermunchyologist"
         Me.RadioButtonFaerlethMastermunchyologist.Size = New System.Drawing.Size(192, 25)
         Me.RadioButtonFaerlethMastermunchyologist.TabIndex = 7
@@ -3688,7 +3688,7 @@ Partial Class Form1
         'ButtonFaerlethInfo
         '
         Me.ButtonFaerlethInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonFaerlethInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonFaerlethInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonFaerlethInfo.Name = "ButtonFaerlethInfo"
         Me.ButtonFaerlethInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonFaerlethInfo.TabIndex = 6
@@ -3700,7 +3700,7 @@ Partial Class Form1
         Me.RadioButtonFaerlethRiddle.AutoSize = True
         Me.RadioButtonFaerlethRiddle.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonFaerlethRiddle.Location = New System.Drawing.Point(356, 223)
-        Me.RadioButtonFaerlethRiddle.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonFaerlethRiddle.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonFaerlethRiddle.Name = "RadioButtonFaerlethRiddle"
         Me.RadioButtonFaerlethRiddle.Size = New System.Drawing.Size(77, 25)
         Me.RadioButtonFaerlethRiddle.TabIndex = 5
@@ -3713,7 +3713,7 @@ Partial Class Form1
         Me.RadioButtonFaerlethToughfeet.AutoSize = True
         Me.RadioButtonFaerlethToughfeet.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonFaerlethToughfeet.Location = New System.Drawing.Point(356, 183)
-        Me.RadioButtonFaerlethToughfeet.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonFaerlethToughfeet.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonFaerlethToughfeet.Name = "RadioButtonFaerlethToughfeet"
         Me.RadioButtonFaerlethToughfeet.Size = New System.Drawing.Size(115, 25)
         Me.RadioButtonFaerlethToughfeet.TabIndex = 4
@@ -3726,7 +3726,7 @@ Partial Class Form1
         Me.RadioButtonFaerlethHideyhole.AutoSize = True
         Me.RadioButtonFaerlethHideyhole.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonFaerlethHideyhole.Location = New System.Drawing.Point(355, 143)
-        Me.RadioButtonFaerlethHideyhole.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonFaerlethHideyhole.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonFaerlethHideyhole.Name = "RadioButtonFaerlethHideyhole"
         Me.RadioButtonFaerlethHideyhole.Size = New System.Drawing.Size(110, 25)
         Me.RadioButtonFaerlethHideyhole.TabIndex = 3
@@ -3747,7 +3747,7 @@ Partial Class Form1
         'ButtonFaerlethBackgrounds
         '
         Me.ButtonFaerlethBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonFaerlethBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonFaerlethBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonFaerlethBackgrounds.Name = "ButtonFaerlethBackgrounds"
         Me.ButtonFaerlethBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonFaerlethBackgrounds.TabIndex = 1
@@ -3757,7 +3757,7 @@ Partial Class Form1
         'ButtonFaerlethKin
         '
         Me.ButtonFaerlethKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonFaerlethKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonFaerlethKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonFaerlethKin.Name = "ButtonFaerlethKin"
         Me.ButtonFaerlethKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonFaerlethKin.TabIndex = 0
@@ -3777,7 +3777,7 @@ Partial Class Form1
         Me.PanelOrc.Enabled = False
         Me.PanelOrc.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelOrc.Location = New System.Drawing.Point(0, 0)
-        Me.PanelOrc.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelOrc.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelOrc.Name = "PanelOrc"
         Me.PanelOrc.Size = New System.Drawing.Size(828, 389)
         Me.PanelOrc.TabIndex = 23
@@ -3785,7 +3785,7 @@ Partial Class Form1
         'ButtonOrcInfo
         '
         Me.ButtonOrcInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonOrcInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonOrcInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonOrcInfo.Name = "ButtonOrcInfo"
         Me.ButtonOrcInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonOrcInfo.TabIndex = 6
@@ -3797,7 +3797,7 @@ Partial Class Form1
         Me.RadioButtonOrcGruff.AutoSize = True
         Me.RadioButtonOrcGruff.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonOrcGruff.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonOrcGruff.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonOrcGruff.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonOrcGruff.Name = "RadioButtonOrcGruff"
         Me.RadioButtonOrcGruff.Size = New System.Drawing.Size(67, 25)
         Me.RadioButtonOrcGruff.TabIndex = 5
@@ -3810,7 +3810,7 @@ Partial Class Form1
         Me.RadioButtonOrcBloodpool.AutoSize = True
         Me.RadioButtonOrcBloodpool.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonOrcBloodpool.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonOrcBloodpool.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonOrcBloodpool.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonOrcBloodpool.Name = "RadioButtonOrcBloodpool"
         Me.RadioButtonOrcBloodpool.Size = New System.Drawing.Size(108, 25)
         Me.RadioButtonOrcBloodpool.TabIndex = 4
@@ -3823,7 +3823,7 @@ Partial Class Form1
         Me.RadioButtonOrcFeelnopain.AutoSize = True
         Me.RadioButtonOrcFeelnopain.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonOrcFeelnopain.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonOrcFeelnopain.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonOrcFeelnopain.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonOrcFeelnopain.Name = "RadioButtonOrcFeelnopain"
         Me.RadioButtonOrcFeelnopain.Size = New System.Drawing.Size(123, 25)
         Me.RadioButtonOrcFeelnopain.TabIndex = 3
@@ -3844,7 +3844,7 @@ Partial Class Form1
         'ButtonOrcBackgrounds
         '
         Me.ButtonOrcBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonOrcBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonOrcBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonOrcBackgrounds.Name = "ButtonOrcBackgrounds"
         Me.ButtonOrcBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonOrcBackgrounds.TabIndex = 1
@@ -3854,7 +3854,7 @@ Partial Class Form1
         'ButtonOrcKin
         '
         Me.ButtonOrcKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonOrcKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonOrcKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonOrcKin.Name = "ButtonOrcKin"
         Me.ButtonOrcKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonOrcKin.TabIndex = 0
@@ -3874,7 +3874,7 @@ Partial Class Form1
         Me.PanelSanjoran.Enabled = False
         Me.PanelSanjoran.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelSanjoran.Location = New System.Drawing.Point(0, 0)
-        Me.PanelSanjoran.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelSanjoran.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelSanjoran.Name = "PanelSanjoran"
         Me.PanelSanjoran.Size = New System.Drawing.Size(828, 389)
         Me.PanelSanjoran.TabIndex = 24
@@ -3882,7 +3882,7 @@ Partial Class Form1
         'ButtonSanjoranInfo
         '
         Me.ButtonSanjoranInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonSanjoranInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonSanjoranInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonSanjoranInfo.Name = "ButtonSanjoranInfo"
         Me.ButtonSanjoranInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonSanjoranInfo.TabIndex = 6
@@ -3894,7 +3894,7 @@ Partial Class Form1
         Me.RadioButtonSanjoranNip.AutoSize = True
         Me.RadioButtonSanjoranNip.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonSanjoranNip.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonSanjoranNip.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonSanjoranNip.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonSanjoranNip.Name = "RadioButtonSanjoranNip"
         Me.RadioButtonSanjoranNip.Size = New System.Drawing.Size(55, 25)
         Me.RadioButtonSanjoranNip.TabIndex = 5
@@ -3907,7 +3907,7 @@ Partial Class Form1
         Me.RadioButtonSanjoranRegrowth.AutoSize = True
         Me.RadioButtonSanjoranRegrowth.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonSanjoranRegrowth.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonSanjoranRegrowth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonSanjoranRegrowth.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonSanjoranRegrowth.Name = "RadioButtonSanjoranRegrowth"
         Me.RadioButtonSanjoranRegrowth.Size = New System.Drawing.Size(103, 25)
         Me.RadioButtonSanjoranRegrowth.TabIndex = 4
@@ -3920,7 +3920,7 @@ Partial Class Form1
         Me.RadioButtonSanjoranResistance.AutoSize = True
         Me.RadioButtonSanjoranResistance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonSanjoranResistance.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonSanjoranResistance.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonSanjoranResistance.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonSanjoranResistance.Name = "RadioButtonSanjoranResistance"
         Me.RadioButtonSanjoranResistance.Size = New System.Drawing.Size(112, 25)
         Me.RadioButtonSanjoranResistance.TabIndex = 3
@@ -3941,7 +3941,7 @@ Partial Class Form1
         'ButtonSanjoranBackgrounds
         '
         Me.ButtonSanjoranBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonSanjoranBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonSanjoranBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonSanjoranBackgrounds.Name = "ButtonSanjoranBackgrounds"
         Me.ButtonSanjoranBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonSanjoranBackgrounds.TabIndex = 1
@@ -3951,7 +3951,7 @@ Partial Class Form1
         'ButtonSanjoranKin
         '
         Me.ButtonSanjoranKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonSanjoranKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonSanjoranKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonSanjoranKin.Name = "ButtonSanjoranKin"
         Me.ButtonSanjoranKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonSanjoranKin.TabIndex = 0
@@ -3971,7 +3971,7 @@ Partial Class Form1
         Me.PanelWastelander.Enabled = False
         Me.PanelWastelander.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelWastelander.Location = New System.Drawing.Point(0, 0)
-        Me.PanelWastelander.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelWastelander.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelWastelander.Name = "PanelWastelander"
         Me.PanelWastelander.Size = New System.Drawing.Size(828, 389)
         Me.PanelWastelander.TabIndex = 25
@@ -3979,7 +3979,7 @@ Partial Class Form1
         'ButtonWastelanderInfo
         '
         Me.ButtonWastelanderInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonWastelanderInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWastelanderInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWastelanderInfo.Name = "ButtonWastelanderInfo"
         Me.ButtonWastelanderInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWastelanderInfo.TabIndex = 6
@@ -3991,7 +3991,7 @@ Partial Class Form1
         Me.RadioButtonWastelanderBlendin.AutoSize = True
         Me.RadioButtonWastelanderBlendin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonWastelanderBlendin.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonWastelanderBlendin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWastelanderBlendin.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWastelanderBlendin.Name = "RadioButtonWastelanderBlendin"
         Me.RadioButtonWastelanderBlendin.Size = New System.Drawing.Size(95, 25)
         Me.RadioButtonWastelanderBlendin.TabIndex = 5
@@ -4004,7 +4004,7 @@ Partial Class Form1
         Me.RadioButtonWastelanderStreetsmart.AutoSize = True
         Me.RadioButtonWastelanderStreetsmart.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonWastelanderStreetsmart.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonWastelanderStreetsmart.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWastelanderStreetsmart.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWastelanderStreetsmart.Name = "RadioButtonWastelanderStreetsmart"
         Me.RadioButtonWastelanderStreetsmart.Size = New System.Drawing.Size(125, 25)
         Me.RadioButtonWastelanderStreetsmart.TabIndex = 4
@@ -4017,7 +4017,7 @@ Partial Class Form1
         Me.RadioButtonWastelanderThuroughsearch.AutoSize = True
         Me.RadioButtonWastelanderThuroughsearch.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonWastelanderThuroughsearch.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonWastelanderThuroughsearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWastelanderThuroughsearch.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWastelanderThuroughsearch.Name = "RadioButtonWastelanderThuroughsearch"
         Me.RadioButtonWastelanderThuroughsearch.Size = New System.Drawing.Size(156, 25)
         Me.RadioButtonWastelanderThuroughsearch.TabIndex = 3
@@ -4038,7 +4038,7 @@ Partial Class Form1
         'ButtonWastelanderBackgrounds
         '
         Me.ButtonWastelanderBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonWastelanderBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWastelanderBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWastelanderBackgrounds.Name = "ButtonWastelanderBackgrounds"
         Me.ButtonWastelanderBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWastelanderBackgrounds.TabIndex = 1
@@ -4048,7 +4048,7 @@ Partial Class Form1
         'ButtonWastelanderKin
         '
         Me.ButtonWastelanderKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonWastelanderKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWastelanderKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWastelanderKin.Name = "ButtonWastelanderKin"
         Me.ButtonWastelanderKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWastelanderKin.TabIndex = 0
@@ -4068,7 +4068,7 @@ Partial Class Form1
         Me.PanelWolfsbein.Enabled = False
         Me.PanelWolfsbein.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelWolfsbein.Location = New System.Drawing.Point(0, 0)
-        Me.PanelWolfsbein.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelWolfsbein.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelWolfsbein.Name = "PanelWolfsbein"
         Me.PanelWolfsbein.Size = New System.Drawing.Size(828, 389)
         Me.PanelWolfsbein.TabIndex = 26
@@ -4076,7 +4076,7 @@ Partial Class Form1
         'ButtonWolfsbeinInfo
         '
         Me.ButtonWolfsbeinInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonWolfsbeinInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWolfsbeinInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWolfsbeinInfo.Name = "ButtonWolfsbeinInfo"
         Me.ButtonWolfsbeinInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWolfsbeinInfo.TabIndex = 6
@@ -4088,7 +4088,7 @@ Partial Class Form1
         Me.RadioButtonWolfsbeinRedolent.AutoSize = True
         Me.RadioButtonWolfsbeinRedolent.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonWolfsbeinRedolent.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonWolfsbeinRedolent.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWolfsbeinRedolent.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWolfsbeinRedolent.Name = "RadioButtonWolfsbeinRedolent"
         Me.RadioButtonWolfsbeinRedolent.Size = New System.Drawing.Size(102, 25)
         Me.RadioButtonWolfsbeinRedolent.TabIndex = 5
@@ -4101,7 +4101,7 @@ Partial Class Form1
         Me.RadioButtonWolfsbeinPowerthrough.AutoSize = True
         Me.RadioButtonWolfsbeinPowerthrough.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonWolfsbeinPowerthrough.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonWolfsbeinPowerthrough.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWolfsbeinPowerthrough.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWolfsbeinPowerthrough.Name = "RadioButtonWolfsbeinPowerthrough"
         Me.RadioButtonWolfsbeinPowerthrough.Size = New System.Drawing.Size(143, 25)
         Me.RadioButtonWolfsbeinPowerthrough.TabIndex = 4
@@ -4114,7 +4114,7 @@ Partial Class Form1
         Me.RadioButtonWolfsbeinTrustworthy.AutoSize = True
         Me.RadioButtonWolfsbeinTrustworthy.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonWolfsbeinTrustworthy.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonWolfsbeinTrustworthy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWolfsbeinTrustworthy.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWolfsbeinTrustworthy.Name = "RadioButtonWolfsbeinTrustworthy"
         Me.RadioButtonWolfsbeinTrustworthy.Size = New System.Drawing.Size(121, 25)
         Me.RadioButtonWolfsbeinTrustworthy.TabIndex = 3
@@ -4135,7 +4135,7 @@ Partial Class Form1
         'ButtonWolfsbeinBackgrounds
         '
         Me.ButtonWolfsbeinBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonWolfsbeinBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWolfsbeinBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWolfsbeinBackgrounds.Name = "ButtonWolfsbeinBackgrounds"
         Me.ButtonWolfsbeinBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWolfsbeinBackgrounds.TabIndex = 1
@@ -4145,7 +4145,7 @@ Partial Class Form1
         'ButtonWolfsbeinKin
         '
         Me.ButtonWolfsbeinKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonWolfsbeinKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWolfsbeinKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWolfsbeinKin.Name = "ButtonWolfsbeinKin"
         Me.ButtonWolfsbeinKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWolfsbeinKin.TabIndex = 0
@@ -4165,7 +4165,7 @@ Partial Class Form1
         Me.PanelWoodelf.Enabled = False
         Me.PanelWoodelf.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelWoodelf.Location = New System.Drawing.Point(0, 0)
-        Me.PanelWoodelf.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelWoodelf.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelWoodelf.Name = "PanelWoodelf"
         Me.PanelWoodelf.Size = New System.Drawing.Size(828, 389)
         Me.PanelWoodelf.TabIndex = 27
@@ -4173,7 +4173,7 @@ Partial Class Form1
         'ButtonWoodelfInfo
         '
         Me.ButtonWoodelfInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonWoodelfInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWoodelfInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWoodelfInfo.Name = "ButtonWoodelfInfo"
         Me.ButtonWoodelfInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWoodelfInfo.TabIndex = 6
@@ -4185,7 +4185,7 @@ Partial Class Form1
         Me.RadioButtonWoodelfElementaryinvocation.AutoSize = True
         Me.RadioButtonWoodelfElementaryinvocation.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonWoodelfElementaryinvocation.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonWoodelfElementaryinvocation.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWoodelfElementaryinvocation.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWoodelfElementaryinvocation.Name = "RadioButtonWoodelfElementaryinvocation"
         Me.RadioButtonWoodelfElementaryinvocation.Size = New System.Drawing.Size(197, 25)
         Me.RadioButtonWoodelfElementaryinvocation.TabIndex = 5
@@ -4198,7 +4198,7 @@ Partial Class Form1
         Me.RadioButtonWoodelfForestflight.AutoSize = True
         Me.RadioButtonWoodelfForestflight.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonWoodelfForestflight.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonWoodelfForestflight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWoodelfForestflight.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWoodelfForestflight.Name = "RadioButtonWoodelfForestflight"
         Me.RadioButtonWoodelfForestflight.Size = New System.Drawing.Size(124, 25)
         Me.RadioButtonWoodelfForestflight.TabIndex = 4
@@ -4211,7 +4211,7 @@ Partial Class Form1
         Me.RadioButtonWoodelfLifeattunement.AutoSize = True
         Me.RadioButtonWoodelfLifeattunement.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonWoodelfLifeattunement.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonWoodelfLifeattunement.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWoodelfLifeattunement.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWoodelfLifeattunement.Name = "RadioButtonWoodelfLifeattunement"
         Me.RadioButtonWoodelfLifeattunement.Size = New System.Drawing.Size(150, 25)
         Me.RadioButtonWoodelfLifeattunement.TabIndex = 3
@@ -4232,7 +4232,7 @@ Partial Class Form1
         'ButtonWoodelfBackgrounds
         '
         Me.ButtonWoodelfBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonWoodelfBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWoodelfBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWoodelfBackgrounds.Name = "ButtonWoodelfBackgrounds"
         Me.ButtonWoodelfBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWoodelfBackgrounds.TabIndex = 1
@@ -4242,7 +4242,7 @@ Partial Class Form1
         'ButtonWoodelfKin
         '
         Me.ButtonWoodelfKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonWoodelfKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWoodelfKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWoodelfKin.Name = "ButtonWoodelfKin"
         Me.ButtonWoodelfKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWoodelfKin.TabIndex = 0
@@ -4279,7 +4279,7 @@ Partial Class Form1
         Me.PanelBackgrounds.Controls.Add(Me.ButtonBackgroundsKintype)
         Me.PanelBackgrounds.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelBackgrounds.Location = New System.Drawing.Point(0, 0)
-        Me.PanelBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelBackgrounds.Name = "PanelBackgrounds"
         Me.PanelBackgrounds.Size = New System.Drawing.Size(828, 389)
         Me.PanelBackgrounds.TabIndex = 28
@@ -4287,7 +4287,7 @@ Partial Class Form1
         'ButtonBackgroundsInfo
         '
         Me.ButtonBackgroundsInfo.Location = New System.Drawing.Point(675, 208)
-        Me.ButtonBackgroundsInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonBackgroundsInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonBackgroundsInfo.Name = "ButtonBackgroundsInfo"
         Me.ButtonBackgroundsInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonBackgroundsInfo.TabIndex = 11
@@ -4298,7 +4298,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsCourier.AutoSize = True
         Me.CheckBoxBackgroundsCourier.Location = New System.Drawing.Point(683, 100)
-        Me.CheckBoxBackgroundsCourier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsCourier.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsCourier.Name = "CheckBoxBackgroundsCourier"
         Me.CheckBoxBackgroundsCourier.Size = New System.Drawing.Size(76, 21)
         Me.CheckBoxBackgroundsCourier.TabIndex = 10
@@ -4309,7 +4309,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsSmuggler.AutoSize = True
         Me.CheckBoxBackgroundsSmuggler.Location = New System.Drawing.Point(285, 191)
-        Me.CheckBoxBackgroundsSmuggler.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsSmuggler.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsSmuggler.Name = "CheckBoxBackgroundsSmuggler"
         Me.CheckBoxBackgroundsSmuggler.Size = New System.Drawing.Size(90, 21)
         Me.CheckBoxBackgroundsSmuggler.TabIndex = 9
@@ -4320,7 +4320,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsFisherman.AutoSize = True
         Me.CheckBoxBackgroundsFisherman.Location = New System.Drawing.Point(91, 279)
-        Me.CheckBoxBackgroundsFisherman.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsFisherman.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsFisherman.Name = "CheckBoxBackgroundsFisherman"
         Me.CheckBoxBackgroundsFisherman.Size = New System.Drawing.Size(96, 21)
         Me.CheckBoxBackgroundsFisherman.TabIndex = 9
@@ -4331,7 +4331,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsMiddleman.AutoSize = True
         Me.CheckBoxBackgroundsMiddleman.Location = New System.Drawing.Point(285, 278)
-        Me.CheckBoxBackgroundsMiddleman.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsMiddleman.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsMiddleman.Name = "CheckBoxBackgroundsMiddleman"
         Me.CheckBoxBackgroundsMiddleman.Size = New System.Drawing.Size(98, 21)
         Me.CheckBoxBackgroundsMiddleman.TabIndex = 9
@@ -4342,7 +4342,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsUrchin.AutoSize = True
         Me.CheckBoxBackgroundsUrchin.Location = New System.Drawing.Point(487, 246)
-        Me.CheckBoxBackgroundsUrchin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsUrchin.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsUrchin.Name = "CheckBoxBackgroundsUrchin"
         Me.CheckBoxBackgroundsUrchin.Size = New System.Drawing.Size(71, 21)
         Me.CheckBoxBackgroundsUrchin.TabIndex = 8
@@ -4353,7 +4353,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsRepairman.AutoSize = True
         Me.CheckBoxBackgroundsRepairman.Location = New System.Drawing.Point(91, 250)
-        Me.CheckBoxBackgroundsRepairman.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsRepairman.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsRepairman.Name = "CheckBoxBackgroundsRepairman"
         Me.CheckBoxBackgroundsRepairman.Size = New System.Drawing.Size(99, 21)
         Me.CheckBoxBackgroundsRepairman.TabIndex = 8
@@ -4364,7 +4364,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsBotanist.AutoSize = True
         Me.CheckBoxBackgroundsBotanist.Location = New System.Drawing.Point(285, 249)
-        Me.CheckBoxBackgroundsBotanist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsBotanist.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsBotanist.Name = "CheckBoxBackgroundsBotanist"
         Me.CheckBoxBackgroundsBotanist.Size = New System.Drawing.Size(81, 21)
         Me.CheckBoxBackgroundsBotanist.TabIndex = 8
@@ -4375,7 +4375,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsWanderer.AutoSize = True
         Me.CheckBoxBackgroundsWanderer.Location = New System.Drawing.Point(487, 217)
-        Me.CheckBoxBackgroundsWanderer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsWanderer.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsWanderer.Name = "CheckBoxBackgroundsWanderer"
         Me.CheckBoxBackgroundsWanderer.Size = New System.Drawing.Size(93, 21)
         Me.CheckBoxBackgroundsWanderer.TabIndex = 7
@@ -4386,7 +4386,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsArcanescholar.AutoSize = True
         Me.CheckBoxBackgroundsArcanescholar.Location = New System.Drawing.Point(91, 220)
-        Me.CheckBoxBackgroundsArcanescholar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsArcanescholar.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsArcanescholar.Name = "CheckBoxBackgroundsArcanescholar"
         Me.CheckBoxBackgroundsArcanescholar.Size = New System.Drawing.Size(127, 21)
         Me.CheckBoxBackgroundsArcanescholar.TabIndex = 7
@@ -4397,7 +4397,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsTradesman.AutoSize = True
         Me.CheckBoxBackgroundsTradesman.Location = New System.Drawing.Point(487, 187)
-        Me.CheckBoxBackgroundsTradesman.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsTradesman.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsTradesman.Name = "CheckBoxBackgroundsTradesman"
         Me.CheckBoxBackgroundsTradesman.Size = New System.Drawing.Size(102, 21)
         Me.CheckBoxBackgroundsTradesman.TabIndex = 6
@@ -4408,7 +4408,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsScholar.AutoSize = True
         Me.CheckBoxBackgroundsScholar.Location = New System.Drawing.Point(91, 191)
-        Me.CheckBoxBackgroundsScholar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsScholar.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsScholar.Name = "CheckBoxBackgroundsScholar"
         Me.CheckBoxBackgroundsScholar.Size = New System.Drawing.Size(78, 21)
         Me.CheckBoxBackgroundsScholar.TabIndex = 6
@@ -4419,7 +4419,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsCleanser.AutoSize = True
         Me.CheckBoxBackgroundsCleanser.Location = New System.Drawing.Point(487, 158)
-        Me.CheckBoxBackgroundsCleanser.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsCleanser.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsCleanser.Name = "CheckBoxBackgroundsCleanser"
         Me.CheckBoxBackgroundsCleanser.Size = New System.Drawing.Size(86, 21)
         Me.CheckBoxBackgroundsCleanser.TabIndex = 5
@@ -4430,7 +4430,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsHistorian.AutoSize = True
         Me.CheckBoxBackgroundsHistorian.Location = New System.Drawing.Point(285, 219)
-        Me.CheckBoxBackgroundsHistorian.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsHistorian.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsHistorian.Name = "CheckBoxBackgroundsHistorian"
         Me.CheckBoxBackgroundsHistorian.Size = New System.Drawing.Size(86, 21)
         Me.CheckBoxBackgroundsHistorian.TabIndex = 7
@@ -4441,7 +4441,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsTailor.AutoSize = True
         Me.CheckBoxBackgroundsTailor.Location = New System.Drawing.Point(91, 161)
-        Me.CheckBoxBackgroundsTailor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsTailor.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsTailor.Name = "CheckBoxBackgroundsTailor"
         Me.CheckBoxBackgroundsTailor.Size = New System.Drawing.Size(66, 21)
         Me.CheckBoxBackgroundsTailor.TabIndex = 5
@@ -4452,7 +4452,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsEnchantmentspecialist.AutoSize = True
         Me.CheckBoxBackgroundsEnchantmentspecialist.Location = New System.Drawing.Point(487, 129)
-        Me.CheckBoxBackgroundsEnchantmentspecialist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsEnchantmentspecialist.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsEnchantmentspecialist.Name = "CheckBoxBackgroundsEnchantmentspecialist"
         Me.CheckBoxBackgroundsEnchantmentspecialist.Size = New System.Drawing.Size(177, 21)
         Me.CheckBoxBackgroundsEnchantmentspecialist.TabIndex = 4
@@ -4463,7 +4463,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsWeaponsarmorknowledge.AutoSize = True
         Me.CheckBoxBackgroundsWeaponsarmorknowledge.Location = New System.Drawing.Point(487, 279)
-        Me.CheckBoxBackgroundsWeaponsarmorknowledge.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsWeaponsarmorknowledge.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsWeaponsarmorknowledge.Name = "CheckBoxBackgroundsWeaponsarmorknowledge"
         Me.CheckBoxBackgroundsWeaponsarmorknowledge.Size = New System.Drawing.Size(205, 21)
         Me.CheckBoxBackgroundsWeaponsarmorknowledge.TabIndex = 6
@@ -4474,7 +4474,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsBlacksmith.AutoSize = True
         Me.CheckBoxBackgroundsBlacksmith.Location = New System.Drawing.Point(91, 133)
-        Me.CheckBoxBackgroundsBlacksmith.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsBlacksmith.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsBlacksmith.Name = "CheckBoxBackgroundsBlacksmith"
         Me.CheckBoxBackgroundsBlacksmith.Size = New System.Drawing.Size(97, 21)
         Me.CheckBoxBackgroundsBlacksmith.TabIndex = 4
@@ -4485,7 +4485,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsGuard.AutoSize = True
         Me.CheckBoxBackgroundsGuard.Location = New System.Drawing.Point(487, 101)
-        Me.CheckBoxBackgroundsGuard.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsGuard.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsGuard.Name = "CheckBoxBackgroundsGuard"
         Me.CheckBoxBackgroundsGuard.Size = New System.Drawing.Size(70, 21)
         Me.CheckBoxBackgroundsGuard.TabIndex = 3
@@ -4496,7 +4496,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsCartographer.AutoSize = True
         Me.CheckBoxBackgroundsCartographer.Location = New System.Drawing.Point(285, 160)
-        Me.CheckBoxBackgroundsCartographer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsCartographer.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsCartographer.Name = "CheckBoxBackgroundsCartographer"
         Me.CheckBoxBackgroundsCartographer.Size = New System.Drawing.Size(114, 21)
         Me.CheckBoxBackgroundsCartographer.TabIndex = 5
@@ -4507,7 +4507,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsSeaworthy.AutoSize = True
         Me.CheckBoxBackgroundsSeaworthy.Location = New System.Drawing.Point(91, 105)
-        Me.CheckBoxBackgroundsSeaworthy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsSeaworthy.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsSeaworthy.Name = "CheckBoxBackgroundsSeaworthy"
         Me.CheckBoxBackgroundsSeaworthy.Size = New System.Drawing.Size(96, 21)
         Me.CheckBoxBackgroundsSeaworthy.TabIndex = 3
@@ -4518,7 +4518,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsWoodsman.AutoSize = True
         Me.CheckBoxBackgroundsWoodsman.Location = New System.Drawing.Point(285, 132)
-        Me.CheckBoxBackgroundsWoodsman.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsWoodsman.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsWoodsman.Name = "CheckBoxBackgroundsWoodsman"
         Me.CheckBoxBackgroundsWoodsman.Size = New System.Drawing.Size(101, 21)
         Me.CheckBoxBackgroundsWoodsman.TabIndex = 4
@@ -4529,7 +4529,7 @@ Partial Class Form1
         '
         Me.CheckBoxBackgroundsArchitect.AutoSize = True
         Me.CheckBoxBackgroundsArchitect.Location = New System.Drawing.Point(285, 103)
-        Me.CheckBoxBackgroundsArchitect.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBoxBackgroundsArchitect.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBoxBackgroundsArchitect.Name = "CheckBoxBackgroundsArchitect"
         Me.CheckBoxBackgroundsArchitect.Size = New System.Drawing.Size(85, 21)
         Me.CheckBoxBackgroundsArchitect.TabIndex = 3
@@ -4550,7 +4550,7 @@ Partial Class Form1
         'ButtonBackgroundsClass
         '
         Me.ButtonBackgroundsClass.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonBackgroundsClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonBackgroundsClass.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonBackgroundsClass.Name = "ButtonBackgroundsClass"
         Me.ButtonBackgroundsClass.Size = New System.Drawing.Size(100, 28)
         Me.ButtonBackgroundsClass.TabIndex = 1
@@ -4560,7 +4560,7 @@ Partial Class Form1
         'ButtonBackgroundsKintype
         '
         Me.ButtonBackgroundsKintype.Location = New System.Drawing.Point(4, 358)
-        Me.ButtonBackgroundsKintype.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonBackgroundsKintype.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonBackgroundsKintype.Name = "ButtonBackgroundsKintype"
         Me.ButtonBackgroundsKintype.Size = New System.Drawing.Size(100, 28)
         Me.ButtonBackgroundsKintype.TabIndex = 0
@@ -4596,7 +4596,7 @@ Partial Class Form1
         Me.PanelClass.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelClass.Enabled = False
         Me.PanelClass.Location = New System.Drawing.Point(0, 0)
-        Me.PanelClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelClass.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelClass.Name = "PanelClass"
         Me.PanelClass.Size = New System.Drawing.Size(828, 389)
         Me.PanelClass.TabIndex = 29
@@ -4730,7 +4730,7 @@ Partial Class Form1
         'ButtonClassNext
         '
         Me.ButtonClassNext.Location = New System.Drawing.Point(724, 356)
-        Me.ButtonClassNext.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClassNext.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClassNext.Name = "ButtonClassNext"
         Me.ButtonClassNext.Size = New System.Drawing.Size(100, 28)
         Me.ButtonClassNext.TabIndex = 6
@@ -4740,7 +4740,7 @@ Partial Class Form1
         'ButtonClassBackgrounds
         '
         Me.ButtonClassBackgrounds.Location = New System.Drawing.Point(5, 356)
-        Me.ButtonClassBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClassBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClassBackgrounds.Name = "ButtonClassBackgrounds"
         Me.ButtonClassBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonClassBackgrounds.TabIndex = 5
@@ -4751,7 +4751,7 @@ Partial Class Form1
         '
         Me.RadioButtonClassCleric.AutoSize = True
         Me.RadioButtonClassCleric.Location = New System.Drawing.Point(495, 231)
-        Me.RadioButtonClassCleric.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonClassCleric.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonClassCleric.Name = "RadioButtonClassCleric"
         Me.RadioButtonClassCleric.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonClassCleric.TabIndex = 4
@@ -4762,7 +4762,7 @@ Partial Class Form1
         '
         Me.RadioButtonClassNoble.AutoSize = True
         Me.RadioButtonClassNoble.Location = New System.Drawing.Point(224, 286)
-        Me.RadioButtonClassNoble.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonClassNoble.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonClassNoble.Name = "RadioButtonClassNoble"
         Me.RadioButtonClassNoble.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonClassNoble.TabIndex = 4
@@ -4773,7 +4773,7 @@ Partial Class Form1
         '
         Me.RadioButtonClassVoidKnight.AutoSize = True
         Me.RadioButtonClassVoidKnight.Location = New System.Drawing.Point(495, 174)
-        Me.RadioButtonClassVoidKnight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonClassVoidKnight.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonClassVoidKnight.Name = "RadioButtonClassVoidKnight"
         Me.RadioButtonClassVoidKnight.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonClassVoidKnight.TabIndex = 3
@@ -4784,7 +4784,7 @@ Partial Class Form1
         '
         Me.RadioButtonClassRogue.AutoSize = True
         Me.RadioButtonClassRogue.Location = New System.Drawing.Point(224, 228)
-        Me.RadioButtonClassRogue.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonClassRogue.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonClassRogue.Name = "RadioButtonClassRogue"
         Me.RadioButtonClassRogue.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonClassRogue.TabIndex = 3
@@ -4795,7 +4795,7 @@ Partial Class Form1
         '
         Me.RadioButtonClassWizard.AutoSize = True
         Me.RadioButtonClassWizard.Location = New System.Drawing.Point(495, 113)
-        Me.RadioButtonClassWizard.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonClassWizard.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonClassWizard.Name = "RadioButtonClassWizard"
         Me.RadioButtonClassWizard.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonClassWizard.TabIndex = 2
@@ -4806,7 +4806,7 @@ Partial Class Form1
         '
         Me.RadioButtonClassRanger.AutoSize = True
         Me.RadioButtonClassRanger.Location = New System.Drawing.Point(224, 167)
-        Me.RadioButtonClassRanger.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonClassRanger.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonClassRanger.Name = "RadioButtonClassRanger"
         Me.RadioButtonClassRanger.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonClassRanger.TabIndex = 2
@@ -4817,7 +4817,7 @@ Partial Class Form1
         '
         Me.RadioButtonClassWarrior.AutoSize = True
         Me.RadioButtonClassWarrior.Location = New System.Drawing.Point(224, 113)
-        Me.RadioButtonClassWarrior.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonClassWarrior.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonClassWarrior.Name = "RadioButtonClassWarrior"
         Me.RadioButtonClassWarrior.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonClassWarrior.TabIndex = 1
@@ -4845,7 +4845,7 @@ Partial Class Form1
         Me.PanelWizard.Controls.Add(Me.LabelWizardIntro)
         Me.PanelWizard.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelWizard.Location = New System.Drawing.Point(0, 0)
-        Me.PanelWizard.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelWizard.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelWizard.Name = "PanelWizard"
         Me.PanelWizard.Size = New System.Drawing.Size(828, 389)
         Me.PanelWizard.TabIndex = 29
@@ -4860,9 +4860,9 @@ Partial Class Form1
         Me.GroupBoxWizardManifold.Controls.Add(Me.RadioButtonWizardNecromancy)
         Me.GroupBoxWizardManifold.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBoxWizardManifold.Location = New System.Drawing.Point(456, 101)
-        Me.GroupBoxWizardManifold.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBoxWizardManifold.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBoxWizardManifold.Name = "GroupBoxWizardManifold"
-        Me.GroupBoxWizardManifold.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBoxWizardManifold.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBoxWizardManifold.Size = New System.Drawing.Size(253, 202)
         Me.GroupBoxWizardManifold.TabIndex = 3
         Me.GroupBoxWizardManifold.TabStop = False
@@ -4882,7 +4882,7 @@ Partial Class Form1
         '
         Me.RadioButtonWizardNeuromancy.AutoSize = True
         Me.RadioButtonWizardNeuromancy.Location = New System.Drawing.Point(63, 128)
-        Me.RadioButtonWizardNeuromancy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWizardNeuromancy.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWizardNeuromancy.Name = "RadioButtonWizardNeuromancy"
         Me.RadioButtonWizardNeuromancy.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonWizardNeuromancy.TabIndex = 2
@@ -4903,7 +4903,7 @@ Partial Class Form1
         '
         Me.RadioButtonWizardKinesiomancy.AutoSize = True
         Me.RadioButtonWizardKinesiomancy.Location = New System.Drawing.Point(63, 58)
-        Me.RadioButtonWizardKinesiomancy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWizardKinesiomancy.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWizardKinesiomancy.Name = "RadioButtonWizardKinesiomancy"
         Me.RadioButtonWizardKinesiomancy.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonWizardKinesiomancy.TabIndex = 0
@@ -4924,7 +4924,7 @@ Partial Class Form1
         '
         Me.RadioButtonWizardNecromancy.AutoSize = True
         Me.RadioButtonWizardNecromancy.Location = New System.Drawing.Point(63, 94)
-        Me.RadioButtonWizardNecromancy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWizardNecromancy.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWizardNecromancy.Name = "RadioButtonWizardNecromancy"
         Me.RadioButtonWizardNecromancy.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonWizardNecromancy.TabIndex = 1
@@ -4941,9 +4941,9 @@ Partial Class Form1
         Me.GroupBoxWizardElemental.Controls.Add(Me.RadioButtonWizardKairomancy)
         Me.GroupBoxWizardElemental.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBoxWizardElemental.Location = New System.Drawing.Point(108, 101)
-        Me.GroupBoxWizardElemental.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBoxWizardElemental.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBoxWizardElemental.Name = "GroupBoxWizardElemental"
-        Me.GroupBoxWizardElemental.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBoxWizardElemental.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBoxWizardElemental.Size = New System.Drawing.Size(253, 202)
         Me.GroupBoxWizardElemental.TabIndex = 3
         Me.GroupBoxWizardElemental.TabStop = False
@@ -4983,7 +4983,7 @@ Partial Class Form1
         '
         Me.RadioButtonWizardHydromancy.AutoSize = True
         Me.RadioButtonWizardHydromancy.Location = New System.Drawing.Point(60, 127)
-        Me.RadioButtonWizardHydromancy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWizardHydromancy.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWizardHydromancy.Name = "RadioButtonWizardHydromancy"
         Me.RadioButtonWizardHydromancy.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonWizardHydromancy.TabIndex = 2
@@ -4994,7 +4994,7 @@ Partial Class Form1
         '
         Me.RadioButtonWizardPyromancy.AutoSize = True
         Me.RadioButtonWizardPyromancy.Location = New System.Drawing.Point(60, 92)
-        Me.RadioButtonWizardPyromancy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWizardPyromancy.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWizardPyromancy.Name = "RadioButtonWizardPyromancy"
         Me.RadioButtonWizardPyromancy.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonWizardPyromancy.TabIndex = 1
@@ -5005,7 +5005,7 @@ Partial Class Form1
         '
         Me.RadioButtonWizardKairomancy.AutoSize = True
         Me.RadioButtonWizardKairomancy.Location = New System.Drawing.Point(60, 57)
-        Me.RadioButtonWizardKairomancy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWizardKairomancy.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonWizardKairomancy.Name = "RadioButtonWizardKairomancy"
         Me.RadioButtonWizardKairomancy.Size = New System.Drawing.Size(17, 16)
         Me.RadioButtonWizardKairomancy.TabIndex = 0
@@ -5015,7 +5015,7 @@ Partial Class Form1
         'ButtonWizardTalents
         '
         Me.ButtonWizardTalents.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonWizardTalents.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWizardTalents.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWizardTalents.Name = "ButtonWizardTalents"
         Me.ButtonWizardTalents.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWizardTalents.TabIndex = 2
@@ -5025,7 +5025,7 @@ Partial Class Form1
         'ButtonWizardClass
         '
         Me.ButtonWizardClass.Location = New System.Drawing.Point(5, 356)
-        Me.ButtonWizardClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWizardClass.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWizardClass.Name = "ButtonWizardClass"
         Me.ButtonWizardClass.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWizardClass.TabIndex = 1
@@ -5091,7 +5091,7 @@ Partial Class Form1
         Me.PanelWarrior.Controls.Add(Me.LabelWarriorXp)
         Me.PanelWarrior.Controls.Add(Me.LabelWarriorIntro)
         Me.PanelWarrior.Location = New System.Drawing.Point(0, 0)
-        Me.PanelWarrior.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelWarrior.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelWarrior.Name = "PanelWarrior"
         Me.PanelWarrior.Size = New System.Drawing.Size(828, 389)
         Me.PanelWarrior.TabIndex = 30
@@ -5099,7 +5099,7 @@ Partial Class Form1
         'ButtonWarriorInfo
         '
         Me.ButtonWarriorInfo.Location = New System.Drawing.Point(472, 308)
-        Me.ButtonWarriorInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorInfo.Name = "ButtonWarriorInfo"
         Me.ButtonWarriorInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWarriorInfo.TabIndex = 8
@@ -5109,7 +5109,7 @@ Partial Class Form1
         'ButtonWarriorModifier
         '
         Me.ButtonWarriorModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonWarriorModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorModifier.Name = "ButtonWarriorModifier"
         Me.ButtonWarriorModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWarriorModifier.TabIndex = 7
@@ -5119,7 +5119,7 @@ Partial Class Form1
         'ButtonWarriorClass
         '
         Me.ButtonWarriorClass.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonWarriorClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorClass.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorClass.Name = "ButtonWarriorClass"
         Me.ButtonWarriorClass.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWarriorClass.TabIndex = 6
@@ -5132,7 +5132,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorSmithingMinus.Location = New System.Drawing.Point(252, 236)
-        Me.ButtonWarriorSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorSmithingMinus.Name = "ButtonWarriorSmithingMinus"
         Me.ButtonWarriorSmithingMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorSmithingMinus.TabIndex = 5
@@ -5146,7 +5146,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorDisarmMinus.Location = New System.Drawing.Point(56, 284)
-        Me.ButtonWarriorDisarmMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorDisarmMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorDisarmMinus.Name = "ButtonWarriorDisarmMinus"
         Me.ButtonWarriorDisarmMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorDisarmMinus.TabIndex = 5
@@ -5160,7 +5160,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorProwessMinus.Location = New System.Drawing.Point(252, 190)
-        Me.ButtonWarriorProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorProwessMinus.Name = "ButtonWarriorProwessMinus"
         Me.ButtonWarriorProwessMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorProwessMinus.TabIndex = 5
@@ -5174,7 +5174,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorKnockdownMinus.Location = New System.Drawing.Point(55, 238)
-        Me.ButtonWarriorKnockdownMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorKnockdownMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorKnockdownMinus.Name = "ButtonWarriorKnockdownMinus"
         Me.ButtonWarriorKnockdownMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorKnockdownMinus.TabIndex = 5
@@ -5188,7 +5188,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorSenseMinus.Location = New System.Drawing.Point(488, 97)
-        Me.ButtonWarriorSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorSenseMinus.Name = "ButtonWarriorSenseMinus"
         Me.ButtonWarriorSenseMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorSenseMinus.TabIndex = 5
@@ -5202,7 +5202,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorLeatherworkingMinus.Location = New System.Drawing.Point(252, 143)
-        Me.ButtonWarriorLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorLeatherworkingMinus.Name = "ButtonWarriorLeatherworkingMinus"
         Me.ButtonWarriorLeatherworkingMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorLeatherworkingMinus.TabIndex = 5
@@ -5216,7 +5216,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorLikearockMinus.Location = New System.Drawing.Point(56, 142)
-        Me.ButtonWarriorLikearockMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorLikearockMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorLikearockMinus.Name = "ButtonWarriorLikearockMinus"
         Me.ButtonWarriorLikearockMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorLikearockMinus.TabIndex = 5
@@ -5230,7 +5230,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorHealthMinus.Location = New System.Drawing.Point(487, 187)
-        Me.ButtonWarriorHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorHealthMinus.Name = "ButtonWarriorHealthMinus"
         Me.ButtonWarriorHealthMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorHealthMinus.TabIndex = 5
@@ -5244,7 +5244,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorDetectionMinus.Location = New System.Drawing.Point(487, 142)
-        Me.ButtonWarriorDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorDetectionMinus.Name = "ButtonWarriorDetectionMinus"
         Me.ButtonWarriorDetectionMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorDetectionMinus.TabIndex = 5
@@ -5258,7 +5258,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorGimpMinus.Location = New System.Drawing.Point(56, 190)
-        Me.ButtonWarriorGimpMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorGimpMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorGimpMinus.Name = "ButtonWarriorGimpMinus"
         Me.ButtonWarriorGimpMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorGimpMinus.TabIndex = 5
@@ -5270,7 +5270,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorSmithingPlus.Location = New System.Drawing.Point(219, 236)
-        Me.ButtonWarriorSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorSmithingPlus.Name = "ButtonWarriorSmithingPlus"
         Me.ButtonWarriorSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorSmithingPlus.TabIndex = 4
@@ -5281,7 +5281,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorDisarmPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorDisarmPlus.Location = New System.Drawing.Point(23, 284)
-        Me.ButtonWarriorDisarmPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorDisarmPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorDisarmPlus.Name = "ButtonWarriorDisarmPlus"
         Me.ButtonWarriorDisarmPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorDisarmPlus.TabIndex = 4
@@ -5294,7 +5294,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorWeapondexterityMinus.Location = New System.Drawing.Point(252, 286)
-        Me.ButtonWarriorWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorWeapondexterityMinus.Name = "ButtonWarriorWeapondexterityMinus"
         Me.ButtonWarriorWeapondexterityMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorWeapondexterityMinus.TabIndex = 5
@@ -5308,7 +5308,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorForestryMinus.Location = New System.Drawing.Point(251, 97)
-        Me.ButtonWarriorForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorForestryMinus.Name = "ButtonWarriorForestryMinus"
         Me.ButtonWarriorForestryMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorForestryMinus.TabIndex = 5
@@ -5320,7 +5320,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorProwessPlus.Location = New System.Drawing.Point(219, 190)
-        Me.ButtonWarriorProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorProwessPlus.Name = "ButtonWarriorProwessPlus"
         Me.ButtonWarriorProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorProwessPlus.TabIndex = 4
@@ -5331,7 +5331,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorHealthPlus.Location = New System.Drawing.Point(453, 187)
-        Me.ButtonWarriorHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorHealthPlus.Name = "ButtonWarriorHealthPlus"
         Me.ButtonWarriorHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorHealthPlus.TabIndex = 4
@@ -5342,7 +5342,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorDetectionPlus.Location = New System.Drawing.Point(453, 142)
-        Me.ButtonWarriorDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorDetectionPlus.Name = "ButtonWarriorDetectionPlus"
         Me.ButtonWarriorDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorDetectionPlus.TabIndex = 4
@@ -5355,7 +5355,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorCrushingblowMinus.Location = New System.Drawing.Point(55, 96)
-        Me.ButtonWarriorCrushingblowMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorCrushingblowMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorCrushingblowMinus.Name = "ButtonWarriorCrushingblowMinus"
         Me.ButtonWarriorCrushingblowMinus.Size = New System.Drawing.Size(24, 28)
         Me.ButtonWarriorCrushingblowMinus.TabIndex = 5
@@ -5367,7 +5367,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorSensePlus.Location = New System.Drawing.Point(455, 97)
-        Me.ButtonWarriorSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorSensePlus.Name = "ButtonWarriorSensePlus"
         Me.ButtonWarriorSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorSensePlus.TabIndex = 4
@@ -5378,7 +5378,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorKnockdownPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorKnockdownPlus.Location = New System.Drawing.Point(21, 238)
-        Me.ButtonWarriorKnockdownPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorKnockdownPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorKnockdownPlus.Name = "ButtonWarriorKnockdownPlus"
         Me.ButtonWarriorKnockdownPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorKnockdownPlus.TabIndex = 4
@@ -5389,7 +5389,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorLeatherworkingPlus.Location = New System.Drawing.Point(219, 143)
-        Me.ButtonWarriorLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorLeatherworkingPlus.Name = "ButtonWarriorLeatherworkingPlus"
         Me.ButtonWarriorLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorLeatherworkingPlus.TabIndex = 4
@@ -5400,7 +5400,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorWeapondexterityPlus.Location = New System.Drawing.Point(219, 286)
-        Me.ButtonWarriorWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorWeapondexterityPlus.Name = "ButtonWarriorWeapondexterityPlus"
         Me.ButtonWarriorWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorWeapondexterityPlus.TabIndex = 4
@@ -5411,7 +5411,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorGimpPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorGimpPlus.Location = New System.Drawing.Point(23, 190)
-        Me.ButtonWarriorGimpPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorGimpPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorGimpPlus.Name = "ButtonWarriorGimpPlus"
         Me.ButtonWarriorGimpPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorGimpPlus.TabIndex = 4
@@ -5422,7 +5422,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorForestryPlus.Location = New System.Drawing.Point(217, 97)
-        Me.ButtonWarriorForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorForestryPlus.Name = "ButtonWarriorForestryPlus"
         Me.ButtonWarriorForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorForestryPlus.TabIndex = 4
@@ -5433,7 +5433,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorLikearockPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorLikearockPlus.Location = New System.Drawing.Point(23, 142)
-        Me.ButtonWarriorLikearockPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorLikearockPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorLikearockPlus.Name = "ButtonWarriorLikearockPlus"
         Me.ButtonWarriorLikearockPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorLikearockPlus.TabIndex = 4
@@ -5444,7 +5444,7 @@ Partial Class Form1
         '
         Me.ButtonWarriorCrushingblowPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorCrushingblowPlus.Location = New System.Drawing.Point(21, 96)
-        Me.ButtonWarriorCrushingblowPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonWarriorCrushingblowPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonWarriorCrushingblowPlus.Name = "ButtonWarriorCrushingblowPlus"
         Me.ButtonWarriorCrushingblowPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonWarriorCrushingblowPlus.TabIndex = 4
@@ -5660,7 +5660,7 @@ Partial Class Form1
         Me.PanelRanger.Controls.Add(Me.LabelRangerIntro)
         Me.PanelRanger.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelRanger.Location = New System.Drawing.Point(0, 0)
-        Me.PanelRanger.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelRanger.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelRanger.Name = "PanelRanger"
         Me.PanelRanger.Size = New System.Drawing.Size(828, 389)
         Me.PanelRanger.TabIndex = 31
@@ -5668,7 +5668,7 @@ Partial Class Form1
         'ButtonRangerInfo
         '
         Me.ButtonRangerInfo.Location = New System.Drawing.Point(472, 308)
-        Me.ButtonRangerInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerInfo.Name = "ButtonRangerInfo"
         Me.ButtonRangerInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonRangerInfo.TabIndex = 8
@@ -5678,7 +5678,7 @@ Partial Class Form1
         'ButtonRangerModifier
         '
         Me.ButtonRangerModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonRangerModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerModifier.Name = "ButtonRangerModifier"
         Me.ButtonRangerModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonRangerModifier.TabIndex = 7
@@ -5688,7 +5688,7 @@ Partial Class Form1
         'ButtonRangerClass
         '
         Me.ButtonRangerClass.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonRangerClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerClass.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerClass.Name = "ButtonRangerClass"
         Me.ButtonRangerClass.Size = New System.Drawing.Size(100, 28)
         Me.ButtonRangerClass.TabIndex = 6
@@ -5701,7 +5701,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerSmithingMinus.Location = New System.Drawing.Point(252, 239)
-        Me.ButtonRangerSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerSmithingMinus.Name = "ButtonRangerSmithingMinus"
         Me.ButtonRangerSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerSmithingMinus.TabIndex = 5
@@ -5715,7 +5715,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerTrackingMinus.Location = New System.Drawing.Point(56, 284)
-        Me.ButtonRangerTrackingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerTrackingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerTrackingMinus.Name = "ButtonRangerTrackingMinus"
         Me.ButtonRangerTrackingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerTrackingMinus.TabIndex = 5
@@ -5729,7 +5729,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerProwessMinus.Location = New System.Drawing.Point(252, 190)
-        Me.ButtonRangerProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerProwessMinus.Name = "ButtonRangerProwessMinus"
         Me.ButtonRangerProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerProwessMinus.TabIndex = 5
@@ -5743,7 +5743,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerHideMinus.Location = New System.Drawing.Point(56, 238)
-        Me.ButtonRangerHideMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerHideMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerHideMinus.Name = "ButtonRangerHideMinus"
         Me.ButtonRangerHideMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerHideMinus.TabIndex = 5
@@ -5757,7 +5757,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerSenseMinus.Location = New System.Drawing.Point(476, 92)
-        Me.ButtonRangerSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerSenseMinus.Name = "ButtonRangerSenseMinus"
         Me.ButtonRangerSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerSenseMinus.TabIndex = 5
@@ -5771,7 +5771,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerLeatherworkingMinus.Location = New System.Drawing.Point(252, 143)
-        Me.ButtonRangerLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerLeatherworkingMinus.Name = "ButtonRangerLeatherworkingMinus"
         Me.ButtonRangerLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerLeatherworkingMinus.TabIndex = 5
@@ -5785,7 +5785,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerTrapsMinus.Location = New System.Drawing.Point(56, 142)
-        Me.ButtonRangerTrapsMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerTrapsMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerTrapsMinus.Name = "ButtonRangerTrapsMinus"
         Me.ButtonRangerTrapsMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerTrapsMinus.TabIndex = 5
@@ -5799,7 +5799,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerHealthMinus.Location = New System.Drawing.Point(477, 185)
-        Me.ButtonRangerHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerHealthMinus.Name = "ButtonRangerHealthMinus"
         Me.ButtonRangerHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerHealthMinus.TabIndex = 5
@@ -5813,7 +5813,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerDetectionMinus.Location = New System.Drawing.Point(476, 140)
-        Me.ButtonRangerDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerDetectionMinus.Name = "ButtonRangerDetectionMinus"
         Me.ButtonRangerDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerDetectionMinus.TabIndex = 5
@@ -5827,7 +5827,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerIaijutsuMinus.Location = New System.Drawing.Point(56, 190)
-        Me.ButtonRangerIaijutsuMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerIaijutsuMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerIaijutsuMinus.Name = "ButtonRangerIaijutsuMinus"
         Me.ButtonRangerIaijutsuMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerIaijutsuMinus.TabIndex = 5
@@ -5839,7 +5839,7 @@ Partial Class Form1
         '
         Me.ButtonRangerSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerSmithingPlus.Location = New System.Drawing.Point(219, 239)
-        Me.ButtonRangerSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerSmithingPlus.Name = "ButtonRangerSmithingPlus"
         Me.ButtonRangerSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerSmithingPlus.TabIndex = 4
@@ -5850,7 +5850,7 @@ Partial Class Form1
         '
         Me.ButtonRangerTrackingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerTrackingPlus.Location = New System.Drawing.Point(23, 284)
-        Me.ButtonRangerTrackingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerTrackingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerTrackingPlus.Name = "ButtonRangerTrackingPlus"
         Me.ButtonRangerTrackingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerTrackingPlus.TabIndex = 4
@@ -5863,7 +5863,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerWeapondexterityMinus.Location = New System.Drawing.Point(252, 286)
-        Me.ButtonRangerWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerWeapondexterityMinus.Name = "ButtonRangerWeapondexterityMinus"
         Me.ButtonRangerWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerWeapondexterityMinus.TabIndex = 5
@@ -5877,7 +5877,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerForestryMinus.Location = New System.Drawing.Point(251, 97)
-        Me.ButtonRangerForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerForestryMinus.Name = "ButtonRangerForestryMinus"
         Me.ButtonRangerForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerForestryMinus.TabIndex = 5
@@ -5889,7 +5889,7 @@ Partial Class Form1
         '
         Me.ButtonRangerProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerProwessPlus.Location = New System.Drawing.Point(219, 190)
-        Me.ButtonRangerProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerProwessPlus.Name = "ButtonRangerProwessPlus"
         Me.ButtonRangerProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerProwessPlus.TabIndex = 4
@@ -5900,7 +5900,7 @@ Partial Class Form1
         '
         Me.ButtonRangerHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerHealthPlus.Location = New System.Drawing.Point(444, 185)
-        Me.ButtonRangerHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerHealthPlus.Name = "ButtonRangerHealthPlus"
         Me.ButtonRangerHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerHealthPlus.TabIndex = 4
@@ -5911,7 +5911,7 @@ Partial Class Form1
         '
         Me.ButtonRangerDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerDetectionPlus.Location = New System.Drawing.Point(443, 140)
-        Me.ButtonRangerDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerDetectionPlus.Name = "ButtonRangerDetectionPlus"
         Me.ButtonRangerDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerDetectionPlus.TabIndex = 4
@@ -5924,7 +5924,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerDeadeyeMinus.Location = New System.Drawing.Point(55, 96)
-        Me.ButtonRangerDeadeyeMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerDeadeyeMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerDeadeyeMinus.Name = "ButtonRangerDeadeyeMinus"
         Me.ButtonRangerDeadeyeMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRangerDeadeyeMinus.TabIndex = 5
@@ -5936,7 +5936,7 @@ Partial Class Form1
         '
         Me.ButtonRangerSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerSensePlus.Location = New System.Drawing.Point(443, 92)
-        Me.ButtonRangerSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerSensePlus.Name = "ButtonRangerSensePlus"
         Me.ButtonRangerSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerSensePlus.TabIndex = 4
@@ -5947,7 +5947,7 @@ Partial Class Form1
         '
         Me.ButtonRangerHidePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerHidePlus.Location = New System.Drawing.Point(23, 238)
-        Me.ButtonRangerHidePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerHidePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerHidePlus.Name = "ButtonRangerHidePlus"
         Me.ButtonRangerHidePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerHidePlus.TabIndex = 4
@@ -5958,7 +5958,7 @@ Partial Class Form1
         '
         Me.ButtonRangerLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerLeatherworkingPlus.Location = New System.Drawing.Point(219, 143)
-        Me.ButtonRangerLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerLeatherworkingPlus.Name = "ButtonRangerLeatherworkingPlus"
         Me.ButtonRangerLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerLeatherworkingPlus.TabIndex = 4
@@ -5969,7 +5969,7 @@ Partial Class Form1
         '
         Me.ButtonRangerWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerWeapondexterityPlus.Location = New System.Drawing.Point(219, 286)
-        Me.ButtonRangerWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerWeapondexterityPlus.Name = "ButtonRangerWeapondexterityPlus"
         Me.ButtonRangerWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerWeapondexterityPlus.TabIndex = 4
@@ -5980,7 +5980,7 @@ Partial Class Form1
         '
         Me.ButtonRangerIaijutsuPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerIaijutsuPlus.Location = New System.Drawing.Point(23, 190)
-        Me.ButtonRangerIaijutsuPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerIaijutsuPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerIaijutsuPlus.Name = "ButtonRangerIaijutsuPlus"
         Me.ButtonRangerIaijutsuPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerIaijutsuPlus.TabIndex = 4
@@ -5991,7 +5991,7 @@ Partial Class Form1
         '
         Me.ButtonRangerForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerForestryPlus.Location = New System.Drawing.Point(217, 97)
-        Me.ButtonRangerForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerForestryPlus.Name = "ButtonRangerForestryPlus"
         Me.ButtonRangerForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerForestryPlus.TabIndex = 4
@@ -6002,7 +6002,7 @@ Partial Class Form1
         '
         Me.ButtonRangerTrapsPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerTrapsPlus.Location = New System.Drawing.Point(23, 142)
-        Me.ButtonRangerTrapsPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerTrapsPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerTrapsPlus.Name = "ButtonRangerTrapsPlus"
         Me.ButtonRangerTrapsPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerTrapsPlus.TabIndex = 4
@@ -6013,7 +6013,7 @@ Partial Class Form1
         '
         Me.ButtonRangerDeadeyePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerDeadeyePlus.Location = New System.Drawing.Point(21, 96)
-        Me.ButtonRangerDeadeyePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRangerDeadeyePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRangerDeadeyePlus.Name = "ButtonRangerDeadeyePlus"
         Me.ButtonRangerDeadeyePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRangerDeadeyePlus.TabIndex = 4
@@ -6229,7 +6229,7 @@ Partial Class Form1
         Me.PanelRogue.Controls.Add(Me.LabelRogueintro)
         Me.PanelRogue.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelRogue.Location = New System.Drawing.Point(0, 0)
-        Me.PanelRogue.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelRogue.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelRogue.Name = "PanelRogue"
         Me.PanelRogue.Size = New System.Drawing.Size(828, 389)
         Me.PanelRogue.TabIndex = 32
@@ -6237,7 +6237,7 @@ Partial Class Form1
         'ButtonRogueInfo
         '
         Me.ButtonRogueInfo.Location = New System.Drawing.Point(472, 308)
-        Me.ButtonRogueInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueInfo.Name = "ButtonRogueInfo"
         Me.ButtonRogueInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonRogueInfo.TabIndex = 8
@@ -6247,7 +6247,7 @@ Partial Class Form1
         'ButtonRogueModifier
         '
         Me.ButtonRogueModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonRogueModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueModifier.Name = "ButtonRogueModifier"
         Me.ButtonRogueModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonRogueModifier.TabIndex = 7
@@ -6257,7 +6257,7 @@ Partial Class Form1
         'ButtonRogueClass
         '
         Me.ButtonRogueClass.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonRogueClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueClass.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueClass.Name = "ButtonRogueClass"
         Me.ButtonRogueClass.Size = New System.Drawing.Size(100, 28)
         Me.ButtonRogueClass.TabIndex = 6
@@ -6270,7 +6270,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueSmithingMinus.Location = New System.Drawing.Point(252, 235)
-        Me.ButtonRogueSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueSmithingMinus.Name = "ButtonRogueSmithingMinus"
         Me.ButtonRogueSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueSmithingMinus.TabIndex = 5
@@ -6284,7 +6284,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueBlindMinus.Location = New System.Drawing.Point(56, 284)
-        Me.ButtonRogueBlindMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueBlindMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueBlindMinus.Name = "ButtonRogueBlindMinus"
         Me.ButtonRogueBlindMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueBlindMinus.TabIndex = 5
@@ -6298,7 +6298,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueProwessMinus.Location = New System.Drawing.Point(252, 191)
-        Me.ButtonRogueProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueProwessMinus.Name = "ButtonRogueProwessMinus"
         Me.ButtonRogueProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueProwessMinus.TabIndex = 5
@@ -6312,7 +6312,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueDisguiseMinus.Location = New System.Drawing.Point(56, 236)
-        Me.ButtonRogueDisguiseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueDisguiseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueDisguiseMinus.Name = "ButtonRogueDisguiseMinus"
         Me.ButtonRogueDisguiseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueDisguiseMinus.TabIndex = 5
@@ -6326,7 +6326,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueSenseMinus.Location = New System.Drawing.Point(471, 97)
-        Me.ButtonRogueSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueSenseMinus.Name = "ButtonRogueSenseMinus"
         Me.ButtonRogueSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueSenseMinus.TabIndex = 5
@@ -6340,7 +6340,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueLeatherworkingMinus.Location = New System.Drawing.Point(252, 143)
-        Me.ButtonRogueLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueLeatherworkingMinus.Name = "ButtonRogueLeatherworkingMinus"
         Me.ButtonRogueLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueLeatherworkingMinus.TabIndex = 5
@@ -6354,7 +6354,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueExposeMinus.Location = New System.Drawing.Point(56, 142)
-        Me.ButtonRogueExposeMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueExposeMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueExposeMinus.Name = "ButtonRogueExposeMinus"
         Me.ButtonRogueExposeMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueExposeMinus.TabIndex = 5
@@ -6368,7 +6368,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueHealthMinus.Location = New System.Drawing.Point(472, 190)
-        Me.ButtonRogueHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueHealthMinus.Name = "ButtonRogueHealthMinus"
         Me.ButtonRogueHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueHealthMinus.TabIndex = 5
@@ -6382,7 +6382,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueDetectionMinus.Location = New System.Drawing.Point(472, 142)
-        Me.ButtonRogueDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueDetectionMinus.Name = "ButtonRogueDetectionMinus"
         Me.ButtonRogueDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueDetectionMinus.TabIndex = 5
@@ -6396,7 +6396,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueDiseaseMinus.Location = New System.Drawing.Point(56, 190)
-        Me.ButtonRogueDiseaseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueDiseaseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueDiseaseMinus.Name = "ButtonRogueDiseaseMinus"
         Me.ButtonRogueDiseaseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueDiseaseMinus.TabIndex = 5
@@ -6408,7 +6408,7 @@ Partial Class Form1
         '
         Me.ButtonRogueSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueSmithingPlus.Location = New System.Drawing.Point(219, 235)
-        Me.ButtonRogueSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueSmithingPlus.Name = "ButtonRogueSmithingPlus"
         Me.ButtonRogueSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueSmithingPlus.TabIndex = 4
@@ -6419,7 +6419,7 @@ Partial Class Form1
         '
         Me.ButtonRogueBlindPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueBlindPlus.Location = New System.Drawing.Point(23, 284)
-        Me.ButtonRogueBlindPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueBlindPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueBlindPlus.Name = "ButtonRogueBlindPlus"
         Me.ButtonRogueBlindPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueBlindPlus.TabIndex = 4
@@ -6432,7 +6432,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueWeaponDexterityMinus.Location = New System.Drawing.Point(252, 283)
-        Me.ButtonRogueWeaponDexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueWeaponDexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueWeaponDexterityMinus.Name = "ButtonRogueWeaponDexterityMinus"
         Me.ButtonRogueWeaponDexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueWeaponDexterityMinus.TabIndex = 5
@@ -6446,7 +6446,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueForestryMinus.Location = New System.Drawing.Point(251, 97)
-        Me.ButtonRogueForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueForestryMinus.Name = "ButtonRogueForestryMinus"
         Me.ButtonRogueForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueForestryMinus.TabIndex = 5
@@ -6458,7 +6458,7 @@ Partial Class Form1
         '
         Me.ButtonRogueProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueProwessPlus.Location = New System.Drawing.Point(219, 191)
-        Me.ButtonRogueProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueProwessPlus.Name = "ButtonRogueProwessPlus"
         Me.ButtonRogueProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueProwessPlus.TabIndex = 4
@@ -6469,7 +6469,7 @@ Partial Class Form1
         '
         Me.ButtonRogueHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueHealthPlus.Location = New System.Drawing.Point(439, 190)
-        Me.ButtonRogueHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueHealthPlus.Name = "ButtonRogueHealthPlus"
         Me.ButtonRogueHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueHealthPlus.TabIndex = 4
@@ -6480,7 +6480,7 @@ Partial Class Form1
         '
         Me.ButtonRogueDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueDetectionPlus.Location = New System.Drawing.Point(439, 142)
-        Me.ButtonRogueDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueDetectionPlus.Name = "ButtonRogueDetectionPlus"
         Me.ButtonRogueDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueDetectionPlus.TabIndex = 4
@@ -6493,7 +6493,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueVanishMinus.Location = New System.Drawing.Point(55, 96)
-        Me.ButtonRogueVanishMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueVanishMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueVanishMinus.Name = "ButtonRogueVanishMinus"
         Me.ButtonRogueVanishMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonRogueVanishMinus.TabIndex = 5
@@ -6505,7 +6505,7 @@ Partial Class Form1
         '
         Me.ButtonRogueSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueSensePlus.Location = New System.Drawing.Point(437, 97)
-        Me.ButtonRogueSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueSensePlus.Name = "ButtonRogueSensePlus"
         Me.ButtonRogueSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueSensePlus.TabIndex = 4
@@ -6516,7 +6516,7 @@ Partial Class Form1
         '
         Me.ButtonRogueDisguisePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueDisguisePlus.Location = New System.Drawing.Point(23, 236)
-        Me.ButtonRogueDisguisePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueDisguisePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueDisguisePlus.Name = "ButtonRogueDisguisePlus"
         Me.ButtonRogueDisguisePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueDisguisePlus.TabIndex = 4
@@ -6527,7 +6527,7 @@ Partial Class Form1
         '
         Me.ButtonRogueLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueLeatherworkingPlus.Location = New System.Drawing.Point(219, 143)
-        Me.ButtonRogueLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueLeatherworkingPlus.Name = "ButtonRogueLeatherworkingPlus"
         Me.ButtonRogueLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueLeatherworkingPlus.TabIndex = 4
@@ -6538,7 +6538,7 @@ Partial Class Form1
         '
         Me.ButtonRogueWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueWeapondexterityPlus.Location = New System.Drawing.Point(219, 283)
-        Me.ButtonRogueWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueWeapondexterityPlus.Name = "ButtonRogueWeapondexterityPlus"
         Me.ButtonRogueWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueWeapondexterityPlus.TabIndex = 4
@@ -6549,7 +6549,7 @@ Partial Class Form1
         '
         Me.ButtonRogueDiseasePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueDiseasePlus.Location = New System.Drawing.Point(23, 190)
-        Me.ButtonRogueDiseasePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueDiseasePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueDiseasePlus.Name = "ButtonRogueDiseasePlus"
         Me.ButtonRogueDiseasePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueDiseasePlus.TabIndex = 4
@@ -6560,7 +6560,7 @@ Partial Class Form1
         '
         Me.ButtonRogueForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueForestryPlus.Location = New System.Drawing.Point(217, 97)
-        Me.ButtonRogueForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueForestryPlus.Name = "ButtonRogueForestryPlus"
         Me.ButtonRogueForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueForestryPlus.TabIndex = 4
@@ -6571,7 +6571,7 @@ Partial Class Form1
         '
         Me.ButtonRogueExposePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueExposePlus.Location = New System.Drawing.Point(23, 142)
-        Me.ButtonRogueExposePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueExposePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueExposePlus.Name = "ButtonRogueExposePlus"
         Me.ButtonRogueExposePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueExposePlus.TabIndex = 4
@@ -6582,7 +6582,7 @@ Partial Class Form1
         '
         Me.ButtonRogueVanishPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueVanishPlus.Location = New System.Drawing.Point(21, 96)
-        Me.ButtonRogueVanishPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonRogueVanishPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonRogueVanishPlus.Name = "ButtonRogueVanishPlus"
         Me.ButtonRogueVanishPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonRogueVanishPlus.TabIndex = 4
@@ -6798,7 +6798,7 @@ Partial Class Form1
         Me.PanelNoble.Controls.Add(Me.LabelNobleIntro)
         Me.PanelNoble.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelNoble.Location = New System.Drawing.Point(0, 0)
-        Me.PanelNoble.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelNoble.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelNoble.Name = "PanelNoble"
         Me.PanelNoble.Size = New System.Drawing.Size(828, 389)
         Me.PanelNoble.TabIndex = 33
@@ -6806,7 +6806,7 @@ Partial Class Form1
         'ButtonNobleInfo
         '
         Me.ButtonNobleInfo.Location = New System.Drawing.Point(472, 308)
-        Me.ButtonNobleInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleInfo.Name = "ButtonNobleInfo"
         Me.ButtonNobleInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNobleInfo.TabIndex = 8
@@ -6816,7 +6816,7 @@ Partial Class Form1
         'ButtonNobleModifier
         '
         Me.ButtonNobleModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonNobleModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleModifier.Name = "ButtonNobleModifier"
         Me.ButtonNobleModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNobleModifier.TabIndex = 7
@@ -6826,7 +6826,7 @@ Partial Class Form1
         'ButtonNobleClass
         '
         Me.ButtonNobleClass.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonNobleClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleClass.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleClass.Name = "ButtonNobleClass"
         Me.ButtonNobleClass.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNobleClass.TabIndex = 6
@@ -6839,7 +6839,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleSmithingMinus.Location = New System.Drawing.Point(252, 240)
-        Me.ButtonNobleSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleSmithingMinus.Name = "ButtonNobleSmithingMinus"
         Me.ButtonNobleSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleSmithingMinus.TabIndex = 5
@@ -6853,7 +6853,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleLanguagesMinus.Location = New System.Drawing.Point(56, 284)
-        Me.ButtonNobleLanguagesMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleLanguagesMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleLanguagesMinus.Name = "ButtonNobleLanguagesMinus"
         Me.ButtonNobleLanguagesMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleLanguagesMinus.TabIndex = 5
@@ -6867,7 +6867,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleProwessMinus.Location = New System.Drawing.Point(252, 191)
-        Me.ButtonNobleProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleProwessMinus.Name = "ButtonNobleProwessMinus"
         Me.ButtonNobleProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleProwessMinus.TabIndex = 5
@@ -6881,7 +6881,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleLeadershipMinus.Location = New System.Drawing.Point(56, 238)
-        Me.ButtonNobleLeadershipMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleLeadershipMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleLeadershipMinus.Name = "ButtonNobleLeadershipMinus"
         Me.ButtonNobleLeadershipMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleLeadershipMinus.TabIndex = 5
@@ -6895,7 +6895,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleSenseMinus.Location = New System.Drawing.Point(460, 97)
-        Me.ButtonNobleSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleSenseMinus.Name = "ButtonNobleSenseMinus"
         Me.ButtonNobleSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleSenseMinus.TabIndex = 5
@@ -6909,7 +6909,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleLeatherworkingMinus.Location = New System.Drawing.Point(252, 143)
-        Me.ButtonNobleLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleLeatherworkingMinus.Name = "ButtonNobleLeatherworkingMinus"
         Me.ButtonNobleLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleLeatherworkingMinus.TabIndex = 5
@@ -6923,7 +6923,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleImperiusMinus.Location = New System.Drawing.Point(56, 142)
-        Me.ButtonNobleImperiusMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleImperiusMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleImperiusMinus.Name = "ButtonNobleImperiusMinus"
         Me.ButtonNobleImperiusMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleImperiusMinus.TabIndex = 5
@@ -6937,7 +6937,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleHealthMinus.Location = New System.Drawing.Point(461, 190)
-        Me.ButtonNobleHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleHealthMinus.Name = "ButtonNobleHealthMinus"
         Me.ButtonNobleHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleHealthMinus.TabIndex = 5
@@ -6951,7 +6951,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleDetectionMinus.Location = New System.Drawing.Point(460, 145)
-        Me.ButtonNobleDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleDetectionMinus.Name = "ButtonNobleDetectionMinus"
         Me.ButtonNobleDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleDetectionMinus.TabIndex = 5
@@ -6965,7 +6965,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleEngineeringMinus.Location = New System.Drawing.Point(56, 190)
-        Me.ButtonNobleEngineeringMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleEngineeringMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleEngineeringMinus.Name = "ButtonNobleEngineeringMinus"
         Me.ButtonNobleEngineeringMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleEngineeringMinus.TabIndex = 5
@@ -6977,7 +6977,7 @@ Partial Class Form1
         '
         Me.ButtonNobleSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleSmithingPlus.Location = New System.Drawing.Point(219, 240)
-        Me.ButtonNobleSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleSmithingPlus.Name = "ButtonNobleSmithingPlus"
         Me.ButtonNobleSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleSmithingPlus.TabIndex = 4
@@ -6988,7 +6988,7 @@ Partial Class Form1
         '
         Me.ButtonNobleLanguagesPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleLanguagesPlus.Location = New System.Drawing.Point(23, 284)
-        Me.ButtonNobleLanguagesPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleLanguagesPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleLanguagesPlus.Name = "ButtonNobleLanguagesPlus"
         Me.ButtonNobleLanguagesPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleLanguagesPlus.TabIndex = 4
@@ -7001,7 +7001,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleWeapondexterityMinus.Location = New System.Drawing.Point(252, 290)
-        Me.ButtonNobleWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleWeapondexterityMinus.Name = "ButtonNobleWeapondexterityMinus"
         Me.ButtonNobleWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleWeapondexterityMinus.TabIndex = 5
@@ -7015,7 +7015,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleForestryMinus.Location = New System.Drawing.Point(251, 97)
-        Me.ButtonNobleForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleForestryMinus.Name = "ButtonNobleForestryMinus"
         Me.ButtonNobleForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleForestryMinus.TabIndex = 5
@@ -7027,7 +7027,7 @@ Partial Class Form1
         '
         Me.ButtonNobleProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleProwessPlus.Location = New System.Drawing.Point(219, 191)
-        Me.ButtonNobleProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleProwessPlus.Name = "ButtonNobleProwessPlus"
         Me.ButtonNobleProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleProwessPlus.TabIndex = 4
@@ -7038,7 +7038,7 @@ Partial Class Form1
         '
         Me.ButtonNobleHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleHealthPlus.Location = New System.Drawing.Point(428, 190)
-        Me.ButtonNobleHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleHealthPlus.Name = "ButtonNobleHealthPlus"
         Me.ButtonNobleHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleHealthPlus.TabIndex = 4
@@ -7049,7 +7049,7 @@ Partial Class Form1
         '
         Me.ButtonNobleDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleDetectionPlus.Location = New System.Drawing.Point(427, 145)
-        Me.ButtonNobleDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleDetectionPlus.Name = "ButtonNobleDetectionPlus"
         Me.ButtonNobleDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleDetectionPlus.TabIndex = 4
@@ -7062,7 +7062,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleCharismaMinus.Location = New System.Drawing.Point(55, 96)
-        Me.ButtonNobleCharismaMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleCharismaMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleCharismaMinus.Name = "ButtonNobleCharismaMinus"
         Me.ButtonNobleCharismaMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNobleCharismaMinus.TabIndex = 5
@@ -7074,7 +7074,7 @@ Partial Class Form1
         '
         Me.ButtonNobleSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleSensePlus.Location = New System.Drawing.Point(427, 97)
-        Me.ButtonNobleSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleSensePlus.Name = "ButtonNobleSensePlus"
         Me.ButtonNobleSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleSensePlus.TabIndex = 4
@@ -7085,7 +7085,7 @@ Partial Class Form1
         '
         Me.ButtonNobleLeadershipPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleLeadershipPlus.Location = New System.Drawing.Point(23, 238)
-        Me.ButtonNobleLeadershipPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleLeadershipPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleLeadershipPlus.Name = "ButtonNobleLeadershipPlus"
         Me.ButtonNobleLeadershipPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleLeadershipPlus.TabIndex = 4
@@ -7096,7 +7096,7 @@ Partial Class Form1
         '
         Me.ButtonNobleLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleLeatherworkingPlus.Location = New System.Drawing.Point(219, 143)
-        Me.ButtonNobleLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleLeatherworkingPlus.Name = "ButtonNobleLeatherworkingPlus"
         Me.ButtonNobleLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleLeatherworkingPlus.TabIndex = 4
@@ -7107,7 +7107,7 @@ Partial Class Form1
         '
         Me.ButtonNobleWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleWeapondexterityPlus.Location = New System.Drawing.Point(219, 290)
-        Me.ButtonNobleWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleWeapondexterityPlus.Name = "ButtonNobleWeapondexterityPlus"
         Me.ButtonNobleWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleWeapondexterityPlus.TabIndex = 4
@@ -7118,7 +7118,7 @@ Partial Class Form1
         '
         Me.ButtonNobleEngineeringPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleEngineeringPlus.Location = New System.Drawing.Point(23, 190)
-        Me.ButtonNobleEngineeringPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleEngineeringPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleEngineeringPlus.Name = "ButtonNobleEngineeringPlus"
         Me.ButtonNobleEngineeringPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleEngineeringPlus.TabIndex = 4
@@ -7129,7 +7129,7 @@ Partial Class Form1
         '
         Me.ButtonNobleForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleForestryPlus.Location = New System.Drawing.Point(217, 97)
-        Me.ButtonNobleForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleForestryPlus.Name = "ButtonNobleForestryPlus"
         Me.ButtonNobleForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleForestryPlus.TabIndex = 4
@@ -7140,7 +7140,7 @@ Partial Class Form1
         '
         Me.ButtonNobleImperiusPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleImperiusPlus.Location = New System.Drawing.Point(23, 142)
-        Me.ButtonNobleImperiusPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleImperiusPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleImperiusPlus.Name = "ButtonNobleImperiusPlus"
         Me.ButtonNobleImperiusPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleImperiusPlus.TabIndex = 4
@@ -7151,7 +7151,7 @@ Partial Class Form1
         '
         Me.ButtonNobleCharismaPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleCharismaPlus.Location = New System.Drawing.Point(21, 96)
-        Me.ButtonNobleCharismaPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNobleCharismaPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleCharismaPlus.Name = "ButtonNobleCharismaPlus"
         Me.ButtonNobleCharismaPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNobleCharismaPlus.TabIndex = 4
@@ -7373,7 +7373,7 @@ Partial Class Form1
         Me.PanelCleric.Controls.Add(Me.LabelClericIntro)
         Me.PanelCleric.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelCleric.Location = New System.Drawing.Point(0, 0)
-        Me.PanelCleric.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelCleric.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelCleric.Name = "PanelCleric"
         Me.PanelCleric.Size = New System.Drawing.Size(828, 389)
         Me.PanelCleric.TabIndex = 34
@@ -7381,7 +7381,7 @@ Partial Class Form1
         'ButtonClericInfo
         '
         Me.ButtonClericInfo.Location = New System.Drawing.Point(661, 310)
-        Me.ButtonClericInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericInfo.Name = "ButtonClericInfo"
         Me.ButtonClericInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonClericInfo.TabIndex = 8
@@ -7391,7 +7391,7 @@ Partial Class Form1
         'ButtonClericModifier
         '
         Me.ButtonClericModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonClericModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericModifier.Name = "ButtonClericModifier"
         Me.ButtonClericModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonClericModifier.TabIndex = 7
@@ -7401,7 +7401,7 @@ Partial Class Form1
         'ButtonClericClass
         '
         Me.ButtonClericClass.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonClericClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericClass.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericClass.Name = "ButtonClericClass"
         Me.ButtonClericClass.Size = New System.Drawing.Size(100, 28)
         Me.ButtonClericClass.TabIndex = 6
@@ -7414,7 +7414,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericSmithingMinus.Location = New System.Drawing.Point(252, 238)
-        Me.ButtonClericSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericSmithingMinus.Name = "ButtonClericSmithingMinus"
         Me.ButtonClericSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericSmithingMinus.TabIndex = 5
@@ -7428,7 +7428,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericBornanewMinus.Location = New System.Drawing.Point(56, 284)
-        Me.ButtonClericBornanewMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericBornanewMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericBornanewMinus.Name = "ButtonClericBornanewMinus"
         Me.ButtonClericBornanewMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericBornanewMinus.TabIndex = 5
@@ -7442,7 +7442,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericProwessMinus.Location = New System.Drawing.Point(251, 187)
-        Me.ButtonClericProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericProwessMinus.Name = "ButtonClericProwessMinus"
         Me.ButtonClericProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericProwessMinus.TabIndex = 5
@@ -7456,7 +7456,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericRemedyMinus.Location = New System.Drawing.Point(56, 236)
-        Me.ButtonClericRemedyMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericRemedyMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericRemedyMinus.Name = "ButtonClericRemedyMinus"
         Me.ButtonClericRemedyMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericRemedyMinus.TabIndex = 5
@@ -7470,7 +7470,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericSenseMinus.Location = New System.Drawing.Point(460, 96)
-        Me.ButtonClericSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericSenseMinus.Name = "ButtonClericSenseMinus"
         Me.ButtonClericSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericSenseMinus.TabIndex = 5
@@ -7484,7 +7484,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericLeatherworkingMinus.Location = New System.Drawing.Point(252, 143)
-        Me.ButtonClericLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericLeatherworkingMinus.Name = "ButtonClericLeatherworkingMinus"
         Me.ButtonClericLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericLeatherworkingMinus.TabIndex = 5
@@ -7498,7 +7498,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericPotionsMinus.Location = New System.Drawing.Point(56, 142)
-        Me.ButtonClericPotionsMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericPotionsMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericPotionsMinus.Name = "ButtonClericPotionsMinus"
         Me.ButtonClericPotionsMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericPotionsMinus.TabIndex = 5
@@ -7512,7 +7512,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericEnchantingMinus.Location = New System.Drawing.Point(460, 283)
-        Me.ButtonClericEnchantingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericEnchantingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericEnchantingMinus.Name = "ButtonClericEnchantingMinus"
         Me.ButtonClericEnchantingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericEnchantingMinus.TabIndex = 5
@@ -7526,7 +7526,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericHealthMinus.Location = New System.Drawing.Point(460, 190)
-        Me.ButtonClericHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericHealthMinus.Name = "ButtonClericHealthMinus"
         Me.ButtonClericHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericHealthMinus.TabIndex = 5
@@ -7540,7 +7540,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericMinusScrollwriting.Location = New System.Drawing.Point(460, 233)
-        Me.ButtonClericMinusScrollwriting.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericMinusScrollwriting.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericMinusScrollwriting.Name = "ButtonClericMinusScrollwriting"
         Me.ButtonClericMinusScrollwriting.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericMinusScrollwriting.TabIndex = 5
@@ -7554,7 +7554,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericDetectionMinus.Location = New System.Drawing.Point(460, 144)
-        Me.ButtonClericDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericDetectionMinus.Name = "ButtonClericDetectionMinus"
         Me.ButtonClericDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericDetectionMinus.TabIndex = 5
@@ -7568,7 +7568,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericConvertMinus.Location = New System.Drawing.Point(56, 190)
-        Me.ButtonClericConvertMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericConvertMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericConvertMinus.Name = "ButtonClericConvertMinus"
         Me.ButtonClericConvertMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericConvertMinus.TabIndex = 5
@@ -7580,7 +7580,7 @@ Partial Class Form1
         '
         Me.ButtonClericSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericSmithingPlus.Location = New System.Drawing.Point(219, 238)
-        Me.ButtonClericSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericSmithingPlus.Name = "ButtonClericSmithingPlus"
         Me.ButtonClericSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericSmithingPlus.TabIndex = 4
@@ -7591,7 +7591,7 @@ Partial Class Form1
         '
         Me.ButtonClericBornanewPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericBornanewPlus.Location = New System.Drawing.Point(23, 284)
-        Me.ButtonClericBornanewPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericBornanewPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericBornanewPlus.Name = "ButtonClericBornanewPlus"
         Me.ButtonClericBornanewPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericBornanewPlus.TabIndex = 4
@@ -7604,7 +7604,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericWeapondexterityMinus.Location = New System.Drawing.Point(252, 283)
-        Me.ButtonClericWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericWeapondexterityMinus.Name = "ButtonClericWeapondexterityMinus"
         Me.ButtonClericWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericWeapondexterityMinus.TabIndex = 5
@@ -7618,7 +7618,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericForestryMinus.Location = New System.Drawing.Point(251, 97)
-        Me.ButtonClericForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericForestryMinus.Name = "ButtonClericForestryMinus"
         Me.ButtonClericForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericForestryMinus.TabIndex = 5
@@ -7630,7 +7630,7 @@ Partial Class Form1
         '
         Me.ButtonClericProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericProwessPlus.Location = New System.Drawing.Point(217, 187)
-        Me.ButtonClericProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericProwessPlus.Name = "ButtonClericProwessPlus"
         Me.ButtonClericProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericProwessPlus.TabIndex = 4
@@ -7641,7 +7641,7 @@ Partial Class Form1
         '
         Me.ButtonClericEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericEnchantingPlus.Location = New System.Drawing.Point(427, 283)
-        Me.ButtonClericEnchantingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericEnchantingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericEnchantingPlus.Name = "ButtonClericEnchantingPlus"
         Me.ButtonClericEnchantingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericEnchantingPlus.TabIndex = 4
@@ -7652,7 +7652,7 @@ Partial Class Form1
         '
         Me.ButtonClericHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericHealthPlus.Location = New System.Drawing.Point(427, 190)
-        Me.ButtonClericHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericHealthPlus.Name = "ButtonClericHealthPlus"
         Me.ButtonClericHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericHealthPlus.TabIndex = 4
@@ -7663,7 +7663,7 @@ Partial Class Form1
         '
         Me.ButtonClericScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericScrollwritingPlus.Location = New System.Drawing.Point(427, 233)
-        Me.ButtonClericScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericScrollwritingPlus.Name = "ButtonClericScrollwritingPlus"
         Me.ButtonClericScrollwritingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericScrollwritingPlus.TabIndex = 4
@@ -7674,7 +7674,7 @@ Partial Class Form1
         '
         Me.ButtonClericDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericDetectionPlus.Location = New System.Drawing.Point(427, 144)
-        Me.ButtonClericDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericDetectionPlus.Name = "ButtonClericDetectionPlus"
         Me.ButtonClericDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericDetectionPlus.TabIndex = 4
@@ -7687,7 +7687,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericHealingMinus.Location = New System.Drawing.Point(55, 96)
-        Me.ButtonClericHealingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericHealingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericHealingMinus.Name = "ButtonClericHealingMinus"
         Me.ButtonClericHealingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonClericHealingMinus.TabIndex = 5
@@ -7699,7 +7699,7 @@ Partial Class Form1
         '
         Me.ButtonClericSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericSensePlus.Location = New System.Drawing.Point(427, 96)
-        Me.ButtonClericSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericSensePlus.Name = "ButtonClericSensePlus"
         Me.ButtonClericSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericSensePlus.TabIndex = 4
@@ -7710,7 +7710,7 @@ Partial Class Form1
         '
         Me.ButtonClericRemedyPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericRemedyPlus.Location = New System.Drawing.Point(23, 236)
-        Me.ButtonClericRemedyPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericRemedyPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericRemedyPlus.Name = "ButtonClericRemedyPlus"
         Me.ButtonClericRemedyPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericRemedyPlus.TabIndex = 4
@@ -7721,7 +7721,7 @@ Partial Class Form1
         '
         Me.ButtonClericLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericLeatherworkingPlus.Location = New System.Drawing.Point(219, 143)
-        Me.ButtonClericLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericLeatherworkingPlus.Name = "ButtonClericLeatherworkingPlus"
         Me.ButtonClericLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericLeatherworkingPlus.TabIndex = 4
@@ -7732,7 +7732,7 @@ Partial Class Form1
         '
         Me.ButtonClericWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericWeapondexterityPlus.Location = New System.Drawing.Point(219, 283)
-        Me.ButtonClericWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericWeapondexterityPlus.Name = "ButtonClericWeapondexterityPlus"
         Me.ButtonClericWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericWeapondexterityPlus.TabIndex = 4
@@ -7743,7 +7743,7 @@ Partial Class Form1
         '
         Me.ButtonClericConvertPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericConvertPlus.Location = New System.Drawing.Point(23, 190)
-        Me.ButtonClericConvertPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericConvertPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericConvertPlus.Name = "ButtonClericConvertPlus"
         Me.ButtonClericConvertPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericConvertPlus.TabIndex = 4
@@ -7754,7 +7754,7 @@ Partial Class Form1
         '
         Me.ButtonClericForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericForestryPlus.Location = New System.Drawing.Point(217, 97)
-        Me.ButtonClericForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericForestryPlus.Name = "ButtonClericForestryPlus"
         Me.ButtonClericForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericForestryPlus.TabIndex = 4
@@ -7765,7 +7765,7 @@ Partial Class Form1
         '
         Me.ButtonClericPotionsPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericPotionsPlus.Location = New System.Drawing.Point(23, 142)
-        Me.ButtonClericPotionsPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericPotionsPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericPotionsPlus.Name = "ButtonClericPotionsPlus"
         Me.ButtonClericPotionsPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericPotionsPlus.TabIndex = 4
@@ -7776,7 +7776,7 @@ Partial Class Form1
         '
         Me.ButtonClericHealingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericHealingPlus.Location = New System.Drawing.Point(21, 96)
-        Me.ButtonClericHealingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonClericHealingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonClericHealingPlus.Name = "ButtonClericHealingPlus"
         Me.ButtonClericHealingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonClericHealingPlus.TabIndex = 4
@@ -8018,7 +8018,7 @@ Partial Class Form1
         Me.PanelVoidknight.Controls.Add(Me.LabelVoidknightIntro)
         Me.PanelVoidknight.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelVoidknight.Location = New System.Drawing.Point(0, 0)
-        Me.PanelVoidknight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelVoidknight.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelVoidknight.Name = "PanelVoidknight"
         Me.PanelVoidknight.Size = New System.Drawing.Size(828, 389)
         Me.PanelVoidknight.TabIndex = 35
@@ -8026,7 +8026,7 @@ Partial Class Form1
         'ButtonVoidknightInfo
         '
         Me.ButtonVoidknightInfo.Location = New System.Drawing.Point(661, 310)
-        Me.ButtonVoidknightInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightInfo.Name = "ButtonVoidknightInfo"
         Me.ButtonVoidknightInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonVoidknightInfo.TabIndex = 8
@@ -8036,7 +8036,7 @@ Partial Class Form1
         'ButtonVoidknightModifier
         '
         Me.ButtonVoidknightModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonVoidknightModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightModifier.Name = "ButtonVoidknightModifier"
         Me.ButtonVoidknightModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonVoidknightModifier.TabIndex = 7
@@ -8046,7 +8046,7 @@ Partial Class Form1
         'ButtonVoidknightClass
         '
         Me.ButtonVoidknightClass.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonVoidknightClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightClass.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightClass.Name = "ButtonVoidknightClass"
         Me.ButtonVoidknightClass.Size = New System.Drawing.Size(100, 28)
         Me.ButtonVoidknightClass.TabIndex = 6
@@ -8059,7 +8059,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightSmithingMinus.Location = New System.Drawing.Point(267, 238)
-        Me.ButtonVoidknightSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightSmithingMinus.Name = "ButtonVoidknightSmithingMinus"
         Me.ButtonVoidknightSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightSmithingMinus.TabIndex = 5
@@ -8073,7 +8073,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightSilenceMinus.Location = New System.Drawing.Point(56, 284)
-        Me.ButtonVoidknightSilenceMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightSilenceMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightSilenceMinus.Name = "ButtonVoidknightSilenceMinus"
         Me.ButtonVoidknightSilenceMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightSilenceMinus.TabIndex = 5
@@ -8087,7 +8087,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightProwessMinus.Location = New System.Drawing.Point(265, 187)
-        Me.ButtonVoidknightProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightProwessMinus.Name = "ButtonVoidknightProwessMinus"
         Me.ButtonVoidknightProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightProwessMinus.TabIndex = 5
@@ -8101,7 +8101,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightLifelinkMinus.Location = New System.Drawing.Point(56, 236)
-        Me.ButtonVoidknightLifelinkMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightLifelinkMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightLifelinkMinus.Name = "ButtonVoidknightLifelinkMinus"
         Me.ButtonVoidknightLifelinkMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightLifelinkMinus.TabIndex = 5
@@ -8115,7 +8115,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightSenseMinus.Location = New System.Drawing.Point(467, 97)
-        Me.ButtonVoidknightSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightSenseMinus.Name = "ButtonVoidknightSenseMinus"
         Me.ButtonVoidknightSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightSenseMinus.TabIndex = 5
@@ -8129,7 +8129,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightLeatherworkingMinus.Location = New System.Drawing.Point(267, 143)
-        Me.ButtonVoidknightLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightLeatherworkingMinus.Name = "ButtonVoidknightLeatherworkingMinus"
         Me.ButtonVoidknightLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightLeatherworkingMinus.TabIndex = 5
@@ -8143,7 +8143,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightJumpMinus.Location = New System.Drawing.Point(56, 142)
-        Me.ButtonVoidknightJumpMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightJumpMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightJumpMinus.Name = "ButtonVoidknightJumpMinus"
         Me.ButtonVoidknightJumpMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightJumpMinus.TabIndex = 5
@@ -8157,7 +8157,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightEnchantingMinus.Location = New System.Drawing.Point(467, 284)
-        Me.ButtonVoidknightEnchantingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightEnchantingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightEnchantingMinus.Name = "ButtonVoidknightEnchantingMinus"
         Me.ButtonVoidknightEnchantingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightEnchantingMinus.TabIndex = 5
@@ -8171,7 +8171,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightHealthMinus.Location = New System.Drawing.Point(467, 191)
-        Me.ButtonVoidknightHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightHealthMinus.Name = "ButtonVoidknightHealthMinus"
         Me.ButtonVoidknightHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightHealthMinus.TabIndex = 5
@@ -8185,7 +8185,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightScrollwritingMinus.Location = New System.Drawing.Point(467, 234)
-        Me.ButtonVoidknightScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightScrollwritingMinus.Name = "ButtonVoidknightScrollwritingMinus"
         Me.ButtonVoidknightScrollwritingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightScrollwritingMinus.TabIndex = 5
@@ -8199,7 +8199,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightDetectionMinus.Location = New System.Drawing.Point(467, 145)
-        Me.ButtonVoidknightDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightDetectionMinus.Name = "ButtonVoidknightDetectionMinus"
         Me.ButtonVoidknightDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightDetectionMinus.TabIndex = 5
@@ -8213,7 +8213,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightShroudofprotectionMinus.Location = New System.Drawing.Point(56, 190)
-        Me.ButtonVoidknightShroudofprotectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightShroudofprotectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightShroudofprotectionMinus.Name = "ButtonVoidknightShroudofprotectionMinus"
         Me.ButtonVoidknightShroudofprotectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightShroudofprotectionMinus.TabIndex = 5
@@ -8225,7 +8225,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightSmithingPlus.Location = New System.Drawing.Point(233, 238)
-        Me.ButtonVoidknightSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightSmithingPlus.Name = "ButtonVoidknightSmithingPlus"
         Me.ButtonVoidknightSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightSmithingPlus.TabIndex = 4
@@ -8236,7 +8236,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightSilencePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightSilencePlus.Location = New System.Drawing.Point(23, 284)
-        Me.ButtonVoidknightSilencePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightSilencePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightSilencePlus.Name = "ButtonVoidknightSilencePlus"
         Me.ButtonVoidknightSilencePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightSilencePlus.TabIndex = 4
@@ -8249,7 +8249,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightWeapondexterityMinus.Location = New System.Drawing.Point(267, 283)
-        Me.ButtonVoidknightWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightWeapondexterityMinus.Name = "ButtonVoidknightWeapondexterityMinus"
         Me.ButtonVoidknightWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightWeapondexterityMinus.TabIndex = 5
@@ -8263,7 +8263,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightForestryMinus.Location = New System.Drawing.Point(265, 97)
-        Me.ButtonVoidknightForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightForestryMinus.Name = "ButtonVoidknightForestryMinus"
         Me.ButtonVoidknightForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightForestryMinus.TabIndex = 5
@@ -8275,7 +8275,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightProwessPlus.Location = New System.Drawing.Point(232, 187)
-        Me.ButtonVoidknightProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightProwessPlus.Name = "ButtonVoidknightProwessPlus"
         Me.ButtonVoidknightProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightProwessPlus.TabIndex = 4
@@ -8286,7 +8286,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightEnchantingPlus.Location = New System.Drawing.Point(433, 284)
-        Me.ButtonVoidknightEnchantingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightEnchantingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightEnchantingPlus.Name = "ButtonVoidknightEnchantingPlus"
         Me.ButtonVoidknightEnchantingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightEnchantingPlus.TabIndex = 4
@@ -8297,7 +8297,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightHealthPlus.Location = New System.Drawing.Point(433, 191)
-        Me.ButtonVoidknightHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightHealthPlus.Name = "ButtonVoidknightHealthPlus"
         Me.ButtonVoidknightHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightHealthPlus.TabIndex = 4
@@ -8308,7 +8308,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightScrollwritingPlus.Location = New System.Drawing.Point(433, 234)
-        Me.ButtonVoidknightScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightScrollwritingPlus.Name = "ButtonVoidknightScrollwritingPlus"
         Me.ButtonVoidknightScrollwritingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightScrollwritingPlus.TabIndex = 4
@@ -8319,7 +8319,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightDetectionPlus.Location = New System.Drawing.Point(433, 145)
-        Me.ButtonVoidknightDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightDetectionPlus.Name = "ButtonVoidknightDetectionPlus"
         Me.ButtonVoidknightDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightDetectionPlus.TabIndex = 4
@@ -8332,7 +8332,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightVoidMinus.Location = New System.Drawing.Point(55, 96)
-        Me.ButtonVoidknightVoidMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightVoidMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightVoidMinus.Name = "ButtonVoidknightVoidMinus"
         Me.ButtonVoidknightVoidMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonVoidknightVoidMinus.TabIndex = 5
@@ -8344,7 +8344,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightSensePlus.Location = New System.Drawing.Point(433, 97)
-        Me.ButtonVoidknightSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightSensePlus.Name = "ButtonVoidknightSensePlus"
         Me.ButtonVoidknightSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightSensePlus.TabIndex = 4
@@ -8355,7 +8355,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightLifelinkPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightLifelinkPlus.Location = New System.Drawing.Point(23, 236)
-        Me.ButtonVoidknightLifelinkPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightLifelinkPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightLifelinkPlus.Name = "ButtonVoidknightLifelinkPlus"
         Me.ButtonVoidknightLifelinkPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightLifelinkPlus.TabIndex = 4
@@ -8366,7 +8366,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightLeatherworkingPlus.Location = New System.Drawing.Point(233, 143)
-        Me.ButtonVoidknightLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightLeatherworkingPlus.Name = "ButtonVoidknightLeatherworkingPlus"
         Me.ButtonVoidknightLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightLeatherworkingPlus.TabIndex = 4
@@ -8377,7 +8377,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightWeapondexterityPlus.Location = New System.Drawing.Point(233, 283)
-        Me.ButtonVoidknightWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightWeapondexterityPlus.Name = "ButtonVoidknightWeapondexterityPlus"
         Me.ButtonVoidknightWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightWeapondexterityPlus.TabIndex = 4
@@ -8388,7 +8388,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightShroudofprotectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightShroudofprotectionPlus.Location = New System.Drawing.Point(23, 190)
-        Me.ButtonVoidknightShroudofprotectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightShroudofprotectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightShroudofprotectionPlus.Name = "ButtonVoidknightShroudofprotectionPlus"
         Me.ButtonVoidknightShroudofprotectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightShroudofprotectionPlus.TabIndex = 4
@@ -8399,7 +8399,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightForestryPlus.Location = New System.Drawing.Point(232, 97)
-        Me.ButtonVoidknightForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightForestryPlus.Name = "ButtonVoidknightForestryPlus"
         Me.ButtonVoidknightForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightForestryPlus.TabIndex = 4
@@ -8410,7 +8410,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightJumpPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightJumpPlus.Location = New System.Drawing.Point(23, 142)
-        Me.ButtonVoidknightJumpPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightJumpPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightJumpPlus.Name = "ButtonVoidknightJumpPlus"
         Me.ButtonVoidknightJumpPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightJumpPlus.TabIndex = 4
@@ -8421,7 +8421,7 @@ Partial Class Form1
         '
         Me.ButtonVoidknightVoidPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightVoidPlus.Location = New System.Drawing.Point(21, 96)
-        Me.ButtonVoidknightVoidPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonVoidknightVoidPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonVoidknightVoidPlus.Name = "ButtonVoidknightVoidPlus"
         Me.ButtonVoidknightVoidPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonVoidknightVoidPlus.TabIndex = 4
@@ -8654,14 +8654,14 @@ Partial Class Form1
         Me.PanelNeurohydro.Controls.Add(Me.LabelNeurohydroIntro)
         Me.PanelNeurohydro.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelNeurohydro.Location = New System.Drawing.Point(0, 0)
-        Me.PanelNeurohydro.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelNeurohydro.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelNeurohydro.Name = "PanelNeurohydro"
         Me.PanelNeurohydro.Size = New System.Drawing.Size(828, 389)
         Me.PanelNeurohydro.TabIndex = 36
         '
         'ButtonNeurohydroInfo
         '
-        Me.ButtonNeurohydroInfo.Location = New System.Drawing.Point(668, 252)
+        Me.ButtonNeurohydroInfo.Location = New System.Drawing.Point(656, 275)
         Me.ButtonNeurohydroInfo.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ButtonNeurohydroInfo.Name = "ButtonNeurohydroInfo"
         Me.ButtonNeurohydroInfo.Size = New System.Drawing.Size(75, 28)
@@ -8992,9 +8992,9 @@ Partial Class Form1
         'LabelNeurohydroChosen
         '
         Me.LabelNeurohydroChosen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.LabelNeurohydroChosen.Location = New System.Drawing.Point(683, 121)
+        Me.LabelNeurohydroChosen.Location = New System.Drawing.Point(639, 121)
         Me.LabelNeurohydroChosen.Name = "LabelNeurohydroChosen"
-        Me.LabelNeurohydroChosen.Size = New System.Drawing.Size(117, 102)
+        Me.LabelNeurohydroChosen.Size = New System.Drawing.Size(165, 142)
         Me.LabelNeurohydroChosen.TabIndex = 3
         Me.LabelNeurohydroChosen.Text = "Already Chosen:"
         '
@@ -9170,7 +9170,7 @@ Partial Class Form1
         Me.PanelNeuropyro.Controls.Add(Me.LabelNeuropyroIntro)
         Me.PanelNeuropyro.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelNeuropyro.Location = New System.Drawing.Point(0, 0)
-        Me.PanelNeuropyro.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelNeuropyro.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelNeuropyro.Name = "PanelNeuropyro"
         Me.PanelNeuropyro.Size = New System.Drawing.Size(828, 389)
         Me.PanelNeuropyro.TabIndex = 37
@@ -9178,7 +9178,7 @@ Partial Class Form1
         'ButtonNeuropyroInfo
         '
         Me.ButtonNeuropyroInfo.Location = New System.Drawing.Point(661, 310)
-        Me.ButtonNeuropyroInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroInfo.Name = "ButtonNeuropyroInfo"
         Me.ButtonNeuropyroInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNeuropyroInfo.TabIndex = 8
@@ -9188,7 +9188,7 @@ Partial Class Form1
         'ButtonNeuropyroModifier
         '
         Me.ButtonNeuropyroModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonNeuropyroModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroModifier.Name = "ButtonNeuropyroModifier"
         Me.ButtonNeuropyroModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNeuropyroModifier.TabIndex = 7
@@ -9198,7 +9198,7 @@ Partial Class Form1
         'ButtonNeuropyroClass
         '
         Me.ButtonNeuropyroClass.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonNeuropyroClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroClass.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroClass.Name = "ButtonNeuropyroClass"
         Me.ButtonNeuropyroClass.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNeuropyroClass.TabIndex = 6
@@ -9211,7 +9211,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroSmithingMinus.Location = New System.Drawing.Point(249, 247)
-        Me.ButtonNeuropyroSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroSmithingMinus.Name = "ButtonNeuropyroSmithingMinus"
         Me.ButtonNeuropyroSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroSmithingMinus.TabIndex = 5
@@ -9225,7 +9225,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroProwessMinus.Location = New System.Drawing.Point(248, 197)
-        Me.ButtonNeuropyroProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroProwessMinus.Name = "ButtonNeuropyroProwessMinus"
         Me.ButtonNeuropyroProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroProwessMinus.TabIndex = 5
@@ -9239,7 +9239,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroSenseMinus.Location = New System.Drawing.Point(471, 105)
-        Me.ButtonNeuropyroSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroSenseMinus.Name = "ButtonNeuropyroSenseMinus"
         Me.ButtonNeuropyroSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroSenseMinus.TabIndex = 5
@@ -9253,7 +9253,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroLeatherworkingMinus.Location = New System.Drawing.Point(249, 153)
-        Me.ButtonNeuropyroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroLeatherworkingMinus.Name = "ButtonNeuropyroLeatherworkingMinus"
         Me.ButtonNeuropyroLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroLeatherworkingMinus.TabIndex = 5
@@ -9267,7 +9267,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroFireballMinus.Location = New System.Drawing.Point(76, 219)
-        Me.ButtonNeuropyroFireballMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroFireballMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroFireballMinus.Name = "ButtonNeuropyroFireballMinus"
         Me.ButtonNeuropyroFireballMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroFireballMinus.TabIndex = 5
@@ -9281,7 +9281,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroEnchantingMinus.Location = New System.Drawing.Point(471, 292)
-        Me.ButtonNeuropyroEnchantingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroEnchantingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroEnchantingMinus.Name = "ButtonNeuropyroEnchantingMinus"
         Me.ButtonNeuropyroEnchantingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroEnchantingMinus.TabIndex = 5
@@ -9295,7 +9295,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroHealthMinus.Location = New System.Drawing.Point(471, 198)
-        Me.ButtonNeuropyroHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroHealthMinus.Name = "ButtonNeuropyroHealthMinus"
         Me.ButtonNeuropyroHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroHealthMinus.TabIndex = 5
@@ -9309,7 +9309,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroScrollwritingMinus.Location = New System.Drawing.Point(471, 241)
-        Me.ButtonNeuropyroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroScrollwritingMinus.Name = "ButtonNeuropyroScrollwritingMinus"
         Me.ButtonNeuropyroScrollwritingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroScrollwritingMinus.TabIndex = 5
@@ -9323,7 +9323,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroDetectionMinus.Location = New System.Drawing.Point(471, 153)
-        Me.ButtonNeuropyroDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroDetectionMinus.Name = "ButtonNeuropyroDetectionMinus"
         Me.ButtonNeuropyroDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroDetectionMinus.TabIndex = 5
@@ -9335,7 +9335,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroSmithingPlus.Location = New System.Drawing.Point(216, 247)
-        Me.ButtonNeuropyroSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroSmithingPlus.Name = "ButtonNeuropyroSmithingPlus"
         Me.ButtonNeuropyroSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroSmithingPlus.TabIndex = 4
@@ -9348,7 +9348,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroWeapondexterityMinus.Location = New System.Drawing.Point(249, 293)
-        Me.ButtonNeuropyroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroWeapondexterityMinus.Name = "ButtonNeuropyroWeapondexterityMinus"
         Me.ButtonNeuropyroWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroWeapondexterityMinus.TabIndex = 5
@@ -9362,7 +9362,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroForestryMinus.Location = New System.Drawing.Point(248, 107)
-        Me.ButtonNeuropyroForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroForestryMinus.Name = "ButtonNeuropyroForestryMinus"
         Me.ButtonNeuropyroForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroForestryMinus.TabIndex = 5
@@ -9374,7 +9374,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroProwessPlus.Location = New System.Drawing.Point(215, 197)
-        Me.ButtonNeuropyroProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroProwessPlus.Name = "ButtonNeuropyroProwessPlus"
         Me.ButtonNeuropyroProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroProwessPlus.TabIndex = 4
@@ -9385,7 +9385,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroEnchantingPlus.Location = New System.Drawing.Point(437, 292)
-        Me.ButtonNeuropyroEnchantingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroEnchantingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroEnchantingPlus.Name = "ButtonNeuropyroEnchantingPlus"
         Me.ButtonNeuropyroEnchantingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroEnchantingPlus.TabIndex = 4
@@ -9396,7 +9396,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroHealthPlus.Location = New System.Drawing.Point(437, 198)
-        Me.ButtonNeuropyroHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroHealthPlus.Name = "ButtonNeuropyroHealthPlus"
         Me.ButtonNeuropyroHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroHealthPlus.TabIndex = 4
@@ -9407,7 +9407,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroScrollwritingPlus.Location = New System.Drawing.Point(437, 241)
-        Me.ButtonNeuropyroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroScrollwritingPlus.Name = "ButtonNeuropyroScrollwritingPlus"
         Me.ButtonNeuropyroScrollwritingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroScrollwritingPlus.TabIndex = 4
@@ -9418,7 +9418,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroDetectionPlus.Location = New System.Drawing.Point(437, 153)
-        Me.ButtonNeuropyroDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroDetectionPlus.Name = "ButtonNeuropyroDetectionPlus"
         Me.ButtonNeuropyroDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroDetectionPlus.TabIndex = 4
@@ -9431,7 +9431,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroMigraineMinus.Location = New System.Drawing.Point(76, 172)
-        Me.ButtonNeuropyroMigraineMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroMigraineMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroMigraineMinus.Name = "ButtonNeuropyroMigraineMinus"
         Me.ButtonNeuropyroMigraineMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeuropyroMigraineMinus.TabIndex = 5
@@ -9443,7 +9443,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroSensePlus.Location = New System.Drawing.Point(437, 105)
-        Me.ButtonNeuropyroSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroSensePlus.Name = "ButtonNeuropyroSensePlus"
         Me.ButtonNeuropyroSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroSensePlus.TabIndex = 4
@@ -9454,7 +9454,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroLeatherworkingPlus.Location = New System.Drawing.Point(216, 153)
-        Me.ButtonNeuropyroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroLeatherworkingPlus.Name = "ButtonNeuropyroLeatherworkingPlus"
         Me.ButtonNeuropyroLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroLeatherworkingPlus.TabIndex = 4
@@ -9465,7 +9465,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroWeapondexterityPlus.Location = New System.Drawing.Point(216, 293)
-        Me.ButtonNeuropyroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroWeapondexterityPlus.Name = "ButtonNeuropyroWeapondexterityPlus"
         Me.ButtonNeuropyroWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroWeapondexterityPlus.TabIndex = 4
@@ -9476,7 +9476,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroForestryPlus.Location = New System.Drawing.Point(215, 107)
-        Me.ButtonNeuropyroForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroForestryPlus.Name = "ButtonNeuropyroForestryPlus"
         Me.ButtonNeuropyroForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroForestryPlus.TabIndex = 4
@@ -9487,7 +9487,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroFireballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroFireballPlus.Location = New System.Drawing.Point(43, 219)
-        Me.ButtonNeuropyroFireballPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroFireballPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroFireballPlus.Name = "ButtonNeuropyroFireballPlus"
         Me.ButtonNeuropyroFireballPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroFireballPlus.TabIndex = 4
@@ -9498,7 +9498,7 @@ Partial Class Form1
         '
         Me.ButtonNeuropyroMigrainePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroMigrainePlus.Location = New System.Drawing.Point(43, 172)
-        Me.ButtonNeuropyroMigrainePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeuropyroMigrainePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeuropyroMigrainePlus.Name = "ButtonNeuropyroMigrainePlus"
         Me.ButtonNeuropyroMigrainePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeuropyroMigrainePlus.TabIndex = 4
@@ -9701,7 +9701,7 @@ Partial Class Form1
         Me.PanelNeurokairo.Controls.Add(Me.LabelNeurokairoIntro)
         Me.PanelNeurokairo.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelNeurokairo.Location = New System.Drawing.Point(0, 0)
-        Me.PanelNeurokairo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelNeurokairo.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelNeurokairo.Name = "PanelNeurokairo"
         Me.PanelNeurokairo.Size = New System.Drawing.Size(828, 389)
         Me.PanelNeurokairo.TabIndex = 38
@@ -9709,7 +9709,7 @@ Partial Class Form1
         'ButtonNeurokairoInfo
         '
         Me.ButtonNeurokairoInfo.Location = New System.Drawing.Point(661, 310)
-        Me.ButtonNeurokairoInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoInfo.Name = "ButtonNeurokairoInfo"
         Me.ButtonNeurokairoInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNeurokairoInfo.TabIndex = 8
@@ -9719,7 +9719,7 @@ Partial Class Form1
         'ButtonNeurokairoModifier
         '
         Me.ButtonNeurokairoModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonNeurokairoModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoModifier.Name = "ButtonNeurokairoModifier"
         Me.ButtonNeurokairoModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNeurokairoModifier.TabIndex = 7
@@ -9729,7 +9729,7 @@ Partial Class Form1
         'ButtonNeurokairoWizard
         '
         Me.ButtonNeurokairoWizard.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonNeurokairoWizard.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoWizard.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoWizard.Name = "ButtonNeurokairoWizard"
         Me.ButtonNeurokairoWizard.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNeurokairoWizard.TabIndex = 6
@@ -9742,7 +9742,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoSmithingMinus.Location = New System.Drawing.Point(249, 247)
-        Me.ButtonNeurokairoSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoSmithingMinus.Name = "ButtonNeurokairoSmithingMinus"
         Me.ButtonNeurokairoSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoSmithingMinus.TabIndex = 5
@@ -9756,7 +9756,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoProwessMinus.Location = New System.Drawing.Point(248, 197)
-        Me.ButtonNeurokairoProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoProwessMinus.Name = "ButtonNeurokairoProwessMinus"
         Me.ButtonNeurokairoProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoProwessMinus.TabIndex = 5
@@ -9770,7 +9770,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoSenseMinus.Location = New System.Drawing.Point(471, 105)
-        Me.ButtonNeurokairoSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoSenseMinus.Name = "ButtonNeurokairoSenseMinus"
         Me.ButtonNeurokairoSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoSenseMinus.TabIndex = 5
@@ -9784,7 +9784,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoLeatherworkingMinus.Location = New System.Drawing.Point(249, 153)
-        Me.ButtonNeurokairoLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoLeatherworkingMinus.Name = "ButtonNeurokairoLeatherworkingMinus"
         Me.ButtonNeurokairoLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoLeatherworkingMinus.TabIndex = 5
@@ -9798,7 +9798,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoLightningboldMinus.Location = New System.Drawing.Point(76, 219)
-        Me.ButtonNeurokairoLightningboldMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoLightningboldMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoLightningboldMinus.Name = "ButtonNeurokairoLightningboldMinus"
         Me.ButtonNeurokairoLightningboldMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoLightningboldMinus.TabIndex = 5
@@ -9812,7 +9812,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoEnchantingMinus.Location = New System.Drawing.Point(471, 292)
-        Me.ButtonNeurokairoEnchantingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoEnchantingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoEnchantingMinus.Name = "ButtonNeurokairoEnchantingMinus"
         Me.ButtonNeurokairoEnchantingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoEnchantingMinus.TabIndex = 5
@@ -9826,7 +9826,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoHealthMinus.Location = New System.Drawing.Point(471, 198)
-        Me.ButtonNeurokairoHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoHealthMinus.Name = "ButtonNeurokairoHealthMinus"
         Me.ButtonNeurokairoHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoHealthMinus.TabIndex = 5
@@ -9840,7 +9840,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoScrollwritingMinus.Location = New System.Drawing.Point(471, 241)
-        Me.ButtonNeurokairoScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoScrollwritingMinus.Name = "ButtonNeurokairoScrollwritingMinus"
         Me.ButtonNeurokairoScrollwritingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoScrollwritingMinus.TabIndex = 5
@@ -9854,7 +9854,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoDetectionMinus.Location = New System.Drawing.Point(471, 153)
-        Me.ButtonNeurokairoDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoDetectionMinus.Name = "ButtonNeurokairoDetectionMinus"
         Me.ButtonNeurokairoDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoDetectionMinus.TabIndex = 5
@@ -9866,7 +9866,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoSmithingPlus.Location = New System.Drawing.Point(216, 247)
-        Me.ButtonNeurokairoSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoSmithingPlus.Name = "ButtonNeurokairoSmithingPlus"
         Me.ButtonNeurokairoSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoSmithingPlus.TabIndex = 4
@@ -9879,7 +9879,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoWeapondexterityMinus.Location = New System.Drawing.Point(249, 293)
-        Me.ButtonNeurokairoWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoWeapondexterityMinus.Name = "ButtonNeurokairoWeapondexterityMinus"
         Me.ButtonNeurokairoWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoWeapondexterityMinus.TabIndex = 5
@@ -9893,7 +9893,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoForestryMinus.Location = New System.Drawing.Point(248, 107)
-        Me.ButtonNeurokairoForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoForestryMinus.Name = "ButtonNeurokairoForestryMinus"
         Me.ButtonNeurokairoForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoForestryMinus.TabIndex = 5
@@ -9905,7 +9905,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoProwessPlus.Location = New System.Drawing.Point(215, 197)
-        Me.ButtonNeurokairoProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoProwessPlus.Name = "ButtonNeurokairoProwessPlus"
         Me.ButtonNeurokairoProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoProwessPlus.TabIndex = 4
@@ -9916,7 +9916,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoEnchantingPlus.Location = New System.Drawing.Point(437, 292)
-        Me.ButtonNeurokairoEnchantingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoEnchantingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoEnchantingPlus.Name = "ButtonNeurokairoEnchantingPlus"
         Me.ButtonNeurokairoEnchantingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoEnchantingPlus.TabIndex = 4
@@ -9927,7 +9927,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoHealthPlus.Location = New System.Drawing.Point(437, 198)
-        Me.ButtonNeurokairoHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoHealthPlus.Name = "ButtonNeurokairoHealthPlus"
         Me.ButtonNeurokairoHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoHealthPlus.TabIndex = 4
@@ -9938,7 +9938,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoScrollwritingPlus.Location = New System.Drawing.Point(437, 241)
-        Me.ButtonNeurokairoScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoScrollwritingPlus.Name = "ButtonNeurokairoScrollwritingPlus"
         Me.ButtonNeurokairoScrollwritingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoScrollwritingPlus.TabIndex = 4
@@ -9949,7 +9949,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoDetectionPlus.Location = New System.Drawing.Point(437, 153)
-        Me.ButtonNeurokairoDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoDetectionPlus.Name = "ButtonNeurokairoDetectionPlus"
         Me.ButtonNeurokairoDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoDetectionPlus.TabIndex = 4
@@ -9962,7 +9962,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoMigraineMinus.Location = New System.Drawing.Point(76, 172)
-        Me.ButtonNeurokairoMigraineMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoMigraineMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoMigraineMinus.Name = "ButtonNeurokairoMigraineMinus"
         Me.ButtonNeurokairoMigraineMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNeurokairoMigraineMinus.TabIndex = 5
@@ -9974,7 +9974,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoSensePlus.Location = New System.Drawing.Point(437, 105)
-        Me.ButtonNeurokairoSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoSensePlus.Name = "ButtonNeurokairoSensePlus"
         Me.ButtonNeurokairoSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoSensePlus.TabIndex = 4
@@ -9985,7 +9985,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoLeatherworkingPlus.Location = New System.Drawing.Point(216, 153)
-        Me.ButtonNeurokairoLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoLeatherworkingPlus.Name = "ButtonNeurokairoLeatherworkingPlus"
         Me.ButtonNeurokairoLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoLeatherworkingPlus.TabIndex = 4
@@ -9996,7 +9996,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoWeapondexterityPlus.Location = New System.Drawing.Point(216, 293)
-        Me.ButtonNeurokairoWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoWeapondexterityPlus.Name = "ButtonNeurokairoWeapondexterityPlus"
         Me.ButtonNeurokairoWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoWeapondexterityPlus.TabIndex = 4
@@ -10007,7 +10007,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoForestryPlus.Location = New System.Drawing.Point(215, 107)
-        Me.ButtonNeurokairoForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoForestryPlus.Name = "ButtonNeurokairoForestryPlus"
         Me.ButtonNeurokairoForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoForestryPlus.TabIndex = 4
@@ -10018,7 +10018,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoLightningboltPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoLightningboltPlus.Location = New System.Drawing.Point(43, 219)
-        Me.ButtonNeurokairoLightningboltPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoLightningboltPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoLightningboltPlus.Name = "ButtonNeurokairoLightningboltPlus"
         Me.ButtonNeurokairoLightningboltPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoLightningboltPlus.TabIndex = 4
@@ -10029,7 +10029,7 @@ Partial Class Form1
         '
         Me.ButtonNeurokairoMigrainePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoMigrainePlus.Location = New System.Drawing.Point(43, 172)
-        Me.ButtonNeurokairoMigrainePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNeurokairoMigrainePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNeurokairoMigrainePlus.Name = "ButtonNeurokairoMigrainePlus"
         Me.ButtonNeurokairoMigrainePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNeurokairoMigrainePlus.TabIndex = 4
@@ -10232,7 +10232,7 @@ Partial Class Form1
         Me.PanelNecrohydro.Controls.Add(Me.LabelNecrohydroIntro)
         Me.PanelNecrohydro.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelNecrohydro.Location = New System.Drawing.Point(0, 0)
-        Me.PanelNecrohydro.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelNecrohydro.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelNecrohydro.Name = "PanelNecrohydro"
         Me.PanelNecrohydro.Size = New System.Drawing.Size(828, 389)
         Me.PanelNecrohydro.TabIndex = 39
@@ -10240,7 +10240,7 @@ Partial Class Form1
         'ButtonNecrohydroInfo
         '
         Me.ButtonNecrohydroInfo.Location = New System.Drawing.Point(661, 310)
-        Me.ButtonNecrohydroInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroInfo.Name = "ButtonNecrohydroInfo"
         Me.ButtonNecrohydroInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNecrohydroInfo.TabIndex = 8
@@ -10250,7 +10250,7 @@ Partial Class Form1
         'ButtonNecrohydroModifier
         '
         Me.ButtonNecrohydroModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonNecrohydroModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroModifier.Name = "ButtonNecrohydroModifier"
         Me.ButtonNecrohydroModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNecrohydroModifier.TabIndex = 7
@@ -10260,7 +10260,7 @@ Partial Class Form1
         'ButtonNecrohydroWizard
         '
         Me.ButtonNecrohydroWizard.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonNecrohydroWizard.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroWizard.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroWizard.Name = "ButtonNecrohydroWizard"
         Me.ButtonNecrohydroWizard.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNecrohydroWizard.TabIndex = 6
@@ -10273,7 +10273,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroSmithingMinus.Location = New System.Drawing.Point(249, 247)
-        Me.ButtonNecrohydroSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroSmithingMinus.Name = "ButtonNecrohydroSmithingMinus"
         Me.ButtonNecrohydroSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroSmithingMinus.TabIndex = 5
@@ -10287,7 +10287,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroProwessMinus.Location = New System.Drawing.Point(248, 197)
-        Me.ButtonNecrohydroProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroProwessMinus.Name = "ButtonNecrohydroProwessMinus"
         Me.ButtonNecrohydroProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroProwessMinus.TabIndex = 5
@@ -10301,7 +10301,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroSenseMinus.Location = New System.Drawing.Point(471, 105)
-        Me.ButtonNecrohydroSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroSenseMinus.Name = "ButtonNecrohydroSenseMinus"
         Me.ButtonNecrohydroSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroSenseMinus.TabIndex = 5
@@ -10315,7 +10315,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroLeatherworkingMinus.Location = New System.Drawing.Point(249, 153)
-        Me.ButtonNecrohydroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroLeatherworkingMinus.Name = "ButtonNecrohydroLeatherworkingMinus"
         Me.ButtonNecrohydroLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroLeatherworkingMinus.TabIndex = 5
@@ -10329,7 +10329,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroSnowballMinus.Location = New System.Drawing.Point(76, 219)
-        Me.ButtonNecrohydroSnowballMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroSnowballMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroSnowballMinus.Name = "ButtonNecrohydroSnowballMinus"
         Me.ButtonNecrohydroSnowballMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroSnowballMinus.TabIndex = 5
@@ -10343,7 +10343,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroEnchantingMinus.Location = New System.Drawing.Point(471, 292)
-        Me.ButtonNecrohydroEnchantingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroEnchantingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroEnchantingMinus.Name = "ButtonNecrohydroEnchantingMinus"
         Me.ButtonNecrohydroEnchantingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroEnchantingMinus.TabIndex = 5
@@ -10357,7 +10357,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroHealthMinus.Location = New System.Drawing.Point(471, 198)
-        Me.ButtonNecrohydroHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroHealthMinus.Name = "ButtonNecrohydroHealthMinus"
         Me.ButtonNecrohydroHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroHealthMinus.TabIndex = 5
@@ -10371,7 +10371,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroScrollwritingMinus.Location = New System.Drawing.Point(471, 241)
-        Me.ButtonNecrohydroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroScrollwritingMinus.Name = "ButtonNecrohydroScrollwritingMinus"
         Me.ButtonNecrohydroScrollwritingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroScrollwritingMinus.TabIndex = 5
@@ -10385,7 +10385,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroDetectionMinus.Location = New System.Drawing.Point(471, 153)
-        Me.ButtonNecrohydroDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroDetectionMinus.Name = "ButtonNecrohydroDetectionMinus"
         Me.ButtonNecrohydroDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroDetectionMinus.TabIndex = 5
@@ -10397,7 +10397,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroSmithingPlus.Location = New System.Drawing.Point(216, 247)
-        Me.ButtonNecrohydroSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroSmithingPlus.Name = "ButtonNecrohydroSmithingPlus"
         Me.ButtonNecrohydroSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroSmithingPlus.TabIndex = 4
@@ -10410,7 +10410,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroWeapondexterityMinus.Location = New System.Drawing.Point(249, 293)
-        Me.ButtonNecrohydroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroWeapondexterityMinus.Name = "ButtonNecrohydroWeapondexterityMinus"
         Me.ButtonNecrohydroWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroWeapondexterityMinus.TabIndex = 5
@@ -10424,7 +10424,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroForestryMinus.Location = New System.Drawing.Point(248, 107)
-        Me.ButtonNecrohydroForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroForestryMinus.Name = "ButtonNecrohydroForestryMinus"
         Me.ButtonNecrohydroForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroForestryMinus.TabIndex = 5
@@ -10436,7 +10436,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroProwessPlus.Location = New System.Drawing.Point(215, 197)
-        Me.ButtonNecrohydroProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroProwessPlus.Name = "ButtonNecrohydroProwessPlus"
         Me.ButtonNecrohydroProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroProwessPlus.TabIndex = 4
@@ -10447,7 +10447,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroEnchantingPlus.Location = New System.Drawing.Point(437, 292)
-        Me.ButtonNecrohydroEnchantingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroEnchantingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroEnchantingPlus.Name = "ButtonNecrohydroEnchantingPlus"
         Me.ButtonNecrohydroEnchantingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroEnchantingPlus.TabIndex = 4
@@ -10458,7 +10458,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroHealthPlus.Location = New System.Drawing.Point(437, 198)
-        Me.ButtonNecrohydroHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroHealthPlus.Name = "ButtonNecrohydroHealthPlus"
         Me.ButtonNecrohydroHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroHealthPlus.TabIndex = 4
@@ -10469,7 +10469,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroScrollwritingPlus.Location = New System.Drawing.Point(437, 241)
-        Me.ButtonNecrohydroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroScrollwritingPlus.Name = "ButtonNecrohydroScrollwritingPlus"
         Me.ButtonNecrohydroScrollwritingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroScrollwritingPlus.TabIndex = 4
@@ -10480,7 +10480,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroDetectionPlus.Location = New System.Drawing.Point(437, 153)
-        Me.ButtonNecrohydroDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroDetectionPlus.Name = "ButtonNecrohydroDetectionPlus"
         Me.ButtonNecrohydroDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroDetectionPlus.TabIndex = 4
@@ -10493,7 +10493,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroLifesyphonMinus.Location = New System.Drawing.Point(76, 172)
-        Me.ButtonNecrohydroLifesyphonMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroLifesyphonMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroLifesyphonMinus.Name = "ButtonNecrohydroLifesyphonMinus"
         Me.ButtonNecrohydroLifesyphonMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrohydroLifesyphonMinus.TabIndex = 5
@@ -10505,7 +10505,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroSensePlus.Location = New System.Drawing.Point(437, 105)
-        Me.ButtonNecrohydroSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroSensePlus.Name = "ButtonNecrohydroSensePlus"
         Me.ButtonNecrohydroSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroSensePlus.TabIndex = 4
@@ -10516,7 +10516,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroLeatherworkingPlus.Location = New System.Drawing.Point(216, 153)
-        Me.ButtonNecrohydroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroLeatherworkingPlus.Name = "ButtonNecrohydroLeatherworkingPlus"
         Me.ButtonNecrohydroLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroLeatherworkingPlus.TabIndex = 4
@@ -10527,7 +10527,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroWeapondexterityPlus.Location = New System.Drawing.Point(216, 293)
-        Me.ButtonNecrohydroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroWeapondexterityPlus.Name = "ButtonNecrohydroWeapondexterityPlus"
         Me.ButtonNecrohydroWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroWeapondexterityPlus.TabIndex = 4
@@ -10538,7 +10538,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroForestryPlus.Location = New System.Drawing.Point(215, 107)
-        Me.ButtonNecrohydroForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroForestryPlus.Name = "ButtonNecrohydroForestryPlus"
         Me.ButtonNecrohydroForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroForestryPlus.TabIndex = 4
@@ -10549,7 +10549,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroSnowballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroSnowballPlus.Location = New System.Drawing.Point(43, 219)
-        Me.ButtonNecrohydroSnowballPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroSnowballPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroSnowballPlus.Name = "ButtonNecrohydroSnowballPlus"
         Me.ButtonNecrohydroSnowballPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroSnowballPlus.TabIndex = 4
@@ -10560,7 +10560,7 @@ Partial Class Form1
         '
         Me.ButtonNecrohydroLifesyphonPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroLifesyphonPlus.Location = New System.Drawing.Point(43, 172)
-        Me.ButtonNecrohydroLifesyphonPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrohydroLifesyphonPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrohydroLifesyphonPlus.Name = "ButtonNecrohydroLifesyphonPlus"
         Me.ButtonNecrohydroLifesyphonPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrohydroLifesyphonPlus.TabIndex = 4
@@ -10763,7 +10763,7 @@ Partial Class Form1
         Me.PanelNecropyro.Controls.Add(Me.LabelNecropyroIntro)
         Me.PanelNecropyro.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelNecropyro.Location = New System.Drawing.Point(0, 0)
-        Me.PanelNecropyro.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelNecropyro.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelNecropyro.Name = "PanelNecropyro"
         Me.PanelNecropyro.Size = New System.Drawing.Size(828, 389)
         Me.PanelNecropyro.TabIndex = 40
@@ -10771,7 +10771,7 @@ Partial Class Form1
         'ButtonNecropyroInfo
         '
         Me.ButtonNecropyroInfo.Location = New System.Drawing.Point(661, 310)
-        Me.ButtonNecropyroInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroInfo.Name = "ButtonNecropyroInfo"
         Me.ButtonNecropyroInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNecropyroInfo.TabIndex = 8
@@ -10781,7 +10781,7 @@ Partial Class Form1
         'ButtonNecropyroModifier
         '
         Me.ButtonNecropyroModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonNecropyroModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroModifier.Name = "ButtonNecropyroModifier"
         Me.ButtonNecropyroModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNecropyroModifier.TabIndex = 7
@@ -10791,7 +10791,7 @@ Partial Class Form1
         'ButtonNecropyroWizard
         '
         Me.ButtonNecropyroWizard.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonNecropyroWizard.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroWizard.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroWizard.Name = "ButtonNecropyroWizard"
         Me.ButtonNecropyroWizard.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNecropyroWizard.TabIndex = 6
@@ -10804,7 +10804,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroSmithingMinus.Location = New System.Drawing.Point(249, 247)
-        Me.ButtonNecropyroSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroSmithingMinus.Name = "ButtonNecropyroSmithingMinus"
         Me.ButtonNecropyroSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroSmithingMinus.TabIndex = 5
@@ -10818,7 +10818,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroProwessMinus.Location = New System.Drawing.Point(248, 197)
-        Me.ButtonNecropyroProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroProwessMinus.Name = "ButtonNecropyroProwessMinus"
         Me.ButtonNecropyroProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroProwessMinus.TabIndex = 5
@@ -10832,7 +10832,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button6NecropyroSenseMinus.Location = New System.Drawing.Point(471, 105)
-        Me.Button6NecropyroSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button6NecropyroSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.Button6NecropyroSenseMinus.Name = "Button6NecropyroSenseMinus"
         Me.Button6NecropyroSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.Button6NecropyroSenseMinus.TabIndex = 5
@@ -10846,7 +10846,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroLeatherworkingMinus.Location = New System.Drawing.Point(249, 153)
-        Me.ButtonNecropyroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroLeatherworkingMinus.Name = "ButtonNecropyroLeatherworkingMinus"
         Me.ButtonNecropyroLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroLeatherworkingMinus.TabIndex = 5
@@ -10860,7 +10860,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroFireballMinus.Location = New System.Drawing.Point(76, 219)
-        Me.ButtonNecropyroFireballMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroFireballMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroFireballMinus.Name = "ButtonNecropyroFireballMinus"
         Me.ButtonNecropyroFireballMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroFireballMinus.TabIndex = 5
@@ -10874,7 +10874,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroEnchantingMinus.Location = New System.Drawing.Point(471, 292)
-        Me.ButtonNecropyroEnchantingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroEnchantingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroEnchantingMinus.Name = "ButtonNecropyroEnchantingMinus"
         Me.ButtonNecropyroEnchantingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroEnchantingMinus.TabIndex = 5
@@ -10888,7 +10888,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroHealthMinus.Location = New System.Drawing.Point(471, 198)
-        Me.ButtonNecropyroHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroHealthMinus.Name = "ButtonNecropyroHealthMinus"
         Me.ButtonNecropyroHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroHealthMinus.TabIndex = 5
@@ -10902,7 +10902,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroScrollwritingMinus.Location = New System.Drawing.Point(471, 241)
-        Me.ButtonNecropyroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroScrollwritingMinus.Name = "ButtonNecropyroScrollwritingMinus"
         Me.ButtonNecropyroScrollwritingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroScrollwritingMinus.TabIndex = 5
@@ -10916,7 +10916,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroDetectionMinus.Location = New System.Drawing.Point(471, 153)
-        Me.ButtonNecropyroDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroDetectionMinus.Name = "ButtonNecropyroDetectionMinus"
         Me.ButtonNecropyroDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroDetectionMinus.TabIndex = 5
@@ -10928,7 +10928,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroSmithingPlus.Location = New System.Drawing.Point(216, 247)
-        Me.ButtonNecropyroSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroSmithingPlus.Name = "ButtonNecropyroSmithingPlus"
         Me.ButtonNecropyroSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroSmithingPlus.TabIndex = 4
@@ -10941,7 +10941,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroWeapondexterityMinus.Location = New System.Drawing.Point(249, 293)
-        Me.ButtonNecropyroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroWeapondexterityMinus.Name = "ButtonNecropyroWeapondexterityMinus"
         Me.ButtonNecropyroWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroWeapondexterityMinus.TabIndex = 5
@@ -10955,7 +10955,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroForestryMinus.Location = New System.Drawing.Point(248, 107)
-        Me.ButtonNecropyroForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroForestryMinus.Name = "ButtonNecropyroForestryMinus"
         Me.ButtonNecropyroForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroForestryMinus.TabIndex = 5
@@ -10967,7 +10967,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroProwessPlus.Location = New System.Drawing.Point(215, 197)
-        Me.ButtonNecropyroProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroProwessPlus.Name = "ButtonNecropyroProwessPlus"
         Me.ButtonNecropyroProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroProwessPlus.TabIndex = 4
@@ -10978,7 +10978,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroEnchantingPlus.Location = New System.Drawing.Point(437, 292)
-        Me.ButtonNecropyroEnchantingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroEnchantingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroEnchantingPlus.Name = "ButtonNecropyroEnchantingPlus"
         Me.ButtonNecropyroEnchantingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroEnchantingPlus.TabIndex = 4
@@ -10989,7 +10989,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroHealthPlus.Location = New System.Drawing.Point(437, 198)
-        Me.ButtonNecropyroHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroHealthPlus.Name = "ButtonNecropyroHealthPlus"
         Me.ButtonNecropyroHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroHealthPlus.TabIndex = 4
@@ -11000,7 +11000,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroScrollwritingPlus.Location = New System.Drawing.Point(437, 241)
-        Me.ButtonNecropyroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroScrollwritingPlus.Name = "ButtonNecropyroScrollwritingPlus"
         Me.ButtonNecropyroScrollwritingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroScrollwritingPlus.TabIndex = 4
@@ -11011,7 +11011,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroDetectionPlus.Location = New System.Drawing.Point(437, 153)
-        Me.ButtonNecropyroDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroDetectionPlus.Name = "ButtonNecropyroDetectionPlus"
         Me.ButtonNecropyroDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroDetectionPlus.TabIndex = 4
@@ -11024,7 +11024,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroLifesyphoneMinus.Location = New System.Drawing.Point(76, 172)
-        Me.ButtonNecropyroLifesyphoneMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroLifesyphoneMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroLifesyphoneMinus.Name = "ButtonNecropyroLifesyphoneMinus"
         Me.ButtonNecropyroLifesyphoneMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecropyroLifesyphoneMinus.TabIndex = 5
@@ -11036,7 +11036,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroSensePlus.Location = New System.Drawing.Point(437, 105)
-        Me.ButtonNecropyroSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroSensePlus.Name = "ButtonNecropyroSensePlus"
         Me.ButtonNecropyroSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroSensePlus.TabIndex = 4
@@ -11047,7 +11047,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroLeatherworkingPlus.Location = New System.Drawing.Point(216, 153)
-        Me.ButtonNecropyroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroLeatherworkingPlus.Name = "ButtonNecropyroLeatherworkingPlus"
         Me.ButtonNecropyroLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroLeatherworkingPlus.TabIndex = 4
@@ -11058,7 +11058,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroWeapondexterityPlus.Location = New System.Drawing.Point(216, 293)
-        Me.ButtonNecropyroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroWeapondexterityPlus.Name = "ButtonNecropyroWeapondexterityPlus"
         Me.ButtonNecropyroWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroWeapondexterityPlus.TabIndex = 4
@@ -11069,7 +11069,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroForestryPlus.Location = New System.Drawing.Point(215, 107)
-        Me.ButtonNecropyroForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroForestryPlus.Name = "ButtonNecropyroForestryPlus"
         Me.ButtonNecropyroForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroForestryPlus.TabIndex = 4
@@ -11080,7 +11080,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroFireballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroFireballPlus.Location = New System.Drawing.Point(43, 219)
-        Me.ButtonNecropyroFireballPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroFireballPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroFireballPlus.Name = "ButtonNecropyroFireballPlus"
         Me.ButtonNecropyroFireballPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroFireballPlus.TabIndex = 4
@@ -11091,7 +11091,7 @@ Partial Class Form1
         '
         Me.ButtonNecropyroLifesyphonPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroLifesyphonPlus.Location = New System.Drawing.Point(43, 172)
-        Me.ButtonNecropyroLifesyphonPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecropyroLifesyphonPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecropyroLifesyphonPlus.Name = "ButtonNecropyroLifesyphonPlus"
         Me.ButtonNecropyroLifesyphonPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecropyroLifesyphonPlus.TabIndex = 4
@@ -11294,7 +11294,7 @@ Partial Class Form1
         Me.PanelNecrokairo.Controls.Add(Me.LabelNecrokairoIntro)
         Me.PanelNecrokairo.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelNecrokairo.Location = New System.Drawing.Point(0, 0)
-        Me.PanelNecrokairo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelNecrokairo.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelNecrokairo.Name = "PanelNecrokairo"
         Me.PanelNecrokairo.Size = New System.Drawing.Size(828, 389)
         Me.PanelNecrokairo.TabIndex = 41
@@ -11302,7 +11302,7 @@ Partial Class Form1
         'ButtonNecrokairoInfo
         '
         Me.ButtonNecrokairoInfo.Location = New System.Drawing.Point(661, 310)
-        Me.ButtonNecrokairoInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoInfo.Name = "ButtonNecrokairoInfo"
         Me.ButtonNecrokairoInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNecrokairoInfo.TabIndex = 8
@@ -11312,7 +11312,7 @@ Partial Class Form1
         'ButtonNecrokairoModifier
         '
         Me.ButtonNecrokairoModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonNecrokairoModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoModifier.Name = "ButtonNecrokairoModifier"
         Me.ButtonNecrokairoModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNecrokairoModifier.TabIndex = 7
@@ -11322,7 +11322,7 @@ Partial Class Form1
         'ButtonNecrokairoWizard
         '
         Me.ButtonNecrokairoWizard.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonNecrokairoWizard.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoWizard.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoWizard.Name = "ButtonNecrokairoWizard"
         Me.ButtonNecrokairoWizard.Size = New System.Drawing.Size(100, 28)
         Me.ButtonNecrokairoWizard.TabIndex = 6
@@ -11335,7 +11335,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoSmithingMinus.Location = New System.Drawing.Point(249, 247)
-        Me.ButtonNecrokairoSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoSmithingMinus.Name = "ButtonNecrokairoSmithingMinus"
         Me.ButtonNecrokairoSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoSmithingMinus.TabIndex = 5
@@ -11349,7 +11349,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoProwessMinus.Location = New System.Drawing.Point(248, 197)
-        Me.ButtonNecrokairoProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoProwessMinus.Name = "ButtonNecrokairoProwessMinus"
         Me.ButtonNecrokairoProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoProwessMinus.TabIndex = 5
@@ -11363,7 +11363,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoSenseMinus.Location = New System.Drawing.Point(471, 105)
-        Me.ButtonNecrokairoSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoSenseMinus.Name = "ButtonNecrokairoSenseMinus"
         Me.ButtonNecrokairoSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoSenseMinus.TabIndex = 5
@@ -11377,7 +11377,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoLeatherworkingMinus.Location = New System.Drawing.Point(249, 153)
-        Me.ButtonNecrokairoLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoLeatherworkingMinus.Name = "ButtonNecrokairoLeatherworkingMinus"
         Me.ButtonNecrokairoLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoLeatherworkingMinus.TabIndex = 5
@@ -11391,7 +11391,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoLightningboltMinus.Location = New System.Drawing.Point(76, 219)
-        Me.ButtonNecrokairoLightningboltMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoLightningboltMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoLightningboltMinus.Name = "ButtonNecrokairoLightningboltMinus"
         Me.ButtonNecrokairoLightningboltMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoLightningboltMinus.TabIndex = 5
@@ -11405,7 +11405,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoEnchantingMinus.Location = New System.Drawing.Point(471, 292)
-        Me.ButtonNecrokairoEnchantingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoEnchantingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoEnchantingMinus.Name = "ButtonNecrokairoEnchantingMinus"
         Me.ButtonNecrokairoEnchantingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoEnchantingMinus.TabIndex = 5
@@ -11419,7 +11419,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoHealthMinus.Location = New System.Drawing.Point(471, 198)
-        Me.ButtonNecrokairoHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoHealthMinus.Name = "ButtonNecrokairoHealthMinus"
         Me.ButtonNecrokairoHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoHealthMinus.TabIndex = 5
@@ -11433,7 +11433,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoScrollwritingMinus.Location = New System.Drawing.Point(471, 241)
-        Me.ButtonNecrokairoScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoScrollwritingMinus.Name = "ButtonNecrokairoScrollwritingMinus"
         Me.ButtonNecrokairoScrollwritingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoScrollwritingMinus.TabIndex = 5
@@ -11447,7 +11447,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoDetectionMinus.Location = New System.Drawing.Point(471, 153)
-        Me.ButtonNecrokairoDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoDetectionMinus.Name = "ButtonNecrokairoDetectionMinus"
         Me.ButtonNecrokairoDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoDetectionMinus.TabIndex = 5
@@ -11459,7 +11459,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoSmithingPlus.Location = New System.Drawing.Point(216, 247)
-        Me.ButtonNecrokairoSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoSmithingPlus.Name = "ButtonNecrokairoSmithingPlus"
         Me.ButtonNecrokairoSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoSmithingPlus.TabIndex = 4
@@ -11472,7 +11472,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoWeapondexterityMinus.Location = New System.Drawing.Point(249, 293)
-        Me.ButtonNecrokairoWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoWeapondexterityMinus.Name = "ButtonNecrokairoWeapondexterityMinus"
         Me.ButtonNecrokairoWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoWeapondexterityMinus.TabIndex = 5
@@ -11486,7 +11486,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoForestryMinus.Location = New System.Drawing.Point(248, 107)
-        Me.ButtonNecrokairoForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoForestryMinus.Name = "ButtonNecrokairoForestryMinus"
         Me.ButtonNecrokairoForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoForestryMinus.TabIndex = 5
@@ -11498,7 +11498,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoProwessPlus.Location = New System.Drawing.Point(215, 197)
-        Me.ButtonNecrokairoProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoProwessPlus.Name = "ButtonNecrokairoProwessPlus"
         Me.ButtonNecrokairoProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoProwessPlus.TabIndex = 4
@@ -11509,7 +11509,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoEnchantingPlus.Location = New System.Drawing.Point(437, 292)
-        Me.ButtonNecrokairoEnchantingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoEnchantingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoEnchantingPlus.Name = "ButtonNecrokairoEnchantingPlus"
         Me.ButtonNecrokairoEnchantingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoEnchantingPlus.TabIndex = 4
@@ -11520,7 +11520,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoHealthPlus.Location = New System.Drawing.Point(437, 198)
-        Me.ButtonNecrokairoHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoHealthPlus.Name = "ButtonNecrokairoHealthPlus"
         Me.ButtonNecrokairoHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoHealthPlus.TabIndex = 4
@@ -11531,7 +11531,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoScrollwritingPlus.Location = New System.Drawing.Point(437, 241)
-        Me.ButtonNecrokairoScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoScrollwritingPlus.Name = "ButtonNecrokairoScrollwritingPlus"
         Me.ButtonNecrokairoScrollwritingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoScrollwritingPlus.TabIndex = 4
@@ -11542,7 +11542,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoDetectionPlus.Location = New System.Drawing.Point(437, 153)
-        Me.ButtonNecrokairoDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoDetectionPlus.Name = "ButtonNecrokairoDetectionPlus"
         Me.ButtonNecrokairoDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoDetectionPlus.TabIndex = 4
@@ -11555,7 +11555,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoLifesyphoneMinus.Location = New System.Drawing.Point(76, 172)
-        Me.ButtonNecrokairoLifesyphoneMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoLifesyphoneMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoLifesyphoneMinus.Name = "ButtonNecrokairoLifesyphoneMinus"
         Me.ButtonNecrokairoLifesyphoneMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonNecrokairoLifesyphoneMinus.TabIndex = 5
@@ -11567,7 +11567,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoSensePlus.Location = New System.Drawing.Point(437, 105)
-        Me.ButtonNecrokairoSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoSensePlus.Name = "ButtonNecrokairoSensePlus"
         Me.ButtonNecrokairoSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoSensePlus.TabIndex = 4
@@ -11578,7 +11578,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoLeatherworkingPlus.Location = New System.Drawing.Point(216, 153)
-        Me.ButtonNecrokairoLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoLeatherworkingPlus.Name = "ButtonNecrokairoLeatherworkingPlus"
         Me.ButtonNecrokairoLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoLeatherworkingPlus.TabIndex = 4
@@ -11589,7 +11589,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoWeapondexterityPlus.Location = New System.Drawing.Point(216, 293)
-        Me.ButtonNecrokairoWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoWeapondexterityPlus.Name = "ButtonNecrokairoWeapondexterityPlus"
         Me.ButtonNecrokairoWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoWeapondexterityPlus.TabIndex = 4
@@ -11600,7 +11600,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoForestryPlus.Location = New System.Drawing.Point(215, 107)
-        Me.ButtonNecrokairoForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoForestryPlus.Name = "ButtonNecrokairoForestryPlus"
         Me.ButtonNecrokairoForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoForestryPlus.TabIndex = 4
@@ -11611,7 +11611,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoLightningboltPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoLightningboltPlus.Location = New System.Drawing.Point(43, 219)
-        Me.ButtonNecrokairoLightningboltPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoLightningboltPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoLightningboltPlus.Name = "ButtonNecrokairoLightningboltPlus"
         Me.ButtonNecrokairoLightningboltPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoLightningboltPlus.TabIndex = 4
@@ -11622,7 +11622,7 @@ Partial Class Form1
         '
         Me.ButtonNecrokairoLifesyphonPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoLifesyphonPlus.Location = New System.Drawing.Point(43, 172)
-        Me.ButtonNecrokairoLifesyphonPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonNecrokairoLifesyphonPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNecrokairoLifesyphonPlus.Name = "ButtonNecrokairoLifesyphonPlus"
         Me.ButtonNecrokairoLifesyphonPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonNecrokairoLifesyphonPlus.TabIndex = 4
@@ -11824,7 +11824,7 @@ Partial Class Form1
         Me.PanelKinesiohydro.Controls.Add(Me.Label26)
         Me.PanelKinesiohydro.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelKinesiohydro.Location = New System.Drawing.Point(0, 0)
-        Me.PanelKinesiohydro.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelKinesiohydro.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelKinesiohydro.Name = "PanelKinesiohydro"
         Me.PanelKinesiohydro.Size = New System.Drawing.Size(828, 389)
         Me.PanelKinesiohydro.TabIndex = 42
@@ -11832,7 +11832,7 @@ Partial Class Form1
         'ButtonKinesiohydroInfo
         '
         Me.ButtonKinesiohydroInfo.Location = New System.Drawing.Point(661, 310)
-        Me.ButtonKinesiohydroInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroInfo.Name = "ButtonKinesiohydroInfo"
         Me.ButtonKinesiohydroInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinesiohydroInfo.TabIndex = 8
@@ -11842,7 +11842,7 @@ Partial Class Form1
         'ButtonKinesiohydroModifyer
         '
         Me.ButtonKinesiohydroModifyer.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonKinesiohydroModifyer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroModifyer.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroModifyer.Name = "ButtonKinesiohydroModifyer"
         Me.ButtonKinesiohydroModifyer.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinesiohydroModifyer.TabIndex = 7
@@ -11852,7 +11852,7 @@ Partial Class Form1
         'ButtonKinesiohydroWizard
         '
         Me.ButtonKinesiohydroWizard.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonKinesiohydroWizard.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroWizard.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroWizard.Name = "ButtonKinesiohydroWizard"
         Me.ButtonKinesiohydroWizard.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinesiohydroWizard.TabIndex = 6
@@ -11865,7 +11865,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroSmithingMinus.Location = New System.Drawing.Point(249, 247)
-        Me.ButtonKinesiohydroSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroSmithingMinus.Name = "ButtonKinesiohydroSmithingMinus"
         Me.ButtonKinesiohydroSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroSmithingMinus.TabIndex = 5
@@ -11879,7 +11879,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroProwessMinus.Location = New System.Drawing.Point(248, 197)
-        Me.ButtonKinesiohydroProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroProwessMinus.Name = "ButtonKinesiohydroProwessMinus"
         Me.ButtonKinesiohydroProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroProwessMinus.TabIndex = 5
@@ -11893,7 +11893,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroSenseMinus.Location = New System.Drawing.Point(471, 105)
-        Me.ButtonKinesiohydroSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroSenseMinus.Name = "ButtonKinesiohydroSenseMinus"
         Me.ButtonKinesiohydroSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroSenseMinus.TabIndex = 5
@@ -11907,7 +11907,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroLeatherworkingMinus.Location = New System.Drawing.Point(249, 153)
-        Me.ButtonKinesiohydroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroLeatherworkingMinus.Name = "ButtonKinesiohydroLeatherworkingMinus"
         Me.ButtonKinesiohydroLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroLeatherworkingMinus.TabIndex = 5
@@ -11921,7 +11921,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroSnowballMinus.Location = New System.Drawing.Point(76, 219)
-        Me.ButtonKinesiohydroSnowballMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroSnowballMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroSnowballMinus.Name = "ButtonKinesiohydroSnowballMinus"
         Me.ButtonKinesiohydroSnowballMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroSnowballMinus.TabIndex = 5
@@ -11935,7 +11935,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroEnchantingMinus.Location = New System.Drawing.Point(471, 292)
-        Me.ButtonKinesiohydroEnchantingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroEnchantingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroEnchantingMinus.Name = "ButtonKinesiohydroEnchantingMinus"
         Me.ButtonKinesiohydroEnchantingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroEnchantingMinus.TabIndex = 5
@@ -11949,7 +11949,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroHealthMinus.Location = New System.Drawing.Point(471, 198)
-        Me.ButtonKinesiohydroHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroHealthMinus.Name = "ButtonKinesiohydroHealthMinus"
         Me.ButtonKinesiohydroHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroHealthMinus.TabIndex = 5
@@ -11963,7 +11963,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroScrollwritingMinus.Location = New System.Drawing.Point(471, 241)
-        Me.ButtonKinesiohydroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroScrollwritingMinus.Name = "ButtonKinesiohydroScrollwritingMinus"
         Me.ButtonKinesiohydroScrollwritingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroScrollwritingMinus.TabIndex = 5
@@ -11977,7 +11977,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroDetectionMinus.Location = New System.Drawing.Point(471, 153)
-        Me.ButtonKinesiohydroDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroDetectionMinus.Name = "ButtonKinesiohydroDetectionMinus"
         Me.ButtonKinesiohydroDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroDetectionMinus.TabIndex = 5
@@ -11989,7 +11989,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroSmithingPlus.Location = New System.Drawing.Point(216, 247)
-        Me.ButtonKinesiohydroSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroSmithingPlus.Name = "ButtonKinesiohydroSmithingPlus"
         Me.ButtonKinesiohydroSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroSmithingPlus.TabIndex = 4
@@ -12002,7 +12002,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroWeapondexterityMinus.Location = New System.Drawing.Point(249, 293)
-        Me.ButtonKinesiohydroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroWeapondexterityMinus.Name = "ButtonKinesiohydroWeapondexterityMinus"
         Me.ButtonKinesiohydroWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroWeapondexterityMinus.TabIndex = 5
@@ -12016,7 +12016,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroForestryMinus.Location = New System.Drawing.Point(248, 107)
-        Me.ButtonKinesiohydroForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroForestryMinus.Name = "ButtonKinesiohydroForestryMinus"
         Me.ButtonKinesiohydroForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroForestryMinus.TabIndex = 5
@@ -12028,7 +12028,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroProwessPlus.Location = New System.Drawing.Point(215, 197)
-        Me.ButtonKinesiohydroProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroProwessPlus.Name = "ButtonKinesiohydroProwessPlus"
         Me.ButtonKinesiohydroProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroProwessPlus.TabIndex = 4
@@ -12039,7 +12039,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroEnchantingPlus.Location = New System.Drawing.Point(437, 292)
-        Me.ButtonKinesiohydroEnchantingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroEnchantingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroEnchantingPlus.Name = "ButtonKinesiohydroEnchantingPlus"
         Me.ButtonKinesiohydroEnchantingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroEnchantingPlus.TabIndex = 4
@@ -12050,7 +12050,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroHealthPlus.Location = New System.Drawing.Point(437, 198)
-        Me.ButtonKinesiohydroHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroHealthPlus.Name = "ButtonKinesiohydroHealthPlus"
         Me.ButtonKinesiohydroHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroHealthPlus.TabIndex = 4
@@ -12061,7 +12061,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroScrollwritingPlus.Location = New System.Drawing.Point(437, 241)
-        Me.ButtonKinesiohydroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroScrollwritingPlus.Name = "ButtonKinesiohydroScrollwritingPlus"
         Me.ButtonKinesiohydroScrollwritingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroScrollwritingPlus.TabIndex = 4
@@ -12072,7 +12072,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroDetectionPlus.Location = New System.Drawing.Point(437, 153)
-        Me.ButtonKinesiohydroDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroDetectionPlus.Name = "ButtonKinesiohydroDetectionPlus"
         Me.ButtonKinesiohydroDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroDetectionPlus.TabIndex = 4
@@ -12085,7 +12085,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroSurgeMinus.Location = New System.Drawing.Point(76, 172)
-        Me.ButtonKinesiohydroSurgeMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroSurgeMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroSurgeMinus.Name = "ButtonKinesiohydroSurgeMinus"
         Me.ButtonKinesiohydroSurgeMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiohydroSurgeMinus.TabIndex = 5
@@ -12097,7 +12097,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroSensePlus.Location = New System.Drawing.Point(437, 105)
-        Me.ButtonKinesiohydroSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroSensePlus.Name = "ButtonKinesiohydroSensePlus"
         Me.ButtonKinesiohydroSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroSensePlus.TabIndex = 4
@@ -12108,7 +12108,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroLeatherworkingPlus.Location = New System.Drawing.Point(216, 153)
-        Me.ButtonKinesiohydroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroLeatherworkingPlus.Name = "ButtonKinesiohydroLeatherworkingPlus"
         Me.ButtonKinesiohydroLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroLeatherworkingPlus.TabIndex = 4
@@ -12119,7 +12119,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroWeapondexterityPlus.Location = New System.Drawing.Point(216, 293)
-        Me.ButtonKinesiohydroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroWeapondexterityPlus.Name = "ButtonKinesiohydroWeapondexterityPlus"
         Me.ButtonKinesiohydroWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroWeapondexterityPlus.TabIndex = 4
@@ -12130,7 +12130,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroForestryPlus.Location = New System.Drawing.Point(215, 107)
-        Me.ButtonKinesiohydroForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroForestryPlus.Name = "ButtonKinesiohydroForestryPlus"
         Me.ButtonKinesiohydroForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroForestryPlus.TabIndex = 4
@@ -12141,7 +12141,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroSnowballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroSnowballPlus.Location = New System.Drawing.Point(43, 219)
-        Me.ButtonKinesiohydroSnowballPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroSnowballPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroSnowballPlus.Name = "ButtonKinesiohydroSnowballPlus"
         Me.ButtonKinesiohydroSnowballPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroSnowballPlus.TabIndex = 4
@@ -12152,7 +12152,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiohydroSurgePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroSurgePlus.Location = New System.Drawing.Point(43, 172)
-        Me.ButtonKinesiohydroSurgePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiohydroSurgePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiohydroSurgePlus.Name = "ButtonKinesiohydroSurgePlus"
         Me.ButtonKinesiohydroSurgePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiohydroSurgePlus.TabIndex = 4
@@ -12289,16 +12289,6 @@ Partial Class Form1
         Me.LabelKinesiohydroSurge.TabIndex = 2
         Me.LabelKinesiohydroSurge.Text = "Surge"
         '
-        'LabelKinesiokairoXp
-        '
-        Me.LabelKinesiokairoXp.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinesiokairoXp.Location = New System.Drawing.Point(683, 92)
-        Me.LabelKinesiokairoXp.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.LabelKinesiokairoXp.Name = "LabelKinesiokairoXp"
-        Me.LabelKinesiokairoXp.Size = New System.Drawing.Size(104, 26)
-        Me.LabelKinesiokairoXp.TabIndex = 1
-        Me.LabelKinesiokairoXp.Text = "XP left:  15"
-        '
         'Label26
         '
         Me.Label26.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -12308,6 +12298,16 @@ Partial Class Form1
         Me.Label26.Size = New System.Drawing.Size(792, 86)
         Me.Label26.TabIndex = 0
         Me.Label26.Text = resources.GetString("Label26.Text")
+        '
+        'LabelKinesiokairoXp
+        '
+        Me.LabelKinesiokairoXp.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelKinesiokairoXp.Location = New System.Drawing.Point(683, 92)
+        Me.LabelKinesiokairoXp.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LabelKinesiokairoXp.Name = "LabelKinesiokairoXp"
+        Me.LabelKinesiokairoXp.Size = New System.Drawing.Size(104, 26)
+        Me.LabelKinesiokairoXp.TabIndex = 1
+        Me.LabelKinesiokairoXp.Text = "XP left:  15"
         '
         'LabelKinesioHydroXp
         '
@@ -12364,7 +12364,7 @@ Partial Class Form1
         Me.PanelKinesiopyro.Controls.Add(Me.LabelKinesiopyroIntro)
         Me.PanelKinesiopyro.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelKinesiopyro.Location = New System.Drawing.Point(0, 0)
-        Me.PanelKinesiopyro.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelKinesiopyro.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelKinesiopyro.Name = "PanelKinesiopyro"
         Me.PanelKinesiopyro.Size = New System.Drawing.Size(828, 389)
         Me.PanelKinesiopyro.TabIndex = 43
@@ -12372,7 +12372,7 @@ Partial Class Form1
         'ButtonKinesiopyroInfo
         '
         Me.ButtonKinesiopyroInfo.Location = New System.Drawing.Point(661, 310)
-        Me.ButtonKinesiopyroInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroInfo.Name = "ButtonKinesiopyroInfo"
         Me.ButtonKinesiopyroInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinesiopyroInfo.TabIndex = 8
@@ -12382,7 +12382,7 @@ Partial Class Form1
         'ButtonKinesiopyroModifier
         '
         Me.ButtonKinesiopyroModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonKinesiopyroModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroModifier.Name = "ButtonKinesiopyroModifier"
         Me.ButtonKinesiopyroModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinesiopyroModifier.TabIndex = 7
@@ -12392,7 +12392,7 @@ Partial Class Form1
         'ButtonKinesiopyroWizard
         '
         Me.ButtonKinesiopyroWizard.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonKinesiopyroWizard.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroWizard.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroWizard.Name = "ButtonKinesiopyroWizard"
         Me.ButtonKinesiopyroWizard.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinesiopyroWizard.TabIndex = 6
@@ -12405,7 +12405,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroSmithingMinus.Location = New System.Drawing.Point(249, 247)
-        Me.ButtonKinesiopyroSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroSmithingMinus.Name = "ButtonKinesiopyroSmithingMinus"
         Me.ButtonKinesiopyroSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroSmithingMinus.TabIndex = 5
@@ -12419,7 +12419,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroProwessMinus.Location = New System.Drawing.Point(248, 197)
-        Me.ButtonKinesiopyroProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroProwessMinus.Name = "ButtonKinesiopyroProwessMinus"
         Me.ButtonKinesiopyroProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroProwessMinus.TabIndex = 5
@@ -12433,7 +12433,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroSenseMinus.Location = New System.Drawing.Point(471, 105)
-        Me.ButtonKinesiopyroSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroSenseMinus.Name = "ButtonKinesiopyroSenseMinus"
         Me.ButtonKinesiopyroSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroSenseMinus.TabIndex = 5
@@ -12447,7 +12447,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroLeatherworkingMinus.Location = New System.Drawing.Point(249, 153)
-        Me.ButtonKinesiopyroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroLeatherworkingMinus.Name = "ButtonKinesiopyroLeatherworkingMinus"
         Me.ButtonKinesiopyroLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroLeatherworkingMinus.TabIndex = 5
@@ -12461,7 +12461,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroFireballMinus.Location = New System.Drawing.Point(76, 219)
-        Me.ButtonKinesiopyroFireballMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroFireballMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroFireballMinus.Name = "ButtonKinesiopyroFireballMinus"
         Me.ButtonKinesiopyroFireballMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroFireballMinus.TabIndex = 5
@@ -12475,7 +12475,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroEnchantingMinus.Location = New System.Drawing.Point(471, 292)
-        Me.ButtonKinesiopyroEnchantingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroEnchantingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroEnchantingMinus.Name = "ButtonKinesiopyroEnchantingMinus"
         Me.ButtonKinesiopyroEnchantingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroEnchantingMinus.TabIndex = 5
@@ -12489,7 +12489,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroHealthMinus.Location = New System.Drawing.Point(471, 198)
-        Me.ButtonKinesiopyroHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroHealthMinus.Name = "ButtonKinesiopyroHealthMinus"
         Me.ButtonKinesiopyroHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroHealthMinus.TabIndex = 5
@@ -12503,7 +12503,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroScrollwritingMinus.Location = New System.Drawing.Point(471, 241)
-        Me.ButtonKinesiopyroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroScrollwritingMinus.Name = "ButtonKinesiopyroScrollwritingMinus"
         Me.ButtonKinesiopyroScrollwritingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroScrollwritingMinus.TabIndex = 5
@@ -12517,7 +12517,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroDetectionMinus.Location = New System.Drawing.Point(471, 153)
-        Me.ButtonKinesiopyroDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroDetectionMinus.Name = "ButtonKinesiopyroDetectionMinus"
         Me.ButtonKinesiopyroDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroDetectionMinus.TabIndex = 5
@@ -12529,7 +12529,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroSmithingPlus.Location = New System.Drawing.Point(216, 247)
-        Me.ButtonKinesiopyroSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroSmithingPlus.Name = "ButtonKinesiopyroSmithingPlus"
         Me.ButtonKinesiopyroSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroSmithingPlus.TabIndex = 4
@@ -12542,7 +12542,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroWeapondexterityMinus.Location = New System.Drawing.Point(249, 293)
-        Me.ButtonKinesiopyroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroWeapondexterityMinus.Name = "ButtonKinesiopyroWeapondexterityMinus"
         Me.ButtonKinesiopyroWeapondexterityMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroWeapondexterityMinus.TabIndex = 5
@@ -12556,7 +12556,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroForestyMinus.Location = New System.Drawing.Point(248, 107)
-        Me.ButtonKinesiopyroForestyMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroForestyMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroForestyMinus.Name = "ButtonKinesiopyroForestyMinus"
         Me.ButtonKinesiopyroForestyMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroForestyMinus.TabIndex = 5
@@ -12568,7 +12568,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroProwessPlus.Location = New System.Drawing.Point(215, 197)
-        Me.ButtonKinesiopyroProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroProwessPlus.Name = "ButtonKinesiopyroProwessPlus"
         Me.ButtonKinesiopyroProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroProwessPlus.TabIndex = 4
@@ -12579,7 +12579,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroEnchantingPlus.Location = New System.Drawing.Point(437, 292)
-        Me.ButtonKinesiopyroEnchantingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroEnchantingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroEnchantingPlus.Name = "ButtonKinesiopyroEnchantingPlus"
         Me.ButtonKinesiopyroEnchantingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroEnchantingPlus.TabIndex = 4
@@ -12590,7 +12590,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroHealthPlus.Location = New System.Drawing.Point(437, 198)
-        Me.ButtonKinesiopyroHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroHealthPlus.Name = "ButtonKinesiopyroHealthPlus"
         Me.ButtonKinesiopyroHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroHealthPlus.TabIndex = 4
@@ -12601,7 +12601,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroScrollwritingPlus.Location = New System.Drawing.Point(437, 241)
-        Me.ButtonKinesiopyroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroScrollwritingPlus.Name = "ButtonKinesiopyroScrollwritingPlus"
         Me.ButtonKinesiopyroScrollwritingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroScrollwritingPlus.TabIndex = 4
@@ -12612,7 +12612,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroDetectionPlus.Location = New System.Drawing.Point(437, 153)
-        Me.ButtonKinesiopyroDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroDetectionPlus.Name = "ButtonKinesiopyroDetectionPlus"
         Me.ButtonKinesiopyroDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroDetectionPlus.TabIndex = 4
@@ -12625,7 +12625,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroSurgeMinus.Location = New System.Drawing.Point(76, 172)
-        Me.ButtonKinesiopyroSurgeMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroSurgeMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroSurgeMinus.Name = "ButtonKinesiopyroSurgeMinus"
         Me.ButtonKinesiopyroSurgeMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiopyroSurgeMinus.TabIndex = 5
@@ -12637,7 +12637,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroSensePlus.Location = New System.Drawing.Point(437, 105)
-        Me.ButtonKinesiopyroSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroSensePlus.Name = "ButtonKinesiopyroSensePlus"
         Me.ButtonKinesiopyroSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroSensePlus.TabIndex = 4
@@ -12648,7 +12648,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroLeatherworkingPlus.Location = New System.Drawing.Point(216, 153)
-        Me.ButtonKinesiopyroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroLeatherworkingPlus.Name = "ButtonKinesiopyroLeatherworkingPlus"
         Me.ButtonKinesiopyroLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroLeatherworkingPlus.TabIndex = 4
@@ -12659,7 +12659,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroWeapondexterityPlus.Location = New System.Drawing.Point(216, 293)
-        Me.ButtonKinesiopyroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroWeapondexterityPlus.Name = "ButtonKinesiopyroWeapondexterityPlus"
         Me.ButtonKinesiopyroWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroWeapondexterityPlus.TabIndex = 4
@@ -12670,7 +12670,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroForestryPlus.Location = New System.Drawing.Point(215, 107)
-        Me.ButtonKinesiopyroForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroForestryPlus.Name = "ButtonKinesiopyroForestryPlus"
         Me.ButtonKinesiopyroForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroForestryPlus.TabIndex = 4
@@ -12681,7 +12681,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroFireballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroFireballPlus.Location = New System.Drawing.Point(43, 219)
-        Me.ButtonKinesiopyroFireballPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroFireballPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroFireballPlus.Name = "ButtonKinesiopyroFireballPlus"
         Me.ButtonKinesiopyroFireballPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroFireballPlus.TabIndex = 4
@@ -12692,7 +12692,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiopyroSurgePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroSurgePlus.Location = New System.Drawing.Point(43, 172)
-        Me.ButtonKinesiopyroSurgePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiopyroSurgePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiopyroSurgePlus.Name = "ButtonKinesiopyroSurgePlus"
         Me.ButtonKinesiopyroSurgePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiopyroSurgePlus.TabIndex = 4
@@ -12895,7 +12895,7 @@ Partial Class Form1
         Me.PanelKinesiokairo.Controls.Add(Me.LabelKinesiokairoIntro)
         Me.PanelKinesiokairo.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelKinesiokairo.Location = New System.Drawing.Point(0, 0)
-        Me.PanelKinesiokairo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelKinesiokairo.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelKinesiokairo.Name = "PanelKinesiokairo"
         Me.PanelKinesiokairo.Size = New System.Drawing.Size(828, 389)
         Me.PanelKinesiokairo.TabIndex = 44
@@ -12903,7 +12903,7 @@ Partial Class Form1
         'ButtonKinesiokairoInfo
         '
         Me.ButtonKinesiokairoInfo.Location = New System.Drawing.Point(661, 310)
-        Me.ButtonKinesiokairoInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoInfo.Name = "ButtonKinesiokairoInfo"
         Me.ButtonKinesiokairoInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinesiokairoInfo.TabIndex = 8
@@ -12913,7 +12913,7 @@ Partial Class Form1
         'ButtonKinesiokairoModifier
         '
         Me.ButtonKinesiokairoModifier.Location = New System.Drawing.Point(723, 356)
-        Me.ButtonKinesiokairoModifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoModifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoModifier.Name = "ButtonKinesiokairoModifier"
         Me.ButtonKinesiokairoModifier.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinesiokairoModifier.TabIndex = 7
@@ -12923,7 +12923,7 @@ Partial Class Form1
         'ButtonKinesiokairoWizard
         '
         Me.ButtonKinesiokairoWizard.Location = New System.Drawing.Point(4, 356)
-        Me.ButtonKinesiokairoWizard.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoWizard.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoWizard.Name = "ButtonKinesiokairoWizard"
         Me.ButtonKinesiokairoWizard.Size = New System.Drawing.Size(100, 28)
         Me.ButtonKinesiokairoWizard.TabIndex = 6
@@ -12936,7 +12936,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoSmithingMinus.Location = New System.Drawing.Point(249, 247)
-        Me.ButtonKinesiokairoSmithingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoSmithingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoSmithingMinus.Name = "ButtonKinesiokairoSmithingMinus"
         Me.ButtonKinesiokairoSmithingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoSmithingMinus.TabIndex = 5
@@ -12950,7 +12950,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoProwessMinus.Location = New System.Drawing.Point(248, 197)
-        Me.ButtonKinesiokairoProwessMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoProwessMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoProwessMinus.Name = "ButtonKinesiokairoProwessMinus"
         Me.ButtonKinesiokairoProwessMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoProwessMinus.TabIndex = 5
@@ -12964,7 +12964,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoSenseMinus.Location = New System.Drawing.Point(471, 105)
-        Me.ButtonKinesiokairoSenseMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoSenseMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoSenseMinus.Name = "ButtonKinesiokairoSenseMinus"
         Me.ButtonKinesiokairoSenseMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoSenseMinus.TabIndex = 5
@@ -12978,7 +12978,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoLeatherworkingMinus.Location = New System.Drawing.Point(249, 153)
-        Me.ButtonKinesiokairoLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoLeatherworkingMinus.Name = "ButtonKinesiokairoLeatherworkingMinus"
         Me.ButtonKinesiokairoLeatherworkingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoLeatherworkingMinus.TabIndex = 5
@@ -12992,7 +12992,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoLightningboltMinus.Location = New System.Drawing.Point(76, 219)
-        Me.ButtonKinesiokairoLightningboltMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoLightningboltMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoLightningboltMinus.Name = "ButtonKinesiokairoLightningboltMinus"
         Me.ButtonKinesiokairoLightningboltMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoLightningboltMinus.TabIndex = 5
@@ -13006,7 +13006,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoEnchantingMinus.Location = New System.Drawing.Point(471, 292)
-        Me.ButtonKinesiokairoEnchantingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoEnchantingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoEnchantingMinus.Name = "ButtonKinesiokairoEnchantingMinus"
         Me.ButtonKinesiokairoEnchantingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoEnchantingMinus.TabIndex = 5
@@ -13020,7 +13020,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoHealthMinus.Location = New System.Drawing.Point(471, 198)
-        Me.ButtonKinesiokairoHealthMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoHealthMinus.Name = "ButtonKinesiokairoHealthMinus"
         Me.ButtonKinesiokairoHealthMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoHealthMinus.TabIndex = 5
@@ -13034,7 +13034,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoScrollwritingMinus.Location = New System.Drawing.Point(471, 241)
-        Me.ButtonKinesiokairoScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoScrollwritingMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoScrollwritingMinus.Name = "ButtonKinesiokairoScrollwritingMinus"
         Me.ButtonKinesiokairoScrollwritingMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoScrollwritingMinus.TabIndex = 5
@@ -13048,7 +13048,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoDetectionMinus.Location = New System.Drawing.Point(471, 153)
-        Me.ButtonKinesiokairoDetectionMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoDetectionMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoDetectionMinus.Name = "ButtonKinesiokairoDetectionMinus"
         Me.ButtonKinesiokairoDetectionMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoDetectionMinus.TabIndex = 5
@@ -13060,7 +13060,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoSmithingPlus.Location = New System.Drawing.Point(216, 247)
-        Me.ButtonKinesiokairoSmithingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoSmithingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoSmithingPlus.Name = "ButtonKinesiokairoSmithingPlus"
         Me.ButtonKinesiokairoSmithingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoSmithingPlus.TabIndex = 4
@@ -13073,7 +13073,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoWeapondexterity.Location = New System.Drawing.Point(249, 293)
-        Me.ButtonKinesiokairoWeapondexterity.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoWeapondexterity.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoWeapondexterity.Name = "ButtonKinesiokairoWeapondexterity"
         Me.ButtonKinesiokairoWeapondexterity.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoWeapondexterity.TabIndex = 5
@@ -13087,7 +13087,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoForestryMinus.Location = New System.Drawing.Point(248, 107)
-        Me.ButtonKinesiokairoForestryMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoForestryMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoForestryMinus.Name = "ButtonKinesiokairoForestryMinus"
         Me.ButtonKinesiokairoForestryMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoForestryMinus.TabIndex = 5
@@ -13099,7 +13099,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoProwessPlus.Location = New System.Drawing.Point(215, 197)
-        Me.ButtonKinesiokairoProwessPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoProwessPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoProwessPlus.Name = "ButtonKinesiokairoProwessPlus"
         Me.ButtonKinesiokairoProwessPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoProwessPlus.TabIndex = 4
@@ -13110,7 +13110,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoEnchantingPlus.Location = New System.Drawing.Point(437, 292)
-        Me.ButtonKinesiokairoEnchantingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoEnchantingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoEnchantingPlus.Name = "ButtonKinesiokairoEnchantingPlus"
         Me.ButtonKinesiokairoEnchantingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoEnchantingPlus.TabIndex = 4
@@ -13121,7 +13121,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoHealthPlus.Location = New System.Drawing.Point(437, 198)
-        Me.ButtonKinesiokairoHealthPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoHealthPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoHealthPlus.Name = "ButtonKinesiokairoHealthPlus"
         Me.ButtonKinesiokairoHealthPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoHealthPlus.TabIndex = 4
@@ -13132,7 +13132,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoScrollwritingPlus.Location = New System.Drawing.Point(437, 241)
-        Me.ButtonKinesiokairoScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoScrollwritingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoScrollwritingPlus.Name = "ButtonKinesiokairoScrollwritingPlus"
         Me.ButtonKinesiokairoScrollwritingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoScrollwritingPlus.TabIndex = 4
@@ -13143,7 +13143,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoDetectionPlus.Location = New System.Drawing.Point(437, 153)
-        Me.ButtonKinesiokairoDetectionPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoDetectionPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoDetectionPlus.Name = "ButtonKinesiokairoDetectionPlus"
         Me.ButtonKinesiokairoDetectionPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoDetectionPlus.TabIndex = 4
@@ -13156,7 +13156,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoSurgeMinus.Location = New System.Drawing.Point(76, 172)
-        Me.ButtonKinesiokairoSurgeMinus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoSurgeMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoSurgeMinus.Name = "ButtonKinesiokairoSurgeMinus"
         Me.ButtonKinesiokairoSurgeMinus.Size = New System.Drawing.Size(28, 28)
         Me.ButtonKinesiokairoSurgeMinus.TabIndex = 5
@@ -13168,7 +13168,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoSensePlus.Location = New System.Drawing.Point(437, 105)
-        Me.ButtonKinesiokairoSensePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoSensePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoSensePlus.Name = "ButtonKinesiokairoSensePlus"
         Me.ButtonKinesiokairoSensePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoSensePlus.TabIndex = 4
@@ -13179,7 +13179,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoLeatherworkingPlus.Location = New System.Drawing.Point(216, 153)
-        Me.ButtonKinesiokairoLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoLeatherworkingPlus.Name = "ButtonKinesiokairoLeatherworkingPlus"
         Me.ButtonKinesiokairoLeatherworkingPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoLeatherworkingPlus.TabIndex = 4
@@ -13190,7 +13190,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoWeapondexterityPlus.Location = New System.Drawing.Point(216, 293)
-        Me.ButtonKinesiokairoWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoWeapondexterityPlus.Name = "ButtonKinesiokairoWeapondexterityPlus"
         Me.ButtonKinesiokairoWeapondexterityPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoWeapondexterityPlus.TabIndex = 4
@@ -13201,7 +13201,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoForestryPlus.Location = New System.Drawing.Point(215, 107)
-        Me.ButtonKinesiokairoForestryPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoForestryPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoForestryPlus.Name = "ButtonKinesiokairoForestryPlus"
         Me.ButtonKinesiokairoForestryPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoForestryPlus.TabIndex = 4
@@ -13212,7 +13212,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoLightningboltPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoLightningboltPlus.Location = New System.Drawing.Point(43, 219)
-        Me.ButtonKinesiokairoLightningboltPlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoLightningboltPlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoLightningboltPlus.Name = "ButtonKinesiokairoLightningboltPlus"
         Me.ButtonKinesiokairoLightningboltPlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoLightningboltPlus.TabIndex = 4
@@ -13223,7 +13223,7 @@ Partial Class Form1
         '
         Me.ButtonKinesiokairoSurgePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoSurgePlus.Location = New System.Drawing.Point(43, 172)
-        Me.ButtonKinesiokairoSurgePlus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonKinesiokairoSurgePlus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonKinesiokairoSurgePlus.Name = "ButtonKinesiokairoSurgePlus"
         Me.ButtonKinesiokairoSurgePlus.Size = New System.Drawing.Size(25, 28)
         Me.ButtonKinesiokairoSurgePlus.TabIndex = 4
@@ -13384,7 +13384,7 @@ Partial Class Form1
         Me.PanelDrakohnon.Enabled = False
         Me.PanelDrakohnon.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelDrakohnon.Location = New System.Drawing.Point(0, 0)
-        Me.PanelDrakohnon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelDrakohnon.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelDrakohnon.Name = "PanelDrakohnon"
         Me.PanelDrakohnon.Size = New System.Drawing.Size(828, 389)
         Me.PanelDrakohnon.TabIndex = 45
@@ -13392,7 +13392,7 @@ Partial Class Form1
         'ButtonDrakohnonInfo
         '
         Me.ButtonDrakohnonInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonDrakohnonInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDrakohnonInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDrakohnonInfo.Name = "ButtonDrakohnonInfo"
         Me.ButtonDrakohnonInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDrakohnonInfo.TabIndex = 6
@@ -13404,7 +13404,7 @@ Partial Class Form1
         Me.RadioButtonDrakohnonDragonskin.AutoSize = True
         Me.RadioButtonDrakohnonDragonskin.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDrakohnonDragonskin.Location = New System.Drawing.Point(356, 298)
-        Me.RadioButtonDrakohnonDragonskin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDrakohnonDragonskin.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDrakohnonDragonskin.Name = "RadioButtonDrakohnonDragonskin"
         Me.RadioButtonDrakohnonDragonskin.Size = New System.Drawing.Size(120, 25)
         Me.RadioButtonDrakohnonDragonskin.TabIndex = 5
@@ -13417,7 +13417,7 @@ Partial Class Form1
         Me.RadioButtonDrakohnonPiercinggaze.AutoSize = True
         Me.RadioButtonDrakohnonPiercinggaze.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDrakohnonPiercinggaze.Location = New System.Drawing.Point(356, 251)
-        Me.RadioButtonDrakohnonPiercinggaze.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDrakohnonPiercinggaze.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDrakohnonPiercinggaze.Name = "RadioButtonDrakohnonPiercinggaze"
         Me.RadioButtonDrakohnonPiercinggaze.Size = New System.Drawing.Size(131, 25)
         Me.RadioButtonDrakohnonPiercinggaze.TabIndex = 5
@@ -13430,7 +13430,7 @@ Partial Class Form1
         Me.RadioButtonDrakohnonHeatvision.AutoSize = True
         Me.RadioButtonDrakohnonHeatvision.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDrakohnonHeatvision.Location = New System.Drawing.Point(356, 198)
-        Me.RadioButtonDrakohnonHeatvision.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDrakohnonHeatvision.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDrakohnonHeatvision.Name = "RadioButtonDrakohnonHeatvision"
         Me.RadioButtonDrakohnonHeatvision.Size = New System.Drawing.Size(115, 25)
         Me.RadioButtonDrakohnonHeatvision.TabIndex = 4
@@ -13443,7 +13443,7 @@ Partial Class Form1
         Me.RadioButtonDrakohnonFireisenergy.AutoSize = True
         Me.RadioButtonDrakohnonFireisenergy.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonDrakohnonFireisenergy.Location = New System.Drawing.Point(356, 149)
-        Me.RadioButtonDrakohnonFireisenergy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonDrakohnonFireisenergy.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonDrakohnonFireisenergy.Name = "RadioButtonDrakohnonFireisenergy"
         Me.RadioButtonDrakohnonFireisenergy.Size = New System.Drawing.Size(132, 25)
         Me.RadioButtonDrakohnonFireisenergy.TabIndex = 3
@@ -13464,7 +13464,7 @@ Partial Class Form1
         'ButtonDrakohnonBackground
         '
         Me.ButtonDrakohnonBackground.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonDrakohnonBackground.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDrakohnonBackground.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDrakohnonBackground.Name = "ButtonDrakohnonBackground"
         Me.ButtonDrakohnonBackground.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDrakohnonBackground.TabIndex = 1
@@ -13474,7 +13474,7 @@ Partial Class Form1
         'ButtonDrakohnonKin
         '
         Me.ButtonDrakohnonKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonDrakohnonKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonDrakohnonKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonDrakohnonKin.Name = "ButtonDrakohnonKin"
         Me.ButtonDrakohnonKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonDrakohnonKin.TabIndex = 0
@@ -13496,7 +13496,7 @@ Partial Class Form1
         Me.PanelFairy.Enabled = False
         Me.PanelFairy.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelFairy.Location = New System.Drawing.Point(0, 0)
-        Me.PanelFairy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelFairy.Margin = New System.Windows.Forms.Padding(4)
         Me.PanelFairy.Name = "PanelFairy"
         Me.PanelFairy.Size = New System.Drawing.Size(828, 389)
         Me.PanelFairy.TabIndex = 46
@@ -13504,7 +13504,7 @@ Partial Class Form1
         'ButtonFairyInfo
         '
         Me.ButtonFairyInfo.Location = New System.Drawing.Point(609, 175)
-        Me.ButtonFairyInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonFairyInfo.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonFairyInfo.Name = "ButtonFairyInfo"
         Me.ButtonFairyInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonFairyInfo.TabIndex = 6
@@ -13516,7 +13516,7 @@ Partial Class Form1
         Me.RadioButton5.AutoSize = True
         Me.RadioButton5.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton5.Location = New System.Drawing.Point(369, 311)
-        Me.RadioButton5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton5.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton5.Name = "RadioButton5"
         Me.RadioButton5.Size = New System.Drawing.Size(96, 25)
         Me.RadioButton5.TabIndex = 5
@@ -13529,7 +13529,7 @@ Partial Class Form1
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton1.Location = New System.Drawing.Point(369, 263)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(89, 25)
         Me.RadioButton1.TabIndex = 5
@@ -13542,7 +13542,7 @@ Partial Class Form1
         Me.RadioButtonFairyPlanttelepathy.AutoSize = True
         Me.RadioButtonFairyPlanttelepathy.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonFairyPlanttelepathy.Location = New System.Drawing.Point(369, 217)
-        Me.RadioButtonFairyPlanttelepathy.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonFairyPlanttelepathy.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonFairyPlanttelepathy.Name = "RadioButtonFairyPlanttelepathy"
         Me.RadioButtonFairyPlanttelepathy.Size = New System.Drawing.Size(146, 25)
         Me.RadioButtonFairyPlanttelepathy.TabIndex = 5
@@ -13555,7 +13555,7 @@ Partial Class Form1
         Me.RadioButtonFairyFlutter.AutoSize = True
         Me.RadioButtonFairyFlutter.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonFairyFlutter.Location = New System.Drawing.Point(369, 169)
-        Me.RadioButtonFairyFlutter.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonFairyFlutter.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonFairyFlutter.Name = "RadioButtonFairyFlutter"
         Me.RadioButtonFairyFlutter.Size = New System.Drawing.Size(80, 25)
         Me.RadioButtonFairyFlutter.TabIndex = 4
@@ -13568,7 +13568,7 @@ Partial Class Form1
         Me.RadioButtonFairyIlluminate.AutoSize = True
         Me.RadioButtonFairyIlluminate.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButtonFairyIlluminate.Location = New System.Drawing.Point(369, 119)
-        Me.RadioButtonFairyIlluminate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonFairyIlluminate.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonFairyIlluminate.Name = "RadioButtonFairyIlluminate"
         Me.RadioButtonFairyIlluminate.Size = New System.Drawing.Size(105, 25)
         Me.RadioButtonFairyIlluminate.TabIndex = 3
@@ -13589,7 +13589,7 @@ Partial Class Form1
         'ButtonFairyBackgrounds
         '
         Me.ButtonFairyBackgrounds.Location = New System.Drawing.Point(724, 357)
-        Me.ButtonFairyBackgrounds.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonFairyBackgrounds.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonFairyBackgrounds.Name = "ButtonFairyBackgrounds"
         Me.ButtonFairyBackgrounds.Size = New System.Drawing.Size(100, 28)
         Me.ButtonFairyBackgrounds.TabIndex = 1
@@ -13599,7 +13599,7 @@ Partial Class Form1
         'ButtonFairyKin
         '
         Me.ButtonFairyKin.Location = New System.Drawing.Point(4, 357)
-        Me.ButtonFairyKin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonFairyKin.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonFairyKin.Name = "ButtonFairyKin"
         Me.ButtonFairyKin.Size = New System.Drawing.Size(100, 28)
         Me.ButtonFairyKin.TabIndex = 0
@@ -13612,17 +13612,17 @@ Partial Class Form1
         Me.PanelModifier.Controls.Add(Me.RadioButton11)
         Me.PanelModifier.Controls.Add(Me.RadioButton16)
         Me.PanelModifier.Controls.Add(Me.RadioButton15)
-        Me.PanelModifier.Controls.Add(Me.RadioButton9)
-        Me.PanelModifier.Controls.Add(Me.RadioButton10)
-        Me.PanelModifier.Controls.Add(Me.RadioButton12)
+        Me.PanelModifier.Controls.Add(Me.RadioButtonModifiersBoundWeapon)
+        Me.PanelModifier.Controls.Add(Me.RadioButtonNaturalist)
+        Me.PanelModifier.Controls.Add(Me.RadioButtonModifiersUndead)
         Me.PanelModifier.Controls.Add(Me.RadioButton14)
-        Me.PanelModifier.Controls.Add(Me.RadioButton6)
+        Me.PanelModifier.Controls.Add(Me.RadioButtonModifiersSparkofInsanity)
         Me.PanelModifier.Controls.Add(Me.RadioButton13)
-        Me.PanelModifier.Controls.Add(Me.RadioButton8)
-        Me.PanelModifier.Controls.Add(Me.RadioButton7)
-        Me.PanelModifier.Controls.Add(Me.RadioButton4)
-        Me.PanelModifier.Controls.Add(Me.RadioButton3)
-        Me.PanelModifier.Controls.Add(Me.RadioButton2)
+        Me.PanelModifier.Controls.Add(Me.RadioButtonModifiersWerewolf)
+        Me.PanelModifier.Controls.Add(Me.RadioButtonModifiersVampiric)
+        Me.PanelModifier.Controls.Add(Me.RadioButtonModifiersSoulSplitter)
+        Me.PanelModifier.Controls.Add(Me.RadioButtonModifiersHalfBreed)
+        Me.PanelModifier.Controls.Add(Me.RadioButtonModifiersCommon)
         Me.PanelModifier.Controls.Add(Me.LabelModifierIntro)
         Me.PanelModifier.Controls.Add(Me.ButtonModifierEnd)
         Me.PanelModifier.Controls.Add(Me.ButtonModifierClasstype)
@@ -13679,41 +13679,41 @@ Partial Class Form1
         Me.RadioButton15.Text = "Indebted Soul"
         Me.RadioButton15.UseVisualStyleBackColor = True
         '
-        'RadioButton9
+        'RadioButtonModifiersBoundWeapon
         '
-        Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Location = New System.Drawing.Point(293, 186)
-        Me.RadioButton9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(127, 21)
-        Me.RadioButton9.TabIndex = 10
-        Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "Bound Weapon"
-        Me.RadioButton9.UseVisualStyleBackColor = True
+        Me.RadioButtonModifiersBoundWeapon.AutoSize = True
+        Me.RadioButtonModifiersBoundWeapon.Location = New System.Drawing.Point(293, 186)
+        Me.RadioButtonModifiersBoundWeapon.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.RadioButtonModifiersBoundWeapon.Name = "RadioButtonModifiersBoundWeapon"
+        Me.RadioButtonModifiersBoundWeapon.Size = New System.Drawing.Size(127, 21)
+        Me.RadioButtonModifiersBoundWeapon.TabIndex = 10
+        Me.RadioButtonModifiersBoundWeapon.TabStop = True
+        Me.RadioButtonModifiersBoundWeapon.Text = "Bound Weapon"
+        Me.RadioButtonModifiersBoundWeapon.UseVisualStyleBackColor = True
         '
-        'RadioButton10
+        'RadioButtonNaturalist
         '
-        Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.Location = New System.Drawing.Point(293, 231)
-        Me.RadioButton10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(89, 21)
-        Me.RadioButton10.TabIndex = 9
-        Me.RadioButton10.TabStop = True
-        Me.RadioButton10.Text = "Naturalist"
-        Me.RadioButton10.UseVisualStyleBackColor = True
+        Me.RadioButtonNaturalist.AutoSize = True
+        Me.RadioButtonNaturalist.Location = New System.Drawing.Point(293, 231)
+        Me.RadioButtonNaturalist.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.RadioButtonNaturalist.Name = "RadioButtonNaturalist"
+        Me.RadioButtonNaturalist.Size = New System.Drawing.Size(89, 21)
+        Me.RadioButtonNaturalist.TabIndex = 9
+        Me.RadioButtonNaturalist.TabStop = True
+        Me.RadioButtonNaturalist.Text = "Naturalist"
+        Me.RadioButtonNaturalist.UseVisualStyleBackColor = True
         '
-        'RadioButton12
+        'RadioButtonModifiersUndead
         '
-        Me.RadioButton12.AutoSize = True
-        Me.RadioButton12.Location = New System.Drawing.Point(109, 276)
-        Me.RadioButton12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(79, 21)
-        Me.RadioButton12.TabIndex = 10
-        Me.RadioButton12.TabStop = True
-        Me.RadioButton12.Text = "Undead"
-        Me.RadioButton12.UseVisualStyleBackColor = True
+        Me.RadioButtonModifiersUndead.AutoSize = True
+        Me.RadioButtonModifiersUndead.Location = New System.Drawing.Point(109, 276)
+        Me.RadioButtonModifiersUndead.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.RadioButtonModifiersUndead.Name = "RadioButtonModifiersUndead"
+        Me.RadioButtonModifiersUndead.Size = New System.Drawing.Size(79, 21)
+        Me.RadioButtonModifiersUndead.TabIndex = 10
+        Me.RadioButtonModifiersUndead.TabStop = True
+        Me.RadioButtonModifiersUndead.Text = "Undead"
+        Me.RadioButtonModifiersUndead.UseVisualStyleBackColor = True
         '
         'RadioButton14
         '
@@ -13727,17 +13727,17 @@ Partial Class Form1
         Me.RadioButton14.Text = "Tough Skin"
         Me.RadioButton14.UseVisualStyleBackColor = True
         '
-        'RadioButton6
+        'RadioButtonModifiersSparkofInsanity
         '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(107, 231)
-        Me.RadioButton6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(134, 21)
-        Me.RadioButton6.TabIndex = 10
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Spark of Insanity"
-        Me.RadioButton6.UseVisualStyleBackColor = True
+        Me.RadioButtonModifiersSparkofInsanity.AutoSize = True
+        Me.RadioButtonModifiersSparkofInsanity.Location = New System.Drawing.Point(107, 231)
+        Me.RadioButtonModifiersSparkofInsanity.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.RadioButtonModifiersSparkofInsanity.Name = "RadioButtonModifiersSparkofInsanity"
+        Me.RadioButtonModifiersSparkofInsanity.Size = New System.Drawing.Size(134, 21)
+        Me.RadioButtonModifiersSparkofInsanity.TabIndex = 10
+        Me.RadioButtonModifiersSparkofInsanity.TabStop = True
+        Me.RadioButtonModifiersSparkofInsanity.Text = "Spark of Insanity"
+        Me.RadioButtonModifiersSparkofInsanity.UseVisualStyleBackColor = True
         '
         'RadioButton13
         '
@@ -13751,65 +13751,65 @@ Partial Class Form1
         Me.RadioButton13.Text = "Fast Metabolism"
         Me.RadioButton13.UseVisualStyleBackColor = True
         '
-        'RadioButton8
+        'RadioButtonModifiersWerewolf
         '
-        Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.Location = New System.Drawing.Point(293, 148)
-        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(87, 21)
-        Me.RadioButton8.TabIndex = 9
-        Me.RadioButton8.TabStop = True
-        Me.RadioButton8.Text = "Werewolf"
-        Me.RadioButton8.UseVisualStyleBackColor = True
+        Me.RadioButtonModifiersWerewolf.AutoSize = True
+        Me.RadioButtonModifiersWerewolf.Location = New System.Drawing.Point(293, 148)
+        Me.RadioButtonModifiersWerewolf.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.RadioButtonModifiersWerewolf.Name = "RadioButtonModifiersWerewolf"
+        Me.RadioButtonModifiersWerewolf.Size = New System.Drawing.Size(87, 21)
+        Me.RadioButtonModifiersWerewolf.TabIndex = 9
+        Me.RadioButtonModifiersWerewolf.TabStop = True
+        Me.RadioButtonModifiersWerewolf.Text = "Werewolf"
+        Me.RadioButtonModifiersWerewolf.UseVisualStyleBackColor = True
         '
-        'RadioButton7
+        'RadioButtonModifiersVampiric
         '
-        Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.Location = New System.Drawing.Point(293, 111)
-        Me.RadioButton7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(83, 21)
-        Me.RadioButton7.TabIndex = 10
-        Me.RadioButton7.TabStop = True
-        Me.RadioButton7.Text = "Vampiric"
-        Me.RadioButton7.UseVisualStyleBackColor = True
+        Me.RadioButtonModifiersVampiric.AutoSize = True
+        Me.RadioButtonModifiersVampiric.Location = New System.Drawing.Point(293, 111)
+        Me.RadioButtonModifiersVampiric.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.RadioButtonModifiersVampiric.Name = "RadioButtonModifiersVampiric"
+        Me.RadioButtonModifiersVampiric.Size = New System.Drawing.Size(83, 21)
+        Me.RadioButtonModifiersVampiric.TabIndex = 10
+        Me.RadioButtonModifiersVampiric.TabStop = True
+        Me.RadioButtonModifiersVampiric.Text = "Vampiric"
+        Me.RadioButtonModifiersVampiric.UseVisualStyleBackColor = True
         '
-        'RadioButton4
+        'RadioButtonModifiersSoulSplitter
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(107, 187)
-        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(105, 21)
-        Me.RadioButton4.TabIndex = 9
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Soul Splitter"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.RadioButtonModifiersSoulSplitter.AutoSize = True
+        Me.RadioButtonModifiersSoulSplitter.Location = New System.Drawing.Point(107, 187)
+        Me.RadioButtonModifiersSoulSplitter.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.RadioButtonModifiersSoulSplitter.Name = "RadioButtonModifiersSoulSplitter"
+        Me.RadioButtonModifiersSoulSplitter.Size = New System.Drawing.Size(105, 21)
+        Me.RadioButtonModifiersSoulSplitter.TabIndex = 9
+        Me.RadioButtonModifiersSoulSplitter.TabStop = True
+        Me.RadioButtonModifiersSoulSplitter.Text = "Soul Splitter"
+        Me.RadioButtonModifiersSoulSplitter.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'RadioButtonModifiersHalfBreed
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(107, 148)
-        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(97, 21)
-        Me.RadioButton3.TabIndex = 10
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Half-Breed"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.RadioButtonModifiersHalfBreed.AutoSize = True
+        Me.RadioButtonModifiersHalfBreed.Location = New System.Drawing.Point(107, 148)
+        Me.RadioButtonModifiersHalfBreed.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.RadioButtonModifiersHalfBreed.Name = "RadioButtonModifiersHalfBreed"
+        Me.RadioButtonModifiersHalfBreed.Size = New System.Drawing.Size(97, 21)
+        Me.RadioButtonModifiersHalfBreed.TabIndex = 10
+        Me.RadioButtonModifiersHalfBreed.TabStop = True
+        Me.RadioButtonModifiersHalfBreed.Text = "Half-Breed"
+        Me.RadioButtonModifiersHalfBreed.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'RadioButtonModifiersCommon
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(107, 112)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(84, 21)
-        Me.RadioButton2.TabIndex = 9
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Common"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.RadioButtonModifiersCommon.AutoSize = True
+        Me.RadioButtonModifiersCommon.Location = New System.Drawing.Point(107, 112)
+        Me.RadioButtonModifiersCommon.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.RadioButtonModifiersCommon.Name = "RadioButtonModifiersCommon"
+        Me.RadioButtonModifiersCommon.Size = New System.Drawing.Size(84, 21)
+        Me.RadioButtonModifiersCommon.TabIndex = 9
+        Me.RadioButtonModifiersCommon.TabStop = True
+        Me.RadioButtonModifiersCommon.Text = "Common"
+        Me.RadioButtonModifiersCommon.UseVisualStyleBackColor = True
         '
         'LabelModifierIntro
         '
@@ -14814,28 +14814,6 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(828, 389)
-        Me.Controls.Add(Me.PanelWelcome)
-        Me.Controls.Add(Me.PanelNyad)
-        Me.Controls.Add(Me.PanelAngalucian)
-        Me.Controls.Add(Me.PanelFaerleth)
-        Me.Controls.Add(Me.PanelEnd)
-        Me.Controls.Add(Me.PanelModifier)
-        Me.Controls.Add(Me.PanelKinesiokairo)
-        Me.Controls.Add(Me.PanelKinesiopyro)
-        Me.Controls.Add(Me.PanelKinesiohydro)
-        Me.Controls.Add(Me.PanelNecrokairo)
-        Me.Controls.Add(Me.PanelNecropyro)
-        Me.Controls.Add(Me.PanelNecrohydro)
-        Me.Controls.Add(Me.PanelNeurokairo)
-        Me.Controls.Add(Me.PanelNeuropyro)
-        Me.Controls.Add(Me.PanelNeurohydro)
-        Me.Controls.Add(Me.PanelVoidknight)
-        Me.Controls.Add(Me.PanelCleric)
-        Me.Controls.Add(Me.PanelNoble)
-        Me.Controls.Add(Me.PanelRogue)
-        Me.Controls.Add(Me.PanelRanger)
-        Me.Controls.Add(Me.PanelWarrior)
-        Me.Controls.Add(Me.PanelWizard)
         Me.Controls.Add(Me.PanelClass)
         Me.Controls.Add(Me.PanelBackgrounds)
         Me.Controls.Add(Me.PanelWoodelf)
@@ -14862,7 +14840,29 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelHalfbreedother)
         Me.Controls.Add(Me.PanelGoblin)
         Me.Controls.Add(Me.PanelHalfbreedhuman)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Controls.Add(Me.PanelWelcome)
+        Me.Controls.Add(Me.PanelNyad)
+        Me.Controls.Add(Me.PanelAngalucian)
+        Me.Controls.Add(Me.PanelFaerleth)
+        Me.Controls.Add(Me.PanelEnd)
+        Me.Controls.Add(Me.PanelModifier)
+        Me.Controls.Add(Me.PanelKinesiokairo)
+        Me.Controls.Add(Me.PanelKinesiopyro)
+        Me.Controls.Add(Me.PanelKinesiohydro)
+        Me.Controls.Add(Me.PanelNecrokairo)
+        Me.Controls.Add(Me.PanelNecropyro)
+        Me.Controls.Add(Me.PanelNecrohydro)
+        Me.Controls.Add(Me.PanelNeurokairo)
+        Me.Controls.Add(Me.PanelNeuropyro)
+        Me.Controls.Add(Me.PanelNeurohydro)
+        Me.Controls.Add(Me.PanelVoidknight)
+        Me.Controls.Add(Me.PanelCleric)
+        Me.Controls.Add(Me.PanelNoble)
+        Me.Controls.Add(Me.PanelRogue)
+        Me.Controls.Add(Me.PanelRanger)
+        Me.Controls.Add(Me.PanelWarrior)
+        Me.Controls.Add(Me.PanelWizard)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelWelcome.ResumeLayout(False)
@@ -15988,17 +15988,17 @@ Partial Class Form1
     Friend WithEvents RadioButton11 As RadioButton
     Friend WithEvents RadioButton16 As RadioButton
     Friend WithEvents RadioButton15 As RadioButton
-    Friend WithEvents RadioButton9 As RadioButton
-    Friend WithEvents RadioButton10 As RadioButton
-    Friend WithEvents RadioButton12 As RadioButton
+    Friend WithEvents RadioButtonModifiersBoundWeapon As RadioButton
+    Friend WithEvents RadioButtonNaturalist As RadioButton
+    Friend WithEvents RadioButtonModifiersUndead As RadioButton
     Friend WithEvents RadioButton14 As RadioButton
-    Friend WithEvents RadioButton6 As RadioButton
+    Friend WithEvents RadioButtonModifiersSparkofInsanity As RadioButton
     Friend WithEvents RadioButton13 As RadioButton
-    Friend WithEvents RadioButton8 As RadioButton
-    Friend WithEvents RadioButton7 As RadioButton
-    Friend WithEvents RadioButton4 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents RadioButtonModifiersWerewolf As RadioButton
+    Friend WithEvents RadioButtonModifiersVampiric As RadioButton
+    Friend WithEvents RadioButtonModifiersSoulSplitter As RadioButton
+    Friend WithEvents RadioButtonModifiersHalfBreed As RadioButton
+    Friend WithEvents RadioButtonModifiersCommon As RadioButton
     Friend WithEvents LabelModifierIntro As Label
     Friend WithEvents ButtonModifierEnd As Button
     Friend WithEvents ButtonModifierClasstype As Button

@@ -190,6 +190,10 @@ Module AbilityVariables
         XP = 15
         TalentLableChange()
     End Sub
+    Sub ClearWizardInfo()
+
+
+    End Sub
     Sub TalentLableChange()
         TalentLableString = ""
         If Sense > 0 Then
