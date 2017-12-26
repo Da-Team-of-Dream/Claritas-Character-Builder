@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="LabelWeapondexIntro.Text" xml:space="preserve">
+    <value>Weapon dexterities work in families. So they're split into pairs like one handed blades, two handed blades, one handed axes, etc. each of these groups costs 5 experiance. Weapon arts are more specific and each weapon type has it's own. These are on the next page. Use Exotic weapons for any weapons you've made up that don't fit under the already existing categories</value>
+  </data>
+  <data name="LabelWeaponartIntro.Text" xml:space="preserve">
+    <value>Weapon Arts are specified bonuses for using your weapon. Each of these costs 10 experience. Click the info button for what each weapon does. If you have an exotic weapon choose the weapon art of something that is similar to your weapon.</value>
+  </data>
 </root>
