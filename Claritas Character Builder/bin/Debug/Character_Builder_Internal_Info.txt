@@ -1,6 +1,7 @@
 -----------------------Kin-----------------------
 KinAngalucian
-Null
+Stature - Medium, Average height 6’ 
+gold tinted hair, with white wings. Depending on the angel type, and how far they’ve fallen from grace. 
 KinAngalucian
 ------------------
 KinB-----------
@@ -8,6 +9,7 @@ Null
 KinB-----------
 ------------------
 KinCatdrah
+Stature - Medium, Average height 
 The Catdrah are a proud people consisting of four clans: the Nolis characterized by their plain solid-color coats, are known for their leadership and loud voices, the Peldroa, (Peldroa plural) are characterized by their spotted and ringed coats and known for their climbing and stealthiness, the Reg-Ti are characterized by their striped coats and known for their size and strength and the Thachee characterized by their spotted coats are known for their speed and precision.
 KinCatdrah
 ------------------
@@ -16,31 +18,35 @@ Null
 KinC----------
 ------------------
 KinDarkElf
-Dark Elf - Prowess M, Average Height 6’6’’
-	Description: Dark elves mostly reside on an island to the east of Wilshire, ruled by a Monarchical government that is at the center of dark elf life. Dark elves all have a strong sense of civic duty, and those who strike out for their own purposes away from their island are uncommon, with those who actively oppose their government being exceedingly rare. Physically, dark elves resemble other elves only superficially; being of a similar average height and a proportionally slim build. Other than bone structure, dark elves are quite different from the typical high elves and wood elves. Most noticeably, their skin is a slightly pale and bluish with veins more noticeable than in other humanoid kin; appearing like a human whom is short of breath, or hypothermic. Their eyes are invariably a dark ruddy brown, appearing black from a distance. The only exceptions are seen in aged individuals (whom are very rare) whose typical dark red-brown irises have begun to change to one of any normal human eye color. Their voices are naturally gravely, although this is somewhat less apparent in dark elves who do not hail from their traditional island nation, as the Wilshire continental accent helps it sound to more normative to non-elven ears.
+Stature - Medium, Average Height 6’6"
+Description: Dark elves mostly reside on an island to the east of Wilshire, ruled by a Monarchical government that is at the center of dark elf life. Dark elves all have a strong sense of civic duty, and those who strike out for their own purposes away from their island are uncommon, with those who actively oppose their government being exceedingly rare. Physically, dark elves resemble other elves only superficially; being of a similar average height and a proportionally slim build. Other than bone structure, dark elves are quite different from the typical high elves and wood elves. Most noticeably, their skin is a slightly pale and bluish with veins more noticeable than in other humanoid kin; appearing like a human whom is short of breath, or hypothermic. Their eyes are invariably a dark ruddy brown, appearing black from a distance. The only exceptions are seen in aged individuals (whom are very rare) whose typical dark red-brown irises have begun to change to one of any normal human eye color. Their voices are naturally gravely, although this is somewhat less apparent in dark elves who do not hail from their traditional island nation, as the Wilshire continental accent helps it sound to more normative to non-elven ears.
 KinDarkElf
 ------------------
 KinDrakhonon
-Null
+Stature - Medium, Average height
+A descendant of Rawkahgoor First Lord of the Dragons  (prowess 75) 
+A descendant of Krawdahgoor First Guardian of the Dragons  (prowess 90)
+Normal height is from 5’11’’ to 6’4’’, darkened skin tones with a tough thickness to their skin, and their hair a darkened color (of players choice), but their eyes are golden if a descendants of Rawkahgoor , or yellow for the descendant of Krawdahgoor        
 KinDrakhonon
 ------------------
-KinDryad
-Dryad - Prowess L, Average Height – 6’
-        	Description: Dryads are slightly larger than most humans. They have dark to light brown skin and bark covering them. The amount of bark on individuals vary. Their hair is made up of leaves such as long thin leaves, locust leaves, or pine needles depending on what climate they’re from. Their eyes are deep green and almond shaped and their faces are slightly flatter than normal. Dryads are a kind and calm people, but they never let their decisions be made for them. If anyone or anything tries to make them move or change their mind the Dryads will not budge. Even in the wake of war Dryads would rather fortify their city and hold than move.
+KinDryad 
+Stature - Large, Average Height 6’ 6"
+Description: Dryads are slightly larger than most humans. They have dark to light brown skin and bark covering them. The amount of bark on individuals vary. Their hair is made up of leaves such as long thin leaves, locust leaves, or pine needles depending on what climate they’re from. Their eyes are deep green and almond shaped and their faces are slightly flatter than normal. Dryads are a kind and calm people, but they never let their decisions be made for them. If anyone or anything tries to make them move or change their mind the Dryads will not budge. Even in the wake of war Dryads would rather fortify their city and hold than move.
 KinDryad
 ------------------
 KinDwarf
+Stature - Large, Average height 4'
 Dwarves are slightly short, very sturdy mountain-dwelling people with a broad frame. They are typically very fond of caves and have excellent manual craftsmanship, they tend to make expert miners and metalworkers, and formidable warriors. They tend to have a very expensive taste and a love of luxury, with a particular penchant for gold and jewels. Dwarves have a strong sense of pride in their family, accomplishments, and beard. Your beard is your first impression of pride and strength to another dwarf, thus if a dwarven beard is not well maintained, its owner will not be respected by their fellow members of Dwarven society.Dwarves have will of iron and a heart of fire. When a dwarf sets their mind on something, there is little that can stop them from accomplishing it.
 KinDwarf
 ------------------
-KinE----------
-Null
-KinE----------
+KinEthereal
+Stature - Medium, Average height 5'9"
+KinEthereal
 ------------------
 KinFairy
-Fairy - Prowess S, Average Height – 1’6’’
-        	Description: There are four major kinds of fairies; the Shaoothuto, the Ahlookaro, the Szhoom, and the Ecall. The Shaoothuto are the most common type of fairy standing between 1’ and 2’ with an average weight of about 22 lb. Their skin colors vary between varieties of green, blue, purple, yellow, or red. Shaoothuto skin is covered in spots a slightly darker hue than their skin in a variety of patterns. Their hair is usually some shade of their skin color. Ecall, the rarest variety of fairy, are shaped like a Shaoothuto but have human coloring. Ahlookaro is a term used to describe a fairy with some animal feature ie. a cat tail, bird wings instead of fairy wings, etc. Finally Szhoom is a term used to describe a large fairy. Szhoom usually stand between 2’ and 3’ tall and generally have a larger frame than other fairies. Despite their bigger size, their wings remain about the size of most fairies causing them to appear awkwardly small. All of these kinds of fairy are not exclusive and can be mixed ie. a fairy can be both a Szhoom and an Ahlookaro.
-	The Fairy kingdom is split into four nations: Earth, Water, Wind, and Fire. all of the nations work together to try to improve the fairy kingdom as a whole. Each nation holds its own temperament.
+Stature - Small, Average height 1'6"
+Description: There are four major kinds of fairies; the Shaoothuto, the Ahlookaro, the Szhoom, and the Ecall. The Shaoothuto are the most common type of fairy standing between 1’ and 2’ with an average weight of about 22 lb. Their skin colors vary between varieties of green, blue, purple, yellow, or red. Shaoothuto skin is covered in spots a slightly darker hue than their skin in a variety of patterns. Their hair is usually some shade of their skin color. Ecall, the rarest variety of fairy, are shaped like a Shaoothuto but have human coloring. Ahlookaro is a term used to describe a fairy with some animal feature ie. a cat tail, bird wings instead of fairy wings, etc. Finally Szhoom is a term used to describe a large fairy. Szhoom usually stand between 2’ and 3’ tall and generally have a larger frame than other fairies. Despite their bigger size, their wings remain about the size of most fairies causing them to appear awkwardly small. All of these kinds of fairy are not exclusive and can be mixed ie. a fairy can be both a Szhoom and an Ahlookaro.
+The Fairy kingdom is split into four nations: Earth, Water, Wind, and Fire. all of the nations work together to try to improve the fairy kingdom as a whole. Each nation holds its own temperament.
 Earth - Generally, Fairies from the earth nation express themselves through their craft. They take whatever job is required of them and make it their own. They are usually agreeable people; however, it is hard to change an earth fairy’s mind.
 Water - Generally, Fairies from the water nation are observers and learners. They enjoy the freedom to observe the world around them.
 Wind - Generally, Fairies from the wind nation are fleety and free. They tend to act on their instinct rather than logic. 
@@ -48,41 +54,44 @@ Fire - Generally, Fairies from the fire nation express themselves through contro
 KinFairy
 ------------------
 KinFelucian
+Stature - Medium, Average height
 Null
 KinFelucian
 ------------------
 KinGi-GaYo-Na
+Stature - Large, Average height
 Null
 KinGi-GaYo-Na
 ------------------
 KinGnome
-Gnome - Prowess S, Average Height – 1’
-        	Description:
+Stature - Small, Average Height – 1’
 Gnomes are short and stout, and their head come to a gentle point. They are highly-intelligent and creative beings who tend to be quite unpleasant to other intelligent races. Gnomes are often extremely prejudiced against non-gnomes and tend to be short tempered as well. Not all gnomes feel like this however, and their incredible aptitude for inventing and tinkering with small, intricately crafted items makes them highly appreciated in diverse societies. In fact, the incredibly fine craftsmanship of their little inventions surpasses even dwarven technology, in many ways.  
 KinGnome
 ------------------
 KinGoblin
-Goblin - Prowess S Average Height – 4’
-        	Description: Goblins average around 4 to 5 feet tall. They are thin with smooth green to brown skin. They have slightly pointed ears, long arms, shorter legs, thin black hair and large eyes. Goblins are light on their feet and nimble and are quick to catch onto things and learn.
+Stature - Small, Average Height – 4’
+Description: Goblins average around 4 to 5 feet tall. They are thin with smooth green to brown skin. They have slightly pointed ears, long arms, shorter legs, thin black hair and large eyes. Goblins are light on their feet and nimble and are quick to catch onto things and learn.
 KinGoblin
 ------------------
 KinHighElf
-High Elf - Prowess M Average Height 6’6”
-	Description: High elves are relatively uncommon outside their homeland in the Golden Dove kingdom. They are usually very proud of their heritage, and most of them hundreds, if not thousands, of years old. Not naturally inclined to put themselves at risk, they often prefer archery to keep danger at a distance. However, this isn't usually necessary, as they are the most magic-affine kin among those commonly found around Wilshire, with a large majority of their kin being able to use magic. For this reason, as well as their ever-graceful appearances and suitably haughty demeanor, they are often seen as prim cowards.
+Stature - Medium, Average Height 6’6”
+Description: High elves are relatively uncommon outside their homeland in the Golden Dove kingdom. They are usually very proud of their heritage, and most of them hundreds, if not thousands, of years old. Not naturally inclined to put themselves at risk, they often prefer archery to keep danger at a distance. However, this isn't usually necessary, as they are the most magic-affine kin among those commonly found around Wilshire, with a large majority of their kin being able to use magic. For this reason, as well as their ever-graceful appearances and suitably haughty demeanor, they are often seen as prim cowards.
 KinHighElf
 ------------------
 KinFaerleth
+Stature - , Average height
 null
 KinFaerleth
 ------------------
 KinJadeImperial
-Jade Imperial  - Prowess M, Average Height – 5’6’’
-        	Description:The Jade Imperials stand between 5’3’’ and 5’9’’. They have an average weight of 140 lb. Their hair is primarily brown and black. Their skin ranges between tan and pale and appears slightly translucent similar to the quality of jade. When a Jade Imperial dies, their body is converted into a variety jade depending on their lifestyle. Using magic this jade is crafted into weapons, armor, jewelry, etc. Most of the infrastructure of jade imperial cities is made from jade. Jade imperials are known for their ambition, which shows through in the strength of their central government, strong military, progressive society, and shrewd business dealing. Most Jade Imperials come a small capital island that is the largest in a chain of islands known as the Jade isles. The Capital island is a densely populated city made almost entirely of jade. Although most Jades come from the Jade isles, many small Jade Imperial towns can be found along coastlines of various different nations.
-	Jade Imperials are cohesive in groups. They value ambition, responsibility, and family. They are strengthened by the knowledge that they are a piece of a greater puzzle. 
+Stature - Medium, Average Height 5’6"
+The Jade Imperials stand between 5’3" and 5’9". They have an average weight of 140 lb. Their hair is primarily brown and black. Their skin ranges between tan and pale and appears slightly translucent similar to the quality of jade. When a Jade Imperial dies, their body is converted into a variety jade depending on their lifestyle. Using magic this jade is crafted into weapons, armor, jewelry, etc. Most of the infrastructure of jade imperial cities is made from jade. Jade imperials are known for their ambition, which shows through in the strength of their central government, strong military, progressive society, and shrewd business dealing. Most Jade Imperials come a small capital island that is the largest in a chain of islands known as the Jade isles. The Capital island is a densely populated city made almost entirely of jade. Although most Jades come from the Jade isles, many small Jade Imperial towns can be found along coastlines of various different nations.
+Jade Imperials are cohesive in groups. They value ambition, responsibility, and family. They are strengthened by the knowledge that they are a piece of a greater puzzle. 
 KinJadeImperial
 ------------------
 KinKinsmen
-Average Human
+Stature - Medium, Average height
+Null
 KinKinsmen
 ------------------
 KinK----------
@@ -90,16 +99,17 @@ Null
 KinK----------
 ------------------
 KinMinotaur
+Stature - Large, Average height
 Null
 KinMinotaur
 ------------------
 KinNyad
-Nyad - Prowess M Average Height 5’
-        	Description:
-Nyads human like in shape with blue to green skin, light lined patterns on their skin down the middle of their bodies and limbs and splotches of scales. Their skin is halfway between human and fish skin. Their feet are webbed and their hands are webbed halfway up the fingers. Their ears have fins/webbing coming off of them resembling the shape of elf ears. Their teeth come to a point, they have slitted eyes and gills under their ears. Different Nyads can potentially have different colored accents on their webbing or patterns. You can tell geographically where a nyad is from by its skin tone. Darker colors are from deeper ocean or ocean shelfs, lighter colors are from the shallows, brighter colors are from reefs, and there are a very small number of river nyads that tend to be a more brown color. River nyads also have a more streamlined body and features. They are easy going, follow rules that are in place well, and are very conscious about keeping things clean and tidy.
+Stature - Medium, Height 5’6"
+Nyads have blue to green skin, light lined patterns on their skin down the middle of their bodies and limbs and splotches of scales. Their skin is halfway between human and fish skin. Their feet are webbed and their hands are webbed halfway up the fingers. Their ears have fins/webbing coming off of them resembling the shape of elf ears. Their teeth come to a point, they have slitted eyes and gills under their ears. Different Nyads can potentially have different colored accents on their webbing or patterns. You can tell geographically where a nyad is from by its skin tone. Darker colors are from deeper ocean or ocean shelfs, lighter colors are from the shallows, brighter colors are from reefs, and there are a very small number of river nyads that tend to be a more brown color. River nyads also have a more streamlined body and features. They are easy going, follow rules that are in place well, and are very conscious about keeping things clean and tidy.
 KinNyad
 ------------------
 KinOrc
+Stature - Large, Average height
 Null
 KinOrc
 ------------------
@@ -108,6 +118,7 @@ Null
 KinP----------
 ------------------
 KinSanjoran
+Stature - Small, Average height
 Null
 KinSanjoran
 ------------------
@@ -116,28 +127,31 @@ Null
 KinS---------
 ------------------
 KinSquirrels 
+Stature - Small, Average height 1'
 Null
 KinSquirrels 
 ------------------
 KinTroll
+Stature - Large, Average height
 Null
 KinTroll
 ------------------
 KinWastelander
+Stature - Medium, Average height
 Null
 KinWastelander
 ------------------
 KinWolfsbein
+Stature - Large, Average height
 Null
 KinWolfsbein
 ------------------
 KinWoodElf
+Stature - Medium, Average height
 Null
 KinWoodElf
 -----------------------Attributes-------------------------
 AttributeAngalucian
-
-Angalucian - Weight Capacity 80
 
 Flight - The player can take off into the air and fly for 5 minutes, can not attack or be attacked except by other airborne targets or artillery weapons. (OPQ)
 
@@ -197,7 +211,7 @@ AttributeDryad
 
 Rooted- Allows a player to hold their ground. The player can’t move, can’t be moved, and can’t be knocked down. If the player moves this is broked. (OPQ)
 
-Nutrients- After 5 seconds of kneeling a player can refresh one use of a level 1 ability. (OPQ)
+Nutrients- After 7 seconds of kneeling a player can refresh one use of a level 1 ability. (OPQ)
 
 Barkskin- Player gets 2 extra Hp points on top of their health that refreshes after every encounter.
 
@@ -219,11 +233,17 @@ AttributeE--------
 ------------------
 AttributeFairy
 
-Flutter - Allows the player to fly a short distance. Could be used to escape in open areas, or access high places, etc. (OPQ)
+Freedom - Allows the player to sense the next step or direction to the quickest exit. (OPQ)
 
-Illumination - Allows the player to light up a 10’ radius around them in a dark area.
+Flutter - Allows the player to fly a short distance. Could be used to escape in open areas, or access high places, etc. (OPEn)
 
-Plant Telepathy - Allows the player to talk to plants, or leave messages with them.
+Robust - J’hum - The player’s strength counts as medium kin.
+
+Animal Heart - Alucaro - Allows the player to consult in the creation of an animal transformation scroll. (scroll writing is still required to create the scroll) once per event.
+
+Illumination - Shauthuto - Allows the player to light up a 10’ radius around them for an encounter in a dark area. (OPQ)
+
+Plant Telepathy - Ecall - Allows the player to talk to plants, or leave messages with them.
 
 AttributeFairy
 ------------------
@@ -249,11 +269,11 @@ AttributeGi-GaYo-Na
 ------------------
 AttributeGnome
 
-Trinkets - Allows a player to fix small things.
+Tinker - Allows a player to understand, fix, or break anything with mechanical moving parts so long as they can see, hear, or feel it.
 
-Efficient Armor - Armor is 75% purchase and 1 less Weight. Cannot be less than 0.
+Optimized Armor - Armor is 1 less Weight if light, 2 less weight if medium or heavy, and 3 less weight if ultra heavy. Light armor that already weighs 1 becomes Partial weight. 
 
-Small Size - Allows the player to go through tight spots head first. Cannot get stuck in a small space.
+Head First - Allows the player to maneuver small spaces without getting stuck.
 
 AttributeGnome
 ------------------
@@ -323,21 +343,27 @@ AttributeMinotaur
 ------------------
 AttributeNyad
 
-Water Affinity - Allows the player breath and move freely underwater.
+Water Affinity - Allows the player to breathe and move freely underwater including vertical motion and can roleplay moving faster than common people. Additionally can’t be knocked down.
 
-Squeeze - Allows the player to turn themselves into the form of a puddle in order to fit into small spaces and move through cracks. (OPQ)
+Liquefy - Allows the player to turn themselves into water for 2 seconds. Can be uses to ignore the damage of anything non-magic but must be called before, not as a reaction. (OPQ)
 
-Taint - Allows the player to tell what is in water, mainly if its been poisoned, or otherwise tainted and how.
+Impurities - (Shallow ocean) - Allows the player to tell what is in water, mainly if its been poisoned, or otherwise tainted, and how.
+
+The Bigger They Are - (Deep ocean) - When facing a creature that is 10 feet or larger the player can choose between adding 1 dr or adding 1 damage to their attacks and can resist any fear type effects because of that creature.
+
+Flow - (River) - Can ignore any type of displacement caused by a strong current (Wind, Water, Pulse, Etc).
 
 AttributeNyad
 ------------------
 AttributeOrc
 
-Feel No Pain - Allows the player to feel no pain.
+Staunch - Allows the player to feel no pain.
 
-Blood Pool - Player has an infinite blood supply.
+Inexhaustible - Player has an effectively infinite blood supply.
 
-Gruff - Allows the player to negate a physical effect related to cold. (OPQ)
+Ruthless - Allows the player to ignore non-damage effects of Tier 1 R1 and R2 hydromancy for an encounter. OPQ
+
+*Surge* - Allows the player to absorb the dissipating energy from any spell that negatively affects them; channelling it into 3 extra damage on their next attack.
 
 AttributeOrc
 ------------------
@@ -361,9 +387,11 @@ AttributeS----------
 ------------------
 AttributeSquirrels
 
+Honored Gift - If you are given a weapon that has an etching with some character significance to you. You get a buff to that weapon/ shield? 
+
 Tactical Withdrawal - Allows player to exit a fight if in a wooded area. (OPQ)
 
-Honor Duel - Allows a player to call an honor duel and force a 1 on 1 fight with a combative opponent. (OPQ)
+Honor Duel - Allows a player to call an honor duel and force a 1 on 1 fight with a combative opponent. (No combat halting effects can occur during the duel) (OPQ)
 
 Forage - The player does not need food if in a wooded area.
 
@@ -462,27 +490,46 @@ Courier- Can escape danger by moving efficiently and inconspicuously through the
 Backgrounds
 -----------------------Class-----------------------
 ClassCleric
-null
+Clerics have the ability to become Paladins or Soothsayers within Wilshire’s Brotherhood of Clerics. Although they are known as capable fighters, their special abilities involve white-magic (often called miracles), with the combat abilities being reserved for clerics that are chosen to become paladins. Regardless of guild faction, all clerics are privy to advanced knowledge and skill in alchemy/potion-making.. 
+Clerics can also master the ability to mend broken equipment with a special discipline. Although this was once considered heresy, this knowledge is now a guarded secret, taught only to ranking members of the church. Nevertheless, Clerics are best known for the miracles of resurrection which they can perform on recently killed allies. 
+
+Potions 
+Allows you to make potions as long as you have the materials to make them.
+
+Born Anew
+Revive a knocked out target.
+
+Convert 
+Converts some talent damage done to or blocked by the player into a shield that goes over armor. Can be used on themselves or anyone in their reach.
+
+Healing
+Allows the player to heal themselves or someone else
+
+Remedy
+Removes poisons, diseases and any simple toxins.
+
 ClassCleric
 ------------------
 ClassNoble
-null
+Nobles are negotiators and experts. Although they may not be particularly gifted in any way that makes them conspicuously useful to adventurers, the adventuring type of noble combines their education and their shrewdness to get what they want. 
+Far from the lofty, arrogant, braggart stereotype, these nobles usually have pockets and minds that are deeper than they let on; often relying on their enemies to underestimate them. Their monetary assets, managerial ability, and of course, their respected bloodline, allow them to easily manage large estates from afar while adventuring. 
 ClassNoble
 ------------------
 ClassRanger
-null
+A more respected, and considerably less shady master of the silent kill, these versatile survivors tend to specialize in the noble field of archery. They are often cautions, but not cowardly, and due to their deep attunement to the instinct of self preservation, they can find food anywhere, and hunt opponents from a distance, making nary a sound.
 ClassRanger
 ------------------
 ClassRogue
-null
+A surprisingly wide variety of people train in this mysterious, ninja-like discipline, and routinely vanish into thin air. The less honorable among them have the ability to master the darker side of combat, employing diseases, poisons, and stealthy armor-piercing stabs. Some rogues with a different sense of nobility and honor may find the arts of obtaining things without murder more to their tastes: With inexplicably deft movements, they can quietly take things from their enemies, or devise silver-tongued trickeries that can be useful in a variety of situations. They may not be Nobles, but some rogues pride themselves on talking like them. (get to choose 1 of their special Slots to start with are - Vanish can't move or be seen for 15 sec, hide can't move and has to be behind or next to something to be not seen until either heard or seen from behind, or invisible for 10 sec which allows you to move around and not be seen)
 ClassRogue
 ------------------
 ClassVoidKnight
-null
+Void knights are fighters that use power from the void. They mainly use this power to nullify magic and specialize in fighting wizards by nullifying their spells, reflecting spells, teleporting to the source of magic, etc. The guilds two factions are the Templars, fighters that use the void as a more direct source of combat aid, and witch hunters, who focus completely on nullifying anything a magic user could do. 
+The Void Knight Guild is housed in a large stone building. Right in the entrance is a table and the vault, past that is an open hall with tables and some bookshelves. There are large indents in the wall each containing a constant flow of one of the six kinds of magic for practice. Hallways on the side lead to the Templar and Witch hunter factions and a hallway in the back leads to a large open training room. 	
 ClassVoidKnight
 ------------------
 ClassWarrior
-null
+Warriors typically train to a high proficiency in their weapon(s) of choice, and can wear heavier armor than than the others of their race.This allows them to both deal, and withstand relatively high damage, even more so depending on their specialization. Making use of physical combat skills like knockdown or crushing blow, they can end a fight very quickly with a decent weapon. Despite (or perhaps in part, due to) their physical prowess, they can be particularly susceptible to magic, diseases, and poisons.
 ClassWarrior
 ------------------
 ClassHydromancy
