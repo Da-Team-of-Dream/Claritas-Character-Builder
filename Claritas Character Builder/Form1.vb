@@ -7309,6 +7309,10 @@
         ConstructInfoForm("Modifiers")
     End Sub
 
+    Private Sub PanelHalfbreed_Paint(sender As Object, e As PaintEventArgs) Handles PanelHalfbreed.Paint
+
+    End Sub
+
 
 #End Region
 End Class
