@@ -96,9 +96,13 @@
     End Sub
 
     Private Sub ButtonWelcomeKin_Click(sender As Object, e As EventArgs) Handles ButtonWelcomeKin.Click
-        Me.PanelKin.Enabled = True
-        Me.PanelKin.BringToFront()
-        Me.PanelWelcome.Enabled = False
+        If TextboxWelcomePlayername.Text = "" Or TextboxWelcomePlayerage.Text = "" Then
+            MsgBox("Please enter your name and age.")
+        Else
+            Me.PanelKin.Enabled = True
+            Me.PanelKin.BringToFront()
+            Me.PanelWelcome.Enabled = False
+        End If
     End Sub
 
     Private Sub ButtonKinWelcome_Click(sender As Object, e As EventArgs) Handles ButtonKinWelcome.Click
@@ -949,9 +953,13 @@
     End Sub
 
     Private Sub ButtonBackgroundsClass_Click(sender As Object, e As EventArgs) Handles ButtonBackgroundsClass.Click
-        PanelClass.BringToFront()
-        PanelBackgrounds.Enabled = False
-        PanelClass.Enabled = True
+        If BackgroundCount() Then
+            PanelClass.BringToFront()
+            PanelBackgrounds.Enabled = False
+            PanelClass.Enabled = True
+        Else
+            MsgBox("Please select 2 Backgrounds!!")
+        End If
     End Sub
 #End Region
 
@@ -965,8 +973,8 @@
             PanelNoble.Enabled = True
             PanelClass.Enabled = False
         ElseIf RadioButtonClassRanger.Checked Then
-            PanelNoble.BringToFront()
-            PanelNoble.Enabled = True
+            PanelRanger.BringToFront()
+            PanelRanger.Enabled = True
             PanelClass.Enabled = False
         ElseIf RadioButtonClassVoidKnight.Checked Then
             PanelVoidknight.BringToFront()
@@ -1982,11 +1990,11 @@
 #Region "ClericTalents"
 
     Private Sub ButtonClericHealingPlus_Click(sender As Object, e As EventArgs) Handles ButtonClericHealingPlus.Click
-        If XP < (HP + 2) Then
+        If XP < 5 Then
             MsgBox("You do not have enough XP!!")
         Else
-            HP = HP + 1
-            XP = XP - HP - 1
+            Healing = Healing + 1
+            XP = XP - 5
         End If
         TalentLableChange()
     End Sub
@@ -2204,7 +2212,13 @@
     End Sub
 
     Private Sub ButtonClericHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonClericHealthPlus.Click
-
+        If XP < (HP + 2) Then
+            MsgBox("You do not have enough XP!!")
+        Else
+            HP = HP + 1
+            XP = XP - HP - 1
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonClericScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonClericScrollwritingPlus.Click
@@ -3458,10 +3472,12 @@
 #Region "KinesioKairoTalents"
     Private Sub ButtonKinesiokairoSurgePlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoSurgePlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Surge = 2) Or (XP < 10 And Surge = 1) Or (XP < 15 And Surge = 0) Then
+            If (XP < 5 And Surge >= 2) Or (XP < 10 And Surge = 1) Or (XP < 15 And Surge = 0 And LightningBolt <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Surge = 1 Then
+                If Surge = 0 And LightningBolt = 0 Then
+                    XP = XP - 10
+                ElseIf Surge = 1 Then
                     XP = XP - 10
                 ElseIf Surge > 1 Then
                     XP = XP - 5
@@ -3474,22 +3490,26 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Surge + LightningBolt = 0) Or XP >= 5 Then
+                If (Surge + LightningBolt) <> 0 Then
+                    XP = XP - 5
+                End If
                 Surge = Surge + 1
-                XP = XP - 5
-            End If
+            Else
+                MsgBox("You do not have enough XP!!")
+                End If
         End If
         TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiokairoLightningboltPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoLightningboltPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And LightningBolt = 2) Or (XP < 10 And LightningBolt = 1) Or (XP < 15 And LightningBolt = 0) Then
+            If (XP < 5 And LightningBolt >= 2) Or (XP < 10 And LightningBolt = 1) Or (XP < 15 And LightningBolt = 0 And Surge <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If LightningBolt = 1 Then
+                If Surge = 0 And LightningBolt = 0 Then
+                    XP = XP - 10
+                ElseIf LightningBolt = 1 Then
                     XP = XP - 10
                 ElseIf LightningBolt > 1 Then
                     XP = XP - 5
@@ -3502,11 +3522,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Surge + LightningBolt = 0) Or XP >= 5 Then
+                If (Surge + LightningBolt) <> 0 Then
+                    XP = XP - 5
+                End If
                 LightningBolt = LightningBolt + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -3751,11 +3773,29 @@
     End Sub
 
     Private Sub ButtonKinesiokairoSurgeMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoSurgeMinus.Click
-
+        If SurgeR2 > 0 Then
+            SurgeR2 = SurgeR2 - 1
+            XP = XP + 5
+        ElseIf (Surge + LightningBolt = 1) Then
+            Surge = Surge - 1
+        ElseIf surge > 0 Then
+            Surge = Surge - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiokairoLightningboltMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoLightningboltMinus.Click
-
+        If LightningBoltR2 > 0 Then
+            LightningBoltR2 = LightningBoltR2 - 1
+            XP = XP + 5
+        ElseIf (Surge + LightningBolt = 1) Then
+            LightningBolt = LightningBolt - 1
+        ElseIf LightningBolt > 0 Then
+            LightningBolt = LightningBolt - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiokairoForestryMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoForestryMinus.Click
@@ -3865,10 +3905,12 @@
 #Region "KinesioPyroTalents"
     Private Sub ButtonKinesiopyroSurgePlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroSurgePlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Surge = 2) Or (XP < 10 And Surge = 1) Or (XP < 15 And Surge = 0) Then
+            If (XP < 5 And Surge >= 2) Or (XP < 10 And Surge = 1) Or (XP < 15 And Surge = 0 And Fireball <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Surge = 1 Then
+                If Surge = 0 And Fireball = 0 Then
+                    XP = XP - 10
+                ElseIf Surge = 1 Then
                     XP = XP - 10
                 ElseIf Surge > 1 Then
                     XP = XP - 5
@@ -3881,11 +3923,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Surge + Fireball = 0) Or XP >= 5 Then
+                If (Surge + Fireball) <> 0 Then
+                    XP = XP - 5
+                End If
                 Surge = Surge + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -3893,10 +3937,12 @@
 
     Private Sub ButtonKinesiopyroFireballPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroFireballPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Fireball = 2) Or (XP < 10 And Fireball = 1) Or (XP < 15 And Fireball = 0) Then
+            If (XP < 5 And Fireball >= 2) Or (XP < 10 And Fireball = 1) Or (XP < 15 And Fireball = 0 And Surge <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Fireball = 1 Then
+                If Surge = 0 And Fireball = 0 Then
+                    XP = XP - 10
+                ElseIf Fireball = 1 Then
                     XP = XP - 10
                 ElseIf Fireball > 1 Then
                     XP = XP - 5
@@ -3909,11 +3955,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Surge + Fireball = 0) Or XP >= 5 Then
+                If (Surge + Fireball) <> 0 Then
+                    XP = XP - 5
+                End If
                 Fireball = Fireball + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -4158,11 +4206,29 @@
     End Sub
 
     Private Sub ButtonKinesiopyroSurgeMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroSurgeMinus.Click
-
+        If SurgeR2 > 0 Then
+            SurgeR2 = SurgeR2 - 1
+            XP = XP + 5
+        ElseIf (Surge + Fireball = 1) Then
+            Surge = Surge - 1
+        ElseIf Surge > 0 Then
+            Surge = Surge - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiopyroFireballMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroFireballMinus.Click
-
+        If FireballR2 > 0 Then
+            FireballR2 = SurgeR2 - 1
+            XP = XP + 5
+        ElseIf (Surge + Fireball = 1) Then
+            Fireball = Fireball - 1
+        ElseIf Fireball > 0 Then
+            Fireball = Fireball - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiopyroForestyMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroForestyMinus.Click
@@ -4263,12 +4329,14 @@
 #Region "KinesioHydroTalents"
     Private Sub ButtonKinesiohydroSurgePlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroSurgePlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Surge = 2) Or (XP < 10 And Surge = 1) Or (XP < 15 And Surge = 0) Then
+            If (XP < 5 And Surge >= 2) Or (XP < 10 And Surge = 1) Or (XP < 15 And Surge = 0 And Snowball <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Surge = 1 Then
+                If Surge = 0 And Snowball = 0 Then
                     XP = XP - 10
-                ElseIf Surge > 1 Then
+                ElseIf surge = 1 Then
+                    XP = XP - 10
+                ElseIf surge > 1 Then
                     XP = XP - 5
                 Else
                     XP = XP - 15
@@ -4279,11 +4347,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Surge + Snowball = 0) Or XP >= 5 Then
+                If (Surge + Snowball) <> 0 Then
+                    XP = XP - 5
+                End If
                 Surge = Surge + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -4291,12 +4361,14 @@
 
     Private Sub ButtonKinesiohydroSnowballPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroSnowballPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Snowball = 2) Or (XP < 10 And Snowball = 1) Or (XP < 15 And Snowball = 0) Then
+            If (XP < 5 And Snowball >= 2) Or (XP < 10 And Snowball = 1) Or (XP < 15 And Snowball = 0 And Surge <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Snowball = 1 Then
+                If Surge = 0 And Snowball = 0 Then
                     XP = XP - 10
-                ElseIf Fireball > 1 Then
+                ElseIf Snowball = 1 Then
+                    XP = XP - 10
+                ElseIf Snowball > 1 Then
                     XP = XP - 5
                 Else
                     XP = XP - 15
@@ -4307,11 +4379,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Surge + Snowball = 0) Or XP >= 5 Then
+                If (Surge + Snowball) <> 0 Then
+                    XP = XP - 5
+                End If
                 Snowball = Snowball + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -4556,11 +4630,29 @@
     End Sub
 
     Private Sub ButtonKinesiohydroSurgeMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroSurgeMinus.Click
-
+        If SurgeR2 > 0 Then
+            SurgeR2 = SurgeR2 - 1
+            XP = XP + 5
+        ElseIf (Surge + Snowball = 1) Then
+            Surge = Surge - 1
+        ElseIf Surge > 0 Then
+            Surge = Surge - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiohydroSnowballMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroSnowballMinus.Click
-
+        If SnowballR2 > 0 Then
+            SnowballR2 = SnowballR2 - 1
+            XP = XP + 5
+        ElseIf (Surge + Snowball = 1) Then
+            Snowball = Snowball - 1
+        ElseIf Snowball > 0 Then
+            Snowball = Snowball - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiohydroForestryMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroForestryMinus.Click
@@ -4669,10 +4761,12 @@
 #Region "NecroKairoTalents"
     Private Sub ButtonNecrokairoLifesyphonPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoLifesyphonPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And LifeSyphon = 2) Or (XP < 10 And LifeSyphon = 1) Or (XP < 15 And LifeSyphon = 0) Then
+            If (XP < 5 And LifeSyphon >= 2) Or (XP < 10 And LifeSyphon = 1) Or (XP < 15 And LifeSyphon = 0 And LightningBolt <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If LifeSyphon = 1 Then
+                If LifeSyphon = 0 And LightningBolt = 0 Then
+                    XP = XP - 10
+                ElseIf LifeSyphon = 1 Then
                     XP = XP - 10
                 ElseIf LifeSyphon > 1 Then
                     XP = XP - 5
@@ -4685,11 +4779,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (LifeSyphon + LightningBolt = 0) Or XP >= 5 Then
+                If (LifeSyphon + LightningBolt) <> 0 Then
+                    XP = XP - 5
+                End If
                 LifeSyphon = LifeSyphon + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -4697,27 +4793,31 @@
 
     Private Sub ButtonNecrokairoLightningboltPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoLightningboltPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And LightningBolt = 2) Or (XP < 10 And LightningBolt = 1) Or (XP < 15 And LightningBolt = 0) Then
+            If (XP < 5 And LightningBolt >= 2) Or (XP < 10 And LightningBolt = 1) Or (XP < 15 And LightningBolt = 0 And LifeSyphon <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If LightningBolt = 1 Then
+                If LifeSyphon = 0 And LightningBolt = 0 Then
+                    XP = XP - 10
+                ElseIf LightningBolt = 1 Then
                     XP = XP - 10
                 ElseIf LightningBolt > 1 Then
                     XP = XP - 5
                 Else
                     XP = XP - 15
                 End If
-                LightningBoltR2 = LightningBoltR2 + 1
+                LightningBolt = LightningBolt + 1
                 If LightningBolt < 2 Then
                     LightningBolt = 2
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (LifeSyphon + LightningBolt = 0) Or XP >= 5 Then
+                If (LifeSyphon + LightningBolt) <> 0 Then
+                    XP = XP - 5
+                End If
                 LightningBolt = LightningBolt + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -5075,10 +5175,12 @@
 #Region "NecroPyroTalents"
     Private Sub ButtonNecropyroLifesyphonPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroLifesyphonPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And LifeSyphon = 2) Or (XP < 10 And LifeSyphon = 1) Or (XP < 15 And LifeSyphon = 0) Then
+            If (XP < 5 And LifeSyphon >= 2) Or (XP < 10 And LifeSyphon = 1) Or (XP < 15 And LifeSyphon = 0 And Fireball <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If LifeSyphon = 1 Then
+                If LifeSyphon = 0 And Fireball = 0 Then
+                    XP = XP - 10
+                ElseIf LifeSyphon = 1 Then
                     XP = XP - 10
                 ElseIf LifeSyphon > 1 Then
                     XP = XP - 5
@@ -5091,11 +5193,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (LifeSyphon + Fireball = 0) Or XP >= 5 Then
+                If (LifeSyphon + Fireball) <> 0 Then
+                    XP = XP - 5
+                End If
                 LifeSyphon = LifeSyphon + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -5103,10 +5207,12 @@
 
     Private Sub ButtonNecropyroFireballPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroFireballPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Fireball = 2) Or (XP < 10 And Fireball = 1) Or (XP < 15 And Fireball = 0) Then
+            If (XP < 5 And Fireball >= 2) Or (XP < 10 And Fireball = 1) Or (XP < 15 And Fireball = 0 And LifeSyphon <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Fireball = 1 Then
+                If LifeSyphon = 0 And Fireball = 0 Then
+                    XP = XP - 10
+                ElseIf Fireball = 1 Then
                     XP = XP - 10
                 ElseIf Fireball > 1 Then
                     XP = XP - 5
@@ -5119,11 +5225,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (LifeSyphon + Fireball = 0) Or XP >= 5 Then
+                If (LifeSyphon + Fireball) <> 0 Then
+                    XP = XP - 5
+                End If
                 Fireball = Fireball + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -5480,10 +5588,12 @@
 #Region "NecroHydroTalents"
     Private Sub ButtonNecrohydroLifesyphonPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroLifesyphonPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And LifeSyphon = 2) Or (XP < 10 And LifeSyphon = 1) Or (XP < 15 And LifeSyphon = 0) Then
+            If (XP < 5 And LifeSyphon >= 2) Or (XP < 10 And LifeSyphon = 1) Or (XP < 15 And LifeSyphon = 0 And Snowball <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If LifeSyphon = 1 Then
+                If LifeSyphon = 0 And Snowball = 0 Then
+                    XP = XP - 10
+                ElseIf LifeSyphon = 1 Then
                     XP = XP - 10
                 ElseIf LifeSyphon > 1 Then
                     XP = XP - 5
@@ -5496,11 +5606,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (LifeSyphon + Snowball = 0) Or XP >= 5 Then
+                If (LifeSyphon + Snowball) <> 0 Then
+                    XP = XP - 5
+                End If
                 LifeSyphon = LifeSyphon + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -5508,12 +5620,14 @@
 
     Private Sub ButtonNecrohydroSnowballPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroSnowballPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Snowball = 2) Or (XP < 10 And Snowball = 1) Or (XP < 15 And Snowball = 0) Then
+            If (XP < 5 And Snowball >= 2) Or (XP < 10 And Snowball = 1) Or (XP < 15 And Snowball = 0 And LifeSyphon <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Snowball = 1 Then
+                If LifeSyphon = 0 And Snowball = 0 Then
                     XP = XP - 10
-                ElseIf Fireball > 1 Then
+                ElseIf Snowball = 1 Then
+                    XP = XP - 10
+                ElseIf Snowball > 1 Then
                     XP = XP - 5
                 Else
                     XP = XP - 15
@@ -5524,11 +5638,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (LifeSyphon + Snowball = 0) Or XP >= 5 Then
+                If (LifeSyphon + Snowball) <> 0 Then
+                    XP = XP - 5
+                End If
                 Snowball = Snowball + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -5884,10 +6000,12 @@
 #Region "NeuroKairoTalents"
     Private Sub ButtonNeurokairoMigrainePlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoMigrainePlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Migraine = 2) Or (XP < 10 And Migraine = 1) Or (XP < 15 And Migraine = 0) Then
+            If (XP < 5 And Migraine >= 2) Or (XP < 10 And Migraine = 1) Or (XP < 15 And Migraine = 0 And LightningBolt <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Migraine = 1 Then
+                If Migraine = 0 And LightningBolt = 0 Then
+                    XP = XP - 10
+                ElseIf Migraine = 1 Then
                     XP = XP - 10
                 ElseIf Migraine > 1 Then
                     XP = XP - 5
@@ -5900,11 +6018,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Migraine + LightningBolt = 0) Or XP >= 5 Then
+                If (Migraine + LightningBolt) <> 0 Then
+                    XP = XP - 5
+                End If
                 Migraine = Migraine + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -5912,10 +6032,12 @@
 
     Private Sub ButtonNeurokairoLightningboltPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoLightningboltPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And LightningBolt = 2) Or (XP < 10 And LightningBolt = 1) Or (XP < 15 And LightningBolt = 0) Then
+            If (XP < 5 And LightningBolt >= 2) Or (XP < 10 And LightningBolt = 1) Or (XP < 15 And LightningBolt = 0 And Migraine <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If LightningBolt = 1 Then
+                If Migraine = 0 And LightningBolt = 0 Then
+                    XP = XP - 10
+                ElseIf LightningBolt = 1 Then
                     XP = XP - 10
                 ElseIf LightningBolt > 1 Then
                     XP = XP - 5
@@ -5928,11 +6050,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Migraine + LightningBolt = 0) Or XP >= 5 Then
+                If (Migraine + LightningBolt) <> 0 Then
+                    XP = XP - 5
+                End If
                 LightningBolt = LightningBolt + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -6290,10 +6414,12 @@
 #Region "NeuroPyroTalents"
     Private Sub ButtonNeuropyroMigrainePlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroMigrainePlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Migraine = 2) Or (XP < 10 And Migraine = 1) Or (XP < 15 And Migraine = 0) Then
+            If (XP < 5 And Migraine >= 2) Or (XP < 10 And Migraine = 1) Or (XP < 15 And Migraine = 0 And Fireball <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Migraine = 1 Then
+                If Migraine = 0 And Fireball = 0 Then
+                    XP = XP - 10
+                ElseIf Migraine = 1 Then
                     XP = XP - 10
                 ElseIf Migraine > 1 Then
                     XP = XP - 5
@@ -6306,11 +6432,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Migraine + Fireball = 0) Or XP >= 5 Then
+                If (Migraine + Fireball) <> 0 Then
+                    XP = XP - 5
+                End If
                 Migraine = Migraine + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -6318,10 +6446,12 @@
 
     Private Sub ButtonNeuropyroFireballPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroFireballPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Fireball = 2) Or (XP < 10 And Fireball = 1) Or (XP < 15 And Fireball = 0) Then
+            If (XP < 5 And Fireball >= 2) Or (XP < 10 And Fireball = 1) Or (XP < 15 And Fireball = 0 And Migraine <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Fireball = 1 Then
+                If Migraine = 0 And Fireball = 0 Then
+                    XP = XP - 10
+                ElseIf Fireball = 1 Then
                     XP = XP - 10
                 ElseIf Fireball > 1 Then
                     XP = XP - 5
@@ -6334,11 +6464,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Migraine + Fireball = 0) Or XP >= 5 Then
+                If (Migraine + Fireball) <> 0 Then
+                    XP = XP - 5
+                End If
                 Fireball = Fireball + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -6696,10 +6828,12 @@
 #Region "NeuroHydroTalents"
     Private Sub ButtonNeuroHydroMigrainePlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroMigrainePlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Migraine = 2) Or (XP < 10 And Migraine = 1) Or (XP < 15 And Migraine = 0) Then
+            If (XP < 5 And Migraine >= 2) Or (XP < 10 And Migraine = 1) Or (XP < 15 And Migraine = 0 And Snowball <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Migraine = 1 Then
+                If Migraine = 0 And Snowball = 0 Then
+                    XP = XP - 10
+                ElseIf Migraine = 1 Then
                     XP = XP - 10
                 ElseIf Migraine > 1 Then
                     XP = XP - 5
@@ -6712,11 +6846,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Migraine + Snowball = 0) Or XP >= 5 Then
+                If (Migraine + Snowball) <> 0 Then
+                    XP = XP - 5
+                End If
                 Migraine = Migraine + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -6724,12 +6860,14 @@
 
     Private Sub ButtonNeuroHydroSnowballPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroSnowballPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
-            If (XP < 5 And Snowball = 2) Or (XP < 10 And Snowball = 1) Or (XP < 15 And Snowball = 0) Then
+            If (XP < 5 And Snowball >= 2) Or (XP < 10 And Snowball = 1) Or (XP < 15 And Snowball = 0 And Migraine <> 0) Then
                 MsgBox("You do not have enough XP!!")
             Else
-                If Snowball = 1 Then
+                If Migraine = 0 And Snowball = 0 Then
                     XP = XP - 10
-                ElseIf Fireball > 1 Then
+                ElseIf Snowball = 1 Then
+                    XP = XP - 10
+                ElseIf Snowball > 1 Then
                     XP = XP - 5
                 Else
                     XP = XP - 15
@@ -6740,11 +6878,13 @@
                 End If
             End If
         Else
-            If XP < 5 Then
-                MsgBox("You do not have enough XP!!")
-            Else
+            If (Migraine + Snowball = 0) Or XP >= 5 Then
+                If (Migraine + Snowball) <> 0 Then
+                    XP = XP - 5
+                End If
                 Snowball = Snowball + 1
-                XP = XP - 5
+            Else
+                MsgBox("You do not have enough XP!!")
             End If
         End If
         TalentLableChange()
@@ -7235,6 +7375,7 @@
         End If
     End Sub
 #End Region
+
 #Region "Background Info"
     Private Sub ButtonBackgroundsInfo_Click(sender As Object, e As EventArgs) Handles ButtonBackgroundsInfo.Click
         ConstructInfoForm("Backgrounds")

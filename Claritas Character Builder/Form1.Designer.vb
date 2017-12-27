@@ -2690,10 +2690,10 @@ Partial Class Form1
         Me.RadioButtonSquirrelForage.Location = New System.Drawing.Point(356, 251)
         Me.RadioButtonSquirrelForage.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonSquirrelForage.Name = "RadioButtonSquirrelForage"
-        Me.RadioButtonSquirrelForage.Size = New System.Drawing.Size(123, 25)
+        Me.RadioButtonSquirrelForage.Size = New System.Drawing.Size(82, 25)
         Me.RadioButtonSquirrelForage.TabIndex = 5
         Me.RadioButtonSquirrelForage.TabStop = True
-        Me.RadioButtonSquirrelForage.Text = "Team Player"
+        Me.RadioButtonSquirrelForage.Text = "Forage"
         Me.RadioButtonSquirrelForage.UseVisualStyleBackColor = True
         '
         'RadioButtonSquirrelHonorDuel
@@ -2703,10 +2703,10 @@ Partial Class Form1
         Me.RadioButtonSquirrelHonorDuel.Location = New System.Drawing.Point(356, 198)
         Me.RadioButtonSquirrelHonorDuel.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonSquirrelHonorDuel.Name = "RadioButtonSquirrelHonorDuel"
-        Me.RadioButtonSquirrelHonorDuel.Size = New System.Drawing.Size(96, 25)
+        Me.RadioButtonSquirrelHonorDuel.Size = New System.Drawing.Size(114, 25)
         Me.RadioButtonSquirrelHonorDuel.TabIndex = 4
         Me.RadioButtonSquirrelHonorDuel.TabStop = True
-        Me.RadioButtonSquirrelHonorDuel.Text = "Ancestry"
+        Me.RadioButtonSquirrelHonorDuel.Text = "Honor Duel"
         Me.RadioButtonSquirrelHonorDuel.UseVisualStyleBackColor = True
         '
         'RadioButtonSquirrelTacticalWithdrawl
@@ -2716,10 +2716,10 @@ Partial Class Form1
         Me.RadioButtonSquirrelTacticalWithdrawl.Location = New System.Drawing.Point(356, 149)
         Me.RadioButtonSquirrelTacticalWithdrawl.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButtonSquirrelTacticalWithdrawl.Name = "RadioButtonSquirrelTacticalWithdrawl"
-        Me.RadioButtonSquirrelTacticalWithdrawl.Size = New System.Drawing.Size(112, 25)
+        Me.RadioButtonSquirrelTacticalWithdrawl.Size = New System.Drawing.Size(164, 25)
         Me.RadioButtonSquirrelTacticalWithdrawl.TabIndex = 3
         Me.RadioButtonSquirrelTacticalWithdrawl.TabStop = True
-        Me.RadioButtonSquirrelTacticalWithdrawl.Text = "Sanctioned"
+        Me.RadioButtonSquirrelTacticalWithdrawl.Text = "TacticalWithdrawl"
         Me.RadioButtonSquirrelTacticalWithdrawl.UseVisualStyleBackColor = True
         '
         'LabelSquirrelIntro
