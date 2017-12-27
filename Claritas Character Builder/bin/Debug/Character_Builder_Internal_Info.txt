@@ -513,47 +513,233 @@ ClassCleric
 ClassNoble
 Nobles are negotiators and experts. Although they may not be particularly gifted in any way that makes them conspicuously useful to adventurers, the adventuring type of noble combines their education and their shrewdness to get what they want. 
 Far from the lofty, arrogant, braggart stereotype, these nobles usually have pockets and minds that are deeper than they let on; often relying on their enemies to underestimate them. Their monetary assets, managerial ability, and of course, their respected bloodline, allow them to easily manage large estates from afar while adventuring. 
+
+Engineering
+Allows the player to propose a drawn idea and define the list of in game materials necessary for the in game creation of an invention once per event.
+
+Imperius
+You can demand peoples attention.
+
+Languages
+Allows the player to speak in animal and other languages.
+
+Leadership
+Allows the players to see the first encounter before it begins. Allows the player’s party to go more encounters without resting. 
+
+Charisma
+Provides an inclination toward the words of the player so long as the target is not of a higher nobility rank.
+
 ClassNoble
 ------------------
 ClassRanger
 A more respected, and considerably less shady master of the silent kill, these versatile survivors tend to specialize in the noble field of archery. They are often cautions, but not cowardly, and due to their deep attunement to the instinct of self preservation, they can find food anywhere, and hunt opponents from a distance, making nary a sound.
+
+Deadeye
+Can only be used with throwing or shooting weapons. Damage skips armor and goes straight to health, consumes the item used.
+
+Hide
+Can not be seen but cannot move.
+
+Iaijutsu
+Allows player to completely stop combat with a single person near them to draw or switch to a weapon and eventually grants a free strike.
+
+Traps
+Traps take 15 second to place and traps a target in place for a short while damaging their leg.
+
+Tracking
+Allows a player to find tracks and gain information about what they are tracking. Can only track in forests, marshes and snowy areas.
+
 ClassRanger
 ------------------
 ClassRogue
 A surprisingly wide variety of people train in this mysterious, ninja-like discipline, and routinely vanish into thin air. The less honorable among them have the ability to master the darker side of combat, employing diseases, poisons, and stealthy armor-piercing stabs. Some rogues with a different sense of nobility and honor may find the arts of obtaining things without murder more to their tastes: With inexplicably deft movements, they can quietly take things from their enemies, or devise silver-tongued trickeries that can be useful in a variety of situations. They may not be Nobles, but some rogues pride themselves on talking like them. (get to choose 1 of their special Slots to start with are - Vanish can't move or be seen for 15 sec, hide can't move and has to be behind or next to something to be not seen until either heard or seen from behind, or invisible for 10 sec which allows you to move around and not be seen)
+
+Disease
+Allows the player to make and apply diseases.
+
+Blind
+Blinds the enemy for a short amount of time.
+
+Disguise
+Allows player to make themselves physically unrecognizable or look like someone else for as long as they wish.
+
+Expose
+Allows the player to get rid of a target's buffs and armor effects for a short while.
+
+Vanish
+Allows player to sprint in the blink of an eye from one point to another.(In a straight line, not through people or objects)
+
 ClassRogue
 ------------------
 ClassVoidKnight
 Void knights are fighters that use power from the void. They mainly use this power to nullify magic and specialize in fighting wizards by nullifying their spells, reflecting spells, teleporting to the source of magic, etc. The guilds two factions are the Templars, fighters that use the void as a more direct source of combat aid, and witch hunters, who focus completely on nullifying anything a magic user could do. 
 The Void Knight Guild is housed in a large stone building. Right in the entrance is a table and the vault, past that is an open hall with tables and some bookshelves. There are large indents in the wall each containing a constant flow of one of the six kinds of magic for practice. Hallways on the side lead to the Templar and Witch hunter factions and a hallway in the back leads to a large open training room. 	
+
+Jump
+If affected by magic a player can instantly close some of the gap between them and the target.
+
+Life-link
+The player can pick a target hit by a damaging spell and absorb some of the damage taken by the target, but the player takes some as well.
+
+Shroud of Protection
+Allows the player to place a shroud of protection on a weapon, shield, or body part, that will negate the next attack of any type.
+
+Counter
+Makes the caster of a spell take some of the damage of their own spells
+
+Void
+Allows the player to negate any spell.
+
+
 ClassVoidKnight
 ------------------
 ClassWarrior
 Warriors typically train to a high proficiency in their weapon(s) of choice, and can wear heavier armor than than the others of their race.This allows them to both deal, and withstand relatively high damage, even more so depending on their specialization. Making use of physical combat skills like knockdown or crushing blow, they can end a fight very quickly with a decent weapon. Despite (or perhaps in part, due to) their physical prowess, they can be particularly susceptible to magic, diseases, and poisons.
+
+Crushing Blow
+The player can add extra damage to their next swing.
+
+Disarm
+Must hit weapon. Allows the player to force their opponent to throw their weapon in the direction they swung. 
+
+Gimp
+Must hit a target’s leg. Causes the target to drag the leg that was hit throughout the encounter or until healed.
+
+Knock Down
+Must hit target’s leg. Forces target to fall down.
+ 
+Like A Rock
+Allows player to negate any physical ability damage.
+
 ClassWarrior
 ------------------
 ClassHydromancy
-null
+Hydromancy is the magic of water and ice. Its focus is on on debilitating and incapacitating enemies.
+
+Tier I
+
+Snowball
+Does a little bit of damage and numbs/slows the enemy hit.
+ 
+Tier II
+
+Ice Shield
+Creates an Ice shield that, when hit by an enemy, causes their weapon or weapons to become encased in ice thereby reducing the damage of the weapon. 
+
+Frostbite
+Freezes the targets feet to the ground.
+
+Black Ice
+Creates a patch of circular black ice, and causes all in radius to fall.
+
 ClassHydromancy
 ------------------
 ClassKairomancy
-null
+Kairomancy is lightning magic. Its focus is on utility spells and damage that completely ignores armor.
+
+Lighting Bolt
+Does damage to the targets health.
+
+Tier II
+
+Blinding Light
+Blinds a target for a short amount of time.
+
+Lighting Shield
+Player can summon a lightning shield. The shield can take 1 hit, regardless of strength. If the shield is hit, the attacker takes some damage to that limb.
+
+Magnet 
+Can’t be used if target doesn’t have metal. Causes weapons and armor to be pulled towards the caster.
+ 
 ClassKairomancy
 ------------------
 ClassPyromancy
-null
+Pyromance is magic that uses and controls fire. its focuses on raw damage and power.
+
+Tier I
+
+Fireball
+Throws out a fireball that damages whatever it hits.
+
+Tier II
+
+Ember
+Encases the caster’s weapon in flames adding damage to the next swing.
+
+Enraged
+Player may use this ability upon receiving damage or a status effect from an enemy, or upon an ally dropping to 0 HP. Increases caster’s next single target fire spell damage.
+
+Fire Breath
+Player can shoot a conical flame in front of themselves damaging all inside it.
+
 ClassPyromancy
 ------------------
 ClassKinesiomancy
-null
+Kinesiomance is magic that physically manipulates the world. It focuses on armor, weapons, and displacement.
+
+ 
+Surge
+Creates a concentrated shockwave directly where the spell ball hits, causing high physical damage to it.
+
+Tier II
+
+Phantom Arsenal
+Summons a phantom weapon with no breaking point. If it leaves the caster it is dispelled. 
+
+Pulse
+Creates a pulse of energy from the caster that pushes targets back.
+
+Telekinesis
+Allows player to moves any inanimate object. Can’t cause damage.
+
 ClassKinesiomancy
 ------------------
 ClassNecromancy
-null
+Necromancy is magic that uses artificial powers of life and death as a weapon. It focuses on raising the dead to fight and health manipulation.
+
+Life Syphon 
+Steals health from the target hit by this spell
+
+Tier II
+
+Rise
+Raises a newly killed being to aid the caster. Can only have one active at a time.
+
+Syphoning Strike
+The target or player's next attack heals them for the amount of damage dealt by their next successful attack.
+
+Death Shield
+Stops the effects of all potions, poisons, diseases, and Clerical/Healing magic to the target.
+
 ClassNecromancy
 ------------------
 ClassNeuromancy
-null
+Neuromance is magic that manipulates the mind. It focuses on manipulating and controlling thoughts, actions, and visions.
+
+Tier I
+
+Migraine
+Messes with the targets senses making it so they can't run or fight. 
+
+Tier II
+Mind Read
+Allows the caster to read a targets thoughts
+OR
+Amnesia
+Makes the target loose their memory.
+
+Visage
+Player can make the target see something that is not there.
+OR
+Myopia
+The player may make themselves invisible to 1 target.
+
+Sleep
+Causes a calm target to instantly fall into a deep sleep.
+OR
+Nightmare
+Allows the caster to manipulate someones dreams.
+
 ClassNeuromancy
 -----------------------ClassAbilities/Skills-----------------------
 TalentsCleric
@@ -756,7 +942,7 @@ Snowball
  
 Tier II
 Ice Shield
-Creates an Ice shield that, when hit by an enemy, causes their weapon or weapons to become encased in ice thereby reducing the damage of the weapon. After hitting the shield once the effect occurs, effect does not stack. The effect goes away upon caster�s death or end of encounter.
+Creates an Ice shield that, when hit by an enemy, causes their weapon or weapons to become encased in ice thereby reducing the damage of the weapon. After hitting the shield once the effect occurs, effect does not stack. The effect goes away upon caster�s death or end of encounter.
 (Rank I) Creates a shield that reduces swing by 1 point when hit. Can take 1 hits.
 (Rank II) Creates a shield that reduces swing by 2 points when hit. Can take 2 hits.
 (Rank III) Creates a shield that reduces swing by 3 points when hit. Can take 5 hits.
@@ -990,7 +1176,7 @@ Neuromancy
 
 Mental Fortitude
 Every time a Neuromancy spell is purchased it increases the Wizard's fortitude by 1. Mental fortitude is required to use all tier 2 and 3 neuromantic spells and is refreshed every encounter.
-Abilities in tier 2 and 3: The player may choose to purchase 1 of 2 abilities in a set as a Rank 1, when you purchase the Rank 2 of a set you may choose to either Rank up whichever ability you have already purchased the Rank 1 of to a Rank 2 or get the other option�s Rank 1, when you purchase the rank 3 of a set you may upgrade both abilities to Rank 2, or upgrade 1 Rank 1 ability to Rank 3 and leave the other at Rank 1 or upgrade 1 ability to Rank 3 and purchase the other in the set�s Rank 1.
+Abilities in tier 2 and 3: The player may choose to purchase 1 of 2 abilities in a set as a Rank 1, when you purchase the Rank 2 of a set you may choose to either Rank up whichever ability you have already purchased the Rank 1 of to a Rank 2 or get the other option�s Rank 1, when you purchase the rank 3 of a set you may upgrade both abilities to Rank 2, or upgrade 1 Rank 1 ability to Rank 3 and leave the other at Rank 1 or upgrade 1 ability to Rank 3 and purchase the other in the set�s Rank 1.
 
 Tier I
 Migraine
@@ -1017,7 +1203,7 @@ Visage
 OR
 Myopia
 (Rank I) (1) The player may make themselves invisible to 1 target upon hitting with a spell ball.
-(Rank II) (2) The player may make themselves invisible to 1 target upon pointing. The player may also make 1 person invisible to that same target hit so long as they have a hand on the player�s shoulder.
+(Rank II) (2) The player may make themselves invisible to 1 target upon pointing. The player may also make 1 person invisible to that same target hit so long as they have a hand on the player�s shoulder.
 (Rank III) (3) The player may make themselves invisible to 1 target upon pointing. The player may also make any number of people invisible to that same target hit so long as they maintain contact.
 
 Sleep
@@ -1033,7 +1219,7 @@ Nightmere
 Tier III
 All spells in this tier cost Fortitude to use
 Will Control
-Caster must hit target with spell ball. If successful caster takes a knee, spell ball must be placed at foot of caster as casters corporeal representation, and caster follows target to usher commands. The connection is terminated when one of the following happens: Caster is �hit�, target dies, caster voluntarily releases target or time runs out.
+Caster must hit target with spell ball. If successful caster takes a knee, spell ball must be placed at foot of caster as casters corporeal representation, and caster follows target to usher commands. The connection is terminated when one of the following happens: Caster is �hit�, target dies, caster voluntarily releases target or time runs out.
 (Rank I) (3) Can control a target  for 30 seconds.
 (Rank II) (4) Can control a target for 2 minute.
 (Rank III) (8) Can control a targets indefinitely.
@@ -1067,63 +1253,2173 @@ Equilibrium
 Neuromancy
 -----------------------ClassAbilities/Skills - includes classless-----------------------
 AllTalentsCleric
-null
+Skills:
+
+Potions
+(Rank I)  Allows you to make R1 potions as long as you have the materials to make them.
+(Rank II)  Allows you to make R2 potions and R1 diseases as long as you have the materials to make them.
+(Rank III) Allows you to make R3 potions and R1 disease and poisons as long as you have the materials to make them.
+
+Abilities:
+
+Born Anew
+Revive a knocked out target.
+(Rank I) Bring back an adventurer to 1 HP. 
+(Rank II) Brings back a common to 2 HP.
+(Rank III) Brings back anything to 3 HP.
+
+Convert 
+Convert is a full body shield, which takes a total damage. Not regional damage. Doesn’t negate damage.
+(Rank I) Converts half of any talent damage done to or blocked by the player into a shield over armor, to be used on themselves or anyone in their reach.
+(Rank II) Converts any talent damage done to or blocked by the player into a shield over armor, to be used on themselves or anyone in their reach.
+(Rank III) Converts twice any talent damage done to or blocked by the player into shield over armor to be used on themselves or anyone in their reach.
+
+Healing
+Can not use on a target at 0 HP. Each purchase grants 2 uses.
+(Rank I) Allows the player to heal 2 point to target.
+(Rank II) Allows the player to heal 4 points to target.
+(Rank III) Allows the player to fully heal a target.
+
+Remedy
+(Rank I) Removes poisons and diseases R1 and any simple toxins.
+(Rank II) Removes poisons and diseases R2 and below.
+(Rank III) Removes poisons and diseases R3 and below.
+
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effect:
+Interplanery - increases healing to target by 1 for the encounter
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsCleric
 ------------------
 AllTalentsNoble
-null
+Skills:
+
+Engineering
+(Rank I) Allows the player to propose a drawn idea and define the list of in game materials necessary for the in game creation of the invention once per event.
+(Rank II) Allows the player to build, given they have the defined materials, a simple invention once per event. (ie. two or fewer materials or moving parts)
+(Rank III) Allows the player to build, given they have the defined materials, an invention once per event.
+
+Imperius
+(Rank I) You can grab the attention of a person.
+(Rank II) You can grab the attention of a group of six or fewer people.
+(Rank III) You can can make any sized group of people stop to listen to you.
+
+Languages
+(Rank I) Allows the player to speak in animal languages.
+(Rank II) Allows the player to speak in any developed language.
+(Rank III) Allows the player to speak in any language and read and write in any developed language.
+
+Leadership
+(Rank I) Allows the players to see the first encounter before it begins. Allows the player’s party to go 4 encounters without resting. 
+(Rank II) Allows the players to see the first encounter before it begins and know the encounter type. Allows the player’s party to go 5 encounters without resting. Players can sleep one watch fewer.
+(Rank III) Allows the players to see the first encounter before it begins and know the encounter type and rank. Allows the players party to go 6 encounters without resting. Players can sleep one watch fewer. Player may choose to have an additional party member.
+
+Abilities:
+
+Charisma
+(Rank I) Provides an inclination toward the words of the player so long as the target is not of a higher nobility rank.
+(Rank II) Provides a strong inclination toward the words of the player so long as the target is not of a higher nobility rank.
+(Rank III) Provides an unbelievable inclination toward the words of the player so long as the target is not of a higher nobility rank.
+
+Skills:
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsNoble
 ------------------
 AllTalentsRanger
-null
+Abilities:
+
+Deadeye
+Can only be used with throwing (-1 damage to each) or shooting weapons. Goes to HP. Consumes the item used.
+(Rank I) Does 3 damage.
+(Rank II) Does 6 damage.
+(Rank III) Does 9 or base damage.
+
+Hide
+Moving or attacking breaks the ability.
+(Rank I) Can not be seen from the front.
+(Rank II) Can not be seen from the front or sides. Adds 1 damage if attacking from hiding place. 
+(Rank III) Cannot be seen. Adds 2 damage if attacking from hiding place.
+
+Iaijutsu
+Allows player to halt combat with a single person near them to draw or switch to a weapon.
+(Rank I) Allows the player to switch to or draw a weapon.
+(Rank II) Allows the player to switch to or draw a weapon and can attack once with planted feet.
+(Rank III) Allows the player to switch to or draw a weapon and attack once for double damage and take a single step.
+
+Traps
+Traps take 15 second to place.
+(Rank I) Allows you to trap a target for 10 uninterrupted seconds or until freed. Does 1 point to HP.
+(Rank II) Allows you to trap a target for 30 uninterrupted seconds or until freed. Does 2 points to HP.
+(Rank III) Allows you to trap a target for an encounter or until freed. Does 4 points to HP.
+
+Tracking
+(Rank I) Allows a player to find non ability tracks and gain non specific information about what they are tracking. Can only track in forests, marshes and snowy areas.
+(Rank II) Allows a player to find any tracks and gain good information about what they are tracking. Can track on most terrain.
+(Rank III) Allows a player to find any tracks and gain exact information about what they are tracking. Can track on any surface.
+
+Skills:
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsRanger
 ------------------
 AllTalentsRogue
-null
+Skills:
+
+Disease
+(Effect only applies on next hit) any rank disease can be applied.
+(Rank I) Allows the player to make and apply R1 diseases. (20 seconds to apply)
+(Rank II) Allows the player to make and apply R2 diseases. (15 seconds to apply)
+(Rank III) Allows the player to make and apply R3 diseases. (5 seconds to apply)
+
+
+Abilities:
+
+Blind
+Must hit with a weapon or a spell ball.
+(Rank I) Blinds the enemy for 5 seconds.
+(Rank II) Blinds the enemy for 15 seconds.
+(Rank III) Blinds the enemy till the end of the encounter.
+
+Disguise
+(Rank I) Allows player to make themselves physically unrecognizable for as long as they wish.
+(Rank II) Allows player to look exactly like another person for as long as they wish.
+(Rank III) Allows the player to perfectly resemble anyone for as long as they wish.
+
+Expose
+(Rank I) Allows the player to negate a target's DR for 5 seconds.
+(Rank II) Allows the player to negate a target's DR, DC and any active positive stat alterations for 5 seconds.
+(Rank III) Allows the player to negate a target’s DR, DC and cancel all active positive stat alterations and silence them for the next 15 seconds.
+
+Vanish
+(Rank I) Allows player to sprint incredibly quick in a straight line “instantaneously” in in-game time. (Not through people or objects) The player has 5 seconds of real time.
+(Rank II) Allows player to sprint “instantaneously” and make a 90 degree turn (Not through people or objects). Has 10 seconds.
+(Rank III) Allows player to sprint “instantaneously” with a full range of motion (Not through people or objects). Has 15 seconds and can take another player.
+
+Skills:
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsRogue
 ------------------
 AllTalentsVoidKnight
-null
+Abilities:
+
+Jump
+(Rank I) If affected by magic a player can instantly close 2/3rds of the gap between them and the target.
+(Rank II) If affected by magic a player can instantly teleport to anywhere between them and the target.
+(Rank III) If affected by magic the player can move anywhere within 10’ of the target.
+
+Life-link
+(Rank I) A player can pick a target hit by a damaging spell and half the damage taken by the target but the player takes the full damage of the spell.
+(Rank II) A player can pick a target hit by a damaging spell and negate the damage taken by the target but the player takes the full damage of the spell.
+(Rank III) A player can pick a target hit by any spell and negate the damage and effect done to the target but the player takes the full effect of the spell.
+
+Shroud of Protection
+Player must touch item or location being protected when used. Multiple shrouds of protection cannot be placed on the same item or location.
+(Rank I) Allows the player to place a shroud of protection on a weapon or shield that will negate the next attack of any type.
+(Rank II) Allows the player to place a shroud of protection on a weapon, shield, or armor location.
+(Rank III) Allows the player to place a shroud of protection on anything. Protects it from the next 2 attacks.
+
+Counter
+(Rank I) Does = effect to target as to player for tier 1 spells.
+(Rank II) Does = effect to target as to player for tier 2 spells.
+(Rank III) Does = effect to target as to player for tier 3 spells.
+
+Void
+(Rankless) 2 castings. Allows the player to void any magic.
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effect:
+Void - Adds a magic DR 1
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsVoidKnight
 ------------------
 AllTalentsWarrior
-null
+Abilities:
+
+Crushing Blow
+(Rank I) The player can add +3 damage to their next swing.
+(Rank II) The player can double damage to their next swing.
+(Rank III) The player can triple damage to their next swing.
+
+Disarm
+Must hit weapon.
+(Rankless) Allows the player to force their opponent to throw their weapon in the direction they swung. 
+
+Gimp
+Must hit a target’s leg.
+(Rankless) Causes the target to drag the leg that was hit throughout the encounter or until healed.
+
+Knock Down
+Must hit target’s leg.
+(Rankless) Forces target to fall down. (target must have both hands and knees, back, or bum on the ground to work).
+ 
+Like A Rock
+(Rankless) Allows player to negate any physical ability damage.
+
+Skills:
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsWarrior
 ------------------
 AllTalentsHydroKinesio
-null
+Hydromancy (Ice)
+
+Tier I
+
+Snowball
+(Rank I) 0 damage 2 castings. Slows target for 5 seconds.
+(Rank II) 1 damage 2 castings. Numbs area hit for 5 seconds. (If it hits a limb, limb can’t move.)
+(Rank III) 2 damage 2 castings. Kneel for 5 seconds.
+ 
+Tier II
+
+Ice Shield
+Creates an Ice shield that, when hit by an enemy, causes their weapon or weapons to become encased in ice thereby reducing the damage of the weapon. After hitting the shield once the effect occurs, effect does not stack. The effect goes away upon caster’s death or end of encounter.
+(Rank I) Creates a shield that reduces swing by 1 point when hit. Can take 1 hits.
+(Rank II) Creates a shield that reduces swing by 2 points when hit. Can take 2 hits.
+(Rank III) Creates a shield that reduces swing by 3 points when hit. Can take 5 hits.
+
+Frostbite
+(Rank I) Freezes the targets feet to the ground for 5 seconds.
+(Rank II) Freezes the targets feet to the ground for 20 seconds.
+(Rank III) Freezes the targets feet to the ground until the caster is killed, voided, or melted.
+
+Black Ice
+(Cast with magic sphere) Creates a patch of circular black ice, and causes all in radius to fall.
+(Rank I) Forces target hit to fall.
+(Rank II) Patch is 5’ diameter.
+(Rank III) Patch is 5’ diameter and those affected must stay down for 5 seconds.
+
+Kinesiomancy (Physical)
+
+Tier I
+ 
+Surge
+Creates a shockwave directly in front of wherever the spell ball hits, causing physical damage to it.
+(Rank I) 3 Damage, 2 castings.
+(Rank II) 5 Damage, 2 castings.
+(Rank III) 10 Damage, 2 castings.
+
+Tier II
+All spells in this tier are purchased as skills and have 2 casts
+
+Phantom Arsenal
+Summons a phantom weapon with no breaking point. If it leaves the caster it is dispelled. 
+(Rank I) Swings for 2, can summon a dagger or throwing sized weapon.
+(Rank II) Swings for 3, can summon a short sized weapon or smaller and allows dual wielding with two phantom weapons with 1 cast.
+(Rank III) Swings for 5, can summon a Great sized weapon or smaller.
+
+Pulse
+Creates a pulse of energy from the caster that pushes players back.
+(Rank I) Pushes everyone surrounding the player 5 feet away.
+(Rank II) Pushes everyone in front of or surrounding the player 10 feet away.
+(Rank III) Pushes all targets in directed location 20 feet away and knocks them down.
+
+Telekinesis
+Allows player to moves any inanimate object. Can’t cause damage.
+(Rank I) Player can move objects that weigh 25 units within 10 feet.
+(Rank II) Player can move objects that weigh 75 units within 20 feet.
+(Rank III) Player can move any object within reason and sight.
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effects:
+Hydro - Negates 1st basic attack they are hit with
+Kineso - For 1 encounter your armor weight class is reduced by 1
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsHydroKinesio
 ------------------
 AllTalentsHydroNecro
-null
+Hydromancy (Ice)
+
+Tier I
+
+Snowball
+(Rank I) 0 damage 2 castings. Slows target for 5 seconds.
+(Rank II) 1 damage 2 castings. Numbs area hit for 5 seconds. (If it hits a limb, limb can’t move.)
+(Rank III) 2 damage 2 castings. Kneel for 5 seconds.
+ 
+Tier II
+
+Ice Shield
+Creates an Ice shield that, when hit by an enemy, causes their weapon or weapons to become encased in ice thereby reducing the damage of the weapon. After hitting the shield once the effect occurs, effect does not stack. The effect goes away upon caster’s death or end of encounter.
+(Rank I) Creates a shield that reduces swing by 1 point when hit. Can take 1 hits.
+(Rank II) Creates a shield that reduces swing by 2 points when hit. Can take 2 hits.
+(Rank III) Creates a shield that reduces swing by 3 points when hit. Can take 5 hits.
+
+Frostbite
+(Rank I) Freezes the targets feet to the ground for 5 seconds.
+(Rank II) Freezes the targets feet to the ground for 20 seconds.
+(Rank III) Freezes the targets feet to the ground until the caster is killed, voided, or melted.
+
+Black Ice
+(Cast with magic sphere) Creates a patch of circular black ice, and causes all in radius to fall.
+(Rank I) Forces target hit to fall.
+(Rank II) Patch is 5’ diameter.
+(Rank III) Patch is 5’ diameter and those affected must stay down for 5 seconds.
+
+Necromancy (Death)
+
+Tier I
+Life Syphon 
+Heals the caster for 1 HP.
+(Rank I) 1 HP damage 2 castings.
+(Rank II) 2 HP damage 2 castings.
+(Rank III) 3 HP damage 2 castings.
+
+Tier II
+All spells in this tier are purchased as skills and have 2 casts
+
+Rise
+Raises a newly killed being to aid the caster. Can only have one active at a time.
+(Rank I) Has 5 HP and swings for 1. The risen crumbles after encounter or when killed.
+(Rank II) Has 10 HP and swings for 2. The risen crumbles after encounter or when killed.
+(Rank III) Has 20 HP and swings for 3. The risen crumbles after encounter or when killed.
+
+Syphoning Strike
+Only affects base swing damage. This HP is non-replenishable. This spell is self stackable. This effect goes to a character.
+(Rank I) The target’s next attack heals them for the amount of damage dealt by their next successful attack.
+(Rank II) The target's next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
+(Rank III) The target's next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
+
+Death Shield
+Stops the effects of all potions, poisons, diseases, and interplanary invocation, of the respective rank, to the target, for the encounter or until the death of the caster.
+(Rank I) Rank 1. 
+(Rank II) Rank 2.
+(Rank III) Rank 3.
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effects:
+Hydro - Negates 1st basic attack they are hit with
+Necro - Can add 1 damage to next basic attack at the cost of one health
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsHydroNecro
 ------------------
 AllTalentsHydroNeuro
-null
+Hydromancy (Ice)
+
+Tier I
+
+Snowball
+(Rank I) 0 damage 2 castings. Slows target for 5 seconds.
+(Rank II) 1 damage 2 castings. Numbs area hit for 5 seconds. (If it hits a limb, limb can’t move.)
+(Rank III) 2 damage 2 castings. Kneel for 5 seconds.
+ 
+Tier II
+
+Ice Shield
+Creates an Ice shield that, when hit by an enemy, causes their weapon or weapons to become encased in ice thereby reducing the damage of the weapon. After hitting the shield once the effect occurs, effect does not stack. The effect goes away upon caster’s death or end of encounter.
+(Rank I) Creates a shield that reduces swing by 1 point when hit. Can take 1 hits.
+(Rank II) Creates a shield that reduces swing by 2 points when hit. Can take 2 hits.
+(Rank III) Creates a shield that reduces swing by 3 points when hit. Can take 5 hits.
+
+
+Frostbite
+(Rank I) Freezes the targets feet to the ground for 5 seconds.
+(Rank II) Freezes the targets feet to the ground for 20 seconds.
+(Rank III) Freezes the targets feet to the ground until the caster is killed, voided, or melted.
+
+Black Ice
+(Cast with magic sphere) Creates a patch of circular black ice, and causes all in radius to fall.
+(Rank I) Forces target hit to fall.
+(Rank II) Patch is 5’ diameter.
+(Rank III) Patch is 5’ diameter and those affected must stay down for 5 seconds.
+
+Neuromancy (Mind)
+Mental Fortitude
+Every time a Neuromancy spell is purchased it increases the Wizard’s fortitude by 1. Mental fortitude is required to use all tier 2 and 3 neuromantic spells and is refreshed every encounter.
+Abilities in tier 2 and 3: The player may choose to purchase 1 of 2 abilities in a set as a Rank 1, when you purchase the Rank 2 of a set you may choose to either Rank up whichever ability you have already purchased the Rank 1 of to a Rank 2 or get the other option’s Rank 1, when you purchase the rank 3 of a set you may upgrade both abilities to Rank 2, or upgrade 1 Rank 1 ability to Rank 3 and leave the other at Rank 1 or upgrade 1 ability to Rank 3 and purchase the other in the set’s Rank 1.
+
+Tier I
+
+Migraine
+(Rank I) Target can’t run for 5 seconds and 2 casts. 
+(Rank II) Target can’t deal damage for 5 seconds 2 casts. 
+(Rank III) Target is blinded and can’t deal damage for 5 seconds 2 casts. 
+
+Tier II
+All spells in this tier cost Fortitude to use
+Mind Read
+(Rank I) (1) Allows the caster to read a target’s intentions.
+(Rank II) (2) Allows caster to read a target's current thoughts.
+(Rank III) (3) Allows caster to read a target's recent memory and current thoughts.
+OR
+Amnesia
+(Rank I) (1) Makes target  forget the last 15 seconds. 
+(Rank II)  (3) Makes all targets forget the last 15 seconds
+(Rank III)  (4) Makes target forget their identity, and become only defensive, and incapable of coming to, unless voided. Lasts till the end of the encounter.
+
+Visage
+(Rank I) (1) Player can make the target see something that is not there.
+(Rank II) (3) Player can make everything the target sees completely change and perceived with all five senses something that is not there.
+(Rank III) (5) Player can make what all the targets see completely change and perceived with all five senses something that is not there.
+OR
+Myopia
+(Rank I) (1) The player may make themselves invisible to 1 target upon hitting with a spell ball.
+(Rank II) (2) The player may make themselves invisible to 1 target upon pointing. The player may also make 1 person invisible to that same target hit so long as they have a hand on the player’s shoulder.
+(Rank III) (3) The player may make themselves invisible to 1 target upon pointing. The player may also make any number of people invisible to that same target hit so long as they maintain contact.
+
+Sleep
+(Rank I) (1) Causes a calm target to sleep instantly, and wakes up after 30 seconds or upon physical contact.
+(Rank II) (1) Causes a calm target to sleep instantly, they can be woken by any physical contact.
+(Rank III) (3) Causes a calm target to sleep instantly, They can only be woken by receiving damage of 5 or more.
+OR
+Nightmare
+(Rank I) (1) Allows the player to place an image or occurrence into a target’s dream.
+(Rank II) (2) Allows the player to fully manipulate a target’s dream.
+(Rank III) (4) Allows the player to fully manipulate a target’s dream and takes all effects in real life that take place in the dream.
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effects:
+Hydro - Negates 1st basic attack they are hit with
+Neuro - Resistance Rank 1 for an encounter
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsHydroNeuro
 ------------------
 AllTalentsPyroKinesio
-null
+Pyromancy (Fire)
+
+Tier I
+
+Fireball
+(Rank I) 2 damage 2 castings.
+(Rank II) 3 damage 2 castings.
+(Rank III) 6 damage 2 castings. 
+Tier II
+
+Ember
+(Rank I) Encases the caster’s weapon in flames adding 1 damage to the next swing.
+(Rank II) Encases the caster’s weapon in flames adding 3 damage to the next swing.
+(Rank III) Encases the caster’s weapon in flames adding 5 damage to the next 2 swings.
+
+Enraged
+Player may use this ability upon receiving damage or a status effect from an enemy, or upon an ally dropping to 0 HP
+(Rank I) Increases caster’s next single target fire spell damage by 1
+(Rank II) Increases caster’s next single target fire spell damage by 3
+(Rank III) Increases caster’s next single target fire spell damage by 5
+
+Fire Breath
+(Rank I) Player can shoot a 5’ long conical flame in front of player for 3 points of damage.
+(Rank II) Player can shoot a 5’ long conical flame in front of player for 5 points of damage.
+(Rank III) Player can shoot a 5’ long conical flame in front of player for 10 points of damage.
+
+Kinesiomancy (Physical)
+
+Tier I
+ 
+Surge
+Creates a shockwave directly in front of wherever the spell ball hits, causing physical damage to it.
+(Rank I) 3 Damage, 2 castings.
+(Rank II) 5 Damage, 2 castings.
+(Rank III) 10 Damage, 2 castings.
+
+Tier II
+All spells in this tier are purchased as skills and have 2 casts
+
+Phantom Arsenal
+Summons a phantom weapon with no breaking point. If it leaves the caster it is dispelled. 
+(Rank I) Swings for 2, can summon a dagger or throwing sized weapon.
+(Rank II) Swings for 3, can summon a short sized weapon or smaller and allows dual wielding with two phantom weapons with 1 cast.
+(Rank III) Swings for 5, can summon a Great sized weapon or smaller.
+
+Pulse
+Creates a pulse of energy from the caster that pushes players back.
+(Rank I) Pushes everyone surrounding the player 5 feet away.
+(Rank II) Pushes everyone in front of or surrounding the player 10 feet away.
+(Rank III) Pushes all targets in directed location 20 feet away and knocks them down.
+
+Telekinesis
+Allows player to moves any inanimate object. Can’t cause damage.
+(Rank I) Player can move objects that weigh 25 units within 10 feet.
+(Rank II) Player can move objects that weigh 75 units within 20 feet.
+(Rank III) Player can move any object within reason and sight.
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effects:
+Pyro - Makes a weapon deal fire damage (Ignores DR) for one encounter.
+Kineso - For 1 encounter your armor weight class is reduced by 1
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsPyroKinesio
 ------------------
 AllTalentsPyroNecro
-null
+Pyromancy (Fire)
+
+Tier I
+
+Fireball
+(Rank I) 2 damage 2 castings.
+(Rank II) 3 damage 2 castings.
+(Rank III) 6 damage 2 castings. 
+Tier II
+
+Ember
+(Rank I) Encases the caster’s weapon in flames adding 1 damage to the next swing.
+(Rank II) Encases the caster’s weapon in flames adding 3 damage to the next swing.
+(Rank III) Encases the caster’s weapon in flames adding 5 damage to the next 2 swings.
+
+Enraged
+Player may use this ability upon receiving damage or a status effect from an enemy, or upon an ally dropping to 0 HP
+(Rank I) Increases caster’s next single target fire spell damage by 1
+(Rank II) Increases caster’s next single target fire spell damage by 3
+(Rank III) Increases caster’s next single target fire spell damage by 5
+
+Fire Breath
+(Rank I) Player can shoot a 5’ long conical flame in front of player for 3 points of damage.
+(Rank II) Player can shoot a 5’ long conical flame in front of player for 5 points of damage.
+(Rank III) Player can shoot a 5’ long conical flame in front of player for 10 points of damage.
+
+Necromancy (Death)
+
+Tier I
+Life Syphon 
+Heals the caster for 1 HP.
+(Rank I) 1 HP damage 2 castings.
+(Rank II) 2 HP damage 2 castings.
+(Rank III) 3 HP damage 2 castings.
+
+Tier II
+All spells in this tier are purchased as skills and have 2 casts
+
+Rise
+Raises a newly killed being to aid the caster. Can only have one active at a time.
+(Rank I) Has 5 HP and swings for 1. The risen crumbles after encounter or when killed.
+(Rank II) Has 10 HP and swings for 2. The risen crumbles after encounter or when killed.
+(Rank III) Has 20 HP and swings for 3. The risen crumbles after encounter or when killed.
+
+Syphoning Strike
+Only affects base swing damage. This HP is non-replenishable. This spell is self stackable. This effect goes to a character.
+(Rank I) The target’s next attack heals them for the amount of damage dealt by their next successful attack.
+(Rank II) The target's next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
+(Rank III) The target's next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
+
+Death Shield
+Stops the effects of all potions, poisons, diseases, and interplanary invocation, of the respective rank, to the target, for the encounter or until the death of the caster.
+(Rank I) Rank 1. 
+(Rank II) Rank 2.
+(Rank III) Rank 3.
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effects:
+Pyro - Makes a weapon deal fire damage (Ignores DR) for one encounter.
+Necro - Can add 1 damage to next basic attack at the cost of one health
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsPyroNecro
 ------------------
 AllTalentsPyroNeuro
-null
+Pyromancy (Fire)
+
+Tier I
+
+Fireball
+(Rank I) 2 damage 2 castings.
+(Rank II) 3 damage 2 castings.
+(Rank III) 6 damage 2 castings. 
+
+Tier II
+
+Ember
+(Rank I) Encases the caster’s weapon in flames adding 1 damage to the next swing.
+(Rank II) Encases the caster’s weapon in flames adding 3 damage to the next swing.
+(Rank III) Encases the caster’s weapon in flames adding 5 damage to the next 2 swings.
+
+Enraged
+Player may use this ability upon receiving damage or a status effect from an enemy, or upon an ally dropping to 0 HP
+(Rank I) Increases caster’s next single target fire spell damage by 1
+(Rank II) Increases caster’s next single target fire spell damage by 3
+(Rank III) Increases caster’s next single target fire spell damage by 5
+
+Fire Breath
+(Rank I) Player can shoot a 5’ long conical flame in front of player for 3 points of damage.
+(Rank II) Player can shoot a 5’ long conical flame in front of player for 5 points of damage.
+(Rank III) Player can shoot a 5’ long conical flame in front of player for 10 points of damage.
+
+Neuromancy (Mind)
+Mental Fortitude
+Every time a Neuromancy spell is purchased it increases the Wizard’s fortitude by 1. Mental fortitude is required to use all tier 2 and 3 neuromantic spells and is refreshed every encounter.
+Abilities in tier 2 and 3: The player may choose to purchase 1 of 2 abilities in a set as a Rank 1, when you purchase the Rank 2 of a set you may choose to either Rank up whichever ability you have already purchased the Rank 1 of to a Rank 2 or get the other option’s Rank 1, when you purchase the rank 3 of a set you may upgrade both abilities to Rank 2, or upgrade 1 Rank 1 ability to Rank 3 and leave the other at Rank 1 or upgrade 1 ability to Rank 3 and purchase the other in the set’s Rank 1.
+
+Tier I
+
+Migraine
+(Rank I) Target can’t run for 5 seconds and 2 casts. 
+(Rank II) Target can’t deal damage for 5 seconds 2 casts. 
+(Rank III) Target is blinded and can’t deal damage for 5 seconds 2 casts. 
+
+Tier II
+All spells in this tier cost Fortitude to use
+Mind Read
+(Rank I) (1) Allows the caster to read a target’s intentions.
+(Rank II) (2) Allows caster to read a target's current thoughts.
+(Rank III) (3) Allows caster to read a target's recent memory and current thoughts.
+OR
+Amnesia
+(Rank I) (1) Makes target  forget the last 15 seconds. 
+(Rank II)  (3) Makes all targets forget the last 15 seconds
+(Rank III)  (4) Makes target forget their identity, and become only defensive, and incapable of coming to, unless voided. Lasts till the end of the encounter.
+
+Visage
+(Rank I) (1) Player can make the target see something that is not there.
+(Rank II) (3) Player can make everything the target sees completely change and perceived with all five senses something that is not there.
+(Rank III) (5) Player can make what all the targets see completely change and perceived with all five senses something that is not there.
+OR
+Myopia
+(Rank I) (1) The player may make themselves invisible to 1 target upon hitting with a spell ball.
+(Rank II) (2) The player may make themselves invisible to 1 target upon pointing. The player may also make 1 person invisible to that same target hit so long as they have a hand on the player’s shoulder.
+(Rank III) (3) The player may make themselves invisible to 1 target upon pointing. The player may also make any number of people invisible to that same target hit so long as they maintain contact.
+
+Sleep
+(Rank I) (1) Causes a calm target to sleep instantly, and wakes up after 30 seconds or upon physical contact.
+(Rank II) (1) Causes a calm target to sleep instantly, they can be woken by any physical contact.
+(Rank III) (3) Causes a calm target to sleep instantly, They can only be woken by receiving damage of 5 or more.
+OR
+Nightmare
+(Rank I) (1) Allows the player to place an image or occurrence into a target’s dream.
+(Rank II) (2) Allows the player to fully manipulate a target’s dream.
+(Rank III) (4) Allows the player to fully manipulate a target’s dream and takes all effects in real life that take place in the dream.
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effects:
+Pyro - Makes a weapon deal fire damage (Ignores DR) for one encounter.
+Neuro - Resistance Rank 1 for an encounter
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsPyroNeuro
 ------------------
 AllTalentsKairoKinesio
-null
+Kairomancy (Lightning)
+
+Tier I
+
+Lighting Bolt
+(Rank I) 1 damage to HP 2 casts.
+(Rank II) 2 damage to HP 2 casts.
+(Rank III) 3 damage to HP 2 casts.
+
+Tier II
+
+Blinding Light
+(Rank I) Blinds a target for 5 seconds.
+(Rank II) Blinds a target for 10 seconds.
+(Rank III) Blinds everyone excluding the caster for 10 seconds.
+
+Lighting Shield
+(Rank I) Player can summon a lightning shield. The shield can take 1 hit, regardless of strength. If the shield is hit, the attacker takes 1 damage to limb HP.
+(Rank II) Summon a lightning shield. The shield can take 2 hits, regardless of strength. If the shield is hit, the attacker takes 1 damage to limb HP.
+(Rank III) Player can summon a lightning shield. The shield can take 4 hits, regardless of strength. If the shield is hit, the attacker takes 2 damage to limb HP.
+
+Magnet 
+Can’t be used if target doesn’t have metal.
+(Rank I) Causes weapons the size of a dagger or a short to be disarmed.
+(Rank II) Causes any weapon to be disarmed.
+(Rank III) Causes Target to be thrown in the direction of the caster.
+
+Kinesiomancy (Physical)
+
+Tier I
+ 
+Surge
+Creates a shockwave directly in front of wherever the spell ball hits, causing physical damage to it.
+(Rank I) 3 Damage, 2 castings.
+(Rank II) 5 Damage, 2 castings.
+(Rank III) 10 Damage, 2 castings.
+
+Tier II
+All spells in this tier are purchased as skills and have 2 casts
+
+Phantom Arsenal
+Summons a phantom weapon with no breaking point. If it leaves the caster it is dispelled. 
+(Rank I) Swings for 2, can summon a dagger or throwing sized weapon.
+(Rank II) Swings for 3, can summon a short sized weapon or smaller and allows dual wielding with two phantom weapons with 1 cast.
+(Rank III) Swings for 5, can summon a Great sized weapon or smaller.
+
+Pulse
+Creates a pulse of energy from the caster that pushes players back.
+(Rank I) Pushes everyone surrounding the player 5 feet away.
+(Rank II) Pushes everyone in front of or surrounding the player 10 feet away.
+(Rank III) Pushes all targets in directed location 20 feet away and knocks them down.
+
+Telekinesis
+Allows player to moves any inanimate object. Can’t cause damage.
+(Rank I) Player can move objects that weigh 25 units within 10 feet.
+(Rank II) Player can move objects that weigh 75 units within 20 feet.
+(Rank III) Player can move any object within reason and sight.
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effects:
+Kairo - The next time the target is hit with a melee attack the attacker is pushed back 5’ feet.
+Kineso - For 1 encounter your armor weight class is reduced by 1
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsKairoKinesio
 ------------------
 AllTalentsKairoNecro
-null
+Kairomancy (Lightning)
+
+Tier I
+
+Lighting Bolt
+(Rank I) 1 damage to HP 2 casts.
+(Rank II) 2 damage to HP 2 casts.
+(Rank III) 3 damage to HP 2 casts.
+
+Tier II
+
+Blinding Light
+(Rank I) Blinds a target for 5 seconds.
+(Rank II) Blinds a target for 10 seconds.
+(Rank III) Blinds everyone excluding the caster for 10 seconds.
+
+Lighting Shield
+(Rank I) Player can summon a lightning shield. The shield can take 1 hit, regardless of strength. If the shield is hit, the attacker takes 1 damage to limb HP.
+(Rank II) Summon a lightning shield. The shield can take 2 hits, regardless of strength. If the shield is hit, the attacker takes 1 damage to limb HP.
+(Rank III) Player can summon a lightning shield. The shield can take 4 hits, regardless of strength. If the shield is hit, the attacker takes 2 damage to limb HP.
+
+Magnet 
+Can’t be used if target doesn’t have metal.
+(Rank I) Causes weapons the size of a dagger or a short to be disarmed.
+(Rank II) Causes any weapon to be disarmed.
+(Rank III) Causes Target to be thrown in the direction of the caster.
+
+Necromancy (Death)
+
+Tier I
+
+Life Syphon 
+Heals the caster for 1 HP.
+(Rank I) 1 HP damage 2 castings.
+(Rank II) 2 HP damage 2 castings.
+(Rank III) 3 HP damage 2 castings.
+
+Tier II
+
+All spells in this tier are purchased as skills and have 2 casts
+
+Rise
+Raises a newly killed being to aid the caster. Can only have one active at a time.
+(Rank I) Has 5 HP and swings for 1. The risen crumbles after encounter or when killed.
+(Rank II) Has 10 HP and swings for 2. The risen crumbles after encounter or when killed.
+(Rank III) Has 20 HP and swings for 3. The risen crumbles after encounter or when killed.
+
+Syphoning Strike
+Only affects base swing damage. This HP is non-replenishable. This spell is self stackable. This effect goes to a character.
+(Rank I) The target’s next attack heals them for the amount of damage dealt by their next successful attack.
+(Rank II) The target's next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
+(Rank III) The target's next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
+
+Death Shield
+Stops the effects of all potions, poisons, diseases, and interplanary invocation, of the respective rank, to the target, for the encounter or until the death of the caster.
+(Rank I) Rank 1. 
+(Rank II) Rank 2.
+(Rank III) Rank 3.
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effects:
+Kairo - The next time the target is hit with a melee attack the attacker is pushed back 5’ feet.
+Necro - Can add 1 damage to next basic attack at the cost of one health
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsKairoNecro
 ------------------
 AllTalentsKairoNeuro
-null
+Kairomancy (Lightning)
+
+Tier I
+
+Lighting Bolt
+(Rank I) 1 damage to HP 2 casts.
+(Rank II) 2 damage to HP 2 casts.
+(Rank III) 3 damage to HP 2 casts.
+
+Tier II
+
+Blinding Light
+(Rank I) Blinds a target for 5 seconds.
+(Rank II) Blinds a target for 10 seconds.
+(Rank III) Blinds everyone excluding the caster for 10 seconds.
+
+Lighting Shield
+(Rank I) Player can summon a lightning shield. The shield can take 1 hit, regardless of strength. If the shield is hit, the attacker takes 1 damage to limb HP.
+(Rank II) Summon a lightning shield. The shield can take 2 hits, regardless of strength. If the shield is hit, the attacker takes 1 damage to limb HP.
+(Rank III) Player can summon a lightning shield. The shield can take 4 hits, regardless of strength. If the shield is hit, the attacker takes 2 damage to limb HP.
+
+Magnet 
+Can’t be used if target doesn’t have metal.
+(Rank I) Causes weapons the size of a dagger or a short to be disarmed.
+(Rank II) Causes any weapon to be disarmed.
+(Rank III) Causes Target to be thrown in the direction of the caster.
+
+Neuromancy (Mind)
+Mental Fortitude
+Every time a Neuromancy spell is purchased it increases the Wizard’s fortitude by 1. Mental fortitude is required to use all tier 2 and 3 neuromantic spells and is refreshed every encounter.
+Abilities in tier 2 and 3: The player may choose to purchase 1 of 2 abilities in a set as a Rank 1, when you purchase the Rank 2 of a set you may choose to either Rank up whichever ability you have already purchased the Rank 1 of to a Rank 2 or get the other option’s Rank 1, when you purchase the rank 3 of a set you may upgrade both abilities to Rank 2, or upgrade 1 Rank 1 ability to Rank 3 and leave the other at Rank 1 or upgrade 1 ability to Rank 3 and purchase the other in the set’s Rank 1.
+
+Tier I
+
+Migraine
+(Rank I) Target can’t run for 5 seconds and 2 casts. 
+(Rank II) Target can’t deal damage for 5 seconds 2 casts. 
+(Rank III) Target is blinded and can’t deal damage for 5 seconds 2 casts. 
+
+Tier II
+
+All spells in this tier cost Fortitude to use
+Mind Read
+(Rank I) (1) Allows the caster to read a target’s intentions.
+(Rank II) (2) Allows caster to read a target's current thoughts.
+(Rank III) (3) Allows caster to read a target's recent memory and current thoughts.
+OR
+Amnesia
+(Rank I) (1) Makes target  forget the last 15 seconds. 
+(Rank II)  (3) Makes all targets forget the last 15 seconds
+(Rank III)  (4) Makes target forget their identity, and become only defensive, and incapable of coming to, unless voided. Lasts till the end of the encounter.
+
+Visage
+(Rank I) (1) Player can make the target see something that is not there.
+(Rank II) (3) Player can make everything the target sees completely change and perceived with all five senses something that is not there.
+(Rank III) (5) Player can make what all the targets see completely change and perceived with all five senses something that is not there.
+OR
+Myopia
+(Rank I) (1) The player may make themselves invisible to 1 target upon hitting with a spell ball.
+(Rank II) (2) The player may make themselves invisible to 1 target upon pointing. The player may also make 1 person invisible to that same target hit so long as they have a hand on the player’s shoulder.
+(Rank III) (3) The player may make themselves invisible to 1 target upon pointing. The player may also make any number of people invisible to that same target hit so long as they maintain contact.
+
+Sleep
+(Rank I) (1) Causes a calm target to sleep instantly, and wakes up after 30 seconds or upon physical contact.
+(Rank II) (1) Causes a calm target to sleep instantly, they can be woken by any physical contact.
+(Rank III) (3) Causes a calm target to sleep instantly, They can only be woken by receiving damage of 5 or more.
+OR
+Nightmare
+(Rank I) (1) Allows the player to place an image or occurrence into a target’s dream.
+(Rank II) (2) Allows the player to fully manipulate a target’s dream.
+(Rank III) (4) Allows the player to fully manipulate a target’s dream and takes all effects in real life that take place in the dream.
+
+Skills:
+
+Enchanting
+(Only for Clerics, Wizards and Void Knights)
+Allows the player to gemlessly enchant or enchant a gem with their type of magic. Can create their own lasting effect enchantments with a GM’s approval. Depending on the strength the rank and amount of gems it takes will vary.
+(Rank I) 
+-The player can gemlessly enchant 1 person per quest, 
+-A dense gem with either 1 use of a rank 2 or 2 uses of a rank 1 spell as long as they have at least the rank 1 of that spell
+-A pure gem with 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank II) 
+-The player can gemlessly enchant 3 people per quest, 
+-A dense gem with either a use of a rank 3, 2 uses of a rank 2, or 3 uses of a rank 1 spell as long as they have at least the rank 1 of that spell 
+-A pure gem with 1 use of a rank 1 or 1 use of a rank 2 spell as long as they have a rank 1 of that spell OPOGD.
+(Rank III) 
+-The player can gemlessly enchant 6 people per quest, 
+-A dense gem with either 2 uses of a rank 3, 3 uses of a rank 2, or 4 uses of a rank 1 spell as long as they have the rank 1 of that spell 
+-A pure gem with 1 use of a rank 3, 1 use of a rank 2, or 1 use of a rank 1 spell as long as they have a rank 1 of that spell OPOGD.  
+
+Gemless enchantment effects:
+Kairo - The next time the target is hit with a melee attack the attacker is pushed back 5’ feet.
+Neuro - Resistance Rank 1 for an encounter
+
+Forestry
+Gather food, wood, plants and build a fire. If you have wood, fire is guaranteed.
+(Rank I) 3/3 odds for each. Can make a U. of wood into lumber or firewood.
+(Rank II) Guarantees success but may roll to improve it. Food and fire is only enough for yourself. Can make all from the previous rank and turn it into lumber, small furniture, weapons and armor or cut down a steel wood tree. 
+(Rank III) Guarantees success (2 plants) but may roll to improve it. Food and fire is enough for you and 2 other people. Can make all from previous ranks and siege weapons, ornate furniture and steelwood weapons and armor. 
+
+Leatherworking
+(Can work with 10 ulix [U.] OPOGD, requires a knife to skin)
+(Rank I) Allows a player to try skinning 3/3 chance for x U. leather and 4/3 chance for x U. organic items. And to craft and repair leather.
+(Rank II) Allows a player to try skinning 2/3 chance for x U. leather, 3/3 chance for x U. hard leather , 3/3 chance for x U. shell and 3/3 chance for x U. organic items. And to craft and repair hard leather and organic shell. 
+(Rank III) Allows a player to try skinning 1/3 chance for x U. leather, 2/3 chance for x U. hard leather, 2/3 chance for x U. shell, 3/3 chance for x U. hide, and 1/3 chance for x U. organic items. And to the craft and repair hide and plate leather.
+
+Prowess
+Adds to a player’s max carrying capacity.
+(Rank I) Grants 3 carrying weight, medium armor can be worn without over encumberment.
+(Rank II) Grants 5 carrying weight, heavy armor can be worn without over encumberment.
+(Rank III) grants 10 carrying weight, ultra heavy armor can be worn.
+
+Smithing
+Can freely make a ulix into an ingot at a forge. Refined and folded metal ingots count as two normal ingots. Can only smith at a forge, can repair on the road.
+(Rank I) Allows the smelting, smithing, and repair of 10 ingots per OPOGD of bronze and iron weapons and armor.
+(Rank II) Allows the smelting, smithing, and repair of 15 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze  weapons and armor.
+(Rank III) Allows the smelting, smithing and repair of 20 ingots per OPOGD of bronze, iron, steel and layered, refined, and folded bronze and iron  weapons and armor. Can repair layered, refined, and folded steel so long as the chest plate is still in tact. 
+
+Mining This is bundled for free when smithing is bought. Each player with mining has a mining kit. They can mine 5 times per quest before needing to fix their kit at a city or the hero’s camp. 
+(Rank I) Player can get 3 bronze per kit use, 2 iron per use, and 1 steel per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank II) Player can get 6 bronze per kit use, 4 iron per use, 2 steel per use, and 1 precious metal (gold or silver) per use. Players can mix and match these uses however they would like as long as there are veins available. 
+(Rank III) Player can get 12 bronze per kit use, 8 iron per use, 4 steel per use, 2 precious metal (gold or silver) per use, and 1 of anything else per use. Players can mix and match these uses however they would like as long as there are veins available. 
+
+Weapon Dexterity
+Only Warriors can use Great weapons of the two handed variety, and only Rangers can use Bows.
+Blades
+One-Handed - Daggers and Shortswords
+Two-Handed - Longswords and Greatswords
+Axes
+One-Handed - Hatchet and Battle Axe
+Two-Handed - War Axe and Great Axe
+Hammers
+One-Handed - Hammer and Battle Hammer
+Two-Handed - Warhammer and Great Hammer
+Spears
+One-Handed - Hunting Spear and Battle Spear
+Two-Handed - War Spear and Great Spear
+Bow
+Throwing weapons
+Shields
+Dual Wielding
+Exotic
+
+Weapon Art
+10 EXP, requires a teacher
+Each individual class of weapon, i.e. Longswords, have a unique skill or ability associated with a martial art style designed specifically for the strengths of the weapon type.
+
+
+Abilities:
+
+Sense
+(Rank I) Allows the player to sense if danger or any other strong presences are nearby.
+(Rank II) Allows the player to sense if there is a non-visible or vanished person nearby.
+(Rank III) Allows the player to locate the presence of anyone who isn’t visible, and allows the player to see a vanish trail, and the whereabout of any strong presences.
+
+Detection
+(Rank I) Allows the player to locate rank 1 treasures, or rank 1 traps.
+(Rank II) Allows the player to locate rank 2 treasures, or rank 2 traps.
+(Rank III) Allows the player to locate rank 3 treasures, or rank 3 traps.
+
+Scroll Writing
+Allows the player to write scrolls, the complexity of the scroll will dictate how many points it takes to write a scroll. The player may write a unique instant effect scroll as an ability
+(Rank I) The player gets 1 scroll writing point per OGD. Points do not roll over.
+(Rank II) The player gets 2 scroll writing point per OGD. Points do not roll over.
+(Rank III) The player gets 3 scroll writing point per OGD. Points do not roll over.
+
+Health:
+Health
+Purchasing health permanently increases your max HP by one. The cost of the purchase of an HP is equal to 2 + the amount of HP purchased. Thus if a player has purchased 2 HP then the cost of the next HP would be 4 XP
+
+Health is also passively gained from spending XP on other skills.  Characters gain a point of health when they have spent 30, 60, 100, and then 1 per 50 XP spent.
+
 AllTalentsKairoNeuro
 -----------------------Modifiers-----------------------
 
@@ -1132,15 +3428,15 @@ Common - Adds no additional effect or modification to player.
 
 Half-breed - Has to be half human and half another playable kinl. Starts with one attribute and has the potential to have one attribute from each race but can't obtain a third. Weight capacity is the average of the two races selected.
 
-Soul-splitter - The character has a medium sized crustacean permanently attached to the back of their neck that they share thoughts with. The player's kin attributes are significantly stronger. The player�s back cannot be covered by armor.
+Soul-splitter - The character has a medium sized crustacean permanently attached to the back of their neck that they share thoughts with. The player's kin attributes are significantly stronger. The player�s back cannot be covered by armor.
 
 Spark of insanity - Can speak with their conscience and ask one question OPIGD, but are seen as insane. 
 
-Undead - Bound to a specific personal beacon. They will always revive for free to wherever the beacon is placed, but if they want to stay they must use an XP to remain with their current party. If the player is transported back they will leave everything on them at the place of their death. If the player dies in range of their beacon they can only XP out or make a deal with death. Can never be revived by/through miracles. The player�s beacon can be moved as long as a GM is aware and present. 20 seconds uninterrupted to place your beacon.
+Undead - Bound to a specific personal beacon. They will always revive for free to wherever the beacon is placed, but if they want to stay they must use an XP to remain with their current party. If the player is transported back they will leave everything on them at the place of their death. If the player dies in range of their beacon they can only XP out or make a deal with death. Can never be revived by/through miracles. The player�s beacon can be moved as long as a GM is aware and present. 20 seconds uninterrupted to place your beacon.
 
 Vampiric - Must drink humanoid blood instead of resting. Can't be turned and can't turn others. Can't be cured.
 
-Werewolf - Allows the player to invoke werewolf form; multiplying the player's health by three, giving them a damage reduction of 1, and automatically removing their armor. Player always has a weakness to silver and can�t rest after invocation until the player has fed. The invocation only lasts as long as a single encounter. Can�t be cured. (OPQ)
+Werewolf - Allows the player to invoke werewolf form; multiplying the player's health by three, giving them a damage reduction of 1, and automatically removing their armor. Player always has a weakness to silver and can�t rest after invocation until the player has fed. The invocation only lasts as long as a single encounter. Can�t be cured. (OPQ)
 
 Bound weapon  - The player cannot be disarmed if they are only in possession of only one weapon but must always be in contact with at least one weapon. The only way they can not be in contact with a weapon is if they die and the weapon is taken from them. The next weapon they come into contact with restarts the effect.
 
