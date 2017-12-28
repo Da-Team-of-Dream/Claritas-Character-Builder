@@ -7822,6 +7822,7 @@
         ConstructInfoForm("Modifiers")
     End Sub
 #End Region
+
     Private Sub ButtonModifierEnd_Click(sender As Object, e As EventArgs) Handles ButtonModifierEnd.Click
         If RadioButtonModifiersHalfBreed.Checked = True Then
             PanelHalfbreed.BringToFront()

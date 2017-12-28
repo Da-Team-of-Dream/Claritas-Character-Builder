@@ -29,7 +29,7 @@ A descendant of Krawdahgoor First Guardian of the Dragons  (prowess 90)
 Normal height is from 5’11’’ to 6’4’’, darkened skin tones with a tough thickness to their skin, and their hair a darkened color (of players choice), but their eyes are golden if a descendants of Rawkahgoor , or yellow for the descendant of Krawdahgoor        
 KinDrakhonon
 ------------------
-KinDryad 
+KinDryad
 Stature - Large, Average Height 6’ 6"
 Description: Dryads are slightly larger than most humans. They have dark to light brown skin and bark covering them. The amount of bark on individuals vary. Their hair is made up of leaves such as long thin leaves, locust leaves, or pine needles depending on what climate they’re from. Their eyes are deep green and almond shaped and their faces are slightly flatter than normal. Dryads are a kind and calm people, but they never let their decisions be made for them. If anyone or anything tries to make them move or change their mind the Dryads will not budge. Even in the wake of war Dryads would rather fortify their city and hold than move.
 KinDryad
@@ -126,10 +126,10 @@ KinS---------
 Null
 KinS---------
 ------------------
-KinSquirrels 
+KinSquirrels
 Stature - Small, Average height 1'
 Null
-KinSquirrels 
+KinSquirrels
 ------------------
 KinTroll
 Stature - Large, Average height
