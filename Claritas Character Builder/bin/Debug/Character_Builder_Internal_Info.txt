@@ -613,6 +613,23 @@ Allows player to negate any physical ability damage.
 
 ClassWarrior
 ------------------
+ClassWizard
+Wizards can each control two types of magic. One elemental magic, and one manifold magic. 
+
+Elemental magic is straightforward, using an elements to effect the battlefield.
+ 
+Hydromancy is the magic of water and ice. Its focus is on on debilitating and incapacitating enemies.
+Kairomancy is lightning magic. Its focus is on utility spells and damage that completely ignores armor.
+Pyromancy is magic that uses and controls fire. Its focuses on raw damage and power.
+
+Manifold magic consists of varieties of magic that alter play style in or out of combat.
+
+Necromancy is magic that uses artificial powers of life and death as a weapon. It focuses on raising the dead to fight and health manipulation.
+Kinesiomancy is magic that physically manipulates the world. It focuses on armor, weapons, and displacement.
+Neuromancy is magic that manipulates the mind. It focuses on manipulating and controlling thoughts, actions, and visions.
+
+ClassWizard
+------------------
 ClassHydromancy
 Hydromancy is the magic of water and ice. Its focus is on on debilitating and incapacitating enemies.
 
@@ -637,6 +654,8 @@ ClassHydromancy
 ClassKairomancy
 Kairomancy is lightning magic. Its focus is on utility spells and damage that completely ignores armor.
 
+Tier I
+
 Lighting Bolt
 Does damage to the targets health.
 
@@ -654,7 +673,7 @@ Can’t be used if target doesn’t have metal. Causes weapons and armor to be p
 ClassKairomancy
 ------------------
 ClassPyromancy
-Pyromance is magic that uses and controls fire. its focuses on raw damage and power.
+Pyromancy is magic that uses and controls fire. its focuses on raw damage and power.
 
 Tier I
 
@@ -675,7 +694,7 @@ Player can shoot a conical flame in front of themselves damaging all inside it.
 ClassPyromancy
 ------------------
 ClassKinesiomancy
-Kinesiomance is magic that physically manipulates the world. It focuses on armor, weapons, and displacement.
+Kinesiomancy is magic that physically manipulates the world. It focuses on armor, weapons, and displacement.
 
  
 Surge
@@ -697,6 +716,8 @@ ClassKinesiomancy
 ClassNecromancy
 Necromancy is magic that uses artificial powers of life and death as a weapon. It focuses on raising the dead to fight and health manipulation.
 
+Tier I
+
 Life Syphon 
 Steals health from the target hit by this spell
 
@@ -714,7 +735,7 @@ Stops the effects of all potions, poisons, diseases, and Clerical/Healing magic 
 ClassNecromancy
 ------------------
 ClassNeuromancy
-Neuromance is magic that manipulates the mind. It focuses on manipulating and controlling thoughts, actions, and visions.
+Neuromancy is magic that manipulates the mind. It focuses on manipulating and controlling thoughts, actions, and visions.
 
 Tier I
 
@@ -3426,7 +3447,7 @@ AllTalentsKairoNeuro
 Modifiers
 Common - Adds no additional effect or modification to player.
 
-Half-breed - Has to be half human and half another playable kinl. Starts with one attribute and has the potential to have one attribute from each race but can't obtain a third. Weight capacity is the average of the two races selected.
+Half-breed - Has to be half human and half another playable kin. Starts with one attribute and has the potential to have one attribute from each race but can't obtain a third. Weight capacity is the average of the two races selected.
 
 Soul-splitter - The character has a medium sized crustacean permanently attached to the back of their neck that they share thoughts with. The player's kin attributes are significantly stronger. The player�s back cannot be covered by armor.
 

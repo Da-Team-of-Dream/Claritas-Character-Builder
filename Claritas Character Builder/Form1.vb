@@ -1375,7 +1375,7 @@
     End Sub
 
     Private Sub LabelClassRanger_Click(sender As Object, e As EventArgs) Handles LabelClassRanger.Click
-        ConstructInfoForm("ClasRanger")
+        ConstructInfoForm("ClassRanger")
     End Sub
 
     Private Sub LabelClassRogue_Click(sender As Object, e As EventArgs) Handles LabelClassRogue.Click
@@ -7851,6 +7851,27 @@
         End If
     End Sub
 
+    Private Sub LabelWizardKairomancy_Click(sender As Object, e As EventArgs) Handles LabelWizardKairomancy.Click
+        ConstructInfoForm("ClassKairomancy")
+    End Sub
 
+    Private Sub LabelWizardPyromancy_Click(sender As Object, e As EventArgs) Handles LabelWizardPyromancy.Click
+        ConstructInfoForm("ClassPyromancy")
+    End Sub
 
-End Class
+    Private Sub LabelWizardHydromancy_Click(sender As Object, e As EventArgs) Handles LabelWizardHydromancy.Click
+        ConstructInfoForm("ClassHydromancy")
+    End Sub
+
+    Private Sub LabelWizardKinesiomancy_Click(sender As Object, e As EventArgs) Handles LabelWizardKinesiomancy.Click
+        ConstructInfoForm("ClassKinesiomancy")
+    End Sub
+
+    Private Sub LabelWizardNecromancy_Click(sender As Object, e As EventArgs) Handles LabelWizardNecromancy.Click
+        ConstructInfoForm("ClassNecromancy")
+    End Sub
+
+    Private Sub LabelWizardNeuromancy_Click(sender As Object, e As EventArgs) Handles LabelWizardNeuromancy.Click
+        ConstructInfoForm("ClassNeuromancy")
+    End Sub
+

@@ -225,14 +225,14 @@
   <data name="LabelNecrokairoIntro.Text" xml:space="preserve">
     <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
-  <data name="Label26.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+  <data name="LabelKinesiohydroIntro.Text" xml:space="preserve">
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. As a wizard you first spell is free! You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
   <data name="LabelKinesiopyroIntro.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. As a wizard you first spell is free!  You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
   <data name="LabelKinesiokairoIntro.Text" xml:space="preserve">
-    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
+    <value>Time to pick your starting talents. As you play you'll be able to learn higher level talents, but for now you start with level one for talents out of your class. As a wizard you first spell is free! You can buy up to level 2 fom the classless talent list by holding shift while you click the add button. You do not have to use all of your experience right now.</value>
   </data>
   <data name="LabelDrakohnonIntro.Text" xml:space="preserve">
     <value>Now you choose a kin attribute to start with. You can start with one attribute of your choice. Once you start playing you can learn up to three depending on the choices your character makes. Click on the info button for the descriptions of the attributes.</value>
