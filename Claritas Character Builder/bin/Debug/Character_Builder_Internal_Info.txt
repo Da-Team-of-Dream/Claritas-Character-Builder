@@ -763,6 +763,77 @@ Allows the caster to manipulate someones dreams.
 
 ClassNeuromancy
 -----------------------ClassAbilities/Skills-----------------------
+AllweaponsWeaponart
+A Weapon Art costs 10 XP to purchase and requires dex in the weapon’s class. Weapon art can be learned from an expert in a dojo, a master coming to town, or other players role playing for 10 min.
+
+Dagger
+Every third consecutive hit without taking a hit yourself deals an extra 2 damage 
+
+Short Sword
+If weapon is broken max damage is reduced to 1 and can still be used to defend
+
+Long Sword
+Lock weapon, Lets the player lock weapons with an enemy. If they maintain this without either getting hit for 3 seconds the player pushes the weapon back and gets a free strike. OPE
+
+Greatswords
+Grants the player a plus of their damage to any base abilities. 
+
+Hatchet
+3 Consecutive on the same limb will do double damage to that limb
+
+Battle Axe
+For every 3 hits on a single target your damage goes up by 1 to that target. If you block or attack another target with your weapon, it resets. 
+
+War Axe
+If the player blocks a talent their next attack gets +2 to damage
+
+Great Axe
+Focus for 3 seconds before and 2 seconds after an attack. If that attack connects with a limb that limb is severed.
+
+Hammers
+3 Consecutive hits on a single limb will completely numb that limb for 5 seconds
+
+Battle Hammers
+Piercing damage
+
+War Hammers
+If the player hits a shield the wielder’s shield arm is numbed for 10 seconds. Once per target. 
+
+Great Hammers
+Focus for 2 seconds before and 3 seconds after an attack. If that attack connects with a shield it breaks the shield, if it connects with an enemy is sends them 5 feet and to the ground in that direction.
+
+Hunting Spear
+If wielder is not hit while attempting to attack the target 3 times, the 3rd strike is an armor piercer if it hits the target’s chest
+
+Battle Spear
+Player does a jump attack that if connects does full damage, forces the enemy to take 2 steps back, take a knee, and can only defend for 3 seconds.  OPE
+
+War Spear
+OPE Allows the player to call Impale before striking, if they hit the target, both are held in place. If the player receives damage from another target the effect ends. The player may choose to end the effect whenever they want by calling damage and removing the weapon.
+
+Great Spear
+2 uses per encounter, call sweep and wait for 2 seconds before and after and do a knock down for everyone in weapon’s reach.
+
+Bow
+When you hit any shield your bow does no damage and your arrow damage is tripled and damage goes to arm HP.
+
+Exotic
+We allow them to pick from the weapon’s “mixture” of weapon arts.
+
+Buckler Shield
+If it breaks, as long as it's being worn that arm gets an additive dr +1
+Can be used with a two handed weapon. Still must two hand the weapon, but can let got of one hand for a little bit at a time to block.
+
+Kite Shield
+If it breaks, as long as it's being worn that arm gets an additive dr +1
+Can call shield bash and roleplay a shield bash that forces a target to take a step back and take a knee for 3 seconds in which they can only defend.
+
+Great Shield
+If it breaks, as long as it's being worn that arm gets an additive dr +1
+Can resist any displacement effects OPE. 
+
+AllweaponsWeaponart
+--------------------
 TalentsCleric
 Abilities
 

@@ -16,6 +16,6 @@
     End Sub
 
     Private Sub ButtonWeaponartInfo_Click(sender As Object, e As EventArgs) Handles ButtonWeaponartInfo.Click
-        ConstructInfoForm("Weaponart")
+        ConstructInfoForm("AllweaponsWeaponart")
     End Sub
 End Class

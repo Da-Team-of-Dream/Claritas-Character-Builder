@@ -39,8 +39,8 @@ Partial Class FormDex
         Me.CheckBoxWepondexDualwielding = New System.Windows.Forms.CheckBox()
         Me.ButtonWeapondexWeaponart = New System.Windows.Forms.Button()
         Me.PanelWeaponart = New System.Windows.Forms.Panel()
+        Me.ButtonWeaponartInfo = New System.Windows.Forms.Button()
         Me.ButtonWeaponartWeapondex = New System.Windows.Forms.Button()
-        Me.RadioButtonWeaponartThrowingweapon = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartBattlespear = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartBattleaxe = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartBattlehammer = New System.Windows.Forms.RadioButton()
@@ -50,7 +50,7 @@ Partial Class FormDex
         Me.RadioButtonWeaponartGreatspear = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartHatchet = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartHammer = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonWeaponartShield = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWeaponartBuckler = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartGreataxe = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartWarspear = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartDagger = New System.Windows.Forms.RadioButton()
@@ -61,7 +61,9 @@ Partial Class FormDex
         Me.RadioButtonWeaponartLongsword = New System.Windows.Forms.RadioButton()
         Me.LabelWeaponartIntro = New System.Windows.Forms.Label()
         Me.PanelWeapondex = New System.Windows.Forms.Panel()
-        Me.ButtonWeaponartInfo = New System.Windows.Forms.Button()
+        Me.CheckBoxWeapondexWeaponcasting = New System.Windows.Forms.CheckBox()
+        Me.RadioButtonWeaponartGreatshield = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWeaponartKiteshield = New System.Windows.Forms.RadioButton()
         Me.PanelWeaponart.SuspendLayout()
         Me.PanelWeapondex.SuspendLayout()
         Me.SuspendLayout()
@@ -81,7 +83,7 @@ Partial Class FormDex
         Me.LabelWeapondexIntro.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelWeapondexIntro.Location = New System.Drawing.Point(30, 9)
         Me.LabelWeapondexIntro.Name = "LabelWeapondexIntro"
-        Me.LabelWeapondexIntro.Size = New System.Drawing.Size(576, 62)
+        Me.LabelWeapondexIntro.Size = New System.Drawing.Size(576, 79)
         Me.LabelWeapondexIntro.TabIndex = 1
         Me.LabelWeapondexIntro.Text = resources.GetString("LabelWeapondexIntro.Text")
         '
@@ -218,17 +220,18 @@ Partial Class FormDex
         '
         Me.PanelWeaponart.Controls.Add(Me.ButtonWeaponartInfo)
         Me.PanelWeaponart.Controls.Add(Me.ButtonWeaponartWeapondex)
-        Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartThrowingweapon)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartBattlespear)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartBattleaxe)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartBattlehammer)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartShortsword)
+        Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartKiteshield)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartBow)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartHuntingspear)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartGreatspear)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartHatchet)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartHammer)
-        Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartShield)
+        Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartGreatshield)
+        Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartBuckler)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartGreataxe)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartWarspear)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartDagger)
@@ -244,6 +247,15 @@ Partial Class FormDex
         Me.PanelWeaponart.Size = New System.Drawing.Size(634, 317)
         Me.PanelWeaponart.TabIndex = 3
         '
+        'ButtonWeaponartInfo
+        '
+        Me.ButtonWeaponartInfo.Location = New System.Drawing.Point(540, 281)
+        Me.ButtonWeaponartInfo.Name = "ButtonWeaponartInfo"
+        Me.ButtonWeaponartInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWeaponartInfo.TabIndex = 3
+        Me.ButtonWeaponartInfo.Text = "Info"
+        Me.ButtonWeaponartInfo.UseVisualStyleBackColor = True
+        '
         'ButtonWeaponartWeapondex
         '
         Me.ButtonWeaponartWeapondex.Location = New System.Drawing.Point(13, 282)
@@ -252,17 +264,6 @@ Partial Class FormDex
         Me.ButtonWeaponartWeapondex.TabIndex = 2
         Me.ButtonWeaponartWeapondex.Text = "Dexterities"
         Me.ButtonWeaponartWeapondex.UseVisualStyleBackColor = True
-        '
-        'RadioButtonWeaponartThrowingweapon
-        '
-        Me.RadioButtonWeaponartThrowingweapon.AutoSize = True
-        Me.RadioButtonWeaponartThrowingweapon.Location = New System.Drawing.Point(187, 227)
-        Me.RadioButtonWeaponartThrowingweapon.Name = "RadioButtonWeaponartThrowingweapon"
-        Me.RadioButtonWeaponartThrowingweapon.Size = New System.Drawing.Size(113, 17)
-        Me.RadioButtonWeaponartThrowingweapon.TabIndex = 1
-        Me.RadioButtonWeaponartThrowingweapon.TabStop = True
-        Me.RadioButtonWeaponartThrowingweapon.Text = "Throwing Weapon"
-        Me.RadioButtonWeaponartThrowingweapon.UseVisualStyleBackColor = True
         '
         'RadioButtonWeaponartBattlespear
         '
@@ -363,16 +364,16 @@ Partial Class FormDex
         Me.RadioButtonWeaponartHammer.Text = "Hammer"
         Me.RadioButtonWeaponartHammer.UseVisualStyleBackColor = True
         '
-        'RadioButtonWeaponartShield
+        'RadioButtonWeaponartBuckler
         '
-        Me.RadioButtonWeaponartShield.AutoSize = True
-        Me.RadioButtonWeaponartShield.Location = New System.Drawing.Point(345, 227)
-        Me.RadioButtonWeaponartShield.Name = "RadioButtonWeaponartShield"
-        Me.RadioButtonWeaponartShield.Size = New System.Drawing.Size(54, 17)
-        Me.RadioButtonWeaponartShield.TabIndex = 1
-        Me.RadioButtonWeaponartShield.TabStop = True
-        Me.RadioButtonWeaponartShield.Text = "Shield"
-        Me.RadioButtonWeaponartShield.UseVisualStyleBackColor = True
+        Me.RadioButtonWeaponartBuckler.AutoSize = True
+        Me.RadioButtonWeaponartBuckler.Location = New System.Drawing.Point(187, 227)
+        Me.RadioButtonWeaponartBuckler.Name = "RadioButtonWeaponartBuckler"
+        Me.RadioButtonWeaponartBuckler.Size = New System.Drawing.Size(61, 17)
+        Me.RadioButtonWeaponartBuckler.TabIndex = 1
+        Me.RadioButtonWeaponartBuckler.TabStop = True
+        Me.RadioButtonWeaponartBuckler.Text = "Buckler"
+        Me.RadioButtonWeaponartBuckler.UseVisualStyleBackColor = True
         '
         'RadioButtonWeaponartGreataxe
         '
@@ -482,6 +483,7 @@ Partial Class FormDex
         Me.PanelWeapondex.Controls.Add(Me.CheckBoxWepondexTwohandedblades)
         Me.PanelWeapondex.Controls.Add(Me.CheckBoxWepondexTwohandedspears)
         Me.PanelWeapondex.Controls.Add(Me.CheckBoxWepondexTwohandedhammers)
+        Me.PanelWeapondex.Controls.Add(Me.CheckBoxWeapondexWeaponcasting)
         Me.PanelWeapondex.Controls.Add(Me.CheckBoxWepondexExoticweapons)
         Me.PanelWeapondex.Controls.Add(Me.CheckBoxWepondexOnehandedblades)
         Me.PanelWeapondex.Controls.Add(Me.CheckBoxWepondexOnehandedspears)
@@ -494,14 +496,37 @@ Partial Class FormDex
         Me.PanelWeapondex.Size = New System.Drawing.Size(634, 317)
         Me.PanelWeapondex.TabIndex = 3
         '
-        'ButtonWeaponartInfo
+        'CheckBoxWeapondexWeaponcasting
         '
-        Me.ButtonWeaponartInfo.Location = New System.Drawing.Point(540, 281)
-        Me.ButtonWeaponartInfo.Name = "ButtonWeaponartInfo"
-        Me.ButtonWeaponartInfo.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonWeaponartInfo.TabIndex = 3
-        Me.ButtonWeaponartInfo.Text = "Info"
-        Me.ButtonWeaponartInfo.UseVisualStyleBackColor = True
+        Me.CheckBoxWeapondexWeaponcasting.AutoSize = True
+        Me.CheckBoxWeapondexWeaponcasting.Location = New System.Drawing.Point(187, 264)
+        Me.CheckBoxWeapondexWeaponcasting.Name = "CheckBoxWeapondexWeaponcasting"
+        Me.CheckBoxWeapondexWeaponcasting.Size = New System.Drawing.Size(105, 17)
+        Me.CheckBoxWeapondexWeaponcasting.TabIndex = 0
+        Me.CheckBoxWeapondexWeaponcasting.Text = "Weapon Casting"
+        Me.CheckBoxWeapondexWeaponcasting.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWeaponartGreatshield
+        '
+        Me.RadioButtonWeaponartGreatshield.AutoSize = True
+        Me.RadioButtonWeaponartGreatshield.Location = New System.Drawing.Point(494, 227)
+        Me.RadioButtonWeaponartGreatshield.Name = "RadioButtonWeaponartGreatshield"
+        Me.RadioButtonWeaponartGreatshield.Size = New System.Drawing.Size(83, 17)
+        Me.RadioButtonWeaponartGreatshield.TabIndex = 1
+        Me.RadioButtonWeaponartGreatshield.TabStop = True
+        Me.RadioButtonWeaponartGreatshield.Text = "Great Shield"
+        Me.RadioButtonWeaponartGreatshield.UseVisualStyleBackColor = True
+        '
+        'RadioButtonWeaponartKiteshield
+        '
+        Me.RadioButtonWeaponartKiteshield.AutoSize = True
+        Me.RadioButtonWeaponartKiteshield.Location = New System.Drawing.Point(345, 227)
+        Me.RadioButtonWeaponartKiteshield.Name = "RadioButtonWeaponartKiteshield"
+        Me.RadioButtonWeaponartKiteshield.Size = New System.Drawing.Size(75, 17)
+        Me.RadioButtonWeaponartKiteshield.TabIndex = 1
+        Me.RadioButtonWeaponartKiteshield.TabStop = True
+        Me.RadioButtonWeaponartKiteshield.Text = "Kite Shield"
+        Me.RadioButtonWeaponartKiteshield.UseVisualStyleBackColor = True
         '
         'FormDex
         '
@@ -538,7 +563,6 @@ Partial Class FormDex
     Friend WithEvents ButtonWeapondexWeaponart As Button
     Friend WithEvents PanelWeaponart As Panel
     Friend WithEvents ButtonWeaponartWeapondex As Button
-    Friend WithEvents RadioButtonWeaponartThrowingweapon As RadioButton
     Friend WithEvents RadioButtonWeaponartBattlespear As RadioButton
     Friend WithEvents RadioButtonWeaponartBattleaxe As RadioButton
     Friend WithEvents RadioButtonWeaponartBattlehammer As RadioButton
@@ -548,7 +572,7 @@ Partial Class FormDex
     Friend WithEvents RadioButtonWeaponartGreatspear As RadioButton
     Friend WithEvents RadioButtonWeaponartHatchet As RadioButton
     Friend WithEvents RadioButtonWeaponartHammer As RadioButton
-    Friend WithEvents RadioButtonWeaponartShield As RadioButton
+    Friend WithEvents RadioButtonWeaponartBuckler As RadioButton
     Friend WithEvents RadioButtonWeaponartGreataxe As RadioButton
     Friend WithEvents RadioButtonWeaponartWarspear As RadioButton
     Friend WithEvents RadioButtonWeaponartDagger As RadioButton
@@ -560,4 +584,7 @@ Partial Class FormDex
     Friend WithEvents LabelWeaponartIntro As Label
     Friend WithEvents PanelWeapondex As Panel
     Friend WithEvents ButtonWeaponartInfo As Button
+    Friend WithEvents CheckBoxWeapondexWeaponcasting As CheckBox
+    Friend WithEvents RadioButtonWeaponartKiteshield As RadioButton
+    Friend WithEvents RadioButtonWeaponartGreatshield As RadioButton
 End Class
