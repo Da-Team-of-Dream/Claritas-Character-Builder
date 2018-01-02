@@ -885,6 +885,7 @@ Partial Class Form1
         Me.LabelNecrokairoXp = New System.Windows.Forms.Label()
         Me.LabelNecrokairoIntro = New System.Windows.Forms.Label()
         Me.PanelKinesiohydro = New System.Windows.Forms.Panel()
+        Me.LabelKinesiohydro = New System.Windows.Forms.Label()
         Me.ButtonKinesiohydroInfo = New System.Windows.Forms.Button()
         Me.ButtonKinesiohydroModifyer = New System.Windows.Forms.Button()
         Me.ButtonKinesiohydroWizard = New System.Windows.Forms.Button()
@@ -1124,7 +1125,6 @@ Partial Class Form1
         Me.ButtonHalfbreedEnd = New System.Windows.Forms.Button()
         Me.ButtonHalfbreedModifier = New System.Windows.Forms.Button()
         Me.LabelHalfbreedIntro = New System.Windows.Forms.Label()
-        Me.LabelKinesiohydro = New System.Windows.Forms.Label()
         Me.PanelWelcome.SuspendLayout()
         Me.PanelKin.SuspendLayout()
         Me.PanelNyad.SuspendLayout()
@@ -1250,8 +1250,8 @@ Partial Class Form1
         Me.LabelWelcomeHeading.Name = "LabelWelcomeHeading"
         Me.LabelWelcomeHeading.Size = New System.Drawing.Size(455, 51)
         Me.LabelWelcomeHeading.TabIndex = 0
-        Me.LabelWelcomeHeading.Text = "Welcome to Claritas character creatior! To get started fill in the blanks and cli" &
-    "ck next. Remeber you can always  go back to any page."
+        Me.LabelWelcomeHeading.Text = "Welcome to Claritas character creator! To get started fill in the blanks and clic" &
+    "k next. Remeber you can always  go back to any page."
         '
         'PanelKin
         '
@@ -10937,6 +10937,15 @@ Partial Class Form1
         Me.PanelKinesiohydro.Size = New System.Drawing.Size(621, 316)
         Me.PanelKinesiohydro.TabIndex = 42
         '
+        'LabelKinesiohydro
+        '
+        Me.LabelKinesiohydro.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelKinesiohydro.Location = New System.Drawing.Point(469, 81)
+        Me.LabelKinesiohydro.Name = "LabelKinesiohydro"
+        Me.LabelKinesiohydro.Size = New System.Drawing.Size(100, 16)
+        Me.LabelKinesiohydro.TabIndex = 9
+        Me.LabelKinesiohydro.Text = "XP left: 15"
+        '
         'ButtonKinesiohydroInfo
         '
         Me.ButtonKinesiohydroInfo.Location = New System.Drawing.Point(496, 252)
@@ -13671,43 +13680,15 @@ Partial Class Form1
         Me.LabelHalfbreedIntro.Location = New System.Drawing.Point(8, 6)
         Me.LabelHalfbreedIntro.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LabelHalfbreedIntro.Name = "LabelHalfbreedIntro"
-        Me.LabelHalfbreedIntro.Size = New System.Drawing.Size(144, 202)
+        Me.LabelHalfbreedIntro.Size = New System.Drawing.Size(144, 256)
         Me.LabelHalfbreedIntro.TabIndex = 0
         Me.LabelHalfbreedIntro.Text = resources.GetString("LabelHalfbreedIntro.Text")
-        '
-        'LabelKinesiohydro
-        '
-        Me.LabelKinesiohydro.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelKinesiohydro.Location = New System.Drawing.Point(469, 81)
-        Me.LabelKinesiohydro.Name = "LabelKinesiohydro"
-        Me.LabelKinesiohydro.Size = New System.Drawing.Size(100, 16)
-        Me.LabelKinesiohydro.TabIndex = 9
-        Me.LabelKinesiohydro.Text = "XP left: 15"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
-        Me.Controls.Add(Me.PanelWastelander)
-        Me.Controls.Add(Me.PanelSanjoran)
-        Me.Controls.Add(Me.PanelOrc)
-        Me.Controls.Add(Me.PanelHighelf)
-        Me.Controls.Add(Me.PanelGigayona)
-        Me.Controls.Add(Me.PanelFelucian)
-        Me.Controls.Add(Me.PanelDarkelf)
-        Me.Controls.Add(Me.PanelMinotaur)
-        Me.Controls.Add(Me.PanelKinsman)
-        Me.Controls.Add(Me.PanelCatdrah)
-        Me.Controls.Add(Me.PanelTroll)
-        Me.Controls.Add(Me.PanelSquirrel)
-        Me.Controls.Add(Me.PanelJadeImperial)
-        Me.Controls.Add(Me.PanelDwarf)
-        Me.Controls.Add(Me.PanelDryad)
-        Me.Controls.Add(Me.PanelGnome)
-        Me.Controls.Add(Me.PanelKin)
-        Me.Controls.Add(Me.PanelGoblin)
-        Me.Controls.Add(Me.PanelHalfbreed)
         Me.Controls.Add(Me.PanelWelcome)
         Me.Controls.Add(Me.PanelNyad)
         Me.Controls.Add(Me.PanelAngalucian)
@@ -13736,6 +13717,25 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelFairy)
         Me.Controls.Add(Me.PanelDrakohnon)
         Me.Controls.Add(Me.PanelWolfsbein)
+        Me.Controls.Add(Me.PanelWastelander)
+        Me.Controls.Add(Me.PanelSanjoran)
+        Me.Controls.Add(Me.PanelOrc)
+        Me.Controls.Add(Me.PanelHighelf)
+        Me.Controls.Add(Me.PanelGigayona)
+        Me.Controls.Add(Me.PanelFelucian)
+        Me.Controls.Add(Me.PanelDarkelf)
+        Me.Controls.Add(Me.PanelMinotaur)
+        Me.Controls.Add(Me.PanelKinsman)
+        Me.Controls.Add(Me.PanelCatdrah)
+        Me.Controls.Add(Me.PanelTroll)
+        Me.Controls.Add(Me.PanelSquirrel)
+        Me.Controls.Add(Me.PanelJadeImperial)
+        Me.Controls.Add(Me.PanelDwarf)
+        Me.Controls.Add(Me.PanelDryad)
+        Me.Controls.Add(Me.PanelGnome)
+        Me.Controls.Add(Me.PanelKin)
+        Me.Controls.Add(Me.PanelGoblin)
+        Me.Controls.Add(Me.PanelHalfbreed)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelWelcome.ResumeLayout(False)

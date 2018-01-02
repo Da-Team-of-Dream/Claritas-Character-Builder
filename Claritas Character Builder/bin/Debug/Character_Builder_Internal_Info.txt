@@ -616,7 +616,7 @@ ClassWarrior
 ClassWizard
 Wizards can each control two types of magic. One elemental magic, and one manifold magic. 
 
-Elemental magic is straightforward, using an elements to effect the battlefield.
+Elemental magic is straightforward, using an element to effect the battlefield.
  
 Hydromancy is the magic of water and ice. Its focus is on on debilitating and incapacitating enemies.
 Kairomancy is lightning magic. Its focus is on utility spells and damage that completely ignores armor.
