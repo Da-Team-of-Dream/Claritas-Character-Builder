@@ -123,4 +123,81 @@
   <data name="LabelWeaponartIntro.Text" xml:space="preserve">
     <value>Weapon Arts are specified bonuses for using your weapon. Each of these costs 10 experience. Click the info button for what each weapon does. If you have an exotic weapon choose the weapon art of something that is similar to your weapon.</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
+        AAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AQEB/wEAAP8AAAD/DAcD/19DLv/AjF7/zpBV/8uO
+        VP/MjlT/zI5U/8uOVP/OkFX/rHZF/1g7JP8QCwj/AAAA/wEAAP8BAQD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAP8AAAD/HhML/3dWOv/SnXD//8uX//K9
+        hf/YmFX/25xZ/9ucWf/bnFn/25tY/9ucWf/JjEz/xYhJ/653Q/9rSSz/IBYO/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQH/AAAA/35aPf/yuIX//9Cb//7O
+        m///ypr/67N7/9aXVP/Zmln/2ZpY/9maWP/YmVj/2ptZ/8aKTP+6gEP/woZG/8uMSv/Dhkr/ck0u/wAA
+        AP8BAQD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AQAA/wAAAP8CAAD/zJxw///U
+        oP/4w5L/+sWT///Kmf/qsHf/1pdU/9qbWf/Zmlj/2ZpY/9maWP/bnFn/yY1N/7yBRP++g0X/uoBD/8SI
+        Rv+tdkP/BgQD/wAAAP8BAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQD/AAAA/w8J
+        BP/apXf//8yZ//vFlP/8xpT//8qZ/+etcv/Xl1T/2ptZ/9maWP/Zmlj/2ZpY/9ucWf/Ljk//vIFE/76D
+        Rf+9gkX/wIRF/7J6RP8TDAn/AAAA/wEBAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wIB
+        Af8AAAD/IBUN/+21hP//y5n//MaU//3GlP//ypn/5Klt/9eXVP/Zm1n/2ZpY/9maWP/Zmlj/25xZ/82Q
+        UP+8gUT/voNF/76DRf++g0T/voNI/yIXD/8AAAD/AgEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AgIB/wAAAP82JRf/+sGN//7Il//8xpT//ceU//7JmP/ipmn/15hV/9mbWf/Zmlj/2ZpY/9ma
+        WP/bm1n/z5JS/7yCRP++g0X/voNF/7yCRP/FiEr/NSQW/wAAAP8CAgH/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8DAgL/AAAA/043JP//yZT//MeV//3Hlf/9x5X//ciW/9+jZf/YmFX/2ZpZ/9ma
+        WP/Zmlj/2ZpY/9ubWf/SlFP/vYJE/76DRf++g0X/u4FE/8mLS/9JMh7/AAAA/wMCAf8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wMDAv8AAAD/aEoy///Pmf/6xZT//ceV//3Hlf/8xpT/3aBh/9iZ
+        Vv/Zmlj/2ZpY/9maWP/Zmlj/2ptZ/9OVVP+9g0X/voNF/76DRf+7gUT/y4xL/19AJ/8AAAD/AwIB/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AwMC/wAAAP+DX0L//9Gc//rFk//9x5X//siW//rE
+        kv/bnV3/2JlX/9maWP/Zmlj/2ZpY/9maWP/am1n/1ZdW/76DRf++g0X/voNF/7uBRP/Ki0r/dE8v/wAA
+        AP8DAgH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8CAgL/AAAA/550Uf//0p3/+sWT//3H
+        lf/+yJf/+MKP/9qbWv/Zmlf/2ZpY/9maWP/Zmlj/2ZpY/9qaWP/XmFf/v4RG/76DRf++g0X/vIFE/8iK
+        Sf+IXTb/AAAA/wIBAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/uIlh///R
+        nf/6xZP//ceU///Jl//2v4v/2JpY/9maWP/Zmlj/2ZpY/9maWP/Zmlj/2ZpY/9iZWP/BhUf/vYJE/76D
+        Rf+8gkT/xYhH/5tqPf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQD/AAAA/wUC
+        AP/PnG///8+c//vFk//9xpT//8mY//S8h//XmFb/2ZpY/9maWP/Zmlj/2ZpY/9maWP/Zmlj/2ZpY/8KH
+        SP+9gkT/voNF/72CRf/Chkb/q3VC/woGBf8AAAD/AQEA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEB
+        Af8AAAD/FAwH/+KsfP//zJr//MaU//zGlP//ypn/8bmD/9eYVf/Zm1n/2ZpY/9maWP/Zmlj/2ZpY/9ma
+        WP/am1n/xIhK/72CRP++g0X/vYNF/8CERf+3fkb/FxAL/wAAAP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AgEB/wAAAP8nGhD/8rqH///KmP/8xpT//MaU///Kmf/utn7/1pdU/9qbWf/Zmlj/2ZpY/9ma
+        WP/Zmlj/2ZpY/9qbWf/Gikv/vIJE/76DRf++g0X/voNE/8GESf8oGxH/AAAA/wIBAf8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8DAgH/AAAA/z0qG//+xJD//ciW//zGlP/8xpT//8qZ/+uyef/Wl1T/2ptZ/9ma
+        WP/Zmlj/2ZpY/9maWP/Zmlj/25xZ/8iMTf+8gUT/voNF/76DRf+8gkT/x4lK/zsoGf8AAAD/AwIB/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wMCAv8AAAD/Vj0p///Llv/7xpX//ceV//zGlP//ypn/6K51/9aX
+        VP/am1n/2ZpY/9maWP/Zmlj/2ZpY/9maWP/bnFn/yo5O/7yBRP++g0X/voNF/7uBRP/Ki0v/UDYh/wAA
+        AP8DAgH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AwMC/wAAAP9xUTf//9Cb//rFlP/9x5X//caU///K
+        mf/mq3D/15dU/9qbWf/Zmlj/2ZpY/9maWP/Zmlj/2ZpY/9ucWv/MkFD/vIFE/76DRf++g0X/u4FE/8uM
+        Sv9mRSn/AAAA/wMCAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8DAgL/AAAA/4xnR///0p3/+sWT//3H
+        lf/9x5X//8qZ/+Ona//Xl1T/2ZpY/9maV//Zmlf/2ZpX/9maV//ZmVf/25tY/86RUP+8gkT/v4RF/76D
+        Rf+7gUT/yotJ/3tUMf8AAAD/AgIB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wICAf8AAAD/p3xX///S
+        nf/6xZT//ceW//3Gk//9xpT/36Ro/9eZWP/Zm1v/2Ztb/9mbW//Zm1v/2Ztb/9iaW//anFz/0ZRV/7uA
+        Q/+9gkT/voNF/7yCRP/HiUj/j2I4/wAAAP8BAQD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAB/wAA
+        AP/AkGb//9Gd//vEkv/9xZL/+8qa//vcsv/vxJr/67CC/+yzh//ss4b/7LOG/+yzhv/ss4b/67KF/+21
+        if/hpnH/zI9O/8GGSP+8gUT/vIFE/8WIR/+hbj//AgEC/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEB
+        AP8AAAD/CgUC/9Sfcf//y5f/+cmZ//rZr//85b///uvG//nctf/vtYn/8LeL//C3i//wt4v/8LeL//C3
+        i//wt4v/77eM/9yfYv/am1f/2ZpY/86RUf/AhUj/v4RE/6x2Qv8NCQf/AAAA/wEBAP8AAAD/AAAA/wAA
+        AP8AAAD/AgEB/wAAAP8dEgr/7r6O//3etf/54r3//enD//3mwP/95b///efB//DAlv/utIf/77aK/++2
+        iv/vtor/7rWJ//C3jP/nrXz/15hW/9maWP/Zmlj/25xZ/9eZV//NkFD/yIpO/x8VDv8AAAD/AgEB/wAA
+        AP8AAAD/AAAA/wAAAP8BAQD/AAAA/wYDAP+WdVb//+vC//3rxv/74rz//ebA//3lv//+6cT/9tOs/+6z
+        hv/vt4v/77aK/++2iv/vton/8LeN/9+iaP/YmFX/2ZpZ/9maWP/XmFf/2ZtY/+ejX/+NYTv/BwUD/wAA
+        AP8BAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAAAP9nSzP/9Nar///wyv/6473//eW///3n
+        wf/7477/77qP/++1if/vtor/77aK//C3i//rsoT/2ZpZ/9maWP/Zmlj/1phX/96eWv/bmlr/Y0Mq/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQD/AwMC/wAAAP87KBn/27iQ///y
+        y//65L///OS+//7qxP/zy6L/7rOG/++3i//vton/8biO/+Kncf/XmFT/2ZpZ/9aYV//joVz/x4tS/zso
+        Gf8AAAD/AwIB/wEBAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAAD/AwMC/wAA
+        AP8ZDgf/tZFt///wxv/758L//OXA//net//utor/77aK/++2iv/utYn/251e/9eYVv/XmVf/5qNe/6d0
+        Rf8bEgz/AAAA/wMCAf8BAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AwIB/wABAf8EAAD/h2ZK//7kuf/+7Mb/++XA//HDmf/us4b/8biO/+asef/VllT/25xZ/+Og
+        Xf9/VzX/BgQD/wAAAP8DAgH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AgEB/wMCAv8AAAD/WD4q/+3Mov//9M7/9NSt/+2yhv/wuI3/2p5k/9+e
+        WP/Wllj/VTok/wAAAP8CAQH/AgEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AQEA/wQDAv8AAAD/Lx4S/9Cthf//8sr/776V/+et
+        fv/lo13/voRP/zAgFf8AAAD/AwIB/wEBAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wMDAv8AAAD/EQcC/6OE
+        Y//80qj/6Khu/5ZnPP8TDQn/AAAA/wMCAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wMC
+        Af8BAQH/AAAA/4VhQ/+CXDv/AAAA/wAAAP8DAgH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
 </root>

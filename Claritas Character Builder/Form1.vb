@@ -3869,7 +3869,7 @@
                 Surge = Surge + 1
             Else
                 MsgBox("You do not have enough XP!!")
-                End If
+            End If
         End If
         TalentLableChange()
     End Sub

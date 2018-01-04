@@ -4721,12 +4721,9 @@ Partial Class Form1
         '
         'ButtonWarriorSmithingMinus
         '
-        Me.ButtonWarriorSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorSmithingMinus.Location = New System.Drawing.Point(189, 192)
         Me.ButtonWarriorSmithingMinus.Name = "ButtonWarriorSmithingMinus"
-        Me.ButtonWarriorSmithingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorSmithingMinus.TabIndex = 5
         Me.ButtonWarriorSmithingMinus.Text = "-"
         Me.ButtonWarriorSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4734,12 +4731,9 @@ Partial Class Form1
         '
         'ButtonWarriorDisarmMinus
         '
-        Me.ButtonWarriorDisarmMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorDisarmMinus.Location = New System.Drawing.Point(42, 231)
         Me.ButtonWarriorDisarmMinus.Name = "ButtonWarriorDisarmMinus"
-        Me.ButtonWarriorDisarmMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorDisarmMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorDisarmMinus.TabIndex = 5
         Me.ButtonWarriorDisarmMinus.Text = "-"
         Me.ButtonWarriorDisarmMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4747,12 +4741,9 @@ Partial Class Form1
         '
         'ButtonWarriorProwessMinus
         '
-        Me.ButtonWarriorProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorProwessMinus.Location = New System.Drawing.Point(189, 154)
         Me.ButtonWarriorProwessMinus.Name = "ButtonWarriorProwessMinus"
-        Me.ButtonWarriorProwessMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorProwessMinus.TabIndex = 5
         Me.ButtonWarriorProwessMinus.Text = "-"
         Me.ButtonWarriorProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4760,12 +4751,9 @@ Partial Class Form1
         '
         'ButtonWarriorKnockdownMinus
         '
-        Me.ButtonWarriorKnockdownMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorKnockdownMinus.Location = New System.Drawing.Point(41, 193)
         Me.ButtonWarriorKnockdownMinus.Name = "ButtonWarriorKnockdownMinus"
-        Me.ButtonWarriorKnockdownMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorKnockdownMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorKnockdownMinus.TabIndex = 5
         Me.ButtonWarriorKnockdownMinus.Text = "-"
         Me.ButtonWarriorKnockdownMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4773,12 +4761,9 @@ Partial Class Form1
         '
         'ButtonWarriorSenseMinus
         '
-        Me.ButtonWarriorSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorSenseMinus.Location = New System.Drawing.Point(366, 79)
         Me.ButtonWarriorSenseMinus.Name = "ButtonWarriorSenseMinus"
-        Me.ButtonWarriorSenseMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorSenseMinus.TabIndex = 5
         Me.ButtonWarriorSenseMinus.Text = "-"
         Me.ButtonWarriorSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4786,12 +4771,9 @@ Partial Class Form1
         '
         'ButtonWarriorLeatherworkingMinus
         '
-        Me.ButtonWarriorLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorLeatherworkingMinus.Location = New System.Drawing.Point(189, 116)
         Me.ButtonWarriorLeatherworkingMinus.Name = "ButtonWarriorLeatherworkingMinus"
-        Me.ButtonWarriorLeatherworkingMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorLeatherworkingMinus.TabIndex = 5
         Me.ButtonWarriorLeatherworkingMinus.Text = "-"
         Me.ButtonWarriorLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4799,12 +4781,9 @@ Partial Class Form1
         '
         'ButtonWarriorLikearockMinus
         '
-        Me.ButtonWarriorLikearockMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorLikearockMinus.Location = New System.Drawing.Point(42, 115)
         Me.ButtonWarriorLikearockMinus.Name = "ButtonWarriorLikearockMinus"
-        Me.ButtonWarriorLikearockMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorLikearockMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorLikearockMinus.TabIndex = 5
         Me.ButtonWarriorLikearockMinus.Text = "-"
         Me.ButtonWarriorLikearockMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4812,12 +4791,9 @@ Partial Class Form1
         '
         'ButtonWarriorHealthMinus
         '
-        Me.ButtonWarriorHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorHealthMinus.Location = New System.Drawing.Point(365, 152)
         Me.ButtonWarriorHealthMinus.Name = "ButtonWarriorHealthMinus"
-        Me.ButtonWarriorHealthMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorHealthMinus.TabIndex = 5
         Me.ButtonWarriorHealthMinus.Text = "-"
         Me.ButtonWarriorHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4825,12 +4801,9 @@ Partial Class Form1
         '
         'ButtonWarriorDetectionMinus
         '
-        Me.ButtonWarriorDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorDetectionMinus.Location = New System.Drawing.Point(365, 115)
         Me.ButtonWarriorDetectionMinus.Name = "ButtonWarriorDetectionMinus"
-        Me.ButtonWarriorDetectionMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorDetectionMinus.TabIndex = 5
         Me.ButtonWarriorDetectionMinus.Text = "-"
         Me.ButtonWarriorDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4838,12 +4811,9 @@ Partial Class Form1
         '
         'ButtonWarriorGimpMinus
         '
-        Me.ButtonWarriorGimpMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorGimpMinus.Location = New System.Drawing.Point(42, 154)
         Me.ButtonWarriorGimpMinus.Name = "ButtonWarriorGimpMinus"
-        Me.ButtonWarriorGimpMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorGimpMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorGimpMinus.TabIndex = 5
         Me.ButtonWarriorGimpMinus.Text = "-"
         Me.ButtonWarriorGimpMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4854,7 +4824,7 @@ Partial Class Form1
         Me.ButtonWarriorSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorSmithingPlus.Location = New System.Drawing.Point(164, 192)
         Me.ButtonWarriorSmithingPlus.Name = "ButtonWarriorSmithingPlus"
-        Me.ButtonWarriorSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorSmithingPlus.TabIndex = 4
         Me.ButtonWarriorSmithingPlus.Text = "+"
         Me.ButtonWarriorSmithingPlus.UseVisualStyleBackColor = True
@@ -4864,19 +4834,16 @@ Partial Class Form1
         Me.ButtonWarriorDisarmPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorDisarmPlus.Location = New System.Drawing.Point(17, 231)
         Me.ButtonWarriorDisarmPlus.Name = "ButtonWarriorDisarmPlus"
-        Me.ButtonWarriorDisarmPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorDisarmPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorDisarmPlus.TabIndex = 4
         Me.ButtonWarriorDisarmPlus.Text = "+"
         Me.ButtonWarriorDisarmPlus.UseVisualStyleBackColor = True
         '
         'ButtonWarriorWeapondexterityMinus
         '
-        Me.ButtonWarriorWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorWeapondexterityMinus.Location = New System.Drawing.Point(189, 232)
         Me.ButtonWarriorWeapondexterityMinus.Name = "ButtonWarriorWeapondexterityMinus"
-        Me.ButtonWarriorWeapondexterityMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorWeapondexterityMinus.TabIndex = 5
         Me.ButtonWarriorWeapondexterityMinus.Text = "-"
         Me.ButtonWarriorWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4884,12 +4851,9 @@ Partial Class Form1
         '
         'ButtonWarriorForestryMinus
         '
-        Me.ButtonWarriorForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorForestryMinus.Location = New System.Drawing.Point(188, 79)
         Me.ButtonWarriorForestryMinus.Name = "ButtonWarriorForestryMinus"
-        Me.ButtonWarriorForestryMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorForestryMinus.TabIndex = 5
         Me.ButtonWarriorForestryMinus.Text = "-"
         Me.ButtonWarriorForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4900,7 +4864,7 @@ Partial Class Form1
         Me.ButtonWarriorProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorProwessPlus.Location = New System.Drawing.Point(164, 154)
         Me.ButtonWarriorProwessPlus.Name = "ButtonWarriorProwessPlus"
-        Me.ButtonWarriorProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorProwessPlus.TabIndex = 4
         Me.ButtonWarriorProwessPlus.Text = "+"
         Me.ButtonWarriorProwessPlus.UseVisualStyleBackColor = True
@@ -4910,7 +4874,7 @@ Partial Class Form1
         Me.ButtonWarriorHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorHealthPlus.Location = New System.Drawing.Point(340, 152)
         Me.ButtonWarriorHealthPlus.Name = "ButtonWarriorHealthPlus"
-        Me.ButtonWarriorHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorHealthPlus.TabIndex = 4
         Me.ButtonWarriorHealthPlus.Text = "+"
         Me.ButtonWarriorHealthPlus.UseVisualStyleBackColor = True
@@ -4920,19 +4884,16 @@ Partial Class Form1
         Me.ButtonWarriorDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorDetectionPlus.Location = New System.Drawing.Point(340, 115)
         Me.ButtonWarriorDetectionPlus.Name = "ButtonWarriorDetectionPlus"
-        Me.ButtonWarriorDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorDetectionPlus.TabIndex = 4
         Me.ButtonWarriorDetectionPlus.Text = "+"
         Me.ButtonWarriorDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonWarriorCrushingblowMinus
         '
-        Me.ButtonWarriorCrushingblowMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonWarriorCrushingblowMinus.Location = New System.Drawing.Point(41, 78)
         Me.ButtonWarriorCrushingblowMinus.Name = "ButtonWarriorCrushingblowMinus"
-        Me.ButtonWarriorCrushingblowMinus.Size = New System.Drawing.Size(18, 23)
+        Me.ButtonWarriorCrushingblowMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorCrushingblowMinus.TabIndex = 5
         Me.ButtonWarriorCrushingblowMinus.Text = "-"
         Me.ButtonWarriorCrushingblowMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4943,7 +4904,7 @@ Partial Class Form1
         Me.ButtonWarriorSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorSensePlus.Location = New System.Drawing.Point(341, 79)
         Me.ButtonWarriorSensePlus.Name = "ButtonWarriorSensePlus"
-        Me.ButtonWarriorSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorSensePlus.TabIndex = 4
         Me.ButtonWarriorSensePlus.Text = "+"
         Me.ButtonWarriorSensePlus.UseVisualStyleBackColor = True
@@ -4953,7 +4914,7 @@ Partial Class Form1
         Me.ButtonWarriorKnockdownPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorKnockdownPlus.Location = New System.Drawing.Point(16, 193)
         Me.ButtonWarriorKnockdownPlus.Name = "ButtonWarriorKnockdownPlus"
-        Me.ButtonWarriorKnockdownPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorKnockdownPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorKnockdownPlus.TabIndex = 4
         Me.ButtonWarriorKnockdownPlus.Text = "+"
         Me.ButtonWarriorKnockdownPlus.UseVisualStyleBackColor = True
@@ -4963,7 +4924,7 @@ Partial Class Form1
         Me.ButtonWarriorLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorLeatherworkingPlus.Location = New System.Drawing.Point(164, 116)
         Me.ButtonWarriorLeatherworkingPlus.Name = "ButtonWarriorLeatherworkingPlus"
-        Me.ButtonWarriorLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorLeatherworkingPlus.TabIndex = 4
         Me.ButtonWarriorLeatherworkingPlus.Text = "+"
         Me.ButtonWarriorLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -4973,7 +4934,7 @@ Partial Class Form1
         Me.ButtonWarriorWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorWeapondexterityPlus.Location = New System.Drawing.Point(164, 232)
         Me.ButtonWarriorWeapondexterityPlus.Name = "ButtonWarriorWeapondexterityPlus"
-        Me.ButtonWarriorWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorWeapondexterityPlus.TabIndex = 4
         Me.ButtonWarriorWeapondexterityPlus.Text = "+"
         Me.ButtonWarriorWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -4983,7 +4944,7 @@ Partial Class Form1
         Me.ButtonWarriorGimpPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorGimpPlus.Location = New System.Drawing.Point(17, 154)
         Me.ButtonWarriorGimpPlus.Name = "ButtonWarriorGimpPlus"
-        Me.ButtonWarriorGimpPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorGimpPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorGimpPlus.TabIndex = 4
         Me.ButtonWarriorGimpPlus.Text = "+"
         Me.ButtonWarriorGimpPlus.UseVisualStyleBackColor = True
@@ -4993,7 +4954,7 @@ Partial Class Form1
         Me.ButtonWarriorForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorForestryPlus.Location = New System.Drawing.Point(163, 79)
         Me.ButtonWarriorForestryPlus.Name = "ButtonWarriorForestryPlus"
-        Me.ButtonWarriorForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorForestryPlus.TabIndex = 4
         Me.ButtonWarriorForestryPlus.Text = "+"
         Me.ButtonWarriorForestryPlus.UseVisualStyleBackColor = True
@@ -5003,7 +4964,7 @@ Partial Class Form1
         Me.ButtonWarriorLikearockPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorLikearockPlus.Location = New System.Drawing.Point(17, 115)
         Me.ButtonWarriorLikearockPlus.Name = "ButtonWarriorLikearockPlus"
-        Me.ButtonWarriorLikearockPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorLikearockPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorLikearockPlus.TabIndex = 4
         Me.ButtonWarriorLikearockPlus.Text = "+"
         Me.ButtonWarriorLikearockPlus.UseVisualStyleBackColor = True
@@ -5013,7 +4974,7 @@ Partial Class Form1
         Me.ButtonWarriorCrushingblowPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonWarriorCrushingblowPlus.Location = New System.Drawing.Point(16, 78)
         Me.ButtonWarriorCrushingblowPlus.Name = "ButtonWarriorCrushingblowPlus"
-        Me.ButtonWarriorCrushingblowPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonWarriorCrushingblowPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonWarriorCrushingblowPlus.TabIndex = 4
         Me.ButtonWarriorCrushingblowPlus.Text = "+"
         Me.ButtonWarriorCrushingblowPlus.UseVisualStyleBackColor = True
@@ -5244,12 +5205,9 @@ Partial Class Form1
         '
         'ButtonRangerSmithingMinus
         '
-        Me.ButtonRangerSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerSmithingMinus.Location = New System.Drawing.Point(189, 194)
         Me.ButtonRangerSmithingMinus.Name = "ButtonRangerSmithingMinus"
-        Me.ButtonRangerSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerSmithingMinus.TabIndex = 5
         Me.ButtonRangerSmithingMinus.Text = "-"
         Me.ButtonRangerSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5257,12 +5215,9 @@ Partial Class Form1
         '
         'ButtonRangerTrackingMinus
         '
-        Me.ButtonRangerTrackingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerTrackingMinus.Location = New System.Drawing.Point(42, 231)
         Me.ButtonRangerTrackingMinus.Name = "ButtonRangerTrackingMinus"
-        Me.ButtonRangerTrackingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerTrackingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerTrackingMinus.TabIndex = 5
         Me.ButtonRangerTrackingMinus.Text = "-"
         Me.ButtonRangerTrackingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5270,12 +5225,9 @@ Partial Class Form1
         '
         'ButtonRangerProwessMinus
         '
-        Me.ButtonRangerProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerProwessMinus.Location = New System.Drawing.Point(189, 154)
         Me.ButtonRangerProwessMinus.Name = "ButtonRangerProwessMinus"
-        Me.ButtonRangerProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerProwessMinus.TabIndex = 5
         Me.ButtonRangerProwessMinus.Text = "-"
         Me.ButtonRangerProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5283,12 +5235,9 @@ Partial Class Form1
         '
         'ButtonRangerHideMinus
         '
-        Me.ButtonRangerHideMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerHideMinus.Location = New System.Drawing.Point(42, 193)
         Me.ButtonRangerHideMinus.Name = "ButtonRangerHideMinus"
-        Me.ButtonRangerHideMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerHideMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerHideMinus.TabIndex = 5
         Me.ButtonRangerHideMinus.Text = "-"
         Me.ButtonRangerHideMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5296,12 +5245,9 @@ Partial Class Form1
         '
         'ButtonRangerSenseMinus
         '
-        Me.ButtonRangerSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerSenseMinus.Location = New System.Drawing.Point(357, 75)
         Me.ButtonRangerSenseMinus.Name = "ButtonRangerSenseMinus"
-        Me.ButtonRangerSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerSenseMinus.TabIndex = 5
         Me.ButtonRangerSenseMinus.Text = "-"
         Me.ButtonRangerSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5309,12 +5255,9 @@ Partial Class Form1
         '
         'ButtonRangerLeatherworkingMinus
         '
-        Me.ButtonRangerLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerLeatherworkingMinus.Location = New System.Drawing.Point(189, 116)
         Me.ButtonRangerLeatherworkingMinus.Name = "ButtonRangerLeatherworkingMinus"
-        Me.ButtonRangerLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerLeatherworkingMinus.TabIndex = 5
         Me.ButtonRangerLeatherworkingMinus.Text = "-"
         Me.ButtonRangerLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5322,12 +5265,9 @@ Partial Class Form1
         '
         'ButtonRangerTrapsMinus
         '
-        Me.ButtonRangerTrapsMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerTrapsMinus.Location = New System.Drawing.Point(42, 115)
         Me.ButtonRangerTrapsMinus.Name = "ButtonRangerTrapsMinus"
-        Me.ButtonRangerTrapsMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerTrapsMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerTrapsMinus.TabIndex = 5
         Me.ButtonRangerTrapsMinus.Text = "-"
         Me.ButtonRangerTrapsMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5335,12 +5275,9 @@ Partial Class Form1
         '
         'ButtonRangerHealthMinus
         '
-        Me.ButtonRangerHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerHealthMinus.Location = New System.Drawing.Point(358, 150)
         Me.ButtonRangerHealthMinus.Name = "ButtonRangerHealthMinus"
-        Me.ButtonRangerHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerHealthMinus.TabIndex = 5
         Me.ButtonRangerHealthMinus.Text = "-"
         Me.ButtonRangerHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5348,12 +5285,9 @@ Partial Class Form1
         '
         'ButtonRangerDetectionMinus
         '
-        Me.ButtonRangerDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerDetectionMinus.Location = New System.Drawing.Point(357, 114)
         Me.ButtonRangerDetectionMinus.Name = "ButtonRangerDetectionMinus"
-        Me.ButtonRangerDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerDetectionMinus.TabIndex = 5
         Me.ButtonRangerDetectionMinus.Text = "-"
         Me.ButtonRangerDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5361,12 +5295,9 @@ Partial Class Form1
         '
         'ButtonRangerIaijutsuMinus
         '
-        Me.ButtonRangerIaijutsuMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerIaijutsuMinus.Location = New System.Drawing.Point(42, 154)
         Me.ButtonRangerIaijutsuMinus.Name = "ButtonRangerIaijutsuMinus"
-        Me.ButtonRangerIaijutsuMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerIaijutsuMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerIaijutsuMinus.TabIndex = 5
         Me.ButtonRangerIaijutsuMinus.Text = "-"
         Me.ButtonRangerIaijutsuMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5377,7 +5308,7 @@ Partial Class Form1
         Me.ButtonRangerSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerSmithingPlus.Location = New System.Drawing.Point(164, 194)
         Me.ButtonRangerSmithingPlus.Name = "ButtonRangerSmithingPlus"
-        Me.ButtonRangerSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerSmithingPlus.TabIndex = 4
         Me.ButtonRangerSmithingPlus.Text = "+"
         Me.ButtonRangerSmithingPlus.UseVisualStyleBackColor = True
@@ -5387,19 +5318,16 @@ Partial Class Form1
         Me.ButtonRangerTrackingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerTrackingPlus.Location = New System.Drawing.Point(17, 231)
         Me.ButtonRangerTrackingPlus.Name = "ButtonRangerTrackingPlus"
-        Me.ButtonRangerTrackingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerTrackingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerTrackingPlus.TabIndex = 4
         Me.ButtonRangerTrackingPlus.Text = "+"
         Me.ButtonRangerTrackingPlus.UseVisualStyleBackColor = True
         '
         'ButtonRangerWeapondexterityMinus
         '
-        Me.ButtonRangerWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerWeapondexterityMinus.Location = New System.Drawing.Point(189, 232)
         Me.ButtonRangerWeapondexterityMinus.Name = "ButtonRangerWeapondexterityMinus"
-        Me.ButtonRangerWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerWeapondexterityMinus.TabIndex = 5
         Me.ButtonRangerWeapondexterityMinus.Text = "-"
         Me.ButtonRangerWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5407,12 +5335,9 @@ Partial Class Form1
         '
         'ButtonRangerForestryMinus
         '
-        Me.ButtonRangerForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerForestryMinus.Location = New System.Drawing.Point(188, 79)
         Me.ButtonRangerForestryMinus.Name = "ButtonRangerForestryMinus"
-        Me.ButtonRangerForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerForestryMinus.TabIndex = 5
         Me.ButtonRangerForestryMinus.Text = "-"
         Me.ButtonRangerForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5423,7 +5348,7 @@ Partial Class Form1
         Me.ButtonRangerProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerProwessPlus.Location = New System.Drawing.Point(164, 154)
         Me.ButtonRangerProwessPlus.Name = "ButtonRangerProwessPlus"
-        Me.ButtonRangerProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerProwessPlus.TabIndex = 4
         Me.ButtonRangerProwessPlus.Text = "+"
         Me.ButtonRangerProwessPlus.UseVisualStyleBackColor = True
@@ -5433,7 +5358,7 @@ Partial Class Form1
         Me.ButtonRangerHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerHealthPlus.Location = New System.Drawing.Point(333, 150)
         Me.ButtonRangerHealthPlus.Name = "ButtonRangerHealthPlus"
-        Me.ButtonRangerHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerHealthPlus.TabIndex = 4
         Me.ButtonRangerHealthPlus.Text = "+"
         Me.ButtonRangerHealthPlus.UseVisualStyleBackColor = True
@@ -5443,19 +5368,16 @@ Partial Class Form1
         Me.ButtonRangerDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerDetectionPlus.Location = New System.Drawing.Point(332, 114)
         Me.ButtonRangerDetectionPlus.Name = "ButtonRangerDetectionPlus"
-        Me.ButtonRangerDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerDetectionPlus.TabIndex = 4
         Me.ButtonRangerDetectionPlus.Text = "+"
         Me.ButtonRangerDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonRangerDeadeyeMinus
         '
-        Me.ButtonRangerDeadeyeMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRangerDeadeyeMinus.Location = New System.Drawing.Point(41, 78)
         Me.ButtonRangerDeadeyeMinus.Name = "ButtonRangerDeadeyeMinus"
-        Me.ButtonRangerDeadeyeMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRangerDeadeyeMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerDeadeyeMinus.TabIndex = 5
         Me.ButtonRangerDeadeyeMinus.Text = "-"
         Me.ButtonRangerDeadeyeMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5466,7 +5388,7 @@ Partial Class Form1
         Me.ButtonRangerSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerSensePlus.Location = New System.Drawing.Point(332, 75)
         Me.ButtonRangerSensePlus.Name = "ButtonRangerSensePlus"
-        Me.ButtonRangerSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerSensePlus.TabIndex = 4
         Me.ButtonRangerSensePlus.Text = "+"
         Me.ButtonRangerSensePlus.UseVisualStyleBackColor = True
@@ -5476,7 +5398,7 @@ Partial Class Form1
         Me.ButtonRangerHidePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerHidePlus.Location = New System.Drawing.Point(17, 193)
         Me.ButtonRangerHidePlus.Name = "ButtonRangerHidePlus"
-        Me.ButtonRangerHidePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerHidePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerHidePlus.TabIndex = 4
         Me.ButtonRangerHidePlus.Text = "+"
         Me.ButtonRangerHidePlus.UseVisualStyleBackColor = True
@@ -5486,7 +5408,7 @@ Partial Class Form1
         Me.ButtonRangerLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerLeatherworkingPlus.Location = New System.Drawing.Point(164, 116)
         Me.ButtonRangerLeatherworkingPlus.Name = "ButtonRangerLeatherworkingPlus"
-        Me.ButtonRangerLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerLeatherworkingPlus.TabIndex = 4
         Me.ButtonRangerLeatherworkingPlus.Text = "+"
         Me.ButtonRangerLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -5496,7 +5418,7 @@ Partial Class Form1
         Me.ButtonRangerWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerWeapondexterityPlus.Location = New System.Drawing.Point(164, 232)
         Me.ButtonRangerWeapondexterityPlus.Name = "ButtonRangerWeapondexterityPlus"
-        Me.ButtonRangerWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerWeapondexterityPlus.TabIndex = 4
         Me.ButtonRangerWeapondexterityPlus.Text = "+"
         Me.ButtonRangerWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -5506,7 +5428,7 @@ Partial Class Form1
         Me.ButtonRangerIaijutsuPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerIaijutsuPlus.Location = New System.Drawing.Point(17, 154)
         Me.ButtonRangerIaijutsuPlus.Name = "ButtonRangerIaijutsuPlus"
-        Me.ButtonRangerIaijutsuPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerIaijutsuPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerIaijutsuPlus.TabIndex = 4
         Me.ButtonRangerIaijutsuPlus.Text = "+"
         Me.ButtonRangerIaijutsuPlus.UseVisualStyleBackColor = True
@@ -5516,7 +5438,7 @@ Partial Class Form1
         Me.ButtonRangerForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerForestryPlus.Location = New System.Drawing.Point(163, 79)
         Me.ButtonRangerForestryPlus.Name = "ButtonRangerForestryPlus"
-        Me.ButtonRangerForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerForestryPlus.TabIndex = 4
         Me.ButtonRangerForestryPlus.Text = "+"
         Me.ButtonRangerForestryPlus.UseVisualStyleBackColor = True
@@ -5526,7 +5448,7 @@ Partial Class Form1
         Me.ButtonRangerTrapsPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerTrapsPlus.Location = New System.Drawing.Point(17, 115)
         Me.ButtonRangerTrapsPlus.Name = "ButtonRangerTrapsPlus"
-        Me.ButtonRangerTrapsPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerTrapsPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerTrapsPlus.TabIndex = 4
         Me.ButtonRangerTrapsPlus.Text = "+"
         Me.ButtonRangerTrapsPlus.UseVisualStyleBackColor = True
@@ -5536,7 +5458,7 @@ Partial Class Form1
         Me.ButtonRangerDeadeyePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRangerDeadeyePlus.Location = New System.Drawing.Point(16, 78)
         Me.ButtonRangerDeadeyePlus.Name = "ButtonRangerDeadeyePlus"
-        Me.ButtonRangerDeadeyePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRangerDeadeyePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRangerDeadeyePlus.TabIndex = 4
         Me.ButtonRangerDeadeyePlus.Text = "+"
         Me.ButtonRangerDeadeyePlus.UseVisualStyleBackColor = True
@@ -5767,12 +5689,9 @@ Partial Class Form1
         '
         'ButtonRogueSmithingMinus
         '
-        Me.ButtonRogueSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueSmithingMinus.Location = New System.Drawing.Point(189, 191)
         Me.ButtonRogueSmithingMinus.Name = "ButtonRogueSmithingMinus"
-        Me.ButtonRogueSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueSmithingMinus.TabIndex = 5
         Me.ButtonRogueSmithingMinus.Text = "-"
         Me.ButtonRogueSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5780,12 +5699,9 @@ Partial Class Form1
         '
         'ButtonRogueBlindMinus
         '
-        Me.ButtonRogueBlindMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueBlindMinus.Location = New System.Drawing.Point(42, 231)
         Me.ButtonRogueBlindMinus.Name = "ButtonRogueBlindMinus"
-        Me.ButtonRogueBlindMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueBlindMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueBlindMinus.TabIndex = 5
         Me.ButtonRogueBlindMinus.Text = "-"
         Me.ButtonRogueBlindMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5793,12 +5709,9 @@ Partial Class Form1
         '
         'ButtonRogueProwessMinus
         '
-        Me.ButtonRogueProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueProwessMinus.Location = New System.Drawing.Point(189, 155)
         Me.ButtonRogueProwessMinus.Name = "ButtonRogueProwessMinus"
-        Me.ButtonRogueProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueProwessMinus.TabIndex = 5
         Me.ButtonRogueProwessMinus.Text = "-"
         Me.ButtonRogueProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5806,12 +5719,9 @@ Partial Class Form1
         '
         'ButtonRogueDisguiseMinus
         '
-        Me.ButtonRogueDisguiseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueDisguiseMinus.Location = New System.Drawing.Point(42, 192)
         Me.ButtonRogueDisguiseMinus.Name = "ButtonRogueDisguiseMinus"
-        Me.ButtonRogueDisguiseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueDisguiseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueDisguiseMinus.TabIndex = 5
         Me.ButtonRogueDisguiseMinus.Text = "-"
         Me.ButtonRogueDisguiseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5819,12 +5729,9 @@ Partial Class Form1
         '
         'ButtonRogueSenseMinus
         '
-        Me.ButtonRogueSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueSenseMinus.Location = New System.Drawing.Point(353, 79)
         Me.ButtonRogueSenseMinus.Name = "ButtonRogueSenseMinus"
-        Me.ButtonRogueSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueSenseMinus.TabIndex = 5
         Me.ButtonRogueSenseMinus.Text = "-"
         Me.ButtonRogueSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5832,12 +5739,9 @@ Partial Class Form1
         '
         'ButtonRogueLeatherworkingMinus
         '
-        Me.ButtonRogueLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueLeatherworkingMinus.Location = New System.Drawing.Point(189, 116)
         Me.ButtonRogueLeatherworkingMinus.Name = "ButtonRogueLeatherworkingMinus"
-        Me.ButtonRogueLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueLeatherworkingMinus.TabIndex = 5
         Me.ButtonRogueLeatherworkingMinus.Text = "-"
         Me.ButtonRogueLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5845,12 +5749,9 @@ Partial Class Form1
         '
         'ButtonRogueExposeMinus
         '
-        Me.ButtonRogueExposeMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueExposeMinus.Location = New System.Drawing.Point(42, 115)
         Me.ButtonRogueExposeMinus.Name = "ButtonRogueExposeMinus"
-        Me.ButtonRogueExposeMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueExposeMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueExposeMinus.TabIndex = 5
         Me.ButtonRogueExposeMinus.Text = "-"
         Me.ButtonRogueExposeMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5858,12 +5759,9 @@ Partial Class Form1
         '
         'ButtonRogueHealthMinus
         '
-        Me.ButtonRogueHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueHealthMinus.Location = New System.Drawing.Point(354, 154)
         Me.ButtonRogueHealthMinus.Name = "ButtonRogueHealthMinus"
-        Me.ButtonRogueHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueHealthMinus.TabIndex = 5
         Me.ButtonRogueHealthMinus.Text = "-"
         Me.ButtonRogueHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5871,12 +5769,9 @@ Partial Class Form1
         '
         'ButtonRogueDetectionMinus
         '
-        Me.ButtonRogueDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueDetectionMinus.Location = New System.Drawing.Point(354, 115)
         Me.ButtonRogueDetectionMinus.Name = "ButtonRogueDetectionMinus"
-        Me.ButtonRogueDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueDetectionMinus.TabIndex = 5
         Me.ButtonRogueDetectionMinus.Text = "-"
         Me.ButtonRogueDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5884,12 +5779,9 @@ Partial Class Form1
         '
         'ButtonRogueDiseaseMinus
         '
-        Me.ButtonRogueDiseaseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueDiseaseMinus.Location = New System.Drawing.Point(42, 154)
         Me.ButtonRogueDiseaseMinus.Name = "ButtonRogueDiseaseMinus"
-        Me.ButtonRogueDiseaseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueDiseaseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueDiseaseMinus.TabIndex = 5
         Me.ButtonRogueDiseaseMinus.Text = "-"
         Me.ButtonRogueDiseaseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5900,7 +5792,7 @@ Partial Class Form1
         Me.ButtonRogueSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueSmithingPlus.Location = New System.Drawing.Point(164, 191)
         Me.ButtonRogueSmithingPlus.Name = "ButtonRogueSmithingPlus"
-        Me.ButtonRogueSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueSmithingPlus.TabIndex = 4
         Me.ButtonRogueSmithingPlus.Text = "+"
         Me.ButtonRogueSmithingPlus.UseVisualStyleBackColor = True
@@ -5910,19 +5802,16 @@ Partial Class Form1
         Me.ButtonRogueBlindPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueBlindPlus.Location = New System.Drawing.Point(17, 231)
         Me.ButtonRogueBlindPlus.Name = "ButtonRogueBlindPlus"
-        Me.ButtonRogueBlindPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueBlindPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueBlindPlus.TabIndex = 4
         Me.ButtonRogueBlindPlus.Text = "+"
         Me.ButtonRogueBlindPlus.UseVisualStyleBackColor = True
         '
         'ButtonRogueWeaponDexterityMinus
         '
-        Me.ButtonRogueWeaponDexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueWeaponDexterityMinus.Location = New System.Drawing.Point(189, 230)
         Me.ButtonRogueWeaponDexterityMinus.Name = "ButtonRogueWeaponDexterityMinus"
-        Me.ButtonRogueWeaponDexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueWeaponDexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueWeaponDexterityMinus.TabIndex = 5
         Me.ButtonRogueWeaponDexterityMinus.Text = "-"
         Me.ButtonRogueWeaponDexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5930,12 +5819,9 @@ Partial Class Form1
         '
         'ButtonRogueForestryMinus
         '
-        Me.ButtonRogueForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueForestryMinus.Location = New System.Drawing.Point(188, 79)
         Me.ButtonRogueForestryMinus.Name = "ButtonRogueForestryMinus"
-        Me.ButtonRogueForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueForestryMinus.TabIndex = 5
         Me.ButtonRogueForestryMinus.Text = "-"
         Me.ButtonRogueForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5946,7 +5832,7 @@ Partial Class Form1
         Me.ButtonRogueProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueProwessPlus.Location = New System.Drawing.Point(164, 155)
         Me.ButtonRogueProwessPlus.Name = "ButtonRogueProwessPlus"
-        Me.ButtonRogueProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueProwessPlus.TabIndex = 4
         Me.ButtonRogueProwessPlus.Text = "+"
         Me.ButtonRogueProwessPlus.UseVisualStyleBackColor = True
@@ -5956,7 +5842,7 @@ Partial Class Form1
         Me.ButtonRogueHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueHealthPlus.Location = New System.Drawing.Point(329, 154)
         Me.ButtonRogueHealthPlus.Name = "ButtonRogueHealthPlus"
-        Me.ButtonRogueHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueHealthPlus.TabIndex = 4
         Me.ButtonRogueHealthPlus.Text = "+"
         Me.ButtonRogueHealthPlus.UseVisualStyleBackColor = True
@@ -5966,19 +5852,16 @@ Partial Class Form1
         Me.ButtonRogueDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueDetectionPlus.Location = New System.Drawing.Point(329, 115)
         Me.ButtonRogueDetectionPlus.Name = "ButtonRogueDetectionPlus"
-        Me.ButtonRogueDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueDetectionPlus.TabIndex = 4
         Me.ButtonRogueDetectionPlus.Text = "+"
         Me.ButtonRogueDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonRogueVanishMinus
         '
-        Me.ButtonRogueVanishMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonRogueVanishMinus.Location = New System.Drawing.Point(41, 78)
         Me.ButtonRogueVanishMinus.Name = "ButtonRogueVanishMinus"
-        Me.ButtonRogueVanishMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonRogueVanishMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueVanishMinus.TabIndex = 5
         Me.ButtonRogueVanishMinus.Text = "-"
         Me.ButtonRogueVanishMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -5989,7 +5872,7 @@ Partial Class Form1
         Me.ButtonRogueSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueSensePlus.Location = New System.Drawing.Point(328, 79)
         Me.ButtonRogueSensePlus.Name = "ButtonRogueSensePlus"
-        Me.ButtonRogueSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueSensePlus.TabIndex = 4
         Me.ButtonRogueSensePlus.Text = "+"
         Me.ButtonRogueSensePlus.UseVisualStyleBackColor = True
@@ -5999,7 +5882,7 @@ Partial Class Form1
         Me.ButtonRogueDisguisePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueDisguisePlus.Location = New System.Drawing.Point(17, 192)
         Me.ButtonRogueDisguisePlus.Name = "ButtonRogueDisguisePlus"
-        Me.ButtonRogueDisguisePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueDisguisePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueDisguisePlus.TabIndex = 4
         Me.ButtonRogueDisguisePlus.Text = "+"
         Me.ButtonRogueDisguisePlus.UseVisualStyleBackColor = True
@@ -6009,7 +5892,7 @@ Partial Class Form1
         Me.ButtonRogueLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueLeatherworkingPlus.Location = New System.Drawing.Point(164, 116)
         Me.ButtonRogueLeatherworkingPlus.Name = "ButtonRogueLeatherworkingPlus"
-        Me.ButtonRogueLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueLeatherworkingPlus.TabIndex = 4
         Me.ButtonRogueLeatherworkingPlus.Text = "+"
         Me.ButtonRogueLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -6019,7 +5902,7 @@ Partial Class Form1
         Me.ButtonRogueWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueWeapondexterityPlus.Location = New System.Drawing.Point(164, 230)
         Me.ButtonRogueWeapondexterityPlus.Name = "ButtonRogueWeapondexterityPlus"
-        Me.ButtonRogueWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueWeapondexterityPlus.TabIndex = 4
         Me.ButtonRogueWeapondexterityPlus.Text = "+"
         Me.ButtonRogueWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -6029,7 +5912,7 @@ Partial Class Form1
         Me.ButtonRogueDiseasePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueDiseasePlus.Location = New System.Drawing.Point(17, 154)
         Me.ButtonRogueDiseasePlus.Name = "ButtonRogueDiseasePlus"
-        Me.ButtonRogueDiseasePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueDiseasePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueDiseasePlus.TabIndex = 4
         Me.ButtonRogueDiseasePlus.Text = "+"
         Me.ButtonRogueDiseasePlus.UseVisualStyleBackColor = True
@@ -6039,7 +5922,7 @@ Partial Class Form1
         Me.ButtonRogueForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueForestryPlus.Location = New System.Drawing.Point(163, 79)
         Me.ButtonRogueForestryPlus.Name = "ButtonRogueForestryPlus"
-        Me.ButtonRogueForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueForestryPlus.TabIndex = 4
         Me.ButtonRogueForestryPlus.Text = "+"
         Me.ButtonRogueForestryPlus.UseVisualStyleBackColor = True
@@ -6049,7 +5932,7 @@ Partial Class Form1
         Me.ButtonRogueExposePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueExposePlus.Location = New System.Drawing.Point(17, 115)
         Me.ButtonRogueExposePlus.Name = "ButtonRogueExposePlus"
-        Me.ButtonRogueExposePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueExposePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueExposePlus.TabIndex = 4
         Me.ButtonRogueExposePlus.Text = "+"
         Me.ButtonRogueExposePlus.UseVisualStyleBackColor = True
@@ -6059,7 +5942,7 @@ Partial Class Form1
         Me.ButtonRogueVanishPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonRogueVanishPlus.Location = New System.Drawing.Point(16, 78)
         Me.ButtonRogueVanishPlus.Name = "ButtonRogueVanishPlus"
-        Me.ButtonRogueVanishPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonRogueVanishPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonRogueVanishPlus.TabIndex = 4
         Me.ButtonRogueVanishPlus.Text = "+"
         Me.ButtonRogueVanishPlus.UseVisualStyleBackColor = True
@@ -6290,12 +6173,9 @@ Partial Class Form1
         '
         'ButtonNobleSmithingMinus
         '
-        Me.ButtonNobleSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleSmithingMinus.Location = New System.Drawing.Point(189, 195)
         Me.ButtonNobleSmithingMinus.Name = "ButtonNobleSmithingMinus"
-        Me.ButtonNobleSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleSmithingMinus.TabIndex = 5
         Me.ButtonNobleSmithingMinus.Text = "-"
         Me.ButtonNobleSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6303,12 +6183,9 @@ Partial Class Form1
         '
         'ButtonNobleLanguagesMinus
         '
-        Me.ButtonNobleLanguagesMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleLanguagesMinus.Location = New System.Drawing.Point(42, 231)
         Me.ButtonNobleLanguagesMinus.Name = "ButtonNobleLanguagesMinus"
-        Me.ButtonNobleLanguagesMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleLanguagesMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleLanguagesMinus.TabIndex = 5
         Me.ButtonNobleLanguagesMinus.Text = "-"
         Me.ButtonNobleLanguagesMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6316,12 +6193,9 @@ Partial Class Form1
         '
         'ButtonNobleProwessMinus
         '
-        Me.ButtonNobleProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleProwessMinus.Location = New System.Drawing.Point(189, 155)
         Me.ButtonNobleProwessMinus.Name = "ButtonNobleProwessMinus"
-        Me.ButtonNobleProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleProwessMinus.TabIndex = 5
         Me.ButtonNobleProwessMinus.Text = "-"
         Me.ButtonNobleProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6329,12 +6203,9 @@ Partial Class Form1
         '
         'ButtonNobleLeadershipMinus
         '
-        Me.ButtonNobleLeadershipMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleLeadershipMinus.Location = New System.Drawing.Point(42, 193)
         Me.ButtonNobleLeadershipMinus.Name = "ButtonNobleLeadershipMinus"
-        Me.ButtonNobleLeadershipMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleLeadershipMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleLeadershipMinus.TabIndex = 5
         Me.ButtonNobleLeadershipMinus.Text = "-"
         Me.ButtonNobleLeadershipMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6342,12 +6213,9 @@ Partial Class Form1
         '
         'ButtonNobleSenseMinus
         '
-        Me.ButtonNobleSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleSenseMinus.Location = New System.Drawing.Point(345, 79)
         Me.ButtonNobleSenseMinus.Name = "ButtonNobleSenseMinus"
-        Me.ButtonNobleSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleSenseMinus.TabIndex = 5
         Me.ButtonNobleSenseMinus.Text = "-"
         Me.ButtonNobleSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6355,12 +6223,9 @@ Partial Class Form1
         '
         'ButtonNobleLeatherworkingMinus
         '
-        Me.ButtonNobleLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleLeatherworkingMinus.Location = New System.Drawing.Point(189, 116)
         Me.ButtonNobleLeatherworkingMinus.Name = "ButtonNobleLeatherworkingMinus"
-        Me.ButtonNobleLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleLeatherworkingMinus.TabIndex = 5
         Me.ButtonNobleLeatherworkingMinus.Text = "-"
         Me.ButtonNobleLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6368,12 +6233,9 @@ Partial Class Form1
         '
         'ButtonNobleImperiusMinus
         '
-        Me.ButtonNobleImperiusMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleImperiusMinus.Location = New System.Drawing.Point(42, 115)
         Me.ButtonNobleImperiusMinus.Name = "ButtonNobleImperiusMinus"
-        Me.ButtonNobleImperiusMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleImperiusMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleImperiusMinus.TabIndex = 5
         Me.ButtonNobleImperiusMinus.Text = "-"
         Me.ButtonNobleImperiusMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6381,12 +6243,9 @@ Partial Class Form1
         '
         'ButtonNobleHealthMinus
         '
-        Me.ButtonNobleHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ButtonNobleHealthMinus.Location = New System.Drawing.Point(346, 154)
+        Me.ButtonNobleHealthMinus.Location = New System.Drawing.Point(0, 0)
         Me.ButtonNobleHealthMinus.Name = "ButtonNobleHealthMinus"
-        Me.ButtonNobleHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleHealthMinus.TabIndex = 5
         Me.ButtonNobleHealthMinus.Text = "-"
         Me.ButtonNobleHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6394,12 +6253,9 @@ Partial Class Form1
         '
         'ButtonNobleDetectionMinus
         '
-        Me.ButtonNobleDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleDetectionMinus.Location = New System.Drawing.Point(345, 118)
         Me.ButtonNobleDetectionMinus.Name = "ButtonNobleDetectionMinus"
-        Me.ButtonNobleDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleDetectionMinus.TabIndex = 5
         Me.ButtonNobleDetectionMinus.Text = "-"
         Me.ButtonNobleDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6407,12 +6263,9 @@ Partial Class Form1
         '
         'ButtonNobleEngineeringMinus
         '
-        Me.ButtonNobleEngineeringMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleEngineeringMinus.Location = New System.Drawing.Point(42, 154)
         Me.ButtonNobleEngineeringMinus.Name = "ButtonNobleEngineeringMinus"
-        Me.ButtonNobleEngineeringMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleEngineeringMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleEngineeringMinus.TabIndex = 5
         Me.ButtonNobleEngineeringMinus.Text = "-"
         Me.ButtonNobleEngineeringMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6423,7 +6276,7 @@ Partial Class Form1
         Me.ButtonNobleSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleSmithingPlus.Location = New System.Drawing.Point(164, 195)
         Me.ButtonNobleSmithingPlus.Name = "ButtonNobleSmithingPlus"
-        Me.ButtonNobleSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleSmithingPlus.TabIndex = 4
         Me.ButtonNobleSmithingPlus.Text = "+"
         Me.ButtonNobleSmithingPlus.UseVisualStyleBackColor = True
@@ -6433,19 +6286,16 @@ Partial Class Form1
         Me.ButtonNobleLanguagesPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleLanguagesPlus.Location = New System.Drawing.Point(17, 231)
         Me.ButtonNobleLanguagesPlus.Name = "ButtonNobleLanguagesPlus"
-        Me.ButtonNobleLanguagesPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleLanguagesPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleLanguagesPlus.TabIndex = 4
         Me.ButtonNobleLanguagesPlus.Text = "+"
         Me.ButtonNobleLanguagesPlus.UseVisualStyleBackColor = True
         '
         'ButtonNobleWeapondexterityMinus
         '
-        Me.ButtonNobleWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleWeapondexterityMinus.Location = New System.Drawing.Point(189, 236)
         Me.ButtonNobleWeapondexterityMinus.Name = "ButtonNobleWeapondexterityMinus"
-        Me.ButtonNobleWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleWeapondexterityMinus.TabIndex = 5
         Me.ButtonNobleWeapondexterityMinus.Text = "-"
         Me.ButtonNobleWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6453,12 +6303,9 @@ Partial Class Form1
         '
         'ButtonNobleForestryMinus
         '
-        Me.ButtonNobleForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleForestryMinus.Location = New System.Drawing.Point(188, 79)
         Me.ButtonNobleForestryMinus.Name = "ButtonNobleForestryMinus"
-        Me.ButtonNobleForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleForestryMinus.TabIndex = 5
         Me.ButtonNobleForestryMinus.Text = "-"
         Me.ButtonNobleForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6469,7 +6316,7 @@ Partial Class Form1
         Me.ButtonNobleProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleProwessPlus.Location = New System.Drawing.Point(164, 155)
         Me.ButtonNobleProwessPlus.Name = "ButtonNobleProwessPlus"
-        Me.ButtonNobleProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleProwessPlus.TabIndex = 4
         Me.ButtonNobleProwessPlus.Text = "+"
         Me.ButtonNobleProwessPlus.UseVisualStyleBackColor = True
@@ -6479,7 +6326,7 @@ Partial Class Form1
         Me.ButtonNobleHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleHealthPlus.Location = New System.Drawing.Point(321, 154)
         Me.ButtonNobleHealthPlus.Name = "ButtonNobleHealthPlus"
-        Me.ButtonNobleHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleHealthPlus.TabIndex = 4
         Me.ButtonNobleHealthPlus.Text = "+"
         Me.ButtonNobleHealthPlus.UseVisualStyleBackColor = True
@@ -6489,19 +6336,16 @@ Partial Class Form1
         Me.ButtonNobleDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleDetectionPlus.Location = New System.Drawing.Point(320, 118)
         Me.ButtonNobleDetectionPlus.Name = "ButtonNobleDetectionPlus"
-        Me.ButtonNobleDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleDetectionPlus.TabIndex = 4
         Me.ButtonNobleDetectionPlus.Text = "+"
         Me.ButtonNobleDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonNobleCharismaMinus
         '
-        Me.ButtonNobleCharismaMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNobleCharismaMinus.Location = New System.Drawing.Point(41, 78)
         Me.ButtonNobleCharismaMinus.Name = "ButtonNobleCharismaMinus"
-        Me.ButtonNobleCharismaMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNobleCharismaMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleCharismaMinus.TabIndex = 5
         Me.ButtonNobleCharismaMinus.Text = "-"
         Me.ButtonNobleCharismaMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6512,7 +6356,7 @@ Partial Class Form1
         Me.ButtonNobleSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleSensePlus.Location = New System.Drawing.Point(320, 79)
         Me.ButtonNobleSensePlus.Name = "ButtonNobleSensePlus"
-        Me.ButtonNobleSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleSensePlus.TabIndex = 4
         Me.ButtonNobleSensePlus.Text = "+"
         Me.ButtonNobleSensePlus.UseVisualStyleBackColor = True
@@ -6522,7 +6366,7 @@ Partial Class Form1
         Me.ButtonNobleLeadershipPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleLeadershipPlus.Location = New System.Drawing.Point(17, 193)
         Me.ButtonNobleLeadershipPlus.Name = "ButtonNobleLeadershipPlus"
-        Me.ButtonNobleLeadershipPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleLeadershipPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleLeadershipPlus.TabIndex = 4
         Me.ButtonNobleLeadershipPlus.Text = "+"
         Me.ButtonNobleLeadershipPlus.UseVisualStyleBackColor = True
@@ -6532,7 +6376,7 @@ Partial Class Form1
         Me.ButtonNobleLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleLeatherworkingPlus.Location = New System.Drawing.Point(164, 116)
         Me.ButtonNobleLeatherworkingPlus.Name = "ButtonNobleLeatherworkingPlus"
-        Me.ButtonNobleLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleLeatherworkingPlus.TabIndex = 4
         Me.ButtonNobleLeatherworkingPlus.Text = "+"
         Me.ButtonNobleLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -6542,7 +6386,7 @@ Partial Class Form1
         Me.ButtonNobleWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleWeapondexterityPlus.Location = New System.Drawing.Point(164, 236)
         Me.ButtonNobleWeapondexterityPlus.Name = "ButtonNobleWeapondexterityPlus"
-        Me.ButtonNobleWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleWeapondexterityPlus.TabIndex = 4
         Me.ButtonNobleWeapondexterityPlus.Text = "+"
         Me.ButtonNobleWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -6552,7 +6396,7 @@ Partial Class Form1
         Me.ButtonNobleEngineeringPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleEngineeringPlus.Location = New System.Drawing.Point(17, 154)
         Me.ButtonNobleEngineeringPlus.Name = "ButtonNobleEngineeringPlus"
-        Me.ButtonNobleEngineeringPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleEngineeringPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleEngineeringPlus.TabIndex = 4
         Me.ButtonNobleEngineeringPlus.Text = "+"
         Me.ButtonNobleEngineeringPlus.UseVisualStyleBackColor = True
@@ -6562,7 +6406,7 @@ Partial Class Form1
         Me.ButtonNobleForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleForestryPlus.Location = New System.Drawing.Point(163, 79)
         Me.ButtonNobleForestryPlus.Name = "ButtonNobleForestryPlus"
-        Me.ButtonNobleForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleForestryPlus.TabIndex = 4
         Me.ButtonNobleForestryPlus.Text = "+"
         Me.ButtonNobleForestryPlus.UseVisualStyleBackColor = True
@@ -6572,7 +6416,7 @@ Partial Class Form1
         Me.ButtonNobleImperiusPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleImperiusPlus.Location = New System.Drawing.Point(17, 115)
         Me.ButtonNobleImperiusPlus.Name = "ButtonNobleImperiusPlus"
-        Me.ButtonNobleImperiusPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleImperiusPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleImperiusPlus.TabIndex = 4
         Me.ButtonNobleImperiusPlus.Text = "+"
         Me.ButtonNobleImperiusPlus.UseVisualStyleBackColor = True
@@ -6582,7 +6426,7 @@ Partial Class Form1
         Me.ButtonNobleCharismaPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNobleCharismaPlus.Location = New System.Drawing.Point(16, 78)
         Me.ButtonNobleCharismaPlus.Name = "ButtonNobleCharismaPlus"
-        Me.ButtonNobleCharismaPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNobleCharismaPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNobleCharismaPlus.TabIndex = 4
         Me.ButtonNobleCharismaPlus.Text = "+"
         Me.ButtonNobleCharismaPlus.UseVisualStyleBackColor = True
@@ -6819,12 +6663,9 @@ Partial Class Form1
         '
         'ButtonClericSmithingMinus
         '
-        Me.ButtonClericSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericSmithingMinus.Location = New System.Drawing.Point(189, 193)
         Me.ButtonClericSmithingMinus.Name = "ButtonClericSmithingMinus"
-        Me.ButtonClericSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericSmithingMinus.TabIndex = 5
         Me.ButtonClericSmithingMinus.Text = "-"
         Me.ButtonClericSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6832,12 +6673,9 @@ Partial Class Form1
         '
         'ButtonClericBornanewMinus
         '
-        Me.ButtonClericBornanewMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericBornanewMinus.Location = New System.Drawing.Point(42, 231)
         Me.ButtonClericBornanewMinus.Name = "ButtonClericBornanewMinus"
-        Me.ButtonClericBornanewMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericBornanewMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericBornanewMinus.TabIndex = 5
         Me.ButtonClericBornanewMinus.Text = "-"
         Me.ButtonClericBornanewMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6845,12 +6683,9 @@ Partial Class Form1
         '
         'ButtonClericProwessMinus
         '
-        Me.ButtonClericProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericProwessMinus.Location = New System.Drawing.Point(188, 152)
         Me.ButtonClericProwessMinus.Name = "ButtonClericProwessMinus"
-        Me.ButtonClericProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericProwessMinus.TabIndex = 5
         Me.ButtonClericProwessMinus.Text = "-"
         Me.ButtonClericProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6858,12 +6693,9 @@ Partial Class Form1
         '
         'ButtonClericRemedyMinus
         '
-        Me.ButtonClericRemedyMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericRemedyMinus.Location = New System.Drawing.Point(42, 192)
         Me.ButtonClericRemedyMinus.Name = "ButtonClericRemedyMinus"
-        Me.ButtonClericRemedyMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericRemedyMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericRemedyMinus.TabIndex = 5
         Me.ButtonClericRemedyMinus.Text = "-"
         Me.ButtonClericRemedyMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6871,12 +6703,9 @@ Partial Class Form1
         '
         'ButtonClericSenseMinus
         '
-        Me.ButtonClericSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericSenseMinus.Location = New System.Drawing.Point(345, 78)
         Me.ButtonClericSenseMinus.Name = "ButtonClericSenseMinus"
-        Me.ButtonClericSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericSenseMinus.TabIndex = 5
         Me.ButtonClericSenseMinus.Text = "-"
         Me.ButtonClericSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6884,12 +6713,9 @@ Partial Class Form1
         '
         'ButtonClericLeatherworkingMinus
         '
-        Me.ButtonClericLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericLeatherworkingMinus.Location = New System.Drawing.Point(189, 116)
         Me.ButtonClericLeatherworkingMinus.Name = "ButtonClericLeatherworkingMinus"
-        Me.ButtonClericLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericLeatherworkingMinus.TabIndex = 5
         Me.ButtonClericLeatherworkingMinus.Text = "-"
         Me.ButtonClericLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6897,12 +6723,9 @@ Partial Class Form1
         '
         'ButtonClericPotionsMinus
         '
-        Me.ButtonClericPotionsMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericPotionsMinus.Location = New System.Drawing.Point(42, 115)
         Me.ButtonClericPotionsMinus.Name = "ButtonClericPotionsMinus"
-        Me.ButtonClericPotionsMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericPotionsMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericPotionsMinus.TabIndex = 5
         Me.ButtonClericPotionsMinus.Text = "-"
         Me.ButtonClericPotionsMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6910,12 +6733,9 @@ Partial Class Form1
         '
         'ButtonClericEnchantingMinus
         '
-        Me.ButtonClericEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericEnchantingMinus.Location = New System.Drawing.Point(345, 230)
         Me.ButtonClericEnchantingMinus.Name = "ButtonClericEnchantingMinus"
-        Me.ButtonClericEnchantingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericEnchantingMinus.TabIndex = 5
         Me.ButtonClericEnchantingMinus.Text = "-"
         Me.ButtonClericEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6923,12 +6743,9 @@ Partial Class Form1
         '
         'ButtonClericHealthMinus
         '
-        Me.ButtonClericHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericHealthMinus.Location = New System.Drawing.Point(345, 154)
         Me.ButtonClericHealthMinus.Name = "ButtonClericHealthMinus"
-        Me.ButtonClericHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericHealthMinus.TabIndex = 5
         Me.ButtonClericHealthMinus.Text = "-"
         Me.ButtonClericHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6936,12 +6753,9 @@ Partial Class Form1
         '
         'ButtonClericMinusScrollwriting
         '
-        Me.ButtonClericMinusScrollwriting.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericMinusScrollwriting.Location = New System.Drawing.Point(345, 189)
         Me.ButtonClericMinusScrollwriting.Name = "ButtonClericMinusScrollwriting"
-        Me.ButtonClericMinusScrollwriting.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericMinusScrollwriting.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericMinusScrollwriting.TabIndex = 5
         Me.ButtonClericMinusScrollwriting.Text = "-"
         Me.ButtonClericMinusScrollwriting.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6949,12 +6763,9 @@ Partial Class Form1
         '
         'ButtonClericDetectionMinus
         '
-        Me.ButtonClericDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericDetectionMinus.Location = New System.Drawing.Point(345, 117)
         Me.ButtonClericDetectionMinus.Name = "ButtonClericDetectionMinus"
-        Me.ButtonClericDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericDetectionMinus.TabIndex = 5
         Me.ButtonClericDetectionMinus.Text = "-"
         Me.ButtonClericDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6962,12 +6773,9 @@ Partial Class Form1
         '
         'ButtonClericConvertMinus
         '
-        Me.ButtonClericConvertMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericConvertMinus.Location = New System.Drawing.Point(42, 154)
         Me.ButtonClericConvertMinus.Name = "ButtonClericConvertMinus"
-        Me.ButtonClericConvertMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericConvertMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericConvertMinus.TabIndex = 5
         Me.ButtonClericConvertMinus.Text = "-"
         Me.ButtonClericConvertMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -6978,7 +6786,7 @@ Partial Class Form1
         Me.ButtonClericSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericSmithingPlus.Location = New System.Drawing.Point(164, 193)
         Me.ButtonClericSmithingPlus.Name = "ButtonClericSmithingPlus"
-        Me.ButtonClericSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericSmithingPlus.TabIndex = 4
         Me.ButtonClericSmithingPlus.Text = "+"
         Me.ButtonClericSmithingPlus.UseVisualStyleBackColor = True
@@ -6988,19 +6796,16 @@ Partial Class Form1
         Me.ButtonClericBornanewPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericBornanewPlus.Location = New System.Drawing.Point(17, 231)
         Me.ButtonClericBornanewPlus.Name = "ButtonClericBornanewPlus"
-        Me.ButtonClericBornanewPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericBornanewPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericBornanewPlus.TabIndex = 4
         Me.ButtonClericBornanewPlus.Text = "+"
         Me.ButtonClericBornanewPlus.UseVisualStyleBackColor = True
         '
         'ButtonClericWeapondexterityMinus
         '
-        Me.ButtonClericWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericWeapondexterityMinus.Location = New System.Drawing.Point(189, 230)
         Me.ButtonClericWeapondexterityMinus.Name = "ButtonClericWeapondexterityMinus"
-        Me.ButtonClericWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericWeapondexterityMinus.TabIndex = 5
         Me.ButtonClericWeapondexterityMinus.Text = "-"
         Me.ButtonClericWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7008,12 +6813,9 @@ Partial Class Form1
         '
         'ButtonClericForestryMinus
         '
-        Me.ButtonClericForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericForestryMinus.Location = New System.Drawing.Point(188, 79)
         Me.ButtonClericForestryMinus.Name = "ButtonClericForestryMinus"
-        Me.ButtonClericForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericForestryMinus.TabIndex = 5
         Me.ButtonClericForestryMinus.Text = "-"
         Me.ButtonClericForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7024,7 +6826,7 @@ Partial Class Form1
         Me.ButtonClericProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericProwessPlus.Location = New System.Drawing.Point(163, 152)
         Me.ButtonClericProwessPlus.Name = "ButtonClericProwessPlus"
-        Me.ButtonClericProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericProwessPlus.TabIndex = 4
         Me.ButtonClericProwessPlus.Text = "+"
         Me.ButtonClericProwessPlus.UseVisualStyleBackColor = True
@@ -7034,7 +6836,7 @@ Partial Class Form1
         Me.ButtonClericEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericEnchantingPlus.Location = New System.Drawing.Point(320, 230)
         Me.ButtonClericEnchantingPlus.Name = "ButtonClericEnchantingPlus"
-        Me.ButtonClericEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericEnchantingPlus.TabIndex = 4
         Me.ButtonClericEnchantingPlus.Text = "+"
         Me.ButtonClericEnchantingPlus.UseVisualStyleBackColor = True
@@ -7044,7 +6846,7 @@ Partial Class Form1
         Me.ButtonClericHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericHealthPlus.Location = New System.Drawing.Point(320, 154)
         Me.ButtonClericHealthPlus.Name = "ButtonClericHealthPlus"
-        Me.ButtonClericHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericHealthPlus.TabIndex = 4
         Me.ButtonClericHealthPlus.Text = "+"
         Me.ButtonClericHealthPlus.UseVisualStyleBackColor = True
@@ -7054,7 +6856,7 @@ Partial Class Form1
         Me.ButtonClericScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericScrollwritingPlus.Location = New System.Drawing.Point(320, 189)
         Me.ButtonClericScrollwritingPlus.Name = "ButtonClericScrollwritingPlus"
-        Me.ButtonClericScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericScrollwritingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericScrollwritingPlus.TabIndex = 4
         Me.ButtonClericScrollwritingPlus.Text = "+"
         Me.ButtonClericScrollwritingPlus.UseVisualStyleBackColor = True
@@ -7064,19 +6866,16 @@ Partial Class Form1
         Me.ButtonClericDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericDetectionPlus.Location = New System.Drawing.Point(320, 117)
         Me.ButtonClericDetectionPlus.Name = "ButtonClericDetectionPlus"
-        Me.ButtonClericDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericDetectionPlus.TabIndex = 4
         Me.ButtonClericDetectionPlus.Text = "+"
         Me.ButtonClericDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonClericHealingMinus
         '
-        Me.ButtonClericHealingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonClericHealingMinus.Location = New System.Drawing.Point(41, 78)
         Me.ButtonClericHealingMinus.Name = "ButtonClericHealingMinus"
-        Me.ButtonClericHealingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonClericHealingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericHealingMinus.TabIndex = 5
         Me.ButtonClericHealingMinus.Text = "-"
         Me.ButtonClericHealingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7087,7 +6886,7 @@ Partial Class Form1
         Me.ButtonClericSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericSensePlus.Location = New System.Drawing.Point(320, 78)
         Me.ButtonClericSensePlus.Name = "ButtonClericSensePlus"
-        Me.ButtonClericSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericSensePlus.TabIndex = 4
         Me.ButtonClericSensePlus.Text = "+"
         Me.ButtonClericSensePlus.UseVisualStyleBackColor = True
@@ -7097,7 +6896,7 @@ Partial Class Form1
         Me.ButtonClericRemedyPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericRemedyPlus.Location = New System.Drawing.Point(17, 192)
         Me.ButtonClericRemedyPlus.Name = "ButtonClericRemedyPlus"
-        Me.ButtonClericRemedyPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericRemedyPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericRemedyPlus.TabIndex = 4
         Me.ButtonClericRemedyPlus.Text = "+"
         Me.ButtonClericRemedyPlus.UseVisualStyleBackColor = True
@@ -7107,7 +6906,7 @@ Partial Class Form1
         Me.ButtonClericLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericLeatherworkingPlus.Location = New System.Drawing.Point(164, 116)
         Me.ButtonClericLeatherworkingPlus.Name = "ButtonClericLeatherworkingPlus"
-        Me.ButtonClericLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericLeatherworkingPlus.TabIndex = 4
         Me.ButtonClericLeatherworkingPlus.Text = "+"
         Me.ButtonClericLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -7117,7 +6916,7 @@ Partial Class Form1
         Me.ButtonClericWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericWeapondexterityPlus.Location = New System.Drawing.Point(164, 230)
         Me.ButtonClericWeapondexterityPlus.Name = "ButtonClericWeapondexterityPlus"
-        Me.ButtonClericWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericWeapondexterityPlus.TabIndex = 4
         Me.ButtonClericWeapondexterityPlus.Text = "+"
         Me.ButtonClericWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -7127,7 +6926,7 @@ Partial Class Form1
         Me.ButtonClericConvertPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericConvertPlus.Location = New System.Drawing.Point(17, 154)
         Me.ButtonClericConvertPlus.Name = "ButtonClericConvertPlus"
-        Me.ButtonClericConvertPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericConvertPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericConvertPlus.TabIndex = 4
         Me.ButtonClericConvertPlus.Text = "+"
         Me.ButtonClericConvertPlus.UseVisualStyleBackColor = True
@@ -7137,7 +6936,7 @@ Partial Class Form1
         Me.ButtonClericForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericForestryPlus.Location = New System.Drawing.Point(163, 79)
         Me.ButtonClericForestryPlus.Name = "ButtonClericForestryPlus"
-        Me.ButtonClericForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericForestryPlus.TabIndex = 4
         Me.ButtonClericForestryPlus.Text = "+"
         Me.ButtonClericForestryPlus.UseVisualStyleBackColor = True
@@ -7147,7 +6946,7 @@ Partial Class Form1
         Me.ButtonClericPotionsPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericPotionsPlus.Location = New System.Drawing.Point(17, 115)
         Me.ButtonClericPotionsPlus.Name = "ButtonClericPotionsPlus"
-        Me.ButtonClericPotionsPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericPotionsPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericPotionsPlus.TabIndex = 4
         Me.ButtonClericPotionsPlus.Text = "+"
         Me.ButtonClericPotionsPlus.UseVisualStyleBackColor = True
@@ -7157,7 +6956,7 @@ Partial Class Form1
         Me.ButtonClericHealingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClericHealingPlus.Location = New System.Drawing.Point(16, 78)
         Me.ButtonClericHealingPlus.Name = "ButtonClericHealingPlus"
-        Me.ButtonClericHealingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonClericHealingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonClericHealingPlus.TabIndex = 4
         Me.ButtonClericHealingPlus.Text = "+"
         Me.ButtonClericHealingPlus.UseVisualStyleBackColor = True
@@ -7412,12 +7211,9 @@ Partial Class Form1
         '
         'ButtonVoidknightSmithingMinus
         '
-        Me.ButtonVoidknightSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightSmithingMinus.Location = New System.Drawing.Point(200, 193)
         Me.ButtonVoidknightSmithingMinus.Name = "ButtonVoidknightSmithingMinus"
-        Me.ButtonVoidknightSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightSmithingMinus.TabIndex = 5
         Me.ButtonVoidknightSmithingMinus.Text = "-"
         Me.ButtonVoidknightSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7425,12 +7221,9 @@ Partial Class Form1
         '
         'ButtonVoidknightSilenceMinus
         '
-        Me.ButtonVoidknightSilenceMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightSilenceMinus.Location = New System.Drawing.Point(42, 231)
         Me.ButtonVoidknightSilenceMinus.Name = "ButtonVoidknightSilenceMinus"
-        Me.ButtonVoidknightSilenceMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightSilenceMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightSilenceMinus.TabIndex = 5
         Me.ButtonVoidknightSilenceMinus.Text = "-"
         Me.ButtonVoidknightSilenceMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7438,12 +7231,9 @@ Partial Class Form1
         '
         'ButtonVoidknightProwessMinus
         '
-        Me.ButtonVoidknightProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightProwessMinus.Location = New System.Drawing.Point(199, 152)
         Me.ButtonVoidknightProwessMinus.Name = "ButtonVoidknightProwessMinus"
-        Me.ButtonVoidknightProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightProwessMinus.TabIndex = 5
         Me.ButtonVoidknightProwessMinus.Text = "-"
         Me.ButtonVoidknightProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7451,12 +7241,9 @@ Partial Class Form1
         '
         'ButtonVoidknightLifelinkMinus
         '
-        Me.ButtonVoidknightLifelinkMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightLifelinkMinus.Location = New System.Drawing.Point(42, 192)
         Me.ButtonVoidknightLifelinkMinus.Name = "ButtonVoidknightLifelinkMinus"
-        Me.ButtonVoidknightLifelinkMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightLifelinkMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightLifelinkMinus.TabIndex = 5
         Me.ButtonVoidknightLifelinkMinus.Text = "-"
         Me.ButtonVoidknightLifelinkMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7464,12 +7251,9 @@ Partial Class Form1
         '
         'ButtonVoidknightSenseMinus
         '
-        Me.ButtonVoidknightSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightSenseMinus.Location = New System.Drawing.Point(350, 79)
         Me.ButtonVoidknightSenseMinus.Name = "ButtonVoidknightSenseMinus"
-        Me.ButtonVoidknightSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightSenseMinus.TabIndex = 5
         Me.ButtonVoidknightSenseMinus.Text = "-"
         Me.ButtonVoidknightSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7477,12 +7261,9 @@ Partial Class Form1
         '
         'ButtonVoidknightLeatherworkingMinus
         '
-        Me.ButtonVoidknightLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightLeatherworkingMinus.Location = New System.Drawing.Point(200, 116)
         Me.ButtonVoidknightLeatherworkingMinus.Name = "ButtonVoidknightLeatherworkingMinus"
-        Me.ButtonVoidknightLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightLeatherworkingMinus.TabIndex = 5
         Me.ButtonVoidknightLeatherworkingMinus.Text = "-"
         Me.ButtonVoidknightLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7490,12 +7271,9 @@ Partial Class Form1
         '
         'ButtonVoidknightJumpMinus
         '
-        Me.ButtonVoidknightJumpMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightJumpMinus.Location = New System.Drawing.Point(42, 115)
         Me.ButtonVoidknightJumpMinus.Name = "ButtonVoidknightJumpMinus"
-        Me.ButtonVoidknightJumpMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightJumpMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightJumpMinus.TabIndex = 5
         Me.ButtonVoidknightJumpMinus.Text = "-"
         Me.ButtonVoidknightJumpMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7503,12 +7281,9 @@ Partial Class Form1
         '
         'ButtonVoidknightEnchantingMinus
         '
-        Me.ButtonVoidknightEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightEnchantingMinus.Location = New System.Drawing.Point(350, 231)
         Me.ButtonVoidknightEnchantingMinus.Name = "ButtonVoidknightEnchantingMinus"
-        Me.ButtonVoidknightEnchantingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightEnchantingMinus.TabIndex = 5
         Me.ButtonVoidknightEnchantingMinus.Text = "-"
         Me.ButtonVoidknightEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7516,12 +7291,9 @@ Partial Class Form1
         '
         'ButtonVoidknightHealthMinus
         '
-        Me.ButtonVoidknightHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightHealthMinus.Location = New System.Drawing.Point(350, 155)
         Me.ButtonVoidknightHealthMinus.Name = "ButtonVoidknightHealthMinus"
-        Me.ButtonVoidknightHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightHealthMinus.TabIndex = 5
         Me.ButtonVoidknightHealthMinus.Text = "-"
         Me.ButtonVoidknightHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7529,12 +7301,9 @@ Partial Class Form1
         '
         'ButtonVoidknightScrollwritingMinus
         '
-        Me.ButtonVoidknightScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightScrollwritingMinus.Location = New System.Drawing.Point(350, 190)
         Me.ButtonVoidknightScrollwritingMinus.Name = "ButtonVoidknightScrollwritingMinus"
-        Me.ButtonVoidknightScrollwritingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightScrollwritingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightScrollwritingMinus.TabIndex = 5
         Me.ButtonVoidknightScrollwritingMinus.Text = "-"
         Me.ButtonVoidknightScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7542,12 +7311,9 @@ Partial Class Form1
         '
         'ButtonVoidknightDetectionMinus
         '
-        Me.ButtonVoidknightDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightDetectionMinus.Location = New System.Drawing.Point(350, 118)
         Me.ButtonVoidknightDetectionMinus.Name = "ButtonVoidknightDetectionMinus"
-        Me.ButtonVoidknightDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightDetectionMinus.TabIndex = 5
         Me.ButtonVoidknightDetectionMinus.Text = "-"
         Me.ButtonVoidknightDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7555,12 +7321,9 @@ Partial Class Form1
         '
         'ButtonVoidknightShroudofprotectionMinus
         '
-        Me.ButtonVoidknightShroudofprotectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightShroudofprotectionMinus.Location = New System.Drawing.Point(42, 154)
         Me.ButtonVoidknightShroudofprotectionMinus.Name = "ButtonVoidknightShroudofprotectionMinus"
-        Me.ButtonVoidknightShroudofprotectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightShroudofprotectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightShroudofprotectionMinus.TabIndex = 5
         Me.ButtonVoidknightShroudofprotectionMinus.Text = "-"
         Me.ButtonVoidknightShroudofprotectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7571,7 +7334,7 @@ Partial Class Form1
         Me.ButtonVoidknightSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightSmithingPlus.Location = New System.Drawing.Point(175, 193)
         Me.ButtonVoidknightSmithingPlus.Name = "ButtonVoidknightSmithingPlus"
-        Me.ButtonVoidknightSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightSmithingPlus.TabIndex = 4
         Me.ButtonVoidknightSmithingPlus.Text = "+"
         Me.ButtonVoidknightSmithingPlus.UseVisualStyleBackColor = True
@@ -7581,19 +7344,16 @@ Partial Class Form1
         Me.ButtonVoidknightSilencePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightSilencePlus.Location = New System.Drawing.Point(17, 231)
         Me.ButtonVoidknightSilencePlus.Name = "ButtonVoidknightSilencePlus"
-        Me.ButtonVoidknightSilencePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightSilencePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightSilencePlus.TabIndex = 4
         Me.ButtonVoidknightSilencePlus.Text = "+"
         Me.ButtonVoidknightSilencePlus.UseVisualStyleBackColor = True
         '
         'ButtonVoidknightWeapondexterityMinus
         '
-        Me.ButtonVoidknightWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightWeapondexterityMinus.Location = New System.Drawing.Point(200, 230)
         Me.ButtonVoidknightWeapondexterityMinus.Name = "ButtonVoidknightWeapondexterityMinus"
-        Me.ButtonVoidknightWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightWeapondexterityMinus.TabIndex = 5
         Me.ButtonVoidknightWeapondexterityMinus.Text = "-"
         Me.ButtonVoidknightWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7601,12 +7361,9 @@ Partial Class Form1
         '
         'ButtonVoidknightForestryMinus
         '
-        Me.ButtonVoidknightForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightForestryMinus.Location = New System.Drawing.Point(199, 79)
         Me.ButtonVoidknightForestryMinus.Name = "ButtonVoidknightForestryMinus"
-        Me.ButtonVoidknightForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightForestryMinus.TabIndex = 5
         Me.ButtonVoidknightForestryMinus.Text = "-"
         Me.ButtonVoidknightForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7617,7 +7374,7 @@ Partial Class Form1
         Me.ButtonVoidknightProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightProwessPlus.Location = New System.Drawing.Point(174, 152)
         Me.ButtonVoidknightProwessPlus.Name = "ButtonVoidknightProwessPlus"
-        Me.ButtonVoidknightProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightProwessPlus.TabIndex = 4
         Me.ButtonVoidknightProwessPlus.Text = "+"
         Me.ButtonVoidknightProwessPlus.UseVisualStyleBackColor = True
@@ -7627,7 +7384,7 @@ Partial Class Form1
         Me.ButtonVoidknightEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightEnchantingPlus.Location = New System.Drawing.Point(325, 231)
         Me.ButtonVoidknightEnchantingPlus.Name = "ButtonVoidknightEnchantingPlus"
-        Me.ButtonVoidknightEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightEnchantingPlus.TabIndex = 4
         Me.ButtonVoidknightEnchantingPlus.Text = "+"
         Me.ButtonVoidknightEnchantingPlus.UseVisualStyleBackColor = True
@@ -7637,7 +7394,7 @@ Partial Class Form1
         Me.ButtonVoidknightHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightHealthPlus.Location = New System.Drawing.Point(325, 155)
         Me.ButtonVoidknightHealthPlus.Name = "ButtonVoidknightHealthPlus"
-        Me.ButtonVoidknightHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightHealthPlus.TabIndex = 4
         Me.ButtonVoidknightHealthPlus.Text = "+"
         Me.ButtonVoidknightHealthPlus.UseVisualStyleBackColor = True
@@ -7657,19 +7414,16 @@ Partial Class Form1
         Me.ButtonVoidknightDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightDetectionPlus.Location = New System.Drawing.Point(325, 118)
         Me.ButtonVoidknightDetectionPlus.Name = "ButtonVoidknightDetectionPlus"
-        Me.ButtonVoidknightDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightDetectionPlus.TabIndex = 4
         Me.ButtonVoidknightDetectionPlus.Text = "+"
         Me.ButtonVoidknightDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonVoidknightVoidMinus
         '
-        Me.ButtonVoidknightVoidMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonVoidknightVoidMinus.Location = New System.Drawing.Point(41, 78)
         Me.ButtonVoidknightVoidMinus.Name = "ButtonVoidknightVoidMinus"
-        Me.ButtonVoidknightVoidMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonVoidknightVoidMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightVoidMinus.TabIndex = 5
         Me.ButtonVoidknightVoidMinus.Text = "-"
         Me.ButtonVoidknightVoidMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -7680,7 +7434,7 @@ Partial Class Form1
         Me.ButtonVoidknightSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightSensePlus.Location = New System.Drawing.Point(325, 79)
         Me.ButtonVoidknightSensePlus.Name = "ButtonVoidknightSensePlus"
-        Me.ButtonVoidknightSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightSensePlus.TabIndex = 4
         Me.ButtonVoidknightSensePlus.Text = "+"
         Me.ButtonVoidknightSensePlus.UseVisualStyleBackColor = True
@@ -7690,7 +7444,7 @@ Partial Class Form1
         Me.ButtonVoidknightLifelinkPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightLifelinkPlus.Location = New System.Drawing.Point(17, 192)
         Me.ButtonVoidknightLifelinkPlus.Name = "ButtonVoidknightLifelinkPlus"
-        Me.ButtonVoidknightLifelinkPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightLifelinkPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightLifelinkPlus.TabIndex = 4
         Me.ButtonVoidknightLifelinkPlus.Text = "+"
         Me.ButtonVoidknightLifelinkPlus.UseVisualStyleBackColor = True
@@ -7700,7 +7454,7 @@ Partial Class Form1
         Me.ButtonVoidknightLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightLeatherworkingPlus.Location = New System.Drawing.Point(175, 116)
         Me.ButtonVoidknightLeatherworkingPlus.Name = "ButtonVoidknightLeatherworkingPlus"
-        Me.ButtonVoidknightLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightLeatherworkingPlus.TabIndex = 4
         Me.ButtonVoidknightLeatherworkingPlus.Text = "+"
         Me.ButtonVoidknightLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -7710,7 +7464,7 @@ Partial Class Form1
         Me.ButtonVoidknightWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightWeapondexterityPlus.Location = New System.Drawing.Point(175, 230)
         Me.ButtonVoidknightWeapondexterityPlus.Name = "ButtonVoidknightWeapondexterityPlus"
-        Me.ButtonVoidknightWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightWeapondexterityPlus.TabIndex = 4
         Me.ButtonVoidknightWeapondexterityPlus.Text = "+"
         Me.ButtonVoidknightWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -7720,7 +7474,7 @@ Partial Class Form1
         Me.ButtonVoidknightShroudofprotectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightShroudofprotectionPlus.Location = New System.Drawing.Point(17, 154)
         Me.ButtonVoidknightShroudofprotectionPlus.Name = "ButtonVoidknightShroudofprotectionPlus"
-        Me.ButtonVoidknightShroudofprotectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightShroudofprotectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightShroudofprotectionPlus.TabIndex = 4
         Me.ButtonVoidknightShroudofprotectionPlus.Text = "+"
         Me.ButtonVoidknightShroudofprotectionPlus.UseVisualStyleBackColor = True
@@ -7730,7 +7484,7 @@ Partial Class Form1
         Me.ButtonVoidknightForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightForestryPlus.Location = New System.Drawing.Point(174, 79)
         Me.ButtonVoidknightForestryPlus.Name = "ButtonVoidknightForestryPlus"
-        Me.ButtonVoidknightForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightForestryPlus.TabIndex = 4
         Me.ButtonVoidknightForestryPlus.Text = "+"
         Me.ButtonVoidknightForestryPlus.UseVisualStyleBackColor = True
@@ -7740,7 +7494,7 @@ Partial Class Form1
         Me.ButtonVoidknightJumpPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightJumpPlus.Location = New System.Drawing.Point(17, 115)
         Me.ButtonVoidknightJumpPlus.Name = "ButtonVoidknightJumpPlus"
-        Me.ButtonVoidknightJumpPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightJumpPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightJumpPlus.TabIndex = 4
         Me.ButtonVoidknightJumpPlus.Text = "+"
         Me.ButtonVoidknightJumpPlus.UseVisualStyleBackColor = True
@@ -7750,7 +7504,7 @@ Partial Class Form1
         Me.ButtonVoidknightVoidPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonVoidknightVoidPlus.Location = New System.Drawing.Point(16, 78)
         Me.ButtonVoidknightVoidPlus.Name = "ButtonVoidknightVoidPlus"
-        Me.ButtonVoidknightVoidPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonVoidknightVoidPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonVoidknightVoidPlus.TabIndex = 4
         Me.ButtonVoidknightVoidPlus.Text = "+"
         Me.ButtonVoidknightVoidPlus.UseVisualStyleBackColor = True
@@ -7999,13 +7753,10 @@ Partial Class Form1
         '
         'ButtonNeurohydroSmithingMinus
         '
-        Me.ButtonNeurohydroSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroSmithingMinus.Location = New System.Drawing.Point(188, 191)
         Me.ButtonNeurohydroSmithingMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSmithingMinus.Name = "ButtonNeurohydroSmithingMinus"
-        Me.ButtonNeurohydroSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurohydroSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroSmithingMinus.TabIndex = 5
         Me.ButtonNeurohydroSmithingMinus.Text = "-"
         Me.ButtonNeurohydroSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8013,13 +7764,10 @@ Partial Class Form1
         '
         'ButtonNeurohydroProwessMinus
         '
-        Me.ButtonNeurohydroProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroProwessMinus.Location = New System.Drawing.Point(187, 150)
         Me.ButtonNeurohydroProwessMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroProwessMinus.Name = "ButtonNeurohydroProwessMinus"
-        Me.ButtonNeurohydroProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurohydroProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroProwessMinus.TabIndex = 5
         Me.ButtonNeurohydroProwessMinus.Text = "-"
         Me.ButtonNeurohydroProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8027,13 +7775,10 @@ Partial Class Form1
         '
         'ButtonNeurohydroSenseMinus
         '
-        Me.ButtonNeurohydroSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroSenseMinus.Location = New System.Drawing.Point(354, 75)
         Me.ButtonNeurohydroSenseMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSenseMinus.Name = "ButtonNeurohydroSenseMinus"
-        Me.ButtonNeurohydroSenseMinus.Size = New System.Drawing.Size(21, 22)
+        Me.ButtonNeurohydroSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroSenseMinus.TabIndex = 5
         Me.ButtonNeurohydroSenseMinus.Text = "-"
         Me.ButtonNeurohydroSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8041,13 +7786,10 @@ Partial Class Form1
         '
         'ButtonNeurohydroLeatherworkingMinus
         '
-        Me.ButtonNeurohydroLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroLeatherworkingMinus.Location = New System.Drawing.Point(187, 114)
         Me.ButtonNeurohydroLeatherworkingMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroLeatherworkingMinus.Name = "ButtonNeurohydroLeatherworkingMinus"
-        Me.ButtonNeurohydroLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurohydroLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroLeatherworkingMinus.TabIndex = 5
         Me.ButtonNeurohydroLeatherworkingMinus.Text = "-"
         Me.ButtonNeurohydroLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8055,13 +7797,10 @@ Partial Class Form1
         '
         'ButtonNeurohydroSnowballMinus
         '
-        Me.ButtonNeurohydroSnowballMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroSnowballMinus.Location = New System.Drawing.Point(56, 159)
         Me.ButtonNeurohydroSnowballMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSnowballMinus.Name = "ButtonNeurohydroSnowballMinus"
-        Me.ButtonNeurohydroSnowballMinus.Size = New System.Drawing.Size(20, 22)
+        Me.ButtonNeurohydroSnowballMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroSnowballMinus.TabIndex = 5
         Me.ButtonNeurohydroSnowballMinus.Text = "-"
         Me.ButtonNeurohydroSnowballMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8069,13 +7808,10 @@ Partial Class Form1
         '
         'ButtonNeurohydroEnchantingMinus
         '
-        Me.ButtonNeurohydroEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroEnchantingMinus.Location = New System.Drawing.Point(355, 226)
         Me.ButtonNeurohydroEnchantingMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroEnchantingMinus.Name = "ButtonNeurohydroEnchantingMinus"
-        Me.ButtonNeurohydroEnchantingMinus.Size = New System.Drawing.Size(21, 22)
+        Me.ButtonNeurohydroEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroEnchantingMinus.TabIndex = 5
         Me.ButtonNeurohydroEnchantingMinus.Text = "-"
         Me.ButtonNeurohydroEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8083,13 +7819,10 @@ Partial Class Form1
         '
         'ButtonNeurohydroHealthMinus
         '
-        Me.ButtonNeurohydroHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroHealthMinus.Location = New System.Drawing.Point(355, 151)
         Me.ButtonNeurohydroHealthMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroHealthMinus.Name = "ButtonNeurohydroHealthMinus"
-        Me.ButtonNeurohydroHealthMinus.Size = New System.Drawing.Size(21, 22)
+        Me.ButtonNeurohydroHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroHealthMinus.TabIndex = 5
         Me.ButtonNeurohydroHealthMinus.Text = "-"
         Me.ButtonNeurohydroHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8097,13 +7830,10 @@ Partial Class Form1
         '
         'ButtonNeurohydroScrollwritingMinus
         '
-        Me.ButtonNeurohydroScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroScrollwritingMinus.Location = New System.Drawing.Point(355, 187)
         Me.ButtonNeurohydroScrollwritingMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroScrollwritingMinus.Name = "ButtonNeurohydroScrollwritingMinus"
-        Me.ButtonNeurohydroScrollwritingMinus.Size = New System.Drawing.Size(21, 22)
+        Me.ButtonNeurohydroScrollwritingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroScrollwritingMinus.TabIndex = 5
         Me.ButtonNeurohydroScrollwritingMinus.Text = "-"
         Me.ButtonNeurohydroScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8111,13 +7841,10 @@ Partial Class Form1
         '
         'ButtonNeurohydroDetectionMinus
         '
-        Me.ButtonNeurohydroDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroDetectionMinus.Location = New System.Drawing.Point(354, 114)
         Me.ButtonNeurohydroDetectionMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroDetectionMinus.Name = "ButtonNeurohydroDetectionMinus"
-        Me.ButtonNeurohydroDetectionMinus.Size = New System.Drawing.Size(21, 22)
+        Me.ButtonNeurohydroDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroDetectionMinus.TabIndex = 5
         Me.ButtonNeurohydroDetectionMinus.Text = "-"
         Me.ButtonNeurohydroDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8129,20 +7856,17 @@ Partial Class Form1
         Me.ButtonNeurohydroSmithingPlus.Location = New System.Drawing.Point(165, 191)
         Me.ButtonNeurohydroSmithingPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSmithingPlus.Name = "ButtonNeurohydroSmithingPlus"
-        Me.ButtonNeurohydroSmithingPlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroSmithingPlus.TabIndex = 4
         Me.ButtonNeurohydroSmithingPlus.Text = "+"
         Me.ButtonNeurohydroSmithingPlus.UseVisualStyleBackColor = True
         '
         'ButtonNeurohydroWeapondexterityMinus
         '
-        Me.ButtonNeurohydroWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroWeapondexterityMinus.Location = New System.Drawing.Point(187, 230)
         Me.ButtonNeurohydroWeapondexterityMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroWeapondexterityMinus.Name = "ButtonNeurohydroWeapondexterityMinus"
-        Me.ButtonNeurohydroWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurohydroWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroWeapondexterityMinus.TabIndex = 5
         Me.ButtonNeurohydroWeapondexterityMinus.Text = "-"
         Me.ButtonNeurohydroWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8150,13 +7874,10 @@ Partial Class Form1
         '
         'ButtonNeurohydroForestryMinus
         '
-        Me.ButtonNeurohydroForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroForestryMinus.Location = New System.Drawing.Point(186, 77)
         Me.ButtonNeurohydroForestryMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroForestryMinus.Name = "ButtonNeurohydroForestryMinus"
-        Me.ButtonNeurohydroForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurohydroForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroForestryMinus.TabIndex = 5
         Me.ButtonNeurohydroForestryMinus.Text = "-"
         Me.ButtonNeurohydroForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8168,7 +7889,7 @@ Partial Class Form1
         Me.ButtonNeurohydroProwessPlus.Location = New System.Drawing.Point(164, 150)
         Me.ButtonNeurohydroProwessPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroProwessPlus.Name = "ButtonNeurohydroProwessPlus"
-        Me.ButtonNeurohydroProwessPlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroProwessPlus.TabIndex = 4
         Me.ButtonNeurohydroProwessPlus.Text = "+"
         Me.ButtonNeurohydroProwessPlus.UseVisualStyleBackColor = True
@@ -8179,7 +7900,7 @@ Partial Class Form1
         Me.ButtonNeurohydroEnchantingPlus.Location = New System.Drawing.Point(334, 226)
         Me.ButtonNeurohydroEnchantingPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroEnchantingPlus.Name = "ButtonNeurohydroEnchantingPlus"
-        Me.ButtonNeurohydroEnchantingPlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroEnchantingPlus.TabIndex = 4
         Me.ButtonNeurohydroEnchantingPlus.Text = "+"
         Me.ButtonNeurohydroEnchantingPlus.UseVisualStyleBackColor = True
@@ -8190,7 +7911,7 @@ Partial Class Form1
         Me.ButtonNeurohydroHealthPlus.Location = New System.Drawing.Point(334, 151)
         Me.ButtonNeurohydroHealthPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroHealthPlus.Name = "ButtonNeurohydroHealthPlus"
-        Me.ButtonNeurohydroHealthPlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroHealthPlus.TabIndex = 4
         Me.ButtonNeurohydroHealthPlus.Text = "+"
         Me.ButtonNeurohydroHealthPlus.UseVisualStyleBackColor = True
@@ -8201,7 +7922,7 @@ Partial Class Form1
         Me.ButtonNeurohydroScrollwritingPlus.Location = New System.Drawing.Point(334, 187)
         Me.ButtonNeurohydroScrollwritingPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroScrollwritingPlus.Name = "ButtonNeurohydroScrollwritingPlus"
-        Me.ButtonNeurohydroScrollwritingPlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroScrollwritingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroScrollwritingPlus.TabIndex = 4
         Me.ButtonNeurohydroScrollwritingPlus.Text = "+"
         Me.ButtonNeurohydroScrollwritingPlus.UseVisualStyleBackColor = True
@@ -8212,20 +7933,17 @@ Partial Class Form1
         Me.ButtonNeurohydroDetectionPlus.Location = New System.Drawing.Point(333, 114)
         Me.ButtonNeurohydroDetectionPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroDetectionPlus.Name = "ButtonNeurohydroDetectionPlus"
-        Me.ButtonNeurohydroDetectionPlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroDetectionPlus.TabIndex = 4
         Me.ButtonNeurohydroDetectionPlus.Text = "+"
         Me.ButtonNeurohydroDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonNeurohydroMigraineMinus
         '
-        Me.ButtonNeurohydroMigraineMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurohydroMigraineMinus.Location = New System.Drawing.Point(56, 123)
         Me.ButtonNeurohydroMigraineMinus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroMigraineMinus.Name = "ButtonNeurohydroMigraineMinus"
-        Me.ButtonNeurohydroMigraineMinus.Size = New System.Drawing.Size(20, 22)
+        Me.ButtonNeurohydroMigraineMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroMigraineMinus.TabIndex = 5
         Me.ButtonNeurohydroMigraineMinus.Text = "-"
         Me.ButtonNeurohydroMigraineMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8237,7 +7955,7 @@ Partial Class Form1
         Me.ButtonNeurohydroSensePlus.Location = New System.Drawing.Point(333, 75)
         Me.ButtonNeurohydroSensePlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSensePlus.Name = "ButtonNeurohydroSensePlus"
-        Me.ButtonNeurohydroSensePlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroSensePlus.TabIndex = 4
         Me.ButtonNeurohydroSensePlus.Text = "+"
         Me.ButtonNeurohydroSensePlus.UseVisualStyleBackColor = True
@@ -8248,7 +7966,7 @@ Partial Class Form1
         Me.ButtonNeurohydroLeatherworkingPlus.Location = New System.Drawing.Point(164, 114)
         Me.ButtonNeurohydroLeatherworkingPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroLeatherworkingPlus.Name = "ButtonNeurohydroLeatherworkingPlus"
-        Me.ButtonNeurohydroLeatherworkingPlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroLeatherworkingPlus.TabIndex = 4
         Me.ButtonNeurohydroLeatherworkingPlus.Text = "+"
         Me.ButtonNeurohydroLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -8259,7 +7977,7 @@ Partial Class Form1
         Me.ButtonNeurohydroWeapondexterityPlus.Location = New System.Drawing.Point(164, 230)
         Me.ButtonNeurohydroWeapondexterityPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroWeapondexterityPlus.Name = "ButtonNeurohydroWeapondexterityPlus"
-        Me.ButtonNeurohydroWeapondexterityPlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroWeapondexterityPlus.TabIndex = 4
         Me.ButtonNeurohydroWeapondexterityPlus.Text = "+"
         Me.ButtonNeurohydroWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -8270,7 +7988,7 @@ Partial Class Form1
         Me.ButtonNeurohydroForestryPlus.Location = New System.Drawing.Point(163, 77)
         Me.ButtonNeurohydroForestryPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroForestryPlus.Name = "ButtonNeurohydroForestryPlus"
-        Me.ButtonNeurohydroForestryPlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroForestryPlus.TabIndex = 4
         Me.ButtonNeurohydroForestryPlus.Text = "+"
         Me.ButtonNeurohydroForestryPlus.UseVisualStyleBackColor = True
@@ -8281,7 +7999,7 @@ Partial Class Form1
         Me.ButtonNeurohydroSnowballPlus.Location = New System.Drawing.Point(32, 160)
         Me.ButtonNeurohydroSnowballPlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroSnowballPlus.Name = "ButtonNeurohydroSnowballPlus"
-        Me.ButtonNeurohydroSnowballPlus.Size = New System.Drawing.Size(19, 21)
+        Me.ButtonNeurohydroSnowballPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroSnowballPlus.TabIndex = 4
         Me.ButtonNeurohydroSnowballPlus.Text = "+"
         Me.ButtonNeurohydroSnowballPlus.UseVisualStyleBackColor = True
@@ -8292,7 +8010,7 @@ Partial Class Form1
         Me.ButtonNeurohydroMigrainePlus.Location = New System.Drawing.Point(32, 123)
         Me.ButtonNeurohydroMigrainePlus.Margin = New System.Windows.Forms.Padding(2)
         Me.ButtonNeurohydroMigrainePlus.Name = "ButtonNeurohydroMigrainePlus"
-        Me.ButtonNeurohydroMigrainePlus.Size = New System.Drawing.Size(19, 22)
+        Me.ButtonNeurohydroMigrainePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurohydroMigrainePlus.TabIndex = 4
         Me.ButtonNeurohydroMigrainePlus.Text = "+"
         Me.ButtonNeurohydroMigrainePlus.UseVisualStyleBackColor = True
@@ -8526,12 +8244,9 @@ Partial Class Form1
         '
         'ButtonNeuropyroSmithingMinus
         '
-        Me.ButtonNeuropyroSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroSmithingMinus.Location = New System.Drawing.Point(187, 201)
         Me.ButtonNeuropyroSmithingMinus.Name = "ButtonNeuropyroSmithingMinus"
-        Me.ButtonNeuropyroSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroSmithingMinus.TabIndex = 5
         Me.ButtonNeuropyroSmithingMinus.Text = "-"
         Me.ButtonNeuropyroSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8539,12 +8254,9 @@ Partial Class Form1
         '
         'ButtonNeuropyroProwessMinus
         '
-        Me.ButtonNeuropyroProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroProwessMinus.Location = New System.Drawing.Point(186, 160)
         Me.ButtonNeuropyroProwessMinus.Name = "ButtonNeuropyroProwessMinus"
-        Me.ButtonNeuropyroProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroProwessMinus.TabIndex = 5
         Me.ButtonNeuropyroProwessMinus.Text = "-"
         Me.ButtonNeuropyroProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8552,12 +8264,9 @@ Partial Class Form1
         '
         'ButtonNeuropyroSenseMinus
         '
-        Me.ButtonNeuropyroSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroSenseMinus.Location = New System.Drawing.Point(353, 85)
         Me.ButtonNeuropyroSenseMinus.Name = "ButtonNeuropyroSenseMinus"
-        Me.ButtonNeuropyroSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroSenseMinus.TabIndex = 5
         Me.ButtonNeuropyroSenseMinus.Text = "-"
         Me.ButtonNeuropyroSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8565,12 +8274,9 @@ Partial Class Form1
         '
         'ButtonNeuropyroLeatherworkingMinus
         '
-        Me.ButtonNeuropyroLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
         Me.ButtonNeuropyroLeatherworkingMinus.Name = "ButtonNeuropyroLeatherworkingMinus"
-        Me.ButtonNeuropyroLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroLeatherworkingMinus.TabIndex = 5
         Me.ButtonNeuropyroLeatherworkingMinus.Text = "-"
         Me.ButtonNeuropyroLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8578,12 +8284,9 @@ Partial Class Form1
         '
         'ButtonNeuropyroFireballMinus
         '
-        Me.ButtonNeuropyroFireballMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroFireballMinus.Location = New System.Drawing.Point(57, 178)
         Me.ButtonNeuropyroFireballMinus.Name = "ButtonNeuropyroFireballMinus"
-        Me.ButtonNeuropyroFireballMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroFireballMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroFireballMinus.TabIndex = 5
         Me.ButtonNeuropyroFireballMinus.Text = "-"
         Me.ButtonNeuropyroFireballMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8591,12 +8294,9 @@ Partial Class Form1
         '
         'ButtonNeuropyroEnchantingMinus
         '
-        Me.ButtonNeuropyroEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroEnchantingMinus.Location = New System.Drawing.Point(353, 237)
         Me.ButtonNeuropyroEnchantingMinus.Name = "ButtonNeuropyroEnchantingMinus"
-        Me.ButtonNeuropyroEnchantingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroEnchantingMinus.TabIndex = 5
         Me.ButtonNeuropyroEnchantingMinus.Text = "-"
         Me.ButtonNeuropyroEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8604,12 +8304,9 @@ Partial Class Form1
         '
         'ButtonNeuropyroHealthMinus
         '
-        Me.ButtonNeuropyroHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroHealthMinus.Location = New System.Drawing.Point(353, 161)
         Me.ButtonNeuropyroHealthMinus.Name = "ButtonNeuropyroHealthMinus"
-        Me.ButtonNeuropyroHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroHealthMinus.TabIndex = 5
         Me.ButtonNeuropyroHealthMinus.Text = "-"
         Me.ButtonNeuropyroHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8617,12 +8314,9 @@ Partial Class Form1
         '
         'ButtonNeuropyroScrollwritingMinus
         '
-        Me.ButtonNeuropyroScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
         Me.ButtonNeuropyroScrollwritingMinus.Name = "ButtonNeuropyroScrollwritingMinus"
-        Me.ButtonNeuropyroScrollwritingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroScrollwritingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroScrollwritingMinus.TabIndex = 5
         Me.ButtonNeuropyroScrollwritingMinus.Text = "-"
         Me.ButtonNeuropyroScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8630,12 +8324,9 @@ Partial Class Form1
         '
         'ButtonNeuropyroDetectionMinus
         '
-        Me.ButtonNeuropyroDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroDetectionMinus.Location = New System.Drawing.Point(353, 124)
         Me.ButtonNeuropyroDetectionMinus.Name = "ButtonNeuropyroDetectionMinus"
-        Me.ButtonNeuropyroDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroDetectionMinus.TabIndex = 5
         Me.ButtonNeuropyroDetectionMinus.Text = "-"
         Me.ButtonNeuropyroDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8646,19 +8337,16 @@ Partial Class Form1
         Me.ButtonNeuropyroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroSmithingPlus.Location = New System.Drawing.Point(162, 201)
         Me.ButtonNeuropyroSmithingPlus.Name = "ButtonNeuropyroSmithingPlus"
-        Me.ButtonNeuropyroSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroSmithingPlus.TabIndex = 4
         Me.ButtonNeuropyroSmithingPlus.Text = "+"
         Me.ButtonNeuropyroSmithingPlus.UseVisualStyleBackColor = True
         '
         'ButtonNeuropyroWeapondexterityMinus
         '
-        Me.ButtonNeuropyroWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
         Me.ButtonNeuropyroWeapondexterityMinus.Name = "ButtonNeuropyroWeapondexterityMinus"
-        Me.ButtonNeuropyroWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroWeapondexterityMinus.TabIndex = 5
         Me.ButtonNeuropyroWeapondexterityMinus.Text = "-"
         Me.ButtonNeuropyroWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8666,12 +8354,9 @@ Partial Class Form1
         '
         'ButtonNeuropyroForestryMinus
         '
-        Me.ButtonNeuropyroForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroForestryMinus.Location = New System.Drawing.Point(186, 87)
         Me.ButtonNeuropyroForestryMinus.Name = "ButtonNeuropyroForestryMinus"
-        Me.ButtonNeuropyroForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroForestryMinus.TabIndex = 5
         Me.ButtonNeuropyroForestryMinus.Text = "-"
         Me.ButtonNeuropyroForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8682,7 +8367,7 @@ Partial Class Form1
         Me.ButtonNeuropyroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroProwessPlus.Location = New System.Drawing.Point(161, 160)
         Me.ButtonNeuropyroProwessPlus.Name = "ButtonNeuropyroProwessPlus"
-        Me.ButtonNeuropyroProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroProwessPlus.TabIndex = 4
         Me.ButtonNeuropyroProwessPlus.Text = "+"
         Me.ButtonNeuropyroProwessPlus.UseVisualStyleBackColor = True
@@ -8692,7 +8377,7 @@ Partial Class Form1
         Me.ButtonNeuropyroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroEnchantingPlus.Location = New System.Drawing.Point(328, 237)
         Me.ButtonNeuropyroEnchantingPlus.Name = "ButtonNeuropyroEnchantingPlus"
-        Me.ButtonNeuropyroEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroEnchantingPlus.TabIndex = 4
         Me.ButtonNeuropyroEnchantingPlus.Text = "+"
         Me.ButtonNeuropyroEnchantingPlus.UseVisualStyleBackColor = True
@@ -8702,7 +8387,7 @@ Partial Class Form1
         Me.ButtonNeuropyroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroHealthPlus.Location = New System.Drawing.Point(328, 161)
         Me.ButtonNeuropyroHealthPlus.Name = "ButtonNeuropyroHealthPlus"
-        Me.ButtonNeuropyroHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroHealthPlus.TabIndex = 4
         Me.ButtonNeuropyroHealthPlus.Text = "+"
         Me.ButtonNeuropyroHealthPlus.UseVisualStyleBackColor = True
@@ -8712,7 +8397,7 @@ Partial Class Form1
         Me.ButtonNeuropyroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
         Me.ButtonNeuropyroScrollwritingPlus.Name = "ButtonNeuropyroScrollwritingPlus"
-        Me.ButtonNeuropyroScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroScrollwritingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroScrollwritingPlus.TabIndex = 4
         Me.ButtonNeuropyroScrollwritingPlus.Text = "+"
         Me.ButtonNeuropyroScrollwritingPlus.UseVisualStyleBackColor = True
@@ -8722,19 +8407,16 @@ Partial Class Form1
         Me.ButtonNeuropyroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroDetectionPlus.Location = New System.Drawing.Point(328, 124)
         Me.ButtonNeuropyroDetectionPlus.Name = "ButtonNeuropyroDetectionPlus"
-        Me.ButtonNeuropyroDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroDetectionPlus.TabIndex = 4
         Me.ButtonNeuropyroDetectionPlus.Text = "+"
         Me.ButtonNeuropyroDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonNeuropyroMigraineMinus
         '
-        Me.ButtonNeuropyroMigraineMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeuropyroMigraineMinus.Location = New System.Drawing.Point(57, 140)
         Me.ButtonNeuropyroMigraineMinus.Name = "ButtonNeuropyroMigraineMinus"
-        Me.ButtonNeuropyroMigraineMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeuropyroMigraineMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroMigraineMinus.TabIndex = 5
         Me.ButtonNeuropyroMigraineMinus.Text = "-"
         Me.ButtonNeuropyroMigraineMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -8745,7 +8427,7 @@ Partial Class Form1
         Me.ButtonNeuropyroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroSensePlus.Location = New System.Drawing.Point(328, 85)
         Me.ButtonNeuropyroSensePlus.Name = "ButtonNeuropyroSensePlus"
-        Me.ButtonNeuropyroSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroSensePlus.TabIndex = 4
         Me.ButtonNeuropyroSensePlus.Text = "+"
         Me.ButtonNeuropyroSensePlus.UseVisualStyleBackColor = True
@@ -8755,7 +8437,7 @@ Partial Class Form1
         Me.ButtonNeuropyroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
         Me.ButtonNeuropyroLeatherworkingPlus.Name = "ButtonNeuropyroLeatherworkingPlus"
-        Me.ButtonNeuropyroLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroLeatherworkingPlus.TabIndex = 4
         Me.ButtonNeuropyroLeatherworkingPlus.Text = "+"
         Me.ButtonNeuropyroLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -8765,7 +8447,7 @@ Partial Class Form1
         Me.ButtonNeuropyroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
         Me.ButtonNeuropyroWeapondexterityPlus.Name = "ButtonNeuropyroWeapondexterityPlus"
-        Me.ButtonNeuropyroWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroWeapondexterityPlus.TabIndex = 4
         Me.ButtonNeuropyroWeapondexterityPlus.Text = "+"
         Me.ButtonNeuropyroWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -8775,7 +8457,7 @@ Partial Class Form1
         Me.ButtonNeuropyroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroForestryPlus.Location = New System.Drawing.Point(161, 87)
         Me.ButtonNeuropyroForestryPlus.Name = "ButtonNeuropyroForestryPlus"
-        Me.ButtonNeuropyroForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroForestryPlus.TabIndex = 4
         Me.ButtonNeuropyroForestryPlus.Text = "+"
         Me.ButtonNeuropyroForestryPlus.UseVisualStyleBackColor = True
@@ -8785,7 +8467,7 @@ Partial Class Form1
         Me.ButtonNeuropyroFireballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroFireballPlus.Location = New System.Drawing.Point(32, 178)
         Me.ButtonNeuropyroFireballPlus.Name = "ButtonNeuropyroFireballPlus"
-        Me.ButtonNeuropyroFireballPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroFireballPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroFireballPlus.TabIndex = 4
         Me.ButtonNeuropyroFireballPlus.Text = "+"
         Me.ButtonNeuropyroFireballPlus.UseVisualStyleBackColor = True
@@ -8795,7 +8477,7 @@ Partial Class Form1
         Me.ButtonNeuropyroMigrainePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeuropyroMigrainePlus.Location = New System.Drawing.Point(32, 140)
         Me.ButtonNeuropyroMigrainePlus.Name = "ButtonNeuropyroMigrainePlus"
-        Me.ButtonNeuropyroMigrainePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeuropyroMigrainePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeuropyroMigrainePlus.TabIndex = 4
         Me.ButtonNeuropyroMigrainePlus.Text = "+"
         Me.ButtonNeuropyroMigrainePlus.UseVisualStyleBackColor = True
@@ -9014,12 +8696,9 @@ Partial Class Form1
         '
         'ButtonNeurokairoSmithingMinus
         '
-        Me.ButtonNeurokairoSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoSmithingMinus.Location = New System.Drawing.Point(187, 201)
         Me.ButtonNeurokairoSmithingMinus.Name = "ButtonNeurokairoSmithingMinus"
-        Me.ButtonNeurokairoSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoSmithingMinus.TabIndex = 5
         Me.ButtonNeurokairoSmithingMinus.Text = "-"
         Me.ButtonNeurokairoSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9027,12 +8706,9 @@ Partial Class Form1
         '
         'ButtonNeurokairoProwessMinus
         '
-        Me.ButtonNeurokairoProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoProwessMinus.Location = New System.Drawing.Point(186, 160)
         Me.ButtonNeurokairoProwessMinus.Name = "ButtonNeurokairoProwessMinus"
-        Me.ButtonNeurokairoProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoProwessMinus.TabIndex = 5
         Me.ButtonNeurokairoProwessMinus.Text = "-"
         Me.ButtonNeurokairoProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9040,12 +8716,9 @@ Partial Class Form1
         '
         'ButtonNeurokairoSenseMinus
         '
-        Me.ButtonNeurokairoSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoSenseMinus.Location = New System.Drawing.Point(353, 85)
         Me.ButtonNeurokairoSenseMinus.Name = "ButtonNeurokairoSenseMinus"
-        Me.ButtonNeurokairoSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoSenseMinus.TabIndex = 5
         Me.ButtonNeurokairoSenseMinus.Text = "-"
         Me.ButtonNeurokairoSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9053,12 +8726,9 @@ Partial Class Form1
         '
         'ButtonNeurokairoLeatherworkingMinus
         '
-        Me.ButtonNeurokairoLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
         Me.ButtonNeurokairoLeatherworkingMinus.Name = "ButtonNeurokairoLeatherworkingMinus"
-        Me.ButtonNeurokairoLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoLeatherworkingMinus.TabIndex = 5
         Me.ButtonNeurokairoLeatherworkingMinus.Text = "-"
         Me.ButtonNeurokairoLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9066,12 +8736,9 @@ Partial Class Form1
         '
         'ButtonNeurokairoLightningboldMinus
         '
-        Me.ButtonNeurokairoLightningboldMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoLightningboldMinus.Location = New System.Drawing.Point(57, 178)
         Me.ButtonNeurokairoLightningboldMinus.Name = "ButtonNeurokairoLightningboldMinus"
-        Me.ButtonNeurokairoLightningboldMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoLightningboldMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoLightningboldMinus.TabIndex = 5
         Me.ButtonNeurokairoLightningboldMinus.Text = "-"
         Me.ButtonNeurokairoLightningboldMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9079,12 +8746,9 @@ Partial Class Form1
         '
         'ButtonNeurokairoEnchantingMinus
         '
-        Me.ButtonNeurokairoEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoEnchantingMinus.Location = New System.Drawing.Point(353, 237)
         Me.ButtonNeurokairoEnchantingMinus.Name = "ButtonNeurokairoEnchantingMinus"
-        Me.ButtonNeurokairoEnchantingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoEnchantingMinus.TabIndex = 5
         Me.ButtonNeurokairoEnchantingMinus.Text = "-"
         Me.ButtonNeurokairoEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9092,12 +8756,9 @@ Partial Class Form1
         '
         'ButtonNeurokairoHealthMinus
         '
-        Me.ButtonNeurokairoHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoHealthMinus.Location = New System.Drawing.Point(353, 161)
         Me.ButtonNeurokairoHealthMinus.Name = "ButtonNeurokairoHealthMinus"
-        Me.ButtonNeurokairoHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoHealthMinus.TabIndex = 5
         Me.ButtonNeurokairoHealthMinus.Text = "-"
         Me.ButtonNeurokairoHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9105,12 +8766,9 @@ Partial Class Form1
         '
         'ButtonNeurokairoScrollwritingMinus
         '
-        Me.ButtonNeurokairoScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
         Me.ButtonNeurokairoScrollwritingMinus.Name = "ButtonNeurokairoScrollwritingMinus"
-        Me.ButtonNeurokairoScrollwritingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoScrollwritingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoScrollwritingMinus.TabIndex = 5
         Me.ButtonNeurokairoScrollwritingMinus.Text = "-"
         Me.ButtonNeurokairoScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9118,12 +8776,9 @@ Partial Class Form1
         '
         'ButtonNeurokairoDetectionMinus
         '
-        Me.ButtonNeurokairoDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoDetectionMinus.Location = New System.Drawing.Point(353, 124)
         Me.ButtonNeurokairoDetectionMinus.Name = "ButtonNeurokairoDetectionMinus"
-        Me.ButtonNeurokairoDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoDetectionMinus.TabIndex = 5
         Me.ButtonNeurokairoDetectionMinus.Text = "-"
         Me.ButtonNeurokairoDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9134,19 +8789,16 @@ Partial Class Form1
         Me.ButtonNeurokairoSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoSmithingPlus.Location = New System.Drawing.Point(162, 201)
         Me.ButtonNeurokairoSmithingPlus.Name = "ButtonNeurokairoSmithingPlus"
-        Me.ButtonNeurokairoSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoSmithingPlus.TabIndex = 4
         Me.ButtonNeurokairoSmithingPlus.Text = "+"
         Me.ButtonNeurokairoSmithingPlus.UseVisualStyleBackColor = True
         '
         'ButtonNeurokairoWeapondexterityMinus
         '
-        Me.ButtonNeurokairoWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
         Me.ButtonNeurokairoWeapondexterityMinus.Name = "ButtonNeurokairoWeapondexterityMinus"
-        Me.ButtonNeurokairoWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoWeapondexterityMinus.TabIndex = 5
         Me.ButtonNeurokairoWeapondexterityMinus.Text = "-"
         Me.ButtonNeurokairoWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9154,12 +8806,9 @@ Partial Class Form1
         '
         'ButtonNeurokairoForestryMinus
         '
-        Me.ButtonNeurokairoForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoForestryMinus.Location = New System.Drawing.Point(186, 87)
         Me.ButtonNeurokairoForestryMinus.Name = "ButtonNeurokairoForestryMinus"
-        Me.ButtonNeurokairoForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoForestryMinus.TabIndex = 5
         Me.ButtonNeurokairoForestryMinus.Text = "-"
         Me.ButtonNeurokairoForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9170,7 +8819,7 @@ Partial Class Form1
         Me.ButtonNeurokairoProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoProwessPlus.Location = New System.Drawing.Point(161, 160)
         Me.ButtonNeurokairoProwessPlus.Name = "ButtonNeurokairoProwessPlus"
-        Me.ButtonNeurokairoProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoProwessPlus.TabIndex = 4
         Me.ButtonNeurokairoProwessPlus.Text = "+"
         Me.ButtonNeurokairoProwessPlus.UseVisualStyleBackColor = True
@@ -9180,7 +8829,7 @@ Partial Class Form1
         Me.ButtonNeurokairoEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoEnchantingPlus.Location = New System.Drawing.Point(328, 237)
         Me.ButtonNeurokairoEnchantingPlus.Name = "ButtonNeurokairoEnchantingPlus"
-        Me.ButtonNeurokairoEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoEnchantingPlus.TabIndex = 4
         Me.ButtonNeurokairoEnchantingPlus.Text = "+"
         Me.ButtonNeurokairoEnchantingPlus.UseVisualStyleBackColor = True
@@ -9190,7 +8839,7 @@ Partial Class Form1
         Me.ButtonNeurokairoHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoHealthPlus.Location = New System.Drawing.Point(328, 161)
         Me.ButtonNeurokairoHealthPlus.Name = "ButtonNeurokairoHealthPlus"
-        Me.ButtonNeurokairoHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoHealthPlus.TabIndex = 4
         Me.ButtonNeurokairoHealthPlus.Text = "+"
         Me.ButtonNeurokairoHealthPlus.UseVisualStyleBackColor = True
@@ -9200,7 +8849,7 @@ Partial Class Form1
         Me.ButtonNeurokairoScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
         Me.ButtonNeurokairoScrollwritingPlus.Name = "ButtonNeurokairoScrollwritingPlus"
-        Me.ButtonNeurokairoScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoScrollwritingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoScrollwritingPlus.TabIndex = 4
         Me.ButtonNeurokairoScrollwritingPlus.Text = "+"
         Me.ButtonNeurokairoScrollwritingPlus.UseVisualStyleBackColor = True
@@ -9210,19 +8859,16 @@ Partial Class Form1
         Me.ButtonNeurokairoDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoDetectionPlus.Location = New System.Drawing.Point(328, 124)
         Me.ButtonNeurokairoDetectionPlus.Name = "ButtonNeurokairoDetectionPlus"
-        Me.ButtonNeurokairoDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoDetectionPlus.TabIndex = 4
         Me.ButtonNeurokairoDetectionPlus.Text = "+"
         Me.ButtonNeurokairoDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonNeurokairoMigraineMinus
         '
-        Me.ButtonNeurokairoMigraineMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNeurokairoMigraineMinus.Location = New System.Drawing.Point(57, 140)
         Me.ButtonNeurokairoMigraineMinus.Name = "ButtonNeurokairoMigraineMinus"
-        Me.ButtonNeurokairoMigraineMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNeurokairoMigraineMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoMigraineMinus.TabIndex = 5
         Me.ButtonNeurokairoMigraineMinus.Text = "-"
         Me.ButtonNeurokairoMigraineMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9233,7 +8879,7 @@ Partial Class Form1
         Me.ButtonNeurokairoSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoSensePlus.Location = New System.Drawing.Point(328, 85)
         Me.ButtonNeurokairoSensePlus.Name = "ButtonNeurokairoSensePlus"
-        Me.ButtonNeurokairoSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoSensePlus.TabIndex = 4
         Me.ButtonNeurokairoSensePlus.Text = "+"
         Me.ButtonNeurokairoSensePlus.UseVisualStyleBackColor = True
@@ -9243,7 +8889,7 @@ Partial Class Form1
         Me.ButtonNeurokairoLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
         Me.ButtonNeurokairoLeatherworkingPlus.Name = "ButtonNeurokairoLeatherworkingPlus"
-        Me.ButtonNeurokairoLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoLeatherworkingPlus.TabIndex = 4
         Me.ButtonNeurokairoLeatherworkingPlus.Text = "+"
         Me.ButtonNeurokairoLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -9253,7 +8899,7 @@ Partial Class Form1
         Me.ButtonNeurokairoWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
         Me.ButtonNeurokairoWeapondexterityPlus.Name = "ButtonNeurokairoWeapondexterityPlus"
-        Me.ButtonNeurokairoWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoWeapondexterityPlus.TabIndex = 4
         Me.ButtonNeurokairoWeapondexterityPlus.Text = "+"
         Me.ButtonNeurokairoWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -9263,7 +8909,7 @@ Partial Class Form1
         Me.ButtonNeurokairoForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoForestryPlus.Location = New System.Drawing.Point(161, 87)
         Me.ButtonNeurokairoForestryPlus.Name = "ButtonNeurokairoForestryPlus"
-        Me.ButtonNeurokairoForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoForestryPlus.TabIndex = 4
         Me.ButtonNeurokairoForestryPlus.Text = "+"
         Me.ButtonNeurokairoForestryPlus.UseVisualStyleBackColor = True
@@ -9273,7 +8919,7 @@ Partial Class Form1
         Me.ButtonNeurokairoLightningboltPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoLightningboltPlus.Location = New System.Drawing.Point(32, 178)
         Me.ButtonNeurokairoLightningboltPlus.Name = "ButtonNeurokairoLightningboltPlus"
-        Me.ButtonNeurokairoLightningboltPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoLightningboltPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoLightningboltPlus.TabIndex = 4
         Me.ButtonNeurokairoLightningboltPlus.Text = "+"
         Me.ButtonNeurokairoLightningboltPlus.UseVisualStyleBackColor = True
@@ -9283,7 +8929,7 @@ Partial Class Form1
         Me.ButtonNeurokairoMigrainePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNeurokairoMigrainePlus.Location = New System.Drawing.Point(32, 140)
         Me.ButtonNeurokairoMigrainePlus.Name = "ButtonNeurokairoMigrainePlus"
-        Me.ButtonNeurokairoMigrainePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNeurokairoMigrainePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNeurokairoMigrainePlus.TabIndex = 4
         Me.ButtonNeurokairoMigrainePlus.Text = "+"
         Me.ButtonNeurokairoMigrainePlus.UseVisualStyleBackColor = True
@@ -9502,12 +9148,9 @@ Partial Class Form1
         '
         'ButtonNecrohydroSmithingMinus
         '
-        Me.ButtonNecrohydroSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroSmithingMinus.Location = New System.Drawing.Point(187, 201)
         Me.ButtonNecrohydroSmithingMinus.Name = "ButtonNecrohydroSmithingMinus"
-        Me.ButtonNecrohydroSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroSmithingMinus.TabIndex = 5
         Me.ButtonNecrohydroSmithingMinus.Text = "-"
         Me.ButtonNecrohydroSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9515,12 +9158,9 @@ Partial Class Form1
         '
         'ButtonNecrohydroProwessMinus
         '
-        Me.ButtonNecrohydroProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroProwessMinus.Location = New System.Drawing.Point(186, 160)
         Me.ButtonNecrohydroProwessMinus.Name = "ButtonNecrohydroProwessMinus"
-        Me.ButtonNecrohydroProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroProwessMinus.TabIndex = 5
         Me.ButtonNecrohydroProwessMinus.Text = "-"
         Me.ButtonNecrohydroProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9528,12 +9168,9 @@ Partial Class Form1
         '
         'ButtonNecrohydroSenseMinus
         '
-        Me.ButtonNecrohydroSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroSenseMinus.Location = New System.Drawing.Point(353, 85)
         Me.ButtonNecrohydroSenseMinus.Name = "ButtonNecrohydroSenseMinus"
-        Me.ButtonNecrohydroSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroSenseMinus.TabIndex = 5
         Me.ButtonNecrohydroSenseMinus.Text = "-"
         Me.ButtonNecrohydroSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9541,12 +9178,9 @@ Partial Class Form1
         '
         'ButtonNecrohydroLeatherworkingMinus
         '
-        Me.ButtonNecrohydroLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
         Me.ButtonNecrohydroLeatherworkingMinus.Name = "ButtonNecrohydroLeatherworkingMinus"
-        Me.ButtonNecrohydroLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroLeatherworkingMinus.TabIndex = 5
         Me.ButtonNecrohydroLeatherworkingMinus.Text = "-"
         Me.ButtonNecrohydroLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9554,12 +9188,9 @@ Partial Class Form1
         '
         'ButtonNecrohydroSnowballMinus
         '
-        Me.ButtonNecrohydroSnowballMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroSnowballMinus.Location = New System.Drawing.Point(57, 178)
         Me.ButtonNecrohydroSnowballMinus.Name = "ButtonNecrohydroSnowballMinus"
-        Me.ButtonNecrohydroSnowballMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroSnowballMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroSnowballMinus.TabIndex = 5
         Me.ButtonNecrohydroSnowballMinus.Text = "-"
         Me.ButtonNecrohydroSnowballMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9567,12 +9198,9 @@ Partial Class Form1
         '
         'ButtonNecrohydroEnchantingMinus
         '
-        Me.ButtonNecrohydroEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroEnchantingMinus.Location = New System.Drawing.Point(353, 237)
         Me.ButtonNecrohydroEnchantingMinus.Name = "ButtonNecrohydroEnchantingMinus"
-        Me.ButtonNecrohydroEnchantingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroEnchantingMinus.TabIndex = 5
         Me.ButtonNecrohydroEnchantingMinus.Text = "-"
         Me.ButtonNecrohydroEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9580,12 +9208,9 @@ Partial Class Form1
         '
         'ButtonNecrohydroHealthMinus
         '
-        Me.ButtonNecrohydroHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroHealthMinus.Location = New System.Drawing.Point(353, 161)
         Me.ButtonNecrohydroHealthMinus.Name = "ButtonNecrohydroHealthMinus"
-        Me.ButtonNecrohydroHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroHealthMinus.TabIndex = 5
         Me.ButtonNecrohydroHealthMinus.Text = "-"
         Me.ButtonNecrohydroHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9593,12 +9218,9 @@ Partial Class Form1
         '
         'ButtonNecrohydroScrollwritingMinus
         '
-        Me.ButtonNecrohydroScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
         Me.ButtonNecrohydroScrollwritingMinus.Name = "ButtonNecrohydroScrollwritingMinus"
-        Me.ButtonNecrohydroScrollwritingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroScrollwritingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroScrollwritingMinus.TabIndex = 5
         Me.ButtonNecrohydroScrollwritingMinus.Text = "-"
         Me.ButtonNecrohydroScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9606,12 +9228,9 @@ Partial Class Form1
         '
         'ButtonNecrohydroDetectionMinus
         '
-        Me.ButtonNecrohydroDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroDetectionMinus.Location = New System.Drawing.Point(353, 124)
         Me.ButtonNecrohydroDetectionMinus.Name = "ButtonNecrohydroDetectionMinus"
-        Me.ButtonNecrohydroDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroDetectionMinus.TabIndex = 5
         Me.ButtonNecrohydroDetectionMinus.Text = "-"
         Me.ButtonNecrohydroDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9622,19 +9241,16 @@ Partial Class Form1
         Me.ButtonNecrohydroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroSmithingPlus.Location = New System.Drawing.Point(162, 201)
         Me.ButtonNecrohydroSmithingPlus.Name = "ButtonNecrohydroSmithingPlus"
-        Me.ButtonNecrohydroSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroSmithingPlus.TabIndex = 4
         Me.ButtonNecrohydroSmithingPlus.Text = "+"
         Me.ButtonNecrohydroSmithingPlus.UseVisualStyleBackColor = True
         '
         'ButtonNecrohydroWeapondexterityMinus
         '
-        Me.ButtonNecrohydroWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
         Me.ButtonNecrohydroWeapondexterityMinus.Name = "ButtonNecrohydroWeapondexterityMinus"
-        Me.ButtonNecrohydroWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroWeapondexterityMinus.TabIndex = 5
         Me.ButtonNecrohydroWeapondexterityMinus.Text = "-"
         Me.ButtonNecrohydroWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9642,12 +9258,9 @@ Partial Class Form1
         '
         'ButtonNecrohydroForestryMinus
         '
-        Me.ButtonNecrohydroForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroForestryMinus.Location = New System.Drawing.Point(186, 87)
         Me.ButtonNecrohydroForestryMinus.Name = "ButtonNecrohydroForestryMinus"
-        Me.ButtonNecrohydroForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroForestryMinus.TabIndex = 5
         Me.ButtonNecrohydroForestryMinus.Text = "-"
         Me.ButtonNecrohydroForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9658,7 +9271,7 @@ Partial Class Form1
         Me.ButtonNecrohydroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroProwessPlus.Location = New System.Drawing.Point(161, 160)
         Me.ButtonNecrohydroProwessPlus.Name = "ButtonNecrohydroProwessPlus"
-        Me.ButtonNecrohydroProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroProwessPlus.TabIndex = 4
         Me.ButtonNecrohydroProwessPlus.Text = "+"
         Me.ButtonNecrohydroProwessPlus.UseVisualStyleBackColor = True
@@ -9668,7 +9281,7 @@ Partial Class Form1
         Me.ButtonNecrohydroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroEnchantingPlus.Location = New System.Drawing.Point(328, 237)
         Me.ButtonNecrohydroEnchantingPlus.Name = "ButtonNecrohydroEnchantingPlus"
-        Me.ButtonNecrohydroEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroEnchantingPlus.TabIndex = 4
         Me.ButtonNecrohydroEnchantingPlus.Text = "+"
         Me.ButtonNecrohydroEnchantingPlus.UseVisualStyleBackColor = True
@@ -9678,7 +9291,7 @@ Partial Class Form1
         Me.ButtonNecrohydroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroHealthPlus.Location = New System.Drawing.Point(328, 161)
         Me.ButtonNecrohydroHealthPlus.Name = "ButtonNecrohydroHealthPlus"
-        Me.ButtonNecrohydroHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroHealthPlus.TabIndex = 4
         Me.ButtonNecrohydroHealthPlus.Text = "+"
         Me.ButtonNecrohydroHealthPlus.UseVisualStyleBackColor = True
@@ -9688,7 +9301,7 @@ Partial Class Form1
         Me.ButtonNecrohydroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
         Me.ButtonNecrohydroScrollwritingPlus.Name = "ButtonNecrohydroScrollwritingPlus"
-        Me.ButtonNecrohydroScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroScrollwritingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroScrollwritingPlus.TabIndex = 4
         Me.ButtonNecrohydroScrollwritingPlus.Text = "+"
         Me.ButtonNecrohydroScrollwritingPlus.UseVisualStyleBackColor = True
@@ -9698,19 +9311,16 @@ Partial Class Form1
         Me.ButtonNecrohydroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroDetectionPlus.Location = New System.Drawing.Point(328, 124)
         Me.ButtonNecrohydroDetectionPlus.Name = "ButtonNecrohydroDetectionPlus"
-        Me.ButtonNecrohydroDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroDetectionPlus.TabIndex = 4
         Me.ButtonNecrohydroDetectionPlus.Text = "+"
         Me.ButtonNecrohydroDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonNecrohydroLifesyphonMinus
         '
-        Me.ButtonNecrohydroLifesyphonMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrohydroLifesyphonMinus.Location = New System.Drawing.Point(57, 140)
         Me.ButtonNecrohydroLifesyphonMinus.Name = "ButtonNecrohydroLifesyphonMinus"
-        Me.ButtonNecrohydroLifesyphonMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrohydroLifesyphonMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroLifesyphonMinus.TabIndex = 5
         Me.ButtonNecrohydroLifesyphonMinus.Text = "-"
         Me.ButtonNecrohydroLifesyphonMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -9721,7 +9331,7 @@ Partial Class Form1
         Me.ButtonNecrohydroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroSensePlus.Location = New System.Drawing.Point(328, 85)
         Me.ButtonNecrohydroSensePlus.Name = "ButtonNecrohydroSensePlus"
-        Me.ButtonNecrohydroSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroSensePlus.TabIndex = 4
         Me.ButtonNecrohydroSensePlus.Text = "+"
         Me.ButtonNecrohydroSensePlus.UseVisualStyleBackColor = True
@@ -9731,7 +9341,7 @@ Partial Class Form1
         Me.ButtonNecrohydroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
         Me.ButtonNecrohydroLeatherworkingPlus.Name = "ButtonNecrohydroLeatherworkingPlus"
-        Me.ButtonNecrohydroLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroLeatherworkingPlus.TabIndex = 4
         Me.ButtonNecrohydroLeatherworkingPlus.Text = "+"
         Me.ButtonNecrohydroLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -9741,7 +9351,7 @@ Partial Class Form1
         Me.ButtonNecrohydroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
         Me.ButtonNecrohydroWeapondexterityPlus.Name = "ButtonNecrohydroWeapondexterityPlus"
-        Me.ButtonNecrohydroWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroWeapondexterityPlus.TabIndex = 4
         Me.ButtonNecrohydroWeapondexterityPlus.Text = "+"
         Me.ButtonNecrohydroWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -9751,7 +9361,7 @@ Partial Class Form1
         Me.ButtonNecrohydroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroForestryPlus.Location = New System.Drawing.Point(161, 87)
         Me.ButtonNecrohydroForestryPlus.Name = "ButtonNecrohydroForestryPlus"
-        Me.ButtonNecrohydroForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroForestryPlus.TabIndex = 4
         Me.ButtonNecrohydroForestryPlus.Text = "+"
         Me.ButtonNecrohydroForestryPlus.UseVisualStyleBackColor = True
@@ -9761,7 +9371,7 @@ Partial Class Form1
         Me.ButtonNecrohydroSnowballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroSnowballPlus.Location = New System.Drawing.Point(32, 178)
         Me.ButtonNecrohydroSnowballPlus.Name = "ButtonNecrohydroSnowballPlus"
-        Me.ButtonNecrohydroSnowballPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroSnowballPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroSnowballPlus.TabIndex = 4
         Me.ButtonNecrohydroSnowballPlus.Text = "+"
         Me.ButtonNecrohydroSnowballPlus.UseVisualStyleBackColor = True
@@ -9771,7 +9381,7 @@ Partial Class Form1
         Me.ButtonNecrohydroLifesyphonPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrohydroLifesyphonPlus.Location = New System.Drawing.Point(32, 140)
         Me.ButtonNecrohydroLifesyphonPlus.Name = "ButtonNecrohydroLifesyphonPlus"
-        Me.ButtonNecrohydroLifesyphonPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrohydroLifesyphonPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrohydroLifesyphonPlus.TabIndex = 4
         Me.ButtonNecrohydroLifesyphonPlus.Text = "+"
         Me.ButtonNecrohydroLifesyphonPlus.UseVisualStyleBackColor = True
@@ -9990,12 +9600,9 @@ Partial Class Form1
         '
         'ButtonNecropyroSmithingMinus
         '
-        Me.ButtonNecropyroSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroSmithingMinus.Location = New System.Drawing.Point(187, 201)
         Me.ButtonNecropyroSmithingMinus.Name = "ButtonNecropyroSmithingMinus"
-        Me.ButtonNecropyroSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroSmithingMinus.TabIndex = 5
         Me.ButtonNecropyroSmithingMinus.Text = "-"
         Me.ButtonNecropyroSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10003,12 +9610,9 @@ Partial Class Form1
         '
         'ButtonNecropyroProwessMinus
         '
-        Me.ButtonNecropyroProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroProwessMinus.Location = New System.Drawing.Point(186, 160)
         Me.ButtonNecropyroProwessMinus.Name = "ButtonNecropyroProwessMinus"
-        Me.ButtonNecropyroProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroProwessMinus.TabIndex = 5
         Me.ButtonNecropyroProwessMinus.Text = "-"
         Me.ButtonNecropyroProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10016,12 +9620,9 @@ Partial Class Form1
         '
         'Button6NecropyroSenseMinus
         '
-        Me.Button6NecropyroSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button6NecropyroSenseMinus.Location = New System.Drawing.Point(353, 85)
         Me.Button6NecropyroSenseMinus.Name = "Button6NecropyroSenseMinus"
-        Me.Button6NecropyroSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.Button6NecropyroSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.Button6NecropyroSenseMinus.TabIndex = 5
         Me.Button6NecropyroSenseMinus.Text = "-"
         Me.Button6NecropyroSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10029,12 +9630,9 @@ Partial Class Form1
         '
         'ButtonNecropyroLeatherworkingMinus
         '
-        Me.ButtonNecropyroLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
         Me.ButtonNecropyroLeatherworkingMinus.Name = "ButtonNecropyroLeatherworkingMinus"
-        Me.ButtonNecropyroLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroLeatherworkingMinus.TabIndex = 5
         Me.ButtonNecropyroLeatherworkingMinus.Text = "-"
         Me.ButtonNecropyroLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10042,12 +9640,9 @@ Partial Class Form1
         '
         'ButtonNecropyroFireballMinus
         '
-        Me.ButtonNecropyroFireballMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroFireballMinus.Location = New System.Drawing.Point(57, 178)
         Me.ButtonNecropyroFireballMinus.Name = "ButtonNecropyroFireballMinus"
-        Me.ButtonNecropyroFireballMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroFireballMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroFireballMinus.TabIndex = 5
         Me.ButtonNecropyroFireballMinus.Text = "-"
         Me.ButtonNecropyroFireballMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10055,12 +9650,9 @@ Partial Class Form1
         '
         'ButtonNecropyroEnchantingMinus
         '
-        Me.ButtonNecropyroEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroEnchantingMinus.Location = New System.Drawing.Point(353, 237)
         Me.ButtonNecropyroEnchantingMinus.Name = "ButtonNecropyroEnchantingMinus"
-        Me.ButtonNecropyroEnchantingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroEnchantingMinus.TabIndex = 5
         Me.ButtonNecropyroEnchantingMinus.Text = "-"
         Me.ButtonNecropyroEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10068,12 +9660,9 @@ Partial Class Form1
         '
         'ButtonNecropyroHealthMinus
         '
-        Me.ButtonNecropyroHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroHealthMinus.Location = New System.Drawing.Point(353, 161)
         Me.ButtonNecropyroHealthMinus.Name = "ButtonNecropyroHealthMinus"
-        Me.ButtonNecropyroHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroHealthMinus.TabIndex = 5
         Me.ButtonNecropyroHealthMinus.Text = "-"
         Me.ButtonNecropyroHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10081,12 +9670,9 @@ Partial Class Form1
         '
         'ButtonNecropyroScrollwritingMinus
         '
-        Me.ButtonNecropyroScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
         Me.ButtonNecropyroScrollwritingMinus.Name = "ButtonNecropyroScrollwritingMinus"
-        Me.ButtonNecropyroScrollwritingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroScrollwritingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroScrollwritingMinus.TabIndex = 5
         Me.ButtonNecropyroScrollwritingMinus.Text = "-"
         Me.ButtonNecropyroScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10094,12 +9680,9 @@ Partial Class Form1
         '
         'ButtonNecropyroDetectionMinus
         '
-        Me.ButtonNecropyroDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroDetectionMinus.Location = New System.Drawing.Point(353, 124)
         Me.ButtonNecropyroDetectionMinus.Name = "ButtonNecropyroDetectionMinus"
-        Me.ButtonNecropyroDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroDetectionMinus.TabIndex = 5
         Me.ButtonNecropyroDetectionMinus.Text = "-"
         Me.ButtonNecropyroDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10110,19 +9693,16 @@ Partial Class Form1
         Me.ButtonNecropyroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroSmithingPlus.Location = New System.Drawing.Point(162, 201)
         Me.ButtonNecropyroSmithingPlus.Name = "ButtonNecropyroSmithingPlus"
-        Me.ButtonNecropyroSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroSmithingPlus.TabIndex = 4
         Me.ButtonNecropyroSmithingPlus.Text = "+"
         Me.ButtonNecropyroSmithingPlus.UseVisualStyleBackColor = True
         '
         'ButtonNecropyroWeapondexterityMinus
         '
-        Me.ButtonNecropyroWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
         Me.ButtonNecropyroWeapondexterityMinus.Name = "ButtonNecropyroWeapondexterityMinus"
-        Me.ButtonNecropyroWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroWeapondexterityMinus.TabIndex = 5
         Me.ButtonNecropyroWeapondexterityMinus.Text = "-"
         Me.ButtonNecropyroWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10130,12 +9710,9 @@ Partial Class Form1
         '
         'ButtonNecropyroForestryMinus
         '
-        Me.ButtonNecropyroForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroForestryMinus.Location = New System.Drawing.Point(186, 87)
         Me.ButtonNecropyroForestryMinus.Name = "ButtonNecropyroForestryMinus"
-        Me.ButtonNecropyroForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroForestryMinus.TabIndex = 5
         Me.ButtonNecropyroForestryMinus.Text = "-"
         Me.ButtonNecropyroForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10146,7 +9723,7 @@ Partial Class Form1
         Me.ButtonNecropyroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroProwessPlus.Location = New System.Drawing.Point(161, 160)
         Me.ButtonNecropyroProwessPlus.Name = "ButtonNecropyroProwessPlus"
-        Me.ButtonNecropyroProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroProwessPlus.TabIndex = 4
         Me.ButtonNecropyroProwessPlus.Text = "+"
         Me.ButtonNecropyroProwessPlus.UseVisualStyleBackColor = True
@@ -10156,7 +9733,7 @@ Partial Class Form1
         Me.ButtonNecropyroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroEnchantingPlus.Location = New System.Drawing.Point(328, 237)
         Me.ButtonNecropyroEnchantingPlus.Name = "ButtonNecropyroEnchantingPlus"
-        Me.ButtonNecropyroEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroEnchantingPlus.TabIndex = 4
         Me.ButtonNecropyroEnchantingPlus.Text = "+"
         Me.ButtonNecropyroEnchantingPlus.UseVisualStyleBackColor = True
@@ -10166,7 +9743,7 @@ Partial Class Form1
         Me.ButtonNecropyroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroHealthPlus.Location = New System.Drawing.Point(328, 161)
         Me.ButtonNecropyroHealthPlus.Name = "ButtonNecropyroHealthPlus"
-        Me.ButtonNecropyroHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroHealthPlus.TabIndex = 4
         Me.ButtonNecropyroHealthPlus.Text = "+"
         Me.ButtonNecropyroHealthPlus.UseVisualStyleBackColor = True
@@ -10176,7 +9753,7 @@ Partial Class Form1
         Me.ButtonNecropyroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
         Me.ButtonNecropyroScrollwritingPlus.Name = "ButtonNecropyroScrollwritingPlus"
-        Me.ButtonNecropyroScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroScrollwritingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroScrollwritingPlus.TabIndex = 4
         Me.ButtonNecropyroScrollwritingPlus.Text = "+"
         Me.ButtonNecropyroScrollwritingPlus.UseVisualStyleBackColor = True
@@ -10186,19 +9763,16 @@ Partial Class Form1
         Me.ButtonNecropyroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroDetectionPlus.Location = New System.Drawing.Point(328, 124)
         Me.ButtonNecropyroDetectionPlus.Name = "ButtonNecropyroDetectionPlus"
-        Me.ButtonNecropyroDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroDetectionPlus.TabIndex = 4
         Me.ButtonNecropyroDetectionPlus.Text = "+"
         Me.ButtonNecropyroDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonNecropyroLifesyphoneMinus
         '
-        Me.ButtonNecropyroLifesyphoneMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecropyroLifesyphoneMinus.Location = New System.Drawing.Point(57, 140)
         Me.ButtonNecropyroLifesyphoneMinus.Name = "ButtonNecropyroLifesyphoneMinus"
-        Me.ButtonNecropyroLifesyphoneMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecropyroLifesyphoneMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroLifesyphoneMinus.TabIndex = 5
         Me.ButtonNecropyroLifesyphoneMinus.Text = "-"
         Me.ButtonNecropyroLifesyphoneMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10209,7 +9783,7 @@ Partial Class Form1
         Me.ButtonNecropyroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroSensePlus.Location = New System.Drawing.Point(328, 85)
         Me.ButtonNecropyroSensePlus.Name = "ButtonNecropyroSensePlus"
-        Me.ButtonNecropyroSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroSensePlus.TabIndex = 4
         Me.ButtonNecropyroSensePlus.Text = "+"
         Me.ButtonNecropyroSensePlus.UseVisualStyleBackColor = True
@@ -10219,7 +9793,7 @@ Partial Class Form1
         Me.ButtonNecropyroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
         Me.ButtonNecropyroLeatherworkingPlus.Name = "ButtonNecropyroLeatherworkingPlus"
-        Me.ButtonNecropyroLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroLeatherworkingPlus.TabIndex = 4
         Me.ButtonNecropyroLeatherworkingPlus.Text = "+"
         Me.ButtonNecropyroLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -10229,7 +9803,7 @@ Partial Class Form1
         Me.ButtonNecropyroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
         Me.ButtonNecropyroWeapondexterityPlus.Name = "ButtonNecropyroWeapondexterityPlus"
-        Me.ButtonNecropyroWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroWeapondexterityPlus.TabIndex = 4
         Me.ButtonNecropyroWeapondexterityPlus.Text = "+"
         Me.ButtonNecropyroWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -10239,7 +9813,7 @@ Partial Class Form1
         Me.ButtonNecropyroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroForestryPlus.Location = New System.Drawing.Point(161, 87)
         Me.ButtonNecropyroForestryPlus.Name = "ButtonNecropyroForestryPlus"
-        Me.ButtonNecropyroForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroForestryPlus.TabIndex = 4
         Me.ButtonNecropyroForestryPlus.Text = "+"
         Me.ButtonNecropyroForestryPlus.UseVisualStyleBackColor = True
@@ -10249,7 +9823,7 @@ Partial Class Form1
         Me.ButtonNecropyroFireballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroFireballPlus.Location = New System.Drawing.Point(32, 178)
         Me.ButtonNecropyroFireballPlus.Name = "ButtonNecropyroFireballPlus"
-        Me.ButtonNecropyroFireballPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroFireballPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroFireballPlus.TabIndex = 4
         Me.ButtonNecropyroFireballPlus.Text = "+"
         Me.ButtonNecropyroFireballPlus.UseVisualStyleBackColor = True
@@ -10259,7 +9833,7 @@ Partial Class Form1
         Me.ButtonNecropyroLifesyphonPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecropyroLifesyphonPlus.Location = New System.Drawing.Point(32, 140)
         Me.ButtonNecropyroLifesyphonPlus.Name = "ButtonNecropyroLifesyphonPlus"
-        Me.ButtonNecropyroLifesyphonPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecropyroLifesyphonPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecropyroLifesyphonPlus.TabIndex = 4
         Me.ButtonNecropyroLifesyphonPlus.Text = "+"
         Me.ButtonNecropyroLifesyphonPlus.UseVisualStyleBackColor = True
@@ -10478,12 +10052,9 @@ Partial Class Form1
         '
         'ButtonNecrokairoSmithingMinus
         '
-        Me.ButtonNecrokairoSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoSmithingMinus.Location = New System.Drawing.Point(187, 201)
         Me.ButtonNecrokairoSmithingMinus.Name = "ButtonNecrokairoSmithingMinus"
-        Me.ButtonNecrokairoSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoSmithingMinus.TabIndex = 5
         Me.ButtonNecrokairoSmithingMinus.Text = "-"
         Me.ButtonNecrokairoSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10491,12 +10062,9 @@ Partial Class Form1
         '
         'ButtonNecrokairoProwessMinus
         '
-        Me.ButtonNecrokairoProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoProwessMinus.Location = New System.Drawing.Point(186, 160)
         Me.ButtonNecrokairoProwessMinus.Name = "ButtonNecrokairoProwessMinus"
-        Me.ButtonNecrokairoProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoProwessMinus.TabIndex = 5
         Me.ButtonNecrokairoProwessMinus.Text = "-"
         Me.ButtonNecrokairoProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10504,12 +10072,9 @@ Partial Class Form1
         '
         'ButtonNecrokairoSenseMinus
         '
-        Me.ButtonNecrokairoSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoSenseMinus.Location = New System.Drawing.Point(353, 85)
         Me.ButtonNecrokairoSenseMinus.Name = "ButtonNecrokairoSenseMinus"
-        Me.ButtonNecrokairoSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoSenseMinus.TabIndex = 5
         Me.ButtonNecrokairoSenseMinus.Text = "-"
         Me.ButtonNecrokairoSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10517,12 +10082,9 @@ Partial Class Form1
         '
         'ButtonNecrokairoLeatherworkingMinus
         '
-        Me.ButtonNecrokairoLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
         Me.ButtonNecrokairoLeatherworkingMinus.Name = "ButtonNecrokairoLeatherworkingMinus"
-        Me.ButtonNecrokairoLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoLeatherworkingMinus.TabIndex = 5
         Me.ButtonNecrokairoLeatherworkingMinus.Text = "-"
         Me.ButtonNecrokairoLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10530,12 +10092,9 @@ Partial Class Form1
         '
         'ButtonNecrokairoLightningboltMinus
         '
-        Me.ButtonNecrokairoLightningboltMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoLightningboltMinus.Location = New System.Drawing.Point(57, 178)
         Me.ButtonNecrokairoLightningboltMinus.Name = "ButtonNecrokairoLightningboltMinus"
-        Me.ButtonNecrokairoLightningboltMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoLightningboltMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoLightningboltMinus.TabIndex = 5
         Me.ButtonNecrokairoLightningboltMinus.Text = "-"
         Me.ButtonNecrokairoLightningboltMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10543,12 +10102,9 @@ Partial Class Form1
         '
         'ButtonNecrokairoEnchantingMinus
         '
-        Me.ButtonNecrokairoEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoEnchantingMinus.Location = New System.Drawing.Point(353, 237)
         Me.ButtonNecrokairoEnchantingMinus.Name = "ButtonNecrokairoEnchantingMinus"
-        Me.ButtonNecrokairoEnchantingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoEnchantingMinus.TabIndex = 5
         Me.ButtonNecrokairoEnchantingMinus.Text = "-"
         Me.ButtonNecrokairoEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10556,12 +10112,9 @@ Partial Class Form1
         '
         'ButtonNecrokairoHealthMinus
         '
-        Me.ButtonNecrokairoHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoHealthMinus.Location = New System.Drawing.Point(353, 161)
         Me.ButtonNecrokairoHealthMinus.Name = "ButtonNecrokairoHealthMinus"
-        Me.ButtonNecrokairoHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoHealthMinus.TabIndex = 5
         Me.ButtonNecrokairoHealthMinus.Text = "-"
         Me.ButtonNecrokairoHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10569,12 +10122,9 @@ Partial Class Form1
         '
         'ButtonNecrokairoScrollwritingMinus
         '
-        Me.ButtonNecrokairoScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
         Me.ButtonNecrokairoScrollwritingMinus.Name = "ButtonNecrokairoScrollwritingMinus"
-        Me.ButtonNecrokairoScrollwritingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoScrollwritingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoScrollwritingMinus.TabIndex = 5
         Me.ButtonNecrokairoScrollwritingMinus.Text = "-"
         Me.ButtonNecrokairoScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10582,12 +10132,9 @@ Partial Class Form1
         '
         'ButtonNecrokairoDetectionMinus
         '
-        Me.ButtonNecrokairoDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoDetectionMinus.Location = New System.Drawing.Point(353, 124)
         Me.ButtonNecrokairoDetectionMinus.Name = "ButtonNecrokairoDetectionMinus"
-        Me.ButtonNecrokairoDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoDetectionMinus.TabIndex = 5
         Me.ButtonNecrokairoDetectionMinus.Text = "-"
         Me.ButtonNecrokairoDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10598,19 +10145,16 @@ Partial Class Form1
         Me.ButtonNecrokairoSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoSmithingPlus.Location = New System.Drawing.Point(162, 201)
         Me.ButtonNecrokairoSmithingPlus.Name = "ButtonNecrokairoSmithingPlus"
-        Me.ButtonNecrokairoSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoSmithingPlus.TabIndex = 4
         Me.ButtonNecrokairoSmithingPlus.Text = "+"
         Me.ButtonNecrokairoSmithingPlus.UseVisualStyleBackColor = True
         '
         'ButtonNecrokairoWeapondexterityMinus
         '
-        Me.ButtonNecrokairoWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
         Me.ButtonNecrokairoWeapondexterityMinus.Name = "ButtonNecrokairoWeapondexterityMinus"
-        Me.ButtonNecrokairoWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoWeapondexterityMinus.TabIndex = 5
         Me.ButtonNecrokairoWeapondexterityMinus.Text = "-"
         Me.ButtonNecrokairoWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10618,12 +10162,9 @@ Partial Class Form1
         '
         'ButtonNecrokairoForestryMinus
         '
-        Me.ButtonNecrokairoForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoForestryMinus.Location = New System.Drawing.Point(186, 87)
         Me.ButtonNecrokairoForestryMinus.Name = "ButtonNecrokairoForestryMinus"
-        Me.ButtonNecrokairoForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoForestryMinus.TabIndex = 5
         Me.ButtonNecrokairoForestryMinus.Text = "-"
         Me.ButtonNecrokairoForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10634,7 +10175,7 @@ Partial Class Form1
         Me.ButtonNecrokairoProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoProwessPlus.Location = New System.Drawing.Point(161, 160)
         Me.ButtonNecrokairoProwessPlus.Name = "ButtonNecrokairoProwessPlus"
-        Me.ButtonNecrokairoProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoProwessPlus.TabIndex = 4
         Me.ButtonNecrokairoProwessPlus.Text = "+"
         Me.ButtonNecrokairoProwessPlus.UseVisualStyleBackColor = True
@@ -10644,7 +10185,7 @@ Partial Class Form1
         Me.ButtonNecrokairoEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoEnchantingPlus.Location = New System.Drawing.Point(328, 237)
         Me.ButtonNecrokairoEnchantingPlus.Name = "ButtonNecrokairoEnchantingPlus"
-        Me.ButtonNecrokairoEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoEnchantingPlus.TabIndex = 4
         Me.ButtonNecrokairoEnchantingPlus.Text = "+"
         Me.ButtonNecrokairoEnchantingPlus.UseVisualStyleBackColor = True
@@ -10654,7 +10195,7 @@ Partial Class Form1
         Me.ButtonNecrokairoHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoHealthPlus.Location = New System.Drawing.Point(328, 161)
         Me.ButtonNecrokairoHealthPlus.Name = "ButtonNecrokairoHealthPlus"
-        Me.ButtonNecrokairoHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoHealthPlus.TabIndex = 4
         Me.ButtonNecrokairoHealthPlus.Text = "+"
         Me.ButtonNecrokairoHealthPlus.UseVisualStyleBackColor = True
@@ -10664,7 +10205,7 @@ Partial Class Form1
         Me.ButtonNecrokairoScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
         Me.ButtonNecrokairoScrollwritingPlus.Name = "ButtonNecrokairoScrollwritingPlus"
-        Me.ButtonNecrokairoScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoScrollwritingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoScrollwritingPlus.TabIndex = 4
         Me.ButtonNecrokairoScrollwritingPlus.Text = "+"
         Me.ButtonNecrokairoScrollwritingPlus.UseVisualStyleBackColor = True
@@ -10674,19 +10215,16 @@ Partial Class Form1
         Me.ButtonNecrokairoDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoDetectionPlus.Location = New System.Drawing.Point(328, 124)
         Me.ButtonNecrokairoDetectionPlus.Name = "ButtonNecrokairoDetectionPlus"
-        Me.ButtonNecrokairoDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoDetectionPlus.TabIndex = 4
         Me.ButtonNecrokairoDetectionPlus.Text = "+"
         Me.ButtonNecrokairoDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonNecrokairoLifesyphoneMinus
         '
-        Me.ButtonNecrokairoLifesyphoneMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonNecrokairoLifesyphoneMinus.Location = New System.Drawing.Point(57, 140)
         Me.ButtonNecrokairoLifesyphoneMinus.Name = "ButtonNecrokairoLifesyphoneMinus"
-        Me.ButtonNecrokairoLifesyphoneMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonNecrokairoLifesyphoneMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoLifesyphoneMinus.TabIndex = 5
         Me.ButtonNecrokairoLifesyphoneMinus.Text = "-"
         Me.ButtonNecrokairoLifesyphoneMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10697,7 +10235,7 @@ Partial Class Form1
         Me.ButtonNecrokairoSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoSensePlus.Location = New System.Drawing.Point(328, 85)
         Me.ButtonNecrokairoSensePlus.Name = "ButtonNecrokairoSensePlus"
-        Me.ButtonNecrokairoSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoSensePlus.TabIndex = 4
         Me.ButtonNecrokairoSensePlus.Text = "+"
         Me.ButtonNecrokairoSensePlus.UseVisualStyleBackColor = True
@@ -10707,7 +10245,7 @@ Partial Class Form1
         Me.ButtonNecrokairoLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
         Me.ButtonNecrokairoLeatherworkingPlus.Name = "ButtonNecrokairoLeatherworkingPlus"
-        Me.ButtonNecrokairoLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoLeatherworkingPlus.TabIndex = 4
         Me.ButtonNecrokairoLeatherworkingPlus.Text = "+"
         Me.ButtonNecrokairoLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -10717,7 +10255,7 @@ Partial Class Form1
         Me.ButtonNecrokairoWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
         Me.ButtonNecrokairoWeapondexterityPlus.Name = "ButtonNecrokairoWeapondexterityPlus"
-        Me.ButtonNecrokairoWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoWeapondexterityPlus.TabIndex = 4
         Me.ButtonNecrokairoWeapondexterityPlus.Text = "+"
         Me.ButtonNecrokairoWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -10727,7 +10265,7 @@ Partial Class Form1
         Me.ButtonNecrokairoForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoForestryPlus.Location = New System.Drawing.Point(161, 87)
         Me.ButtonNecrokairoForestryPlus.Name = "ButtonNecrokairoForestryPlus"
-        Me.ButtonNecrokairoForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoForestryPlus.TabIndex = 4
         Me.ButtonNecrokairoForestryPlus.Text = "+"
         Me.ButtonNecrokairoForestryPlus.UseVisualStyleBackColor = True
@@ -10737,7 +10275,7 @@ Partial Class Form1
         Me.ButtonNecrokairoLightningboltPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoLightningboltPlus.Location = New System.Drawing.Point(32, 178)
         Me.ButtonNecrokairoLightningboltPlus.Name = "ButtonNecrokairoLightningboltPlus"
-        Me.ButtonNecrokairoLightningboltPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoLightningboltPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoLightningboltPlus.TabIndex = 4
         Me.ButtonNecrokairoLightningboltPlus.Text = "+"
         Me.ButtonNecrokairoLightningboltPlus.UseVisualStyleBackColor = True
@@ -10747,7 +10285,7 @@ Partial Class Form1
         Me.ButtonNecrokairoLifesyphonPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNecrokairoLifesyphonPlus.Location = New System.Drawing.Point(32, 140)
         Me.ButtonNecrokairoLifesyphonPlus.Name = "ButtonNecrokairoLifesyphonPlus"
-        Me.ButtonNecrokairoLifesyphonPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonNecrokairoLifesyphonPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonNecrokairoLifesyphonPlus.TabIndex = 4
         Me.ButtonNecrokairoLifesyphonPlus.Text = "+"
         Me.ButtonNecrokairoLifesyphonPlus.UseVisualStyleBackColor = True
@@ -10975,12 +10513,9 @@ Partial Class Form1
         '
         'ButtonKinesiohydroSmithingMinus
         '
-        Me.ButtonKinesiohydroSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroSmithingMinus.Location = New System.Drawing.Point(187, 201)
         Me.ButtonKinesiohydroSmithingMinus.Name = "ButtonKinesiohydroSmithingMinus"
-        Me.ButtonKinesiohydroSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroSmithingMinus.TabIndex = 5
         Me.ButtonKinesiohydroSmithingMinus.Text = "-"
         Me.ButtonKinesiohydroSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -10988,12 +10523,9 @@ Partial Class Form1
         '
         'ButtonKinesiohydroProwessMinus
         '
-        Me.ButtonKinesiohydroProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroProwessMinus.Location = New System.Drawing.Point(186, 160)
         Me.ButtonKinesiohydroProwessMinus.Name = "ButtonKinesiohydroProwessMinus"
-        Me.ButtonKinesiohydroProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroProwessMinus.TabIndex = 5
         Me.ButtonKinesiohydroProwessMinus.Text = "-"
         Me.ButtonKinesiohydroProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11001,12 +10533,9 @@ Partial Class Form1
         '
         'ButtonKinesiohydroSenseMinus
         '
-        Me.ButtonKinesiohydroSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroSenseMinus.Location = New System.Drawing.Point(353, 85)
         Me.ButtonKinesiohydroSenseMinus.Name = "ButtonKinesiohydroSenseMinus"
-        Me.ButtonKinesiohydroSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroSenseMinus.TabIndex = 5
         Me.ButtonKinesiohydroSenseMinus.Text = "-"
         Me.ButtonKinesiohydroSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11014,12 +10543,9 @@ Partial Class Form1
         '
         'ButtonKinesiohydroLeatherworkingMinus
         '
-        Me.ButtonKinesiohydroLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
         Me.ButtonKinesiohydroLeatherworkingMinus.Name = "ButtonKinesiohydroLeatherworkingMinus"
-        Me.ButtonKinesiohydroLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroLeatherworkingMinus.TabIndex = 5
         Me.ButtonKinesiohydroLeatherworkingMinus.Text = "-"
         Me.ButtonKinesiohydroLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11027,12 +10553,9 @@ Partial Class Form1
         '
         'ButtonKinesiohydroSnowballMinus
         '
-        Me.ButtonKinesiohydroSnowballMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroSnowballMinus.Location = New System.Drawing.Point(57, 178)
         Me.ButtonKinesiohydroSnowballMinus.Name = "ButtonKinesiohydroSnowballMinus"
-        Me.ButtonKinesiohydroSnowballMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroSnowballMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroSnowballMinus.TabIndex = 5
         Me.ButtonKinesiohydroSnowballMinus.Text = "-"
         Me.ButtonKinesiohydroSnowballMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11040,12 +10563,9 @@ Partial Class Form1
         '
         'ButtonKinesiohydroEnchantingMinus
         '
-        Me.ButtonKinesiohydroEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroEnchantingMinus.Location = New System.Drawing.Point(353, 237)
         Me.ButtonKinesiohydroEnchantingMinus.Name = "ButtonKinesiohydroEnchantingMinus"
-        Me.ButtonKinesiohydroEnchantingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroEnchantingMinus.TabIndex = 5
         Me.ButtonKinesiohydroEnchantingMinus.Text = "-"
         Me.ButtonKinesiohydroEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11053,12 +10573,9 @@ Partial Class Form1
         '
         'ButtonKinesiohydroHealthMinus
         '
-        Me.ButtonKinesiohydroHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroHealthMinus.Location = New System.Drawing.Point(353, 161)
         Me.ButtonKinesiohydroHealthMinus.Name = "ButtonKinesiohydroHealthMinus"
-        Me.ButtonKinesiohydroHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroHealthMinus.TabIndex = 5
         Me.ButtonKinesiohydroHealthMinus.Text = "-"
         Me.ButtonKinesiohydroHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11066,12 +10583,9 @@ Partial Class Form1
         '
         'ButtonKinesiohydroScrollwritingMinus
         '
-        Me.ButtonKinesiohydroScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
         Me.ButtonKinesiohydroScrollwritingMinus.Name = "ButtonKinesiohydroScrollwritingMinus"
-        Me.ButtonKinesiohydroScrollwritingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroScrollwritingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroScrollwritingMinus.TabIndex = 5
         Me.ButtonKinesiohydroScrollwritingMinus.Text = "-"
         Me.ButtonKinesiohydroScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11079,12 +10593,9 @@ Partial Class Form1
         '
         'ButtonKinesiohydroDetectionMinus
         '
-        Me.ButtonKinesiohydroDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroDetectionMinus.Location = New System.Drawing.Point(353, 124)
         Me.ButtonKinesiohydroDetectionMinus.Name = "ButtonKinesiohydroDetectionMinus"
-        Me.ButtonKinesiohydroDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroDetectionMinus.TabIndex = 5
         Me.ButtonKinesiohydroDetectionMinus.Text = "-"
         Me.ButtonKinesiohydroDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11095,19 +10606,16 @@ Partial Class Form1
         Me.ButtonKinesiohydroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroSmithingPlus.Location = New System.Drawing.Point(162, 201)
         Me.ButtonKinesiohydroSmithingPlus.Name = "ButtonKinesiohydroSmithingPlus"
-        Me.ButtonKinesiohydroSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroSmithingPlus.TabIndex = 4
         Me.ButtonKinesiohydroSmithingPlus.Text = "+"
         Me.ButtonKinesiohydroSmithingPlus.UseVisualStyleBackColor = True
         '
         'ButtonKinesiohydroWeapondexterityMinus
         '
-        Me.ButtonKinesiohydroWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
         Me.ButtonKinesiohydroWeapondexterityMinus.Name = "ButtonKinesiohydroWeapondexterityMinus"
-        Me.ButtonKinesiohydroWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroWeapondexterityMinus.TabIndex = 5
         Me.ButtonKinesiohydroWeapondexterityMinus.Text = "-"
         Me.ButtonKinesiohydroWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11115,12 +10623,9 @@ Partial Class Form1
         '
         'ButtonKinesiohydroForestryMinus
         '
-        Me.ButtonKinesiohydroForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroForestryMinus.Location = New System.Drawing.Point(186, 87)
         Me.ButtonKinesiohydroForestryMinus.Name = "ButtonKinesiohydroForestryMinus"
-        Me.ButtonKinesiohydroForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroForestryMinus.TabIndex = 5
         Me.ButtonKinesiohydroForestryMinus.Text = "-"
         Me.ButtonKinesiohydroForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11131,7 +10636,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroProwessPlus.Location = New System.Drawing.Point(161, 160)
         Me.ButtonKinesiohydroProwessPlus.Name = "ButtonKinesiohydroProwessPlus"
-        Me.ButtonKinesiohydroProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroProwessPlus.TabIndex = 4
         Me.ButtonKinesiohydroProwessPlus.Text = "+"
         Me.ButtonKinesiohydroProwessPlus.UseVisualStyleBackColor = True
@@ -11141,7 +10646,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroEnchantingPlus.Location = New System.Drawing.Point(328, 237)
         Me.ButtonKinesiohydroEnchantingPlus.Name = "ButtonKinesiohydroEnchantingPlus"
-        Me.ButtonKinesiohydroEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroEnchantingPlus.TabIndex = 4
         Me.ButtonKinesiohydroEnchantingPlus.Text = "+"
         Me.ButtonKinesiohydroEnchantingPlus.UseVisualStyleBackColor = True
@@ -11151,7 +10656,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroHealthPlus.Location = New System.Drawing.Point(328, 161)
         Me.ButtonKinesiohydroHealthPlus.Name = "ButtonKinesiohydroHealthPlus"
-        Me.ButtonKinesiohydroHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroHealthPlus.TabIndex = 4
         Me.ButtonKinesiohydroHealthPlus.Text = "+"
         Me.ButtonKinesiohydroHealthPlus.UseVisualStyleBackColor = True
@@ -11161,7 +10666,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
         Me.ButtonKinesiohydroScrollwritingPlus.Name = "ButtonKinesiohydroScrollwritingPlus"
-        Me.ButtonKinesiohydroScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroScrollwritingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroScrollwritingPlus.TabIndex = 4
         Me.ButtonKinesiohydroScrollwritingPlus.Text = "+"
         Me.ButtonKinesiohydroScrollwritingPlus.UseVisualStyleBackColor = True
@@ -11171,19 +10676,16 @@ Partial Class Form1
         Me.ButtonKinesiohydroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroDetectionPlus.Location = New System.Drawing.Point(328, 124)
         Me.ButtonKinesiohydroDetectionPlus.Name = "ButtonKinesiohydroDetectionPlus"
-        Me.ButtonKinesiohydroDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroDetectionPlus.TabIndex = 4
         Me.ButtonKinesiohydroDetectionPlus.Text = "+"
         Me.ButtonKinesiohydroDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonKinesiohydroSurgeMinus
         '
-        Me.ButtonKinesiohydroSurgeMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiohydroSurgeMinus.Location = New System.Drawing.Point(57, 140)
         Me.ButtonKinesiohydroSurgeMinus.Name = "ButtonKinesiohydroSurgeMinus"
-        Me.ButtonKinesiohydroSurgeMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiohydroSurgeMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroSurgeMinus.TabIndex = 5
         Me.ButtonKinesiohydroSurgeMinus.Text = "-"
         Me.ButtonKinesiohydroSurgeMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11194,7 +10696,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroSensePlus.Location = New System.Drawing.Point(328, 85)
         Me.ButtonKinesiohydroSensePlus.Name = "ButtonKinesiohydroSensePlus"
-        Me.ButtonKinesiohydroSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroSensePlus.TabIndex = 4
         Me.ButtonKinesiohydroSensePlus.Text = "+"
         Me.ButtonKinesiohydroSensePlus.UseVisualStyleBackColor = True
@@ -11204,7 +10706,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
         Me.ButtonKinesiohydroLeatherworkingPlus.Name = "ButtonKinesiohydroLeatherworkingPlus"
-        Me.ButtonKinesiohydroLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroLeatherworkingPlus.TabIndex = 4
         Me.ButtonKinesiohydroLeatherworkingPlus.Text = "+"
         Me.ButtonKinesiohydroLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -11214,7 +10716,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
         Me.ButtonKinesiohydroWeapondexterityPlus.Name = "ButtonKinesiohydroWeapondexterityPlus"
-        Me.ButtonKinesiohydroWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroWeapondexterityPlus.TabIndex = 4
         Me.ButtonKinesiohydroWeapondexterityPlus.Text = "+"
         Me.ButtonKinesiohydroWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -11224,7 +10726,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroForestryPlus.Location = New System.Drawing.Point(161, 87)
         Me.ButtonKinesiohydroForestryPlus.Name = "ButtonKinesiohydroForestryPlus"
-        Me.ButtonKinesiohydroForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroForestryPlus.TabIndex = 4
         Me.ButtonKinesiohydroForestryPlus.Text = "+"
         Me.ButtonKinesiohydroForestryPlus.UseVisualStyleBackColor = True
@@ -11234,7 +10736,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroSnowballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroSnowballPlus.Location = New System.Drawing.Point(32, 178)
         Me.ButtonKinesiohydroSnowballPlus.Name = "ButtonKinesiohydroSnowballPlus"
-        Me.ButtonKinesiohydroSnowballPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroSnowballPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroSnowballPlus.TabIndex = 4
         Me.ButtonKinesiohydroSnowballPlus.Text = "+"
         Me.ButtonKinesiohydroSnowballPlus.UseVisualStyleBackColor = True
@@ -11244,7 +10746,7 @@ Partial Class Form1
         Me.ButtonKinesiohydroSurgePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiohydroSurgePlus.Location = New System.Drawing.Point(32, 140)
         Me.ButtonKinesiohydroSurgePlus.Name = "ButtonKinesiohydroSurgePlus"
-        Me.ButtonKinesiohydroSurgePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiohydroSurgePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiohydroSurgePlus.TabIndex = 4
         Me.ButtonKinesiohydroSurgePlus.Text = "+"
         Me.ButtonKinesiohydroSurgePlus.UseVisualStyleBackColor = True
@@ -11472,12 +10974,9 @@ Partial Class Form1
         '
         'ButtonKinesiopyroSmithingMinus
         '
-        Me.ButtonKinesiopyroSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroSmithingMinus.Location = New System.Drawing.Point(187, 201)
         Me.ButtonKinesiopyroSmithingMinus.Name = "ButtonKinesiopyroSmithingMinus"
-        Me.ButtonKinesiopyroSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroSmithingMinus.TabIndex = 5
         Me.ButtonKinesiopyroSmithingMinus.Text = "-"
         Me.ButtonKinesiopyroSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11485,12 +10984,9 @@ Partial Class Form1
         '
         'ButtonKinesiopyroProwessMinus
         '
-        Me.ButtonKinesiopyroProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroProwessMinus.Location = New System.Drawing.Point(186, 160)
         Me.ButtonKinesiopyroProwessMinus.Name = "ButtonKinesiopyroProwessMinus"
-        Me.ButtonKinesiopyroProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroProwessMinus.TabIndex = 5
         Me.ButtonKinesiopyroProwessMinus.Text = "-"
         Me.ButtonKinesiopyroProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11498,12 +10994,9 @@ Partial Class Form1
         '
         'ButtonKinesiopyroSenseMinus
         '
-        Me.ButtonKinesiopyroSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroSenseMinus.Location = New System.Drawing.Point(353, 85)
         Me.ButtonKinesiopyroSenseMinus.Name = "ButtonKinesiopyroSenseMinus"
-        Me.ButtonKinesiopyroSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroSenseMinus.TabIndex = 5
         Me.ButtonKinesiopyroSenseMinus.Text = "-"
         Me.ButtonKinesiopyroSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11511,12 +11004,9 @@ Partial Class Form1
         '
         'ButtonKinesiopyroLeatherworkingMinus
         '
-        Me.ButtonKinesiopyroLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
         Me.ButtonKinesiopyroLeatherworkingMinus.Name = "ButtonKinesiopyroLeatherworkingMinus"
-        Me.ButtonKinesiopyroLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroLeatherworkingMinus.TabIndex = 5
         Me.ButtonKinesiopyroLeatherworkingMinus.Text = "-"
         Me.ButtonKinesiopyroLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11524,12 +11014,9 @@ Partial Class Form1
         '
         'ButtonKinesiopyroFireballMinus
         '
-        Me.ButtonKinesiopyroFireballMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroFireballMinus.Location = New System.Drawing.Point(57, 178)
         Me.ButtonKinesiopyroFireballMinus.Name = "ButtonKinesiopyroFireballMinus"
-        Me.ButtonKinesiopyroFireballMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroFireballMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroFireballMinus.TabIndex = 5
         Me.ButtonKinesiopyroFireballMinus.Text = "-"
         Me.ButtonKinesiopyroFireballMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11537,12 +11024,9 @@ Partial Class Form1
         '
         'ButtonKinesiopyroEnchantingMinus
         '
-        Me.ButtonKinesiopyroEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroEnchantingMinus.Location = New System.Drawing.Point(353, 237)
         Me.ButtonKinesiopyroEnchantingMinus.Name = "ButtonKinesiopyroEnchantingMinus"
-        Me.ButtonKinesiopyroEnchantingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroEnchantingMinus.TabIndex = 5
         Me.ButtonKinesiopyroEnchantingMinus.Text = "-"
         Me.ButtonKinesiopyroEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11550,12 +11034,9 @@ Partial Class Form1
         '
         'ButtonKinesiopyroHealthMinus
         '
-        Me.ButtonKinesiopyroHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroHealthMinus.Location = New System.Drawing.Point(353, 161)
         Me.ButtonKinesiopyroHealthMinus.Name = "ButtonKinesiopyroHealthMinus"
-        Me.ButtonKinesiopyroHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroHealthMinus.TabIndex = 5
         Me.ButtonKinesiopyroHealthMinus.Text = "-"
         Me.ButtonKinesiopyroHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11563,12 +11044,9 @@ Partial Class Form1
         '
         'ButtonKinesiopyroScrollwritingMinus
         '
-        Me.ButtonKinesiopyroScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
         Me.ButtonKinesiopyroScrollwritingMinus.Name = "ButtonKinesiopyroScrollwritingMinus"
-        Me.ButtonKinesiopyroScrollwritingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroScrollwritingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroScrollwritingMinus.TabIndex = 5
         Me.ButtonKinesiopyroScrollwritingMinus.Text = "-"
         Me.ButtonKinesiopyroScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11576,12 +11054,9 @@ Partial Class Form1
         '
         'ButtonKinesiopyroDetectionMinus
         '
-        Me.ButtonKinesiopyroDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroDetectionMinus.Location = New System.Drawing.Point(353, 124)
         Me.ButtonKinesiopyroDetectionMinus.Name = "ButtonKinesiopyroDetectionMinus"
-        Me.ButtonKinesiopyroDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroDetectionMinus.TabIndex = 5
         Me.ButtonKinesiopyroDetectionMinus.Text = "-"
         Me.ButtonKinesiopyroDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11592,19 +11067,16 @@ Partial Class Form1
         Me.ButtonKinesiopyroSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroSmithingPlus.Location = New System.Drawing.Point(162, 201)
         Me.ButtonKinesiopyroSmithingPlus.Name = "ButtonKinesiopyroSmithingPlus"
-        Me.ButtonKinesiopyroSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroSmithingPlus.TabIndex = 4
         Me.ButtonKinesiopyroSmithingPlus.Text = "+"
         Me.ButtonKinesiopyroSmithingPlus.UseVisualStyleBackColor = True
         '
         'ButtonKinesiopyroWeapondexterityMinus
         '
-        Me.ButtonKinesiopyroWeapondexterityMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroWeapondexterityMinus.Location = New System.Drawing.Point(187, 238)
         Me.ButtonKinesiopyroWeapondexterityMinus.Name = "ButtonKinesiopyroWeapondexterityMinus"
-        Me.ButtonKinesiopyroWeapondexterityMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroWeapondexterityMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroWeapondexterityMinus.TabIndex = 5
         Me.ButtonKinesiopyroWeapondexterityMinus.Text = "-"
         Me.ButtonKinesiopyroWeapondexterityMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11612,12 +11084,9 @@ Partial Class Form1
         '
         'ButtonKinesiopyroForestyMinus
         '
-        Me.ButtonKinesiopyroForestyMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroForestyMinus.Location = New System.Drawing.Point(186, 87)
         Me.ButtonKinesiopyroForestyMinus.Name = "ButtonKinesiopyroForestyMinus"
-        Me.ButtonKinesiopyroForestyMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroForestyMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroForestyMinus.TabIndex = 5
         Me.ButtonKinesiopyroForestyMinus.Text = "-"
         Me.ButtonKinesiopyroForestyMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11628,7 +11097,7 @@ Partial Class Form1
         Me.ButtonKinesiopyroProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroProwessPlus.Location = New System.Drawing.Point(161, 160)
         Me.ButtonKinesiopyroProwessPlus.Name = "ButtonKinesiopyroProwessPlus"
-        Me.ButtonKinesiopyroProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroProwessPlus.TabIndex = 4
         Me.ButtonKinesiopyroProwessPlus.Text = "+"
         Me.ButtonKinesiopyroProwessPlus.UseVisualStyleBackColor = True
@@ -11638,7 +11107,7 @@ Partial Class Form1
         Me.ButtonKinesiopyroEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroEnchantingPlus.Location = New System.Drawing.Point(328, 237)
         Me.ButtonKinesiopyroEnchantingPlus.Name = "ButtonKinesiopyroEnchantingPlus"
-        Me.ButtonKinesiopyroEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroEnchantingPlus.TabIndex = 4
         Me.ButtonKinesiopyroEnchantingPlus.Text = "+"
         Me.ButtonKinesiopyroEnchantingPlus.UseVisualStyleBackColor = True
@@ -11648,7 +11117,7 @@ Partial Class Form1
         Me.ButtonKinesiopyroHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroHealthPlus.Location = New System.Drawing.Point(328, 161)
         Me.ButtonKinesiopyroHealthPlus.Name = "ButtonKinesiopyroHealthPlus"
-        Me.ButtonKinesiopyroHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroHealthPlus.TabIndex = 4
         Me.ButtonKinesiopyroHealthPlus.Text = "+"
         Me.ButtonKinesiopyroHealthPlus.UseVisualStyleBackColor = True
@@ -11658,7 +11127,7 @@ Partial Class Form1
         Me.ButtonKinesiopyroScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
         Me.ButtonKinesiopyroScrollwritingPlus.Name = "ButtonKinesiopyroScrollwritingPlus"
-        Me.ButtonKinesiopyroScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroScrollwritingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroScrollwritingPlus.TabIndex = 4
         Me.ButtonKinesiopyroScrollwritingPlus.Text = "+"
         Me.ButtonKinesiopyroScrollwritingPlus.UseVisualStyleBackColor = True
@@ -11668,19 +11137,16 @@ Partial Class Form1
         Me.ButtonKinesiopyroDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroDetectionPlus.Location = New System.Drawing.Point(328, 124)
         Me.ButtonKinesiopyroDetectionPlus.Name = "ButtonKinesiopyroDetectionPlus"
-        Me.ButtonKinesiopyroDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroDetectionPlus.TabIndex = 4
         Me.ButtonKinesiopyroDetectionPlus.Text = "+"
         Me.ButtonKinesiopyroDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonKinesiopyroSurgeMinus
         '
-        Me.ButtonKinesiopyroSurgeMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiopyroSurgeMinus.Location = New System.Drawing.Point(57, 140)
         Me.ButtonKinesiopyroSurgeMinus.Name = "ButtonKinesiopyroSurgeMinus"
-        Me.ButtonKinesiopyroSurgeMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiopyroSurgeMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroSurgeMinus.TabIndex = 5
         Me.ButtonKinesiopyroSurgeMinus.Text = "-"
         Me.ButtonKinesiopyroSurgeMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11691,7 +11157,7 @@ Partial Class Form1
         Me.ButtonKinesiopyroSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroSensePlus.Location = New System.Drawing.Point(328, 85)
         Me.ButtonKinesiopyroSensePlus.Name = "ButtonKinesiopyroSensePlus"
-        Me.ButtonKinesiopyroSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroSensePlus.TabIndex = 4
         Me.ButtonKinesiopyroSensePlus.Text = "+"
         Me.ButtonKinesiopyroSensePlus.UseVisualStyleBackColor = True
@@ -11701,7 +11167,7 @@ Partial Class Form1
         Me.ButtonKinesiopyroLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
         Me.ButtonKinesiopyroLeatherworkingPlus.Name = "ButtonKinesiopyroLeatherworkingPlus"
-        Me.ButtonKinesiopyroLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroLeatherworkingPlus.TabIndex = 4
         Me.ButtonKinesiopyroLeatherworkingPlus.Text = "+"
         Me.ButtonKinesiopyroLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -11711,7 +11177,7 @@ Partial Class Form1
         Me.ButtonKinesiopyroWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
         Me.ButtonKinesiopyroWeapondexterityPlus.Name = "ButtonKinesiopyroWeapondexterityPlus"
-        Me.ButtonKinesiopyroWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroWeapondexterityPlus.TabIndex = 4
         Me.ButtonKinesiopyroWeapondexterityPlus.Text = "+"
         Me.ButtonKinesiopyroWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -11721,7 +11187,7 @@ Partial Class Form1
         Me.ButtonKinesiopyroForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroForestryPlus.Location = New System.Drawing.Point(161, 87)
         Me.ButtonKinesiopyroForestryPlus.Name = "ButtonKinesiopyroForestryPlus"
-        Me.ButtonKinesiopyroForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroForestryPlus.TabIndex = 4
         Me.ButtonKinesiopyroForestryPlus.Text = "+"
         Me.ButtonKinesiopyroForestryPlus.UseVisualStyleBackColor = True
@@ -11731,7 +11197,7 @@ Partial Class Form1
         Me.ButtonKinesiopyroFireballPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroFireballPlus.Location = New System.Drawing.Point(32, 178)
         Me.ButtonKinesiopyroFireballPlus.Name = "ButtonKinesiopyroFireballPlus"
-        Me.ButtonKinesiopyroFireballPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroFireballPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroFireballPlus.TabIndex = 4
         Me.ButtonKinesiopyroFireballPlus.Text = "+"
         Me.ButtonKinesiopyroFireballPlus.UseVisualStyleBackColor = True
@@ -11741,7 +11207,7 @@ Partial Class Form1
         Me.ButtonKinesiopyroSurgePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiopyroSurgePlus.Location = New System.Drawing.Point(32, 140)
         Me.ButtonKinesiopyroSurgePlus.Name = "ButtonKinesiopyroSurgePlus"
-        Me.ButtonKinesiopyroSurgePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiopyroSurgePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiopyroSurgePlus.TabIndex = 4
         Me.ButtonKinesiopyroSurgePlus.Text = "+"
         Me.ButtonKinesiopyroSurgePlus.UseVisualStyleBackColor = True
@@ -11960,12 +11426,9 @@ Partial Class Form1
         '
         'ButtonKinesiokairoSmithingMinus
         '
-        Me.ButtonKinesiokairoSmithingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoSmithingMinus.Location = New System.Drawing.Point(187, 201)
         Me.ButtonKinesiokairoSmithingMinus.Name = "ButtonKinesiokairoSmithingMinus"
-        Me.ButtonKinesiokairoSmithingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoSmithingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoSmithingMinus.TabIndex = 5
         Me.ButtonKinesiokairoSmithingMinus.Text = "-"
         Me.ButtonKinesiokairoSmithingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11973,12 +11436,9 @@ Partial Class Form1
         '
         'ButtonKinesiokairoProwessMinus
         '
-        Me.ButtonKinesiokairoProwessMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoProwessMinus.Location = New System.Drawing.Point(186, 160)
         Me.ButtonKinesiokairoProwessMinus.Name = "ButtonKinesiokairoProwessMinus"
-        Me.ButtonKinesiokairoProwessMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoProwessMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoProwessMinus.TabIndex = 5
         Me.ButtonKinesiokairoProwessMinus.Text = "-"
         Me.ButtonKinesiokairoProwessMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11986,12 +11446,9 @@ Partial Class Form1
         '
         'ButtonKinesiokairoSenseMinus
         '
-        Me.ButtonKinesiokairoSenseMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoSenseMinus.Location = New System.Drawing.Point(353, 85)
         Me.ButtonKinesiokairoSenseMinus.Name = "ButtonKinesiokairoSenseMinus"
-        Me.ButtonKinesiokairoSenseMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoSenseMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoSenseMinus.TabIndex = 5
         Me.ButtonKinesiokairoSenseMinus.Text = "-"
         Me.ButtonKinesiokairoSenseMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -11999,12 +11456,9 @@ Partial Class Form1
         '
         'ButtonKinesiokairoLeatherworkingMinus
         '
-        Me.ButtonKinesiokairoLeatherworkingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoLeatherworkingMinus.Location = New System.Drawing.Point(187, 124)
         Me.ButtonKinesiokairoLeatherworkingMinus.Name = "ButtonKinesiokairoLeatherworkingMinus"
-        Me.ButtonKinesiokairoLeatherworkingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoLeatherworkingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoLeatherworkingMinus.TabIndex = 5
         Me.ButtonKinesiokairoLeatherworkingMinus.Text = "-"
         Me.ButtonKinesiokairoLeatherworkingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -12012,12 +11466,9 @@ Partial Class Form1
         '
         'ButtonKinesiokairoLightningboltMinus
         '
-        Me.ButtonKinesiokairoLightningboltMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoLightningboltMinus.Location = New System.Drawing.Point(57, 178)
         Me.ButtonKinesiokairoLightningboltMinus.Name = "ButtonKinesiokairoLightningboltMinus"
-        Me.ButtonKinesiokairoLightningboltMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoLightningboltMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoLightningboltMinus.TabIndex = 5
         Me.ButtonKinesiokairoLightningboltMinus.Text = "-"
         Me.ButtonKinesiokairoLightningboltMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -12025,12 +11476,9 @@ Partial Class Form1
         '
         'ButtonKinesiokairoEnchantingMinus
         '
-        Me.ButtonKinesiokairoEnchantingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoEnchantingMinus.Location = New System.Drawing.Point(353, 237)
         Me.ButtonKinesiokairoEnchantingMinus.Name = "ButtonKinesiokairoEnchantingMinus"
-        Me.ButtonKinesiokairoEnchantingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoEnchantingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoEnchantingMinus.TabIndex = 5
         Me.ButtonKinesiokairoEnchantingMinus.Text = "-"
         Me.ButtonKinesiokairoEnchantingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -12038,12 +11486,9 @@ Partial Class Form1
         '
         'ButtonKinesiokairoHealthMinus
         '
-        Me.ButtonKinesiokairoHealthMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoHealthMinus.Location = New System.Drawing.Point(353, 161)
         Me.ButtonKinesiokairoHealthMinus.Name = "ButtonKinesiokairoHealthMinus"
-        Me.ButtonKinesiokairoHealthMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoHealthMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoHealthMinus.TabIndex = 5
         Me.ButtonKinesiokairoHealthMinus.Text = "-"
         Me.ButtonKinesiokairoHealthMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -12051,12 +11496,9 @@ Partial Class Form1
         '
         'ButtonKinesiokairoScrollwritingMinus
         '
-        Me.ButtonKinesiokairoScrollwritingMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoScrollwritingMinus.Location = New System.Drawing.Point(353, 196)
         Me.ButtonKinesiokairoScrollwritingMinus.Name = "ButtonKinesiokairoScrollwritingMinus"
-        Me.ButtonKinesiokairoScrollwritingMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoScrollwritingMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoScrollwritingMinus.TabIndex = 5
         Me.ButtonKinesiokairoScrollwritingMinus.Text = "-"
         Me.ButtonKinesiokairoScrollwritingMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -12064,12 +11506,9 @@ Partial Class Form1
         '
         'ButtonKinesiokairoDetectionMinus
         '
-        Me.ButtonKinesiokairoDetectionMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoDetectionMinus.Location = New System.Drawing.Point(353, 124)
         Me.ButtonKinesiokairoDetectionMinus.Name = "ButtonKinesiokairoDetectionMinus"
-        Me.ButtonKinesiokairoDetectionMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoDetectionMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoDetectionMinus.TabIndex = 5
         Me.ButtonKinesiokairoDetectionMinus.Text = "-"
         Me.ButtonKinesiokairoDetectionMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -12080,19 +11519,16 @@ Partial Class Form1
         Me.ButtonKinesiokairoSmithingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoSmithingPlus.Location = New System.Drawing.Point(162, 201)
         Me.ButtonKinesiokairoSmithingPlus.Name = "ButtonKinesiokairoSmithingPlus"
-        Me.ButtonKinesiokairoSmithingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoSmithingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoSmithingPlus.TabIndex = 4
         Me.ButtonKinesiokairoSmithingPlus.Text = "+"
         Me.ButtonKinesiokairoSmithingPlus.UseVisualStyleBackColor = True
         '
         'ButtonKinesiokairoWeapondexterity
         '
-        Me.ButtonKinesiokairoWeapondexterity.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoWeapondexterity.Location = New System.Drawing.Point(187, 238)
         Me.ButtonKinesiokairoWeapondexterity.Name = "ButtonKinesiokairoWeapondexterity"
-        Me.ButtonKinesiokairoWeapondexterity.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoWeapondexterity.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoWeapondexterity.TabIndex = 5
         Me.ButtonKinesiokairoWeapondexterity.Text = "-"
         Me.ButtonKinesiokairoWeapondexterity.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -12100,12 +11536,9 @@ Partial Class Form1
         '
         'ButtonKinesiokairoForestryMinus
         '
-        Me.ButtonKinesiokairoForestryMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoForestryMinus.Location = New System.Drawing.Point(186, 87)
         Me.ButtonKinesiokairoForestryMinus.Name = "ButtonKinesiokairoForestryMinus"
-        Me.ButtonKinesiokairoForestryMinus.Size = New System.Drawing.Size(21, 23)
+        Me.ButtonKinesiokairoForestryMinus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoForestryMinus.TabIndex = 5
         Me.ButtonKinesiokairoForestryMinus.Text = "-"
         Me.ButtonKinesiokairoForestryMinus.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -12116,7 +11549,7 @@ Partial Class Form1
         Me.ButtonKinesiokairoProwessPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoProwessPlus.Location = New System.Drawing.Point(161, 160)
         Me.ButtonKinesiokairoProwessPlus.Name = "ButtonKinesiokairoProwessPlus"
-        Me.ButtonKinesiokairoProwessPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoProwessPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoProwessPlus.TabIndex = 4
         Me.ButtonKinesiokairoProwessPlus.Text = "+"
         Me.ButtonKinesiokairoProwessPlus.UseVisualStyleBackColor = True
@@ -12126,7 +11559,7 @@ Partial Class Form1
         Me.ButtonKinesiokairoEnchantingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoEnchantingPlus.Location = New System.Drawing.Point(328, 237)
         Me.ButtonKinesiokairoEnchantingPlus.Name = "ButtonKinesiokairoEnchantingPlus"
-        Me.ButtonKinesiokairoEnchantingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoEnchantingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoEnchantingPlus.TabIndex = 4
         Me.ButtonKinesiokairoEnchantingPlus.Text = "+"
         Me.ButtonKinesiokairoEnchantingPlus.UseVisualStyleBackColor = True
@@ -12136,7 +11569,7 @@ Partial Class Form1
         Me.ButtonKinesiokairoHealthPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoHealthPlus.Location = New System.Drawing.Point(328, 161)
         Me.ButtonKinesiokairoHealthPlus.Name = "ButtonKinesiokairoHealthPlus"
-        Me.ButtonKinesiokairoHealthPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoHealthPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoHealthPlus.TabIndex = 4
         Me.ButtonKinesiokairoHealthPlus.Text = "+"
         Me.ButtonKinesiokairoHealthPlus.UseVisualStyleBackColor = True
@@ -12146,7 +11579,7 @@ Partial Class Form1
         Me.ButtonKinesiokairoScrollwritingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoScrollwritingPlus.Location = New System.Drawing.Point(328, 196)
         Me.ButtonKinesiokairoScrollwritingPlus.Name = "ButtonKinesiokairoScrollwritingPlus"
-        Me.ButtonKinesiokairoScrollwritingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoScrollwritingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoScrollwritingPlus.TabIndex = 4
         Me.ButtonKinesiokairoScrollwritingPlus.Text = "+"
         Me.ButtonKinesiokairoScrollwritingPlus.UseVisualStyleBackColor = True
@@ -12156,16 +11589,13 @@ Partial Class Form1
         Me.ButtonKinesiokairoDetectionPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoDetectionPlus.Location = New System.Drawing.Point(328, 124)
         Me.ButtonKinesiokairoDetectionPlus.Name = "ButtonKinesiokairoDetectionPlus"
-        Me.ButtonKinesiokairoDetectionPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoDetectionPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoDetectionPlus.TabIndex = 4
         Me.ButtonKinesiokairoDetectionPlus.Text = "+"
         Me.ButtonKinesiokairoDetectionPlus.UseVisualStyleBackColor = True
         '
         'ButtonKinesiokairoSurgeMinus
         '
-        Me.ButtonKinesiokairoSurgeMinus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonKinesiokairoSurgeMinus.Location = New System.Drawing.Point(57, 140)
         Me.ButtonKinesiokairoSurgeMinus.Name = "ButtonKinesiokairoSurgeMinus"
         Me.ButtonKinesiokairoSurgeMinus.Size = New System.Drawing.Size(21, 23)
@@ -12179,7 +11609,7 @@ Partial Class Form1
         Me.ButtonKinesiokairoSensePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoSensePlus.Location = New System.Drawing.Point(328, 85)
         Me.ButtonKinesiokairoSensePlus.Name = "ButtonKinesiokairoSensePlus"
-        Me.ButtonKinesiokairoSensePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoSensePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoSensePlus.TabIndex = 4
         Me.ButtonKinesiokairoSensePlus.Text = "+"
         Me.ButtonKinesiokairoSensePlus.UseVisualStyleBackColor = True
@@ -12189,7 +11619,7 @@ Partial Class Form1
         Me.ButtonKinesiokairoLeatherworkingPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoLeatherworkingPlus.Location = New System.Drawing.Point(162, 124)
         Me.ButtonKinesiokairoLeatherworkingPlus.Name = "ButtonKinesiokairoLeatherworkingPlus"
-        Me.ButtonKinesiokairoLeatherworkingPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoLeatherworkingPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoLeatherworkingPlus.TabIndex = 4
         Me.ButtonKinesiokairoLeatherworkingPlus.Text = "+"
         Me.ButtonKinesiokairoLeatherworkingPlus.UseVisualStyleBackColor = True
@@ -12199,7 +11629,7 @@ Partial Class Form1
         Me.ButtonKinesiokairoWeapondexterityPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoWeapondexterityPlus.Location = New System.Drawing.Point(162, 238)
         Me.ButtonKinesiokairoWeapondexterityPlus.Name = "ButtonKinesiokairoWeapondexterityPlus"
-        Me.ButtonKinesiokairoWeapondexterityPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoWeapondexterityPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoWeapondexterityPlus.TabIndex = 4
         Me.ButtonKinesiokairoWeapondexterityPlus.Text = "+"
         Me.ButtonKinesiokairoWeapondexterityPlus.UseVisualStyleBackColor = True
@@ -12209,7 +11639,7 @@ Partial Class Form1
         Me.ButtonKinesiokairoForestryPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoForestryPlus.Location = New System.Drawing.Point(161, 87)
         Me.ButtonKinesiokairoForestryPlus.Name = "ButtonKinesiokairoForestryPlus"
-        Me.ButtonKinesiokairoForestryPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoForestryPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoForestryPlus.TabIndex = 4
         Me.ButtonKinesiokairoForestryPlus.Text = "+"
         Me.ButtonKinesiokairoForestryPlus.UseVisualStyleBackColor = True
@@ -12219,7 +11649,7 @@ Partial Class Form1
         Me.ButtonKinesiokairoLightningboltPlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoLightningboltPlus.Location = New System.Drawing.Point(32, 178)
         Me.ButtonKinesiokairoLightningboltPlus.Name = "ButtonKinesiokairoLightningboltPlus"
-        Me.ButtonKinesiokairoLightningboltPlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoLightningboltPlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoLightningboltPlus.TabIndex = 4
         Me.ButtonKinesiokairoLightningboltPlus.Text = "+"
         Me.ButtonKinesiokairoLightningboltPlus.UseVisualStyleBackColor = True
@@ -12229,7 +11659,7 @@ Partial Class Form1
         Me.ButtonKinesiokairoSurgePlus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonKinesiokairoSurgePlus.Location = New System.Drawing.Point(32, 140)
         Me.ButtonKinesiokairoSurgePlus.Name = "ButtonKinesiokairoSurgePlus"
-        Me.ButtonKinesiokairoSurgePlus.Size = New System.Drawing.Size(19, 23)
+        Me.ButtonKinesiokairoSurgePlus.Size = New System.Drawing.Size(20, 20)
         Me.ButtonKinesiokairoSurgePlus.TabIndex = 4
         Me.ButtonKinesiokairoSurgePlus.Text = "+"
         Me.ButtonKinesiokairoSurgePlus.UseVisualStyleBackColor = True
@@ -13689,29 +13119,6 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
-        Me.Controls.Add(Me.PanelWelcome)
-        Me.Controls.Add(Me.PanelNyad)
-        Me.Controls.Add(Me.PanelAngalucian)
-        Me.Controls.Add(Me.PanelFaerleth)
-        Me.Controls.Add(Me.PanelEnd)
-        Me.Controls.Add(Me.PanelModifier)
-        Me.Controls.Add(Me.PanelKinesiokairo)
-        Me.Controls.Add(Me.PanelKinesiopyro)
-        Me.Controls.Add(Me.PanelKinesiohydro)
-        Me.Controls.Add(Me.PanelNecrokairo)
-        Me.Controls.Add(Me.PanelNecropyro)
-        Me.Controls.Add(Me.PanelNecrohydro)
-        Me.Controls.Add(Me.PanelNeurokairo)
-        Me.Controls.Add(Me.PanelNeuropyro)
-        Me.Controls.Add(Me.PanelNeurohydro)
-        Me.Controls.Add(Me.PanelVoidknight)
-        Me.Controls.Add(Me.PanelCleric)
-        Me.Controls.Add(Me.PanelNoble)
-        Me.Controls.Add(Me.PanelRogue)
-        Me.Controls.Add(Me.PanelRanger)
-        Me.Controls.Add(Me.PanelWarrior)
-        Me.Controls.Add(Me.PanelWizard)
-        Me.Controls.Add(Me.PanelClass)
         Me.Controls.Add(Me.PanelBackgrounds)
         Me.Controls.Add(Me.PanelWoodelf)
         Me.Controls.Add(Me.PanelFairy)
@@ -13736,6 +13143,30 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelKin)
         Me.Controls.Add(Me.PanelGoblin)
         Me.Controls.Add(Me.PanelHalfbreed)
+        Me.Controls.Add(Me.PanelWelcome)
+        Me.Controls.Add(Me.PanelNyad)
+        Me.Controls.Add(Me.PanelAngalucian)
+        Me.Controls.Add(Me.PanelFaerleth)
+        Me.Controls.Add(Me.PanelEnd)
+        Me.Controls.Add(Me.PanelModifier)
+        Me.Controls.Add(Me.PanelKinesiokairo)
+        Me.Controls.Add(Me.PanelKinesiopyro)
+        Me.Controls.Add(Me.PanelKinesiohydro)
+        Me.Controls.Add(Me.PanelNecrokairo)
+        Me.Controls.Add(Me.PanelNecropyro)
+        Me.Controls.Add(Me.PanelNecrohydro)
+        Me.Controls.Add(Me.PanelNeurokairo)
+        Me.Controls.Add(Me.PanelNeuropyro)
+        Me.Controls.Add(Me.PanelNeurohydro)
+        Me.Controls.Add(Me.PanelVoidknight)
+        Me.Controls.Add(Me.PanelCleric)
+        Me.Controls.Add(Me.PanelNoble)
+        Me.Controls.Add(Me.PanelRogue)
+        Me.Controls.Add(Me.PanelRanger)
+        Me.Controls.Add(Me.PanelWarrior)
+        Me.Controls.Add(Me.PanelWizard)
+        Me.Controls.Add(Me.PanelClass)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.PanelWelcome.ResumeLayout(False)
