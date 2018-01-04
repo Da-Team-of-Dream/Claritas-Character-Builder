@@ -45,11 +45,13 @@ Partial Class FormDex
         Me.RadioButtonWeaponartBattleaxe = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartBattlehammer = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartShortsword = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWeaponartKiteshield = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartBow = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartHuntingspear = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartGreatspear = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartHatchet = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartHammer = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonWeaponartGreatshield = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartBuckler = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartGreataxe = New System.Windows.Forms.RadioButton()
         Me.RadioButtonWeaponartWarspear = New System.Windows.Forms.RadioButton()
@@ -62,8 +64,6 @@ Partial Class FormDex
         Me.LabelWeaponartIntro = New System.Windows.Forms.Label()
         Me.PanelWeapondex = New System.Windows.Forms.Panel()
         Me.CheckBoxWeapondexWeaponcasting = New System.Windows.Forms.CheckBox()
-        Me.RadioButtonWeaponartGreatshield = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonWeaponartKiteshield = New System.Windows.Forms.RadioButton()
         Me.PanelWeaponart.SuspendLayout()
         Me.PanelWeapondex.SuspendLayout()
         Me.SuspendLayout()
@@ -71,9 +71,10 @@ Partial Class FormDex
         'CheckBoxWepondexOnehandedaxes
         '
         Me.CheckBoxWepondexOnehandedaxes.AutoSize = True
-        Me.CheckBoxWepondexOnehandedaxes.Location = New System.Drawing.Point(187, 94)
+        Me.CheckBoxWepondexOnehandedaxes.Location = New System.Drawing.Point(249, 116)
+        Me.CheckBoxWepondexOnehandedaxes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexOnehandedaxes.Name = "CheckBoxWepondexOnehandedaxes"
-        Me.CheckBoxWepondexOnehandedaxes.Size = New System.Drawing.Size(113, 17)
+        Me.CheckBoxWepondexOnehandedaxes.Size = New System.Drawing.Size(146, 21)
         Me.CheckBoxWepondexOnehandedaxes.TabIndex = 0
         Me.CheckBoxWepondexOnehandedaxes.Text = "One-Handed Axes"
         Me.CheckBoxWepondexOnehandedaxes.UseVisualStyleBackColor = True
@@ -81,18 +82,20 @@ Partial Class FormDex
         'LabelWeapondexIntro
         '
         Me.LabelWeapondexIntro.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelWeapondexIntro.Location = New System.Drawing.Point(30, 9)
+        Me.LabelWeapondexIntro.Location = New System.Drawing.Point(40, 11)
+        Me.LabelWeapondexIntro.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LabelWeapondexIntro.Name = "LabelWeapondexIntro"
-        Me.LabelWeapondexIntro.Size = New System.Drawing.Size(576, 79)
+        Me.LabelWeapondexIntro.Size = New System.Drawing.Size(768, 97)
         Me.LabelWeapondexIntro.TabIndex = 1
         Me.LabelWeapondexIntro.Text = resources.GetString("LabelWeapondexIntro.Text")
         '
         'CheckBoxWepondexOnehandedblades
         '
         Me.CheckBoxWepondexOnehandedblades.AutoSize = True
-        Me.CheckBoxWepondexOnehandedblades.Location = New System.Drawing.Point(33, 94)
+        Me.CheckBoxWepondexOnehandedblades.Location = New System.Drawing.Point(44, 116)
+        Me.CheckBoxWepondexOnehandedblades.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexOnehandedblades.Name = "CheckBoxWepondexOnehandedblades"
-        Me.CheckBoxWepondexOnehandedblades.Size = New System.Drawing.Size(122, 17)
+        Me.CheckBoxWepondexOnehandedblades.Size = New System.Drawing.Size(159, 21)
         Me.CheckBoxWepondexOnehandedblades.TabIndex = 0
         Me.CheckBoxWepondexOnehandedblades.Text = "One-Handed Blades"
         Me.CheckBoxWepondexOnehandedblades.UseVisualStyleBackColor = True
@@ -100,9 +103,10 @@ Partial Class FormDex
         'CheckBoxWepondexOnehandedhammers
         '
         Me.CheckBoxWepondexOnehandedhammers.AutoSize = True
-        Me.CheckBoxWepondexOnehandedhammers.Location = New System.Drawing.Point(332, 94)
+        Me.CheckBoxWepondexOnehandedhammers.Location = New System.Drawing.Point(443, 116)
+        Me.CheckBoxWepondexOnehandedhammers.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexOnehandedhammers.Name = "CheckBoxWepondexOnehandedhammers"
-        Me.CheckBoxWepondexOnehandedhammers.Size = New System.Drawing.Size(134, 17)
+        Me.CheckBoxWepondexOnehandedhammers.Size = New System.Drawing.Size(176, 21)
         Me.CheckBoxWepondexOnehandedhammers.TabIndex = 0
         Me.CheckBoxWepondexOnehandedhammers.Text = "One-Handed Hammers"
         Me.CheckBoxWepondexOnehandedhammers.UseVisualStyleBackColor = True
@@ -110,9 +114,10 @@ Partial Class FormDex
         'CheckBoxWepondexTwohandedaxes
         '
         Me.CheckBoxWepondexTwohandedaxes.AutoSize = True
-        Me.CheckBoxWepondexTwohandedaxes.Location = New System.Drawing.Point(187, 148)
+        Me.CheckBoxWepondexTwohandedaxes.Location = New System.Drawing.Point(249, 182)
+        Me.CheckBoxWepondexTwohandedaxes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexTwohandedaxes.Name = "CheckBoxWepondexTwohandedaxes"
-        Me.CheckBoxWepondexTwohandedaxes.Size = New System.Drawing.Size(114, 17)
+        Me.CheckBoxWepondexTwohandedaxes.Size = New System.Drawing.Size(145, 21)
         Me.CheckBoxWepondexTwohandedaxes.TabIndex = 0
         Me.CheckBoxWepondexTwohandedaxes.Text = "Two-Handed Axes"
         Me.CheckBoxWepondexTwohandedaxes.UseVisualStyleBackColor = True
@@ -120,9 +125,10 @@ Partial Class FormDex
         'CheckBoxWepondexTwohandedhammers
         '
         Me.CheckBoxWepondexTwohandedhammers.AutoSize = True
-        Me.CheckBoxWepondexTwohandedhammers.Location = New System.Drawing.Point(332, 148)
+        Me.CheckBoxWepondexTwohandedhammers.Location = New System.Drawing.Point(443, 182)
+        Me.CheckBoxWepondexTwohandedhammers.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexTwohandedhammers.Name = "CheckBoxWepondexTwohandedhammers"
-        Me.CheckBoxWepondexTwohandedhammers.Size = New System.Drawing.Size(135, 17)
+        Me.CheckBoxWepondexTwohandedhammers.Size = New System.Drawing.Size(175, 21)
         Me.CheckBoxWepondexTwohandedhammers.TabIndex = 0
         Me.CheckBoxWepondexTwohandedhammers.Text = "Two-Handed Hammers"
         Me.CheckBoxWepondexTwohandedhammers.UseVisualStyleBackColor = True
@@ -130,9 +136,10 @@ Partial Class FormDex
         'CheckBoxWepondexTwohandedblades
         '
         Me.CheckBoxWepondexTwohandedblades.AutoSize = True
-        Me.CheckBoxWepondexTwohandedblades.Location = New System.Drawing.Point(33, 148)
+        Me.CheckBoxWepondexTwohandedblades.Location = New System.Drawing.Point(44, 182)
+        Me.CheckBoxWepondexTwohandedblades.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexTwohandedblades.Name = "CheckBoxWepondexTwohandedblades"
-        Me.CheckBoxWepondexTwohandedblades.Size = New System.Drawing.Size(123, 17)
+        Me.CheckBoxWepondexTwohandedblades.Size = New System.Drawing.Size(158, 21)
         Me.CheckBoxWepondexTwohandedblades.TabIndex = 0
         Me.CheckBoxWepondexTwohandedblades.Text = "Two-Handed Blades"
         Me.CheckBoxWepondexTwohandedblades.UseVisualStyleBackColor = True
@@ -140,9 +147,10 @@ Partial Class FormDex
         'CheckBoxWepondexExoticweapons
         '
         Me.CheckBoxWepondexExoticweapons.AutoSize = True
-        Me.CheckBoxWepondexExoticweapons.Location = New System.Drawing.Point(187, 204)
+        Me.CheckBoxWepondexExoticweapons.Location = New System.Drawing.Point(249, 251)
+        Me.CheckBoxWepondexExoticweapons.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexExoticweapons.Name = "CheckBoxWepondexExoticweapons"
-        Me.CheckBoxWepondexExoticweapons.Size = New System.Drawing.Size(104, 17)
+        Me.CheckBoxWepondexExoticweapons.Size = New System.Drawing.Size(131, 21)
         Me.CheckBoxWepondexExoticweapons.TabIndex = 0
         Me.CheckBoxWepondexExoticweapons.Text = "Exotic Weapons"
         Me.CheckBoxWepondexExoticweapons.UseVisualStyleBackColor = True
@@ -150,9 +158,10 @@ Partial Class FormDex
         'CheckBoxWepondexThrowingweapons
         '
         Me.CheckBoxWepondexThrowingweapons.AutoSize = True
-        Me.CheckBoxWepondexThrowingweapons.Location = New System.Drawing.Point(332, 204)
+        Me.CheckBoxWepondexThrowingweapons.Location = New System.Drawing.Point(443, 251)
+        Me.CheckBoxWepondexThrowingweapons.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexThrowingweapons.Name = "CheckBoxWepondexThrowingweapons"
-        Me.CheckBoxWepondexThrowingweapons.Size = New System.Drawing.Size(119, 17)
+        Me.CheckBoxWepondexThrowingweapons.Size = New System.Drawing.Size(152, 21)
         Me.CheckBoxWepondexThrowingweapons.TabIndex = 0
         Me.CheckBoxWepondexThrowingweapons.Text = "Throwing Weapons"
         Me.CheckBoxWepondexThrowingweapons.UseVisualStyleBackColor = True
@@ -160,9 +169,10 @@ Partial Class FormDex
         'CheckBoxWepondexBows
         '
         Me.CheckBoxWepondexBows.AutoSize = True
-        Me.CheckBoxWepondexBows.Location = New System.Drawing.Point(33, 204)
+        Me.CheckBoxWepondexBows.Location = New System.Drawing.Point(44, 251)
+        Me.CheckBoxWepondexBows.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexBows.Name = "CheckBoxWepondexBows"
-        Me.CheckBoxWepondexBows.Size = New System.Drawing.Size(52, 17)
+        Me.CheckBoxWepondexBows.Size = New System.Drawing.Size(63, 21)
         Me.CheckBoxWepondexBows.TabIndex = 0
         Me.CheckBoxWepondexBows.Text = "Bows"
         Me.CheckBoxWepondexBows.UseVisualStyleBackColor = True
@@ -170,9 +180,10 @@ Partial Class FormDex
         'CheckBoxWepondexOnehandedspears
         '
         Me.CheckBoxWepondexOnehandedspears.AutoSize = True
-        Me.CheckBoxWepondexOnehandedspears.Location = New System.Drawing.Point(494, 94)
+        Me.CheckBoxWepondexOnehandedspears.Location = New System.Drawing.Point(659, 116)
+        Me.CheckBoxWepondexOnehandedspears.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexOnehandedspears.Name = "CheckBoxWepondexOnehandedspears"
-        Me.CheckBoxWepondexOnehandedspears.Size = New System.Drawing.Size(123, 17)
+        Me.CheckBoxWepondexOnehandedspears.Size = New System.Drawing.Size(161, 21)
         Me.CheckBoxWepondexOnehandedspears.TabIndex = 0
         Me.CheckBoxWepondexOnehandedspears.Text = "One-Handed Spears"
         Me.CheckBoxWepondexOnehandedspears.UseVisualStyleBackColor = True
@@ -180,9 +191,10 @@ Partial Class FormDex
         'CheckBoxWepondexTwohandedspears
         '
         Me.CheckBoxWepondexTwohandedspears.AutoSize = True
-        Me.CheckBoxWepondexTwohandedspears.Location = New System.Drawing.Point(494, 148)
+        Me.CheckBoxWepondexTwohandedspears.Location = New System.Drawing.Point(659, 182)
+        Me.CheckBoxWepondexTwohandedspears.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexTwohandedspears.Name = "CheckBoxWepondexTwohandedspears"
-        Me.CheckBoxWepondexTwohandedspears.Size = New System.Drawing.Size(124, 17)
+        Me.CheckBoxWepondexTwohandedspears.Size = New System.Drawing.Size(160, 21)
         Me.CheckBoxWepondexTwohandedspears.TabIndex = 0
         Me.CheckBoxWepondexTwohandedspears.Text = "Two-Handed Spears"
         Me.CheckBoxWepondexTwohandedspears.UseVisualStyleBackColor = True
@@ -190,9 +202,10 @@ Partial Class FormDex
         'CheckBoxWepondexShields
         '
         Me.CheckBoxWepondexShields.AutoSize = True
-        Me.CheckBoxWepondexShields.Location = New System.Drawing.Point(494, 204)
+        Me.CheckBoxWepondexShields.Location = New System.Drawing.Point(659, 251)
+        Me.CheckBoxWepondexShields.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexShields.Name = "CheckBoxWepondexShields"
-        Me.CheckBoxWepondexShields.Size = New System.Drawing.Size(60, 17)
+        Me.CheckBoxWepondexShields.Size = New System.Drawing.Size(76, 21)
         Me.CheckBoxWepondexShields.TabIndex = 0
         Me.CheckBoxWepondexShields.Text = "Shields"
         Me.CheckBoxWepondexShields.UseVisualStyleBackColor = True
@@ -200,18 +213,20 @@ Partial Class FormDex
         'CheckBoxWepondexDualwielding
         '
         Me.CheckBoxWepondexDualwielding.AutoSize = True
-        Me.CheckBoxWepondexDualwielding.Location = New System.Drawing.Point(33, 264)
+        Me.CheckBoxWepondexDualwielding.Location = New System.Drawing.Point(44, 325)
+        Me.CheckBoxWepondexDualwielding.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWepondexDualwielding.Name = "CheckBoxWepondexDualwielding"
-        Me.CheckBoxWepondexDualwielding.Size = New System.Drawing.Size(92, 17)
+        Me.CheckBoxWepondexDualwielding.Size = New System.Drawing.Size(117, 21)
         Me.CheckBoxWepondexDualwielding.TabIndex = 0
         Me.CheckBoxWepondexDualwielding.Text = "Dual Wielding"
         Me.CheckBoxWepondexDualwielding.UseVisualStyleBackColor = True
         '
         'ButtonWeapondexWeaponart
         '
-        Me.ButtonWeapondexWeaponart.Location = New System.Drawing.Point(530, 282)
+        Me.ButtonWeapondexWeaponart.Location = New System.Drawing.Point(707, 347)
+        Me.ButtonWeapondexWeaponart.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonWeapondexWeaponart.Name = "ButtonWeapondexWeaponart"
-        Me.ButtonWeapondexWeaponart.Size = New System.Drawing.Size(86, 23)
+        Me.ButtonWeapondexWeaponart.Size = New System.Drawing.Size(115, 28)
         Me.ButtonWeapondexWeaponart.TabIndex = 2
         Me.ButtonWeapondexWeaponart.Text = "Weapon Arts"
         Me.ButtonWeapondexWeaponart.UseVisualStyleBackColor = True
@@ -243,24 +258,27 @@ Partial Class FormDex
         Me.PanelWeaponart.Controls.Add(Me.LabelWeaponartIntro)
         Me.PanelWeaponart.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelWeaponart.Location = New System.Drawing.Point(0, 0)
+        Me.PanelWeaponart.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelWeaponart.Name = "PanelWeaponart"
-        Me.PanelWeaponart.Size = New System.Drawing.Size(634, 317)
+        Me.PanelWeaponart.Size = New System.Drawing.Size(845, 390)
         Me.PanelWeaponart.TabIndex = 3
         '
         'ButtonWeaponartInfo
         '
-        Me.ButtonWeaponartInfo.Location = New System.Drawing.Point(540, 281)
+        Me.ButtonWeaponartInfo.Location = New System.Drawing.Point(720, 346)
+        Me.ButtonWeaponartInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonWeaponartInfo.Name = "ButtonWeaponartInfo"
-        Me.ButtonWeaponartInfo.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWeaponartInfo.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWeaponartInfo.TabIndex = 3
         Me.ButtonWeaponartInfo.Text = "Info"
         Me.ButtonWeaponartInfo.UseVisualStyleBackColor = True
         '
         'ButtonWeaponartWeapondex
         '
-        Me.ButtonWeaponartWeapondex.Location = New System.Drawing.Point(13, 282)
+        Me.ButtonWeaponartWeapondex.Location = New System.Drawing.Point(17, 347)
+        Me.ButtonWeaponartWeapondex.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonWeaponartWeapondex.Name = "ButtonWeaponartWeapondex"
-        Me.ButtonWeaponartWeapondex.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWeaponartWeapondex.Size = New System.Drawing.Size(100, 28)
         Me.ButtonWeaponartWeapondex.TabIndex = 2
         Me.ButtonWeaponartWeapondex.Text = "Dexterities"
         Me.ButtonWeaponartWeapondex.UseVisualStyleBackColor = True
@@ -268,9 +286,10 @@ Partial Class FormDex
         'RadioButtonWeaponartBattlespear
         '
         Me.RadioButtonWeaponartBattlespear.AutoSize = True
-        Me.RadioButtonWeaponartBattlespear.Location = New System.Drawing.Point(187, 187)
+        Me.RadioButtonWeaponartBattlespear.Location = New System.Drawing.Point(249, 230)
+        Me.RadioButtonWeaponartBattlespear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartBattlespear.Name = "RadioButtonWeaponartBattlespear"
-        Me.RadioButtonWeaponartBattlespear.Size = New System.Drawing.Size(83, 17)
+        Me.RadioButtonWeaponartBattlespear.Size = New System.Drawing.Size(107, 21)
         Me.RadioButtonWeaponartBattlespear.TabIndex = 1
         Me.RadioButtonWeaponartBattlespear.TabStop = True
         Me.RadioButtonWeaponartBattlespear.Text = "Battle Spear"
@@ -279,9 +298,10 @@ Partial Class FormDex
         'RadioButtonWeaponartBattleaxe
         '
         Me.RadioButtonWeaponartBattleaxe.AutoSize = True
-        Me.RadioButtonWeaponartBattleaxe.Location = New System.Drawing.Point(187, 108)
+        Me.RadioButtonWeaponartBattleaxe.Location = New System.Drawing.Point(249, 133)
+        Me.RadioButtonWeaponartBattleaxe.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartBattleaxe.Name = "RadioButtonWeaponartBattleaxe"
-        Me.RadioButtonWeaponartBattleaxe.Size = New System.Drawing.Size(73, 17)
+        Me.RadioButtonWeaponartBattleaxe.Size = New System.Drawing.Size(92, 21)
         Me.RadioButtonWeaponartBattleaxe.TabIndex = 1
         Me.RadioButtonWeaponartBattleaxe.TabStop = True
         Me.RadioButtonWeaponartBattleaxe.Text = "Battle Axe"
@@ -290,9 +310,10 @@ Partial Class FormDex
         'RadioButtonWeaponartBattlehammer
         '
         Me.RadioButtonWeaponartBattlehammer.AutoSize = True
-        Me.RadioButtonWeaponartBattlehammer.Location = New System.Drawing.Point(187, 148)
+        Me.RadioButtonWeaponartBattlehammer.Location = New System.Drawing.Point(249, 182)
+        Me.RadioButtonWeaponartBattlehammer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartBattlehammer.Name = "RadioButtonWeaponartBattlehammer"
-        Me.RadioButtonWeaponartBattlehammer.Size = New System.Drawing.Size(94, 17)
+        Me.RadioButtonWeaponartBattlehammer.Size = New System.Drawing.Size(122, 21)
         Me.RadioButtonWeaponartBattlehammer.TabIndex = 1
         Me.RadioButtonWeaponartBattlehammer.TabStop = True
         Me.RadioButtonWeaponartBattlehammer.Text = "Battle Hammer"
@@ -301,20 +322,34 @@ Partial Class FormDex
         'RadioButtonWeaponartShortsword
         '
         Me.RadioButtonWeaponartShortsword.AutoSize = True
-        Me.RadioButtonWeaponartShortsword.Location = New System.Drawing.Point(187, 71)
+        Me.RadioButtonWeaponartShortsword.Location = New System.Drawing.Point(249, 87)
+        Me.RadioButtonWeaponartShortsword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartShortsword.Name = "RadioButtonWeaponartShortsword"
-        Me.RadioButtonWeaponartShortsword.Size = New System.Drawing.Size(78, 17)
+        Me.RadioButtonWeaponartShortsword.Size = New System.Drawing.Size(100, 21)
         Me.RadioButtonWeaponartShortsword.TabIndex = 1
         Me.RadioButtonWeaponartShortsword.TabStop = True
         Me.RadioButtonWeaponartShortsword.Text = "Shortsword"
         Me.RadioButtonWeaponartShortsword.UseVisualStyleBackColor = True
         '
+        'RadioButtonWeaponartKiteshield
+        '
+        Me.RadioButtonWeaponartKiteshield.AutoSize = True
+        Me.RadioButtonWeaponartKiteshield.Location = New System.Drawing.Point(460, 279)
+        Me.RadioButtonWeaponartKiteshield.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWeaponartKiteshield.Name = "RadioButtonWeaponartKiteshield"
+        Me.RadioButtonWeaponartKiteshield.Size = New System.Drawing.Size(96, 21)
+        Me.RadioButtonWeaponartKiteshield.TabIndex = 1
+        Me.RadioButtonWeaponartKiteshield.TabStop = True
+        Me.RadioButtonWeaponartKiteshield.Text = "Kite Shield"
+        Me.RadioButtonWeaponartKiteshield.UseVisualStyleBackColor = True
+        '
         'RadioButtonWeaponartBow
         '
         Me.RadioButtonWeaponartBow.AutoSize = True
-        Me.RadioButtonWeaponartBow.Location = New System.Drawing.Point(33, 227)
+        Me.RadioButtonWeaponartBow.Location = New System.Drawing.Point(44, 279)
+        Me.RadioButtonWeaponartBow.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartBow.Name = "RadioButtonWeaponartBow"
-        Me.RadioButtonWeaponartBow.Size = New System.Drawing.Size(46, 17)
+        Me.RadioButtonWeaponartBow.Size = New System.Drawing.Size(55, 21)
         Me.RadioButtonWeaponartBow.TabIndex = 1
         Me.RadioButtonWeaponartBow.TabStop = True
         Me.RadioButtonWeaponartBow.Text = "Bow"
@@ -323,9 +358,10 @@ Partial Class FormDex
         'RadioButtonWeaponartHuntingspear
         '
         Me.RadioButtonWeaponartHuntingspear.AutoSize = True
-        Me.RadioButtonWeaponartHuntingspear.Location = New System.Drawing.Point(33, 187)
+        Me.RadioButtonWeaponartHuntingspear.Location = New System.Drawing.Point(44, 230)
+        Me.RadioButtonWeaponartHuntingspear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartHuntingspear.Name = "RadioButtonWeaponartHuntingspear"
-        Me.RadioButtonWeaponartHuntingspear.Size = New System.Drawing.Size(93, 17)
+        Me.RadioButtonWeaponartHuntingspear.Size = New System.Drawing.Size(120, 21)
         Me.RadioButtonWeaponartHuntingspear.TabIndex = 1
         Me.RadioButtonWeaponartHuntingspear.TabStop = True
         Me.RadioButtonWeaponartHuntingspear.Text = "Hunting Spear"
@@ -334,9 +370,10 @@ Partial Class FormDex
         'RadioButtonWeaponartGreatspear
         '
         Me.RadioButtonWeaponartGreatspear.AutoSize = True
-        Me.RadioButtonWeaponartGreatspear.Location = New System.Drawing.Point(494, 187)
+        Me.RadioButtonWeaponartGreatspear.Location = New System.Drawing.Point(659, 230)
+        Me.RadioButtonWeaponartGreatspear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartGreatspear.Name = "RadioButtonWeaponartGreatspear"
-        Me.RadioButtonWeaponartGreatspear.Size = New System.Drawing.Size(82, 17)
+        Me.RadioButtonWeaponartGreatspear.Size = New System.Drawing.Size(107, 21)
         Me.RadioButtonWeaponartGreatspear.TabIndex = 1
         Me.RadioButtonWeaponartGreatspear.TabStop = True
         Me.RadioButtonWeaponartGreatspear.Text = "Great Spear"
@@ -345,9 +382,10 @@ Partial Class FormDex
         'RadioButtonWeaponartHatchet
         '
         Me.RadioButtonWeaponartHatchet.AutoSize = True
-        Me.RadioButtonWeaponartHatchet.Location = New System.Drawing.Point(33, 108)
+        Me.RadioButtonWeaponartHatchet.Location = New System.Drawing.Point(44, 133)
+        Me.RadioButtonWeaponartHatchet.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartHatchet.Name = "RadioButtonWeaponartHatchet"
-        Me.RadioButtonWeaponartHatchet.Size = New System.Drawing.Size(63, 17)
+        Me.RadioButtonWeaponartHatchet.Size = New System.Drawing.Size(78, 21)
         Me.RadioButtonWeaponartHatchet.TabIndex = 1
         Me.RadioButtonWeaponartHatchet.TabStop = True
         Me.RadioButtonWeaponartHatchet.Text = "Hatchet"
@@ -356,20 +394,34 @@ Partial Class FormDex
         'RadioButtonWeaponartHammer
         '
         Me.RadioButtonWeaponartHammer.AutoSize = True
-        Me.RadioButtonWeaponartHammer.Location = New System.Drawing.Point(33, 148)
+        Me.RadioButtonWeaponartHammer.Location = New System.Drawing.Point(44, 182)
+        Me.RadioButtonWeaponartHammer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartHammer.Name = "RadioButtonWeaponartHammer"
-        Me.RadioButtonWeaponartHammer.Size = New System.Drawing.Size(64, 17)
+        Me.RadioButtonWeaponartHammer.Size = New System.Drawing.Size(82, 21)
         Me.RadioButtonWeaponartHammer.TabIndex = 1
         Me.RadioButtonWeaponartHammer.TabStop = True
         Me.RadioButtonWeaponartHammer.Text = "Hammer"
         Me.RadioButtonWeaponartHammer.UseVisualStyleBackColor = True
         '
+        'RadioButtonWeaponartGreatshield
+        '
+        Me.RadioButtonWeaponartGreatshield.AutoSize = True
+        Me.RadioButtonWeaponartGreatshield.Location = New System.Drawing.Point(659, 279)
+        Me.RadioButtonWeaponartGreatshield.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RadioButtonWeaponartGreatshield.Name = "RadioButtonWeaponartGreatshield"
+        Me.RadioButtonWeaponartGreatshield.Size = New System.Drawing.Size(108, 21)
+        Me.RadioButtonWeaponartGreatshield.TabIndex = 1
+        Me.RadioButtonWeaponartGreatshield.TabStop = True
+        Me.RadioButtonWeaponartGreatshield.Text = "Great Shield"
+        Me.RadioButtonWeaponartGreatshield.UseVisualStyleBackColor = True
+        '
         'RadioButtonWeaponartBuckler
         '
         Me.RadioButtonWeaponartBuckler.AutoSize = True
-        Me.RadioButtonWeaponartBuckler.Location = New System.Drawing.Point(187, 227)
+        Me.RadioButtonWeaponartBuckler.Location = New System.Drawing.Point(249, 279)
+        Me.RadioButtonWeaponartBuckler.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartBuckler.Name = "RadioButtonWeaponartBuckler"
-        Me.RadioButtonWeaponartBuckler.Size = New System.Drawing.Size(61, 17)
+        Me.RadioButtonWeaponartBuckler.Size = New System.Drawing.Size(76, 21)
         Me.RadioButtonWeaponartBuckler.TabIndex = 1
         Me.RadioButtonWeaponartBuckler.TabStop = True
         Me.RadioButtonWeaponartBuckler.Text = "Buckler"
@@ -378,9 +430,10 @@ Partial Class FormDex
         'RadioButtonWeaponartGreataxe
         '
         Me.RadioButtonWeaponartGreataxe.AutoSize = True
-        Me.RadioButtonWeaponartGreataxe.Location = New System.Drawing.Point(494, 108)
+        Me.RadioButtonWeaponartGreataxe.Location = New System.Drawing.Point(659, 133)
+        Me.RadioButtonWeaponartGreataxe.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartGreataxe.Name = "RadioButtonWeaponartGreataxe"
-        Me.RadioButtonWeaponartGreataxe.Size = New System.Drawing.Size(72, 17)
+        Me.RadioButtonWeaponartGreataxe.Size = New System.Drawing.Size(92, 21)
         Me.RadioButtonWeaponartGreataxe.TabIndex = 1
         Me.RadioButtonWeaponartGreataxe.TabStop = True
         Me.RadioButtonWeaponartGreataxe.Text = "Great Axe"
@@ -389,9 +442,10 @@ Partial Class FormDex
         'RadioButtonWeaponartWarspear
         '
         Me.RadioButtonWeaponartWarspear.AutoSize = True
-        Me.RadioButtonWeaponartWarspear.Location = New System.Drawing.Point(345, 187)
+        Me.RadioButtonWeaponartWarspear.Location = New System.Drawing.Point(460, 230)
+        Me.RadioButtonWeaponartWarspear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartWarspear.Name = "RadioButtonWeaponartWarspear"
-        Me.RadioButtonWeaponartWarspear.Size = New System.Drawing.Size(76, 17)
+        Me.RadioButtonWeaponartWarspear.Size = New System.Drawing.Size(97, 21)
         Me.RadioButtonWeaponartWarspear.TabIndex = 1
         Me.RadioButtonWeaponartWarspear.TabStop = True
         Me.RadioButtonWeaponartWarspear.Text = "War Spear"
@@ -400,9 +454,10 @@ Partial Class FormDex
         'RadioButtonWeaponartDagger
         '
         Me.RadioButtonWeaponartDagger.AutoSize = True
-        Me.RadioButtonWeaponartDagger.Location = New System.Drawing.Point(33, 71)
+        Me.RadioButtonWeaponartDagger.Location = New System.Drawing.Point(44, 87)
+        Me.RadioButtonWeaponartDagger.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartDagger.Name = "RadioButtonWeaponartDagger"
-        Me.RadioButtonWeaponartDagger.Size = New System.Drawing.Size(60, 17)
+        Me.RadioButtonWeaponartDagger.Size = New System.Drawing.Size(76, 21)
         Me.RadioButtonWeaponartDagger.TabIndex = 1
         Me.RadioButtonWeaponartDagger.TabStop = True
         Me.RadioButtonWeaponartDagger.Text = "Dagger"
@@ -411,9 +466,10 @@ Partial Class FormDex
         'RadioButtonWeaponartGreathammer
         '
         Me.RadioButtonWeaponartGreathammer.AutoSize = True
-        Me.RadioButtonWeaponartGreathammer.Location = New System.Drawing.Point(494, 148)
+        Me.RadioButtonWeaponartGreathammer.Location = New System.Drawing.Point(659, 182)
+        Me.RadioButtonWeaponartGreathammer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartGreathammer.Name = "RadioButtonWeaponartGreathammer"
-        Me.RadioButtonWeaponartGreathammer.Size = New System.Drawing.Size(93, 17)
+        Me.RadioButtonWeaponartGreathammer.Size = New System.Drawing.Size(122, 21)
         Me.RadioButtonWeaponartGreathammer.TabIndex = 1
         Me.RadioButtonWeaponartGreathammer.TabStop = True
         Me.RadioButtonWeaponartGreathammer.Text = "Great Hammer"
@@ -422,9 +478,10 @@ Partial Class FormDex
         'RadioButtonWeaponartWaraxe
         '
         Me.RadioButtonWeaponartWaraxe.AutoSize = True
-        Me.RadioButtonWeaponartWaraxe.Location = New System.Drawing.Point(345, 108)
+        Me.RadioButtonWeaponartWaraxe.Location = New System.Drawing.Point(460, 133)
+        Me.RadioButtonWeaponartWaraxe.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartWaraxe.Name = "RadioButtonWeaponartWaraxe"
-        Me.RadioButtonWeaponartWaraxe.Size = New System.Drawing.Size(66, 17)
+        Me.RadioButtonWeaponartWaraxe.Size = New System.Drawing.Size(82, 21)
         Me.RadioButtonWeaponartWaraxe.TabIndex = 1
         Me.RadioButtonWeaponartWaraxe.TabStop = True
         Me.RadioButtonWeaponartWaraxe.Text = "War Axe"
@@ -433,9 +490,10 @@ Partial Class FormDex
         'RadioButtonWeaponartWarhammer
         '
         Me.RadioButtonWeaponartWarhammer.AutoSize = True
-        Me.RadioButtonWeaponartWarhammer.Location = New System.Drawing.Point(345, 148)
+        Me.RadioButtonWeaponartWarhammer.Location = New System.Drawing.Point(460, 182)
+        Me.RadioButtonWeaponartWarhammer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartWarhammer.Name = "RadioButtonWeaponartWarhammer"
-        Me.RadioButtonWeaponartWarhammer.Size = New System.Drawing.Size(87, 17)
+        Me.RadioButtonWeaponartWarhammer.Size = New System.Drawing.Size(112, 21)
         Me.RadioButtonWeaponartWarhammer.TabIndex = 1
         Me.RadioButtonWeaponartWarhammer.TabStop = True
         Me.RadioButtonWeaponartWarhammer.Text = "War Hammer"
@@ -444,9 +502,10 @@ Partial Class FormDex
         'RadioButtonWeaponartGreatsword
         '
         Me.RadioButtonWeaponartGreatsword.AutoSize = True
-        Me.RadioButtonWeaponartGreatsword.Location = New System.Drawing.Point(494, 71)
+        Me.RadioButtonWeaponartGreatsword.Location = New System.Drawing.Point(659, 87)
+        Me.RadioButtonWeaponartGreatsword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartGreatsword.Name = "RadioButtonWeaponartGreatsword"
-        Me.RadioButtonWeaponartGreatsword.Size = New System.Drawing.Size(79, 17)
+        Me.RadioButtonWeaponartGreatsword.Size = New System.Drawing.Size(102, 21)
         Me.RadioButtonWeaponartGreatsword.TabIndex = 1
         Me.RadioButtonWeaponartGreatsword.TabStop = True
         Me.RadioButtonWeaponartGreatsword.Text = "Greatsword"
@@ -455,9 +514,10 @@ Partial Class FormDex
         'RadioButtonWeaponartLongsword
         '
         Me.RadioButtonWeaponartLongsword.AutoSize = True
-        Me.RadioButtonWeaponartLongsword.Location = New System.Drawing.Point(345, 71)
+        Me.RadioButtonWeaponartLongsword.Location = New System.Drawing.Point(460, 87)
+        Me.RadioButtonWeaponartLongsword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RadioButtonWeaponartLongsword.Name = "RadioButtonWeaponartLongsword"
-        Me.RadioButtonWeaponartLongsword.Size = New System.Drawing.Size(77, 17)
+        Me.RadioButtonWeaponartLongsword.Size = New System.Drawing.Size(98, 21)
         Me.RadioButtonWeaponartLongsword.TabIndex = 1
         Me.RadioButtonWeaponartLongsword.TabStop = True
         Me.RadioButtonWeaponartLongsword.Text = "Longsword"
@@ -466,9 +526,10 @@ Partial Class FormDex
         'LabelWeaponartIntro
         '
         Me.LabelWeaponartIntro.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelWeaponartIntro.Location = New System.Drawing.Point(12, 10)
+        Me.LabelWeaponartIntro.Location = New System.Drawing.Point(16, 12)
+        Me.LabelWeaponartIntro.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LabelWeaponartIntro.Name = "LabelWeaponartIntro"
-        Me.LabelWeaponartIntro.Size = New System.Drawing.Size(610, 42)
+        Me.LabelWeaponartIntro.Size = New System.Drawing.Size(813, 60)
         Me.LabelWeaponartIntro.TabIndex = 0
         Me.LabelWeaponartIntro.Text = resources.GetString("LabelWeaponartIntro.Text")
         '
@@ -492,50 +553,32 @@ Partial Class FormDex
         Me.PanelWeapondex.Controls.Add(Me.CheckBoxWepondexOnehandedaxes)
         Me.PanelWeapondex.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelWeapondex.Location = New System.Drawing.Point(0, 0)
+        Me.PanelWeapondex.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelWeapondex.Name = "PanelWeapondex"
-        Me.PanelWeapondex.Size = New System.Drawing.Size(634, 317)
+        Me.PanelWeapondex.Size = New System.Drawing.Size(845, 390)
         Me.PanelWeapondex.TabIndex = 3
         '
         'CheckBoxWeapondexWeaponcasting
         '
         Me.CheckBoxWeapondexWeaponcasting.AutoSize = True
-        Me.CheckBoxWeapondexWeaponcasting.Location = New System.Drawing.Point(187, 264)
+        Me.CheckBoxWeapondexWeaponcasting.Location = New System.Drawing.Point(249, 325)
+        Me.CheckBoxWeapondexWeaponcasting.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxWeapondexWeaponcasting.Name = "CheckBoxWeapondexWeaponcasting"
-        Me.CheckBoxWeapondexWeaponcasting.Size = New System.Drawing.Size(105, 17)
+        Me.CheckBoxWeapondexWeaponcasting.Size = New System.Drawing.Size(134, 21)
         Me.CheckBoxWeapondexWeaponcasting.TabIndex = 0
         Me.CheckBoxWeapondexWeaponcasting.Text = "Weapon Casting"
         Me.CheckBoxWeapondexWeaponcasting.UseVisualStyleBackColor = True
         '
-        'RadioButtonWeaponartGreatshield
-        '
-        Me.RadioButtonWeaponartGreatshield.AutoSize = True
-        Me.RadioButtonWeaponartGreatshield.Location = New System.Drawing.Point(494, 227)
-        Me.RadioButtonWeaponartGreatshield.Name = "RadioButtonWeaponartGreatshield"
-        Me.RadioButtonWeaponartGreatshield.Size = New System.Drawing.Size(83, 17)
-        Me.RadioButtonWeaponartGreatshield.TabIndex = 1
-        Me.RadioButtonWeaponartGreatshield.TabStop = True
-        Me.RadioButtonWeaponartGreatshield.Text = "Great Shield"
-        Me.RadioButtonWeaponartGreatshield.UseVisualStyleBackColor = True
-        '
-        'RadioButtonWeaponartKiteshield
-        '
-        Me.RadioButtonWeaponartKiteshield.AutoSize = True
-        Me.RadioButtonWeaponartKiteshield.Location = New System.Drawing.Point(345, 227)
-        Me.RadioButtonWeaponartKiteshield.Name = "RadioButtonWeaponartKiteshield"
-        Me.RadioButtonWeaponartKiteshield.Size = New System.Drawing.Size(75, 17)
-        Me.RadioButtonWeaponartKiteshield.TabIndex = 1
-        Me.RadioButtonWeaponartKiteshield.TabStop = True
-        Me.RadioButtonWeaponartKiteshield.Text = "Kite Shield"
-        Me.RadioButtonWeaponartKiteshield.UseVisualStyleBackColor = True
-        '
         'FormDex
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(634, 317)
+        Me.ClientSize = New System.Drawing.Size(845, 390)
         Me.Controls.Add(Me.PanelWeaponart)
         Me.Controls.Add(Me.PanelWeapondex)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.MaximumSize = New System.Drawing.Size(863, 437)
+        Me.MinimumSize = New System.Drawing.Size(863, 437)
         Me.Name = "FormDex"
         Me.Text = "Weapon Dex"
         Me.PanelWeaponart.ResumeLayout(False)

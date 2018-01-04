@@ -683,6 +683,29 @@
         Me.PanelDwarf.Enabled = False
     End Sub
 
+    Private Sub ButtonFairyKin_Click(sender As Object, e As EventArgs) Handles ButtonFairyKin.Click
+        Me.PanelKin.Enabled = True
+        Me.PanelKin.BringToFront()
+        Me.PanelFairy.Enabled = False
+        'resets
+        Me.RadioButtonFairyFlutter.Checked = False
+        Me.RadioButtonFairyIlluminate.Checked = False
+        Me.RadioButtonFairyPlanttelepathy.Checked = False
+        Me.RadioButtonFairyAhlucaro.Checked = False
+        Me.RadioButtonFairySzhoom.Checked = False
+    End Sub
+
+    Private Sub ButtonFairyBackground_Click(sender As Object, e As EventArgs) Handles ButtonFairyBackgrounds.Click
+        Me.PanelBackgrounds.Enabled = True
+        Me.PanelBackgrounds.BringToFront()
+        Me.PanelFairy.Enabled = False
+
+    End Sub
+
+    Private Sub ButtonFairyInfo_Click(sender As Object, e As EventArgs) Handles ButtonFairyInfo.Click
+        ConstructInfoForm("AttributeFairy")
+    End Sub
+
     Private Sub ButtonJadeImperialInfo_Click(sender As Object, e As EventArgs) Handles ButtonJadeImperialInfo.Click
         ConstructInfoForm("AttributeJadeImperial")
     End Sub
@@ -3869,7 +3892,7 @@
                 Surge = Surge + 1
             Else
                 MsgBox("You do not have enough XP!!")
-                End If
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -7851,6 +7874,7 @@
         End If
     End Sub
 
+#Region "Magic info"
     Private Sub LabelWizardKairomancy_Click(sender As Object, e As EventArgs) Handles LabelWizardKairomancy.Click
         ConstructInfoForm("ClassKairomancy")
     End Sub
@@ -7874,4 +7898,5 @@
     Private Sub LabelWizardNeuromancy_Click(sender As Object, e As EventArgs) Handles LabelWizardNeuromancy.Click
         ConstructInfoForm("ClassNeuromancy")
     End Sub
-
+#End Region
+End Class
