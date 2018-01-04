@@ -2358,11 +2358,11 @@
     End Sub
 
     Private Sub ButtonVoidknightScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonVoidknightScrollwritingMinus.Click
-        If DetectionR2 > 0 Then
-            DetectionR2 = DetectionR2 - 1
+        If ScrollWritingR2 > 0 Then
+            ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
-        ElseIf Detection > 0 Then
-            Detection = Detection - 1
+        ElseIf ScrollWriting > 0 Then
+            ScrollWriting = ScrollWriting - 1
             XP = XP + 5
         End If
         TalentLableChange()
@@ -4272,11 +4272,11 @@
     End Sub
 
     Private Sub ButtonKinesiokairoScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoScrollwritingMinus.Click
-        If DetectionR2 > 0 Then
-            DetectionR2 = DetectionR2 - 1
+        If ScrollWritingR2 > 0 Then
+            ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
-        ElseIf Detection > 0 Then
-            Detection = Detection - 1
+        ElseIf ScrollWriting > 0 Then
+            ScrollWriting = ScrollWriting - 1
             XP = XP + 5
         End If
         TalentLableChange()
@@ -4615,7 +4615,7 @@
 
     Private Sub ButtonKinesiopyroFireballMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroFireballMinus.Click
         If FireballR2 > 0 Then
-            FireballR2 = SurgeR2 - 1
+            FireballR2 = FireballR2 - 1
             XP = XP + 5
         ElseIf (Surge + Fireball = 1) Then
             Fireball = Fireball - 1
@@ -4627,7 +4627,14 @@
     End Sub
 
     Private Sub ButtonKinesiopyroForestyMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroForestyMinus.Click
-
+        If ForestryR2 = 1 Then
+            ForestryR2 = ForestryR2 - 1
+            XP = XP + 15
+        ElseIf Forestry = 1 Then
+            Forestry = Forestry - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonKinesiopyroLeatherworkingMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroLeatherworkingMinus.Click
@@ -4698,11 +4705,11 @@
     End Sub
 
     Private Sub ButtonKinesiopyroScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroScrollwritingMinus.Click
-        If DetectionR2 > 0 Then
-            DetectionR2 = DetectionR2 - 1
+        If ScrollWritingR2 > 0 Then
+            ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
-        ElseIf Detection > 0 Then
-            Detection = Detection - 1
+        ElseIf ScrollWriting > 0 Then
+            ScrollWriting = ScrollWriting - 1
             XP = XP + 5
         End If
         TalentLableChange()
@@ -5129,11 +5136,11 @@
     End Sub
 
     Private Sub ButtonKinesiohydroScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroScrollwritingMinus.Click
-        If DetectionR2 > 0 Then
-            DetectionR2 = DetectionR2 - 1
+        If ScrollWritingR2 > 0 Then
+            ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
-        ElseIf Detection > 0 Then
-            Detection = Detection - 1
+        ElseIf ScrollWriting > 0 Then
+            ScrollWriting = ScrollWriting - 1
             XP = XP + 5
         End If
         TalentLableChange()
@@ -5457,11 +5464,29 @@
     End Sub
 
     Private Sub ButtonNecrokairoLifesyphoneMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoLifesyphoneMinus.Click
-
+        If LifeSyphonR2 > 0 Then
+            LifeSyphonR2 = LifeSyphonR2 - 1
+            XP = XP + 5
+        ElseIf (LifeSyphon + LightningBolt = 1) Then
+            LifeSyphon = LifeSyphon - 1
+        ElseIf LifeSyphon > 0 Then
+            LifeSyphon = LifeSyphon - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNecrokairoLightningboltMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoLightningboltMinus.Click
-
+        If LightningBoltR2 > 0 Then
+            LightningBoltR2 = LightningBoltR2 - 1
+            XP = XP + 5
+        ElseIf (LifeSyphon + LightningBolt = 1) Then
+            LightningBolt = LightningBolt - 1
+        ElseIf LightningBolt > 0 Then
+            LightningBolt = LightningBolt - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNecrokairoForestryMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoForestryMinus.Click
@@ -5543,11 +5568,11 @@
     End Sub
 
     Private Sub ButtonNecrokairoScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoScrollwritingMinus.Click
-        If DetectionR2 > 0 Then
-            DetectionR2 = DetectionR2 - 1
+        If ScrollWritingR2 > 0 Then
+            ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
-        ElseIf Detection > 0 Then
-            Detection = Detection - 1
+        ElseIf ScrollWriting > 0 Then
+            ScrollWriting = ScrollWriting - 1
             XP = XP + 5
         End If
         TalentLableChange()
@@ -5871,11 +5896,29 @@
     End Sub
 
     Private Sub ButtonNecropyroLifesyphoneMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroLifesyphoneMinus.Click
-
+        If LifeSyphonR2 > 0 Then
+            LifeSyphonR2 = LifeSyphonR2 - 1
+            XP = XP + 5
+        ElseIf (LifeSyphon + fireball = 1) Then
+            LifeSyphon = LifeSyphon - 1
+        ElseIf LifeSyphon > 0 Then
+            LifeSyphon = LifeSyphon - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNecropyroFireballMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroFireballMinus.Click
-
+        If FireballR2 > 0 Then
+            FireballR2 = FireballR2 - 1
+            XP = XP + 5
+        ElseIf (LifeSyphon + fireball = 1) Then
+            Fireball = Fireball - 1
+        ElseIf fireball > 0 Then
+            Fireball = Fireball - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNecropyroForestryMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroForestryMinus.Click
@@ -5957,11 +6000,11 @@
     End Sub
 
     Private Sub ButtonNecropyroScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroScrollwritingMinus.Click
-        If DetectionR2 > 0 Then
-            DetectionR2 = DetectionR2 - 1
+        If ScrollWritingR2 > 0 Then
+            ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
-        ElseIf Detection > 0 Then
-            Detection = Detection - 1
+        ElseIf ScrollWriting > 0 Then
+            ScrollWriting = ScrollWriting - 1
             XP = XP + 5
         End If
         TalentLableChange()
@@ -6284,11 +6327,29 @@
     End Sub
 
     Private Sub ButtonNecrohydroLifesyphonMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroLifesyphonMinus.Click
-
+        If LifeSyphonR2 > 0 Then
+            LifeSyphonR2 = LifeSyphonR2 - 1
+            XP = XP + 5
+        ElseIf (LifeSyphon + Snowball = 1) Then
+            LifeSyphon = LifeSyphon - 1
+        ElseIf LifeSyphon > 0 Then
+            LifeSyphon = LifeSyphon - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNecrohydroSnowballMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroSnowballMinus.Click
-
+        If SnowballR2 > 0 Then
+            SnowballR2 = SnowballR2 - 1
+            XP = XP + 5
+        ElseIf (Migraine + Snowball = 1) Then
+            Snowball = Snowball - 1
+        ElseIf Snowball > 0 Then
+            Snowball = Snowball - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNecrohydroForestryMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroForestryMinus.Click
@@ -6370,11 +6431,11 @@
     End Sub
 
     Private Sub ButtonNecrohydroScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroScrollwritingMinus.Click
-        If DetectionR2 > 0 Then
-            DetectionR2 = DetectionR2 - 1
+        If ScrollWritingR2 > 0 Then
+            ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
-        ElseIf Detection > 0 Then
-            Detection = Detection - 1
+        ElseIf ScrollWriting > 0 Then
+            ScrollWriting = ScrollWriting - 1
             XP = XP + 5
         End If
         TalentLableChange()
@@ -6696,11 +6757,29 @@
     End Sub
 
     Private Sub ButtonNeurokairoMigraineMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoMigraineMinus.Click
-
+        If MigraineR2 > 0 Then
+            MigraineR2 = MigraineR2 - 1
+            XP = XP + 5
+        ElseIf (Migraine + LightningBolt = 1) Then
+            Migraine = Migraine - 1
+        ElseIf Migraine > 0 Then
+            Migraine = Migraine - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNeurokairoLightningboldMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoLightningboldMinus.Click
-
+        If LightningBoltR2 > 0 Then
+            LightningBoltR2 = LightningBoltR2 - 1
+            XP = XP + 5
+        ElseIf (Migraine + LightningBolt = 1) Then
+            LightningBolt = LightningBolt - 1
+        ElseIf LightningBolt > 0 Then
+            LightningBolt = LightningBolt - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNeurokairoForestryMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoForestryMinus.Click
@@ -6782,11 +6861,11 @@
     End Sub
 
     Private Sub ButtonNeurokairoScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoScrollwritingMinus.Click
-        If DetectionR2 > 0 Then
-            DetectionR2 = DetectionR2 - 1
+        If ScrollWritingR2 > 0 Then
+            ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
-        ElseIf Detection > 0 Then
-            Detection = Detection - 1
+        ElseIf ScrollWriting > 0 Then
+            ScrollWriting = ScrollWriting - 1
             XP = XP + 5
         End If
         TalentLableChange()
@@ -7110,11 +7189,29 @@
     End Sub
 
     Private Sub ButtonNeuropyroMigraineMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroMigraineMinus.Click
-
+        If MigraineR2 > 0 Then
+            MigraineR2 = MigraineR2 - 1
+            XP = XP + 5
+        ElseIf (Migraine + Fireball = 1) Then
+            Migraine = Migraine - 1
+        ElseIf Migraine > 0 Then
+            Migraine = Migraine - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNeuropyroFireballMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroFireballMinus.Click
-
+        If FireballR2 > 0 Then
+            FireballR2 = FireballR2 - 1
+            XP = XP + 5
+        ElseIf (Migraine + Fireball = 1) Then
+            Fireball = Fireball - 1
+        ElseIf Fireball > 0 Then
+            Fireball = Fireball - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNeuropyroForestryMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroForestryMinus.Click
@@ -7196,11 +7293,11 @@
     End Sub
 
     Private Sub ButtonNeuropyroScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroScrollwritingMinus.Click
-        If DetectionR2 > 0 Then
-            DetectionR2 = DetectionR2 - 1
+        If ScrollWritingR2 > 0 Then
+            ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
-        ElseIf Detection > 0 Then
-            Detection = Detection - 1
+        ElseIf ScrollWriting > 0 Then
+            ScrollWriting = ScrollWriting - 1
             XP = XP + 5
         End If
         TalentLableChange()
@@ -7524,11 +7621,29 @@
     End Sub
 
     Private Sub ButtonNeuroHydroMigraineMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroMigraineMinus.Click
-
+        If MigraineR2 > 0 Then
+            MigraineR2 = MigraineR2 - 1
+            XP = XP + 5
+        ElseIf (migraine + Snowball = 1) Then
+            Migraine = Migraine - 1
+        ElseIf migraine > 0 Then
+            Migraine = Migraine - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNeuroHydroSnowballMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroSnowballMinus.Click
-
+        If SnowballR2 > 0 Then
+            SnowballR2 = SnowballR2 - 1
+            XP = XP + 5
+        ElseIf (migraine + Snowball = 1) Then
+            Snowball = Snowball - 1
+        ElseIf Snowball > 0 Then
+            Snowball = Snowball - 1
+            XP = XP + 5
+        End If
+        TalentLableChange()
     End Sub
 
     Private Sub ButtonNeuroHydroForestryMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroForestryMinus.Click
@@ -7610,11 +7725,11 @@
     End Sub
 
     Private Sub ButtonNeuroHydroScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroScrollwritingMinus.Click
-        If DetectionR2 > 0 Then
-            DetectionR2 = DetectionR2 - 1
+        If ScrollWritingR2 > 0 Then
+            ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
-        ElseIf Detection > 0 Then
-            Detection = Detection - 1
+        ElseIf ScrollWriting > 0 Then
+            ScrollWriting = ScrollWriting - 1
             XP = XP + 5
         End If
         TalentLableChange()
