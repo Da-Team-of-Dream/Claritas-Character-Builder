@@ -108,7 +108,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -129,7 +129,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -150,7 +150,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -173,7 +173,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -194,7 +194,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -215,7 +215,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -236,7 +236,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -257,7 +257,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -278,7 +278,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -299,7 +299,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -320,7 +320,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -341,7 +341,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -366,7 +366,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -387,7 +387,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -408,7 +408,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -429,7 +429,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -452,7 +452,7 @@
             RadioButtonHalfbreedGnome.Enabled = False
             RadioButtonHalfbreedGoblin.Enabled = False
             RadioButtonHalfbreedHighelf.Enabled = False
-            RadioButtonHalfbreedHobbit.Enabled = False
+            RadioButtonHalfbreedFaerleth.Enabled = False
             RadioButtonHalfbreedMinotaur.Enabled = False
             RadioButtonHalfbreedNyad.Enabled = False
             RadioButtonHalfbreedOrc.Enabled = False
@@ -8013,5 +8013,158 @@
     Private Sub LabelWizardNeuromancy_Click(sender As Object, e As EventArgs) Handles LabelWizardNeuromancy.Click
         ConstructInfoForm("ClassNeuromancy")
     End Sub
+#End Region
+
+#Region "Character Sheet Construction"
+    Function Charactersheetkin() As String
+        Dim Chosenkin As String = ""
+        If RadioButtonKinAngalucian.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Angalucian"
+        End If
+        If RadioButtonKinCatdrah.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Catdrah"
+        End If
+        If RadioButtonKinDarkelf.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Dark Elf"
+        End If
+        If RadioButtonKinDrakhonon.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Drakhonon"
+        End If
+        If RadioButtonKinDryad.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Dryad"
+        End If
+        If RadioButtonKinDwarf.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Dwarf"
+        End If
+        If RadioButtonKinFairy.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Fairy"
+        End If
+        If RadioButtonKinFelucian.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Felucian"
+        End If
+        If RadioButtonKinGiGaYoNa.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Gi-Ga-Yo-Na"
+        End If
+        If RadioButtonKinGnome.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Gnome"
+        End If
+        If RadioButtonKinGoblin.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Goblin"
+        End If
+        If RadioButtonKinHighElf.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "High Elf"
+        End If
+        If RadioButtonKinFaerleth.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Faerleth"
+        End If
+        If RadioButtonKinJadeImperial.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Jadeimperial"
+        End If
+        If RadioButtonKinKinsmen.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Kinsmen"
+        End If
+        If RadioButtonKinMinotaur.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Minotaur"
+        End If
+        If RadioButtonKinNyad.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Nyad"
+        End If
+        If RadioButtonKinOrc.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Orc"
+        End If
+        If RadioButtonSanjoran.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Sanjoran"
+        End If
+        If RadioButtonKinSquirrel.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Squirrel"
+        End If
+        If RadioButtonTroll.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Troll"
+        End If
+        If RadioButtonKinWastelander.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Wastelander"
+        End If
+        If RadioButtonKinWolfsbein.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Wolfsbein"
+        End If
+        If RadioButtonKinWoodElf.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Wood Elf"
+        End If
+        If RadioButtonHalfbreedAngelucian.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Angelucian"
+        End If
+        If RadioButtonHalfbreedCatdrah.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Catdrah"
+        End If
+        If RadioButtonHalfbreedDarkelf.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Dark Elf"
+        End If
+        If RadioButtonHalfbreedDrakhonon.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Drakhonon"
+        End If
+        If RadioButtonHalfbreedDryad.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Dryad"
+        End If
+        If RadioButtonHalfbreedDwarf.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Dwarf"
+        End If
+        If RadioButtonHalfbreedFairy.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Fairy"
+        End If
+        If RadioButtonHalfbreedFelucian.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Felucian"
+        End If
+        If RadioButtonHalfbreedGigayona.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Gigayona"
+        End If
+        If RadioButtonHalfbreedGnome.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Gnome"
+        End If
+        If RadioButtonHalfbreedGoblin.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Goblin"
+        End If
+        If RadioButtonHalfbreedHighelf.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "High Elf"
+        End If
+        If RadioButtonHalfbreedFaerleth.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Faerleth"
+        End If
+        If RadioButtonHalfbreedJadeimperial.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Jade Imperial"
+        End If
+        If RadioButtonHalfbreedKinsmen.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Kinsmen"
+        End If
+        If RadioButtonHalfbreedMinotaur.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Minotaur"
+        End If
+        If RadioButtonHalfbreedNyad.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Nyad"
+        End If
+        If RadioButtonHalfbreedOrc.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Orc"
+        End If
+        If RadioButtonHalfbreedSanjoran.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Sanjoran"
+        End If
+        If RadioButtonHalfbreedSquirrel.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Squirrel"
+        End If
+        If RadioButtonHalfbreedTroll.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Troll"
+        End If
+        If RadioButtonHalfbreedWastelander.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Wastelander"
+        End If
+        If RadioButtonHalfbreedWolfsbein.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Wolfsbein"
+        End If
+        If RadioButtonHalfbreedWoodelf.Checked = True Then
+            Chosenkin = Chosenkin & vbCrLf & "Woodelf"
+        End If
+        Return Chosenkin
+    End Function
+
+
 #End Region
 End Class
