@@ -64,6 +64,8 @@ Partial Class FormDex
         Me.LabelWeaponartIntro = New System.Windows.Forms.Label()
         Me.PanelWeapondex = New System.Windows.Forms.Panel()
         Me.CheckBoxWeapondexWeaponcasting = New System.Windows.Forms.CheckBox()
+        Me.ButtonWeapondexForm1 = New System.Windows.Forms.Button()
+        Me.ButtonWeaponartForm1 = New System.Windows.Forms.Button()
         Me.PanelWeaponart.SuspendLayout()
         Me.PanelWeapondex.SuspendLayout()
         Me.SuspendLayout()
@@ -209,7 +211,7 @@ Partial Class FormDex
         '
         'ButtonWeapondexWeaponart
         '
-        Me.ButtonWeapondexWeaponart.Location = New System.Drawing.Point(530, 282)
+        Me.ButtonWeapondexWeaponart.Location = New System.Drawing.Point(530, 281)
         Me.ButtonWeapondexWeaponart.Name = "ButtonWeapondexWeaponart"
         Me.ButtonWeapondexWeaponart.Size = New System.Drawing.Size(86, 23)
         Me.ButtonWeapondexWeaponart.TabIndex = 2
@@ -218,6 +220,7 @@ Partial Class FormDex
         '
         'PanelWeaponart
         '
+        Me.PanelWeaponart.Controls.Add(Me.ButtonWeaponartForm1)
         Me.PanelWeaponart.Controls.Add(Me.ButtonWeaponartInfo)
         Me.PanelWeaponart.Controls.Add(Me.ButtonWeaponartWeapondex)
         Me.PanelWeaponart.Controls.Add(Me.RadioButtonWeaponartBattlespear)
@@ -258,7 +261,7 @@ Partial Class FormDex
         '
         'ButtonWeaponartWeapondex
         '
-        Me.ButtonWeaponartWeapondex.Location = New System.Drawing.Point(13, 282)
+        Me.ButtonWeaponartWeapondex.Location = New System.Drawing.Point(13, 281)
         Me.ButtonWeaponartWeapondex.Name = "ButtonWeaponartWeapondex"
         Me.ButtonWeaponartWeapondex.Size = New System.Drawing.Size(75, 23)
         Me.ButtonWeaponartWeapondex.TabIndex = 2
@@ -498,6 +501,7 @@ Partial Class FormDex
         '
         'PanelWeapondex
         '
+        Me.PanelWeapondex.Controls.Add(Me.ButtonWeapondexForm1)
         Me.PanelWeapondex.Controls.Add(Me.ButtonWeapondexWeaponart)
         Me.PanelWeapondex.Controls.Add(Me.LabelWeapondexIntro)
         Me.PanelWeapondex.Controls.Add(Me.CheckBoxWepondexDualwielding)
@@ -530,13 +534,31 @@ Partial Class FormDex
         Me.CheckBoxWeapondexWeaponcasting.Text = "Weapon Casting"
         Me.CheckBoxWeapondexWeaponcasting.UseVisualStyleBackColor = True
         '
+        'ButtonWeapondexForm1
+        '
+        Me.ButtonWeapondexForm1.Location = New System.Drawing.Point(365, 281)
+        Me.ButtonWeapondexForm1.Name = "ButtonWeapondexForm1"
+        Me.ButtonWeapondexForm1.Size = New System.Drawing.Size(149, 23)
+        Me.ButtonWeapondexForm1.TabIndex = 3
+        Me.ButtonWeapondexForm1.Text = "Back to Character Builder"
+        Me.ButtonWeapondexForm1.UseVisualStyleBackColor = True
+        '
+        'ButtonWeaponartForm1
+        '
+        Me.ButtonWeaponartForm1.Location = New System.Drawing.Point(365, 281)
+        Me.ButtonWeaponartForm1.Name = "ButtonWeaponartForm1"
+        Me.ButtonWeaponartForm1.Size = New System.Drawing.Size(149, 23)
+        Me.ButtonWeaponartForm1.TabIndex = 4
+        Me.ButtonWeaponartForm1.Text = "Back to Character Builder"
+        Me.ButtonWeaponartForm1.UseVisualStyleBackColor = True
+        '
         'FormDex
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(635, 323)
-        Me.Controls.Add(Me.PanelWeapondex)
         Me.Controls.Add(Me.PanelWeaponart)
+        Me.Controls.Add(Me.PanelWeapondex)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.MaximumSize = New System.Drawing.Size(651, 362)
@@ -592,4 +614,6 @@ Partial Class FormDex
     Friend WithEvents CheckBoxWeapondexWeaponcasting As CheckBox
     Friend WithEvents RadioButtonWeaponartKiteshield As RadioButton
     Friend WithEvents RadioButtonWeaponartGreatshield As RadioButton
+    Friend WithEvents ButtonWeaponartForm1 As Button
+    Friend WithEvents ButtonWeapondexForm1 As Button
 End Class
