@@ -715,7 +715,7 @@
         Me.PanelKin.BringToFront()
         Me.PanelJadeImperial.Enabled = False
         'resets
-        Me.RadioButtonJadeImperailSanctioned.Checked = False
+        Me.RadioButtonJadeImperialSanctioned.Checked = False
         Me.RadioButtonJadeImperialAncestry.Checked = False
         Me.RadioButtonJadeImperialTeamPlayer.Checked = False
     End Sub
@@ -8164,7 +8164,394 @@
         End If
         Return Chosenkin
     End Function
+    Function Charactersheetclass() As String
+        Dim Chosenclass As String = ""
+        If RadioButtonClassCleric.Checked = True Then
+            Chosenclass = Chosenclass & vbCrLf & "Cleric"
+        End If
+        If RadioButtonClassNoble.Checked = True Then
+            Chosenclass = Chosenclass & vbCrLf & "Noble"
+        End If
+        If RadioButtonClassRanger.Checked = True Then
+            Chosenclass = Chosenclass & vbCrLf & "Ranger"
+        End If
+        If RadioButtonClassRogue.Checked = True Then
+            Chosenclass = Chosenclass & vbCrLf & "Rogue"
+        End If
+        If RadioButtonClassVoidKnight.Checked = True Then
+            Chosenclass = Chosenclass & vbCrLf & "Void Knight"
+        End If
+        If RadioButtonClassWarrior.Checked = True Then
+            Chosenclass = Chosenclass & vbCrLf & "Warrior"
+        End If
+        If RadioButtonClassWizard.Checked = True Then
+            Chosenclass = Chosenclass & vbCrLf & "Wizard"
+        End If
 
+        Return ChosenClass
+    End Function
+    Function Charactersheetmodifier() As String
+        Dim Chosenmodifier As String = ""
+        If RadioButtonModifiersCommon.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Common"
+        End If
+        If RadioButtonModifiersHalfBreed.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Half-Breed"
+        End If
+        If RadioButtonModifiersSoulSplitter.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Soul-Splitter"
+        End If
+        If RadioButtonModifiersSparkofInsanity.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Spark of Insanity"
+        End If
+        If RadioButtonModifiersUndead.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Undead"
+        End If
+        If RadioButtonModifiersVampiric.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Vampiric"
+        End If
+        If RadioButtonModifiersWerewolf.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "WereWolf"
+        End If
+        If RadioButtonModifiersBoundWeapon.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Bound Weapon"
+        End If
+        If RadioButtonModifiersNaturalist.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Naturalist"
+        End If
+        If RadioButtonModifiersGuant.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Guant"
+        End If
+        If RadioButtonModifiersFastMetabolism.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Fast Metabolism"
+        End If
+        If RadioButtonModifiersToughskin.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Tough Skin"
+        End If
+        If RadioButtonModifiersFlashback.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Flashback"
+        End If
+        If RadioButtonModifiersIndebtedsoul.Checked = True Then
+            Chosenmodifier = Chosenmodifier & vbCrLf & "Indebted Soul"
+        End If
 
+        Return Chosenmodifier
+    End Function
+    Function CharactersheetBackgrounds() As String
+        Dim ChosenBackgrounds As String = ""
+        If CheckBoxBackgroundsSeaworthy.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Seaworthy"
+        End If
+        If CheckBoxBackgroundsBlacksmith.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Blacksmith"
+        End If
+        If CheckBoxBackgroundsTailor.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Tailor"
+        End If
+        If CheckBoxBackgroundsScholar.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Scholar"
+        End If
+        If CheckBoxBackgroundsArcanescholar.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Arcane Scholar"
+        End If
+        If CheckBoxBackgroundsRepairman.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Repairman"
+        End If
+        If CheckBoxBackgroundsFisherman.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Fisherman"
+        End If
+        If CheckBoxBackgroundsArchitect.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Architect"
+        End If
+        If CheckBoxBackgroundsWoodsman.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Woodsman"
+        End If
+        If CheckBoxBackgroundsCartographer.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Cartographer"
+        End If
+        If CheckBoxBackgroundsSmuggler.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Smuggler"
+        End If
+        If CheckBoxBackgroundsHistorian.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Historian"
+        End If
+        If CheckBoxBackgroundsBotanist.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Botanist"
+        End If
+        If CheckBoxBackgroundsMiddleman.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Middleman"
+        End If
+        If CheckBoxBackgroundsGuard.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Guard"
+        End If
+        If CheckBoxBackgroundsEnchantmentspecialist.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Enchantment Specialist"
+        End If
+        If CheckBoxBackgroundsCleanser.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Cleanser"
+        End If
+        If CheckBoxBackgroundsTradesman.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Tradesman"
+        End If
+        If CheckBoxBackgroundsWanderer.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Wanderer"
+        End If
+        If CheckBoxBackgroundsUrchin.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Urchin"
+        End If
+        If CheckBoxBackgroundsWeaponsarmorknowledge.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Weapons and Armor Knowledge"
+        End If
+        If CheckBoxBackgroundsCourier.Checked = True Then
+            ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Courier"
+        End If
+
+        Return Chosenbackgrounds
+    End Function
+    Function CharactersheetAttribute() As String
+        Dim ChosenAttribute As String = ""
+        If RadioButtonAngalucianAmaze.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Amaze"
+        End If
+        If RadioButtonAngalucianBeaconoflight.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Beacon of Light"
+        End If
+        If RadioButtonAngalucianBlessedweapon.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Blessed Weapon"
+        End If
+        If RadioButtonAngalucianFlight.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Flight"
+        End If
+        If RadioButtonAngalucianTakeheed.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Take Heed"
+        End If
+        If RadioButtonCatdrahClimbTree.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Tree Climb"
+        End If
+        If RadioButtonCatdrahCuteness.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Cuteness"
+        End If
+        If RadioButtonCatdrahSafeLanding.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Safe Landing"
+        End If
+        If RadioButtonDarkelfAlignment.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Alignment"
+        End If
+        If RadioButtonDarkelfLightsleeper.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Light Sleeper"
+        End If
+        If RadioButtonDarkelfNightvision.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Night Vision"
+        End If
+        If RadioButtonDrakohnonDragonskin.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Dragonskin"
+        End If
+        If RadioButtonDrakohnonFireisenergy.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Fire is Energy"
+        End If
+        If RadioButtonDrakohnonHeatvision.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Heat Vision"
+        End If
+        If RadioButtonDrakohnonPiercinggaze.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Piercing Gaze"
+        End If
+        If RadioButtonDryadBarkSkin.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Bark Skin"
+        End If
+        If RadioButtonDryadNutrients.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Nutrients"
+        End If
+        If RadioButtonDryadRooted.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Rooted"
+        End If
+        If RadioButtonDwarfDwarfIt.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Dwarf it"
+        End If
+        If RadioButtonDwarfExamination.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Examination"
+        End If
+        If RadioButtonDwarfLowLightVision.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Low-light Vision"
+        End If
+        If RadioButtonFaerlethHideyhole.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Hidey Hole"
+        End If
+        If RadioButtonFaerlethMastermunchyologist.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Master Munchyologist"
+        End If
+        If RadioButtonFaerlethRiddle.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Riddle"
+        End If
+        If RadioButtonFaerlethToughfeet.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Tough Feet"
+        End If
+        If RadioButtonFairyAhlucaro.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Ahlucaro"
+        End If
+        If RadioButtonFairyFlutter.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Flutter"
+        End If
+        If RadioButtonFairyIlluminate.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Illuminate"
+        End If
+        If RadioButtonFairyPlanttelepathy.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Plant Telepathy"
+        End If
+        If RadioButtonFairySzhoom.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Szhoom"
+        End If
+        If RadioButtonFelucianDarkness.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Darkness"
+        End If
+        If RadioButtonFelucianHangingaround.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Hanging Around"
+        End If
+        If RadioButtonFelucianWingburst.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Wingburst"
+        End If
+        If RadioButtonGigayonaBellysmash.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Belly Smash"
+        End If
+        If RadioButtonGigayonaFoodsfood.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Foods Food"
+        End If
+        If RadioButtonGigayonaThickcoat.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Thick Coat"
+        End If
+        If RadioButtonGnomeEfficientArmor.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Efficient Armor"
+        End If
+        If RadioButtonGnomeSmallSize.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Small Size"
+        End If
+        If RadioButtonGnomeTrinkets.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Trinkets"
+        End If
+        If RadioButtonGoblinEntertaining.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Enertaining"
+        End If
+        If RadioButtonGoblinLightFrame.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Light Frame"
+        End If
+        If RadioButtonGoblinRollAway.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Roll Away"
+        End If
+        If RadioButtonHighelfBedazzle.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Bedazzle"
+        End If
+        If RadioButtonHighelfColorsofthewind.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Colors of the Wind"
+        End If
+        If RadioButtonHighelfLightfoot.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Light Foot"
+        End If
+        If RadioButtonJadeImperialAncestry.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Ancestry"
+        End If
+        If RadioButtonJadeImperialTeamPlayer.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Team Player"
+        End If
+        If RadioButtonJadeImperialSanctioned.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Sanctioned"
+        End If
+        If RadioButtonKinsmanMilitia.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Militia"
+        End If
+        If RadioButtonKinsmanNeutrality.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Neutrality"
+        End If
+        If RadioButtonKinsmanTrustMe.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Trust Me"
+        End If
+        If RadioButtonMinotaurCharge.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Chargge"
+        End If
+        If RadioButtonMinotaurDaunting.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Daunting"
+        End If
+        If RadioButtonMinotaurRam.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Ram"
+        End If
+        If RadioButtonNyadFlow.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Flow"
+        End If
+        If RadioButtonNyadSqueeze.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Squeeze"
+        End If
+        If RadioButtonNyadTaint.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Taint"
+        End If
+        If RadioButtonNyadThebiggertheyare.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "The Bigger they are"
+        End If
+        If RadioButtonNyadWateraffinity.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Water Affinity"
+        End If
+        If RadioButtonOrcBloodpool.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Bloodpool"
+        End If
+        If RadioButtonOrcFeelnopain.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Feel no Pain"
+        End If
+        If RadioButtonOrcGruff.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Gruff"
+        End If
+        If RadioButtonSanjoranNip.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Nip"
+        End If
+        If RadioButtonSanjoranRegrowth.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Regrowth"
+        End If
+        If RadioButtonSanjoranResistance.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Resistance"
+        End If
+        If RadioButtonSquirrelForage.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Forage"
+        End If
+        If RadioButtonSquirrelHonorDuel.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Honor Duel"
+        End If
+        If RadioButtonSquirrelTacticalWithdrawl.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Tactical Withdrawl"
+        End If
+        If RadioButtonTrollLug.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Lug"
+        End If
+        If RadioButtonTrollStoneDigestion.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Stone Digestion"
+        End If
+        If RadioButtonTrollStout.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Stout"
+        End If
+        If RadioButtonWastelanderBlendin.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Blend in"
+        End If
+        If RadioButtonWastelanderStreetsmart.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Street Smart"
+        End If
+        If RadioButtonWastelanderThuroughsearch.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Thurough Search"
+        End If
+        If RadioButtonWolfsbeinPowerthrough.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Power Through"
+        End If
+        If RadioButtonWolfsbeinRedolent.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Redolent"
+        End If
+        If RadioButtonWolfsbeinTrustworthy.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Trustworthy"
+        End If
+        If RadioButtonWoodelfElementaryinvocation.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Elementary Invocation"
+        End If
+        If RadioButtonWoodelfForestflight.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Forest Flight"
+        End If
+        If RadioButtonWoodelfLifeattunement.Checked = True Then
+            ChosenAttribute = ChosenAttribute & vbCrLf & "Life Attunement"
+        End If
+
+        Return ChosenAttribute
+    End Function
 #End Region
 End Class

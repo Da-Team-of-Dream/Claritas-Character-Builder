@@ -140,7 +140,7 @@ Partial Class Form1
         Me.ButtonJadeImperialInfo = New System.Windows.Forms.Button()
         Me.RadioButtonJadeImperialTeamPlayer = New System.Windows.Forms.RadioButton()
         Me.RadioButtonJadeImperialAncestry = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonJadeImperailSanctioned = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonJadeImperialSanctioned = New System.Windows.Forms.RadioButton()
         Me.LabelJadeImperialIntro = New System.Windows.Forms.Label()
         Me.ButtonJadeImperialBackgrounds = New System.Windows.Forms.Button()
         Me.ButtonJadeImperialKin = New System.Windows.Forms.Button()
@@ -2433,7 +2433,7 @@ Partial Class Form1
         Me.PanelJadeImperial.Controls.Add(Me.ButtonJadeImperialInfo)
         Me.PanelJadeImperial.Controls.Add(Me.RadioButtonJadeImperialTeamPlayer)
         Me.PanelJadeImperial.Controls.Add(Me.RadioButtonJadeImperialAncestry)
-        Me.PanelJadeImperial.Controls.Add(Me.RadioButtonJadeImperailSanctioned)
+        Me.PanelJadeImperial.Controls.Add(Me.RadioButtonJadeImperialSanctioned)
         Me.PanelJadeImperial.Controls.Add(Me.LabelJadeImperialIntro)
         Me.PanelJadeImperial.Controls.Add(Me.ButtonJadeImperialBackgrounds)
         Me.PanelJadeImperial.Controls.Add(Me.ButtonJadeImperialKin)
@@ -2478,17 +2478,17 @@ Partial Class Form1
         Me.RadioButtonJadeImperialAncestry.Text = "Ancestry"
         Me.RadioButtonJadeImperialAncestry.UseVisualStyleBackColor = True
         '
-        'RadioButtonJadeImperailSanctioned
+        'RadioButtonJadeImperialSanctioned
         '
-        Me.RadioButtonJadeImperailSanctioned.AutoSize = True
-        Me.RadioButtonJadeImperailSanctioned.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonJadeImperailSanctioned.Location = New System.Drawing.Point(267, 121)
-        Me.RadioButtonJadeImperailSanctioned.Name = "RadioButtonJadeImperailSanctioned"
-        Me.RadioButtonJadeImperailSanctioned.Size = New System.Drawing.Size(89, 20)
-        Me.RadioButtonJadeImperailSanctioned.TabIndex = 3
-        Me.RadioButtonJadeImperailSanctioned.TabStop = True
-        Me.RadioButtonJadeImperailSanctioned.Text = "Sanctioned"
-        Me.RadioButtonJadeImperailSanctioned.UseVisualStyleBackColor = True
+        Me.RadioButtonJadeImperialSanctioned.AutoSize = True
+        Me.RadioButtonJadeImperialSanctioned.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonJadeImperialSanctioned.Location = New System.Drawing.Point(267, 121)
+        Me.RadioButtonJadeImperialSanctioned.Name = "RadioButtonJadeImperialSanctioned"
+        Me.RadioButtonJadeImperialSanctioned.Size = New System.Drawing.Size(89, 20)
+        Me.RadioButtonJadeImperialSanctioned.TabIndex = 3
+        Me.RadioButtonJadeImperialSanctioned.TabStop = True
+        Me.RadioButtonJadeImperialSanctioned.Text = "Sanctioned"
+        Me.RadioButtonJadeImperialSanctioned.UseVisualStyleBackColor = True
         '
         'LabelJadeImperialIntro
         '
@@ -13110,6 +13110,10 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 316)
+        Me.Controls.Add(Me.PanelJadeImperial)
+        Me.Controls.Add(Me.PanelDwarf)
+        Me.Controls.Add(Me.PanelDryad)
+        Me.Controls.Add(Me.PanelGnome)
         Me.Controls.Add(Me.PanelKin)
         Me.Controls.Add(Me.PanelGoblin)
         Me.Controls.Add(Me.PanelHalfbreed)
@@ -13153,10 +13157,6 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelCatdrah)
         Me.Controls.Add(Me.PanelTroll)
         Me.Controls.Add(Me.PanelSquirrel)
-        Me.Controls.Add(Me.PanelJadeImperial)
-        Me.Controls.Add(Me.PanelDwarf)
-        Me.Controls.Add(Me.PanelDryad)
-        Me.Controls.Add(Me.PanelGnome)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
@@ -13376,7 +13376,7 @@ Partial Class Form1
     Friend WithEvents ButtonJadeImperialInfo As Button
     Friend WithEvents RadioButtonJadeImperialTeamPlayer As RadioButton
     Friend WithEvents RadioButtonJadeImperialAncestry As RadioButton
-    Friend WithEvents RadioButtonJadeImperailSanctioned As RadioButton
+    Friend WithEvents RadioButtonJadeImperialSanctioned As RadioButton
     Friend WithEvents LabelJadeImperialIntro As Label
     Friend WithEvents ButtonJadeImperialBackgrounds As Button
     Friend WithEvents ButtonJadeImperialKin As Button
