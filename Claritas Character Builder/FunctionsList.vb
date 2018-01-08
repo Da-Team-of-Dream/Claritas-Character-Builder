@@ -59,6 +59,27 @@ Module AbilityVariables
     Public DexShield As Integer = 0
     Public DexDuel As Integer = 0
     Public WeaponCasting As Integer = 0
+    'Weapon arts
+    Public WAD As Integer = 0
+    Public WASS As Integer = 0
+    Public WALS As Integer = 0
+    Public WAGS As Integer = 0
+    Public WAHA As Integer = 0
+    Public WABA As Integer = 0
+    Public WAWA As Integer = 0
+    Public WAGA As Integer = 0
+    Public WAH As Integer = 0
+    Public WABH As Integer = 0
+    Public WAWH As Integer = 0
+    Public WAGH As Integer = 0
+    Public WAHP As Integer = 0
+    Public WABP As Integer = 0
+    Public WAWP As Integer = 0
+    Public WAGP As Integer = 0
+    Public WAB As Integer = 0
+    Public WABuckler As Integer = 0
+    Public WAKshield As Integer = 0
+    Public WAGshield As Integer = 0
     'Cleric Talents
     Public BornAnew As Integer = 0
     Public Convert As Integer = 0
@@ -111,6 +132,9 @@ Module AbilityVariables
     Public HP As Integer = 0
     Public XP As Integer = 15
     Public TalentLableString As String
+    Function DexterityCount() As Integer
+        Return Dex1B + Dex2B + Dex1A + Dex2A + Dex1H + Dex2H + Dex1P + Dex2P + DexE + DexBow + DexDuel + DexShield + DexT + WeaponCasting
+    End Function
     Sub ClearTalentInfo()
         'Classless Abilities
         Sense = 0
