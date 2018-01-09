@@ -1,0 +1,30 @@
+﻿
+Player Name: d     Player Age: d
+
+Character Name: hugo     Character Age: 200
+
+HP: 1     XP: 3     Copper: 85
+
+Kin: 
+Dryad
+
+Class: 
+Rogue
+
+Modifier: 
+Flashback
+
+Backgrounds: 
+Tailor
+Scholar
+
+Attributes: 
+Nutrients
+
+Talents Already Chosen:
+ Weapon Dexterity 1 Handed Blades
+1 Disguise R1
+ Disease
+1 HP
+
+Backstory: he was a simple man....

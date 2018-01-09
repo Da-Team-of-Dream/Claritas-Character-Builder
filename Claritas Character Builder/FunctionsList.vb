@@ -19,6 +19,22 @@
         Reader.Close()
         Return OutputString
     End Function
+    Sub ConstructCharacterSheet()
+        Dim path As String = My.Application.Info.DirectoryPath
+        Dim Sheet As System.IO.StreamWriter = My.Computer.FileSystem.OpenTextFileWriter(path & "\" & Form1.TextboxEndCharactername.Text & "'s_Character_Sheet.txt", False)
+        Sheet.WriteLine("")
+        Sheet.WriteLine("Player Name: " & Form1.TextboxWelcomePlayername.Text & "     Player Age: " & Form1.TextboxWelcomePlayerage.Text & vbCrLf)
+        Sheet.WriteLine("Character Name: " & Form1.TextboxEndCharactername.Text & "     Character Age: " & Form1.TextboxEndCharacterage.Text & vbCrLf)
+        Sheet.WriteLine("HP: " & HP & "     XP: " & XP & "     Copper: 85" & vbCrLf)
+        Sheet.WriteLine("Kin: " & Form1.Charactersheetkin() & vbCrLf)
+        Sheet.WriteLine("Class: " & Form1.Charactersheetclass() & vbCrLf)
+        Sheet.WriteLine("Modifier: " & Form1.Charactersheetmodifier() & vbCrLf)
+        Sheet.WriteLine("Backgrounds: " & Form1.CharactersheetBackgrounds() & vbCrLf)
+        Sheet.WriteLine("Attributes: " & Form1.CharactersheetAttribute() & vbCrLf)
+        Sheet.WriteLine("Talents " & TalentLableString & vbCrLf)
+        Sheet.WriteLine("Backstory: " & Form1.TextboxEndBackstory.Text)
+        Sheet.Close()
+    End Sub
     Sub ConstructInfoForm(Text As String)
         Dim InfoForm As New FormInfo()
         InfoForm.InfoFormLabel.Text = BuildInfoFormLabel(Text)
@@ -508,22 +524,22 @@ Module AbilityVariables
     Sub TalentLableChange()
         TalentLableString = "Already Chosen:"
         If Sense > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Sense & " Sense R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Sense & " Sense R1"
         End If
         If Detection > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Detection & " Detection R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Detection & " Detection R1"
         End If
         If ScrollWriting > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & ScrollWriting & " Scroll Writing R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & ScrollWriting & " Scroll Writing R1"
         End If
         If SenseR2 > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & SenseR2 & " Sense R2"
+            TalentLableString = TalentLableString & vbCrLf & " " & SenseR2 & " Sense R2"
         End If
         If DetectionR2 > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & DetectionR2 & " Detection R2"
+            TalentLableString = TalentLableString & vbCrLf & " " & DetectionR2 & " Detection R2"
         End If
         If ScrollWritingR2 > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & ScrollWritingR2 & " Scroll Writing R2"
+            TalentLableString = TalentLableString & vbCrLf & " " & ScrollWritingR2 & " Scroll Writing R2"
         End If
         If Enchanting > 0 Then
             TalentLableString = TalentLableString & vbCrLf & " Enchanting R1"
@@ -658,22 +674,22 @@ Module AbilityVariables
             TalentLableString = TalentLableString & vbCrLf & " Weapon art Great Shield"
         End If
         If BornAnew > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & BornAnew & " Born Anew R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & BornAnew & " Born Anew R1"
         End If
         If Convert > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Convert & " Convert R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Convert & " Convert R1"
         End If
         If Healing > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Healing & " Healing R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Healing & " Healing R1"
         End If
         If Remedy > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Remedy & " Remedy R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Remedy & " Remedy R1"
         End If
         If Potions > 0 Then
             TalentLableString = TalentLableString & vbCrLf & " Potions R1"
         End If
         If Charisma > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Charisma & " Charisma R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Charisma & " Charisma R1"
         End If
         If Imperius > 0 Then
             TalentLableString = TalentLableString & vbCrLf & " Imperius R1"
@@ -688,103 +704,103 @@ Module AbilityVariables
             TalentLableString = TalentLableString & vbCrLf & " Engineering R1"
         End If
         If Deadeye > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Deadeye & " Deadeye R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Deadeye & " Deadeye R1"
         End If
         If AHide > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & AHide & " Hide R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & AHide & " Hide R1"
         End If
         If Iaijutsu > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Iaijutsu & " Iaijutsu R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Iaijutsu & " Iaijutsu R1"
         End If
         If Traps > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Traps & " Traps R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Traps & " Traps R1"
         End If
         If Tracking > 0 Then
             TalentLableString = TalentLableString & vbCrLf & " Tracking R1"
         End If
         If Blind > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Blind & " Blind R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Blind & " Blind R1"
         End If
         If Disguise > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Disguise & " Disguise R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Disguise & " Disguise R1"
         End If
         If Expose > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Expose & " Expose R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Expose & " Expose R1"
         End If
         If Vanish > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Vanish & " Vanish R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Vanish & " Vanish R1"
         End If
         If Disease > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & " Disease"
+            TalentLableString = TalentLableString & vbCrLf & " Disease R1"
         End If
         If Void > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Void & " Void"
+            TalentLableString = TalentLableString & vbCrLf & " " & Void & " Void"
         End If
         If Jump > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Jump & " Jump R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Jump & " Jump R1"
         End If
         If Lifelink > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Lifelink & " Lifelink R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Lifelink & " Lifelink R1"
         End If
         If Silence > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Silence & " Silence R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Silence & " Silence R1"
         End If
         If ShroudofProtection > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & ShroudofProtection & " Shroud of Protection R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & ShroudofProtection & " Shroud of Protection R1"
         End If
         If CrushingBlow > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & CrushingBlow & " Crushing Blow R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & CrushingBlow & " Crushing Blow R1"
         End If
         If Gimp > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Gimp & " Gimp"
+            TalentLableString = TalentLableString & vbCrLf & " " & Gimp & " Gimp"
         End If
         If KnockDown > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & KnockDown & " Knock Down"
+            TalentLableString = TalentLableString & vbCrLf & " " & KnockDown & " Knock Down"
         End If
         If Disarm > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Disarm & " Disarm"
+            TalentLableString = TalentLableString & vbCrLf & " " & Disarm & " Disarm"
         End If
         If LikeARock > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & LikeARock & " Like A Rock"
+            TalentLableString = TalentLableString & vbCrLf & " " & LikeARock & " Like A Rock"
         End If
         If Surge > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Surge & " Surge R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Surge & " Surge R1"
         End If
         If SurgeR2 > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & SurgeR2 & " Surge R2"
+            TalentLableString = TalentLableString & vbCrLf & " " & SurgeR2 & " Surge R2"
         End If
         If LifeSyphon > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & LifeSyphon & " LifeSyphon R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & LifeSyphon & " LifeSyphon R1"
         End If
         If LifeSyphonR2 > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & LifeSyphonR2 & " LifeSyphon R2"
+            TalentLableString = TalentLableString & vbCrLf & " " & LifeSyphonR2 & " LifeSyphon R2"
         End If
         If Migraine > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Migraine & " Migraine R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Migraine & " Migraine R1"
         End If
         If MigraineR2 > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & MigraineR2 & " Migraine R2"
+            TalentLableString = TalentLableString & vbCrLf & " " & MigraineR2 & " Migraine R2"
         End If
         If LightningBolt > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & LightningBolt & " LightningBolt R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & LightningBolt & " LightningBolt R1"
         End If
         If LightningBoltR2 > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & LightningBoltR2 & " LightningBolt R2"
+            TalentLableString = TalentLableString & vbCrLf & " " & LightningBoltR2 & " LightningBolt R2"
         End If
         If Fireball > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Fireball & " Fireball R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Fireball & " Fireball R1"
         End If
         If FireballR2 > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & FireballR2 & " Fireball R2"
+            TalentLableString = TalentLableString & vbCrLf & " " & FireballR2 & " Fireball R2"
         End If
         If Snowball > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & Snowball & " Snowball R1"
+            TalentLableString = TalentLableString & vbCrLf & " " & Snowball & " Snowball R1"
         End If
         If SnowballR2 > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & SnowballR2 & " Snowball R2"
+            TalentLableString = TalentLableString & vbCrLf & " " & SnowballR2 & " Snowball R2"
         End If
         If HP > 0 Then
-            TalentLableString = TalentLableString & vbCrLf & HP & " HP"
+            TalentLableString = TalentLableString & vbCrLf & " " & HP & " HP"
         End If
         Form1.LabelVoidknightXp.Text = "XP Left: " & XP
         Form1.LabelClericXp.Text = "XP Left: " & XP

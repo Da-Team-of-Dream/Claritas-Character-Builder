@@ -8555,5 +8555,55 @@
 
         Return ChosenAttribute
     End Function
+
+    Private Sub ButtonEndCharactersheet_Click(sender As Object, e As EventArgs) Handles ButtonEndCharactersheet.Click
+        If TextboxEndCharactername.Text = "" Or TextboxEndCharacterage.Text = "" Then
+            MsgBox("Please enter a character name and age!")
+        Else
+            ConstructCharacterSheet()
+            If System.IO.File.Exists(My.Application.Info.DirectoryPath & "\" & TextboxEndCharactername.Text & "'s_Character_Sheet.txt") Then
+                Process.Start(My.Application.Info.DirectoryPath & "\" & TextboxEndCharactername.Text & "'s_Character_Sheet.txt")
+            Else
+                MsgBox("something went wrong! please try again!!")
+            End If
+        End If
+    End Sub
+
 #End Region
+
+    Private Sub ButtonHalfbreedModifier_Click(sender As Object, e As EventArgs) Handles ButtonHalfbreedModifier.Click
+        PanelHalfbreed.Enabled = False
+        PanelModifier.Enabled = True
+        PanelModifier.BringToFront()
+        RadioButtonHalfbreedAngelucian.Checked = False
+        RadioButtonHalfbreedCatdrah.Checked = False
+        RadioButtonHalfbreedDarkelf.Checked = False
+        RadioButtonHalfbreedDrakhonon.Checked = False
+        RadioButtonHalfbreedDryad.Checked = False
+        RadioButtonHalfbreedDwarf.Checked = False
+        RadioButtonHalfbreedFaerleth.Checked = False
+        RadioButtonHalfbreedFairy.Checked = False
+        RadioButtonHalfbreedFelucian.Checked = False
+        RadioButtonHalfbreedGigayona.Checked = False
+        RadioButtonHalfbreedGnome.Checked = False
+        RadioButtonHalfbreedGoblin.Checked = False
+        RadioButtonHalfbreedHighelf.Checked = False
+        RadioButtonHalfbreedJadeimperial.Checked = False
+        RadioButtonHalfbreedKinsmen.Checked = False
+        RadioButtonHalfbreedKinsmen.Checked = False
+        RadioButtonHalfbreedMinotaur.Checked = False
+        RadioButtonHalfbreedNyad.Checked = False
+        RadioButtonHalfbreedOrc.Checked = False
+        RadioButtonHalfbreedSanjoran.Checked = False
+        RadioButtonHalfbreedSquirrel.Checked = False
+        RadioButtonHalfbreedWastelander.Checked = False
+        RadioButtonHalfbreedWoodelf.Checked = False
+        RadioButtonHalfbreedWolfsbein.Checked = False
+    End Sub
+
+    Private Sub ButtonHalfbreedEnd_Click(sender As Object, e As EventArgs) Handles ButtonHalfbreedEnd.Click
+        PanelHalfbreed.Enabled = False
+        PanelEnd.Enabled = True
+        PanelEnd.BringToFront()
+    End Sub
 End Class

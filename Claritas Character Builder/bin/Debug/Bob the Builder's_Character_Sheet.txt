@@ -1,0 +1,30 @@
+﻿
+Player Name: Chase Harvey     Player Age: 21
+
+Character Name: Bob the Builder     Character Age: 50
+
+HP: 0     XP: 0     Copper: 85
+
+Kin: 
+Dwarf
+Jade Imperial
+
+Class: 
+Wizard
+
+Modifier: 
+Half-Breed
+
+Backgrounds: 
+Repairman
+Architect
+
+Attributes: 
+Dwarf it
+
+Talents Already Chosen:
+ Smithing R2
+ Weapon Dexterity 1 Handed Hammer
+
+Backstory: Can he build it...?
+YES HE CAN!
