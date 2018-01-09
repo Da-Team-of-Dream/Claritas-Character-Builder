@@ -19,283 +19,363 @@
 #Region "checkbox check events"
 
     'Weapon arts
-    Private Sub RadioButtonWeaponartDagger_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartDagger.CheckedChanged
-        If RadioButtonWeaponartDagger.Checked = True Then
+    Private Sub CheckBoxWeaponartDagger_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartDagger.CheckedChanged
+        If CheckBoxWeaponartDagger.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartDagger.Checked = False
+                CheckBoxWeaponartDagger.Checked = False
             ElseIf Dex1B < 1 Then
                 MsgBox("You must have dexterity in one handed blades to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartDagger.Checked = False
+                CheckBoxWeaponartDagger.Checked = False
             Else
                 WAD = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartDagger.Checked = False And WAD = 1 Then
+            WAD = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartShortsword_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartShortsword.CheckedChanged
-        If RadioButtonWeaponartShortsword.Checked = True Then
+    Private Sub CheckBoxWeaponartShortsword_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartShortsword.CheckedChanged
+        If CheckBoxWeaponartShortsword.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartShortsword.Checked = False
+                CheckBoxWeaponartShortsword.Checked = False
             ElseIf Dex1B < 1 Then
                 MsgBox("You must have dexterity in one handed blades to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartShortsword.Checked = False
+                CheckBoxWeaponartShortsword.Checked = False
             Else
                 WASS = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartShortsword.Checked = False And WASS = 1 Then
+            WASS = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartLongsword_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartLongsword.CheckedChanged
-        If RadioButtonWeaponartLongsword.Checked = True Then
+    Private Sub CheckBoxWeaponartLongsword_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartLongsword.CheckedChanged
+        If CheckBoxWeaponartLongsword.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartLongsword.Checked = False
+                CheckBoxWeaponartLongsword.Checked = False
             ElseIf Dex2B < 1 Then
                 MsgBox("You must have dexterity in two handed blades to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartLongsword.Checked = False
+                CheckBoxWeaponartLongsword.Checked = False
             Else
                 WALS = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartLongsword.Checked = False And WALS = 1 Then
+            WALS = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartGreatsword_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartGreatsword.CheckedChanged
-        If RadioButtonWeaponartGreatsword.Checked = True Then
+    Private Sub CheckBoxWeaponartGreatsword_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartGreatsword.CheckedChanged
+        If CheckBoxWeaponartGreatsword.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartGreatsword.Checked = False
+                CheckBoxWeaponartGreatsword.Checked = False
             ElseIf Dex2B < 1 Then
                 MsgBox("You must have dexterity in two handed blades to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartGreatsword.Checked = False
+                CheckBoxWeaponartGreatsword.Checked = False
             Else
                 WAGS = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartGreatsword.Checked = False And WAGS = 1 Then
+            WAGS = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartHatchet_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartHatchet.CheckedChanged
-        If RadioButtonWeaponartHatchet.Checked = True Then
+    Private Sub CheckBoxWeaponartHatchet_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartHatchet.CheckedChanged
+        If CheckBoxWeaponartHatchet.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartHatchet.Checked = False
-            ElseIf Dex1a < 1 Then
+                CheckBoxWeaponartHatchet.Checked = False
+            ElseIf Dex1A < 1 Then
                 MsgBox("You must have dexterity in one handed axes to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartHatchet.Checked = False
+                CheckBoxWeaponartHatchet.Checked = False
             Else
                 WAHA = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartHatchet.Checked = False And WAHA = 1 Then
+            WAHA = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartBattleaxe_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartBattleaxe.CheckedChanged
-        If RadioButtonWeaponartBattleaxe.Checked = True Then
+    Private Sub CheckBoxWeaponartBattleaxe_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartBattleaxe.CheckedChanged
+        If CheckBoxWeaponartBattleaxe.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartBattleaxe.Checked = False
-            ElseIf Dex1a < 1 Then
+                CheckBoxWeaponartBattleaxe.Checked = False
+            ElseIf Dex1A < 1 Then
                 MsgBox("You must have dexterity in one handed axes to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartBattleaxe.Checked = False
+                CheckBoxWeaponartBattleaxe.Checked = False
             Else
                 WABA = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartBattleaxe.Checked = False And WABA = 1 Then
+            WABA = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartWaraxe_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartWaraxe.CheckedChanged
-        If RadioButtonWeaponartWaraxe.Checked = True Then
+    Private Sub CheckBoxWeaponartWaraxe_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartWaraxe.CheckedChanged
+        If CheckBoxWeaponartWaraxe.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartWaraxe.Checked = False
-            ElseIf Dex2a < 1 Then
+                CheckBoxWeaponartWaraxe.Checked = False
+            ElseIf Dex2A < 1 Then
                 MsgBox("You must have dexterity in two handed axes to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartWaraxe.Checked = False
+                CheckBoxWeaponartWaraxe.Checked = False
             Else
                 WAWA = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartWaraxe.Checked = False And WAWA = 1 Then
+            WAWA = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartGreataxe_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartGreataxe.CheckedChanged
-        If RadioButtonWeaponartGreataxe.Checked = True Then
+    Private Sub CheckBoxWeaponartGreataxe_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartGreataxe.CheckedChanged
+        If CheckBoxWeaponartGreataxe.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartGreataxe.Checked = False
-            ElseIf Dex2a < 1 Then
+                CheckBoxWeaponartGreataxe.Checked = False
+            ElseIf Dex2A < 1 Then
                 MsgBox("You must have dexterity in two handed axes to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartGreataxe.Checked = False
+                CheckBoxWeaponartGreataxe.Checked = False
             Else
                 WAGA = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartGreataxe.Checked = False And WAGA = 1 Then
+            WAGA = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartHammer_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartHammer.CheckedChanged
-        If RadioButtonWeaponartHammer.Checked = True Then
+    Private Sub CheckBoxWeaponartHammer_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartHammer.CheckedChanged
+        If CheckBoxWeaponartHammer.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartHammer.Checked = False
+                CheckBoxWeaponartHammer.Checked = False
             ElseIf Dex1H < 1 Then
                 MsgBox("You must have dexterity in one handed hammers to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartHammer.Checked = False
+                CheckBoxWeaponartHammer.Checked = False
             Else
                 WAH = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartHammer.Checked = False And WAH = 1 Then
+            WAH = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartBattlehammer_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartBattlehammer.CheckedChanged
-        If RadioButtonWeaponartBattlehammer.Checked = True Then
+    Private Sub CheckBoxWeaponartBattlehammer_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartBattlehammer.CheckedChanged
+        If CheckBoxWeaponartBattlehammer.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartBattlehammer.Checked = False
-            ElseIf Dex1h < 1 Then
+                CheckBoxWeaponartBattlehammer.Checked = False
+            ElseIf Dex1H < 1 Then
                 MsgBox("You must have dexterity in one handed hammers to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartBattlehammer.Checked = False
+                CheckBoxWeaponartBattlehammer.Checked = False
             Else
                 WABH = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartBattlehammer.Checked = False And WABH = 1 Then
+            WABH = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartWarhammer_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartWarhammer.CheckedChanged
-        If RadioButtonWeaponartWarhammer.Checked = True Then
+    Private Sub CheckBoxWeaponartWarhammer_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartWarhammer.CheckedChanged
+        If CheckBoxWeaponartWarhammer.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartWarhammer.Checked = False
-            ElseIf Dex2h < 1 Then
+                CheckBoxWeaponartWarhammer.Checked = False
+            ElseIf Dex2H < 1 Then
                 MsgBox("You must have dexterity in two handed hammers to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartWarhammer.Checked = False
+                CheckBoxWeaponartWarhammer.Checked = False
             Else
                 WAWH = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartWarhammer.Checked = False And WAWH = 1 Then
+            WAWH = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartGreathammer_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartGreathammer.CheckedChanged
-        If RadioButtonWeaponartGreathammer.Checked = True Then
+    Private Sub CheckBoxWeaponartGreathammer_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartGreathammer.CheckedChanged
+        If CheckBoxWeaponartGreathammer.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartGreathammer.Checked = False
-            ElseIf Dex2h < 1 Then
+                CheckBoxWeaponartGreathammer.Checked = False
+            ElseIf Dex2H < 1 Then
                 MsgBox("You must have dexterity in two handed hammers to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartGreathammer.Checked = False
+                CheckBoxWeaponartGreathammer.Checked = False
             Else
                 WAGH = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartGreathammer.Checked = False And WAGH = 1 Then
+            WAGH = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartHuntingspear_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartHuntingspear.CheckedChanged
-        If RadioButtonWeaponartHuntingspear.Checked = True Then
+    Private Sub CheckBoxWeaponartHuntingspear_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartHuntingspear.CheckedChanged
+        If CheckBoxWeaponartHuntingspear.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartHuntingspear.Checked = False
-            ElseIf Dex1p < 1 Then
+                CheckBoxWeaponartHuntingspear.Checked = False
+            ElseIf Dex1P < 1 Then
                 MsgBox("You must have dexterity in one handed spears to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartHuntingspear.Checked = False
+                CheckBoxWeaponartHuntingspear.Checked = False
             Else
                 WAHP = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartHuntingspear.Checked = False And WAHP = 1 Then
+            WAHP = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartBattlespear_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartBattlespear.CheckedChanged
-        If RadioButtonWeaponartBattlespear.Checked = True Then
+    Private Sub CheckBoxWeaponartBattlespear_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartBattlespear.CheckedChanged
+        If CheckBoxWeaponartBattlespear.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartBattlespear.Checked = False
-            ElseIf Dex1p < 1 Then
+                CheckBoxWeaponartBattlespear.Checked = False
+            ElseIf Dex1P < 1 Then
                 MsgBox("You must have dexterity in one handed spears to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartBattlespear.Checked = False
+                CheckBoxWeaponartBattlespear.Checked = False
             Else
                 WABP = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartBattlespear.Checked = False And WABP = 1 Then
+            WABP = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartWarspear_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartWarspear.CheckedChanged
-        If RadioButtonWeaponartWarspear.Checked = True Then
+    Private Sub CheckBoxWeaponartWarspear_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartWarspear.CheckedChanged
+        If CheckBoxWeaponartWarspear.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartWarspear.Checked = False
-            ElseIf Dex2p < 1 Then
+                CheckBoxWeaponartWarspear.Checked = False
+            ElseIf Dex2P < 1 Then
                 MsgBox("You must have dexterity in two handed spears to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartWarspear.Checked = False
+                CheckBoxWeaponartWarspear.Checked = False
             Else
                 WAWP = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartWarspear.Checked = False And WAWP = 1 Then
+            WAWP = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartGreatspear_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartGreatspear.CheckedChanged
-        If RadioButtonWeaponartGreatspear.Checked = True Then
+    Private Sub CheckBoxWeaponartGreatspear_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartGreatspear.CheckedChanged
+        If CheckBoxWeaponartGreatspear.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartGreatspear.Checked = False
-            ElseIf Dex2p < 1 Then
+                CheckBoxWeaponartGreatspear.Checked = False
+            ElseIf Dex2P < 1 Then
                 MsgBox("You must have dexterity in two handed spears to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartGreatspear.Checked = False
+                CheckBoxWeaponartGreatspear.Checked = False
             Else
                 WAGP = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartGreatspear.Checked = False And WAGP = 1 Then
+            WAGP = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartBow_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartBow.CheckedChanged
-        If RadioButtonWeaponartBow.Checked = True Then
+    Private Sub CheckBoxWeaponartBow_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartBow.CheckedChanged
+        If CheckBoxWeaponartBow.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartBow.Checked = False
+                CheckBoxWeaponartBow.Checked = False
             ElseIf DexBow < 1 Then
                 MsgBox("You must have dexterity in bows to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartBow.Checked = False
+                CheckBoxWeaponartBow.Checked = False
             Else
                 WAB = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartBow.Checked = False And WAB = 1 Then
+            WAB = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartBuckler_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartBuckler.CheckedChanged
-        If RadioButtonWeaponartBuckler.Checked = True Then
+    Private Sub CheckBoxWeaponartBuckler_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartBuckler.CheckedChanged
+        If CheckBoxWeaponartBuckler.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartBuckler.Checked = False
+                CheckBoxWeaponartBuckler.Checked = False
             ElseIf DexShield < 1 Then
                 MsgBox("You must have dexterity in shields to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartBuckler.Checked = False
+                CheckBoxWeaponartBuckler.Checked = False
             Else
                 WABuckler = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartBuckler.Checked = False And WABuckler = 1 Then
+            WABuckler = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartKiteshield_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartKiteshield.CheckedChanged
-        If RadioButtonWeaponartKiteshield.Checked = True Then
+    Private Sub CheckBoxWeaponartKiteshield_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartKiteshield.CheckedChanged
+        If CheckBoxWeaponartKiteshield.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartKiteshield.Checked = False
+                CheckBoxWeaponartKiteshield.Checked = False
             ElseIf DexShield < 1 Then
                 MsgBox("You must have dexterity in shields to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartKiteshield.Checked = False
+                CheckBoxWeaponartKiteshield.Checked = False
             Else
                 WAKshield = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartKiteshield.Checked = False And WAKshield = 1 Then
+            WAKshield = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
-    Private Sub RadioButtonWeaponartGreatshield_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButtonWeaponartGreatshield.CheckedChanged
-        If RadioButtonWeaponartGreatshield.Checked = True Then
+    Private Sub CheckBoxWeaponartGreatshield_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWeaponartGreatshield.CheckedChanged
+        If CheckBoxWeaponartGreatshield.Checked = True Then
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
-                RadioButtonWeaponartGreatshield.Checked = False
+                CheckBoxWeaponartGreatshield.Checked = False
             ElseIf DexShield < 1 Then
                 MsgBox("You must have dexterity in one handed blades to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
-                RadioButtonWeaponartGreatshield.Checked = False
+                CheckBoxWeaponartGreatshield.Checked = False
             Else
                 WAGS = 1
+                XP = XP - 10
             End If
+        ElseIf CheckBoxWeaponartGreatshield.Checked = False And WAGshield = 1 Then
+            WAGshield = 0
+            XP = XP + 10
         End If
         TalentLableChange()
     End Sub
@@ -306,7 +386,6 @@
         If CheckBoxWepondexOnehandedblades.Checked = True Then
             If DexterityCount() = 0 Then
                 Dex1B = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 Dex1B = 1
                 XP = XP - 5
@@ -316,7 +395,9 @@
             End If
         ElseIf CheckBoxWepondexOnehandedblades.Checked = False And Dex1b = 1 Then
             Dex1B = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -325,7 +406,6 @@
         If CheckBoxWepondexTwohandedblades.Checked = True Then
             If DexterityCount() = 0 Then
                 Dex2B = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 Dex2B = 1
                 XP = XP - 5
@@ -335,7 +415,9 @@
             End If
         ElseIf CheckBoxWepondexTwohandedblades.Checked = False And Dex2b = 1 Then
             Dex2B = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -348,21 +430,22 @@
                 Dex1A = 1
                 XP = XP - 5
             Else
-                MsgBox("You do not have enough XP!!")
-                CheckBoxWepondexOnehandedaxes.Checked = False
+                    MsgBox("You do not have enough XP!!")
+                    CheckBoxWepondexOnehandedaxes.Checked = False
+                End If
+            ElseIf CheckBoxWepondexOnehandedaxes.Checked = False And Dex1a = 1 Then
+                Dex1A = 0
+                If DexterityCount() > 0 Then
+                    XP = XP + 5
+                End If
             End If
-        ElseIf CheckBoxWepondexOnehandedaxes.Checked = False And Dex1a = 1 Then
-            Dex1A = 0
-            XP = XP + 5
-        End If
-        TalentLableChange()
+            TalentLableChange()
     End Sub
 
     Private Sub CheckBoxWepondexTwohandedaxes_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWepondexTwohandedaxes.CheckedChanged
         If CheckBoxWepondexTwohandedaxes.Checked = True Then
             If DexterityCount() = 0 Then
                 Dex2A = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 Dex2A = 1
                 XP = XP - 5
@@ -372,7 +455,9 @@
             End If
         ElseIf CheckBoxWepondexTwohandedaxes.Checked = False And Dex2A = 1 Then
             Dex2A = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -381,7 +466,6 @@
         If CheckBoxWepondexOnehandedhammers.Checked = True Then
             If DexterityCount() = 0 Then
                 Dex1H = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 Dex1H = 1
                 XP = XP - 5
@@ -391,7 +475,9 @@
             End If
         ElseIf CheckBoxWepondexOnehandedhammers.Checked = False And Dex1h = 1 Then
             Dex1H = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -400,7 +486,6 @@
         If CheckBoxWepondexTwohandedhammers.Checked = True Then
             If DexterityCount() = 0 Then
                 Dex2H = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 Dex2H = 1
                 XP = XP - 5
@@ -410,7 +495,9 @@
             End If
         ElseIf CheckBoxWepondexTwohandedhammers.Checked = False And Dex2h = 1 Then
             Dex2H = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -419,7 +506,6 @@
         If CheckBoxWepondexOnehandedspears.Checked = True Then
             If DexterityCount() = 0 Then
                 Dex1P = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 Dex1P = 1
                 XP = XP - 5
@@ -429,7 +515,9 @@
             End If
         ElseIf CheckBoxWepondexOnehandedspears.Checked = False And Dex1p = 1 Then
             Dex1P = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -438,7 +526,6 @@
         If CheckBoxWepondexTwohandedspears.Checked = True Then
             If DexterityCount() = 0 Then
                 Dex2P = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 Dex2P = 1
                 XP = XP - 5
@@ -448,35 +535,21 @@
             End If
         ElseIf CheckBoxWepondexTwohandedspears.Checked = False And Dex2p = 1 Then
             Dex2P = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
 
     Private Sub CheckBoxWepondexBows_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWepondexBows.CheckedChanged
-        If CheckBoxWepondexBows.Checked = True Then
-            If DexterityCount() = 0 Then
-                DexBow = 1
-                XP = XP - 5
-            ElseIf DexterityCount() > 0 And XP >= 5 Then
-                DexBow = 1
-                XP = XP - 5
-            Else
-                MsgBox("You do not have enough XP!!")
-                CheckBoxWepondexBows.Checked = False
-            End If
-        ElseIf CheckBoxWepondexBows.Checked = False And DexBow = 1 Then
-            DexBow = 0
-            XP = XP + 5
-        End If
-        TalentLableChange()
+
     End Sub
 
     Private Sub CheckBoxWepondexDualwielding_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxWepondexDualwielding.CheckedChanged
         If CheckBoxWepondexDualwielding.Checked = True Then
             If DexterityCount() = 0 Then
                 DexDuel = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 DexDuel = 1
                 XP = XP - 5
@@ -486,7 +559,9 @@
             End If
         ElseIf CheckBoxWepondexDualwielding.Checked = False And DexDuel = 1 Then
             DexDuel = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -495,7 +570,6 @@
         If CheckBoxWepondexExoticweapons.Checked = True Then
             If DexterityCount() = 0 Then
                 DexE = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 DexE = 1
                 XP = XP - 5
@@ -505,7 +579,9 @@
             End If
         ElseIf CheckBoxWepondexExoticweapons.Checked = False And Dexe = 1 Then
             DexE = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -514,7 +590,6 @@
         If CheckBoxWeapondexWeaponcasting.Checked = True Then
             If DexterityCount() = 0 Then
                 WeaponCasting = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 WeaponCasting = 1
                 XP = XP - 5
@@ -524,7 +599,9 @@
             End If
         ElseIf CheckBoxWeapondexWeaponcasting.Checked = False And WeaponCasting = 1 Then
             WeaponCasting = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -533,7 +610,6 @@
         If CheckBoxWepondexShields.Checked = True Then
             If DexterityCount() = 0 Then
                 DexShield = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 DexShield = 1
                 XP = XP - 5
@@ -543,7 +619,9 @@
             End If
         ElseIf CheckBoxWepondexShields.Checked = False And DexShield = 1 Then
             DexShield = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
@@ -552,7 +630,6 @@
         If CheckBoxWepondexThrowingweapons.Checked = True Then
             If DexterityCount() = 0 Then
                 DexT = 1
-                XP = XP - 5
             ElseIf DexterityCount() > 0 And XP >= 5 Then
                 DexT = 1
                 XP = XP - 5
@@ -562,11 +639,23 @@
             End If
         ElseIf CheckBoxWepondexThrowingweapons.Checked = False And Dext = 1 Then
             DexT = 0
-            XP = XP + 5
+            If DexterityCount() > 0 Then
+                XP = XP + 5
+            End If
         End If
         TalentLableChange()
     End Sub
 
 
+
+
 #End Region
+
+    Private Sub ButtonWeapondexForm1_Click(sender As Object, e As EventArgs) Handles ButtonWeapondexForm1.Click
+        Me.Hide()
+    End Sub
+
+    Private Sub ButtonWeaponartForm1_Click(sender As Object, e As EventArgs) Handles ButtonWeaponartForm1.Click
+        Me.Hide()
+    End Sub
 End Class

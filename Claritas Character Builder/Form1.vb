@@ -1370,6 +1370,8 @@
             PanelRanger.BringToFront()
             PanelRanger.Enabled = True
             PanelClass.Enabled = False
+            DexBow = 1
+            TalentLableChange()
         ElseIf RadioButtonClassVoidKnight.Checked Then
             PanelVoidknight.BringToFront()
             PanelVoidknight.Enabled = True
@@ -1431,7 +1433,7 @@
             PanelNecrohydro.BringToFront()
             PanelNecrohydro.Enabled = True
             PanelWizard.Enabled = False
-        ElseIf RadioButtonWizardHydromancy.checked And RadioButtonWizardNeuromancy.checked Then
+        ElseIf RadioButtonWizardHydromancy.Checked And RadioButtonWizardNeuromancy.Checked Then
             PanelNeurohydro.BringToFront()
             PanelNeurohydro.Enabled = True
             PanelWizard.Enabled = False
@@ -1536,7 +1538,7 @@
         ClearTalentInfo()
     End Sub
 
-    Private Sub ButtonNeuroHydroWizard_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroWizard.Click
+    Private Sub ButtonNeuroHydroWizard_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroWizard.Click
         PanelWizard.BringToFront()
         PanelWizard.Enabled = True
         PanelNeurohydro.Enabled = False
@@ -1748,7 +1750,7 @@
             End If
         ElseIf Smithing = 1 Then
             MsgBox("This is a Skill. You cannot have multiple of the same rank of skill!!")
-        ElseIf Smithingr2 = 0 Then
+        ElseIf SmithingR2 = 0 Then
             If XP < 5 Then
                 MsgBox("You do not have enough XP!!")
             Else
@@ -1762,7 +1764,7 @@
     End Sub
 
     Private Sub ButtonNobleWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonNobleWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNobleSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonNobleSensePlus.Click
@@ -1772,7 +1774,7 @@
             Else
                 If Sense = 1 Then
                     XP = XP - 10
-                ElseIf sense > 1 Then
+                ElseIf Sense > 1 Then
                     XP = XP - 5
                 Else
                     XP = XP - 15
@@ -1916,7 +1918,7 @@
     End Sub
 
     Private Sub ButtonNobleWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonNobleWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNobleSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonNobleSenseMinus.Click
@@ -2114,7 +2116,7 @@
     End Sub
 
     Private Sub ButtonVoidknightWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonVoidknightWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonVoidknightSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonVoidknightSensePlus.Click
@@ -2226,7 +2228,7 @@
             End If
         ElseIf Enchanting = 1 Then
             MsgBox("This is a Skill. You cannot have multiple of the same rank of skill!!")
-        ElseIf Enchantingr2 = 0 Then
+        ElseIf EnchantingR2 = 0 Then
             If XP < 5 Then
                 MsgBox("You do not have enough XP!!")
             Else
@@ -2324,7 +2326,7 @@
     End Sub
 
     Private Sub ButtonVoidknightWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonVoidknightWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonVoidknightSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonVoidknightSenseMinus.Click
@@ -2547,7 +2549,7 @@
     End Sub
 
     Private Sub ButtonClericWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonClericWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonClericSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonClericSensePlus.Click
@@ -2757,7 +2759,7 @@
     End Sub
 
     Private Sub ButtonClericWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonClericWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonClericSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonClericSenseMinus.Click
@@ -2973,7 +2975,7 @@
     End Sub
 
     Private Sub ButtonRogueWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonRogueWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonRogueSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonRogueSensePlus.Click
@@ -3127,7 +3129,7 @@
     End Sub
 
     Private Sub ButtonRogueWeaponDexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonRogueWeaponDexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonRogueSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonRogueSenseMinus.Click
@@ -3327,7 +3329,7 @@
     End Sub
 
     Private Sub ButtonRangerWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonRangerWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonRangerSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonRangerSensePlus.Click
@@ -3475,7 +3477,7 @@
     End Sub
 
     Private Sub ButtonRangerWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonRangerWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonRangerSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonRangerSenseMinus.Click
@@ -3675,7 +3677,7 @@
     End Sub
 
     Private Sub ButtonWarriorWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonWarriorWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonWarriorSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonWarriorSensePlus.Click
@@ -3829,7 +3831,7 @@
     End Sub
 
     Private Sub ButtonWarriorWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonWarriorWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonWarriorSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonWarriorSenseMinus.Click
@@ -4042,7 +4044,7 @@
     End Sub
 
     Private Sub ButtonKinesiokairoWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonKinesiokairoSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoSensePlus.Click
@@ -4173,7 +4175,7 @@
             XP = XP + 5
         ElseIf (Surge + LightningBolt = 1) Then
             Surge = Surge - 1
-        ElseIf surge > 0 Then
+        ElseIf Surge > 0 Then
             Surge = Surge - 1
             XP = XP + 5
         End If
@@ -4238,7 +4240,7 @@
     End Sub
 
     Private Sub ButtonKinesiokairoWeapondexterity_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoWeapondexterity.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonKinesiokairoSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiokairoSenseMinus.Click
@@ -4475,7 +4477,7 @@
     End Sub
 
     Private Sub ButtonKinesiopyroWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonKinesiopyroSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroSensePlus.Click
@@ -4671,7 +4673,7 @@
     End Sub
 
     Private Sub ButtonKinesiopyroWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonKinesiopyroSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiopyroSenseMinus.Click
@@ -4736,9 +4738,9 @@
             Else
                 If Surge = 0 And Snowball = 0 Then
                     XP = XP - 10
-                ElseIf surge = 1 Then
+                ElseIf Surge = 1 Then
                     XP = XP - 10
-                ElseIf surge > 1 Then
+                ElseIf Surge > 1 Then
                     XP = XP - 5
                 Else
                     XP = XP - 15
@@ -4906,7 +4908,7 @@
     End Sub
 
     Private Sub ButtonKinesiohydroWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonKinesiohydroSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroSensePlus.Click
@@ -5102,7 +5104,7 @@
     End Sub
 
     Private Sub ButtonKinesiohydroWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonKinesiohydroSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonKinesiohydroSenseMinus.Click
@@ -5338,7 +5340,7 @@
     End Sub
 
     Private Sub ButtonNecrokairoWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNecrokairoSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoSensePlus.Click
@@ -5534,7 +5536,7 @@
     End Sub
 
     Private Sub ButtonNecrokairoWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNecrokairoSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrokairoSenseMinus.Click
@@ -5770,7 +5772,7 @@
     End Sub
 
     Private Sub ButtonNecropyroWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNecropyroSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroSensePlus.Click
@@ -5899,7 +5901,7 @@
         If LifeSyphonR2 > 0 Then
             LifeSyphonR2 = LifeSyphonR2 - 1
             XP = XP + 5
-        ElseIf (LifeSyphon + fireball = 1) Then
+        ElseIf (LifeSyphon + Fireball = 1) Then
             LifeSyphon = LifeSyphon - 1
         ElseIf LifeSyphon > 0 Then
             LifeSyphon = LifeSyphon - 1
@@ -5912,9 +5914,9 @@
         If FireballR2 > 0 Then
             FireballR2 = FireballR2 - 1
             XP = XP + 5
-        ElseIf (LifeSyphon + fireball = 1) Then
+        ElseIf (LifeSyphon + Fireball = 1) Then
             Fireball = Fireball - 1
-        ElseIf fireball > 0 Then
+        ElseIf Fireball > 0 Then
             Fireball = Fireball - 1
             XP = XP + 5
         End If
@@ -5966,7 +5968,7 @@
     End Sub
 
     Private Sub ButtonNecropyroWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecropyroWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub Button6NecropyroSenseMinus_Click(sender As Object, e As EventArgs) Handles Button6NecropyroSenseMinus.Click
@@ -6201,7 +6203,7 @@
     End Sub
 
     Private Sub ButtonNecrohydroWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNecrohydroSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroSensePlus.Click
@@ -6397,7 +6399,7 @@
     End Sub
 
     Private Sub ButtonNecrohydroWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNecrohydroSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonNecrohydroSenseMinus.Click
@@ -6631,7 +6633,7 @@
     End Sub
 
     Private Sub ButtonNeurokairoWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNeurokairoSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoSensePlus.Click
@@ -6827,7 +6829,7 @@
     End Sub
 
     Private Sub ButtonNeurokairoWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNeurokairoSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurokairoSenseMinus.Click
@@ -7063,7 +7065,7 @@
     End Sub
 
     Private Sub ButtonNeuropyroWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroWeapondexterityPlus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNeuropyroSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroSensePlus.Click
@@ -7259,7 +7261,7 @@
     End Sub
 
     Private Sub ButtonNeuropyroWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroWeapondexterityMinus.Click
-
+        ConsrtuctDexForm()
     End Sub
 
     Private Sub ButtonNeuropyroSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuropyroSenseMinus.Click
@@ -7318,7 +7320,7 @@
 #End Region
 
 #Region "NeuroHydroTalents"
-    Private Sub ButtonNeuroHydroMigrainePlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroMigrainePlus.Click
+    Private Sub ButtonNeuroHydroMigrainePlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroMigrainePlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
             If (XP < 5 And Migraine >= 2) Or (XP < 10 And Migraine = 1) Or (XP < 15 And Migraine = 0 And Snowball <> 0) Then
                 MsgBox("You do not have enough XP!!")
@@ -7350,7 +7352,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroSnowballPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroSnowballPlus.Click
+    Private Sub ButtonNeuroHydroSnowballPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroSnowballPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
             If (XP < 5 And Snowball >= 2) Or (XP < 10 And Snowball = 1) Or (XP < 15 And Snowball = 0 And Migraine <> 0) Then
                 MsgBox("You do not have enough XP!!")
@@ -7382,7 +7384,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroForestryPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroForestryPlus.Click
+    Private Sub ButtonNeuroHydroForestryPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroForestryPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
             If (XP < 10 And Forestry = 1) Or (XP < 15 And Forestry = 0) Then
                 MsgBox("You do not have enough XP!!")
@@ -7410,7 +7412,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroLeatherworkingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroLeatherworkingPlus.Click
+    Private Sub ButtonNeuroHydroLeatherworkingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroLeatherworkingPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
             If (XP < 10 And Leatherworking = 1) Or (XP < 15 And Leatherworking = 0) Then
                 MsgBox("You do not have enough XP!!")
@@ -7438,7 +7440,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroProwessPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroProwessPlus.Click
+    Private Sub ButtonNeuroHydroProwessPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroProwessPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
             If (XP < 10 And Prowess = 1) Or (XP < 15 And Prowess = 0) Then
                 MsgBox("You do not have enough XP!!")
@@ -7466,7 +7468,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroSmithingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroSmithingPlus.Click
+    Private Sub ButtonNeuroHydroSmithingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroSmithingPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
             If (XP < 10 And Smithing = 1) Or (XP < 15 And Smithing = 0) Then
                 MsgBox("You do not have enough XP!!")
@@ -7494,11 +7496,11 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroWeapondexterityPlus.Click
-
+    Private Sub ButtonNeuroHydroWeapondexterityPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroWeapondexterityPlus.Click
+        ConsrtuctDexForm()
     End Sub
 
-    Private Sub ButtonNeuroHydroSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroSensePlus.Click
+    Private Sub ButtonNeuroHydroSensePlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroSensePlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
             If (XP < 5 And Sense = 2) Or (XP < 10 And Sense = 1) Or (XP < 15 And Sense = 0) Then
                 MsgBox("You do not have enough XP!!")
@@ -7526,7 +7528,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroDetectionPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroDetectionPlus.Click
+    Private Sub ButtonNeuroHydroDetectionPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroDetectionPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
             If (XP < 5 And Detection = 2) Or (XP < 10 And Detection = 1) Or (XP < 15 And Detection = 0) Then
                 MsgBox("You do not have enough XP!!")
@@ -7554,7 +7556,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroHealthPlus.Click
+    Private Sub ButtonNeuroHydroHealthPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroHealthPlus.Click
         If XP < (HP + 2) Then
             MsgBox("You do not have enough XP!!")
         Else
@@ -7564,7 +7566,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroScrollwritingPlus.Click
+    Private Sub ButtonNeuroHydroScrollwritingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroScrollwritingPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
             If (XP < 5 And ScrollWriting = 2) Or (XP < 10 And ScrollWriting = 1) Or (XP < 15 And ScrollWriting = 0) Then
                 MsgBox("You do not have enough XP!!")
@@ -7592,7 +7594,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroEnchantingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroEnchantingPlus.Click
+    Private Sub ButtonNeuroHydroEnchantingPlus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroEnchantingPlus.Click
         If My.Computer.Keyboard.ShiftKeyDown = True Then
             If (XP < 10 And Enchanting = 1) Or (XP < 15 And Enchanting = 0) Then
                 MsgBox("You do not have enough XP!!")
@@ -7620,24 +7622,24 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroMigraineMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroMigraineMinus.Click
+    Private Sub ButtonNeuroHydroMigraineMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroMigraineMinus.Click
         If MigraineR2 > 0 Then
             MigraineR2 = MigraineR2 - 1
             XP = XP + 5
-        ElseIf (migraine + Snowball = 1) Then
+        ElseIf (Migraine + Snowball = 1) Then
             Migraine = Migraine - 1
-        ElseIf migraine > 0 Then
+        ElseIf Migraine > 0 Then
             Migraine = Migraine - 1
             XP = XP + 5
         End If
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroSnowballMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroSnowballMinus.Click
+    Private Sub ButtonNeuroHydroSnowballMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroSnowballMinus.Click
         If SnowballR2 > 0 Then
             SnowballR2 = SnowballR2 - 1
             XP = XP + 5
-        ElseIf (migraine + Snowball = 1) Then
+        ElseIf (Migraine + Snowball = 1) Then
             Snowball = Snowball - 1
         ElseIf Snowball > 0 Then
             Snowball = Snowball - 1
@@ -7646,7 +7648,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroForestryMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroForestryMinus.Click
+    Private Sub ButtonNeuroHydroForestryMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroForestryMinus.Click
         If ForestryR2 = 1 Then
             ForestryR2 = ForestryR2 - 1
             XP = XP + 15
@@ -7657,7 +7659,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroLeatherworkingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroLeatherworkingMinus.Click
+    Private Sub ButtonNeuroHydroLeatherworkingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroLeatherworkingMinus.Click
         If LeatherworkingR2 = 1 Then
             LeatherworkingR2 = LeatherworkingR2 - 1
             XP = XP + 15
@@ -7668,7 +7670,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroProwessMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroProwessMinus.Click
+    Private Sub ButtonNeuroHydroProwessMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroProwessMinus.Click
         If ProwessR2 = 1 Then
             ProwessR2 = ProwessR2 - 1
             XP = XP + 15
@@ -7679,7 +7681,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroSmithingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroSmithingMinus.Click
+    Private Sub ButtonNeuroHydroSmithingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroSmithingMinus.Click
         If SmithingR2 = 1 Then
             SmithingR2 = SmithingR2 - 1
             XP = XP + 15
@@ -7690,11 +7692,11 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroWeapondexterityMinus.Click
-
+    Private Sub ButtonNeuroHydroWeapondexterityMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroWeapondexterityMinus.Click
+        ConsrtuctDexForm()
     End Sub
 
-    Private Sub ButtonNeuroHydroSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroSenseMinus.Click
+    Private Sub ButtonNeuroHydroSenseMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroSenseMinus.Click
         If SenseR2 > 0 Then
             SenseR2 = SenseR2 - 1
             XP = XP + 5
@@ -7705,7 +7707,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroDetectionMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroDetectionMinus.Click
+    Private Sub ButtonNeuroHydroDetectionMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroDetectionMinus.Click
         If DetectionR2 > 0 Then
             DetectionR2 = DetectionR2 - 1
             XP = XP + 5
@@ -7716,7 +7718,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroHealthMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroHealthMinus.Click
+    Private Sub ButtonNeuroHydroHealthMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroHealthMinus.Click
         If HP > 0 Then
             HP = HP - 1
             XP = XP + HP + 2
@@ -7724,7 +7726,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroScrollwritingMinus.Click
+    Private Sub ButtonNeuroHydroScrollwritingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroScrollwritingMinus.Click
         If ScrollWritingR2 > 0 Then
             ScrollWritingR2 = ScrollWritingR2 - 1
             XP = XP + 5
@@ -7735,7 +7737,7 @@
         TalentLableChange()
     End Sub
 
-    Private Sub ButtonNeuroHydroEnchantingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeuroHydroEnchantingMinus.Click
+    Private Sub ButtonNeuroHydroEnchantingMinus_Click(sender As Object, e As EventArgs) Handles ButtonNeurohydroEnchantingMinus.Click
         If EnchantingR2 = 1 Then
             EnchantingR2 = EnchantingR2 - 1
             XP = XP + 15
@@ -8188,7 +8190,7 @@
             Chosenclass = Chosenclass & vbCrLf & "Wizard"
         End If
 
-        Return ChosenClass
+        Return Chosenclass
     End Function
     Function Charactersheetmodifier() As String
         Dim Chosenmodifier As String = ""
@@ -8306,7 +8308,7 @@
             ChosenBackgrounds = ChosenBackgrounds & vbCrLf & "Courier"
         End If
 
-        Return Chosenbackgrounds
+        Return ChosenBackgrounds
     End Function
     Function CharactersheetAttribute() As String
         Dim ChosenAttribute As String = ""

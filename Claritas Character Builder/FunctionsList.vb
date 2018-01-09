@@ -24,6 +24,270 @@
         InfoForm.InfoFormLabel.Text = BuildInfoFormLabel(Text)
         InfoForm.Show()
     End Sub
+    Sub ConsrtuctDexForm()
+        If Form1.RadioButtonClassCleric.Checked = True Then
+            FormDex.CheckBoxWeapondexWeaponcasting.Enabled = False
+            FormDex.CheckBoxWepondexBows.Enabled = False
+            FormDex.CheckBoxWepondexDualwielding.Enabled = True
+            FormDex.CheckBoxWepondexExoticweapons.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedblades.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedspears.Enabled = True
+            FormDex.CheckBoxWepondexShields.Enabled = True
+            FormDex.CheckBoxWepondexThrowingweapons.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedblades.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedspears.Enabled = True
+            'weapon arts
+            FormDex.CheckBoxWeaponartBattleaxe.Enabled = True
+            FormDex.CheckBoxWeaponartBattlehammer.Enabled = True
+            FormDex.CheckBoxWeaponartBattlespear.Enabled = True
+            FormDex.CheckBoxWeaponartBow.Enabled = False
+            FormDex.CheckBoxWeaponartBuckler.Enabled = True
+            FormDex.CheckBoxWeaponartDagger.Enabled = True
+            FormDex.CheckBoxWeaponartGreataxe.Enabled = False
+            FormDex.CheckBoxWeaponartGreathammer.Enabled = False
+            FormDex.CheckBoxWeaponartGreatshield.Enabled = False
+            FormDex.CheckBoxWeaponartGreatspear.Enabled = False
+            FormDex.CheckBoxWeaponartGreatsword.Enabled = False
+            FormDex.CheckBoxWeaponartHammer.Enabled = True
+            FormDex.CheckBoxWeaponartHatchet.Enabled = True
+            FormDex.CheckBoxWeaponartHuntingspear.Enabled = True
+            FormDex.CheckBoxWeaponartKiteshield.Enabled = True
+            FormDex.CheckBoxWeaponartWarhammer.Enabled = True
+            FormDex.CheckBoxWeaponartLongsword.Enabled = True
+            FormDex.CheckBoxWeaponartShortsword.Enabled = True
+            FormDex.CheckBoxWeaponartWaraxe.Enabled = True
+            FormDex.CheckBoxWeaponartWarspear.Enabled = True
+
+        ElseIf Form1.RadioButtonClassNoble.Checked = True Then
+            FormDex.CheckBoxWeapondexWeaponcasting.Enabled = False
+            FormDex.CheckBoxWepondexBows.Enabled = False
+            FormDex.CheckBoxWepondexDualwielding.Enabled = True
+            FormDex.CheckBoxWepondexExoticweapons.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedblades.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedspears.Enabled = True
+            FormDex.CheckBoxWepondexShields.Enabled = True
+            FormDex.CheckBoxWepondexThrowingweapons.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedblades.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedspears.Enabled = True
+            'weapon arts
+            FormDex.CheckBoxWeaponartBattleaxe.Enabled = True
+            FormDex.CheckBoxWeaponartBattlehammer.Enabled = True
+            FormDex.CheckBoxWeaponartBattlespear.Enabled = True
+            FormDex.CheckBoxWeaponartBow.Enabled = False
+            FormDex.CheckBoxWeaponartBuckler.Enabled = True
+            FormDex.CheckBoxWeaponartDagger.Enabled = True
+            FormDex.CheckBoxWeaponartGreataxe.Enabled = False
+            FormDex.CheckBoxWeaponartGreathammer.Enabled = False
+            FormDex.CheckBoxWeaponartGreatshield.Enabled = False
+            FormDex.CheckBoxWeaponartGreatspear.Enabled = False
+            FormDex.CheckBoxWeaponartGreatsword.Enabled = False
+            FormDex.CheckBoxWeaponartHammer.Enabled = True
+            FormDex.CheckBoxWeaponartHatchet.Enabled = True
+            FormDex.CheckBoxWeaponartHuntingspear.Enabled = True
+            FormDex.CheckBoxWeaponartKiteshield.Enabled = True
+            FormDex.CheckBoxWeaponartWarhammer.Enabled = True
+            FormDex.CheckBoxWeaponartLongsword.Enabled = True
+            FormDex.CheckBoxWeaponartShortsword.Enabled = True
+            FormDex.CheckBoxWeaponartWaraxe.Enabled = True
+            FormDex.CheckBoxWeaponartWarspear.Enabled = True
+
+        ElseIf Form1.RadioButtonClassRanger.Checked = True Then
+            FormDex.CheckBoxWepondexBows.Checked = True
+            FormDex.CheckBoxWeapondexWeaponcasting.Enabled = False
+            FormDex.CheckBoxWepondexBows.Enabled = False
+            FormDex.CheckBoxWepondexDualwielding.Enabled = True
+            FormDex.CheckBoxWepondexExoticweapons.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedblades.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedspears.Enabled = True
+            FormDex.CheckBoxWepondexShields.Enabled = True
+            FormDex.CheckBoxWepondexThrowingweapons.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedblades.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedspears.Enabled = True
+            'weapon arts
+            FormDex.CheckBoxWeaponartBattleaxe.Enabled = True
+            FormDex.CheckBoxWeaponartBattlehammer.Enabled = True
+            FormDex.CheckBoxWeaponartBattlespear.Enabled = True
+            FormDex.CheckBoxWeaponartBow.Enabled = True
+            FormDex.CheckBoxWeaponartBuckler.Enabled = True
+            FormDex.CheckBoxWeaponartDagger.Enabled = True
+            FormDex.CheckBoxWeaponartGreataxe.Enabled = False
+            FormDex.CheckBoxWeaponartGreathammer.Enabled = False
+            FormDex.CheckBoxWeaponartGreatshield.Enabled = False
+            FormDex.CheckBoxWeaponartGreatspear.Enabled = False
+            FormDex.CheckBoxWeaponartGreatsword.Enabled = False
+            FormDex.CheckBoxWeaponartHammer.Enabled = True
+            FormDex.CheckBoxWeaponartHatchet.Enabled = True
+            FormDex.CheckBoxWeaponartHuntingspear.Enabled = True
+            FormDex.CheckBoxWeaponartKiteshield.Enabled = True
+            FormDex.CheckBoxWeaponartWarhammer.Enabled = True
+            FormDex.CheckBoxWeaponartLongsword.Enabled = True
+            FormDex.CheckBoxWeaponartShortsword.Enabled = True
+            FormDex.CheckBoxWeaponartWaraxe.Enabled = True
+            FormDex.CheckBoxWeaponartWarspear.Enabled = True
+
+        ElseIf Form1.RadioButtonClassRogue.Checked = True Then
+            FormDex.CheckBoxWeapondexWeaponcasting.Enabled = False
+            FormDex.CheckBoxWepondexBows.Enabled = False
+            FormDex.CheckBoxWepondexDualwielding.Enabled = True
+            FormDex.CheckBoxWepondexExoticweapons.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedblades.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedspears.Enabled = True
+            FormDex.CheckBoxWepondexShields.Enabled = True
+            FormDex.CheckBoxWepondexThrowingweapons.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedblades.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedspears.Enabled = True
+            'weapon arts
+            FormDex.CheckBoxWeaponartBattleaxe.Enabled = True
+            FormDex.CheckBoxWeaponartBattlehammer.Enabled = True
+            FormDex.CheckBoxWeaponartBattlespear.Enabled = True
+            FormDex.CheckBoxWeaponartBow.Enabled = False
+            FormDex.CheckBoxWeaponartBuckler.Enabled = True
+            FormDex.CheckBoxWeaponartDagger.Enabled = True
+            FormDex.CheckBoxWeaponartGreataxe.Enabled = False
+            FormDex.CheckBoxWeaponartGreathammer.Enabled = False
+            FormDex.CheckBoxWeaponartGreatshield.Enabled = False
+            FormDex.CheckBoxWeaponartGreatspear.Enabled = False
+            FormDex.CheckBoxWeaponartGreatsword.Enabled = False
+            FormDex.CheckBoxWeaponartHammer.Enabled = True
+            FormDex.CheckBoxWeaponartHatchet.Enabled = True
+            FormDex.CheckBoxWeaponartHuntingspear.Enabled = True
+            FormDex.CheckBoxWeaponartKiteshield.Enabled = True
+            FormDex.CheckBoxWeaponartWarhammer.Enabled = True
+            FormDex.CheckBoxWeaponartLongsword.Enabled = True
+            FormDex.CheckBoxWeaponartShortsword.Enabled = True
+            FormDex.CheckBoxWeaponartWaraxe.Enabled = True
+            FormDex.CheckBoxWeaponartWarspear.Enabled = True
+
+        ElseIf Form1.RadioButtonClassVoidKnight.Checked = True Then
+            FormDex.CheckBoxWeapondexWeaponcasting.Enabled = False
+            FormDex.CheckBoxWepondexBows.Enabled = False
+            FormDex.CheckBoxWepondexDualwielding.Enabled = True
+            FormDex.CheckBoxWepondexExoticweapons.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedblades.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedspears.Enabled = True
+            FormDex.CheckBoxWepondexShields.Enabled = True
+            FormDex.CheckBoxWepondexThrowingweapons.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedblades.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedspears.Enabled = True
+            'weapon arts
+            FormDex.CheckBoxWeaponartBattleaxe.Enabled = True
+            FormDex.CheckBoxWeaponartBattlehammer.Enabled = True
+            FormDex.CheckBoxWeaponartBattlespear.Enabled = True
+            FormDex.CheckBoxWeaponartBow.Enabled = False
+            FormDex.CheckBoxWeaponartBuckler.Enabled = True
+            FormDex.CheckBoxWeaponartDagger.Enabled = True
+            FormDex.CheckBoxWeaponartGreataxe.Enabled = False
+            FormDex.CheckBoxWeaponartGreathammer.Enabled = False
+            FormDex.CheckBoxWeaponartGreatshield.Enabled = False
+            FormDex.CheckBoxWeaponartGreatspear.Enabled = False
+            FormDex.CheckBoxWeaponartGreatsword.Enabled = False
+            FormDex.CheckBoxWeaponartHammer.Enabled = True
+            FormDex.CheckBoxWeaponartHatchet.Enabled = True
+            FormDex.CheckBoxWeaponartHuntingspear.Enabled = True
+            FormDex.CheckBoxWeaponartKiteshield.Enabled = True
+            FormDex.CheckBoxWeaponartWarhammer.Enabled = True
+            FormDex.CheckBoxWeaponartLongsword.Enabled = True
+            FormDex.CheckBoxWeaponartShortsword.Enabled = True
+            FormDex.CheckBoxWeaponartWaraxe.Enabled = True
+            FormDex.CheckBoxWeaponartWarspear.Enabled = True
+
+        ElseIf Form1.RadioButtonClassWarrior.Checked = True Then
+            FormDex.CheckBoxWeapondexWeaponcasting.Enabled = False
+            FormDex.CheckBoxWepondexBows.Enabled = False
+            FormDex.CheckBoxWepondexDualwielding.Enabled = True
+            FormDex.CheckBoxWepondexExoticweapons.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedblades.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedspears.Enabled = True
+            FormDex.CheckBoxWepondexShields.Enabled = True
+            FormDex.CheckBoxWepondexThrowingweapons.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedblades.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedspears.Enabled = True
+            'weapon arts
+            FormDex.CheckBoxWeaponartBattleaxe.Enabled = True
+            FormDex.CheckBoxWeaponartBattlehammer.Enabled = True
+            FormDex.CheckBoxWeaponartBattlespear.Enabled = True
+            FormDex.CheckBoxWeaponartBow.Enabled = False
+            FormDex.CheckBoxWeaponartBuckler.Enabled = True
+            FormDex.CheckBoxWeaponartDagger.Enabled = True
+            FormDex.CheckBoxWeaponartGreataxe.Enabled = True
+            FormDex.CheckBoxWeaponartGreathammer.Enabled = True
+            FormDex.CheckBoxWeaponartGreatshield.Enabled = True
+            FormDex.CheckBoxWeaponartGreatspear.Enabled = True
+            FormDex.CheckBoxWeaponartGreatsword.Enabled = True
+            FormDex.CheckBoxWeaponartHammer.Enabled = True
+            FormDex.CheckBoxWeaponartHatchet.Enabled = True
+            FormDex.CheckBoxWeaponartHuntingspear.Enabled = True
+            FormDex.CheckBoxWeaponartKiteshield.Enabled = True
+            FormDex.CheckBoxWeaponartWarhammer.Enabled = True
+            FormDex.CheckBoxWeaponartLongsword.Enabled = True
+            FormDex.CheckBoxWeaponartShortsword.Enabled = True
+            FormDex.CheckBoxWeaponartWaraxe.Enabled = True
+            FormDex.CheckBoxWeaponartWarspear.Enabled = True
+
+        ElseIf Form1.RadioButtonClassWizard.Checked = True Then
+            FormDex.CheckBoxWeapondexWeaponcasting.Enabled = True
+            FormDex.CheckBoxWepondexBows.Enabled = False
+            FormDex.CheckBoxWepondexDualwielding.Enabled = True
+            FormDex.CheckBoxWepondexExoticweapons.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedblades.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexOnehandedspears.Enabled = True
+            FormDex.CheckBoxWepondexShields.Enabled = True
+            FormDex.CheckBoxWepondexThrowingweapons.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedaxes.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedblades.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedhammers.Enabled = True
+            FormDex.CheckBoxWepondexTwohandedspears.Enabled = True
+            'weapon arts
+            FormDex.CheckBoxWeaponartBattleaxe.Enabled = True
+            FormDex.CheckBoxWeaponartBattlehammer.Enabled = True
+            FormDex.CheckBoxWeaponartBattlespear.Enabled = True
+            FormDex.CheckBoxWeaponartBow.Enabled = False
+            FormDex.CheckBoxWeaponartBuckler.Enabled = True
+            FormDex.CheckBoxWeaponartDagger.Enabled = True
+            FormDex.CheckBoxWeaponartGreataxe.Enabled = False
+            FormDex.CheckBoxWeaponartGreathammer.Enabled = False
+            FormDex.CheckBoxWeaponartGreatshield.Enabled = False
+            FormDex.CheckBoxWeaponartGreatspear.Enabled = False
+            FormDex.CheckBoxWeaponartGreatsword.Enabled = False
+            FormDex.CheckBoxWeaponartHammer.Enabled = True
+            FormDex.CheckBoxWeaponartHatchet.Enabled = True
+            FormDex.CheckBoxWeaponartHuntingspear.Enabled = True
+            FormDex.CheckBoxWeaponartKiteshield.Enabled = True
+            FormDex.CheckBoxWeaponartWarhammer.Enabled = True
+            FormDex.CheckBoxWeaponartLongsword.Enabled = True
+            FormDex.CheckBoxWeaponartShortsword.Enabled = True
+            FormDex.CheckBoxWeaponartWaraxe.Enabled = True
+            FormDex.CheckBoxWeaponartWarspear.Enabled = True
+
+        End If
+        FormDex.Show()
+    End Sub
 End Module
 Module AbilityVariables
     'Classless Abilities
@@ -133,7 +397,7 @@ Module AbilityVariables
     Public XP As Integer = 15
     Public TalentLableString As String
     Function DexterityCount() As Integer
-        Return Dex1B + Dex2B + Dex1A + Dex2A + Dex1H + Dex2H + Dex1P + Dex2P + DexE + DexBow + DexDuel + DexShield + DexT + WeaponCasting
+        Return Dex1B + Dex2B + Dex1A + Dex2A + Dex1H + Dex2H + Dex1P + Dex2P + DexE + DexDuel + DexShield + DexT + WeaponCasting
     End Function
     Sub ClearTalentInfo()
         'Classless Abilities
@@ -168,6 +432,26 @@ Module AbilityVariables
         DexBow = 0
         DexShield = 0
         DexDuel = 0
+        'Weapon arts
+        WAD = 0
+        WASS = 0
+        WALS = 0
+        WAGS = 0
+        WAHA = 0
+        WABA = 0
+        WAWA = 0
+        WAGA = 0
+        WAH = 0
+        WABH = 0
+        WAWH = 0
+        WAGH = 0
+        WAHP = 0
+        WABP = 0
+        WAWP = 0
+        WAGP = 0
+        WABuckler = 0
+        WAKshield = 0
+        WAGshield = 0
         'Class Talents
         BornAnew = 0
         Convert = 0
@@ -214,6 +498,7 @@ Module AbilityVariables
         WeaponCasting = 0
         HP = 0
         XP = 15
+        FormDex.Close()
         TalentLableChange()
     End Sub
     Sub ClearWizardInfo()
@@ -311,6 +596,66 @@ Module AbilityVariables
         End If
         If DexDuel > 0 Then
             TalentLableString = TalentLableString & vbCrLf & " Weapon Dexterity Duelwielding"
+        End If
+        If WAD > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon Art Dagger"
+        End If
+        If WASS > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Short Sword"
+        End If
+        If WALS > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Long Sword"
+        End If
+        If WAGS > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Great Sword"
+        End If
+        If WAHA > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Hatchet"
+        End If
+        If WABA > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Battle Axe"
+        End If
+        If WAWA > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art War Axe"
+        End If
+        If WAGA > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Great Axe"
+        End If
+        If WAH > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Hammer"
+        End If
+        If WABH > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Battle Hammer"
+        End If
+        If WAWH > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art War Hammer"
+        End If
+        If WAGH > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Great Hammer"
+        End If
+        If WAHP > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Hunting Spear"
+        End If
+        If WABP > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Battle Spear"
+        End If
+        If WAWP > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art War Spear"
+        End If
+        If WAGP > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Great Spear"
+        End If
+        If WAB > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Bow"
+        End If
+        If WABuckler > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Buckler"
+        End If
+        If WAKshield > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Kite Shield"
+        End If
+        If WAGshield > 0 Then
+            TalentLableString = TalentLableString & vbCrLf & " Weapon art Great Shield"
         End If
         If BornAnew > 0 Then
             TalentLableString = TalentLableString & vbCrLf & BornAnew & " Born Anew R1"
