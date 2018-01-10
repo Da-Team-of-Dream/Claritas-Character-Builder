@@ -14018,7 +14018,6 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(828, 389)
-        Me.Controls.Add(Me.PanelHalfbreed)
         Me.Controls.Add(Me.PanelWelcome)
         Me.Controls.Add(Me.PanelNyad)
         Me.Controls.Add(Me.PanelAngalucian)
@@ -14065,6 +14064,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelGnome)
         Me.Controls.Add(Me.PanelKin)
         Me.Controls.Add(Me.PanelGoblin)
+        Me.Controls.Add(Me.PanelHalfbreed)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form1"
