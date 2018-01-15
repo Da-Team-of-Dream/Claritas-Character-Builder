@@ -1,0 +1,27 @@
+﻿
+Player Name: Jacqui     Player Age: 21
+
+Character Name: Pingo     Character Age: 30
+
+HP: 0     XP: 15     Copper: 85
+
+Kin: 
+Gnome
+
+Class: 
+Ranger
+
+Modifier: 
+Common
+
+Backgrounds: 
+Middleman
+Tradesman
+
+Attributes: 
+Small Size
+
+Talents Already Chosen:
+ Weapon Dexterity Bow
+
+Backstory: I love to sell things

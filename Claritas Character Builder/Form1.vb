@@ -1159,7 +1159,7 @@
             Me.PanelWoodelf.BringToFront()
             Me.PanelWoodelf.Enabled = True
         Else
-            MsgBox("You must select a kin befor moving on!!")
+            MsgBox("You must select a kin before moving on!!")
         End If
     End Sub
 
@@ -7983,7 +7983,7 @@
              RadioButtonModifiersNaturalist.Checked = False And
              RadioButtonModifiersIndebtedsoul.Checked = False And
              RadioButtonModifiersToughskin.Checked = False Then
-            MsgBox("Please select a Modifier!:)")
+            MsgBox("Please select a Modifier!")
         Else
             PanelEnd.BringToFront()
             PanelEnd.Enabled = True
@@ -8606,4 +8606,17 @@
         PanelEnd.Enabled = True
         PanelEnd.BringToFront()
     End Sub
+
+    Private Sub ButtonEndModifier_Click(sender As Object, e As EventArgs) Handles ButtonEndModifier.Click
+        If RadioButtonModifiersHalfBreed.Checked = True Then
+            PanelHalfbreed.BringToFront()
+            PanelHalfbreed.Enabled = True
+            PanelEnd.Enabled = False
+        Else
+            PanelModifier.BringToFront()
+            PanelModifier.Enabled = True
+            PanelEnd.Enabled = False
+        End If
+    End Sub
+
 End Class

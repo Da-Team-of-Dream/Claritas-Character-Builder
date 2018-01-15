@@ -24,7 +24,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartDagger.Checked = False
-            ElseIf Dex1B < 1 Then
+            ElseIf Dex1B < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in one handed blades to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartDagger.Checked = False
             Else
@@ -42,7 +42,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartShortsword.Checked = False
-            ElseIf Dex1B < 1 Then
+            ElseIf Dex1B < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in one handed blades to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartShortsword.Checked = False
             Else
@@ -60,7 +60,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartLongsword.Checked = False
-            ElseIf Dex2B < 1 Then
+            ElseIf Dex2B < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in two handed blades to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartLongsword.Checked = False
             Else
@@ -78,7 +78,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartGreatsword.Checked = False
-            ElseIf Dex2B < 1 Then
+            ElseIf Dex2B < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in two handed blades to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartGreatsword.Checked = False
             Else
@@ -96,7 +96,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartHatchet.Checked = False
-            ElseIf Dex1A < 1 Then
+            ElseIf Dex1A < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in one handed axes to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartHatchet.Checked = False
             Else
@@ -114,7 +114,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartBattleaxe.Checked = False
-            ElseIf Dex1A < 1 Then
+            ElseIf Dex1A < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in one handed axes to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartBattleaxe.Checked = False
             Else
@@ -132,7 +132,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartWaraxe.Checked = False
-            ElseIf Dex2A < 1 Then
+            ElseIf Dex2A < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in two handed axes to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartWaraxe.Checked = False
             Else
@@ -150,7 +150,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartGreataxe.Checked = False
-            ElseIf Dex2A < 1 Then
+            ElseIf Dex2A < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in two handed axes to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartGreataxe.Checked = False
             Else
@@ -168,7 +168,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartHammer.Checked = False
-            ElseIf Dex1H < 1 Then
+            ElseIf Dex1H < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in one handed hammers to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartHammer.Checked = False
             Else
@@ -186,7 +186,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartBattlehammer.Checked = False
-            ElseIf Dex1H < 1 Then
+            ElseIf Dex1H < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in one handed hammers to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartBattlehammer.Checked = False
             Else
@@ -204,7 +204,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartWarhammer.Checked = False
-            ElseIf Dex2H < 1 Then
+            ElseIf Dex2H < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in two handed hammers to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartWarhammer.Checked = False
             Else
@@ -222,7 +222,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartGreathammer.Checked = False
-            ElseIf Dex2H < 1 Then
+            ElseIf Dex2H < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in two handed hammers to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartGreathammer.Checked = False
             Else
@@ -240,7 +240,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartHuntingspear.Checked = False
-            ElseIf Dex1P < 1 Then
+            ElseIf Dex1P < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in one handed spears to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartHuntingspear.Checked = False
             Else
@@ -258,7 +258,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartBattlespear.Checked = False
-            ElseIf Dex1P < 1 Then
+            ElseIf Dex1P < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in one handed spears to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartBattlespear.Checked = False
             Else
@@ -276,7 +276,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartWarspear.Checked = False
-            ElseIf Dex2P < 1 Then
+            ElseIf Dex2P < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in two handed spears to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartWarspear.Checked = False
             Else
@@ -294,7 +294,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartGreatspear.Checked = False
-            ElseIf Dex2P < 1 Then
+            ElseIf Dex2P < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in two handed spears to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartGreatspear.Checked = False
             Else
@@ -312,7 +312,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartBow.Checked = False
-            ElseIf DexBow < 1 Then
+            ElseIf DexBow < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in bows to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartBow.Checked = False
             Else
@@ -330,7 +330,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartBuckler.Checked = False
-            ElseIf DexShield < 1 Then
+            ElseIf DexShield < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in shields to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartBuckler.Checked = False
             Else
@@ -348,7 +348,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartKiteshield.Checked = False
-            ElseIf DexShield < 1 Then
+            ElseIf DexShield < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in shields to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartKiteshield.Checked = False
             Else
@@ -366,7 +366,7 @@
             If XP < 10 Then
                 MsgBox("You do not have enough XP! Weapon arts cost 10 XP!")
                 CheckBoxWeaponartGreatshield.Checked = False
-            ElseIf DexShield < 1 Then
+            ElseIf DexShield < 1 And DexE < 1 Then
                 MsgBox("You must have dexterity in one handed blades to have this weapon art!" & vbCrLf & "Please select the dexterity first!")
                 CheckBoxWeaponartGreatshield.Checked = False
             Else

@@ -1258,7 +1258,7 @@ Partial Class Form1
         Me.LabelWelcomeHeading.Size = New System.Drawing.Size(607, 63)
         Me.LabelWelcomeHeading.TabIndex = 0
         Me.LabelWelcomeHeading.Text = "Welcome to Claritas character creator! To get started fill in the blanks and clic" &
-    "k next. Remeber you can always  go back to any page."
+    "k next. Remember you can always go back to any page."
         '
         'PanelKin
         '
@@ -2021,7 +2021,7 @@ Partial Class Form1
         Me.LabelKinDescription.Location = New System.Drawing.Point(16, 11)
         Me.LabelKinDescription.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LabelKinDescription.Name = "LabelKinDescription"
-        Me.LabelKinDescription.Size = New System.Drawing.Size(220, 250)
+        Me.LabelKinDescription.Size = New System.Drawing.Size(220, 268)
         Me.LabelKinDescription.TabIndex = 0
         Me.LabelKinDescription.Text = resources.GetString("LabelKinDescription.Text")
         '
@@ -6705,7 +6705,7 @@ Partial Class Form1
         '
         'ButtonNobleHealthMinus
         '
-        Me.ButtonNobleHealthMinus.Location = New System.Drawing.Point(0, 0)
+        Me.ButtonNobleHealthMinus.Location = New System.Drawing.Point(460, 190)
         Me.ButtonNobleHealthMinus.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonNobleHealthMinus.Name = "ButtonNobleHealthMinus"
         Me.ButtonNobleHealthMinus.Size = New System.Drawing.Size(27, 27)
@@ -13203,7 +13203,7 @@ Partial Class Form1
         '
         Me.LabelEndBackstory.AutoSize = True
         Me.LabelEndBackstory.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelEndBackstory.Location = New System.Drawing.Point(371, 186)
+        Me.LabelEndBackstory.Location = New System.Drawing.Point(416, 183)
         Me.LabelEndBackstory.Name = "LabelEndBackstory"
         Me.LabelEndBackstory.Size = New System.Drawing.Size(156, 21)
         Me.LabelEndBackstory.TabIndex = 14
@@ -13260,7 +13260,7 @@ Partial Class Form1
         Me.LabelEndIntro.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelEndIntro.Location = New System.Drawing.Point(12, 7)
         Me.LabelEndIntro.Name = "LabelEndIntro"
-        Me.LabelEndIntro.Size = New System.Drawing.Size(796, 187)
+        Me.LabelEndIntro.Size = New System.Drawing.Size(796, 198)
         Me.LabelEndIntro.TabIndex = 8
         Me.LabelEndIntro.Text = resources.GetString("LabelEndIntro.Text")
         '
@@ -14018,10 +14018,6 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(828, 389)
-        Me.Controls.Add(Me.PanelWelcome)
-        Me.Controls.Add(Me.PanelNyad)
-        Me.Controls.Add(Me.PanelAngalucian)
-        Me.Controls.Add(Me.PanelFaerleth)
         Me.Controls.Add(Me.PanelEnd)
         Me.Controls.Add(Me.PanelModifier)
         Me.Controls.Add(Me.PanelKinesiokairo)
@@ -14065,10 +14061,14 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelKin)
         Me.Controls.Add(Me.PanelGoblin)
         Me.Controls.Add(Me.PanelHalfbreed)
+        Me.Controls.Add(Me.PanelWelcome)
+        Me.Controls.Add(Me.PanelNyad)
+        Me.Controls.Add(Me.PanelAngalucian)
+        Me.Controls.Add(Me.PanelFaerleth)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form1"
-        Me.Text = "Claritas Character Builder"
+        Me.Text = "Claritas Character Creator"
         Me.PanelWelcome.ResumeLayout(False)
         Me.PanelWelcome.PerformLayout()
         Me.PanelKin.ResumeLayout(False)

@@ -35,16 +35,16 @@ Description: Dryads are slightly larger than most humans. They have dark to ligh
 KinDryad
 ------------------
 KinDwarf
-Stature - Large, Average height 4'
+Stature - Large, Average height 4’
 Dwarves are slightly short, very sturdy mountain-dwelling people with a broad frame. They are typically very fond of caves and have excellent manual craftsmanship, they tend to make expert miners and metalworkers, and formidable warriors. They tend to have a very expensive taste and a love of luxury, with a particular penchant for gold and jewels. Dwarves have a strong sense of pride in their family, accomplishments, and beard. Your beard is your first impression of pride and strength to another dwarf, thus if a dwarven beard is not well maintained, its owner will not be respected by their fellow members of Dwarven society.Dwarves have will of iron and a heart of fire. When a dwarf sets their mind on something, there is little that can stop them from accomplishing it.
 KinDwarf
 ------------------
 KinEthereal
-Stature - Medium, Average height 5'9"
+Stature - Medium, Average height 5’9"
 KinEthereal
 ------------------
 KinFairy
-Stature - Small, Average height 1'6"
+Stature - Small, Average height 1’6"
 Description: There are four major kinds of fairies; the Shaoothuto, the Ahlookaro, the Szhoom, and the Ecall. The Shaoothuto are the most common type of fairy standing between 1’ and 2’ with an average weight of about 22 lb. Their skin colors vary between varieties of green, blue, purple, yellow, or red. Shaoothuto skin is covered in spots a slightly darker hue than their skin in a variety of patterns. Their hair is usually some shade of their skin color. Ecall, the rarest variety of fairy, are shaped like a Shaoothuto but have human coloring. Ahlookaro is a term used to describe a fairy with some animal feature ie. a cat tail, bird wings instead of fairy wings, etc. Finally Szhoom is a term used to describe a large fairy. Szhoom usually stand between 2’ and 3’ tall and generally have a larger frame than other fairies. Despite their bigger size, their wings remain about the size of most fairies causing them to appear awkwardly small. All of these kinds of fairy are not exclusive and can be mixed ie. a fairy can be both a Szhoom and an Ahlookaro.
 The Fairy kingdom is split into four nations: Earth, Water, Wind, and Fire. all of the nations work together to try to improve the fairy kingdom as a whole. Each nation holds its own temperament.
 Earth - Generally, Fairies from the earth nation express themselves through their craft. They take whatever job is required of them and make it their own. They are usually agreeable people; however, it is hard to change an earth fairy’s mind.
@@ -75,7 +75,7 @@ KinGoblin
 ------------------
 KinHighElf
 Stature - Medium, Average Height 6’6”
-Description: High elves are relatively uncommon outside their homeland in the Golden Dove kingdom. They are usually very proud of their heritage, and most of them hundreds, if not thousands, of years old. Not naturally inclined to put themselves at risk, they often prefer archery to keep danger at a distance. However, this isn't usually necessary, as they are the most magic-affine kin among those commonly found around Wilshire, with a large majority of their kin being able to use magic. For this reason, as well as their ever-graceful appearances and suitably haughty demeanor, they are often seen as prim cowards.
+Description: High elves are relatively uncommon outside their homeland in the Golden Dove kingdom. They are usually very proud of their heritage, and most of them hundreds, if not thousands, of years old. Not naturally inclined to put themselves at risk, they often prefer archery to keep danger at a distance. However, this isn’t usually necessary, as they are the most magic-affine kin among those commonly found around Wilshire, with a large majority of their kin being able to use magic. For this reason, as well as their ever-graceful appearances and suitably haughty demeanor, they are often seen as prim cowards.
 KinHighElf
 ------------------
 KinFaerleth
@@ -127,7 +127,7 @@ Null
 KinS---------
 ------------------
 KinSquirrels
-Stature - Small, Average height 1'
+Stature - Small, Average height 1’
 Null
 KinSquirrels
 ------------------
@@ -552,7 +552,7 @@ Allows a player to find tracks and gain information about what they are tracking
 ClassRanger
 ------------------
 ClassRogue
-A surprisingly wide variety of people train in this mysterious, ninja-like discipline, and routinely vanish into thin air. The less honorable among them have the ability to master the darker side of combat, employing diseases, poisons, and stealthy armor-piercing stabs. Some rogues with a different sense of nobility and honor may find the arts of obtaining things without murder more to their tastes: With inexplicably deft movements, they can quietly take things from their enemies, or devise silver-tongued trickeries that can be useful in a variety of situations. They may not be Nobles, but some rogues pride themselves on talking like them. (get to choose 1 of their special Slots to start with are - Vanish can't move or be seen for 15 sec, hide can't move and has to be behind or next to something to be not seen until either heard or seen from behind, or invisible for 10 sec which allows you to move around and not be seen)
+A surprisingly wide variety of people train in this mysterious, ninja-like discipline, and routinely vanish into thin air. The less honorable among them have the ability to master the darker side of combat, employing diseases, poisons, and stealthy armor-piercing stabs. Some rogues with a different sense of nobility and honor may find the arts of obtaining things without murder more to their tastes: With inexplicably deft movements, they can quietly take things from their enemies, or devise silver-tongued trickeries that can be useful in a variety of situations. They may not be Nobles, but some rogues pride themselves on talking like them. (get to choose 1 of their special Slots to start with are - Vanish can’t move or be seen for 15 sec, hide can’t move and has to be behind or next to something to be not seen until either heard or seen from behind, or invisible for 10 sec which allows you to move around and not be seen)
 
 Disease
 Allows the player to make and apply diseases.
@@ -564,7 +564,7 @@ Disguise
 Allows player to make themselves physically unrecognizable or look like someone else for as long as they wish.
 
 Expose
-Allows the player to get rid of a target's buffs and armor effects for a short while.
+Allows the player to get rid of a target’s buffs and armor effects for a short while.
 
 Vanish
 Allows player to sprint in the blink of an eye from one point to another.(In a straight line, not through people or objects)
@@ -727,7 +727,7 @@ Rise
 Raises a newly killed being to aid the caster. Can only have one active at a time.
 
 Syphoning Strike
-The target or player's next attack heals them for the amount of damage dealt by their next successful attack.
+The target or player’s next attack heals them for the amount of damage dealt by their next successful attack.
 
 Death Shield
 Stops the effects of all potions, poisons, diseases, and Clerical/Healing magic to the target.
@@ -740,7 +740,7 @@ Neuromancy is magic that manipulates the mind. It focuses on manipulating and co
 Tier I
 
 Migraine
-Messes with the targets senses making it so they can't run or fight. 
+Messes with the targets senses making it so they can’t run or fight. 
 
 Tier II
 Mind Read
@@ -821,15 +821,15 @@ Exotic
 We allow them to pick from the weapon’s “mixture” of weapon arts.
 
 Buckler Shield
-If it breaks, as long as it's being worn that arm gets an additive dr +1
+If it breaks, as long as it’s being worn that arm gets an additive dr +1
 Can be used with a two handed weapon. Still must two hand the weapon, but can let got of one hand for a little bit at a time to block.
 
 Kite Shield
-If it breaks, as long as it's being worn that arm gets an additive dr +1
+If it breaks, as long as it’s being worn that arm gets an additive dr +1
 Can call shield bash and roleplay a shield bash that forces a target to take a step back and take a knee for 3 seconds in which they can only defend.
 
 Great Shield
-If it breaks, as long as it's being worn that arm gets an additive dr +1
+If it breaks, as long as it’s being worn that arm gets an additive dr +1
 Can resist any displacement effects OPE. 
 
 AllweaponsWeaponart
@@ -844,7 +844,7 @@ Revive a knocked out target.
 (Rank III) Brings back anything to 3 HP.
 
 Convert 
-Convert is a full body shield, which takes a total damage. Not regional damage. Doesn't negate damage.
+Convert is a full body shield, which takes a total damage. Not regional damage. Doesn’t negate damage.
 (Rank I) Converts half of any talent damage done to the player into a shield over armor, to be used on themselves or anyone in their reach.
 (Rank II) Converts any talent damage done to the player into a shield over armor, to be used on themselves or anyone in their reach.
 (Rank III) Converts twice any talent damage done to the player into shield over armor to be used on themselves or anyone in their reach.
@@ -894,8 +894,8 @@ Languages
 (Rank III) Allows the player to speak in any language and read and write in any developed language.
 
 Leadership
-(Rank I) Allows the players to see the first encounter before it begins. Allows the player's party to go 4 encounters without resting. 
-(Rank II) Allows the players to see the first encounter before it begins and know the encounter type. Allows the player's party to go 5 encounters without resting. Players can sleep one watch fewer.
+(Rank I) Allows the players to see the first encounter before it begins. Allows the player’s party to go 4 encounters without resting. 
+(Rank II) Allows the players to see the first encounter before it begins and know the encounter type. Allows the player’s party to go 5 encounters without resting. Players can sleep one watch fewer.
 (Rank III) Allows the players to see the first encounter before it begins and know the encounter type and rank. Allows the players party to go 6 encounters without resting. Players can sleep one watch fewer. Player may choose to have an additional party member.
 TalentsNoble
 ------------------
@@ -950,9 +950,9 @@ Disguise
 (Rank III) Allows the player to perfectly resemble anyone for as long as they wish.
 
 Expose
-(Rank I) Allows the player to negate a target's DR for 5 seconds.
-(Rank II) Allows the player to negate a target's DR, DC and any active positive stat alterations for 5 seconds.
-(Rank III) Allows the player to negate a target's DR, DC and cancel all active positive stat alterations and silence them for the next 15 seconds.
+(Rank I) Allows the player to negate a target’s DR for 5 seconds.
+(Rank II) Allows the player to negate a target’s DR, DC and any active positive stat alterations for 5 seconds.
+(Rank III) Allows the player to negate a target’s DR, DC and cancel all active positive stat alterations and silence them for the next 15 seconds.
 
 Vanish
 (Rank I) Allows player to sprint incredibly quick in a straight line "instantaneously" in in-game time. (Not through people or objects) The player has 5 seconds of real time.
@@ -975,7 +975,7 @@ Abilities
 Jump
 (Rank I) If affected by magic a player can instantly close 2/3rds of the gap between them and the target.
 (Rank II) If affected by magic a player can instantly teleport to anywhere between them and the target.
-(Rank III) If affected by magic the player can move anywhere within 10' of the target.
+(Rank III) If affected by magic the player can move anywhere within 10’ of the target.
 
 Life-link
 (Rank I) A player can pick a target hit by a damaging spell and half the damage taken by the target but the player takes the full damage of the spell.
@@ -1012,11 +1012,11 @@ Must hit weapon.
 (Rankless) Allows the player to force their opponent to throw their weapon in the direction they swung. 
 
 Gimp
-Must hit a target's leg.
+Must hit a target’s leg.
 (Rankless) Causes the target to drag the leg that was hit throughout the encounter or until healed.
 
 Knock Down
-Must hit target's leg.
+Must hit target’s leg.
 (Rankless) Forces target to fall down. (target must have both hands and knees, back, or bum on the ground to work).
  
 Like A Rock
@@ -1029,7 +1029,7 @@ Hydromancy
 Tier I
 Snowball
 (Rank I) 0 damage 2 castings. Slows target for 5 seconds.
-(Rank II) 1 damage 2 castings. Numbs area hit for 5 seconds. (If it hits a limb, limb can't move.)
+(Rank II) 1 damage 2 castings. Numbs area hit for 5 seconds. (If it hits a limb, limb can’t move.)
 (Rank III) 2 damage 2 castings. Kneel for 5 seconds.
  
 Tier II
@@ -1047,8 +1047,8 @@ Frostbite
 Black Ice
 (Cast with magic sphere) Creates a patch of circular black ice, and causes all in radius to fall.
 (Rank I) Forces target hit to fall.
-(Rank II) Patch is 5' diameter.
-(Rank III) Patch is 5' diameter and those affected must stay down for 5 seconds.
+(Rank II) Patch is 5’ diameter.
+(Rank III) Patch is 5’ diameter and those affected must stay down for 5 seconds.
 
 Tier III
 Stay Frosty
@@ -1063,7 +1063,7 @@ Liquid Mantle
 (Rank III) Allows the player to deliver a shield that protects against the next 2 abilities used against the target.
 
 Ice Spear
-(Caster throws magic that in air appears to change into a flying lance, and sticks the target(s) to the nearest obstruction or ground within 5' In the direction cast, rooting them in place.)
+(Caster throws magic that in air appears to change into a flying lance, and sticks the target(s) to the nearest obstruction or ground within 5’ In the direction cast, rooting them in place.)
 (Rank I) Delivers 4 damage and takes 10 uninterrupted seconds to remove the root.
 (Rank II) Delivers 5 damage and takes 10 uninterrupted seconds to remove the root. (Can impale 2 people)
 (Rank III) 10 damage and takes 10 uninterrupted seconds to remove the root. (Can impale infinite people)
@@ -1090,15 +1090,15 @@ Lighting Shield
 (Rank III) Player can summon a lightning shield. The shield can take 4 hits, regardless of strength. If the shield is hit, the attacker takes 2 damage to limb HP.
 
 Magnet 
-Can't be used if target doesn't have metal.
+Can’t be used if target doesn’t have metal.
 (Rank I) Causes weapons the size of a dagger or a short to be disarmed.
 (Rank II) Causes any weapon to be disarmed.
 (Rank III) Causes Target to be thrown in the direction of the caster.
 
 Tier III
 Recharge
-(Rank I) Caster meditates for 10 seconds gathering electricity making the casters next single target spell have a 3 second stun as well as it's regular effect. 
-(Rank II) Caster meditates for 10 seconds gathering electricity making the casters next AoE target spell have a 3 second stun as well as it's regular effect. 
+(Rank I) Caster meditates for 10 seconds gathering electricity making the casters next single target spell have a 3 second stun as well as it’s regular effect. 
+(Rank II) Caster meditates for 10 seconds gathering electricity making the casters next AoE target spell have a 3 second stun as well as it’s regular effect. 
 (Rank III) Makes charge time from previous ranks 5 seconds. It also allows the player to consume all of either their rank 1s or rank 2s into a single cast with all the charge times and stuns combined.
 
 Lighting Storm
@@ -1107,8 +1107,8 @@ Lighting Storm
 (Rank III) A great cloud appears and strikes the earth and does 4 damage to HP to anyone in a diameter of 5 ft around where the ball was thrown.
 
 Static Charge
-(Rank I) Allows the player to "mark" a target with a spell, that doubles the next Lightning Bolt's damage done to that target.
-(Rank II) Allows the player to "mark" a target with a spell, that triples the next Lightning Bolt's damage done to that target.
+(Rank I) Allows the player to "mark" a target with a spell, that doubles the next Lightning Bolt’s damage done to that target.
+(Rank II) Allows the player to "mark" a target with a spell, that triples the next Lightning Bolt’s damage done to that target.
 (Rank III) Allows the player to "mark" a target with a spell, increases all Lightning Bolt damage done to that target by 1.
 
 Kairomancy
@@ -1123,25 +1123,25 @@ Fireball
 
 Tier II
 Ember
-(Rank I) Encases the caster's weapon in flames adding 1 damage to the next swing.
-(Rank II) Encases the caster's weapon in flames adding 3 damage to the next swing.
-(Rank III) Encases the caster's weapon in flames adding 5 damage to the next 2 swings.
+(Rank I) Encases the caster’s weapon in flames adding 1 damage to the next swing.
+(Rank II) Encases the caster’s weapon in flames adding 3 damage to the next swing.
+(Rank III) Encases the caster’s weapon in flames adding 5 damage to the next 2 swings.
 
 Enraged
 Player may use this ability upon receiving damage or a status effect from an enemy, or upon an ally dropping to 0 HP
-(Rank I) Increases caster's next single target fire spell damage by 1
-(Rank II) Increases caster's next single target fire spell damage by 3
-(Rank III) Increases caster's next single target fire spell damage by 5
+(Rank I) Increases caster’s next single target fire spell damage by 1
+(Rank II) Increases caster’s next single target fire spell damage by 3
+(Rank III) Increases caster’s next single target fire spell damage by 5
 
 Fire Breath
-(Rank I) Player can shoot a 5' long conical flame in front of player for 3 points of damage.
-(Rank II) Player can shoot a 5' long conical flame in front of player for 5 points of damage.
-(Rank III) Player can shoot a 5' long conical flame in front of player for 10 points of damage.
+(Rank I) Player can shoot a 5’ long conical flame in front of player for 3 points of damage.
+(Rank II) Player can shoot a 5’ long conical flame in front of player for 5 points of damage.
+(Rank III) Player can shoot a 5’ long conical flame in front of player for 10 points of damage.
 
 Tier III
 Building Flame
 The caster must hit any rank Fireball to use this ability. This ability can stack.
-(Rank I) Adds 1 damage to the caster's next  Fireball.
+(Rank I) Adds 1 damage to the caster’s next  Fireball.
 (Rank II) Adds 1 damage to all Fireballs for that encounter.
 (Rank III) Adds 2 damage to all Fireballs for that encounter.
 
@@ -1183,7 +1183,7 @@ Creates a pulse of energy from the caster that pushes players back.
 (Rank III) Pushes all targets in directed location 20 feet away and knocks them down.
 
 Telekinesis
-Allows player to moves any inanimate object. Can't cause damage.
+Allows player to moves any inanimate object. Can’t cause damage.
 (Rank I) Player can move objects that weigh 25 units within 10 feet.
 (Rank II) Player can move objects that weigh 75 units within 20 feet.
 (Rank III) Player can move any object within reason and sight.
@@ -1231,9 +1231,9 @@ Raises a newly killed being to aid the caster. Can only have one active at a tim
 
 Syphoning Strike
 Only affects base swing damage. This HP is non-replenishable. This spell is self stackable. This effect goes to a character.
-(Rank I) The target's next attack heals them for the amount of damage dealt by their next successful attack.
-(Rank II) The target's next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
-(Rank III) The target's next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
+(Rank I) The target’s next attack heals them for the amount of damage dealt by their next successful attack.
+(Rank II) The target’s next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
+(Rank III) The target’s next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
 
 Death Shield
 Stops the effects of all potions, poisons, diseases, and interplanery invocation, of the respective rank, to the target, for the encounter or until the death of the caster.
@@ -1252,12 +1252,12 @@ Raises a newly killed being to aid the caster with all of their equipment includ
 
 Dormancy 
 Both uses of this spell must be landed on the same target in order to take effect. If body is struck by Syphoning Strike the target is Reincarnated and frenzied, attacking the closest target at all times. Sets stats to 20/20 and original swing. If the target kills anything the effect is reversed.
-(Rank I) Causes target to fall unconscious for 10 seconds. Target can't be damaged or affected.
-(Rank II) Causes target to fall unconscious for 20 seconds. Target can't be damaged or affected. 
-(Rank III) Causes target to fall unconscious for 20 seconds. Target can't be damaged or affected. Target hit by at least 1 cast of Dormancy restores an additional HP with Life Syphon to caster for the encounter this.
+(Rank I) Causes target to fall unconscious for 10 seconds. Target can’t be damaged or affected.
+(Rank II) Causes target to fall unconscious for 20 seconds. Target can’t be damaged or affected. 
+(Rank III) Causes target to fall unconscious for 20 seconds. Target can’t be damaged or affected. Target hit by at least 1 cast of Dormancy restores an additional HP with Life Syphon to caster for the encounter this.
 
 Death Walk
-Necromancer must hit a dead body with a spell ball causing the body to explode dealing physical damage in a radius of 5'.
+Necromancer must hit a dead body with a spell ball causing the body to explode dealing physical damage in a radius of 5’.
 (Rank I) The explosion does 10 physical damage
 (Rank II) The explosion does 15 physical damage
 (Rank III) The explosion does 25 physical damage
@@ -1267,21 +1267,21 @@ Necromancy
 Neuromancy
 
 Mental Fortitude
-Every time a Neuromancy spell is purchased it increases the Wizard's fortitude by 1. Mental fortitude is required to use all tier 2 and 3 neuromantic spells and is refreshed every encounter.
+Every time a Neuromancy spell is purchased it increases the Wizard’s fortitude by 1. Mental fortitude is required to use all tier 2 and 3 neuromantic spells and is refreshed every encounter.
 Abilities in tier 2 and 3: The player may choose to purchase 1 of 2 abilities in a set as a Rank 1, when you purchase the Rank 2 of a set you may choose to either Rank up whichever ability you have already purchased the Rank 1 of to a Rank 2 or get the other option�s Rank 1, when you purchase the rank 3 of a set you may upgrade both abilities to Rank 2, or upgrade 1 Rank 1 ability to Rank 3 and leave the other at Rank 1 or upgrade 1 ability to Rank 3 and purchase the other in the set�s Rank 1.
 
 Tier I
 Migraine
-(Rank I) Target can't run for 5 seconds and 2 casts. 
-(Rank II) Target can't deal damage for 5 seconds 2 casts. 
-(Rank III) Target is blinded and can't deal damage for 5 seconds 2 casts. 
+(Rank I) Target can’t run for 5 seconds and 2 casts. 
+(Rank II) Target can’t deal damage for 5 seconds 2 casts. 
+(Rank III) Target is blinded and can’t deal damage for 5 seconds 2 casts. 
 
 Tier II
 All spells in this tier cost Fortitude to use
 Mind Read
-(Rank I) (1) Allows the caster to read a target's intentions.
-(Rank II) (2) Allows caster to read a target's current thoughts.
-(Rank III) (3) Allows caster to read a target's recent memory and current thoughts.
+(Rank I) (1) Allows the caster to read a target’s intentions.
+(Rank II) (2) Allows caster to read a target’s current thoughts.
+(Rank III) (3) Allows caster to read a target’s recent memory and current thoughts.
 OR
 Amnesia
 (Rank I) (1) Makes target  forget the last 15 seconds. 
@@ -1304,9 +1304,9 @@ Sleep
 (Rank III) (3) Causes a calm target to sleep instantly, They can only be woken by receiving damage of 5 or more.
 OR
 Nightmere
-(Rank I) (1) Allows the player to place an image or occurrence into a target's dream.
-(Rank II) (2) Allows the player to fully manipulate a target's dream.
-(Rank III) (4) Allows the player to fully manipulate a target's dream and takes all effects in real life that take place in the dream.
+(Rank I) (1) Allows the player to place an image or occurrence into a target’s dream.
+(Rank II) (2) Allows the player to fully manipulate a target’s dream.
+(Rank III) (4) Allows the player to fully manipulate a target’s dream and takes all effects in real life that take place in the dream.
 
 Tier III
 All spells in this tier cost Fortitude to use
@@ -1329,7 +1329,7 @@ OR
 Gathering Pain
 (Rank I) (2) Allows the player to cause an immense amount of pain.
 (Rank II) (4) Allows the player to cause a target to frenzy, attacking the closest thing at all times for 15 seconds.
-(Rank III) (6) Allows the player to cause a target to frenzy, adding 1 to the target's base swing and attacking the closest thing at all times for 30 seconds.
+(Rank III) (6) Allows the player to cause a target to frenzy, adding 1 to the target’s base swing and attacking the closest thing at all times for 30 seconds.
 
 Aphasia
 Lasts until the end of the encounter or till the wizard dispels the effect.
@@ -1716,8 +1716,8 @@ Disguise
 (Rank III) Allows the player to perfectly resemble anyone for as long as they wish.
 
 Expose
-(Rank I) Allows the player to negate a target's DR for 5 seconds.
-(Rank II) Allows the player to negate a target's DR, DC and any active positive stat alterations for 5 seconds.
+(Rank I) Allows the player to negate a target’s DR for 5 seconds.
+(Rank II) Allows the player to negate a target’s DR, DC and any active positive stat alterations for 5 seconds.
 (Rank III) Allows the player to negate a target’s DR, DC and cancel all active positive stat alterations and silence them for the next 15 seconds.
 
 Vanish
@@ -2238,8 +2238,8 @@ Raises a newly killed being to aid the caster. Can only have one active at a tim
 Syphoning Strike
 Only affects base swing damage. This HP is non-replenishable. This spell is self stackable. This effect goes to a character.
 (Rank I) The target’s next attack heals them for the amount of damage dealt by their next successful attack.
-(Rank II) The target's next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
-(Rank III) The target's next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
+(Rank II) The target’s next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
+(Rank III) The target’s next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
 
 Death Shield
 Stops the effects of all potions, poisons, diseases, and interplanary invocation, of the respective rank, to the target, for the encounter or until the death of the caster.
@@ -2395,8 +2395,8 @@ Tier II
 All spells in this tier cost Fortitude to use
 Mind Read
 (Rank I) (1) Allows the caster to read a target’s intentions.
-(Rank II) (2) Allows caster to read a target's current thoughts.
-(Rank III) (3) Allows caster to read a target's recent memory and current thoughts.
+(Rank II) (2) Allows caster to read a target’s current thoughts.
+(Rank III) (3) Allows caster to read a target’s recent memory and current thoughts.
 OR
 Amnesia
 (Rank I) (1) Makes target  forget the last 15 seconds. 
@@ -2732,8 +2732,8 @@ Raises a newly killed being to aid the caster. Can only have one active at a tim
 Syphoning Strike
 Only affects base swing damage. This HP is non-replenishable. This spell is self stackable. This effect goes to a character.
 (Rank I) The target’s next attack heals them for the amount of damage dealt by their next successful attack.
-(Rank II) The target's next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
-(Rank III) The target's next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
+(Rank II) The target’s next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
+(Rank III) The target’s next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
 
 Death Shield
 Stops the effects of all potions, poisons, diseases, and interplanary invocation, of the respective rank, to the target, for the encounter or until the death of the caster.
@@ -2887,8 +2887,8 @@ Tier II
 All spells in this tier cost Fortitude to use
 Mind Read
 (Rank I) (1) Allows the caster to read a target’s intentions.
-(Rank II) (2) Allows caster to read a target's current thoughts.
-(Rank III) (3) Allows caster to read a target's recent memory and current thoughts.
+(Rank II) (2) Allows caster to read a target’s current thoughts.
+(Rank III) (3) Allows caster to read a target’s recent memory and current thoughts.
 OR
 Amnesia
 (Rank I) (1) Makes target  forget the last 15 seconds. 
@@ -3228,8 +3228,8 @@ Raises a newly killed being to aid the caster. Can only have one active at a tim
 Syphoning Strike
 Only affects base swing damage. This HP is non-replenishable. This spell is self stackable. This effect goes to a character.
 (Rank I) The target’s next attack heals them for the amount of damage dealt by their next successful attack.
-(Rank II) The target's next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
-(Rank III) The target's next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
+(Rank II) The target’s next attack gives the target temporary HP equal to the amount of damage dealt by their next successful attack.
+(Rank III) The target’s next attack gives the target temporary HP equal to twice the amount of damage dealt by their next successful attack.
 
 Death Shield
 Stops the effects of all potions, poisons, diseases, and interplanary invocation, of the respective rank, to the target, for the encounter or until the death of the caster.
@@ -3384,8 +3384,8 @@ Tier II
 All spells in this tier cost Fortitude to use
 Mind Read
 (Rank I) (1) Allows the caster to read a target’s intentions.
-(Rank II) (2) Allows caster to read a target's current thoughts.
-(Rank III) (3) Allows caster to read a target's recent memory and current thoughts.
+(Rank II) (2) Allows caster to read a target’s current thoughts.
+(Rank III) (3) Allows caster to read a target’s recent memory and current thoughts.
 OR
 Amnesia
 (Rank I) (1) Makes target  forget the last 15 seconds. 
@@ -3518,27 +3518,27 @@ AllTalentsKairoNeuro
 Modifiers
 Common - Adds no additional effect or modification to player.
 
-Half-breed - Has to be half human and half another playable kin. Starts with one attribute and has the potential to have one attribute from each race but can't obtain a third. Weight capacity is the average of the two races selected.
+Half-breed - Has to be half human and half another playable kin. Starts with one attribute and has the potential to have one attribute from each race but can’t obtain a third. Weight capacity is the average of the two races selected.
 
-Soul-splitter - The character has a medium sized crustacean permanently attached to the back of their neck that they share thoughts with. The player's kin attributes are significantly stronger. The player�s back cannot be covered by armor.
+Soul-splitter - The character has a medium sized crustacean permanently attached to the back of their neck that they share thoughts with. The player’s kin attributes are significantly stronger. The player’s back cannot be covered by armor.
 
 Spark of insanity - Can speak with their conscience and ask one question OPIGD, but are seen as insane. 
 
-Undead - Bound to a specific personal beacon. They will always revive for free to wherever the beacon is placed, but if they want to stay they must use an XP to remain with their current party. If the player is transported back they will leave everything on them at the place of their death. If the player dies in range of their beacon they can only XP out or make a deal with death. Can never be revived by/through miracles. The player�s beacon can be moved as long as a GM is aware and present. 20 seconds uninterrupted to place your beacon.
+Undead - Bound to a specific personal beacon. They will always revive for free to wherever the beacon is placed, but if they want to stay they must use an XP to remain with their current party. If the player is transported back they will leave everything on them at the place of their death. If the player dies in range of their beacon they can only XP out or make a deal with death. Can never be revived by/through miracles. The player's beacon can be moved as long as a GM is aware and present. 20 seconds uninterrupted to place your beacon.
 
-Vampiric - Must drink humanoid blood instead of resting. Can't be turned and can't turn others. Can't be cured.
+Vampiric - Must drink humanoid blood instead of resting. Can’t be turned and can’t turn others. Can’t be cured.
 
-Werewolf - Allows the player to invoke werewolf form; multiplying the player's health by three, giving them a damage reduction of 1, and automatically removing their armor. Player always has a weakness to silver and can�t rest after invocation until the player has fed. The invocation only lasts as long as a single encounter. Can�t be cured. (OPQ)
+Werewolf - Allows the player to invoke werewolf form; multiplying the player’s health by three, giving them a damage reduction of 1, and automatically removing their armor. Player always has a weakness to silver and can't rest after invocation until the player has fed. The invocation only lasts as long as a single encounter. Can't be cured. (OPQ)
 
 Bound weapon  - The player cannot be disarmed if they are only in possession of only one weapon but must always be in contact with at least one weapon. The only way they can not be in contact with a weapon is if they die and the weapon is taken from them. The next weapon they come into contact with restarts the effect.
 
-Naturalist - Can't use or eat anything animal. Animals will not attack them unless provoked.
+Naturalist - Can’t use or eat anything animal. Animals will not attack them unless provoked.
 
 Gaunt - Has -5 starting weight capacity but only has to eat once an event.
 
 Fast Metabolism - Eats 2x the food for +20% more weight capacity.
 
-Tough skin - You can't wear armor, but you start with 8 health and health cost never goes above 3.
+Tough skin - You can’t wear armor, but you start with 8 health and health cost never goes above 3.
 
 Flashback - Allows the player to perfectly remember a situation/area (can even ask GM for details) but player must sleep all three watches during a night.
 

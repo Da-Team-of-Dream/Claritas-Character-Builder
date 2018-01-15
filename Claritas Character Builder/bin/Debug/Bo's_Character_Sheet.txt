@@ -1,0 +1,30 @@
+﻿
+Player Name: Bo     Player Age: 14
+
+Character Name: Bo     Character Age: 14
+
+HP: 0     XP: 0     Copper: 85
+
+Kin: 
+Goblin
+
+Class: 
+Noble
+
+Modifier: 
+Bound Weapon
+
+Backgrounds: 
+Guard
+Cleanser
+
+Attributes: 
+Roll Away
+
+Talents Already Chosen:
+ Weapon Dexterity Throwing
+ Weapon Dexterity Exotic
+ Weapon Dexterity Shield
+ Weapon Dexterity Duelwielding
+
+Backstory: I was known as "The Cleansing Guard", layer of traps, slayer of bests, pwner of dirtiness...
